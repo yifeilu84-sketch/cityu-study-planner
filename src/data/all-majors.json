@@ -28621,5 +28621,781 @@
       "Students who go on exchange can exceptionally do core courses concurrently in Year 3 and Year 4.",
       "G-LEAP / LW4612 Legal Placement (3 CUs) can be taken in Summer of Year 2 or Year 3."
     ]
+  },
+  {
+    "code": "BSEE_INSPIRE-1",
+    "title": "International Sustainability Programme for Innovation, Research and Entrepreneurship (INSPIRE)",
+    "url": "https://www.cityu.edu.hk/en/see/programmes/undergraduate-programmes/flagship-programme---international-sustainability-programme-for-innovation",
+    "degree": "Bachelor of Engineering",
+    "totalCredits": 132,
+    "department": "School of Energy and Environment",
+    "college": "School of Energy and Environment",
+    "requirements": {
+      "gatewayEducation": {
+        "credits": 31,
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Distributional Requirements",
+            "credits": 12
+          },
+          {
+            "code": "CA1167",
+            "title": "Engineering Communication",
+            "credits": 3
+          },
+          {
+            "code": "SEE1003",
+            "title": "Introduction to Sustainable Energy and Environmental Engineering",
+            "credits": 3
+          },
+          {
+            "code": "SEE3002",
+            "title": "Energy and Environmental Economics",
+            "credits": 3
+          }
+        ]
+      },
+      "college": {
+        "credits": 18,
+        "courses": [
+          {
+            "code": "CHEM1200",
+            "title": "Discovery in Biology",
+            "credits": 3
+          },
+          {
+            "code": "CHEM1300",
+            "title": "Principles of General Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "MA1200",
+            "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+            "credits": 3
+          },
+          {
+            "code": "MA1201",
+            "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+            "credits": 3
+          },
+          {
+            "code": "PHY1201",
+            "title": "General Physics I",
+            "credits": 3
+          },
+          {
+            "code": "SEE1002",
+            "title": "Introduction to Computing for Energy and Environment",
+            "credits": 3
+          },
+          {
+            "code": "SEE1000",
+            "title": "Professional Development: Career Planning Workshop",
+            "credits": 0
+          },
+          {
+            "code": "SEE2000",
+            "title": "Professional Development I",
+            "credits": 0
+          },
+          {
+            "code": "SEE4000",
+            "title": "Professional Development II",
+            "credits": 0
+          }
+        ]
+      },
+      "majorCore": {
+        "credits": 83,
+        "courses": [],
+        "note": "Depends on ESE or EVE major selected after Year 1"
+      },
+      "majorElectives": {
+        "credits": 12,
+        "note": "Depends on ESE or EVE major"
+      },
+      "freeElectives": {
+        "credits": 0,
+        "note": "Integrated into major electives"
+      }
+    },
+    "allCourses": [
+      "MA1200",
+      "MA1300",
+      "CHEM1200",
+      "CHEM1300",
+      "SEE1003",
+      "GE1401",
+      "MA1201",
+      "MA1301",
+      "PHY1201",
+      "SEE1000",
+      "SEE1002",
+      "GE2410",
+      "GE1501",
+      "GE1601",
+      "GE-DR",
+      "CA1167",
+      "SEE3002",
+      "SEE2000",
+      "SEE4000",
+      "SEE2001",
+      "SEE2002",
+      "SEE2003",
+      "SEE2101",
+      "SEE2201",
+      "MA2181",
+      "SEE3101",
+      "SEE3102",
+      "SEE3103",
+      "SEE3104",
+      "SEE3001",
+      "SEE3003",
+      "SEE4112",
+      "SEE4217",
+      "SEE4216",
+      "SEE4004",
+      "SEE4003",
+      "SEE4997",
+      "SEE4996",
+      "SEE4993",
+      "SEE4994",
+      "SEE4995",
+      "SEE4998",
+      "SEE4999"
+    ],
+    "studyPlan": {
+      "year1": {
+        "semA": {
+          "courses": [
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "CHEM1200",
+              "title": "Discovery in Biology",
+              "credits": 3
+            },
+            {
+              "code": "CHEM1300",
+              "title": "Principles of General Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "SEE1003",
+              "title": "Introduction to Sustainable Energy and Environmental Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
+            }
+          ],
+          "credits": 18
+        },
+        "semB": {
+          "courses": [
+            {
+              "code": "MA1201",
+              "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+              "credits": 3
+            },
+            {
+              "code": "PHY1201",
+              "title": "General Physics I",
+              "credits": 3
+            },
+            {
+              "code": "SEE1000",
+              "title": "Professional Development: Career Planning Workshop",
+              "credits": 0
+            },
+            {
+              "code": "SEE1002",
+              "title": "Introduction to Computing for Energy and Environment",
+              "credits": 3
+            },
+            {
+              "code": "GE2410",
+              "title": "English for Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Courses (Distributional Requirements)",
+              "credits": 6
+            }
+          ],
+          "credits": 18
+        }
+      }
+    },
+    "streams": [
+      {
+        "code": "ESE",
+        "name": "Energy Science and Engineering Track",
+        "description": "Focus on energy engineering, power systems, and sustainable energy technologies. Accredited by HKIE. Total 132 CU.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2001",
+                  "title": "Electromagnetic Principles for Energy Engineers",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE3102",
+                  "title": "Power Plant Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3103",
+                  "title": "Energy Efficiency for Buildings",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3001",
+                  "title": "Energy and Environmental Policy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3104",
+                  "title": "Sustainable and Renewable Energy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE4003",
+                  "title": "Energy and Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4112",
+                  "title": "Sustainable Engineering Systems: Modelling and Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4216",
+                  "title": "Combustion and Air Pollution Control",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          }
+        }
+      },
+      {
+        "code": "EVE",
+        "name": "Environmental Science and Engineering Track",
+        "description": "Focus on environmental engineering, pollution control, and sustainability. Accredited by HKIE. Total 130 CU.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2203",
+                  "title": "Environmental, Safety, and Occupational Health Management",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2204",
+                  "title": "Principles of Sustainability",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM2004",
+                  "title": "Principles of Analytical Chemistry",
+                  "credits": 4
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4218",
+                  "title": "Water and Water Resource Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3203",
+                  "title": "Air Pollution",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4204",
+                  "title": "Environmental Systems Modelling",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE4002",
+                  "title": "Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4203",
+                  "title": "Advanced Treatment and Management of Solid and Municipal Waste",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          }
+        }
+      }
+    ],
+    "notes": [
+      "Admission Code: JS1050 / 1050. First cohort admitted in 2025/26.",
+      "Students are first admitted to SEE with an undeclared major and follow a common first-year curriculum.",
+      "At the end of Year 1, students freely choose between Energy Science and Engineering (ESE) and Environmental Science and Engineering (EVE) without selection criteria.",
+      "Highlighted Features: overseas placement / research opportunities, overseas exchange, mentorship programme, entrepreneurship training workshops.",
+      "Both ESE and EVE tracks are accredited by The Hong Kong Institution of Engineers (HKIE).",
+      "Students will benefit from specialized curriculum in energy, environment and sustainability, along with extensive training in global perspectives, innovative mindset and research.",
+      "Total credit units: 132 CU (ESE track) or 130 CU (EVE track).",
+      "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
+      "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE."
+    ]
   }
 ]
