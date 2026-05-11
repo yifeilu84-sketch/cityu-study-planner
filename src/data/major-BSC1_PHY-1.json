@@ -1,0 +1,1347 @@
+{
+  "code": "BSC1_PHY-1",
+  "title": "Bachelor of Science in Physics",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_PHY-1.htm",
+  "degree": "Bachelor of Science",
+  "totalCredits": 121,
+  "department": "Department of Physics",
+  "college": "College of Science",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 658,
+      "courses": [
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1101",
+          "title": "Introduction to Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1502",
+          "title": "Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": "All BScPHY major students are required to take this course to fulfill the College Requirement"
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1002",
+          "title": "Career Lab for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI2002",
+          "title": "Workshop on Research Methodology",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006A",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007A",
+          "title": "Principles of Organic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2509",
+          "title": "Discrete Mathematics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004A",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008A",
+          "title": "Principles of Physical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1101",
+          "title": "Introduction to Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1502",
+          "title": "Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": "All BScPHY major students are required to take this course to fulfill the College Requirement"
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1002",
+          "title": "Career Lab for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI2002",
+          "title": "Workshop on Research Methodology",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006A",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007A",
+          "title": "Principles of Organic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2509",
+          "title": "Discrete Mathematics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004A",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008A",
+          "title": "Principles of Physical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4216",
+          "title": "Project",
+          "credits": 3,
+          "remarks": "Students taking PHY4216 Project are required to take 3 more credits of elective course."
+        },
+        {
+          "code": "PHY4217",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4003",
+          "title": "Co-operative Education Placement Project for Science Students",
+          "credits": 6,
+          "remarks": "CSCI4003 Co-operative Education Placement Project for Science Students (6 CUs) can be used to replace PHY4217 Dissertation (6 CUs). Students taking CSCI4003 are required to take CSCI4001A simultaneously offered by the Co-operative Education Centre."
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2503",
+          "title": "Linear Algebra",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2508",
+          "title": "Multi-variable Calculus",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2100",
+          "title": "Mathematical Methods in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": "For students taking the Enhanced Option only"
+        },
+        {
+          "code": "PHY3116",
+          "title": "Physics of Biomolecules, Polymers, Colloids and Liquid Crystals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3220",
+          "title": "From Physics to Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4232",
+          "title": "Radiotherapy Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4233",
+          "title": "Imaging Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4254",
+          "title": "Fundamentals of Laser Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4273",
+          "title": "Special Topics in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4274",
+          "title": "Radiation Biophysics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4283",
+          "title": "Physics in Medicine",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4285",
+          "title": "Introduction to Scattering Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4218",
+          "title": "Independent Research I",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4219",
+          "title": "Independent Research II",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "MA2503",
+          "title": "Linear Algebra",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2508",
+          "title": "Multi-variable Calculus",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4218",
+          "title": "Independent Research I",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4219",
+          "title": "Independent Research II",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4007",
+          "title": "Patent Application and Technopreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2100",
+          "title": "Mathematical Methods in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3116",
+          "title": "Physics of Biomolecules, Polymers, Colloids and Liquid Crystals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3220",
+          "title": "From Physics to Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4232",
+          "title": "Radiotherapy Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4233",
+          "title": "Imaging Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4254",
+          "title": "Fundamentals of Laser Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4273",
+          "title": "Special Topics in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4274",
+          "title": "Radiation Biophysics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4283",
+          "title": "Physics in Medicine",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4285",
+          "title": "Introduction to Scattering Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4216",
+          "title": "Project",
+          "credits": 3,
+          "remarks": "Students taking PHY4216 Project are required to take 3 more credits of elective course."
+        },
+        {
+          "code": "PHY4217",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4003",
+          "title": "Co-operative Education Placement Project for Science Students",
+          "credits": 6,
+          "remarks": "CSCI4003 Co-operative Education Placement Project for Science Students (6 CUs) can be used to replace PHY4217 Dissertation (6 CUs). Students taking CSCI4003 are required to take CSCI4001A simultaneously offered by the Co-operative Education Centre."
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2503",
+          "title": "Linear Algebra",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2508",
+          "title": "Multi-variable Calculus",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2100",
+          "title": "Mathematical Methods in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": "For students taking the Enhanced Option only"
+        },
+        {
+          "code": "PHY3116",
+          "title": "Physics of Biomolecules, Polymers, Colloids and Liquid Crystals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3220",
+          "title": "From Physics to Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4232",
+          "title": "Radiotherapy Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4233",
+          "title": "Imaging Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4254",
+          "title": "Fundamentals of Laser Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4273",
+          "title": "Special Topics in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4274",
+          "title": "Radiation Biophysics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4283",
+          "title": "Physics in Medicine",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4285",
+          "title": "Introduction to Scattering Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4218",
+          "title": "Independent Research I",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4219",
+          "title": "Independent Research II",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "MA2503",
+          "title": "Linear Algebra",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2508",
+          "title": "Multi-variable Calculus",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2191",
+          "title": "Electricity and Magnetism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2212",
+          "title": "Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3115",
+          "title": "Introduction to Computational Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3202",
+          "title": "Modern Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3204",
+          "title": "Waves and Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3205",
+          "title": "Electrodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3251",
+          "title": "Quantum Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3272",
+          "title": "Introduction to Solid State Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3290",
+          "title": "Thermodynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4172",
+          "title": "Computational Physics and Machine Learning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4218",
+          "title": "Independent Research I",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4219",
+          "title": "Independent Research II",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4007",
+          "title": "Patent Application and Technopreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2100",
+          "title": "Mathematical Methods in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY2213",
+          "title": "Advanced Measurement and Instrumentation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3116",
+          "title": "Physics of Biomolecules, Polymers, Colloids and Liquid Crystals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3220",
+          "title": "From Physics to Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY3231",
+          "title": "Advanced Instrumentation Lab",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4232",
+          "title": "Radiotherapy Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4233",
+          "title": "Imaging Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4254",
+          "title": "Fundamentals of Laser Optics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4273",
+          "title": "Special Topics in Physics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4274",
+          "title": "Radiation Biophysics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4283",
+          "title": "Physics in Medicine",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY4285",
+          "title": "Introduction to Scattering Sciences",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CHEM1200",
+    "CHEM1101",
+    "CHEM1300",
+    "MA1501",
+    "MA1502",
+    "PHY1101",
+    "PHY1201",
+    "CSCI1001",
+    "CSCI1002",
+    "CSCI2002",
+    "CHEM2006A",
+    "CHEM2007A",
+    "MA2509",
+    "PHY1202",
+    "CHEM2004A",
+    "CHEM2008A",
+    "PHY1203",
+    "PHY2191",
+    "PHY2212",
+    "PHY2213",
+    "PHY3202",
+    "PHY3204",
+    "PHY3205",
+    "PHY3231",
+    "PHY3251",
+    "PHY3272",
+    "PHY3290",
+    "PHY4216",
+    "PHY4217",
+    "CSCI4003",
+    "PHY3115",
+    "MA2158",
+    "MA2503",
+    "MA2508",
+    "MA3511",
+    "CSCI3001",
+    "MSE2102",
+    "PHY2100",
+    "PHY3116",
+    "PHY3220",
+    "PHY4172",
+    "PHY4232",
+    "PHY4233",
+    "PHY4254",
+    "PHY4273",
+    "PHY4274",
+    "PHY4283",
+    "PHY4285",
+    "MGT2324",
+    "PHY4218",
+    "PHY4219",
+    "CSCI4007",
+    "MGT4305"
+  ]
+}

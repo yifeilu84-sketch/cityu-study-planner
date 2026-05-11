@@ -1,0 +1,801 @@
+{
+  "code": "BA1_TVB-1",
+  "title": "Bachelor of Arts in Digital Television and Broadcasting",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
+  "degree": "Bachelor of Arts",
+  "totalCredits": 121,
+  "department": "Department of Media and Communication",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 354,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2105",
+          "title": "Visual Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2118",
+          "title": "Media and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2116",
+          "title": "Audience Analytics and Media Strategies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2202",
+          "title": "Writing for the Media",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT2306 in the second major, (ii) BALLA / BATI students in TVB major (second major), who have taken LT2306, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT2306 in the home major."
+        },
+        {
+          "code": "COM2303",
+          "title": "Video Production and Editing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3115",
+          "title": "Communication Law and Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3119",
+          "title": "International Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3209",
+          "title": "Digital Photojournalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3508",
+          "title": "Emerging Technologies in Multimodal Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4305",
+          "title": "Current Affairs Documentary Production",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4306",
+          "title": "Video News Reporting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4307",
+          "title": "Video News Production and Anchoring",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4308",
+          "title": "Convergent Newsroom Practicum",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3203",
+          "title": "Data Journalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4309",
+          "title": "Radio News Production",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2120",
+          "title": "Health Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2201",
+          "title": "News Writing and Reporting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2401",
+          "title": "Fundamentals of Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2402",
+          "title": "Principles of Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2407",
+          "title": "Integrated Marketing Communication Principles and Practices",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2501",
+          "title": "Internet Communication",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3210 in second major,  (ii) BALLA / BATI students in TVB major (second major), who have taken LT3210, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3210 in the home major."
+        },
+        {
+          "code": "COM2509",
+          "title": "Interactive Digital Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3211",
+          "title": "Business Journalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3406",
+          "title": "Strategic Media Planning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3408",
+          "title": "Integrated Strategic Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3411",
+          "title": "Interactive Advertising",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3399 in second major, (ii) BALLA / BATI students in TVB major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3399 in the home major."
+        },
+        {
+          "code": "COM3412",
+          "title": "Advertising Production Design",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3413",
+          "title": "Writing for Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3507",
+          "title": "Digital Art and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3511",
+          "title": "AI and Strategic Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4114",
+          "title": "Crisis Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4204",
+          "title": "News Feature Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4403",
+          "title": "Communication Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4414",
+          "title": "Broadcast Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4504",
+          "title": "Communication Design",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4510",
+          "title": "Generative AI for Multimedia Authoring",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4603",
+          "title": "Professional Communication Internship",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3199 in second major, (ii) BALLA / BATI students in TVB major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3199 in the home major."
+        },
+        {
+          "code": "COM4604",
+          "title": "Communication Practicum",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM5104",
+          "title": "Research Methods for Communication and New Media",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "COM5108",
+          "title": "Psychological Processing of New Media",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "COM5503",
+          "title": "Dynamic Web Communication",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "LT5406",
+          "title": "Psycholinguistics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "LT5407",
+          "title": "Research Methodology for Applied Linguistics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "LT5432",
+          "title": "Lexical Semantics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4628",
+          "title": "Digital Marketing Strategy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT5610",
+          "title": "Marketing Strategy and Planning",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "MKT5643",
+          "title": "Global Marketing",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "MKT5648",
+          "title": "Social Media Marketing",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "SM4125",
+          "title": "Computer Animation for Interactive Content",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SM5303",
+          "title": "Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        },
+        {
+          "code": "SM5325",
+          "title": "Introduction to Media and Cultural Studies",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        },
+        {
+          "code": "SM5336",
+          "title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        },
+        {
+          "code": "COM2105",
+          "title": "Visual Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2118",
+          "title": "Media and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2116",
+          "title": "Audience Analytics and Media Strategies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2202",
+          "title": "Writing for the Media",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT2306 in the second major, (ii) BALLA / BATI students in TVB major (second major), who have taken LT2306, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT2306 in the home major."
+        },
+        {
+          "code": "COM2303",
+          "title": "Video Production and Editing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3115",
+          "title": "Communication Law and Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3119",
+          "title": "International Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3209",
+          "title": "Digital Photojournalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3508",
+          "title": "Emerging Technologies in Multimodal Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4305",
+          "title": "Current Affairs Documentary Production",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4306",
+          "title": "Video News Reporting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4307",
+          "title": "Video News Production and Anchoring",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4308",
+          "title": "Convergent Newsroom Practicum",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3203",
+          "title": "Data Journalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4309",
+          "title": "Radio News Production",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2120",
+          "title": "Health Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2201",
+          "title": "News Writing and Reporting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2401",
+          "title": "Fundamentals of Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2402",
+          "title": "Principles of Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2407",
+          "title": "Integrated Marketing Communication Principles and Practices",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM2501",
+          "title": "Internet Communication",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3210 in second major,  (ii) BALLA / BATI students in TVB major (second major), who have taken LT3210, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3210 in the home major."
+        },
+        {
+          "code": "COM2509",
+          "title": "Interactive Digital Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3211",
+          "title": "Business Journalism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3406",
+          "title": "Strategic Media Planning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3408",
+          "title": "Integrated Strategic Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3411",
+          "title": "Interactive Advertising",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3399 in second major, (ii) BALLA / BATI students in TVB major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3399 in the home major."
+        },
+        {
+          "code": "COM3412",
+          "title": "Advertising Production Design",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3413",
+          "title": "Writing for Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3507",
+          "title": "Digital Art and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM3511",
+          "title": "AI and Strategic Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4114",
+          "title": "Crisis Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4204",
+          "title": "News Feature Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4403",
+          "title": "Communication Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4414",
+          "title": "Broadcast Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4504",
+          "title": "Communication Design",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4510",
+          "title": "Generative AI for Multimedia Authoring",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM4603",
+          "title": "Professional Communication Internship",
+          "credits": 3,
+          "remarks": "For students admitted to double major (BATVB + LLA / TI) only: (i) this course can be double counted to fulfil LT3199 in second major, (ii) BALLA / BATI students in TVB major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3199 in the home major."
+        },
+        {
+          "code": "COM4604",
+          "title": "Communication Practicum",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM5104",
+          "title": "Research Methods for Communication and New Media",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "COM5108",
+          "title": "Psychological Processing of New Media",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "COM5503",
+          "title": "Dynamic Web Communication",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACNM) / (BATVB + MAIMC) only."
+        },
+        {
+          "code": "LT5406",
+          "title": "Psycholinguistics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "LT5407",
+          "title": "Research Methodology for Applied Linguistics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "LT5432",
+          "title": "Lexical Semantics",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MALS) only."
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4628",
+          "title": "Digital Marketing Strategy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT5610",
+          "title": "Marketing Strategy and Planning",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "MKT5643",
+          "title": "Global Marketing",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "MKT5648",
+          "title": "Social Media Marketing",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MScMKT) only."
+        },
+        {
+          "code": "SM4125",
+          "title": "Computer Animation for Interactive Content",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SM5303",
+          "title": "Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        },
+        {
+          "code": "SM5325",
+          "title": "Introduction to Media and Cultural Studies",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        },
+        {
+          "code": "SM5336",
+          "title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
+          "credits": 3,
+          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BATVB + MACM) only."
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "COM2105",
+    "COM2118",
+    "COM2116",
+    "COM2202",
+    "COM2303",
+    "COM3115",
+    "COM3119",
+    "COM3209",
+    "COM3508",
+    "COM4305",
+    "COM4306",
+    "COM4307",
+    "COM4308",
+    "COM3203",
+    "COM4309",
+    "COM2120",
+    "COM2201",
+    "COM2401",
+    "COM2402",
+    "COM2407",
+    "COM2501",
+    "COM2509",
+    "COM3211",
+    "COM3406",
+    "COM3408",
+    "COM3411",
+    "COM3412",
+    "COM3413",
+    "COM3507",
+    "COM3511",
+    "COM4114",
+    "COM4204",
+    "COM4403",
+    "COM4414",
+    "COM4504",
+    "COM4510",
+    "COM4603",
+    "COM4604",
+    "COM5104",
+    "COM5108",
+    "COM5503",
+    "LT5406",
+    "LT5407",
+    "LT5432",
+    "MGT2324",
+    "MKT4628",
+    "MKT5610",
+    "MKT5643",
+    "MKT5648",
+    "SM4125",
+    "SM5303",
+    "SM5325",
+    "SM5336"
+  ]
+}

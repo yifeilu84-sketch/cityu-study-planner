@@ -1,0 +1,450 @@
+{
+  "code": "BENG1_IEEG-1",
+  "title": "Bachelor of Engineering in Innovation and Enterprise Engineering",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_IEEG-1.htm",
+  "degree": "Bachelor of Engineering",
+  "totalCredits": 121,
+  "department": "Department of Systems Engineering",
+  "college": "College of Engineering",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 204,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE1001",
+          "title": "Introduction of Engineering Disciplines",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CS2402",
+          "title": "Introduction to Computational Probability Modeling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2304",
+          "title": "Foundations of Innovation and Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS2003",
+          "title": "Introduction to Intellectual Property",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE2046",
+          "title": "Numerical Computation for Manufacturing and Systems Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS3002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
+        },
+        {
+          "code": "SYE3060",
+          "title": "Operations Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4024",
+          "title": "Project Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4047",
+          "title": "Directed Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4108",
+          "title": "Product Development and Innovation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE1138",
+          "title": "Exploring Hong Kong: History, Culture and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE1337",
+          "title": "Urban Green City: Pollution and Solution",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2213",
+          "title": "Understanding Uncertainty and Statistical Reasoning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2223",
+          "title": "Interpersonal Skills and Positive Personal Development",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2226",
+          "title": "Ageing Society: Hong Kong and Beyond",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2230",
+          "title": "Innovation and Entrepreneurship in Global Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2234",
+          "title": "Social Networks for Media, Business and Technological Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE3004",
+          "title": "Production Planning and Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4192",
+          "title": "Sustainable Urbanism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4457",
+          "title": "Infrastructure Asset Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4001",
+          "title": "Digital Manufacturing and Operations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4005",
+          "title": "Industrial Data and Manufacturing Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4007",
+          "title": "eLogistics and Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4008",
+          "title": "Computer-Aided Problem Solving for Manufacturing and Systems Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4068",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4068C",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4116",
+          "title": "Capstone Project II",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE1001",
+          "title": "Introduction of Engineering Disciplines",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CS2402",
+          "title": "Introduction to Computational Probability Modeling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2304",
+          "title": "Foundations of Innovation and Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS2003",
+          "title": "Introduction to Intellectual Property",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE2046",
+          "title": "Numerical Computation for Manufacturing and Systems Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS3002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
+        },
+        {
+          "code": "SYE3060",
+          "title": "Operations Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4024",
+          "title": "Project Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4047",
+          "title": "Directed Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4108",
+          "title": "Product Development and Innovation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE1138",
+          "title": "Exploring Hong Kong: History, Culture and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE1337",
+          "title": "Urban Green City: Pollution and Solution",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2213",
+          "title": "Understanding Uncertainty and Statistical Reasoning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2223",
+          "title": "Interpersonal Skills and Positive Personal Development",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2226",
+          "title": "Ageing Society: Hong Kong and Beyond",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2230",
+          "title": "Innovation and Entrepreneurship in Global Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "GE2234",
+          "title": "Social Networks for Media, Business and Technological Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE3004",
+          "title": "Production Planning and Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4192",
+          "title": "Sustainable Urbanism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4457",
+          "title": "Infrastructure Asset Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4001",
+          "title": "Digital Manufacturing and Operations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4005",
+          "title": "Industrial Data and Manufacturing Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4007",
+          "title": "eLogistics and Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4008",
+          "title": "Computer-Aided Problem Solving for Manufacturing and Systems Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4068",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4068C",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4116",
+          "title": "Capstone Project II",
+          "credits": 6,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CS1302",
+    "PHY1201",
+    "SYE1001",
+    "CS2402",
+    "GE2304",
+    "FS2003",
+    "SYE2046",
+    "FS3002",
+    "SYE3060",
+    "SYE4024",
+    "SYE4047",
+    "SYE4108",
+    "GE1138",
+    "GE1337",
+    "GE2213",
+    "GE2223",
+    "GE2226",
+    "GE2230",
+    "GE2234",
+    "MGT2324",
+    "SYE3004",
+    "CA4192",
+    "CA4457",
+    "FS4002",
+    "MGT4305",
+    "SYE4001",
+    "SYE4005",
+    "SYE4007",
+    "SYE4008",
+    "SYE4068",
+    "SYE4068C",
+    "SYE4116"
+  ]
+}

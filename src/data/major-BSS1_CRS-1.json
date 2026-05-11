@@ -1,0 +1,463 @@
+{
+  "code": "BSS1_CRS-1",
+  "title": "Bachelor of Social Sciences in Crime Science",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRS-1.htm",
+  "degree": "Bachelor of Social",
+  "totalCredits": 121,
+  "department": "Department of Social and Behavioural Sciences",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 204,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2025",
+          "title": "Crime and Deviance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2034",
+          "title": "Research Methods in Social Sciences: Quantitative and Qualitative Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2029",
+          "title": "Basic Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2030",
+          "title": "Introduction to Crime Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2709",
+          "title": "Methods of Criminological Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3119",
+          "title": "Penology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3120",
+          "title": "Policing and Crime Prevention",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4207",
+          "title": "Working with Young People and Offenders",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4296",
+          "title": "Criminology Capstone Research Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SS4300",
+          "title": "Advanced Criminological Theory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4572",
+          "title": "Future Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4718",
+          "title": "Forensic Criminology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3302",
+          "title": "Professional Internship in Applied Criminology and Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3423",
+          "title": "Advanced Applied Quantitative Research Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3428",
+          "title": "Advanced Applied Qualitative Research Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3503",
+          "title": "Crime, Deviance and Anti-social Behaviour in Cyberspace",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3505",
+          "title": "Green Criminology: Crimes against the Environment and Wildlife",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4116",
+          "title": "Crime, Social Order and Policing in Contemporary China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4217",
+          "title": "Conflict Management and Mediation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4302",
+          "title": "Organized Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4305",
+          "title": "Gender and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4570",
+          "title": "Sociology of Marriage and Intimate Relationships",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4571",
+          "title": "Digital Sociology and Big Data Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "Offered by CityUHK Academy of Innovation"
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2025",
+          "title": "Crime and Deviance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2034",
+          "title": "Research Methods in Social Sciences: Quantitative and Qualitative Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2029",
+          "title": "Basic Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2030",
+          "title": "Introduction to Crime Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2709",
+          "title": "Methods of Criminological Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3119",
+          "title": "Penology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3120",
+          "title": "Policing and Crime Prevention",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4207",
+          "title": "Working with Young People and Offenders",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4296",
+          "title": "Criminology Capstone Research Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SS4300",
+          "title": "Advanced Criminological Theory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4572",
+          "title": "Future Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4718",
+          "title": "Forensic Criminology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3302",
+          "title": "Professional Internship in Applied Criminology and Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3423",
+          "title": "Advanced Applied Quantitative Research Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3428",
+          "title": "Advanced Applied Qualitative Research Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3503",
+          "title": "Crime, Deviance and Anti-social Behaviour in Cyberspace",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3505",
+          "title": "Green Criminology: Crimes against the Environment and Wildlife",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4116",
+          "title": "Crime, Social Order and Policing in Contemporary China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4217",
+          "title": "Conflict Management and Mediation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4302",
+          "title": "Organized Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4305",
+          "title": "Gender and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4570",
+          "title": "Sociology of Marriage and Intimate Relationships",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4571",
+          "title": "Digital Sociology and Big Data Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "Offered by CityUHK Academy of Innovation"
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "SS1011",
+    "SS1101",
+    "SS1024",
+    "SS2025",
+    "SS2034",
+    "SS2029",
+    "SS2030",
+    "SS2709",
+    "SS3119",
+    "SS3120",
+    "SS4207",
+    "SS4296",
+    "SS4300",
+    "SS4572",
+    "SS4718",
+    "SS3302",
+    "SS3423",
+    "SS3428",
+    "SS3503",
+    "SS3505",
+    "SS4116",
+    "SS4217",
+    "SS4302",
+    "SS4305",
+    "SS4570",
+    "SS4571",
+    "CAI4001"
+  ]
+}

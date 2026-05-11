@@ -1,0 +1,893 @@
+
+
+-- 1 of 24 --
+
+(Please note that the information given in this Handbook is accurate at the time of printing in
+September 2025. Changes to the information may be made from time to time without prior
+notification.)
+For further information, please contact:
+Department of Data Science
+Room 16-201, 16/F
+Lau Ming Wai Academic Building
+City University of Hong Kong
+83 Tat Chee Avenue
+Kowloon Tong, Hong Kong
+Tel: 	(852) 3442 7887
+Email: 	ds.go@cityu.edu.hk
+Website: 	www.cityu.edu.hk/ds
+
+-- 2 of 24 --
+
+- 1 - (Sep 2025)
+BACHELOR OF SCIENCE IN
+DATA SCIENCE
+(BSC DS)
+Student Handbook (2025-2026)
+Contents 	Page
+1 	AIMS OF MAJOR ........................................................................................................................................................ 2
+2 	DEGREE REQUIREMENT .......................................................................................................................................... 3
+2.1 	Minimum Number of Credit Units Required for the Award .......................................................................................... 3
+2.2 	Gateway Education........................................................................................................................................................ 4
+2.3 	English Language Requirement .....................................................................................................................................5
+2.4 	Chinese Language Requirement .................................................................................................................................... 5
+2.5 	College/School Requirement ......................................................................................................................................... 5
+2.6 	Major Requirement........................................................................................................................................................ 5
+2.6.1 	Core Courses ................................................................................................................................................................. 6
+2.6.2 	Electives ........................................................................................................................................................................ 7
+2.6.3 	Optional Electives for all normative 4-year degree and Advanced Standing I .............................................................. 9
+2.7 	Assessment Policy ......................................................................................................................................................... 9
+2.8 	Classification of Award ............................................................................................................................................... 10
+2.9 	Bonus Features ............................................................................................................................................................ 10
+3 	ACADEMIC REGULATIONS AND GUIDELINES ................................................................................................. 10
+4 	ACADEMIC HONESTY ............................................................................................................................................ 10
+5 	STUDENT CONDUCT............................................................................................................................................... 11
+6 	STUDENT DEVELOPMENT SERVICES (SDS) ...................................................................................................... 11
+7 	COMMUNICATIONS ................................................................................................................................................ 11
+8 	PROGRAMME LEADERS ........................................................................................................................................ 11
+9 	INFORMATION TO NEW STUDENTS .................................................................................................................... 12
+9.1 	How to access your Personal Class Schedule .............................................................................................................. 12
+9.2 	How to get Instructors’ handouts through Canvas ....................................................................................................... 12
+9.3 	How to check Major Programme Requirement and Course Syllabi............................................................................. 12
+9.4 	Course Registration for Semester A 2025-26 .............................................................................................................. 12
+9.5 	How to access your Student Email Account ................................................................................................................ 13
+9.6 	Credit Transfer / Course Exemption ............................................................................................................................ 13
+9.7 	Administrative Support from General Office .............................................................................................................. 13
+Appendix I : Model Study Path .............................................................................................................................................. 14
+Model Study Path for BSc in Data Science 2025/26 (normative 4-year) ................................................................................ 15
+Model Study Path for BSc in Data Science 2025/26 (Advanced Standing I) .......................................................................... 16
+Model Study Path for BSc in Data Science 2025/26 (Advanced Standing II) ......................................................................... 17
+
+-- 3 of 24 --
+
+- 2 - (Sep 2025)
+1 	AIMS OF MAJOR
+This major is to provide graduates in data science with essential training of quantitative knowledge,
+statistical theory, machine learning technology for the effective use and analysis of big and
+complex data for real-world applications. The primal goal of this data science major is to train a
+generation of students who are equally versed in data processing, data analysis, predictive
+modeling, and computational techniques and enable them the skills for the challenges in future
+that involve making sense of complex data to realize planning and decision making. The major
+offers a suite of courses and programs to equip and empower students of quantitative background
+to become professionals and practitioners of rigorous, actionable, and ethical data science. To this
+end, besides providing rigorous education about data science models and methods, the major also
+emphasizes the interdisciplinary training and the expertise of particular subject domains as well as
+communication skills and ethical awareness.
+Intended Learning Outcomes of Major (MILOs)
+Upon successful completion of this Major, a BSc DS graduate should be able to:
+1. 	Integrate the theories and principles of mathematical, statistical, computing foundations
+for the data science;
+2. 	Gain computing expertise with data collection, data analysing, data visualization,
+statistical analysis and machine learning.
+3. 	Build skills and intelligence of organizing and analysing data with a level of flexibility
+within different application modules.
+4. 	Use a variety of software packages to conduct data curation, modeling, computation and
+inference and draw conclusions and actionable insights.
+5. 	Create and formulate the data-driven models in practice; master the spectrum of the data
+science life cycle and the connection to specific domain knowledge and business
+models.
+6. 	Acquire work related experience and effective communication skills necessary to work
+within a team in an international and culturally diverse workplace.
+7. 	Recognize the social responsibility and ethic awareness for the development of the data-
+driven technologies in the modern era of big data.
+
+-- 4 of 24 --
+
+- 3 - (Sep 2025)
+2 	DEGREE REQUIREMENT
+2.1 	Minimum Number of Credit Units Required for the Award
+Degree Requirements 	Normative
+4-year Degree
+(DELTA
+stream)
+Normative
+4-year Degree
+Advanced
+Standing I
+Advanced
+Standing II
+(Senior-year
+Entry)
+Gateway Education
+requirement * 31 credit units 	31 credit units 	22 credit units 	12 credit units
+College/School requirement * 	8 credit units 	8 credit units 	N/A 	N/A
+Major requirement
+67 credit units
+(Core: 52
+Elective: 15)
+64 credit units
+(Core: 43
+Elective: 21)
+53 credit units
+(Core: 41
+Elective: 12)
+50 credit units
+(Core: 38
+Elective: 12)
+Free electives / Minor
+(optional) 15 credit units 	18 credit units 	18 credit units 	N/A
+Minimum number of credit
+units required for the award 121 credit units 	121 credit units 	93 credit units 	62 credit units
+Maximum number of credit
+units permitted 144 credit units 	144 credit units 	114 credit units 	84 credit units
+Normal and Maximum Period of Study
+Normative
+4-year Degree
+(DELTA
+stream)
+Normative
+4-year Degree
+Advanced
+Standing I
+(Note 1)
+Advanced
+Standing II
+(Senior-year
+Entry)
+(Note 2)
+Normal period of study 	4 years 	4 years 	3 years 	2 years
+Maximum period of study 	8 years 	8 years 	6 years 	5 years
+Note 1: For students with recognised Advanced Level Examinations or equivalent qualifications.
+Note 2: For Associate Degree/Higher Diploma graduates admitted to the senior year.
+
+-- 5 of 24 --
+
+- 4 - (Sep 2025)
+2.2 	Gateway Education
+(Please refer to https://www.cityu.edu.hk/edge/ge)
+Requirements 	Normative
+4-year
+Degree
+Advanced
+Standing I
+(Note 1)
+Advanced
+Standing II
+(Senior-year Entry)
+(Note 2)
+University requirements
+English
+• GE1401 University English 	3 credit units 	3 credit units 	Not a compulsory
+requirement
+• Discipline-specific English 	3 credit units 	3 credit units 	3 credit units
+GE1501 Chinese Civilisation –
+History and Philosophy
+3 credit units 	3 credit units 	Not a compulsory
+requirement
+GE1601 Whole-Person Development 	1 credit unit 	1 credit unit 	Not a compulsory
+requirement
+Distributional
+requirements
+Area 1: Arts and
+Humanities
+Area 2: Study of Societies, Social and
+Business Organisations
+Area 3: Science and Technology
+12 credit units
+(At least one
+course from each
+of the three areas)
+6 credit units
+(From two
+different areas)
+3 credit units
+College/School-specified courses ^ 	9 credit units 	6 credit units 	6 credit units
+Total 	31 credit units 	22 credit units 	12 credit units
+Note 1: For students with recognised Advanced Level Examination or equivalent qualifications.
+Note 2: For Associate Degree/Higher Diploma graduates admitted to the senior year.
+^College/School-specified courses for fulfilling the Gateway Education requirement
+Course Code 	Course Title 	Level 	Credit
+Units
+Remarks
+Normative 4-year Degree
+CS1315 	Introduction to Computer Programming 	B1 	3
+SDSC2003 	Human Contexts and Ethics in Data
+Science
+B2 	3
+CS3402 	Database Systems 	B3 	3
+Advanced Standing I and Advanced Standing II (Senior-year Entry)
+CS3402 	Database Systems 	B3 	3
+Choose any ONE of the following list:
+GE2313 	Global IT Case Studies 	B2 	3
+GE2324 	The Art and Science of Data 	B2 	3
+GE2338 	Everyday Security - Protecting Yourself in
+the Digital Age
+B2 	3
+GE2340 	Artificial Intelligence - Past, Present, and
+Future
+B2 	3
+CB2100 	Introduction to Financial Accounting 	B2 	3
+CB2300 	Management 	B2 	3
+CB2500 	Information Management 	B2 	3
+CB2601 	Marketing 	B2 	3
+
+-- 6 of 24 --
+
+- 5 - (Sep 2025)
+2.3 	English Language Requirement
+Normative 4-year degree students and Advanced Standing I students who passed the 6 credit units
+of specified GE English courses, and Advanced Standing II students who passed the 3 credit units
+of discipline-specific GE English course are recognized as fulfilling the University’s English
+Language Requirement.
+Students scoring below Level 4 in HKDSE English Language or Grade D in HKALE AS-level
+Use of English or students who do not possess an equivalent qualification are required to complete
+two 3-credit unit courses, EL0200A English for Academic Purposes 1 and EL0200B English for
+Academic Purposes 2, prior to taking the GE English courses. Students who demonstrate that they
+have achieved a grade B or above in their overall course results for EL0200A will achieve 3 credits
+and also be considered to have satisfied the pre-requisite for entry to the GE English courses
+without needing to take EL0200B. The credit units of EL0200A and EL0200B will not be counted
+towards the minimum credit units required for graduation and will not be included in the
+calculation of the cumulative grade point average (CGPA). However, they will be counted towards
+the maximum credit units permitted.
+2.4 	Chinese Language Requirement
+Students scoring below Level 4 in HKDSE Chinese Language, or below Grade D in HKALE AS-
+level Chinese Language and Culture will be required to complete a 3-credit unit course CHIN1001
+University Chinese I. The 3 credit units will not be counted towards the minimum credit units
+required for graduation and will not be included in the calculation of the cumulative grade point
+average (CGPA). However, they will be counted towards the maximum credit units permitted.
+In addition to the above requirement, Colleges/Schools also have the discretion to specify other Chinese
+language courses for their students, including students who do not possess the above qualifications
+(Senate/70/MM27-28 refers). Please indicate if there are such requirements.
+2.5 	College/School Requirement
+(The catalogue term of the College/School requirement that students will follow will be the same as their admission term.)
+Course Code 	Course Title 	Level 	Credit
+Units
+Remarks
+Normative 4-year Degree (8 credit units)
+MA1503 	Linear Algebra with Applications 	B1 	4
+MA1508 	Calculus 	B1 	4
+Advanced Standing I (0 credit unit)
+College Requirement waived.
+Advanced Standing II (Senior-year Entry) (0 credit unit)
+College Requirement waived.
+
+-- 7 of 24 --
+
+- 6 - (Sep 2025)
+2.6 	Major Requirement
+2.6.1 	Core Courses
+• 	Normative 4-year Degree (DELTA stream): 52 credit units
+• 	Normative 4-year Degree: 43 credit units
+• 	Advanced Standing I: 41 credit units
+• 	Advanced Standing II: 38 credit units
+Course
+Code
+Course Title 	Level 	Credit
+Units
+Remarks
+SDSC1001 	Introduction to Data Science 	B1 	2 	Waived for students
+admitted into ASI and ASII
+MA2508 	Multi-variable Calculus 	B2 	4
+MA2510 	Probability and Statistics 	B2 	3 	Waived for students
+admitted into ASII
+SDSC2001 	Python for Data Science 	B2 	4
+SDSC2002 	Convex Optimization 	B2 	3
+SDSC2004 	Data Visualization 	B2 	3
+SDSC2005 	Introduction to Computational Social
+Science
+B2 	3
+SDSC2102 	Statistical Methods and Data Analysis 	B2 	3
+CS2334 	Data Structures for Data Science 	B2 	3
+CS3273 	Data Protection and System Security 	B3 	3
+SDSC3001 	Big Data: The Arts and Science of
+Scaling
+B3 	3 	DELTA stream only
+SDSC3006 	Fundamentals of Machine Learning I 	B3 	3
+SDSC3007 	Advanced Statistics 	B3 	3
+SDSC3025 	Internship for DELTA 	B3 	3 	DELTA stream only
+SDSC3026 International Professional
+Development B3 	3 	DELTA stream only
+SDSC4116 	Data Science Capstone 	B4 	6
+
+-- 8 of 24 --
+
+- 7 - (Sep 2025)
+2.6.2 	Electives for all normative 4-year degree, ASI and ASII students
+Students may choose available elective courses from any modules for specialization.
+• 	Normative 4-year Degree (DELTA stream): 15 credit units
+• 	Normative 4-year Degree: 21 credit units
+• 	Advanced Standing I and II: 12 credit units
+(Must earn at least 12 credit units from B4 level courses)
+Course
+Code
+Course Title 	Level 	Credit
+Units
+Area(s) 	Remarks
+GE2339 	Smart City – a Systems
+Engineering Perspective
+B2 	3 	Artificial
+Intelligence
+IS2505 	e-Business 	B2 	3 	General
+CS3201 	Computer Networks 	B3 	3 	General
+CS3342 	Software Design 	B3 	3 	General
+CS3343 	Software Engineering Practice 	B3 	3 	General
+LT3233 	Computational Linguistics 	B3 	3 	General
+SDSC3001 	Big Data: The Arts and
+Science of Scaling*
+B3 	3 	Artificial
+Intelligence
+Core course for
+DELTA stream
+SDSC3002 	Data Mining 	B3 	3 	Artificial
+Intelligence
+and Statistical
+Learning
+SDSC3003 	Blockchain 	B3 	3 	General
+SDSC3004 	Computational Optimization 	B3 	3 	Statistical
+Learning
+SDSC3005 	Computational Statistics 	B3 	3 	Statistical
+Learning
+SDSC3008 	Systems Dynamics and
+Control
+B3 	3 	Artificial
+Intelligence
+SDSC3009 	Behavioural Analytics 	B3 	3 	Social Media
+Analytics
+SDSC3010 	Digital Trace Analytics 	B3 	3 	Social Media
+Analytics
+SDSC3011 	Social Data Processing and
+Modelling
+B3 	3 	Social Media
+Analytics
+SDSC3013 	Introduction to Social Media
+Analytics*
+B3 	3 	Social Media
+Analytics
+SDSC3014 	Introduction to Sharing
+Economy
+B3 	3 	General
+SDSC3015 	Knowledge Graph and
+Cognitive Computing
+B3 	3 	Artificial
+Intelligence
+SDSC3016 	Social Network Analysis 	B3 	3 	Social Media
+Analytics
+SDSC3017 	Game Theory and Its
+Application
+B3 	3 	Artificial
+Intelligence
+SDSC3018 	Introduction to Internet of
+Things
+B3 	3 	General
+SDSC3019 	Introduction to Networked Life
+and Data Science
+B3 	3 	General
+
+-- 9 of 24 --
+
+- 8 - (Sep 2025)
+SDSC3022 	Financial Data Analytics for
+Investments
+B3 	3 	General
+SDSC3023 	Data Science Applications in
+Portfolio Risk Analysis
+B3 	3 	General
+SDSC3060 	Operation Research 	B3 	3 	General
+SDSC3105 	Bayesian Analysis* 	B3 	3 	Statistical
+Learning
+COM4511 	Social Media and
+Communication
+B4 	3 	Social Media
+Analytics
+CS4186 	Computer Vision and Image
+Processing
+B4 	3 	General
+CS4286 	Internet Security and e-
+Commerce Protocols
+B4 	3 	General
+CS4296 	Cloud Computing 	B4 	3 	General
+CS4480 	Data-Intensive Computing 	B4 	3 	General
+CS4486 	Artificial Intelligence 	B4 	3 	Artificial
+Intelligence
+CS4487 	Machine Learning 	B4 	3 	Artificial
+Intelligence
+SDSC4001 	Foundation of Reinforcement
+Learning
+B4 	3 	Artificial
+Intelligence
+and Statistical
+Learning
+SDSC4008 	Deep Learning 	B4 	3 	Artificial
+Intelligence
+and Statistical
+Learning
+SDSC4009 	Data Intelligence in Action 	B4 	3 	Artificial
+Intelligence
+SDSC4010 	Projects in Data Science
+(research)
+B4 	3 	General
+SDSC4011 	Experimental Research for
+Social Media
+B4 	3 	Social Media
+Analytics
+SDSC4016 	Fundamentals of Machine
+Learning II*
+B4 	3 	Artificial
+Intelligence,
+Statistical
+Learning and
+Social Media
+Analytics
+SDSC4018 	AI in Systematic Trading 	B4 	3 	Artificial
+Intelligence
+SDSC4019 	Stochastic Processes and
+Applications
+B4 	3 	Statistical
+Learning
+SDSC4026 	Systems Modelling and
+Simulation
+B4 	3 	Social Media
+Analytics
+SDSC4107 	Financial Engineering and
+Analytics
+B4 	3 	General
+SDSC4110 	Statistical Design and Analysis
+of Experiments
+B4 	3 	Statistical
+Learning
+
+-- 10 of 24 --
+
+- 9 - (Sep 2025)
+2.6.3 	Optional Electives for all normative 4-year degree and Advanced Standing I
+Students may choose to enroll in the course(s) below to enrich their study.
+Course
+Code
+Course Title 	Level 	Credit
+Units
+Remarks
+SDSC0001 	Internship 	B1 	0
+SDSC0002 	Internship 	B1 	0
+SDSC0003 	Internship 	B1 	0
+SDSC0004 	Internship 	B1 	0
+SDSC3080 	Internship 	B3 	3 	Not available for
+DELTA stream
+2.7 	Assessment Policy
+For courses offered by DS which comprise both coursework and examination assessment
+components, apart from obtaining a minimum 40% in the overall mark, a student must also obtain
+a minimum mark of 30% in both coursework and examination in order to pass a course.
+
+-- 11 of 24 --
+
+- 10 - (Sep 2025)
+2.8 	Classification of Award
+The University grants bachelor's degree awards with the following classifications based on the
+CGPAs according to the general guidelines below:
+Classification 	CGPA
+First Class Honours 	3.50 or above
+Upper Second Class Honours 	3.00 - 3.49
+Lower Second Class Honours 	2.50 - 2.99
+Third Class Honours 	2.00 - 2.49
+Pass 	1.70 - 1.99
+For more details, please go to https://www.cityu.edu.hk/arro/regu/regu_ugar.htm
+2.9 	Bonus Features
+Student Exchange/Internship
+The Department provides student exchange and internship opportunities to our students to gain
+international perspectives, global engagement and industry experience.
+Students may choose between the overseas student exchange opportunities at world-leading
+institutions provided by the Department or the University. Paying the tuition at CityUHK, students
+will spend a study semester abroad and may transfer the academic credits earned at the host
+institution to fulfil the graduation requirement.
+The Department also partners with premier corporates in a wide range of sectors to offer internship
+opportunities relevant to our majors. With these placements, students are expected to gain practical
+knowledge and hands-on experience in real-world applications.
+3 	ACADEMIC REGULATIONS AND GUIDELINES
+Students should observe the University’s academic regulations and guidelines at all times. More
+information can be available by referring to the following websites maintained by the Academic
+Regulations and Records Office (ARRO).
+ARRO Homepage: http://www.cityu.edu.hk/arro/
+4 	ACADEMIC HONESTY
+Academic honesty is central to the conduct of academic work. Students are responsible for
+knowing and understanding the Rules on Academic Honesty. To enhance students’ understanding
+on academic honesty, all students are required to complete a tutorial on academic honesty and
+make a declaration on their understanding of this core academic principle online on or before 30
+November 2025 in order to access their course grades. For details, please refer to the website:
+https://www.cityu.edu.hk/pvdp/ah/uni-ah-req.htm.
+
+-- 12 of 24 --
+
+- 11 - (Sep 2025)
+5 	STUDENT CONDUCT
+City University of Hong Kong aims to provide a harmonious and supportive environment for
+teaching and learning. Students are expected to treat all other students and members of the
+University community with honesty, respect and maintain good conduct in student discipline.
+Students need to observe the Code of Student Conduct and other rules and regulations which are
+crucial in making the University an excellent place for learning.
+For details of these rules and regulations, please refer to the website
+https://www.cityu.edu.hk/studentlife/about_us-sdc.aspx
+6 	STUDENT DEVELOPMENT SERVICES (SDS)
+The SDS offers many student-centred services to students. It provides support and assistance for
+students in the following areas:
+• 	Attainment of an all-round development
+• 	Enrichment of campus life
+• 	Development of career plans and choices
+• 	Solving personal problems
+• 	Enhancement of physical and mental well-being
+• 	Provision of financial assistance
+• 	Scholarship application
+• 	Welfare provisions
+7 	COMMUNICATIONS
+Listed below are the normal channels of communication between students and courses / major /
+department:
+a) 	Students having difficulties in a course of study should first talk to the course instructor
+concerned.
+b) 	A student who wishes to discuss the overall organization of the major should speak to the
+Programme Leader or Deputy Programme Leader.
+c) 	The DS Joint Staff & Student Consultative Committee helps to facilitate consultation and
+communication. A student from each entry cohort will be elected to sit in the Committee.
+d) 	In addition, a student from each entry catalogue term will be elected to sit in the Major
+Programme Committee which meets every semester to discuss major-related matters.
+e) 	Students should feel free to approach their respective academic advisors for advice regarding
+their study plan or personal and career development.
+8 	PROGRAMME LEADERS
+Programme Leader: 	Prof YANG, Yu 	3442-4035 	yuyang@cityu.edu.hk
+Deputy Programme Leader: 	Prof LI, Xinyue 	3442-2180 	xinyueli@cityu.edu.hk
+
+-- 13 of 24 --
+
+- 12 - (Sep 2025)
+9 	INFORMATION TO NEW STUDENTS
+9.1 How to access your Personal Class Schedule
+i) 	Go to http://www.cityu.edu.hk from any terminal on campus or off campus, then point
+to “Quick Links” at the top and click “AIMS”.
+ii) Log onto AIMS.
+iii) Click "Course Registration" menu.
+iv) Click “Main Menu for Wed Add/Drop”
+v) 	Click "Weekly Schedule", choose the appropriate term and press "Submit".
+vi) You will find your class schedule in matrix form.
+vii) Press the "View Detail Schedule" button at the bottom of your matrix timetable to
+display details of your class schedule.
+9.2 How to get Instructors’ handouts through Canvas
+i) 	Log onto the CityUHK e-Portal from any terminal on campus or off campus.
+ii) Enter the course under “My Courses”
+iii) Click “Files”.
+9.3 How to check Major Programme Requirement and Course Syllabi
+Go to the CityUHK home page, select “Academics” from the top menu and click
+“Programme and Course Catalogue”.
+9.4 Course Registration for Semester A 2025-26
+For Semester A 2025-26, students will be pre-registered in required courses and major
+electives in most cases if possible.
+i) 	The date for release of your class schedule is 29 July 2025. Please check your curriculum
+requirements, review your study plan and then make appropriate adjustments to your pre-
+registered courses.
+ii) Add/Drop of courses can be made through AIMS for web-enabled courses during the
+web registration period. For non-web-enabled courses, approval is required from the
+major department and you can submit your application via an electronic form available
+in AIMS. After logging-in AIMS, go to tab “Course Registration” and click “Application
+for Add/Drop of Non-Web-enabled Course & Study Load Adjustment”.
+iii) Web registration begins on 25 August 2025 but you need to check your time ticket first
+from “AIMS”.
+iv) All add/drops end at 8 September 2025.
+How to do the Add/Drop:
+ 	Go to http://www.cityu.edu.hk from any terminal on campus or off campus and
+click “AIMS”.
+ 	Log onto “AIMS” and then click “Course Registration”.
+ 	Choose “Add or Drop Classes”.
+ 	Select and choose the correct term.
+
+-- 14 of 24 --
+
+- 13 - (Sep 2025)
+v) 	Details of course registration arrangements for Semester A 2025-26 will be available
+near the end of July 2025. For details, please refer to ARRO website:
+https://www.cityu.edu.hk/arro/creg/creg_main.htm
+9.5 How to access your Student Email Account
+i) 	Access http://www.cityu.edu.hk and point to “Quick Links” at the top of the screen and
+select “Email”.
+ii) In the Email Services home page, click “@my.cityu.edu.hk” under column of “Student”
+to go to M365 Web Logon.
+iii) Read through the whole page if you are not familiar with webmail. Then click button
+“M365 Sign-in page” at the bottom.
+iv) Enter Sign-in ID in such format “YourEID-c@my.cityu.edu.hk” and click “Next”.
+v) 	Click “Sign in” after keying in password.
+9.6 Credit Transfer / Course Exemption
+Applications for credit exemption must be made before the first semester of the student’s
+admission. Students granted course exemption are required to take other courses to make up
+the credits required for fulfilling the award requirements. For Semester A 2025-26, the
+application period is from 14 July to 29 August 2025. For details, please refer to ARRO
+website: https://www.cityu.edu.hk/arro/cdtf/cdtf_main.htm.
+9.7 Administrative Support from General Office
+Counter Services Hours
+Mon to Fri 	9:00am to 12:30 pm
+2:00pm to 5:30pm
+Sat, Sun & Public Holiday 	Closed
+Inquiry: 	3442-7887
+Fax: 	3442-0173
+Email: 	ds.go@cityu.edu.hk
+Important notes:
+For email communication:
+Please state your student name, number and contact telephone number.
+
+-- 15 of 24 --
+
+- 14 - (Sep 2025)
+Appendix I : Model Study Paths
+
+-- 16 of 24 --
+
+Model Study Path for BSc in Data Science 2025/26 (normative 4-year)
+Yr 	Sem 	Major Requirements 	University Requirements 	CUs
+2025 / 26 (Year 1)
+ 	A
+College Requirement -
+MA1508
+Calculus (4)
+College Specified -
+CS1315
+Introduction to Computer
+Programming (3)
+SDSC1001
+Introduction to Data
+Science (2)
+English 1 –
+GE1401 University
+English (3)
+GE1601 Whole-
+Person
+Development (1) 	13
+B
+College Requirement -
+MA1503
+Linear Algebra
+with Applications
+(4)
+SDSC2004
+Data Visualization (3)
+English 2 -
+Discipline-specific
+English GE2401
+English for
+Science (3)
+GE1501
+Chinese
+Civilisation –
+History and
+Philosophy (3)
+Gateway
+Education 1 (3) 	16
+S 	0
+2026 / 27 (Year 2)
+ 
+A
+MA2510
+Probability and
+Statistics (3)
+MA2508
+Multi-variable Calculus (4) 	SDSC2001 Python for
+Data Science (4)
+CS2334
+Data Structures for Data
+Science (3)
+Gateway
+Education 2 (3) 	17
+B
+College Specified -
+CS3402
+Database Systems (3)
+SDSC2002
+Convex Optimization (3)
+SDSC2005
+Introduction to
+Computational Social
+Science (3)
+SDSC2102
+Statistical Methods and
+Data Analysis (3)
+Gateway
+Education 3 (3) 	15
+S 	0
+2027 / 28 (Year 3)
+ 	A
+SDSC3006
+Fundamentals of
+Machine Learning I (3)
+SDSC3007
+Advanced Statistics (3) 	Major Elective 1 (3) 	Major Elective 2 (3) Gateway
+Education 4 (3) 	15
+B
+College Specified -
+SDSC2003
+Human Contexts and
+Ethics in Data Science (3)
+CS3273
+Data Protection and System
+Security (3)
+Major Elective 3 (3) 	Major Elective 4 (3) 	Free Elective 1 (3) 	15
+S 	0
+2028 / 29 (Year 4)
+A SDSC4116
+Data Science Capstone (3) Major Elective 5 (3) 	Major Elective 6 (3) 	Free Elective 2 (3) 	Free Elective 3 (3) 	15
+B SDSC4116
+Data Science Capstone (3) 	Major Elective 7 (3) 	Free Elective 4 (3) 	Free Elective 5 (3) 	Free Elective 6 (3) 	15
+( ) indicates number of credit units 	Total credits required = 121
+For Reference Only
+- 15 -
+(Sep 2025)
+
+-- 17 of 24 --
+
+Model Study Path for BSc in Data Science 2025/26 (Advanced Standing I)
+Yr 	Sem 	Major Requirements 	University Requirements 	CUs
+2025 / 26 (Year 2)
+ 
+A
+MA2508
+Multi-variable Calculus
+(4)
+MA2510
+Probability and Statistics (3) 	SDSC2001 Python for Data
+Science (4)
+English 1 -
+GE1401 University
+English (3)
+GE1601
+Whole-Person
+Development (1) 	15
+B
+College Specified -
+CS3402
+Database Systems (3)
+SDSC2004
+Data Visualization (3)
+SDSC2102
+Statistical Methods and Data
+Analysis (3)
+SDSC2002
+Convex Optimization (3)
+GE1501
+Chinese Civilisation –
+History and Philosophy
+(3)
+English 2 -
+Discipline-specific
+English GE2401 English
+for Science (3)
+18
+S 	0
+2026 / 27 (Year 3)
+A
+SDSC3006
+Fundamentals of Machine
+Learning I (3)
+SDSC3007
+Advanced Statistics (3)
+CS2334
+Data Structures for Data Science
+(3)
+Major Elective 1 (3) 	Free Elective 1 (3) 	15
+B
+SDSC2005
+Introduction to Computational
+Social Science (3)
+CS3273
+Data Protection and System
+Security (3)
+Major Elective 2 (3) 	Free Elective 2 (3) 	Gateway Education 1 (3) 	15
+S 	0
+2027 / 28 (Year 4)
+A SDSC4116
+Data Science Capstone (3) 	Major Elective 3 (3) 	Free Elective 3 (3) 	Free Elective 4 (3)
+College-specified course (3)
+Any courses in the list of College Specified
+courses for ASI & II 	15
+B SDSC4116
+Data Science Capstone (3) 	Major Elective 4 (3) 	Free Elective 5 (3) 	Free Elective 6 (3) 	Gateway Education 2 (3) 	15
+( ) indicates number of credit units 	Total credits required = 93
+[Note]
+1. 	For courses that required MA1508 Calculus & MA1503 Linear Algebra with Applications as pre-requisite/precursor, this requirement is waived as MA1508
+& MA1503 are not in the Advanced Standing I curriculum – Pre-requisite MA1508 & MA1503 waived for ---
+MA2508 Multi-variable Calculus
+MA2510 Probability and Statistics
+2. 	For courses that required SDSC1001 Introduction to Data Science as pre-requisite/precursor, this requirement is waived as SDSC1001 is not in the Advanced Standing I
+curriculum – Pre-requisite SDSC1001 waived for ---
+SDSC2001 Python for Data Science
+SDSC2005 Introduction to Computational Social Science
+For Reference Only
+- 16 - 
+(Sep 2025)
+
+-- 18 of 24 --
+
+Model Study Path for BSc in Data Science 2025/26 (Advanced Standing II)
+Yr 	Sem 	Major Requirements 	University Requirements 	CUs
+2025 / 26 (Year 3)
+A MA2508
+Multi-variable Calculus (4)
+SDSC2001 Python for Data
+Science (4)
+SDSC3006
+Fundamentals of Machine
+Learning I (3)
+Major Elective 1 (3) 	Gateway Education 1 (3) 	17
+B SDSC2002
+Convex Optimization (3)
+SDSC2004
+Data Visualization (3)
+SDSC2102
+Statistical Methods and Data
+Analysis (3)
+CS2334
+Data Structures for Data
+Science (3)
+SDSC3060
+Operations Research (3)
+Discipline-specific English
+GE2410 - English for Engineering (3) 	18
+S
+2026 / 27 (Year 4)
+A SDSC4116
+Data Science Capstone (3)
+SDSC3007
+Advanced Statistics (3) 	Major Elective 2 (3) 	Major Elective 3 (3)
+College Specified -
+CS3402
+Database Systems (3) 	18
+B SDSC4116
+Data Science Capstone (3)
+CS3273
+Data Protection and System
+Security (3)
+Major Elective 4 (3)
+College-specified course (3)
+Any courses in the list of College Specified courses for
+ASI & II
+15
+( ) indicates number of credit units 	Total credits required = 62
+[Note]
+1. For courses that required MA1508 Calculus & MA1503 Linear Algebra with Applications as pre-requisite/precursor, this requirement is waived as MA1508
+&MA1503 are not in the Advanced Standing II curriculum – Pre-requisite MA1508 & MA1503 waived for ---
+MA2508 Multi-variable Calculus
+2. For courses that required SDSC1001 Introduction to Data Science as pre-requisite/precursor, this requirement is waived as SDSC1001 is not in the Advanced Standing II
+curriculum – Pre-requisite SDSC1001 waived for ---
+SDSC2001 Python for Data Science
+SDSC2005 Introduction to Computational Social Science
+For Reference Only
+- 17 -
+(Sep 2025)
+
+-- 19 of 24 --
+
+(Sep 2025)
+Notes
+
+-- 20 of 24 --
+
+(Sep 2025)
+Notes
+
+-- 21 of 24 --
+
+(Sep 2025)
+Notes
+
+-- 22 of 24 --
+
+(Sep 2025)
+Notes
+
+-- 23 of 24 --
+
+(Sep 2025)
+Notes
+
+-- 24 of 24 --
+

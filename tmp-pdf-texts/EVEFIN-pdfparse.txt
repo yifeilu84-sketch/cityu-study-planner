@@ -1,0 +1,61 @@
+Last modified: 10 April 2025
+CITY UNIVERSITY OF HONG KONG
+School of Energy and Environment
+BEng in Environmental Science and Engineering and BBA in Finance
+Recommended Study Plan (for 2025 cohort)
+YEAR 1
+Semester A 	CUs 	Semester B 	CUs
+CB2400 	Microeconomics 	3 	CB2402 	Macroeconomics 	3
+CHEM1300 	Principles of General Chemistry 	3 	CB3410 	Financial Management 	3
+GE1401 	University English 	3 	GE2410 / 	English for Engineering / 	3	
+GE2402 	English for Business Communication
+MA1200 / 	Calculus and Basic Linear Algebra I / 	3 	MA1201 / 	Calculus and Basic Linear Algebra II / 	3	
+MA1300 	Enhanced Calculus and Linear Algebra I 	MA1301 	Enhanced Calculus and Linear Algebra II
+SEE1005 	Global Sustainable Technologies and Finance 	3 	PHY1201 	General Physics I 	3
+SEE1000 	Professional Development: Career Planning Workshop 	0
+SEE1002 	Introduction to Computing for Energy and Environment 	3
+Total: 15 	Total: 18
+YEAR 2
+Semester A 	CUs 	Semester B 	CUs
+EF3320 	Security Analysis and Portfolio Management 	3 	CB2100 	Introduction to Financial Accounting 	3
+GE1501 	Chinese Civilisation - History and Philosophy 	3 	CB2500 	Information Management 	3
+SEE2000 	Professional Development I 	0 	EF3333 	Financial Systems, Markets and Instruments 	3
+SEE2003 	Introduction to Energy and Environmental Data Analysis 	3 	MA2181 	Mathematical Methods for Engineering 	3
+SEE2204 	Principles of Sustainability 	3 	SEE2101 	Engineering Thermofluids I 	3
+SEE3002 	Energy and Environmental Economics 	3 	SEE2201 	Fundamentals of Environmental Engineering 	3
+Total: 15 	Total: 18
+YEAR 3
+Semester A 	CUs 	Semester B 	CUs
+CB2101 	Introduction to Managerial Accounting 	3 	CB2300 	Management 	3
+CB2200 	Business Statistics 	3 	EF4313 	Corporate Finance 	3
+CB2201 	Operations Management 	3 	EF4822 	Financial Econometrics 	3
+EF4321 	Derivatives and Risk Management 	3 	SEE3003 	Climate Change and Adaptation Strategies 	3
+SEE3101 	Engineering Thermofluids II 	4 	SEE3104 	Sustainable and Renewable Energy 	3
+SEE4116 	Energy and Carbon Auditing 	3
+Total: 19 	Total: 15
+YEAR 4
+Semester A 	CUs 	Semester B 	CUs
+AC3390 	ESG Reporting and Disclosure 	3 	GE Course (Distributional Requirements) 	3
+CA1167 	Engineering Communication 	3 	EF4314 	Corporate Valuation 	3
+CB2601 	Marketing 	3 	EF4331 	International Finance and Banking 	3
+SEE4002 	Environmental Engineering Laboratory 	3 	SEE3206 	Environmental Social Governance 	3
+EVE Elective 	3 	SEE4004 	Environmental Impact Assessment for Sustainable Development 	4
+Total: 15 	Total: 16
+YEAR 5
+Semester A 	CUs 	Semester B 	CUs
+CB3043 	Business Case Analysis and Communication 	3 	SEE4001 	Engineers in Society 	1
+CB4303 	Strategic Management 	3 	SEE4204 	Environmental Systems Modelling 	3
+SEE4996 	Final Year Project 	3 	SEE4996 	Final Year Project 	3
+GE Course (Distributional Requirements) 	3 	FIN Elective 	3
+Total: 12 	Total: 10
+EVEFIN-2025-5YR List of 4 College/School-specified courses:
+(1) CA1167 Engineering Communication
+(2) SEE1005 Global Sustainable Technologies and Finance
+(3) SEE3002 Energy and Environmental Economics
+(4) CB3043 Business Case Analysis and Communication
+IMPORTANT NOTES re. SEE2000 Professional Development I and SEE4000 Professional Development II:
+By the time SEE students graduate, they must have successfully completed SEE2000 Professional Development I and SEE4000 Professional Development II, namely Career Training Workshops arranged by
+SEE plus 160-hour Professional Development experience recognized by SEE. For details, please refer to the School website at https://www.cityu.edu.hk/see >> Programmes >> Undergraduate Programmes.
+
+-- 1 of 1 --
+

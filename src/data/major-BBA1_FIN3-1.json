@@ -1,0 +1,710 @@
+{
+  "code": "BBA1_FIN3-1",
+  "title": "Bachelor of Business Administration in Finance",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_FIN3-1.htm",
+  "degree": "Bachelor of Business",
+  "totalCredits": 121,
+  "department": "Department of Economics and Finance",
+  "college": "College of Business",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 324,
+      "courses": [
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3320",
+          "title": "Security Analysis and Portfolio Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3333",
+          "title": "Financial Systems, Markets and Instruments",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4313",
+          "title": "Corporate Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4314",
+          "title": "Corporate Valuation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4321",
+          "title": "Derivatives and Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4331",
+          "title": "International Finance and Banking",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4822",
+          "title": "Financial Econometrics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF2452",
+          "title": "Mathematics for Economics and Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3331",
+          "title": "Asia-Pacific Capital Markets and Standards of Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3520",
+          "title": "Stochastic Calculus for Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4300",
+          "title": "Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement"
+        },
+        {
+          "code": "EF4312",
+          "title": "Mergers and Acquisitions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4323",
+          "title": "Trading Room Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4327",
+          "title": "Fixed Income Securities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4328",
+          "title": "Asset Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4334",
+          "title": "Regulation and Management of Financial Institutions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4600",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement"
+        },
+        {
+          "code": "EF3320",
+          "title": "Security Analysis and Portfolio Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3333",
+          "title": "Financial Systems, Markets and Instruments",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4313",
+          "title": "Corporate Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4314",
+          "title": "Corporate Valuation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4321",
+          "title": "Derivatives and Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4331",
+          "title": "International Finance and Banking",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4822",
+          "title": "Financial Econometrics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF2452",
+          "title": "Mathematics for Economics and Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3331",
+          "title": "Asia-Pacific Capital Markets and Standards of Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF3520",
+          "title": "Stochastic Calculus for Finance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4300",
+          "title": "Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement"
+        },
+        {
+          "code": "EF4312",
+          "title": "Mergers and Acquisitions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4323",
+          "title": "Trading Room Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4327",
+          "title": "Fixed Income Securities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4328",
+          "title": "Asset Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4334",
+          "title": "Regulation and Management of Financial Institutions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EF4600",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement"
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CB2100",
+    "CB2101",
+    "CB2200",
+    "CB2201",
+    "CB2300",
+    "CB2400",
+    "CB2402",
+    "CB2500",
+    "CB2601",
+    "CB3410",
+    "CB4303",
+    "AC3202",
+    "CB2041",
+    "CB3020",
+    "CB3020A",
+    "CB3021",
+    "CB3041",
+    "CB3043",
+    "CB3044",
+    "CB3045",
+    "CB3800",
+    "CB3810",
+    "CB3820",
+    "CB3830",
+    "CB3840",
+    "CB4605",
+    "CS1102",
+    "IS2021",
+    "IS2023",
+    "MA1006",
+    "MGT3306",
+    "MKT3601",
+    "MS3124",
+    "MS3252",
+    "LW2903",
+    "EF3320",
+    "EF3333",
+    "EF4313",
+    "EF4314",
+    "EF4321",
+    "EF4331",
+    "EF4822",
+    "EF2452",
+    "EF3331",
+    "EF3520",
+    "EF4300",
+    "EF4312",
+    "EF4323",
+    "EF4327",
+    "EF4328",
+    "EF4334",
+    "EF4600"
+  ]
+}

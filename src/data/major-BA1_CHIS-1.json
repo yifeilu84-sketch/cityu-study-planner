@@ -1,0 +1,1221 @@
+{
+  "code": "BA1_CHIS-1",
+  "title": "Bachelor of Arts in Chinese and History",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
+  "degree": "Bachelor of Arts",
+  "totalCredits": 121,
+  "department": "Department of Chinese and History",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 564,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2610",
+          "title": "Sources of Chinese Tradition",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2611",
+          "title": "Sources of Literature, Cultural Heritage and History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2612",
+          "title": "Introduction to Sinology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2613",
+          "title": "Chinese Writing for Academic Purpose",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2614",
+          "title": "Methods for Studying Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2140",
+          "title": "Modern Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2141",
+          "title": "History of Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2142",
+          "title": "Introduction to Literary Theory and Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3110",
+          "title": "Readings in Pre-Qin Confucianism and Daoism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3131",
+          "title": "Classical Chinese",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3132",
+          "title": "Chinese Philology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3133",
+          "title": "Introduction to Chinese Documentology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4150",
+          "title": "Selected Readings in Chinese Shi and Ci",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4499",
+          "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2501",
+          "title": "Art and Visual Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2509",
+          "title": "History and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2536",
+          "title": "Intangible Heritages and Indigenous Cultures",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2812",
+          "title": "Early and Imperial China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2840",
+          "title": "Late Imperial and Modern China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3511",
+          "title": "Hong Kong's Culture and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3542",
+          "title": "Museum Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4499",
+          "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4802",
+          "title": "Chinese Historical Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4813",
+          "title": "History of the Ancient World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4842",
+          "title": "History of the Modern World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2105",
+          "title": "Selected Readings in Classical Chinese Essays",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3136",
+          "title": "Selected Readings in Chinese Women Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3138",
+          "title": "Classical Chinese Fiction and Xiqu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3145",
+          "title": "Great Works in Classical Chinese Literature I: From Pre-Qin Period to Six Dynasties",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3146",
+          "title": "Great Works in Classical Chinese Literature II: From Tang Dynasty to Qing Dynasty",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3185",
+          "title": "Hong Kong Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3187",
+          "title": "Contemporary Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4143",
+          "title": "Topics in Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4144",
+          "title": "Chinese Literary Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4186",
+          "title": "Chinese Religious Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2145",
+          "title": "Introduction to Guoxue",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2399",
+          "title": "Discovering China from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3111",
+          "title": "History of Chinese Thought",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3151",
+          "title": "Chinese Expository Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3165",
+          "title": "Creative Chinese",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3167",
+          "title": "Chinese for Mass Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3168",
+          "title": "Chinese Editing and Publishing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3820",
+          "title": "Siku Quanshu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4148",
+          "title": "Great Works in Chinese History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4180",
+          "title": "Chinese Teaching",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4399",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4599",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2399",
+          "title": "Discovering China from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2503",
+          "title": "World Art and Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2505",
+          "title": "Arts and Aesthetic Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2507",
+          "title": "Historical Buildings and Preservation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2510",
+          "title": "Cultural Exchange in Global Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2516",
+          "title": "Society and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2537",
+          "title": "Fundamentals of Art and Cultural Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2854",
+          "title": "Urban History of China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2865",
+          "title": "History of Chinese Art",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2871",
+          "title": "American History from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3111",
+          "title": "History of Chinese Thought",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3133",
+          "title": "Introduction to Chinese Documentology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3517",
+          "title": "Cultural Tourism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3522",
+          "title": "Culture and Heritage of Asian Communities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3524",
+          "title": "Western Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3534",
+          "title": "Lingnan's Culture and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3535",
+          "title": "Global Networks and Cultural Identity",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3538",
+          "title": "Patronage and Art Market",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3541",
+          "title": "Archaeology and Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3546",
+          "title": "Festival and Cultural Events",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3548",
+          "title": "Critical Approaches to Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3820",
+          "title": "Siku Quanshu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3832",
+          "title": "The Study of Dunhuang",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3852",
+          "title": "World Archaeology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3853",
+          "title": "Contemporary China from an Anthropological Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3862",
+          "title": "Oral History and Field Study",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4148",
+          "title": "Great Works in Chinese History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4507",
+          "title": "Critical Approaches to Art and History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4508",
+          "title": "East Asian Film Cultures",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4520",
+          "title": "Cultural Production and Consumption",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4536",
+          "title": "Advanced Management for Cultural Professionals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4853",
+          "title": "History of Chinese Historiography",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4870",
+          "title": "History of Hong Kong",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2545",
+          "title": "Exploring China: Words, Images, and Objects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3539",
+          "title": "Writing for Cultural Professionals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4399",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4599",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2610",
+          "title": "Sources of Chinese Tradition",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2611",
+          "title": "Sources of Literature, Cultural Heritage and History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2612",
+          "title": "Introduction to Sinology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2613",
+          "title": "Chinese Writing for Academic Purpose",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2614",
+          "title": "Methods for Studying Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2140",
+          "title": "Modern Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2141",
+          "title": "History of Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2142",
+          "title": "Introduction to Literary Theory and Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3110",
+          "title": "Readings in Pre-Qin Confucianism and Daoism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3131",
+          "title": "Classical Chinese",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3132",
+          "title": "Chinese Philology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3133",
+          "title": "Introduction to Chinese Documentology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4150",
+          "title": "Selected Readings in Chinese Shi and Ci",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4499",
+          "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2501",
+          "title": "Art and Visual Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2509",
+          "title": "History and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2536",
+          "title": "Intangible Heritages and Indigenous Cultures",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2812",
+          "title": "Early and Imperial China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2840",
+          "title": "Late Imperial and Modern China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3511",
+          "title": "Hong Kong's Culture and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3542",
+          "title": "Museum Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4499",
+          "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4802",
+          "title": "Chinese Historical Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4813",
+          "title": "History of the Ancient World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4842",
+          "title": "History of the Modern World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2105",
+          "title": "Selected Readings in Classical Chinese Essays",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3136",
+          "title": "Selected Readings in Chinese Women Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3138",
+          "title": "Classical Chinese Fiction and Xiqu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3145",
+          "title": "Great Works in Classical Chinese Literature I: From Pre-Qin Period to Six Dynasties",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3146",
+          "title": "Great Works in Classical Chinese Literature II: From Tang Dynasty to Qing Dynasty",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3185",
+          "title": "Hong Kong Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3187",
+          "title": "Contemporary Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4143",
+          "title": "Topics in Chinese Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4144",
+          "title": "Chinese Literary Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4186",
+          "title": "Chinese Religious Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2145",
+          "title": "Introduction to Guoxue",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2399",
+          "title": "Discovering China from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3111",
+          "title": "History of Chinese Thought",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3151",
+          "title": "Chinese Expository Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3165",
+          "title": "Creative Chinese",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3167",
+          "title": "Chinese for Mass Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3168",
+          "title": "Chinese Editing and Publishing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3820",
+          "title": "Siku Quanshu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4148",
+          "title": "Great Works in Chinese History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4180",
+          "title": "Chinese Teaching",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4399",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4599",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2399",
+          "title": "Discovering China from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2503",
+          "title": "World Art and Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2505",
+          "title": "Arts and Aesthetic Criticism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2507",
+          "title": "Historical Buildings and Preservation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2510",
+          "title": "Cultural Exchange in Global Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2516",
+          "title": "Society and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2537",
+          "title": "Fundamentals of Art and Cultural Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2854",
+          "title": "Urban History of China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2865",
+          "title": "History of Chinese Art",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2871",
+          "title": "American History from a Global Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3111",
+          "title": "History of Chinese Thought",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3133",
+          "title": "Introduction to Chinese Documentology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3517",
+          "title": "Cultural Tourism",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3522",
+          "title": "Culture and Heritage of Asian Communities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3524",
+          "title": "Western Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3534",
+          "title": "Lingnan's Culture and Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3535",
+          "title": "Global Networks and Cultural Identity",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3538",
+          "title": "Patronage and Art Market",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3541",
+          "title": "Archaeology and Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3546",
+          "title": "Festival and Cultural Events",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3548",
+          "title": "Critical Approaches to Cultural Heritage",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3820",
+          "title": "Siku Quanshu",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3832",
+          "title": "The Study of Dunhuang",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3852",
+          "title": "World Archaeology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3853",
+          "title": "Contemporary China from an Anthropological Perspective",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3862",
+          "title": "Oral History and Field Study",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4148",
+          "title": "Great Works in Chinese History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4507",
+          "title": "Critical Approaches to Art and History",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4508",
+          "title": "East Asian Film Cultures",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4520",
+          "title": "Cultural Production and Consumption",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4536",
+          "title": "Advanced Management for Cultural Professionals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4853",
+          "title": "History of Chinese Historiography",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4870",
+          "title": "History of Hong Kong",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH2545",
+          "title": "Exploring China: Words, Images, and Objects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH3539",
+          "title": "Writing for Cultural Professionals",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4399",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CAH4599",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "CAH2610",
+    "CAH2611",
+    "CAH2612",
+    "CAH2613",
+    "CAH2614",
+    "CAH2140",
+    "CAH2141",
+    "CAH2142",
+    "CAH3110",
+    "CAH3131",
+    "CAH3132",
+    "CAH3133",
+    "CAH4150",
+    "CAH4499",
+    "CAH2501",
+    "CAH2509",
+    "CAH2536",
+    "CAH2812",
+    "CAH2840",
+    "CAH3511",
+    "CAH3542",
+    "CAH4802",
+    "CAH4813",
+    "CAH4842",
+    "CAH2105",
+    "CAH3136",
+    "CAH3138",
+    "CAH3145",
+    "CAH3146",
+    "CAH3185",
+    "CAH3187",
+    "CAH4143",
+    "CAH4144",
+    "CAH4186",
+    "CAH2145",
+    "CAH2399",
+    "CAH3111",
+    "CAH3151",
+    "CAH3165",
+    "CAH3167",
+    "CAH3168",
+    "CAH3820",
+    "CAH4148",
+    "CAH4180",
+    "CAH4399",
+    "CAH4599",
+    "CAI4001",
+    "CAH2503",
+    "CAH2505",
+    "CAH2507",
+    "CAH2510",
+    "CAH2516",
+    "CAH2537",
+    "CAH2854",
+    "CAH2865",
+    "CAH2871",
+    "CAH3517",
+    "CAH3522",
+    "CAH3524",
+    "CAH3534",
+    "CAH3535",
+    "CAH3538",
+    "CAH3541",
+    "CAH3546",
+    "CAH3548",
+    "CAH3832",
+    "CAH3852",
+    "CAH3853",
+    "CAH3862",
+    "CAH4507",
+    "CAH4508",
+    "CAH4520",
+    "CAH4536",
+    "CAH4853",
+    "CAH4870",
+    "CAH2545",
+    "CAH3539"
+  ]
+}

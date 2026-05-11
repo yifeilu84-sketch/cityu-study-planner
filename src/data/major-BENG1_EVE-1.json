@@ -1,0 +1,1058 @@
+{
+  "code": "BENG1_EVE-1",
+  "title": "Bachelor of Engineering in Environmental Science and Engineering",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_EVE-1.htm",
+  "degree": "Bachelor of Engineering",
+  "totalCredits": 123,
+  "department": "School of Energy and Environment",
+  "college": "School of Energy and Environment",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 482,
+      "courses": [
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1000",
+          "title": "Professional Development: Career Planning Workshop",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1002",
+          "title": "Introduction to Computing for Energy and Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2000",
+          "title": "Professional Development I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4000",
+          "title": "Professional Development II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1000",
+          "title": "Professional Development: Career Planning Workshop",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1002",
+          "title": "Introduction to Computing for Energy and Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2000",
+          "title": "Professional Development I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4000",
+          "title": "Professional Development II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1000",
+          "title": "Professional Development: Career Planning Workshop",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1002",
+          "title": "Introduction to Computing for Energy and Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2000",
+          "title": "Professional Development I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4000",
+          "title": "Professional Development II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1000",
+          "title": "Professional Development: Career Planning Workshop",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE1002",
+          "title": "Introduction to Computing for Energy and Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2000",
+          "title": "Professional Development I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4000",
+          "title": "Professional Development II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2002",
+          "title": "Chemical Sciences for Energy and Environmental Engineers",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2003",
+          "title": "Introduction to Energy and Environmental Data Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2101",
+          "title": "Engineering Thermofluids I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2002",
+          "title": "Chemical Sciences for Energy and Environmental Engineers",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2003",
+          "title": "Introduction to Energy and Environmental Data Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2101",
+          "title": "Engineering Thermofluids I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4993",
+          "title": "Research Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4994",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4995",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 6,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4998",
+          "title": "Special Project in Energy and Environment",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4999",
+          "title": "Special Project in Energy and Environment",
+          "credits": 6,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE2203",
+          "title": "Environmental, Safety, and Occupational Health Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2204",
+          "title": "Principles of Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3003",
+          "title": "Climate Change and Adaptation Strategies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3101",
+          "title": "Engineering Thermofluids II",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3203",
+          "title": "Air Pollution",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4001",
+          "title": "Engineers in Society",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4002",
+          "title": "Environmental Engineering Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4004",
+          "title": "Environmental Impact Assessment for Sustainable Development",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4203",
+          "title": "Advanced Treatment and Management of Solid and Municipal Waste",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4204",
+          "title": "Environmental Systems Modelling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4217",
+          "title": "Waste and Wastewater Treatment Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4218",
+          "title": "Water and Water Resource Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4996",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4024",
+          "title": "Project Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3677",
+          "title": "Hydraulics and Hydrology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3207",
+          "title": "Indoor Environmental Quality",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4122",
+          "title": "Chemical Separations for Energy and Environmental Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4216",
+          "title": "Combustion and Air Pollution Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4220",
+          "title": "Measurements of Air Pollutants",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SDSC3002",
+          "title": "Data Mining",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3001",
+          "title": "Energy and Environmental Policy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3104",
+          "title": "Sustainable and Renewable Energy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3204",
+          "title": "Urban Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3205",
+          "title": "Urban Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3206",
+          "title": "Environmental Social Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4116",
+          "title": "Energy and Carbon Auditing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4205",
+          "title": "Design of Smart Cities and Sustainable Building",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4206",
+          "title": "Social Perspectives of Environmental Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4022",
+          "title": "Environmental Toxicology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4039",
+          "title": "Environmental Conservation and Resources Management",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3201",
+          "title": "Atmospheric Science - An Introductory Survey",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4202",
+          "title": "Atmospheric Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4219",
+          "title": "Air Quality Modeling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3712",
+          "title": "Electrical Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3722",
+          "title": "HVAC Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3732",
+          "title": "Fire Engineering and Piped Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4718",
+          "title": "Power Electronics and Smart Lighting Controls",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4737",
+          "title": "Fire Science and Modelling",
+          "credits": 3,
+          "remarks": "Either CA4737 or CA4738"
+        },
+        {
+          "code": "CA4738",
+          "title": "Fire Engineering Approach",
+          "credits": 3,
+          "remarks": "Either CA4737 or CA4738"
+        },
+        {
+          "code": "SEE2001",
+          "title": "Electromagnetic Principles for Energy Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3103",
+          "title": "Energy Efficiency for Buildings",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4994",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 3,
+          "remarks": "Option 1"
+        },
+        {
+          "code": "SEE4998",
+          "title": "Special Project in Energy and Environment",
+          "credits": 3,
+          "remarks": "Option 1"
+        },
+        {
+          "code": "SEE4995",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 6,
+          "remarks": "Option 2"
+        },
+        {
+          "code": "SEE4999",
+          "title": "Special Project in Energy and Environment",
+          "credits": 6,
+          "remarks": "Option 3"
+        },
+        {
+          "code": "SEE4993",
+          "title": "Research Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2002",
+          "title": "Chemical Sciences for Energy and Environmental Engineers",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2003",
+          "title": "Introduction to Energy and Environmental Data Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2101",
+          "title": "Engineering Thermofluids I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2002",
+          "title": "Chemical Sciences for Energy and Environmental Engineers",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2003",
+          "title": "Introduction to Energy and Environmental Data Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2101",
+          "title": "Engineering Thermofluids I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4993",
+          "title": "Research Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4994",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4995",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 6,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4998",
+          "title": "Special Project in Energy and Environment",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE4999",
+          "title": "Special Project in Energy and Environment",
+          "credits": 6,
+          "remarks": "*"
+        },
+        {
+          "code": "SEE2203",
+          "title": "Environmental, Safety, and Occupational Health Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2204",
+          "title": "Principles of Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3003",
+          "title": "Climate Change and Adaptation Strategies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3101",
+          "title": "Engineering Thermofluids II",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3203",
+          "title": "Air Pollution",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4001",
+          "title": "Engineers in Society",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4002",
+          "title": "Environmental Engineering Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4004",
+          "title": "Environmental Impact Assessment for Sustainable Development",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4203",
+          "title": "Advanced Treatment and Management of Solid and Municipal Waste",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4204",
+          "title": "Environmental Systems Modelling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4217",
+          "title": "Waste and Wastewater Treatment Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4218",
+          "title": "Water and Water Resource Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4996",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SYE4024",
+          "title": "Project Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3677",
+          "title": "Hydraulics and Hydrology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3207",
+          "title": "Indoor Environmental Quality",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4122",
+          "title": "Chemical Separations for Energy and Environmental Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4216",
+          "title": "Combustion and Air Pollution Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4220",
+          "title": "Measurements of Air Pollutants",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SDSC3002",
+          "title": "Data Mining",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3001",
+          "title": "Energy and Environmental Policy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3104",
+          "title": "Sustainable and Renewable Energy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3204",
+          "title": "Urban Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3205",
+          "title": "Urban Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3206",
+          "title": "Environmental Social Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4116",
+          "title": "Energy and Carbon Auditing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4205",
+          "title": "Design of Smart Cities and Sustainable Building",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4206",
+          "title": "Social Perspectives of Environmental Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4022",
+          "title": "Environmental Toxicology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4039",
+          "title": "Environmental Conservation and Resources Management",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3201",
+          "title": "Atmospheric Science - An Introductory Survey",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4202",
+          "title": "Atmospheric Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4219",
+          "title": "Air Quality Modeling",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3712",
+          "title": "Electrical Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3722",
+          "title": "HVAC Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3732",
+          "title": "Fire Engineering and Piped Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4718",
+          "title": "Power Electronics and Smart Lighting Controls",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4737",
+          "title": "Fire Science and Modelling",
+          "credits": 3,
+          "remarks": "Either CA4737 or CA4738"
+        },
+        {
+          "code": "CA4738",
+          "title": "Fire Engineering Approach",
+          "credits": 3,
+          "remarks": "Either CA4737 or CA4738"
+        },
+        {
+          "code": "SEE2001",
+          "title": "Electromagnetic Principles for Energy Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE3103",
+          "title": "Energy Efficiency for Buildings",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE4994",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 3,
+          "remarks": "Option 1"
+        },
+        {
+          "code": "SEE4998",
+          "title": "Special Project in Energy and Environment",
+          "credits": 3,
+          "remarks": "Option 1"
+        },
+        {
+          "code": "SEE4995",
+          "title": "Guided Study in Energy and Environment",
+          "credits": 6,
+          "remarks": "Option 2"
+        },
+        {
+          "code": "SEE4999",
+          "title": "Special Project in Energy and Environment",
+          "credits": 6,
+          "remarks": "Option 3"
+        },
+        {
+          "code": "SEE4993",
+          "title": "Research Seminar",
+          "credits": 1,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CHEM1200",
+    "CHEM1300",
+    "PHY1201",
+    "SEE1000",
+    "SEE1002",
+    "SEE2000",
+    "SEE4000",
+    "MA1200",
+    "MA1300",
+    "MA1201",
+    "MA1301",
+    "CHEM2004",
+    "MA2181",
+    "SEE2002",
+    "SEE2003",
+    "SEE2101",
+    "SEE2201",
+    "SEE4993",
+    "SEE4994",
+    "SEE4995",
+    "SEE4998",
+    "SEE4999",
+    "SEE2203",
+    "SEE2204",
+    "SEE3003",
+    "SEE3101",
+    "SEE3203",
+    "SEE4001",
+    "SEE4002",
+    "SEE4004",
+    "SEE4203",
+    "SEE4204",
+    "SEE4217",
+    "SEE4218",
+    "SEE4996",
+    "SYE4024",
+    "CA3677",
+    "CHEM4035",
+    "SEE3207",
+    "SEE4122",
+    "SEE4216",
+    "SEE4220",
+    "SDSC3002",
+    "SEE3001",
+    "SEE3104",
+    "SEE3204",
+    "SEE3205",
+    "SEE3206",
+    "SEE4116",
+    "SEE4205",
+    "SEE4206",
+    "CHEM4022",
+    "CHEM4039",
+    "SEE3201",
+    "SEE4202",
+    "SEE4219",
+    "CA3712",
+    "CA3722",
+    "CA3732",
+    "CA4718",
+    "CA4737",
+    "CA4738",
+    "SEE2001",
+    "SEE3103"
+  ]
+}

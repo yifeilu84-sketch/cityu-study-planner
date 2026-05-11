@@ -1,0 +1,72 @@
+[
+  {
+    "code": "COMP",
+    "title": "Computing",
+    "department": "Department of Computer Science",
+    "credits": 15,
+    "courses": ["CS1102","CS2115","CS2204","CS3103","CS3201","CS4280","CS4284","CS4286","CS1302","CS2311","CS2360","CS3342","CS3343","CS3346","CS3356","CS3391","CS4298","CS4335","CS4348","CS4386","CS2468","CS3382","CS3402","CS3481","CS3483","CS4186","CS4394","CS4480","CS4487"]
+  },
+  {
+    "code": "DS",
+    "title": "Data Science",
+    "department": "Department of Data Science",
+    "credits": 15,
+    "courses": ["DS2031","DS2032","DS2033","DS2034","DS2071","DS2072","DS2073","DS2074","DS2075","DS2076","DS2077","DS2078","DS2079","DS2080","DS2081","DS2082","DS2083","DS2084","DS2085","DS2086","DS2087","DS2088","DS2089","DS2090"]
+  },
+  {
+    "code": "MATH",
+    "title": "Mathematics",
+    "department": "Department of Mathematics",
+    "credits": 15,
+    "courses": ["MA1200","MA1201","MA1300","MA1301","MA2001","MA2002","MA2108","MA2121","MA2131","MA2149","MA2158","MA2171","MA2172","MA2181","MA2185","MA2190","MA3001","MA3160","MA3171","MA3172","MA3173","MA3181","MA3527"]
+  },
+  {
+    "code": "PHYS",
+    "title": "Physics",
+    "department": "Department of Physics",
+    "credits": 15,
+    "courses": ["PHY1201","PHY1202","PHY2101","PHY2102","PHY2103","PHY2104","PHY2201","PHY2202","PHY3101","PHY3102","PHY3201","PHY3202"]
+  },
+  {
+    "code": "MEDC",
+    "title": "Media Communication",
+    "department": "Department of Media and Communication",
+    "credits": 18,
+    "courses": ["COM2105","COM2118","COM2116","COM2501","COM3107","COM3109","COM3115","COM3117","COM3119","COM3203","COM4305","COM4114","COM4510"]
+  },
+  {
+    "code": "PRAD",
+    "title": "Public Relations and Advertising",
+    "department": "Department of Media and Communication",
+    "credits": 18,
+    "courses": ["COM2118","COM3107","COM2116","COM2401","COM2402","COM2501","COM2509","COM3119","COM3406","COM3408","COM3411","COM3510","COM4114","COM4207"]
+  },
+  {
+    "code": "BE",
+    "title": "Business Economics",
+    "department": "Department of Economics and Finance",
+    "credits": 15,
+    "courses": ["EF2100","EF2200","EF2210","EF2401","EF2402","EF2601","EF2700","EF3450","EF3451","EF3452","EF3470","EF3800"]
+  },
+  {
+    "code": "FIN",
+    "title": "Finance",
+    "department": "Department of Economics and Finance",
+    "credits": 15,
+    "courses": ["EF2100","EF2401","EF2402","EF2452","EF3210","EF3450","EF3451","EF3452","EF3470","EF3800","EF4403","EF4404","EF4405"]
+  },
+  {
+    "code": "MKT",
+    "title": "Marketing",
+    "department": "Department of Marketing",
+    "credits": 15,
+    "courses": ["MKT2001","MKT2002","MKT2003","MKT3001","MKT3002","MKT3003","MKT3004","MKT3005","MKT3006","MKT3007","MKT4001","MKT4002","MKT4003"]
+  },
+  {
+    "code": "ACCY",
+    "title": "Accountancy",
+    "department": "Department of Accountancy",
+    "credits": 15,
+    "courses": ["AC2101","AC2102","AC2201","AC2202","AC3101","AC3102","AC3201","AC3202","AC4101","AC4102","AC4201","AC4202"]
+  }
+]

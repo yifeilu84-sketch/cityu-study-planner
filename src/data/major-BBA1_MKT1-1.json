@@ -1,0 +1,1183 @@
+{
+  "code": "BBA1_MKT1-1",
+  "title": "Bachelor of Business Administration in Marketing",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MKT1-1.htm",
+  "degree": "Bachelor of Business",
+  "totalCredits": 121,
+  "department": "Department of Marketing",
+  "college": "College of Business",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 528,
+      "courses": [
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3602",
+          "title": "Marketing Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3603",
+          "title": "Consumer Behaviour",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4606",
+          "title": "Strategic Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4611",
+          "title": "Advanced Marketing Seminar I",
+          "credits": 3,
+          "remarks": "1.Or MKT4613 Dissertation, subject to the approval by Programme Leader.  \n2.The course MKT4611 can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT4613",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": "1.Or MKT4611 Advanced Marketing Seminar, subject to the approval by Programme Leader.  \n2.Students taking MKT4613 will be exempted from one major elective course."
+        },
+        {
+          "code": "MKT4628",
+          "title": "Digital Marketing Strategy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT1641",
+          "title": "Exchange Learning and Reflection",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT1671",
+          "title": "Internship I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT2643A",
+          "title": "Active Learning for Professional Marketing",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT2672",
+          "title": "Internship II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3673",
+          "title": "Internship III",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3607",
+          "title": "Design Thinking and Creativity in Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3608",
+          "title": "Marketing Intelligence and Applications of Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4636",
+          "title": "Customer Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4650",
+          "title": "Designing Brand and Customer Experience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4652",
+          "title": "Designing and Developing Innovative Products",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4680",
+          "title": "Digital Marketing Tools & Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4681",
+          "title": "Data Strategy for Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3600",
+          "title": "China Business Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3638",
+          "title": "Marketing Internship",
+          "credits": 3,
+          "remarks": "1. Either one of (MKT3638 or CB3800), subject to the approval by Programme Leader. \n2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "1. Either one of (MKT3638 or CB3800), subject to the approval by Programme Leader. 2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT3643",
+          "title": "Marketing Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4604",
+          "title": "Marketing in China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4605",
+          "title": "International Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4610",
+          "title": "Customer Relationship Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4622",
+          "title": "Services Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4623",
+          "title": "Selling and Sales Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4624",
+          "title": "Retail Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4625",
+          "title": "Advertising Management and Integrated Marketing Communications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4629",
+          "title": "Social Media Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4633",
+          "title": "Cultural Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4634",
+          "title": "Fundamentals of Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4637",
+          "title": "Event Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4639",
+          "title": "Marketing Diagnostic Residential Trip",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT4651",
+          "title": "Advanced Marketing Seminar II",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT4674",
+          "title": "Advanced Internship",
+          "credits": 6,
+          "remarks": "1. Subject to the approval by the Programme Leader. 2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4605",
+          "title": "International Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4633",
+          "title": "Cultural Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4227",
+          "title": "International Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LC2401",
+          "title": "French 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2501",
+          "title": "German 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2601",
+          "title": "Spanish 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2930",
+          "title": "Japanese 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2956",
+          "title": "Mandarin for Non-Chinese Speakers 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2973",
+          "title": "Korean 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT3608",
+          "title": "Marketing Intelligence and Applications of Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4636",
+          "title": "Customer Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4680",
+          "title": "Digital Marketing Tools & Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4681",
+          "title": "Data Strategy for Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2502",
+          "title": "Social Media and Social Networks",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS3100",
+          "title": "Techniques for Big Data",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3111",
+          "title": "Data Analytics with Excel VBA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3128",
+          "title": "Managerial Decision Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3602",
+          "title": "Marketing Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3603",
+          "title": "Consumer Behaviour",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4606",
+          "title": "Strategic Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4611",
+          "title": "Advanced Marketing Seminar I",
+          "credits": 3,
+          "remarks": "1.Or MKT4613 Dissertation, subject to the approval by Programme Leader.  \n2.The course MKT4611 can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT4613",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": "1.Or MKT4611 Advanced Marketing Seminar, subject to the approval by Programme Leader.  \n2.Students taking MKT4613 will be exempted from one major elective course."
+        },
+        {
+          "code": "MKT4628",
+          "title": "Digital Marketing Strategy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT1641",
+          "title": "Exchange Learning and Reflection",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT1671",
+          "title": "Internship I",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT2643A",
+          "title": "Active Learning for Professional Marketing",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT2672",
+          "title": "Internship II",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3673",
+          "title": "Internship III",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3607",
+          "title": "Design Thinking and Creativity in Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3608",
+          "title": "Marketing Intelligence and Applications of Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4636",
+          "title": "Customer Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4650",
+          "title": "Designing Brand and Customer Experience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4652",
+          "title": "Designing and Developing Innovative Products",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4680",
+          "title": "Digital Marketing Tools & Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4681",
+          "title": "Data Strategy for Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3600",
+          "title": "China Business Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3638",
+          "title": "Marketing Internship",
+          "credits": 3,
+          "remarks": "1. Either one of (MKT3638 or CB3800), subject to the approval by Programme Leader. \n2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "1. Either one of (MKT3638 or CB3800), subject to the approval by Programme Leader. 2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT3643",
+          "title": "Marketing Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4604",
+          "title": "Marketing in China",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4605",
+          "title": "International Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4610",
+          "title": "Customer Relationship Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4622",
+          "title": "Services Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4623",
+          "title": "Selling and Sales Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4624",
+          "title": "Retail Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4625",
+          "title": "Advertising Management and Integrated Marketing Communications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4629",
+          "title": "Social Media Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4633",
+          "title": "Cultural Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4634",
+          "title": "Fundamentals of Public Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4637",
+          "title": "Event Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4639",
+          "title": "Marketing Diagnostic Residential Trip",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT4651",
+          "title": "Advanced Marketing Seminar II",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT4674",
+          "title": "Advanced Internship",
+          "credits": 6,
+          "remarks": "1. Subject to the approval by the Programme Leader. 2. This course can be used to fulfil the internship/\nconsultancy project/research project requirement."
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4605",
+          "title": "International Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4633",
+          "title": "Cultural Advertising",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4227",
+          "title": "International Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LC2401",
+          "title": "French 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2501",
+          "title": "German 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2601",
+          "title": "Spanish 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2930",
+          "title": "Japanese 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2956",
+          "title": "Mandarin for Non-Chinese Speakers 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "LC2973",
+          "title": "Korean 1",
+          "credits": 3,
+          "remarks": "Subject to the approval by Programme Leader"
+        },
+        {
+          "code": "MKT3608",
+          "title": "Marketing Intelligence and Applications of Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4636",
+          "title": "Customer Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4680",
+          "title": "Digital Marketing Tools & Analytics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT4681",
+          "title": "Data Strategy for Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2502",
+          "title": "Social Media and Social Networks",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS3100",
+          "title": "Techniques for Big Data",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3111",
+          "title": "Data Analytics with Excel VBA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3128",
+          "title": "Managerial Decision Analytics",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CB2100",
+    "CB2101",
+    "CB2200",
+    "CB2201",
+    "CB2300",
+    "CB2400",
+    "CB2402",
+    "CB2500",
+    "CB2601",
+    "CB3410",
+    "CB4303",
+    "AC3202",
+    "CB2041",
+    "CB3020",
+    "CB3020A",
+    "CB3021",
+    "CB3041",
+    "CB3043",
+    "CB3044",
+    "CB3045",
+    "CB3800",
+    "CB3810",
+    "CB3820",
+    "CB3830",
+    "CB3840",
+    "CB4605",
+    "CS1102",
+    "IS2021",
+    "IS2023",
+    "MA1006",
+    "MGT3306",
+    "MKT3601",
+    "MS3124",
+    "MS3252",
+    "LW2903",
+    "MKT3602",
+    "MKT3603",
+    "MKT4606",
+    "MKT4611",
+    "MKT4613",
+    "MKT4628",
+    "MKT1641",
+    "MKT1671",
+    "MKT2643A",
+    "MKT2672",
+    "MKT3673",
+    "MKT3607",
+    "MKT3608",
+    "MKT4636",
+    "MKT4650",
+    "MKT4652",
+    "MKT4680",
+    "MKT4681",
+    "MKT3600",
+    "MKT3638",
+    "MKT3643",
+    "MKT4604",
+    "MKT4605",
+    "MKT4610",
+    "MKT4622",
+    "MKT4623",
+    "MKT4624",
+    "MKT4625",
+    "MKT4629",
+    "MKT4633",
+    "MKT4634",
+    "MKT4637",
+    "MKT4639",
+    "MKT4651",
+    "MKT4674",
+    "MGT4227",
+    "LC2401",
+    "LC2501",
+    "LC2601",
+    "LC2930",
+    "LC2956",
+    "LC2973",
+    "IS2502",
+    "IS3100",
+    "MS3111",
+    "MS3128"
+  ]
+}

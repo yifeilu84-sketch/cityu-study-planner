@@ -1,0 +1,1455 @@
+{
+  "code": "BA1_EN-1",
+  "title": "Bachelor of Arts in English",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_EN-1.htm",
+  "degree": "Bachelor of Arts",
+  "totalCredits": 121,
+  "department": "Department of English",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 690,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2714",
+          "title": "Foundations of Literary Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2722",
+          "title": "Foundations of Language and Communication Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2711",
+          "title": "The Structure of English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2717",
+          "title": "Literature Across Time",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2718",
+          "title": "Literature Across Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3329",
+          "title": "Discourse and Pragmatics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3525",
+          "title": "English in Corporate and Professional Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3593",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4575",
+          "title": "Research Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "EN4576",
+          "title": "Professional English Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "EN3504",
+          "title": "Intercultural Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3586",
+          "title": "Workplace Culture and Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3592",
+          "title": "Professional and Corporate Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4574",
+          "title": "Communication Strategies in Business Projects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3589",
+          "title": "Modern Drama: Text and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3594",
+          "title": "English as a World Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3595",
+          "title": "English in Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4577",
+          "title": "Critical Approaches to Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2502",
+          "title": "Language in Social Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2720",
+          "title": "Persuasive Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2837",
+          "title": "Communicating Fashion Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2859",
+          "title": "The Language of Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3321",
+          "title": "Public Speaking and Presentations in Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3513",
+          "title": "Promotional Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3561",
+          "title": "Advertising Copywriting in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3596",
+          "title": "English Summer Programme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4166",
+          "title": "Language and Decision Making",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4505",
+          "title": "Intercultural Organizational Communication and Institutional Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4511",
+          "title": "English in Creative and Cultural Professions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4519",
+          "title": "Public Relations Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4528",
+          "title": "Multimodal and Mediated Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4564",
+          "title": "Strategic Business Communication in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4565",
+          "title": "Negotiation in Professional Contexts",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4573",
+          "title": "Language in Law and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4579",
+          "title": "Research Skills in English Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2131",
+          "title": "Asian Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2319",
+          "title": "Introduction to English Poetry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2320",
+          "title": "Fantasy in Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2321",
+          "title": "Modern and Contemporary Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2322",
+          "title": "Creative Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2721",
+          "title": "The Art of Life Narrative",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2801",
+          "title": "Popular Culture and Social Life",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2808",
+          "title": "Introduction to English Film Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2832",
+          "title": "Literature and Music",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2848",
+          "title": "Language and Digital Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3327",
+          "title": "Drama Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3571",
+          "title": "Advanced English Phonetics and Phonology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3572",
+          "title": "Fiction Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3578",
+          "title": "Travel Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3579",
+          "title": "World Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3580",
+          "title": "Literature in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3581",
+          "title": "Literature and the City",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3587",
+          "title": "Critical Discourse Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3588",
+          "title": "Advanced English Grammar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3589",
+          "title": "Modern Drama: Text and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3590",
+          "title": "Crime Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3591",
+          "title": "Hong Kong Language and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3594",
+          "title": "English as a World Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3595",
+          "title": "English in Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4525",
+          "title": "Gender Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4577",
+          "title": "Critical Approaches to Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4578",
+          "title": "Shakespeare: Film, Text, Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2131",
+          "title": "Asian Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2319",
+          "title": "Introduction to English Poetry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2320",
+          "title": "Fantasy in Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2321",
+          "title": "Modern and Contemporary Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2322",
+          "title": "Creative Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2721",
+          "title": "The Art of Life Narrative",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2801",
+          "title": "Popular Culture and Social Life",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2808",
+          "title": "Introduction to English Film Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2832",
+          "title": "Literature and Music",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2848",
+          "title": "Language and Digital Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3327",
+          "title": "Drama Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3571",
+          "title": "Advanced English Phonetics and Phonology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3572",
+          "title": "Fiction Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3578",
+          "title": "Travel Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3579",
+          "title": "World Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3580",
+          "title": "Literature in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3581",
+          "title": "Literature and the City",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3587",
+          "title": "Critical Discourse Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3588",
+          "title": "Advanced English Grammar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3590",
+          "title": "Crime Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3591",
+          "title": "Hong Kong Language and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3596",
+          "title": "English Summer Programme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4525",
+          "title": "Gender Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4578",
+          "title": "Shakespeare: Film, Text, Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4579",
+          "title": "Research Skills in English Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2502",
+          "title": "Language in Social Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2720",
+          "title": "Persuasive Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2837",
+          "title": "Communicating Fashion Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3321",
+          "title": "Public Speaking and Presentations in Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3504",
+          "title": "Intercultural Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3513",
+          "title": "Promotional Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3561",
+          "title": "Advertising Copywriting in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3586",
+          "title": "Workplace Culture and Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3592",
+          "title": "Professional and Corporate Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4166",
+          "title": "Language and Decision Making",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4505",
+          "title": "Intercultural Organizational Communication and Institutional Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4511",
+          "title": "English in Creative and Cultural Professions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4519",
+          "title": "Public Relations Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4528",
+          "title": "Multimodal and Mediated Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4564",
+          "title": "Strategic Business Communication in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4565",
+          "title": "Negotiation in Professional Contexts",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4573",
+          "title": "Language in Law and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4574",
+          "title": "Communication Strategies in Business Projects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2714",
+          "title": "Foundations of Literary Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2722",
+          "title": "Foundations of Language and Communication Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2711",
+          "title": "The Structure of English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2717",
+          "title": "Literature Across Time",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2718",
+          "title": "Literature Across Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3329",
+          "title": "Discourse and Pragmatics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3525",
+          "title": "English in Corporate and Professional Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3593",
+          "title": "Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4575",
+          "title": "Research Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "EN4576",
+          "title": "Professional English Final Year Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "EN3504",
+          "title": "Intercultural Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3586",
+          "title": "Workplace Culture and Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3592",
+          "title": "Professional and Corporate Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4574",
+          "title": "Communication Strategies in Business Projects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3589",
+          "title": "Modern Drama: Text and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3594",
+          "title": "English as a World Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3595",
+          "title": "English in Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4577",
+          "title": "Critical Approaches to Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2502",
+          "title": "Language in Social Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2720",
+          "title": "Persuasive Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2837",
+          "title": "Communicating Fashion Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2859",
+          "title": "The Language of Sustainability",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3321",
+          "title": "Public Speaking and Presentations in Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3513",
+          "title": "Promotional Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3561",
+          "title": "Advertising Copywriting in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3596",
+          "title": "English Summer Programme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4166",
+          "title": "Language and Decision Making",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4505",
+          "title": "Intercultural Organizational Communication and Institutional Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4511",
+          "title": "English in Creative and Cultural Professions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4519",
+          "title": "Public Relations Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4528",
+          "title": "Multimodal and Mediated Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4564",
+          "title": "Strategic Business Communication in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4565",
+          "title": "Negotiation in Professional Contexts",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4573",
+          "title": "Language in Law and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4579",
+          "title": "Research Skills in English Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2131",
+          "title": "Asian Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2319",
+          "title": "Introduction to English Poetry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2320",
+          "title": "Fantasy in Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2321",
+          "title": "Modern and Contemporary Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2322",
+          "title": "Creative Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2721",
+          "title": "The Art of Life Narrative",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2801",
+          "title": "Popular Culture and Social Life",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2808",
+          "title": "Introduction to English Film Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2832",
+          "title": "Literature and Music",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2848",
+          "title": "Language and Digital Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3327",
+          "title": "Drama Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3571",
+          "title": "Advanced English Phonetics and Phonology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3572",
+          "title": "Fiction Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3578",
+          "title": "Travel Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3579",
+          "title": "World Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3580",
+          "title": "Literature in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3581",
+          "title": "Literature and the City",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3587",
+          "title": "Critical Discourse Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3588",
+          "title": "Advanced English Grammar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3589",
+          "title": "Modern Drama: Text and Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3590",
+          "title": "Crime Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3591",
+          "title": "Hong Kong Language and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3594",
+          "title": "English as a World Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3595",
+          "title": "English in Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4525",
+          "title": "Gender Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4577",
+          "title": "Critical Approaches to Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4578",
+          "title": "Shakespeare: Film, Text, Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2131",
+          "title": "Asian Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2319",
+          "title": "Introduction to English Poetry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2320",
+          "title": "Fantasy in Literature",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2321",
+          "title": "Modern and Contemporary Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2322",
+          "title": "Creative Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2721",
+          "title": "The Art of Life Narrative",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2801",
+          "title": "Popular Culture and Social Life",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2808",
+          "title": "Introduction to English Film Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2832",
+          "title": "Literature and Music",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2848",
+          "title": "Language and Digital Media",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3327",
+          "title": "Drama Workshop",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3571",
+          "title": "Advanced English Phonetics and Phonology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3572",
+          "title": "Fiction Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3578",
+          "title": "Travel Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3579",
+          "title": "World Literature in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3580",
+          "title": "Literature in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3581",
+          "title": "Literature and the City",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3587",
+          "title": "Critical Discourse Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3588",
+          "title": "Advanced English Grammar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3590",
+          "title": "Crime Fiction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3591",
+          "title": "Hong Kong Language and Society",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3596",
+          "title": "English Summer Programme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4525",
+          "title": "Gender Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4578",
+          "title": "Shakespeare: Film, Text, Performance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4579",
+          "title": "Research Skills in English Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2502",
+          "title": "Language in Social Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2720",
+          "title": "Persuasive Writing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2837",
+          "title": "Communicating Fashion Culture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3321",
+          "title": "Public Speaking and Presentations in Context",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3504",
+          "title": "Intercultural Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3513",
+          "title": "Promotional Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3561",
+          "title": "Advertising Copywriting in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3586",
+          "title": "Workplace Culture and Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN3592",
+          "title": "Professional and Corporate Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4166",
+          "title": "Language and Decision Making",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4505",
+          "title": "Intercultural Organizational Communication and Institutional Interaction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4511",
+          "title": "English in Creative and Cultural Professions",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4519",
+          "title": "Public Relations Writing in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4528",
+          "title": "Multimodal and Mediated Discourse",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4564",
+          "title": "Strategic Business Communication in English",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4565",
+          "title": "Negotiation in Professional Contexts",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4573",
+          "title": "Language in Law and Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN4574",
+          "title": "Communication Strategies in Business Projects",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "EN2714",
+    "EN2722",
+    "EN2711",
+    "EN2717",
+    "EN2718",
+    "EN3329",
+    "EN3525",
+    "EN3593",
+    "EN4575",
+    "EN4576",
+    "EN3504",
+    "EN3586",
+    "EN3592",
+    "EN4574",
+    "EN3589",
+    "EN3594",
+    "EN3595",
+    "EN4577",
+    "EN2502",
+    "EN2720",
+    "EN2837",
+    "EN2859",
+    "EN3321",
+    "EN3513",
+    "EN3561",
+    "EN3596",
+    "EN4166",
+    "EN4505",
+    "EN4511",
+    "EN4519",
+    "EN4528",
+    "EN4564",
+    "EN4565",
+    "EN4573",
+    "EN4579",
+    "CAI4001",
+    "EN2131",
+    "EN2319",
+    "EN2320",
+    "EN2321",
+    "EN2322",
+    "EN2721",
+    "EN2801",
+    "EN2808",
+    "EN2832",
+    "EN2848",
+    "EN3327",
+    "EN3571",
+    "EN3572",
+    "EN3578",
+    "EN3579",
+    "EN3580",
+    "EN3581",
+    "EN3587",
+    "EN3588",
+    "EN3590",
+    "EN3591",
+    "EN4525",
+    "EN4578"
+  ]
+}

@@ -1,0 +1,1005 @@
+{
+  "code": "BBA1_AC-1",
+  "title": "Bachelor of Business Administration in Accountancy",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_AC-1.htm",
+  "degree": "Bachelor of Business",
+  "totalCredits": 121,
+  "department": "Department of Accountancy",
+  "college": "College of Business",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 480,
+      "courses": [
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB2041",
+          "title": "Applications of Game Theory to Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020",
+          "title": "Advanced Business Seminar",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CB3020A",
+          "title": "Advanced Business Seminar+",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "CB3021",
+          "title": "Business Discovery Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3041",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3043",
+          "title": "Business Case Analysis and Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3044",
+          "title": "Introduction to Financial Markets",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3045",
+          "title": "Advanced Seminar on Business Case Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CB3800",
+          "title": "Business Practice Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3810",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3820",
+          "title": "Start-up Technology Entrepreneur Programme II",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3830",
+          "title": "Business Consultancy Internship in Greater Bay Area",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB3840",
+          "title": "Consulting Co-op Programme",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CB4605",
+          "title": "Business Consultancy Project",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2021",
+          "title": "Big Data Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "IS2023",
+          "title": "Mobile Applications for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1006",
+          "title": "Calculus and Linear Algebra for Business",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MKT3601",
+          "title": "China Business Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3124",
+          "title": "Global Supply Chain Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW2903",
+          "title": "Business and Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4332",
+          "title": "Corporate Finance and Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4391",
+          "title": "Accounting and Business Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW3902",
+          "title": "The Law Relating to Companies",
+          "credits": 3,
+          "remarks": "Students are required to take LW2903 to fulfil the prerequisite requirement"
+        },
+        {
+          "code": "AC4251",
+          "title": "Taxation and Tax Planning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4301",
+          "title": "Corporate Accounting II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4303",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4342",
+          "title": "Auditing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3252",
+          "title": "Accounting and Taxation Systems in the Chinese Mainland",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3390",
+          "title": "ESG and ESG Disclosure",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3391",
+          "title": "Corporate Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4161",
+          "title": "Accounting Information Systems and Emerging Technologies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4305",
+          "title": "Advanced Accounting Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4308",
+          "title": "Accounting Meets Culture - Int'l Std Setting Bodies, Sustainability & Cultural Insights from Europe",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4322",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4343",
+          "title": "Advanced Auditing Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4351",
+          "title": "Advanced Taxation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4382",
+          "title": "Contemporary Accounting and Business Issues: Global Perspectives",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4383",
+          "title": "AC Professional Internship and Professional Attachment",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4384",
+          "title": "Advanced Professional Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4385",
+          "title": "Accounting and Business Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4392",
+          "title": "Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4393",
+          "title": "Boardroom Dynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4483",
+          "title": "Comprehensive Assurance Co-op Apprenticeship",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC3390",
+          "title": "ESG and ESG Disclosure",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3391",
+          "title": "Corporate Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4161",
+          "title": "Accounting Information Systems and Emerging Technologies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4392",
+          "title": "Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3252",
+          "title": "Accounting and Taxation Systems in the Chinese Mainland",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4251",
+          "title": "Taxation and Tax Planning",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 9 Principles of Taxation"
+        },
+        {
+          "code": "AC4301",
+          "title": "Corporate Accounting II",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 6 Financial Accounting"
+        },
+        {
+          "code": "AC4303",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 6 Financial Accounting"
+        },
+        {
+          "code": "AC4308",
+          "title": "Accounting Meets Culture - Int'l Std Setting Bodies, Sustainability & Cultural Insights from Europe",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4342",
+          "title": "Auditing",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 8 Principles of Auditing"
+        },
+        {
+          "code": "AC4382",
+          "title": "Contemporary Accounting and Business Issues: Global Perspectives",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4383",
+          "title": "AC Professional Internship and Professional Attachment",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4384",
+          "title": "Advanced Professional Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4385",
+          "title": "Accounting and Business Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4393",
+          "title": "Boardroom Dynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4483",
+          "title": "Comprehensive Assurance Co-op Apprenticeship",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "IS3101",
+          "title": "Blockchain and Digital Currency",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4332",
+          "title": "Corporate Finance and Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4391",
+          "title": "Accounting and Business Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LW3902",
+          "title": "The Law Relating to Companies",
+          "credits": 3,
+          "remarks": "Students are required to take LW2903 to fulfil the prerequisite requirement"
+        },
+        {
+          "code": "AC4251",
+          "title": "Taxation and Tax Planning",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4301",
+          "title": "Corporate Accounting II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4303",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4342",
+          "title": "Auditing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3252",
+          "title": "Accounting and Taxation Systems in the Chinese Mainland",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3390",
+          "title": "ESG and ESG Disclosure",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3391",
+          "title": "Corporate Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4161",
+          "title": "Accounting Information Systems and Emerging Technologies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4305",
+          "title": "Advanced Accounting Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4308",
+          "title": "Accounting Meets Culture - Int'l Std Setting Bodies, Sustainability & Cultural Insights from Europe",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4322",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4343",
+          "title": "Advanced Auditing Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4351",
+          "title": "Advanced Taxation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4382",
+          "title": "Contemporary Accounting and Business Issues: Global Perspectives",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4383",
+          "title": "AC Professional Internship and Professional Attachment",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4384",
+          "title": "Advanced Professional Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4385",
+          "title": "Accounting and Business Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4392",
+          "title": "Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4393",
+          "title": "Boardroom Dynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4483",
+          "title": "Comprehensive Assurance Co-op Apprenticeship",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC3390",
+          "title": "ESG and ESG Disclosure",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3391",
+          "title": "Corporate Governance",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4161",
+          "title": "Accounting Information Systems and Emerging Technologies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4392",
+          "title": "Risk Management",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC3252",
+          "title": "Accounting and Taxation Systems in the Chinese Mainland",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4251",
+          "title": "Taxation and Tax Planning",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 9 Principles of Taxation"
+        },
+        {
+          "code": "AC4301",
+          "title": "Corporate Accounting II",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 6 Financial Accounting"
+        },
+        {
+          "code": "AC4303",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 6 Financial Accounting"
+        },
+        {
+          "code": "AC4308",
+          "title": "Accounting Meets Culture - Int'l Std Setting Bodies, Sustainability & Cultural Insights from Europe",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4342",
+          "title": "Auditing",
+          "credits": 3,
+          "remarks": "Professional Accreditation* - for module exemption of Associate Module 8 Principles of Auditing"
+        },
+        {
+          "code": "AC4382",
+          "title": "Contemporary Accounting and Business Issues: Global Perspectives",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4383",
+          "title": "AC Professional Internship and Professional Attachment",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4384",
+          "title": "Advanced Professional Internship",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4385",
+          "title": "Accounting and Business Project",
+          "credits": 3,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "AC4393",
+          "title": "Boardroom Dynamics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "AC4483",
+          "title": "Comprehensive Assurance Co-op Apprenticeship",
+          "credits": 6,
+          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+        },
+        {
+          "code": "IS3101",
+          "title": "Blockchain and Digital Currency",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CB2100",
+    "CB2101",
+    "CB2200",
+    "CB2201",
+    "CB2300",
+    "CB2400",
+    "CB2402",
+    "CB2500",
+    "CB2601",
+    "CB3410",
+    "CB4303",
+    "AC3202",
+    "CB2041",
+    "CB3020",
+    "CB3020A",
+    "CB3021",
+    "CB3041",
+    "CB3043",
+    "CB3044",
+    "CB3045",
+    "CB3800",
+    "CB3810",
+    "CB3820",
+    "CB3830",
+    "CB3840",
+    "CB4605",
+    "CS1102",
+    "IS2021",
+    "IS2023",
+    "MA1006",
+    "MGT3306",
+    "MKT3601",
+    "MS3124",
+    "MS3252",
+    "LW2903",
+    "AC4332",
+    "AC4391",
+    "LW3902",
+    "AC4251",
+    "AC4301",
+    "AC4303",
+    "AC4342",
+    "AC3252",
+    "AC3390",
+    "AC3391",
+    "AC4161",
+    "AC4305",
+    "AC4308",
+    "AC4322",
+    "AC4343",
+    "AC4351",
+    "AC4382",
+    "AC4383",
+    "AC4384",
+    "AC4385",
+    "AC4392",
+    "AC4393",
+    "AC4483",
+    "IS3101"
+  ]
+}

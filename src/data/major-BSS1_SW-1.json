@@ -1,0 +1,541 @@
+{
+  "code": "BSS1_SW-1",
+  "title": "Bachelor of Social Sciences in Social Work",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_SW-1.htm",
+  "degree": "Bachelor of Social",
+  "totalCredits": 121,
+  "department": "Department of Social and Behavioural Sciences",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 246,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2029",
+          "title": "Basic Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2105",
+          "title": "Introduction to Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2113",
+          "title": "Working with Individuals and Families",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2115",
+          "title": "Working with Groups",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2116",
+          "title": "Working with Organizations and Communities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2201",
+          "title": "Interpersonal Communication and Counselling Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2202",
+          "title": "Community Organising Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2203",
+          "title": "Team Building and Group Work Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2278",
+          "title": "Self Development Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3282",
+          "title": "Social Work and the Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3283",
+          "title": "Introduction to Fieldwork Learning I",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3284",
+          "title": "Introduction to Fieldwork Learning II",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3285",
+          "title": "Human Behaviour and Social Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3286",
+          "title": "Social Welfare Policy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3290",
+          "title": "Social Work Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3292",
+          "title": "Practicum I",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "SS4004",
+          "title": "Integrated Social Work Practice Seminar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4111",
+          "title": "Management and Supervision in Human Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4210",
+          "title": "Mental Health and Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4291",
+          "title": "Practicum II",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "SS4206",
+          "title": "Working with Children & Families",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4207",
+          "title": "Working with Young People and Offenders",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4215",
+          "title": "Health and Aging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4216",
+          "title": "Working with People with Disabilities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4223",
+          "title": "School Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3117",
+          "title": "Gender Perspective in Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4217",
+          "title": "Conflict Management and Mediation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4225",
+          "title": "Domestic Violence: Theories and Practices for Social Workers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4226",
+          "title": "Emotional and Relational Competence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4227",
+          "title": "Contemporary Social Work Intervention Approaches",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2029",
+          "title": "Basic Sociology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2105",
+          "title": "Introduction to Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2113",
+          "title": "Working with Individuals and Families",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2115",
+          "title": "Working with Groups",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2116",
+          "title": "Working with Organizations and Communities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2201",
+          "title": "Interpersonal Communication and Counselling Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2202",
+          "title": "Community Organising Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2203",
+          "title": "Team Building and Group Work Skills Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2278",
+          "title": "Self Development Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3282",
+          "title": "Social Work and the Law",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3283",
+          "title": "Introduction to Fieldwork Learning I",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3284",
+          "title": "Introduction to Fieldwork Learning II",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3285",
+          "title": "Human Behaviour and Social Environment",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3286",
+          "title": "Social Welfare Policy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3290",
+          "title": "Social Work Research",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3292",
+          "title": "Practicum I",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "SS4004",
+          "title": "Integrated Social Work Practice Seminar",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4111",
+          "title": "Management and Supervision in Human Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4210",
+          "title": "Mental Health and Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4291",
+          "title": "Practicum II",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "SS4206",
+          "title": "Working with Children & Families",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4207",
+          "title": "Working with Young People and Offenders",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4215",
+          "title": "Health and Aging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4216",
+          "title": "Working with People with Disabilities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4223",
+          "title": "School Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3117",
+          "title": "Gender Perspective in Social Work",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4217",
+          "title": "Conflict Management and Mediation",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4225",
+          "title": "Domestic Violence: Theories and Practices for Social Workers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4226",
+          "title": "Emotional and Relational Competence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4227",
+          "title": "Contemporary Social Work Intervention Approaches",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "SS1011",
+    "SS1101",
+    "SS1024",
+    "SS2029",
+    "SS2105",
+    "SS2113",
+    "SS2115",
+    "SS2116",
+    "SS2201",
+    "SS2202",
+    "SS2203",
+    "SS2278",
+    "SS3282",
+    "SS3283",
+    "SS3284",
+    "SS3285",
+    "SS3286",
+    "SS3290",
+    "SS3292",
+    "SS4004",
+    "SS4111",
+    "SS4210",
+    "SS4291",
+    "SS4206",
+    "SS4207",
+    "SS4215",
+    "SS4216",
+    "SS4223",
+    "SS3117",
+    "SS4217",
+    "SS4225",
+    "SS4226",
+    "SS4227"
+  ]
+}

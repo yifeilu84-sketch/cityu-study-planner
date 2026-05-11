@@ -1,0 +1,5319 @@
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+(Please note that the information given in this Handbook is accurate at the time of  
+printing in August  
+2025 
+. Changes to the information may be made from time to time  
+without prior notification.) 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+For further information, please contact:  
+  
+  
+Department of Systems Engineering 
+  
+Room P6600, 6/F, Purple Zone 
+  
+Yeung Kin Man Academic Building 
+  
+City University of Hong Kong 
+  
+83 Tat Chee Avenue 
+  
+Kowloon Tong, Hong Kong 
+  
+  
+Tel: 
+  
+  
+(852) 3442 9321 
+  
+Email: 
+  
+sye.office 
+@cityu.edu.hk 
+  
+Website: 
+  
+www.cityu.edu.hk/ 
+sye 
+  
+  
+  
+
+---PAGE 1 BREAK---
+- 
+  
+1 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+BACHELOR OF ENGI 
+NEERING  
+IN 
+  
+  
+INTELLIGENT MANUFACTURING ENGINEERING 
+  
+(BENG  
+ITME 
+) 
+  
+  
+Student Handbook  
+( 
+20 
+2 
+5 
+- 
+20 
+2 
+6 
+) 
+  
+  
+  
+Contents 
+  
+1 
+  
+AIMS OF MAJOR 
+  
+................................ 
+................................ 
+................................ 
+................................ 
+.......... 
+  
+2 
+  
+2 
+  
+DEGREE REQUIREMENT 
+  
+................................ 
+................................ 
+................................ 
+........................... 
+  
+3 
+  
+3 
+  
+CLASSIFICATION OF AWARD 
+  
+................................ 
+................................ 
+................................ 
+.................. 
+  
+9 
+  
+4 
+  
+AC 
+ADEMIC REGULATIONS AND GUIDELINES 
+  
+................................ 
+................................ 
+.................... 
+  
+9 
+  
+5 
+  
+ACADEMIC HONESTY 
+  
+................................ 
+................................ 
+................................ 
+............................... 
+  
+9 
+  
+6 
+  
+STUDENT DEVELOPMENT SERVICES (SDS) 
+  
+................................ 
+................................ 
+....................... 
+  
+10 
+  
+7 
+  
+COMMUNICATIONS 
+  
+................................ 
+................................ 
+................................ 
+................................ 
+. 
+  
+10 
+  
+8 
+  
+MAJOR LEADER, YEAR TUTOR AND COORDINATORS 
+  
+................................ 
+................................ 
+... 
+  
+11 
+  
+9 
+  
+INFORMATION TO NEW STUDENTS 
+  
+................................ 
+................................ 
+................................ 
+..... 
+  
+11 
+  
+9.1 
+  
+How to access your Personal Class Schedule 
+  
+................................ 
+................................ 
+........................... 
+  
+11 
+  
+9.2 
+  
+How to get Instructors’ handouts through Can 
+vas 
+  
+................................ 
+................................ 
+.................... 
+  
+11 
+  
+9.3 
+  
+How to check Major Programme Requirement and Course Syllabuses 
+  
+................................ 
+................... 
+  
+11 
+  
+9.4 
+  
+Course Registration for Semester A 2025 
+- 
+2026 
+  
+................................ 
+................................ 
+....................... 
+  
+12 
+  
+9.5 
+  
+How to access your Student Email Account 
+  
+................................ 
+................................ 
+............................. 
+  
+12 
+  
+9.6 
+  
+Credit Exemption 
+  
+................................ 
+................................ 
+................................ 
+................................ 
+...... 
+  
+13 
+  
+9.7 
+  
+Safety Orientation 
+  
+................................ 
+................................ 
+................................ 
+................................ 
+..... 
+  
+13 
+  
+9.8 
+  
+Administrative Support from SYE General Office 
+  
+................................ 
+................................ 
+................... 
+  
+13 
+  
+  
+Appendix I : Model Study Path 
+  
+................................ 
+................................ 
+................................ 
+......................... 
+  
+15 
+  
+Model Study Path for BENG ITME 2025/2026  (normative 4 
+- 
+year) (non 
+- 
+CES mode) 
+  
+................................ 
+....... 
+  
+16 
+  
+Model Study Path for BENG ITME 2025/2026  (normative 4 
+- 
+year) (Optional CES mode) 
+  
+............................... 
+  
+17 
+  
+Model Study Path for BENG ITME 2025/2026  (normative 4 
+- 
+year) (non 
+- 
+CES Go Global mode) 
+  
+..................... 
+  
+18 
+  
+Model Stud 
+y Path for BENG ITME 2025/2026  Advanced Standing I (non 
+- 
+CES mode) 
+  
+................................ 
+... 
+  
+19 
+  
+Model Study Path for BENG ITME 2025/2026  Advanced Standing  
+I (Optional CES mode) 
+  
+............................ 
+  
+20 
+  
+Model Study Path for BENG ITME 2025/2026  Advanced Standing I (non 
+- 
+CES Go Global mode) 
+  
+.................. 
+  
+21 
+  
+Model Study Path for BENG ITME 2025/2026  Advanced Standing II (non 
+- 
+CES mode) 
+  
+................................ 
+.. 
+  
+22 
+  
+  
+
+---PAGE 2 BREAK---
+- 
+  
+2 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+1 
+  
+AIMS OF MAJOR 
+  
+  
+This  
+major  
+emphasizes  
+the  
+integration  
+of  
+basic  
+knowledge  
+in  
+intelligent  
+manufacturing  
+systems,  
+innovative  
+process  
+design  
+and  
+automation,  
+advanced  
+manufacturing technologies, systems modeling and optimization, and quality and  
+reliability engineering, with p 
+articular emphasis on electronics and semiconductor  
+manufacturing. This multi 
+- 
+disciplinary program aims to produce graduates who are  
+capable of using cutting 
+- 
+edge engineering knowledge, computational, experimental  
+and  
+analytical 
+  
+techniques to plan, design, 
+  
+implement and improve technology 
+- 
+based  
+manufacturing and operations systems and enterprises. 
+  
+  
+Intended 
+  
+Learning Outcomes of Major (MILOs) 
+  
+  
+Upon successful completion of this Major, a BENG  
+ITME 
+  
+graduate should be able  
+to: 
+  
+  
+1. 
+  
+Apply knowledge of  
+mathematics, science, engineering, and intelligent  
+manufacturing engineering to analyzing and improving operations systems  
+and  
+performance  
+of  
+enterprises,  
+particularly  
+in  
+electronics  
+and  
+semiconductor manufacturing. 
+  
+2. 
+  
+Design and conduct  
+experiments, and analyze and interpret data that are  
+relevant to the planning, processes, logistics, and operations systems in an  
+enterprise, particularly in electronics and semiconductor manufacturing. 
+  
+3. 
+  
+Design processes, systems, products and  
+services, to meet desired needs  
+within realistic constraints such as economic, environmental, health and  
+safety, manufacturability, and sustainability. 
+  
+4. 
+  
+Function effectively and responsibly in multi 
+- 
+disciplinary teams to achieve  
+synergetic benefits.  
+  
+5. 
+  
+Identify, evaluate, formulate, solve engineering problems relevant to the  
+planning, processes, logistics and operations systems in an enterprise, and  
+undertake projects of discovery and innovation. 
+  
+6. 
+  
+Explain professional and ethical responsibility. 
+  
+7. 
+  
+Demonstrate effective communication. 
+  
+8. 
+  
+Have knowledge in contemporary issues and awareness of the impact of  
+engineering solutions in a broad, global and societal context. 
+  
+9. 
+  
+Recognize the need for, and an ability to engage in life 
+- 
+long  
+learning. 
+  
+10. 
+  
+Use necessary engineering and IT skills and tools for engineering practice,  
+discovery and innovation. 
+  
+  
+  
+  
+
+---PAGE 3 BREAK---
+- 
+  
+3 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+2 
+  
+DEGREE REQUIREMENT 
+  
+  
+2.1 
+  
+Minimum Number of Credit Units Required for the Award 
+  
+  
+Degree Requirement 
+  
+Normative 
+  
+4 
+- 
+year Degree 
+  
+Advanced 
+  
+Standing I 
+  
+(Note 1) 
+  
+Advanced  
+Standing II 
+  
+(Senior 
+- 
+year  
+Entry) 
+  
+(Note 2) 
+  
+Gateway Education requirement 
+  
+31 credit units 
+  
+22 credit units 
+  
+12 credit units 
+  
+College/School requirement 
+  
+6 credit units 
+  
+Waived 
+  
+Waived 
+  
+Major requirement 
+  
+81 credit units 
+  
+(Core: 66 
+  
+Elective: 15) 
+  
+75 credit units 
+  
+(Core: 63 
+  
+Elective: 12) 
+  
+60 credit units 
+  
+(Core: 54 
+  
+Elective: 6) 
+  
+Free electives / Minor (optional) 
+  
+3 credit units 
+  
+N/A 
+  
+N/A 
+  
+Minimum number of credit units  
+required for the award 
+  
+121 credit units 
+  
+97 credit units 
+  
+72 credit  
+units 
+  
+  
+  
+  
+  
+Maximum number of credit units  
+permitted 
+  
+144 credit units 
+  
+114 credit units 
+  
+8 
+4 credit units 
+  
+  
+Normal Period of Study 
+  
+  
+  
+  
+  
+Normative 
+  
+4 
+- 
+year Degree 
+  
+Advanced 
+  
+Standing I 
+  
+Advanced  
+Standing II 
+  
+(Senior 
+- 
+year  
+Entry) 
+  
+Normal period of study 
+  
+4 years 
+  
+3  
+years 
+  
+2 years 
+  
+Maximum period of study 
+  
+8 years 
+  
+6 years 
+  
+5  
+years 
+  
+Note 1: For students with recognised Advanced Level Examination or equivalent qualifications. 
+  
+Note 2:  
+For Associate Degree/Higher Diploma graduates admitted as senior 
+- 
+year intake  
+students. 
+  
+  
+  
+  
+
+---PAGE 4 BREAK---
+- 
+  
+4 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+2.2 
+  
+Gateway 
+  
+Education 
+  
+(Please refer to  
+https://www.cityu.edu.hk/catalogue/ug/current/catalogue/catalogue_UC.htm?page=B/ge_requirement.htm) 
+  
+  
+  
+  
+Normative 
+  
+4 
+- 
+year Degree 
+  
+Advanced 
+  
+Standing I 
+  
+Advanced 
+  
+Standing I 
+I 
+  
+(Senior 
+- 
+year Entry 
+) 
+  
+University requirements 
+  
+  
+  
+  
+English  
+  
+  
+  
+  
+• 
+  
+GE1401 University English 
+  
+3 credit units 
+  
+3 credit units 
+  
+Not a compulsory  
+requirement 
+  
+• 
+  
+Discipline 
+- 
+specific English 
+  
+3 credit units 
+  
+3 credit units 
+  
+3 credit units 
+  
+GE1501  
+Chinese Civilisation  
+– 
+  
+History and  
+Philosophy 
+  
+3 credit units 
+  
+3 credit units 
+  
+Not  
+a  
+compulsory  
+requirement 
+  
+GE1601 Whole 
+- 
+Person Development 
+  
+1 
+  
+credit unit 
+  
+1 
+  
+credit unit 
+  
+Not  
+a  
+compulsory  
+requirement 
+  
+Distributional requirements 
+  
+Area 1: Arts and Humanities 
+  
+Area 2: S 
+t 
+udy of Societies, Social and  
+Business Organisations 
+  
+Area 3: Science and Technology 
+  
+12 credit units 
+  
+  
+( 
+At least one  
+course from each  
+of the three areas) 
+  
+6 credit units 
+  
+  
+(From two  
+different areas) 
+  
+3 credit units 
+  
+College/School 
+- 
+specified  
+course 
+s ^ 
+  
+9 credit units 
+  
+6 credit units 
+  
+6 credit units 
+  
+Total 
+  
+31 
+  
+credit units 
+  
+22 
+  
+credit units 
+  
+12 credit units 
+  
+  
+  
+^College/School 
+- 
+specified  
+ C  
+ourses for fulfilling the Gateway Education  
+R 
+equirement 
+  
+  
+Course Code 
+  
+Course Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks 
+  
+Normative 4 
+- 
+year Degree 
+  
+MA1200/ 
+  
+MA1300 
+  
+Calculus and Basic Linear Algebra I/ 
+  
+Enhanced Calculus and Linear Algebra I 
+  
+B1 
+  
+3 
+  
+  
+MA1201/ 
+  
+MA1301 
+  
+Calculus and Basic Linear Algebra II/ 
+  
+Enhanced Calculus and Linear Algebra II 
+  
+B1 
+  
+3 
+  
+  
+SYE 
+2066 
+  
+Professional Engineering Practice 
+  
+B2 
+  
+3 
+  
+  
+Advanced Standing I 
+  
+MA1200/ 
+  
+MA1300 
+  
+Calculus and Basic Linear Algebra I/ 
+  
+Enhanced Calculus and Linear Algebra I 
+  
+B1 
+  
+3 
+  
+Students exempted from  
+MA1200 or MA1300 should  
+take any other course(s) not  
+within the  
+Major Requirement  
+(including core courses and  
+electives) in order to meet the  
+minimum curriculum  
+requirement. 
+  
+  
+SYE 
+2066 
+  
+Professional Engineering Practice 
+  
+B2 
+  
+3 
+  
+  
+Advanced Standing II (Senior 
+- 
+year Entry) 
+  
+Take any courses not within the Major  
+requirement (including Core  
+Courses and Electives) 
+  
+  
+6 
+  
+  
+  
+  
+
+---PAGE 5 BREAK---
+- 
+  
+5 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+  
+2.2.1 
+  
+English  
+Language 
+  
+Requirement 
+  
+  
+Normative 4 
+- 
+year degree students and Advanced Standing I students who passed the 6 credit units  
+of specified GE English courses, and Advanced Standing II  
+students who passed the 3 credit units  
+of discipline 
+- 
+specific GE English course are recognized as fulfilling the University’s English  
+Language Requirement. 
+  
+  
+Students scoring below Level 4 in HKDSE English Language or Grade D in HKALE AS 
+- 
+level Use  
+of Englis 
+h or students who do not possess an equivalent qualification are required to complete  
+two 3 
+- 
+credit unit courses, LC0200A English for Academic Purposes 1 and LC0200B English for  
+Academic Purposes 2, prior to taking the GE English courses. Students who demon 
+strate that they  
+have achieved a grade B or above in their overall course results for LC0200A will achieve 3  
+credits and also be considered to have satisfied the pre 
+- 
+requisite for entry to the GE English  
+courses without needing to take LC0200B. The credit  
+units of LC0200A and LC0200B will not be  
+counted towards the minimum credit units required for graduation and will not be included in the  
+calculation of the cumulative grade point average (CGPA). However, they will be counted towards  
+the maximum credit uni 
+ts permitted. 
+  
+  
+2.2.2 
+  
+Chinese Language Requirement 
+  
+  
+Students scoring  
+below 
+  
+Level 4 in HKDSE Chinese Language, or below Grade D in HKALE AS 
+- 
+level Chinese Language and Culture will be required to complete a 3 
+- 
+credit unit course CHIN1001  
+University Chinese I. The 3  
+credit units will not be counted towards the minimum credit units  
+required for graduation and will not be included in the calculation of the cumulative grade point  
+average (CGPA). However, they will be counted towards the maximum credit units permitted. 
+  
+  
+2.3 
+  
+Internship/Consultancy Project/Research Project Requirement 
+  
+  
+Normative 4 
+- 
+year degree students admitted in 2022/23 and thereafter are required to fulfil the  
+internship/consultancy project/research project requirement in accordance with the  
+requirements  
+stipulated by the respective College/School. The curriculum 
+- 
+related internship courses should be  
+credit 
+- 
+bearing with a minimum of 3 credit units and a minimum internship duration of no less than  
+4 weeks/160 hours. The consultancy project/resea 
+rch project courses should involve student work  
+(inclusive of timetabled teaching hours) of no less than 160 hours. These courses may be included  
+as part of the College/School requirement or the major requirement as stipulated by the respective  
+College/Sch 
+ool (Senate/121/AR9). 
+  
+  
+2.4 
+  
+College/School Requirement 
+  
+  
+Course  
+Code 
+  
+Course Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks 
+  
+Normative 4 
+- 
+year Degree 
+  
+( 
+6  
+credit  
+units 
+) 
+  
+CS1302 
+  
+Introduction to Computer Programming 
+  
+B1 
+  
+3 
+  
+  
+PHY1201 
+  
+General Physics I 
+  
+B1 
+  
+3 
+  
+  
+Advanced Standing I  
+(0  
+credit unit)  
+  
+  
+College Requirement waived. 
+  
+Advanced Standing  
+I 
+I  
+(0  
+credit unit)  
+  
+  
+College Requirement waived. 
+  
+
+---PAGE 6 BREAK---
+- 
+  
+6 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+2.5 
+  
+Major Requirement 
+  
+  
+2.5.1 
+  
+Core  
+Courses 
+  
+  
+Normative 4 
+- 
+year Degree: 66 credit units 
+  
+Advanced Standing 
+  
+I: 63 credit units (SYE2339 is waived for students admitted into ASI.) 
+  
+Advanced Standing II: 54 credit units (SYE2046, SYE2339, SYE2100, and SYE3004 are  
+waived for students admitted into ASII.) 
+  
+  
+Course Code 
+  
+Course Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks 
+  
+SYE2010 
+  
+Fundamental Engineering Analysis and  
+Design for Manufacturing Engineers I 
+  
+B2 
+  
+3 
+  
+  
+SYE2011 
+  
+Fundamental Engineering Analysis and  
+Design for Manufacturing Engineers II 
+  
+B2 
+  
+3 
+  
+  
+SYE2046 
+  
+Numerical Computation for  
+Manufacturing and Systems Engineers 
+  
+B2 
+  
+3 
+  
+Waived for students  
+admitted into ASII. 
+  
+SYE2339 
+  
+Smart City  
+– 
+  
+a Systems Engineering  
+Perspective 
+  
+B2 
+  
+3 
+  
+Waived for students  
+admitted into ASI and  
+ASII. 
+  
+MSE2102 
+  
+Introduction to Materials Science and  
+Engineering 
+  
+B2 
+  
+3 
+  
+  
+SYE2016 
+  
+Manufacturing  
+Engineering Workshop 
+  
+B2 
+  
+0 
+  
+  
+SYE2100 
+  
+Engineering Statistics and  
+Experimentation 
+  
+B2 
+  
+3 
+  
+Waived for students  
+admitted into ASII. 
+  
+MNE3007 
+  
+CAD/CAM 
+  
+B3 
+  
+3 
+  
+  
+MNE3046 
+  
+Automation Technology 
+  
+B3 
+  
+3 
+  
+  
+MNE3119 
+  
+Manufacturing Technology 
+  
+B3 
+  
+3 
+  
+  
+SYE3003 
+  
+Design and  
+Analysis of Manufacturing  
+Processes and Systems 
+  
+B3 
+  
+3 
+  
+  
+SYE3004 
+  
+Production Planning and Control 
+  
+B3 
+  
+3 
+  
+Waived for students  
+admitted into ASII. 
+  
+SYE3060 
+  
+Operations Research 
+  
+B3 
+  
+3 
+  
+  
+SYE3102 
+  
+Quality Engineering 
+  
+B3 
+  
+3 
+  
+  
+SYE4001 
+  
+Digital Manufacturing and  
+Operations 
+  
+B4 
+  
+3 
+  
+  
+SYE4002 
+  
+Fundamentals of Advanced Packaging 
+  
+B4 
+  
+3 
+  
+  
+SYE4003 
+  
+Artificial Intelligence and Advanced  
+Technology in Manufacturing and  
+Operations 
+  
+B4 
+  
+3 
+  
+  
+SYE4005 
+  
+Industrial Data and Manufacturing  
+Analytics 
+  
+B4 
+  
+3 
+  
+  
+SYE4006 
+  
+Semiconductor  
+Manufacturing and  
+Process Control 
+  
+B4 
+  
+3 
+  
+  
+SYE4036 
+  
+Systems Modelling and Optimization 
+  
+B4 
+  
+3 
+  
+  
+SYE4064 
+  
+Reliability Engineering 
+  
+B4 
+  
+3 
+  
+  
+SYE4068/ 
+  
+SYE4068C/ 
+  
+SYE4116 
+  
+Final Year Project/ 
+  
+Final Year Project/ 
+  
+Capstone Project II 
+  
+B4 
+  
+6 
+  
+A course to fulfil the  
+internship/consultancy  
+project/research  
+project requirement for  
+normative 4 
+- 
+year  
+degree students 
+  
+  
+
+---PAGE 7 BREAK---
+- 
+  
+7 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+2.5.2 
+  
+Electives 
+  
+  
+Normative 4 
+- 
+year Degree: 15 credit units 
+  
+Advanced Standing I: 12 credit units 
+  
+Advanced Standing II : 6 credit units 
+  
+  
+Course Code 
+  
+Course  
+Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks 
+  
+EE1002 
+  
+Principles of Electrical Engineering 
+  
+B1 
+  
+3 
+  
+  
+EE2000 
+  
+Logic Circuit Design 
+  
+B2 
+  
+3 
+  
+  
+EE2005 
+  
+Electronic Devices and Circuits 
+  
+B2 
+  
+3 
+  
+  
+MNE2109  
+  
+Engineering Mechanics 
+  
+B2 
+  
+3 
+  
+  
+SDSC2004 
+  
+Data Visualization 
+  
+B2 
+  
+3 
+  
+  
+EE3009 
+  
+Data  
+Communications and Networking 
+  
+B3 
+  
+3 
+  
+  
+EE3315  
+  
+Internet Technology 
+  
+B3 
+  
+3 
+  
+  
+PHY3202 
+  
+Modern Physics 
+  
+B3 
+  
+3 
+  
+  
+SYE3018 
+  
+Control Systems 
+  
+B3 
+  
+3 
+  
+  
+SYE3026 
+  
+Contemporary Human Factors for  
+Industry 4.0 
+  
+B3 
+  
+3 
+  
+  
+SYE3101 
+  
+Basic Methodologies and Tools for Risk  
+Engineering 
+  
+B3 
+  
+3 
+  
+  
+SYE3116 
+  
+Capstone Project I 
+  
+B3 
+  
+3 
+  
+  
+  
+MNE4032 
+  
+Robotics and Machine Vision 
+  
+B4 
+  
+3 
+  
+  
+MNE4125 
+  
+Principles and Transport Process  
+Fundamentals of Semiconductor  
+Manufacturing 
+  
+B4 
+  
+3 
+  
+  
+MSE4178 
+  
+Nanostructures & Nanotechnology 
+  
+B4 
+  
+3 
+  
+  
+SYE4007 
+  
+eLogistics and Supply Chain  
+Management 
+  
+B4 
+  
+3 
+  
+  
+SYE4008 
+  
+Computer 
+- 
+Aided Problem Solving for  
+Manufacturing and Systems Engineers 
+  
+B4 
+  
+3 
+  
+  
+SYE4024 
+  
+Project Management 
+  
+B4 
+  
+3 
+  
+  
+SYE4027 
+  
+Occupational Safety for Intelligent  
+Manufacturing Systems 
+  
+B4 
+  
+3 
+  
+  
+SYE4035 
+  
+Quality and Environmental System and  
+Management 
+  
+B4 
+  
+3 
+  
+  
+SYE4047 
+  
+Directed Studies 
+  
+B4 
+  
+3 
+  
+  
+SYE4059 
+  
+Non 
+- 
+Destructive Testing Technologies  
+for Process Monitoring and Inspection 
+  
+B4 
+  
+3 
+  
+  
+SYE4103 
+  
+Decision Analysis and Risk  
+Management 
+  
+B4 
+  
+3 
+  
+  
+SYE4108 
+  
+Product  
+Development and Innovation 
+  
+B4 
+  
+3 
+  
+  
+
+---PAGE 8 BREAK---
+- 
+  
+8 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+Course Code 
+  
+Course Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks 
+  
+SYE5009 
+  
+Industrial Marketing Management for  
+Engineers 
+  
+P5 
+  
+3 
+  
+For Undergraduate  
+plus Master’s Degree  
+Programme only 
+  
+  
+A maximum of 9 credit  
+units of P5 and/or P6  
+courses can be used to  
+fulfill the MSc degree  
+requirements. 
+  
+SYE5010 
+  
+Engineering Management Principles  
+and Concepts 
+  
+P5 
+  
+3 
+  
+SYE6009 
+  
+Project Management 
+  
+P6 
+  
+3 
+  
+SYE6012 
+  
+Technological Innovation and  
+Entrepreneurship 
+  
+P6 
+  
+3 
+  
+SYE6015 
+  
+Supply Chain  
+Management 
+  
+P6 
+  
+3 
+  
+SYE6053 
+  
+Business Process Improvement and  
+Innovation 
+  
+P6 
+  
+3 
+  
+SYE6102 
+  
+Managerial Decision 
+- 
+making Systems  
+with Artificial Intelligence 
+  
+P6 
+  
+3 
+  
+SYE6103 
+  
+Financial Engineering for Engineering  
+Managers 
+  
+P6 
+  
+3 
+  
+SYE6106 
+  
+Intelligent  
+Manufacturing for  
+Engineering Managers 
+  
+P6 
+  
+3 
+  
+SYE6107 
+  
+Contemporary Occupational Safety and  
+Health Management 
+  
+P6 
+  
+3 
+  
+SYE6110 
+  
+Data Analysis and Artificial Intelligence  
+for Systems Engineering 
+  
+P6 
+  
+3 
+  
+SYE6111 
+  
+Transportation and Logistics  
+Management 
+  
+P6 
+  
+3 
+  
+  
+  
+2.6 
+  
+Optional 
+  
+Courses 
+  
+  
+Course  
+Code 
+  
+Course Title 
+  
+Level 
+  
+Credit  
+Units 
+  
+Remarks  
+  
+FS2002 
+  
+Industrial Attachment Scheme 
+  
+B 
+2 
+  
+3 
+  
+Minimum 6 weeks 
+  
+FS3002 
+  
+Industrial Attachment Scheme 
+  
+B 
+3 
+  
+3 
+  
+Minimum 6 weeks 
+  
+FS4001 
+  
+Co 
+- 
+operative Education Scheme (CES) 
+  
+B 
+4 
+  
+8 
+  
+Internship (8 to 12  
+months)  
+  
+FS4002 
+  
+Industrial Attachment Scheme  
+  
+B 
+4 
+  
+3 
+  
+Minimum 6 weeks 
+  
+  
+  
+  
+
+---PAGE 9 BREAK---
+- 
+  
+9 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+3 
+  
+CLASSIFICATION OF AWARD 
+  
+  
+Bachelor's degrees students will be eligible for graduation if they: 
+  
+• 
+  
+complete the graduation requirements for the degree, 
+  
+• 
+  
+achieve a  
+CGPA of 2.00 or above 
+  
+  
+The University grants bachelor's degree awards with the following classifications  
+based on the CGPAs according to the general guidelines below: 
+  
+  
+Classification 
+  
+CGPA 
+  
+1st 
+  
+Class 
+  
+ C  
+GPA 3.5 
+  
+or above 
+  
+2nd Upper 
+  
+ C  
+GPA 3.00  
+– 
+  
+3.49 
+  
+2nd  
+Lower 
+  
+ C  
+GPA 2. 
+5 
+0  
+– 
+  
+2.99 
+  
+3rd Class 
+  
+ C  
+GPA 2.00  
+– 
+  
+2. 
+4 
+9 
+  
+  
+  
+4 
+  
+ACADEMIC REGULATIONS AND GUIDELINES 
+  
+  
+Students 
+  
+should observe the University’s academic regulations and guidelines at all  
+times. More information can be available by referring to the following websites  
+maintained by the Academic Regulations and Records Office (ARRO). 
+  
+  
+ARRO Homepage:  
+http://www.cityu.edu.hk/arro/ 
+  
+  
+5 
+  
+ACADEMIC HONESTY 
+  
+  
+Academic  
+honesty  
+is  
+central  
+to  
+the  
+conduct  
+of  
+academic  
+work.  
+Students  
+are  
+responsible for knowing and understanding the Rules on Academic Honesty. To  
+enhance students’ understanding on academic honesty, all students are required to  
+complete  
+a  
+tutorial  
+on  
+a 
+cademic  
+honesty  
+and  
+make  
+a  
+declaration  
+on  
+their  
+understanding of this core academic principle online on or before  
+30 November  
+20 
+2 
+5 
+  
+in order to access their course grades. 
+  
+  
+For details, please refer to ARRO  
+website:  
+https://www.cityu.edu.hk/ah/ 
+  
+  
+  
+
+---PAGE 10 BREAK---
+- 
+  
+10 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+6 
+  
+STUDENT 
+  
+DEVELOPMENT SERVICES (SDS) 
+  
+  
+The SDS offers many student 
+- 
+centred services to students. It provides support and  
+assistance for students in the following areas: 
+  
+  
+• 
+  
+Attainment of an all 
+- 
+round development 
+  
+• 
+  
+Enrichment of campus life 
+  
+• 
+  
+Development of career pl 
+ans and choices 
+  
+• 
+  
+Solving personal problems 
+  
+• 
+  
+Enhancement of physical and mental well 
+- 
+being 
+  
+• 
+  
+Provision of financial assistance 
+  
+• 
+  
+Scholarship application 
+  
+• 
+  
+Welfare provisions 
+  
+  
+7 
+  
+COMMUNICATIONS 
+  
+  
+Listed below are  
+the 
+  
+normal channels of communication between students and  
+courses / major / department: 
+  
+  
+a) 
+  
+Students having difficulties in a course of study should first talk to the course  
+teacher concerned. 
+  
+b) 
+  
+A student who wishes to discuss the overall organization of the 
+  
+major should  
+speak to the Major Programme Leader. 
+  
+c) 
+  
+A student who wishes to discuss issues on a particular part of the major should  
+speak to the relevant Major Programme Year Tutor. 
+  
+d) 
+  
+The major’s Joint Staff & Student Consultative Committee helps to fac 
+ilitate  
+consultation and communication.  A student from each entry cohort will be  
+elected to sit in the Committee. 
+  
+e) 
+  
+In addition, a student from each entry catalog term will be elected to sit in the  
+Major Programme Committee which meets every semester to  
+discuss major 
+- 
+related matters. 
+  
+f) 
+  
+Students should feel free to approach their respective academic advisors for  
+advice regarding their study plan or personal and career development. 
+  
+  
+  
+  
+
+---PAGE 11 BREAK---
+- 
+  
+11 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+8 
+  
+MAJOR LEADER 
+, 
+  
+YEAR TUTOR 
+  
+AND 
+  
+COORDINATORS 
+  
+  
+Position 
+  
+  
+Staff Name 
+  
+Tel. 
+  
+Email 
+  
+Major Leader: 
+  
+Prof. Xiaohan 
+  
+DU 
+  
+3442 
+- 
+8306 
+  
+xiaohadu@cityu.edu.hk 
+  
+  
+  
+  
+  
+Deputy Major  
+Leader 
+s 
+: 
+  
+Dr 
+. Sherman N 
+GAN 
+  
+3442 
+- 
+8400 
+  
+scngan@cityu.edu.hk 
+  
+Dr. Louis LIU 
+  
+3442 
+- 
+9536 
+  
+mekpliu 
+@cityu.edu.hk 
+  
+  
+  
+  
+  
+Year Tutor 
+s 
+: 
+  
+  
+  
+  
+2025 cohort 
+  
+Prof. Yuquan 
+  
+MENG 
+  
+3442 
+- 
+8591 
+  
+yuqumeng@cityu.edu.hk 
+  
+202 
+4 
+  
+cohort 
+  
+Prof. Xiaohan 
+  
+DU 
+  
+3442 
+- 
+8306 
+  
+xiaohadu@cityu.edu.hk 
+  
+2023 cohort 
+  
+Prof 
+. 
+  
+Yingxia LIU 
+  
+3442 
+- 
+4728 
+  
+yingxliu@cityu.edu.hk 
+  
+2022 cohort 
+  
+Dr. Louis LIU 
+  
+3442 
+- 
+9536 
+  
+mekpliu 
+@cityu.edu.hk 
+  
+  
+  
+  
+  
+Coordinators: 
+  
+  
+  
+  
+Internship  
+coordinator 
+  
+Dr. Louis LIU 
+  
+3442 
+- 
+9536 
+  
+mekpliu 
+@cityu.edu.hk 
+  
+Exchange coordinator 
+  
+Prof. Yinghao 
+  
+CHU 
+  
+3442 
+- 
+4703 
+  
+yinghao.chu@cityu.edu.hk 
+  
+  
+  
+9 
+  
+INFORMATION TO NEW STUDENTS 
+  
+  
+9.1 
+  
+How to access your Personal Class Schedule 
+  
+  
+i) 
+  
+Go to 
+  
+http://www.cityu.edu.hk 
+  
+from any terminal on campus or off campus,  
+then point to “ 
+Quick Links 
+” at the top and click “ 
+AIMS 
+”. 
+  
+Log onto AIMS. 
+  
+ii) 
+  
+Click  
+" 
+Course  
+Registration 
+"  
+menu 
+.  
+Then  
+c 
+lick 
+  
+“ 
+Main  
+Menu  
+for  
+web  
+add/drop 
+” 
+. 
+  
+iii) 
+  
+Choose 
+  
+" 
+Weekly Schedule 
+" 
+  
+then select 
+  
+appropriate term and press " 
+Submit 
+". 
+  
+iv) 
+  
+You will find your class schedule in matrix form. 
+  
+v) 
+  
+Press the " 
+View Detail Schedule 
+" button at the bottom of your matrix timetable  
+to display details of your class  
+schedule. 
+  
+  
+9.2 
+  
+How to get Instructors’ handouts through Canvas 
+  
+  
+i) 
+  
+Go t 
+o the CityU e 
+- 
+Portal from any terminal on campus or off campus. 
+  
+ii) 
+  
+Choose “Canvas” and login. 
+  
+iii) 
+  
+Enter the course under “My Courses” 
+.  
+Click “Files”. 
+  
+  
+9.3 
+  
+How to check Major Programme  
+Requirement and Course Syllabuses 
+  
+  
+Log onto the CityU home page and click “ 
+Academic 
+s 
+”, then “ 
+Programme and  
+Course Catalogue 
+”. 
+  
+  
+  
+
+---PAGE 12 BREAK---
+- 
+  
+12 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+9.4 
+  
+Course Registration for Semester A  
+2025 
+- 
+2026 
+  
+  
+For Semester A  
+2025 
+- 
+2026 
+, students will be pre 
+- 
+registered in required  
+courses  
+and major electives in most cases if possible. 
+  
+  
+i) 
+  
+The date for release of your class schedule is  
+29 
+  
+July 
+  
+20 
+2 
+5 
+. Please check your  
+curriculum requirements, review your study plan and then make appropriate  
+adjustments to your pre 
+- 
+registered courses.  
+  
+ii) 
+  
+Add/Drop of courses can be made through AIMS during the web registration  
+period. 
+  
+iii) 
+  
+For non 
+- 
+web 
+- 
+enabled courses, approval is required from the 
+  
+course offering 
+  
+department 
+. Y 
+ou can submit your request  
+through AIMS starting from  
+1 
+1 
+  
+August 202 
+5 
+. 
+  
+  
+  
+  
+  
+  
+  
+iv) 
+  
+Web registration begins on  
+2 
+5 
+  
+August 20 
+2 
+5 
+  
+but you need to check your time  
+ticket first from “AIMS”. 
+  
+v) 
+  
+All add/drops end on  
+8 
+  
+September 20 
+2 
+5 
+. 
+  
+vi) 
+  
+Detailed arrangements on Course Registration for Semester A  
+2025 
+- 
+2026 
+  
+will  
+be  
+available in early August  
+2025 
+. For de 
+tails, please refer to ARRO website:  
+https://www.cityu.edu.hk/arro/creg/wadp_main.htm 
+  
+  
+  
+9.5 
+  
+How to access your Student Email Account 
+  
+  
+i) 
+  
+Go to 
+  
+www.cityu.edu.hk 
+  
+and point to " 
+QUICK LINKS 
+" at the  
+top of the screen  
+and select " 
+Email 
+". 
+  
+ii) 
+  
+In the Email Services home page, click  
+"@my.cityu.edu.hk 
+" under the column  
+of " 
+Student 
+" to go to  
+M365 Sign 
+- 
+in Page 
+. 
+  
+iii) 
+  
+At the  
+M365 Sign 
+- 
+in Page 
+, please e 
+nter  
+your  
+CityU EID 
+  
+and  
+password 
+  
+to login. 
+  
+iv) 
+  
+You can read and compose  
+mail after signing in. 
+  
+  
+  
+  
+  
+  
+  
+How to do  
+the Add/Drop: 
+  
+ 
+  
+Go to  
+http://www.cityu.edu.hk 
+  
+from any terminal on campus or off campus 
+  
+and  
+click “ 
+AIMS 
+”. 
+  
+ 
+  
+Log onto “AIMS 
+” 
+  
+and then click “Course Registration 
+” 
+. 
+  
+ 
+  
+Click “Main Menu for web add/drop”. 
+  
+ 
+  
+Choose “Add or Drop Classes”. 
+  
+Important notes: 
+  
+For email communication: 
+  
+please state your 
+  
+student name, number and contact telephone number 
+. 
+  
+
+---PAGE 13 BREAK---
+- 
+  
+13 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+9.6 
+  
+Credit Exemption 
+  
+  
+Applications for course exemption must be made before the first semester of  
+the student’s admission. Students granted course exemption are required to take  
+other  
+courses  
+to  
+make  
+up  
+the  
+credits  
+required  
+for  
+fulfilling  
+the  
+award  
+requirements. For Semester A  
+2025 
+- 
+2026 
+, the application period is from  
+1 
+4 
+  
+July 202 
+5 
+  
+to  
+29 
+  
+August 
+  
+202 
+5 
+.  For details, please refer to ARRO website: 
+  
+https://www.cityu.edu.hk/arro/cdtf/cdtf_main.htm 
+  
+  
+9.7 
+  
+Safety Orientation 
+  
+  
+All  
+students  
+are  
+required  
+to  
+complete  
+the  
+online  
+Safety  
+Orientation.  
+The  
+Laboratory Office will hold a Lab Tour session in week 1 
+- 
+2 of Semester A  
+2025 
+- 
+2026 
+.  Details and schedule of the  
+lab tour session will be sent to students  
+by e 
+- 
+mail. 
+  
+  
+9.8 
+  
+Administrative Support from 
+  
+SYE 
+  
+General Office 
+  
+  
+Office Hours 
+  
+  
+Mon to Fri 
+  
+9:00am to 5:30 pm 
+  
+Lunch Break 
+  
+12:30pm to 1:45pm 
+  
+  
+  
+Inquiry: 
+  
+3442 
+- 
+9321 
+  
+Fax: 
+  
+3442 
+- 
+0173 
+  
+Email: 
+  
+sye.office@cityu.edu.hk 
+  
+  
+  
+  
+  
+  
+  
+  
+
+---PAGE 14 BREAK---
+- 
+  
+14 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+  
+
+---PAGE 15 BREAK---
+- 
+  
+15 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+  
+  
+  
+  
+  
+  
+  
+Appendix I : Model Study Path 
+
+---PAGE 16 BREAK---
+  
+  
+Model Study Path for BENG ITME  
+2025/2026 
+   
+(normative 4 
+- 
+year) (non 
+- 
+CES mode) 
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+2025 / 26  (Year 1) 
+  
+A 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic Linear  
+Algebra I (3) 
+  
+College Specified  
+- 
+  
+SYE2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person Development 
+  
+(1) 
+  
+College Requirement  
+- 
+  
+PHY1201 
+  
+General Physics I (3) 
+  
+  
+English 1  
+- 
+  
+GE1401 University English  
+(3) 
+  
+GE1501 
+  
+Chinese Civilisation  
+– 
+  
+History and Philosophy (3) 
+  
+16 
+  
+B 
+  
+College Specified  
+- 
+  
+MA1201 
+  
+Calculus and Basic Linear  
+Algebra II (3) 
+  
+College Requirement  
+- 
+  
+CS1302 
+  
+Introduction to Computer  
+Programming (3) 
+  
+SYE 
+2010 Fundamental Engineering  
+Analysis and Design for  
+Manufacturing  
+Engineers I (3) 
+  
+SYE2339 
+  
+Smart City  
+– 
+  
+a Systems  
+Engineering Perspective (3) 
+  
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for  
+Engineering (3) 
+  
+  
+15 
+  
+S 
+  
+  
+  
+  
+  
+  
+  
+  
+0 
+  
+2026 / 27  (Year 2) 
+  
+A 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering (3) 
+  
+SYE2100 
+  
+Engineering Statistics and  
+Experimentation (3) 
+  
+SYE 
+2011 Fundamental Engineering  
+Analysis and Design for  
+Manufacturing Engineers II (3)  
+  
+Free Elective 1 (3) 
+  
+  
+Gateway 
+  
+Education 1 (3) 
+  
+Gateway 
+  
+Education 2 (3) 
+  
+18 
+  
+B 
+  
+SYE3060 
+  
+Operations Research (3) 
+  
+SYE2046 
+  
+Numerical Computation for  
+Manufacturing and Systems  
+Engineers (3) 
+  
+SYE2016 
+  
+Manufacturing Engineering Workshop  
+(0) 
+  
+SYE3003 
+  
+Design and Analysis of  
+Manufacturing Processes  
+and Systems (3) 
+  
+  
+Gateway 
+  
+Education 3 (3) 
+  
+Gateway 
+  
+Education 4 (3) 
+  
+15 
+  
+S 
+  
+  
+  
+  
+0 
+  
+2027 / 28  (Year 3) 
+  
+A 
+  
+MNE3007 CAD/CAM (3) 
+  
+  
+MNE3046 
+  
+Automation Technology (3) 
+  
+SYE3004 
+  
+Production Planning and Control (3) 
+  
+SYE3102 
+  
+Quality Engineering (3) 
+  
+Major Elective 1 (3) 
+  
+  
+  
+15 
+  
+B 
+  
+MNE3119 
+  
+Manufacturing Technology  
+(3) 
+  
+SYE4064 
+  
+Reliability Engineering (3) 
+  
+SYE4001 
+  
+Digital Manufacturing and Operations  
+(3) 
+  
+SYE4005 
+  
+Industrial Data and  
+Manufacturing Analytics (3) 
+  
+Major Elective 2 (3) 
+  
+  
+  
+15 
+  
+S 
+  
+  
+  
+  
+  
+  
+  
+  
+0 
+  
+2028 / 29 (Year 4) 
+  
+A 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4036 
+  
+Manufacturing Systems  
+Modelling and Optimization  
+(3) 
+  
+SYE4003 
+  
+Artificial Intelligence and Augmented  
+Reality in Manufacturing and  
+Operations (3) 
+  
+Major  
+Elective 3 (3) 
+  
+Major Elective 4 (3) 
+  
+  
+  
+15 
+  
+B 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of Advanced  
+Packaging  
+(3) 
+  
+SYE4006 
+  
+Semiconductor Manufacturing and  
+Process Control (3) 
+  
+Major Elective 5 (3) 
+  
+  
+  
+  
+12 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 121 
+  
+  
+Note: 
+  
+Students can take Major electives from Year 3 depending on their overall study plan, and some elective courses may be availab 
+le for study in the evenings only. 
+  
+  
+For Reference Only 
+  
+- 
+  
+1 
+6 
+  
+- 
+  
+                                                                          
+(Aug  
+2025 
+) 
+  
+
+---PAGE 17 BREAK---
+  
+Model Study Path for BENG ITME  
+2025/2026 
+   
+(normative 4 
+- 
+year) (Optional CES mode) 
+  
+Co 
+- 
+operative Education Scheme (CES) is a 2 
+- 
+semester placement programme 
+  
+situated in Year 4 Study (for optional CES mode). The CES comprises two components: final year project and  
+industrial placement at a company. During the training period, students take  
+SYE 
+  
+courses on a day 
+- 
+release basis for no more than one day per week. 
+  
+Y 
+r 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+2025 / 26  (Year 1) 
+  
+A 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic Linear  
+Algebra I (3) 
+  
+College Specified  
+- 
+  
+SYE2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person Development 
+  
+(1) 
+  
+College Requirement  
+- 
+  
+PHY1201 
+  
+General Physics I (3) 
+  
+  
+English 1  
+- 
+  
+GE1401 University English  
+(3) 
+  
+GE1501 
+  
+Chinese Civilisation  
+– 
+  
+History and Philosophy (3) 
+  
+16 
+  
+B 
+  
+College Specified  
+- 
+  
+MA1201 
+  
+Calculus and Basic 
+  
+Linear  
+Algebra II (3) 
+  
+College Requirement  
+- 
+  
+CS1302 
+  
+Introduction to Computer  
+Programming (3) 
+  
+SYE2010 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers I (3) 
+  
+SYE2339 
+  
+Smart City  
+– 
+  
+a Systems  
+Engineering Perspective (3) 
+  
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for  
+Engineering (3) 
+  
+  
+15 
+  
+S 
+  
+  
+  
+  
+  
+  
+  
+  
+0 
+  
+2026 / 27  (Year 2) 
+  
+A 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering (3) 
+  
+SYE2100 
+  
+Engineering Statistics and  
+Experimentation (3) 
+  
+SYE2011 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers II (3)  
+  
+Free Elective 1 (3) 
+  
+  
+Gateway 
+  
+Education 1 (3) 
+  
+Gateway 
+  
+Education 2 (3) 
+  
+18 
+  
+B 
+  
+SYE3060 
+  
+Operations Research (3) 
+  
+SYE2046 
+  
+Numerical Computation for  
+Manufacturing and Systems  
+Engineers (3) 
+  
+SYE2016 Manufacturing  
+Engineering Workshop (0) 
+  
+SYE3003 
+  
+Design and Analysis of  
+Manufacturing Processes and  
+Systems (3) 
+  
+  
+Gateway 
+  
+Education 3 (3) 
+  
+Gateway 
+  
+Education 4 (3) 
+  
+15 
+  
+S 
+  
+  
+  
+  
+0 
+  
+2027 / 28  (Year 3) 
+  
+A 
+  
+MNE3007 
+  
+CAD/CAM (3) 
+  
+MNE3046 
+  
+Automation Technology (3) 
+  
+SYE3004 
+  
+Production Planning and Control  
+(3) 
+  
+SYE3102 
+  
+Quality Engineering (3) 
+  
+Major Elective 1 (3) 
+  
+  
+  
+15 
+  
+B 
+  
+MNE3119 
+  
+Manufacturing Technology  
+(3) 
+  
+SYE4064 
+  
+Reliability Engineering (3) 
+  
+SYE4001 
+  
+Digital Manufacturing and  
+Operations (3) 
+  
+SYE4005 
+  
+Industrial Data and  
+Manufacturing Analytics (3) 
+  
+Major Elective 2 (3) 
+  
+  
+  
+15 
+  
+S 
+  
+Major Elective 3 (3) 
+  
+  
+  
+  
+  
+  
+  
+3 
+  
+2028 / 29 (Year 4) 
+  
+A 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4036 
+  
+Manufacturing Systems  
+Modelling and Optimization  
+(3) 
+  
+SYE4003 
+  
+Artificial Intelligence and  
+Augmented Reality in  
+Manufacturing and Operations  
+(3) 
+  
+Major Elective 4 (3) 
+  
+CES FS4001 (4) 
+  
+  
+  
+16 
+  
+B 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of Advanced  
+Packaging  
+(3) 
+  
+SYE4006 
+  
+Semiconductor Manufacturing  
+and Process Control (3) 
+  
+Majo 
+r Elective 5 (3) 
+  
+CES FS4001 (4) 
+  
+  
+  
+16 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 129 
+  
+Note: 
+  
+Students can take Major electives from Year 3 depending on their overall study plan, and some elective courses may be availab 
+le for study in the evenings only. 
+  
+  
+For Reference Only 
+  
+- 
+  
+17  
+- 
+  
+                                                   
+                        
+(Aug 2025) 
+  
+
+---PAGE 18 BREAK---
+  
+  
+Model Study Path for 
+  
+BEN 
+G ITME  
+2025/2026 
+   
+(normative 4 
+- 
+year) (non 
+- 
+CES Go Global mode) 
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+2025 / 26  (Year 1) 
+  
+A 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic  
+Linear Algebra I (3) 
+  
+College Specified  
+- 
+  
+SYE2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person  
+Development 
+  
+(1) 
+  
+College Requirement  
+- 
+  
+PHY1201 
+  
+General Physics I (3) 
+  
+  
+  
+English 1  
+- 
+  
+GE1401 University  
+English (3) 
+  
+GE1501 
+  
+Chinese Civilisation  
+– 
+  
+History and Philosophy (3) 
+  
+16 
+  
+B 
+  
+College Specified  
+- 
+  
+MA1201 
+  
+Calculus and Basic  
+Linear Algebra II (3) 
+  
+College Requirement  
+- 
+  
+CS1302 
+  
+Introduction to Computer  
+Programming (3) 
+  
+SYE 
+2010 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers I (3) 
+  
+SYE2339 
+  
+Smart City  
+– 
+  
+a Systems  
+Engineering Perspective  
+(3) 
+  
+  
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for  
+Engineeri 
+ng (3) 
+  
+  
+15 
+  
+S 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+0 
+  
+2026 / 27  (Year 2) 
+  
+A 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering  
+(3) 
+  
+SYE2100 
+  
+Engineering Statistics and  
+Experimentation (3) 
+  
+SYE 
+2011 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers II (3)  
+  
+  
+  
+  
+Gateway 
+  
+Education 1 (3) 
+  
+Gateway 
+  
+Education 2 (3) 
+  
+1 
+5 
+  
+B 
+  
+SYE3060 
+  
+Operations Research (3) 
+  
+SYE2046 
+  
+Numerical Computation  
+for Manufacturing and  
+Systems Engineers (3) 
+  
+MNE3119 
+  
+Manufacturing  
+Technology (3) 
+  
+SYE2016 
+  
+Manufacturing  
+Engineering Workshop  
+(0) 
+  
+SYE3003 
+  
+Design and Analysis of  
+Manufacturing  
+Processes and Systems  
+(3) 
+  
+  
+Gateway 
+  
+Education 3 (3) 
+  
+Gateway 
+  
+Education 4 (3) 
+  
+1 
+8 
+  
+S 
+  
+Free Elective 1 (3) 
+  
+  
+  
+  
+  
+  
+  
+  
+3 
+  
+2027 / 
+  
+28  (Year 3) 
+  
+A 
+  
+MNE3007 
+  
+CAD/CAM (3) 
+  
+MNE3046 
+  
+Automation Technology  
+(3) 
+  
+SYE3004 
+  
+Production Planning and  
+Control (3) 
+  
+SYE3102 
+  
+Quality Engineering (3) 
+  
+Major Elective 1 (3) 
+  
+  
+  
+  
+15 
+  
+B 
+  
+Go Global Programme 
+  
+The Go 
+- 
+Global Programme situated in Semester B of Year 3 Study (for non 
+- 
+CES Go Global mode) is a one 
+- 
+semester overseas exchange study at one of our partner universities outside of Hong Kong. Our past  
+students have chosen destinations in 
+cluding universities in Sweden, Finland, The Netherlands, Germany, UK, USA, Taiwan, etc. 
+  
+0 
+  
+S 
+  
+Major Elective 2 (3) 
+  
+  
+  
+  
+  
+  
+  
+  
+3 
+  
+2028 / 29  
+(Year 4) 
+  
+A 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/  
+Capstone Project II (3) 
+  
+SYE4036 
+  
+Manufacturing Systems  
+Modelling and  
+Optimization (3) 
+  
+SYE4003 
+  
+Artificial Intelligence and  
+Augmented Reality in  
+Manufacturing and  
+Operations (3) 
+  
+Major Elective 3 (3) 
+  
+Major Electiv 
+e 4 (3) 
+  
+  
+  
+  
+15 
+  
+B 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/  
+Capstone Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of  
+Advanced Packaging  
+(3) 
+  
+SYE4001 
+  
+Digital Manufacturing  
+and Operations (3) 
+  
+SYE4005 
+  
+Industrial Data and  
+Manufacturing Analytics  
+(3) 
+  
+SYE4006 
+  
+Semiconductor  
+Manufacturing and  
+Process Control (3) 
+  
+SYE4064 
+  
+Reliability Engineering  
+(3) 
+  
+  
+  
+18 
+  
+S 
+  
+Major Elective 5 (3) 
+  
+  
+  
+  
+  
+  
+  
+  
+3 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 121 
+  
+Note: 
+  
+Students can take Major electives from Year 3  
+depending on their overall study plan, and some elective courses may be available for study in the evenings only. 
+  
+  
+For  
+Reference Only 
+  
+- 
+  
+1 
+8 
+  
+- 
+  
+                                                                          
+(Aug  
+2025 
+) 
+  
+
+---PAGE 19 BREAK---
+  
+Model Study Path for BENG  
+ITME 
+  
+2025/2026 
+   
+Advanced Standing I 
+  
+( 
+non 
+- 
+CES mode) 
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+202 
+5 
+  
+/ 2 
+6 
+  
+(Year  
+2 
+) 
+  
+A 
+  
+College  
+Specified  
+- 
+  
+SYE 
+2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic Linear  
+Algebra I (3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person Development (1) 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering (3) 
+  
+SYE 
+2100 
+  
+Engineering  
+Statistics  
+and Experimentation (3) 
+  
+English 1  
+- 
+  
+GE1401 University English (3) 
+  
+1 
+6 
+  
+B 
+  
+SYE 
+3060 
+  
+Operations Research (3) 
+  
+SYE 
+2046 
+  
+Numerical Computation for  
+Manufacturing and Systems  
+Engineers (3) 
+  
+SYE 
+2010 Fundamental  
+Engineering Analysis and Design  
+for  
+Manufacturing Engineers I (3) 
+  
+SYE 
+2016 
+  
+Manufacturing Engineering  
+Workshop (0) 
+  
+SYE 
+3003 
+  
+Design and Analysis of  
+Manufacturing  
+Processes and Systems  
+(3) 
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for Engineering  
+(3) 
+  
+1 
+5 
+  
+S 
+  
+  
+  
+  
+  
+  
+GE1501 
+  
+Chinese Civi 
+lisation  
+– 
+  
+History and  
+Philosophy (3) 
+  
+3 
+  
+202 
+6 
+  
+/ 2 
+7 
+  
+(Year  
+3 
+) 
+  
+A 
+  
+MNE3007 
+  
+CAD/CAM (3) 
+  
+MNE3046 
+  
+Automation Technology (3) 
+  
+SYE 
+2011 Fundamental  
+Engineering Analysis and Design  
+for Manufacturing Engineers II  
+(3) 
+  
+SYE 
+3004 
+  
+Production Planning and  
+Control (3) 
+  
+SYE 
+3102 
+  
+Quality Engineering (3) 
+  
+  
+15 
+  
+B 
+  
+MNE3119 
+  
+Manufacturing Technology  
+(3) 
+  
+SYE 
+4064 
+  
+Reliability Engineering (3) 
+  
+SYE 
+4001 
+  
+Digital Manufacturing and  
+Operations (3) 
+  
+SYE 
+4005 
+  
+Industrial Data and  
+Manufacturing Analytics (3) 
+  
+Major Elective 1 (3) 
+  
+  
+15 
+  
+S 
+  
+  
+  
+  
+  
+  
+Gateway 
+  
+Education 1 (3) 
+  
+3 
+  
+202 
+7 
+  
+/ 2 
+8 
+  
+(Year  
+4 
+) 
+  
+A 
+  
+SYE 
+4068/ 
+SYE 
+4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE 
+4036 
+  
+Manufacturing Systems  
+Modelling and Optimization (3) 
+  
+SYE 
+4003 
+  
+Artificial Intelligence and  
+Advanced Technology in  
+Manufacturing and Operations 
+  
+(3) 
+  
+Major Elective 2 (3) 
+  
+  
+Gateway 
+  
+Education 2 (3) 
+  
+15 
+  
+B 
+  
+SYE 
+4068/ 
+SYE 
+4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of Advanced  
+Packaging 
+  
+(3) 
+  
+SYE 
+4006 
+  
+Semiconductor Manufacturing  
+and Process  
+Control (3) 
+  
+Major Elective 3 (3) 
+  
+Major Elective 4 (3) 
+  
+  
+15 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 97 
+  
+Note: 
+  
+Students can take Major electives from Year 3 depending on their overall study plan, and some elective courses may be  
+available for study in the evenings only. 
+  
+  
+  
+For Reference Only 
+  
+- 
+  
+1 
+9 
+  
+- 
+  
+                                                                          
+(Aug  
+2025 
+) 
+  
+
+---PAGE 20 BREAK---
+  
+Model Study Path for BENG  
+ITME 
+  
+2025/2026 
+   
+Advanced Standing I 
+  
+( 
+Optional  
+CES mode) 
+  
+ C  
+o 
+- 
+operative Education Scheme (CES) is a 2 
+- 
+semester placement programme situated in Year 4 Study (for option 
+al CES mode). The CES comprises two components: final year project and  
+industrial placement at a company. During the training period, students take  
+SYE 
+  
+courses on a day 
+- 
+release basis for no more than one day per week. 
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+202 
+5 
+  
+/ 2 
+6 
+  
+(Year  
+2 
+) 
+  
+A 
+  
+College Specified  
+- 
+  
+SYE 
+2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic  
+Linear  
+Algebra I (3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person Development (1) 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering (3) 
+  
+SYE 
+2100 
+  
+Engineering Statistics  
+and Experimentation (3) 
+  
+English 1  
+- 
+  
+GE1401 University English (3) 
+  
+1 
+6 
+  
+B 
+  
+SYE 
+3060 
+  
+Operations Research (3) 
+  
+SYE 
+2046 
+  
+Numerical Computation for  
+Manufacturing and Systems  
+Engineers (3) 
+  
+SYE 
+2010 Fundamental  
+Engineering Analysis and Design  
+for Manufacturing Engineers I (3) 
+  
+SYE 
+2016 
+  
+Manufacturing Engineering  
+Workshop (0) 
+  
+SYE 
+3003 
+  
+Design and Analysis of  
+Manufacturing  
+Processes and Systems  
+(3) 
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for Engineering  
+(3) 
+  
+1 
+5 
+  
+S 
+  
+  
+  
+  
+  
+  
+GE1501 
+  
+Chinese Civilisation  
+– 
+  
+History and  
+Philosophy (3) 
+  
+3 
+  
+202 
+6 
+  
+/ 2 
+7 
+  
+(Year  
+3 
+) 
+  
+A 
+  
+MNE3007 
+  
+CAD/CAM (3) 
+  
+SYE 
+3004 
+  
+Production Planning and  
+Control (3) 
+  
+SYE 
+3102 
+  
+Quality Engineering (3) 
+  
+SYE 
+2011 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers II (3) 
+  
+Major Elective 1 (3) 
+  
+Gateway 
+  
+Education 1 (3) 
+  
+18 
+  
+B 
+  
+MNE3119 
+  
+Manufacturing Technology  
+(3) 
+  
+SYE 
+4064 
+  
+Reli 
+ability Engineering (3) 
+  
+SYE 
+4001 
+  
+Digital Manufacturing and  
+Operations (3) 
+  
+SYE 
+4005 
+  
+Industrial Data and  
+Manufacturing Analytics (3) 
+  
+Major Elective  
+2 
+  
+(3) 
+  
+Gateway 
+  
+Education 2 (3) 
+  
+18 
+  
+S 
+  
+Major Elective  
+3 
+  
+(3) 
+  
+  
+  
+  
+  
+  
+3 
+  
+202 
+7 
+  
+/ 2 
+8 
+  
+(Year  
+4 
+) 
+  
+A 
+  
+SYE 
+4068 
+ C  
+/ 
+SYE 
+4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE 
+4036 
+  
+Manufacturing Systems  
+Modelling and Optimization  
+(3) 
+  
+SYE 
+4003 
+  
+Artificial Intelligence and  
+Advanced Technology in  
+Manufacturing and  
+Operations 
+  
+(3) 
+  
+MNE3046 
+  
+Automation Technology (3) 
+  
+CES FS4001 (4) 
+  
+  
+16 
+  
+B 
+  
+SYE 
+4068 
+ C  
+/ 
+SYE 
+4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of Advanced  
+Packaging 
+  
+(3) 
+  
+SYE 
+4006 
+  
+Semiconductor Manufacturing and  
+Process Control (3) 
+  
+Major Elective 4 
+  
+(3) 
+  
+CES FS4001 (4) 
+  
+  
+16 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 10 
+5 
+  
+Note: 
+  
+Students can take Major electives from Year 3 depending on their overall study plan, and some elective courses may be availab 
+le for study in the  
+evenings only. 
+  
+  
+For Reference Only 
+  
+- 
+  
+20 
+  
+- 
+  
+                             
+                                              
+(Aug  
+2025 
+) 
+  
+
+---PAGE 21 BREAK---
+  
+Model Study Path for BENG  
+ITME 
+  
+2025/2026 
+   
+Advanced Standing I 
+  
+( 
+non 
+- 
+CES  
+Go Global  
+mode) 
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+202 
+5 
+  
+/ 2 
+6 
+  
+(Year  
+2 
+) 
+  
+A 
+  
+College Specified  
+- 
+  
+SYE 
+2066 
+  
+Professional Engineering  
+Practice 
+  
+(3) 
+  
+College Specified  
+- 
+  
+MA1200 
+  
+Calculus and Basic  
+Linear Algebra I (3) 
+  
+GE1601 
+  
+Whole 
+- 
+Person  
+Development (1) 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering  
+(3) 
+  
+SYE 
+2100 
+  
+Engineering Statistics  
+and Experimentation (3) 
+  
+  
+English 1  
+– 
+  
+GE1401 University English (3) 
+  
+1 
+6 
+  
+B 
+  
+SYE 
+3060 
+  
+Operations Research (3) 
+  
+SYE 
+2046 
+  
+Numerical Computation  
+for Manufacturing and  
+Systems Engineers (3) 
+  
+SYE 
+2010 Fundamental  
+Engineering Analysis  
+and Design for  
+Manufacturing  
+Engineers I (3) 
+  
+MNE3119 
+  
+Manufacturing  
+Technology (3) 
+  
+SYE 
+2016 
+  
+Manufacturing  
+Engineering Workshop  
+(0) 
+  
+SYE3003 
+  
+Design and Analysis  
+of Manufacturing  
+Processes and  
+Systems (3) 
+  
+English 2  
+– 
+  
+Discipline 
+- 
+specific English  
+GE2410 English for Engineering  
+(3) 
+  
+18 
+  
+S 
+  
+  
+  
+  
+  
+  
+  
+GE1501 
+  
+Chinese Civilisation  
+– 
+  
+History a 
+nd  
+Philosophy (3) 
+  
+3 
+  
+202 
+6 
+  
+/ 2 
+7 
+  
+(Year  
+3 
+) 
+  
+A 
+  
+MNE3007 
+  
+CAD/CAM (3) 
+  
+SYE 
+3004 
+  
+Production Planning and  
+Control (3) 
+  
+SYE 
+3102 
+  
+Quality Engineering (3) 
+  
+SYE 
+2011 Fundamental  
+Engineering Analysis  
+and Design for  
+Manufacturing  
+Engineers II (3) 
+  
+Major Elective 1 (3) 
+  
+Major Elective 2 (3) 
+  
+  
+18 
+  
+B 
+  
+Go Global Programme 
+  
+The Go 
+- 
+Global Programme 
+  
+situated in Semester B of Year 3 Study (for non 
+- 
+CES Go Global mode) is a one 
+- 
+semester overseas exchange study at one of our partner universities outside of Hong Kong. Our past  
+students have chosen destinations including universities in Sweden, Finland, Th 
+e Netherlands, Germany, UK, USA, Taiwan, etc. 
+  
+0 
+  
+S 
+  
+Major Elective 3 (3) 
+  
+  
+  
+  
+  
+  
+Gateway 
+  
+Education 1 (3) 
+  
+6 
+  
+202 
+7 
+  
+/ 2 
+8 
+  
+(Year  
+4 
+) 
+  
+A 
+  
+SYE 
+4068 
+ C  
+/ 
+SYE 
+4116 
+  
+Final Year Project/  
+Capstone Project II (3) 
+  
+SYE 
+4036 
+  
+Manufacturing Systems  
+Modelling and  
+Optimization (3) 
+  
+SYE 
+4003 
+  
+Artificial Intelligence  
+and Advanced  
+Technology in  
+Manufacturing and  
+Operations 
+  
+(3) 
+  
+MNE3046 
+  
+Automation Technology  
+(3) 
+  
+Major Elective 4 (3) 
+  
+  
+Gateway 
+  
+Education 2 (3) 
+  
+18 
+  
+B 
+  
+SYE 
+4068 
+ C  
+/ 
+SYE 
+4116 
+  
+Final Year Project/  
+Capstone Project II (3) 
+  
+SYE4002 
+  
+Fundamentals of  
+Advanced Packaging 
+  
+(3) 
+  
+SYE 
+4006 
+  
+Semiconductor  
+Manufacturing and  
+Process Control (3) 
+  
+SYE 
+4064 
+  
+Reliability Engineering  
+(3) 
+  
+SYE 
+4001 
+  
+Digital Manufacturing  
+and Operations (3) 
+  
+SYE 
+4005 
+  
+Industrial Data and  
+Manufacturing  
+Analytics (3) 
+  
+  
+18 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 9 
+7 
+  
+Note 
+: 
+  
+Students can take Major electives from Year 3 depending on their overall study plan, and some elective courses may be availab 
+le for study in the evenings only. 
+  
+  
+For Reference Only 
+  
+- 
+  
+21 
+  
+- 
+  
+                                                                          
+(Aug  
+2025 
+) 
+  
+
+---PAGE 22 BREAK---
+  
+  
+Model Study Path for BENG ITME 2025/2026  Advanced Standing II (non 
+- 
+CES mode) 
+  
+  
+  
+Yr 
+  
+Sem 
+  
+Major Requirements 
+  
+University Requirements 
+  
+CUs 
+  
+2025 / 26  (Year 1) 
+  
+A 
+  
+MSE2102 
+  
+Introduction to Materials  
+Science and Engineering (3) 
+  
+SYE3102 
+  
+Quality Engineering (3) ** 
+  
+Major Elective 1 (3) 
+  
+Major Elective 2 (3) 
+  
+  
+College Specified  
+- 
+  
+CSpC 
+  
+1* 
+  
+Gateway 
+  
+Education 1 (3) 
+  
+18 
+  
+B 
+  
+MNE3119 
+  
+Manufacturing Technology  
+(3) 
+  
+SYE 
+2010 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers I (3) 
+  
+SYE3003 
+  
+Design and Analysis of  
+Manufacturing Processes and  
+Systems (3) ** 
+  
+  
+SYE3060 
+  
+Operations Research (3) 
+  
+SYE4064 
+  
+Reliability Engineering (3) 
+  
+SYE2016 
+  
+Manufacturing  
+Engineering Workshop (0) 
+  
+  
+English 2  
+- 
+  
+Discipline 
+- 
+specific English 
+  
+GE2410 English for Engineering  
+(3) 
+  
+18 
+  
+S 
+  
+College Specified  
+- 
+  
+CSpC 
+  
+2* 
+  
+  
+  
+  
+  
+  
+  
+3 
+  
+2026 / 27  (Year 3) 
+  
+A 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE2011 Fundamental  
+Engineering Analysis and  
+Design for Manufacturing  
+Engineers II (3) 
+  
+MNE3007 CAD/CAM (3) 
+  
+MNE3046 
+  
+Automation Technology (3) 
+  
+SYE4003 
+  
+Artificial Intelligence and  
+Advanced Technology in  
+Manufacturing and  
+Operations  
+(3) 
+  
+SYE4036 
+  
+Systems Modelling and  
+Optimization (3) 
+  
+  
+18 
+  
+B 
+  
+SYE4068/SYE4116 
+  
+Final Year Project/ Capstone  
+Project II (3) 
+  
+SYE4001 
+  
+Digital Manufacturing and  
+Operations (3) 
+  
+SYE4002 
+  
+Fundamentals of Advanced  
+Packaging  
+(3) 
+  
+SYE4005 
+  
+Industrial Data and  
+Manufacturing Analytics (3) 
+  
+SYE4006 
+  
+Semiconductor  
+Manufacturing 
+  
+and  
+Process Control (3) 
+  
+  
+  
+15 
+  
+  
+(  ) indicates number of credit units 
+  
+Total credits required = 72 
+  
+* CSpC 
+  
+(College 
+- 
+specified Courses) can be any courses not within the Major Requirement (including core courses and electives) mentioned in St 
+udent Handbook. 
+  
+**  
+Advanced Standing II 
+  
+students are waived from taking MA1200/MA1300 and MA1201/MA1301 
+  
+  
+For Reference Only 
+  
+- 
+  
+2 
+2 
+  
+- 
+  
+                                                                          
+(Aug  
+2025 
+) 
+  
+
+---PAGE 23 BREAK---
+  
+- 
+  
+23 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+Notes 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+---PAGE 24 BREAK---
+  
+- 
+  
+24 
+  
+- 
+  
+( 
+Aug 
+  
+2025 
+) 
+  
+Notes 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+---PAGE 25 BREAK---

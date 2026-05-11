@@ -1,0 +1,106 @@
+BBA Global Operations Management 4-yr Structure (BBAU4 for 2025/26 intake)
+Effective from Catalogue Term: Sem A 2025/2026
+Year 1 (2025/26)
+Semester A CUs 	Semester B 	CUs
+CB2201 Operations Management 	3 	CB2200 Business Statistics 	3
+CB2400 Micro-Economics 	3 	CB2100 Introduction to Financial Accounting 	3
+CB2500 Information Management 	3 	CB2300 Management 	3
+GE (Note 2) 	3 	CB2601 Marketing 	3
+GE1401 University English or EAP (Note 1) 	3 	GE2402 English for Business Communication or EAP (Note 1) 	3
+Sem A or B CHIN1001 University Chinese I (Note 3) 	3 	GE1601 Whole-Person Development 	1
+Total 	18 	Total 	16
+Year 2 (2026/27)
+Semester A CUs 	Semester B 	CUs
+CB2101 Introduction to Managerial Accounting 	3 	CB2402 Macro-Economics 	3
+CB3410 Financial Management 	3 	CB2240 Introduction to Business Programming in Python 	3
+CB2203 Data-driven Business Modeling 	3 	MS3127 Global Business Logistics 	3
+MS3124 Global Supply Chain Management 	3 	MS3253 Operations Analytics 	3
+MS3322 Quality Management 	3 	GE course or College Elective 	3
+GE1401 University English (for students taken EAP) 	3 GE2402 English for Business Communication (for students
+taken EAP) 3
+Total 	18 	Total 	18
+Year 3 (2027/28)
+Semester A CUs 	Semester B 	CUs
+MS4306 Best Practices in Global Operations Management 	3 	College Elective 	3
+Major Elective 1 	3 MS3123 Workshop on Global Operations and Supply Chain
+Management Practices 3
+Minor 1 (Note 4) 	3 	Major Elective 2 	3
+GE (Note 2) 	3 	Minor 2 (Note 4) 	3
+GE1501 Chinese Civilization – History & Philosophy 	3 	GE (Note 2) 	3
+Total 	15 	Total 	15
+Year 4 (2028/29)
+Semester A CUs 	Semester B 	CUs
+College Elective 	3 	CB4303 Strategic Management 	3
+Major Elective 3 	3 	College Elective 	3
+Major Elective 4 	3 	Minor 5 (Note 4) 	3
+Minor 3 (Note 4) 	3 	Free Elective 	3
+Minor 4 (Note 4) 	3 	GE (Note 2) 	3
+Total 	15 	Total 	15
+Minimum number of credit units required: 121
+
+-- 1 of 2 --
+
+Minimum Credits Required
+GE: 4/5 GE courses + 2 College-Specified Courses (18/21 CU)
+GE: 2 ENGL + CCIV + GE1601 (10 CU)
+College: 11 College Cores + 3/4 College Electives (42/45 CU)
+Major: 10 Major courses (30 CU)
+Minor + Free Electives: 6 courses (18 CU)
+Min. Total: 41 courses (121 CUs)
+Max. Allowable: 48 courses (144 CUs)
+Note:
+(1) 	English Language Requirement:
+Students admitted with HKDSE English Level 3 or equivalent are required to complete the 6-credit course LC0200A and LC0200B English
+for Academic Purposes (EAP) prior to taking the 2 GE English courses (GE1401 and GE2402).
+(2) 	Gateway Education Course Distributional Requirements
+Take at least 3 credits from each of the 3 areas:
+Area 1: Arts and Humanities
+Area 2: Study of Societies, Social and Business Organizations
+Area 3: Science and Technology
+(3) 	Chinese Language Requirement
+Students scoring below Level 4 in HKDSE Chinese Language, or scoring below Grade D in HKALE AS-level Chinese Language and Culture are
+required to take a 3-credit unit course CHIN1001 University Chinese I.
+(4) 	Students who do not choose a minor are required to take Free Electives.
+Major Electives: Students are required to take 4 electives from the following list
+Group A - Major Electives* (0 - 3 credit units)
+LC2401 French 1
+LC2402 French 2
+LC2501 German 1
+LC2502 German 2
+LC2601 Spanish 1
+LC2602 Spanish 2
+LC2930 Japanese 1
+LC2931 Japanese 2
+LC2973 Korean 1
+LC2974 Korean 2
+LC3403 French 3
+LC3404 French 4
+LC3503 German 3
+LC3504 German 4
+LC3603 Spanish 3
+LC3604 Spanish 4
+LC3932 Japanese 3
+LC3933 Japanese 4
+LC3982 Korean 3
+LC3983 Korean 4
+LC4994 Japanese 5
+LC4995 Japanese 6
+Group B - Major Electives (0 - 3 credit units)
+CS2360 Java Programming
+CS3402 Database Systems
+XXXX Any one of the Core or Elective courses from other BBA
+Majors
+Group C - Major Electives (6 - 12 credit units)
+MS3106 Simulation
+MS3111 Quantitative Business Analysis with Visual Basic for
+Applications
+MS3125 Business Project Management
+MS3304 Hospitality Management
+MS3403* Internship for Management Sciences
+MS4111 Enterprise Resource Planning
+MS4118* Operations Management Project
+MS4227 Pricing and Revenue Management
+*This course can be used to fulfil the internship/consultancy project/research project requirement.
+
+-- 2 of 2 --
+

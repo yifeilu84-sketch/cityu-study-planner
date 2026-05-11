@@ -1,0 +1,450 @@
+{
+  "code": "BENG1_ARCE-1",
+  "title": "Bachelor of Engineering in Architectural Engineering",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ARCE-1.htm",
+  "degree": "Bachelor of Engineering",
+  "totalCredits": 121,
+  "department": "Department of Architecture and Civil Engineering",
+  "college": "College of Engineering",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 198,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA1167",
+          "title": "Engineering Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2123",
+          "title": "Engineering Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2311",
+          "title": "Construction Contracts I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2418",
+          "title": "Green Building and Construction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2506",
+          "title": "Industrial Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2626",
+          "title": "Thermal Engineering for Building Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2627",
+          "title": "Building Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2673",
+          "title": "Engineering Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2674",
+          "title": "Construction Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2675",
+          "title": "Fluid Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2744",
+          "title": "Building Technology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3122",
+          "title": "Engineering Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3168",
+          "title": "Building Information Modelling for Capital Projects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3417",
+          "title": "Management for Construction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3629",
+          "title": "Building and Fire Safety Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3712",
+          "title": "Electrical Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3722",
+          "title": "HVAC Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3732",
+          "title": "Fire Engineering and Piped Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3793",
+          "title": "System Modelling for Architectural Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4527",
+          "title": "Integrated Building Project Development (Architectural Engineering)",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4749",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
+        },
+        {
+          "code": "CA4790",
+          "title": "Architectural Engineering Design Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2169",
+          "title": "Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": "Pre-requisite of SEE2201 for ACE students:\nPHY1201 and MA1200 / MA1300 and MA1201 / MA1301"
+        },
+        {
+          "code": "CA4717",
+          "title": "Electrical Engineering Practices",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4718",
+          "title": "Power Electronics and Smart Lighting Controls",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4727",
+          "title": "Advanced HVAC Systems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4728",
+          "title": "Smart Ventilation and Indoor Air Quality",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4737",
+          "title": "Fire Science and Modelling",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "CA4738",
+          "title": "Fire Engineering Approach",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "CA1167",
+          "title": "Engineering Communication",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2123",
+          "title": "Engineering Methods",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2311",
+          "title": "Construction Contracts I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2418",
+          "title": "Green Building and Construction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2506",
+          "title": "Industrial Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2626",
+          "title": "Thermal Engineering for Building Engineers",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2627",
+          "title": "Building Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2673",
+          "title": "Engineering Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2674",
+          "title": "Construction Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2675",
+          "title": "Fluid Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2744",
+          "title": "Building Technology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3122",
+          "title": "Engineering Analysis",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3168",
+          "title": "Building Information Modelling for Capital Projects",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3417",
+          "title": "Management for Construction",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3629",
+          "title": "Building and Fire Safety Control",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3712",
+          "title": "Electrical Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3722",
+          "title": "HVAC Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3732",
+          "title": "Fire Engineering and Piped Services",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA3793",
+          "title": "System Modelling for Architectural Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4527",
+          "title": "Integrated Building Project Development (Architectural Engineering)",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4749",
+          "title": "Final Year Project",
+          "credits": 6,
+          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
+        },
+        {
+          "code": "CA4790",
+          "title": "Architectural Engineering Design Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA2169",
+          "title": "Environmental Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SEE2201",
+          "title": "Fundamentals of Environmental Engineering",
+          "credits": 3,
+          "remarks": "Pre-requisite of SEE2201 for ACE students:\nPHY1201 and MA1200 / MA1300 and MA1201 / MA1301"
+        },
+        {
+          "code": "CA4717",
+          "title": "Electrical Engineering Practices",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4718",
+          "title": "Power Electronics and Smart Lighting Controls",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4727",
+          "title": "Advanced HVAC Systems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4728",
+          "title": "Smart Ventilation and Indoor Air Quality",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CA4737",
+          "title": "Fire Science and Modelling",
+          "credits": 3,
+          "remarks": "*"
+        },
+        {
+          "code": "CA4738",
+          "title": "Fire Engineering Approach",
+          "credits": 3,
+          "remarks": "*"
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CS1302",
+    "PHY1201",
+    "CA1167",
+    "CA2123",
+    "CA2311",
+    "CA2418",
+    "CA2506",
+    "CA2626",
+    "CA2627",
+    "CA2673",
+    "CA2674",
+    "CA2675",
+    "CA2744",
+    "CA3122",
+    "CA3168",
+    "CA3417",
+    "CA3629",
+    "CA3712",
+    "CA3722",
+    "CA3732",
+    "CA3793",
+    "CA4527",
+    "CA4749",
+    "CA4790",
+    "CA2169",
+    "SEE2201",
+    "CA4717",
+    "CA4718",
+    "CA4727",
+    "CA4728",
+    "CA4737",
+    "CA4738"
+  ]
+}

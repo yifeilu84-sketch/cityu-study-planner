@@ -1,0 +1,236 @@
+Suggested Study Plan for Cohort 2025 and thereafter Normative 4-Year
+BBA Business Decision Analytics Major – Data Informatics Stream
+For Students Admitted from Semester A 2025/26
+Year 1 (2025/26)
+Semester A CUs 	Semester B 	CUs
+CB2201 Operations Management 	3 	CB2100 Introduction to Financial Accounting 	3
+CB2400 Micro-Economics 	3 	CB2200 Business Statistics 	3
+CB2500 Information Management 	3 	CB2300 Management 	3
+GE★ 	3 	CB2601 Marketing 	3
+GE1401 University English or EAP # 	3 	GE2402 English for Business Communication or EAP # 	3
+GE1601 Whole-Person Development 	1
+Sem A or B : CHIN1001 University Chinese I▲ 	3
+Total 	19 	Total 	15
+Year 2 (2026/27)
+Semester A CUs 	Semester B 	CUs
+CB2101 Introduction to Managerial Accounting 	3 	CB2240 Introduction to Business Programming in Python 	3
+CB2402 Macro-Economics 	3 	GE★ 	3
+IS3331 Database Management 	3 	CB3410 Financial Management 	3
+MS3227 Probability Theory in Decision Making 	3 	MS3252 Regression Analysis 	3
+MS3251 Analytics using SAS 	3 	Minor△ 	3
+GE1401 University English (for students taken EAP) 	3 GE2402 English for Business Communication (for
+students taken EAP) 3
+Total 	18 	Total 	18
+Year 3 (2027/28)
+Semester A CUs 	Semester B 	CUs
+GE Course or College Elective 	3 	CB2203 Data Driven Business Modeling 	3
+IS3100 Techniques for Big Data 	3 	GE★ 	3
+IS3240 Advanced Business Programming in Python 	3 	MS4226 Financial Risk Analytics 	3
+MS4224 Enterprise Data Mining 	3 	College Elective 	3
+Minor△ 	3 	Minor△ 	3
+Total 	15 	Total 	15
+Year 4 (2028/29)
+Semester A CUs 	Semester B 	CUs
+College Elective 	3 	CB4303 Strategic Management 	3
+GE1501 Chinese Civilization – History & Philosophy 	3 	College Elective 	3
+Major Elective✪ 	3 	Major Elective✪ 	3
+Free Elective 	3 	GE★ 	3
+Minor△ 	3 	Minor△ 	3
+Total 	15 	Total 	15
+Minimum number of credit units required: 121
+
+-- 1 of 5 --
+
+Minimum Credits Required
+GE: 4/5 GE courses + 2 College-Specified Courses (18/21 CUs)
+GE: 2 ENGL + CCIV (9 CUs) + GE1601 (10 CUs)
+College: 11 College Cores + 3/4 College Electives (42/45 CUs)
+Major: 10 Major courses (30 CUs)
+Minor/Free Electives: 6 courses (18 CUs)
+Min. Total: 41 courses (121 CUs)
+Max. Allowable: 48 courses (144 CUs)
+Note:
+#English Language Requirement:
+Students admitted with HKDSE English Level 3 or equivalent are required to complete the 6-credit course LC0200A and LC0200B English for
+Academic Purposes (EAP) prior to taking the 2 GE English courses (GE1401 and GE2402).
+★Gateway Education Course Distributional Requirement:
+Take at least 1 course from each of the three distributional areas:
+Area 1: Arts and Humanities
+Area 2: Study of Societies, Social and Business Organizations
+Area 3: Science and Technology
+▲Chinese Language Requirement:
+Students scoring below Level 4 in HKDSE Chinese Language, or scoring below Grade D in HKALE AS-level Chinese Language and Culture are
+required to take a 3-credit unit course CHIN1001 University Chinese I.
+△Students who do not choose a minor are required to take Free Electives.
+✪Major Electives: Take 2 electives from the following list:
+AC4301 Corporate Accounting II
+AC4342 Auditing
+EF3320 Security Analysis and Portfolio Management
+EF3333 Financial Systems, Markets and Instruments
+IS2505 E- Business
+IS4861 Machine Learning for Business
+IS4238/IS4239 Internship I/II (For IS Major students only) (✹)
+IS4937/IS4938 Information Management Consulting Project I/II
+(For IS Major students only) (✹)
+IS4940 Global Technology Entrepreneurship and Innovation
+MGT4313 Strategic Entrepreneurship
+MKT3603 Consumer Behaviour
+MKT3608 Marketing Intelligence and Applications of Analytics
+MS3224 Business Survey Design
+MS3403 Internship for Management Sciences (For BDAN Major
+students only) (✹)
+MS4253 Business Analytics Project (For BDAN Major students
+only) (✹)
+Any one of the Core or Elective courses from other BBA Majors
+without Major Leader’s Approval
+(✹) Students of Cohort 2022 and later are required to fulfil the internship/consultancy project/research project requirement in
+accordance with the requirements stipulated by the college.
+
+-- 2 of 5 --
+
+Suggested Study Plan for Cohort 2025 and thereafter Advanced Standing I
+BBA Business Decision Analytics Major - Data Informatics Stream
+For Students Admitted from Semester A 2025/26
+Year 1 (2025/26)
+Semester A CUs 	Semester B 	CUs
+CB2100 Introduction to Financial Accounting 	3 	CB2300 Management 	3
+CB2201 Operations Management 	3 	CB2601 Marketing 	3
+CB2400 Micro-Economics 	3 	CB2200 Business Statistics 	3
+CB2500 Information Management 	3 	CB2402 Macro-Economics 	3
+GE1401 University English or EAP # 	3 	GE2402 English for Business Communication or EAP # 	3
+GE1601 Whole-Person Development 	1
+CHIN1001 University Chinese I▲ 	3
+Total 	19 	Total 	15
+Year 2 (2026/27)
+Semester A CUs 	Semester B 	CUs
+CB2101 Introduction to Managerial Accounting 	3 	CB2240 Introduction to Business Programming in Python 	3
+CB3410 Financial Management 	3 	GE1501 Chinese Civilisation - History and Philosophy 	3
+IS3331 Database Management 	3 	College Elective 	3
+MS3227 Probability Theory in Decision Making 	3 	MS3252 Regression Analysis 	3
+MS3251 Analytics using SAS 	3 	Major Elective✪ 	3
+GE1401 University English (for students taken EAP) 	3 GE2402 English for Business Communication (for
+students taken EAP) 3
+Total 	18 	Total 	18
+Year 3 (2027/28)
+Semester A CUs 	Semester B 	CUs
+College Elective 	3 	College Elective 	3
+IS3240 Advanced Business Programming in Python 	3 	CB4303 Strategic Management 	3
+IS3100 Techniques for Big Data 	3 	MS4226 Financial Risk Analytics 	3
+MS4224 Enterprise Data Mining 	3 	CB2203 Data Driven Business Modeling 	3
+Major Elective✪ 	3 	GE★ 	3
+GE★ 	3
+Total 	18 	Total 	15
+Minimum number of credit units required: 94
+
+-- 3 of 5 --
+
+Minimum Credits Required
+GE: 2 GE courses + 2 College-Specified Courses (12 CUs)
+GE: 2 ENGL + CCIV (9 CUs) + GE1601 (10 CUs)
+College: 11 College Cores + 3 College Electives (42 CUs)
+Major: 10 Major courses (30 CUs)
+Min. Total: 32 courses (94 CUs)
+Max. Allowable: 38 courses (114 CUs)
+Credits Exempted:
+2 GE (6 CUs)
+1 College Elective (3 CUs)
+6 Minor/ Free Electives (18 CUs)
+Note:
+#English Language Requirement:
+Students admitted with HKDSE English Level 3 or equivalent are required to complete the 6-credit course LC0200A and LC0200B English for
+Academic Purposes (EAP) prior to taking the 2 GE English courses (GE1401 and GE2402).
+★Gateway Education Course Distributional Requirement:
+Take 2 courses from two different distributional areas. Advanced Standing I students are not allowed to take GE courses offered by their
+own academic unit.
+Area 1: Arts and Humanities
+Area 2: Study of Societies, Social and Business Organizations
+Area 3: Science and Technology
+▲Chinese Language Requirement:
+Students scoring below Level 4 in HKDSE Chinese Language, or scoring below Grade D in HKALE AS-level Chinese Language and Culture are
+required to take a 3-credit unit course CHIN1001 University Chinese I.
+✪Major Electives: Take 2 electives from the following list:
+AC4301 Corporate Accounting II
+AC4342 Auditing
+EF3320 Security Analysis and Portfolio Management
+EF3333 Financial Systems, Markets and Instruments
+IS2505 E- Business
+IS4861 Machine Learning for Business
+IS4238/IS4239 Internship I/II (For IS Major students only)
+IS4937/IS4938 Information Management Consulting Project I/II
+(For IS Major students only)
+IS4940 Global Technology Entrepreneurship and Innovation
+MGT4313 Strategic Entrepreneurship
+MKT3603 Consumer Behaviour
+MKT3608 Marketing Intelligence and Applications of Analytics
+MS3224 Business Survey Design
+MS3403 Internship for Management Sciences (For BDAN Major
+students only)
+MS4253 Business Analytics Project (For BDAN Major students
+only)
+Any one of the Core or Elective courses from other BBA Majors
+without Major Leader’s Approval
+
+-- 4 of 5 --
+
+Suggested Study Plan for Cohort 2025 and thereafter Advanced Standing II
+BBA Business Decision Analytics Major - Data Informatics Stream
+For Students Admitted from Semester A 2025/26
+Year 1 (2025/26)
+Semester A CUs 	Semester B 	CUs
+CB2101 Introduction to Managerial Accounting 	3 	CB2402 Macro-Economics 	3
+CB2200 Business Statistics 	3 	CB2240 Introduction to Business Programming in Python 	3
+IS3331 Database Management 	3 	CB2203 Data Driven Business Modeling 	3
+MS3251 Analytics using SAS 	3 	Major Elective✪ 	3
+MS3227 Probability Theory in Decision Making 	3 	MS3252 Regression Analysis 	3
+GE2402 English for Business Communication# 	3
+Total 	15 	Total 	18
+Year 2 (2026/27)
+Semester A CUs 	Semester B 	CUs
+College Elective 	3 	College Elective 	3
+College Elective 	3 	CB4303 Strategic Management 	3
+IS3240 Advanced Business Programming in Python 	3 	MS4226 Financial Risk Analytics 	3
+IS3100 Techniques for Big Data 	3 	GE★ 	3
+MS4224 Enterprise Data Mining 	3 	Major Elective✪ 	3
+Total 	15 	Total 	15
+Minimum number of credit units required: 63
+Minimum Credits Required
+GE: 1 GE course + 2 College-Specified Courses (9 CUs)
+GE: ENGL (3 CUs)
+College: 4 College Cores + 3 College Electives (21 CUs)
+Major: 10 Major courses (30 CUs)
+Min. Total: 21 courses (63 CUs)
+Max. Allowable: 28 courses (84 CUs)
+Credits Exempted:
+3 GE (9 CUs)
+1 ENGL+ 1 CCIV (6 CUs)
+7 College Core + 1 College Elective (24 CUs)
+6 Minor/ Free Electives (18 CUs)
+Note:
+#English Language Requirement:
+Only required to take GE2402 English for Business Communication. Block credits exemption includes GE1401 University English.
+★Gateway Education Course Distributional Requirement:
+Take 1 course. Advanced Standing II students are not allowed to take GE courses offered by their own academic unit.
+✪Major Electives: Take 2 electives from the following list:
+AC4301 Corporate Accounting II
+AC4342 Auditing
+EF3320 Security Analysis and Portfolio Management
+EF3333 Financial Systems, Markets and Instruments
+IS2505 E- Business
+IS4861 Machine Learning for Business
+IS4238/IS4239 Internship I/II (For IS Major students only)
+IS4937/IS4938 Information Management Consulting Project I/II
+(For IS Major students only)
+IS4940 Global Technology Entrepreneurship and Innovation
+MGT4313 Strategic Entrepreneurship
+MKT3603 Consumer Behaviour
+MKT3608 Marketing Intelligence and Applications of Analytics
+MS3224 Business Survey Design
+MS3403 Internship for Management Sciences (For BDAN Major
+students only)
+MS4253 Business Analytics Project (For BDAN Major students
+only)
+Any one of the Core or Elective courses from other BBA Majors
+without Major Leader’s Approval
+
+-- 5 of 5 --
+

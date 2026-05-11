@@ -1,0 +1,1332 @@
+{
+  "code": "BSC1_CHEM-1",
+  "title": "Bachelor of Science in Chemistry",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CHEM-1.htm",
+  "degree": "Bachelor of Science",
+  "totalCredits": 121,
+  "department": "Department of Chemistry",
+  "college": "College of Science",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 722,
+      "courses": [
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1101",
+          "title": "Introduction to Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1502",
+          "title": "Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1002",
+          "title": "Career Lab for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI2002",
+          "title": "Workshop on Research Methodology",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006A",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007A",
+          "title": "Principles of Organic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2509",
+          "title": "Discrete Mathematics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004A",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008A",
+          "title": "Principles of Physical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1101",
+          "title": "Introduction to Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1502",
+          "title": "Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI1002",
+          "title": "Career Lab for Scientists",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI2002",
+          "title": "Workshop on Research Methodology",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006A",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007A",
+          "title": "Principles of Organic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2509",
+          "title": "Discrete Mathematics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004A",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008A",
+          "title": "Principles of Physical Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1203",
+          "title": "General Physics III",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007",
+          "title": "Principles of Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008",
+          "title": "Principles of Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2073",
+          "title": "Entrepreneurship Programme In Chemistry 1",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3014",
+          "title": "Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3015",
+          "title": "Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3016",
+          "title": "Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3027",
+          "title": "Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3014",
+          "title": "Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3015",
+          "title": "Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3016",
+          "title": "Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3027",
+          "title": "Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4086",
+          "title": "Independent Research I",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4087",
+          "title": "Independent Research II",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS2204",
+          "title": "Fundamentals of Internet Applications Development",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS2360",
+          "title": "Java Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4002",
+          "title": "Industrial Attachment Scheme for Science Students",
+          "credits": 3,
+          "remarks": "* See footnote"
+        },
+        {
+          "code": "CSCI4005",
+          "title": "Overseas Internship Scheme for Science Student",
+          "credits": 3,
+          "remarks": "* See footnote"
+        },
+        {
+          "code": "CHEM2003",
+          "title": "Biochemistry",
+          "credits": 3,
+          "remarks": "BMS2004 Biochemistry is an equivalent course offered to students from 2017/18."
+        },
+        {
+          "code": "CHEM2005",
+          "title": "Principles of Environmental Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3012",
+          "title": "Genetics",
+          "credits": 4,
+          "remarks": "BMS3203 Genetics is an equivalent course offered to students from 2022/23."
+        },
+        {
+          "code": "CHEM3038",
+          "title": "Environmental Sampling and Risk Assessment",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "1-4 credits, * See footnote"
+        },
+        {
+          "code": "CHEM3081",
+          "title": "Chemical Biology of DNA and RNA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3082",
+          "title": "Graphene: Fundamentals and Emergent Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3084",
+          "title": "Forensic Imaging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3085",
+          "title": "Gemological Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4021",
+          "title": "Environmental Pollution",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4022",
+          "title": "Environmental Toxicology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Students of the GREAT stream cannot take this course. * See footnote"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4041",
+          "title": "Selected Topics in Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4088",
+          "title": "Entrepreneurship Programme In Chemistry 2",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2071",
+          "title": "Biological Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3052",
+          "title": "Chemistry beyond the Molecule: Supramolecular Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3053",
+          "title": "Computational Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3055",
+          "title": "Green Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3083",
+          "title": "Cosmetic Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4029",
+          "title": "Advanced Analytical Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4030",
+          "title": "Advanced Inorganic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4031",
+          "title": "Advanced Organic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4033",
+          "title": "Industrial Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4034",
+          "title": "Environmental Control and Waste Treatment",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4043",
+          "title": "Food Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4045",
+          "title": "Medicinal Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4051",
+          "title": "Forensic Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4054",
+          "title": "Chemical Bonding and Molecular Spectroscopy",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4084",
+          "title": "Crystallography/Solid-state Inorganic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4085",
+          "title": "Testing and Certification Sciences",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4089",
+          "title": "Techniques and Instrumentation for Chemical Biology",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4090",
+          "title": "Natural Product Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4091",
+          "title": "Advanced Cosmetic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CSCI4007",
+          "title": "Patent Application and Technopreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4030",
+          "title": "Advanced Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4031",
+          "title": "Advanced Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4054",
+          "title": "Chemical Bonding and Molecular Spectroscopy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "To be taken in Year 4*"
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "3-4 credits, to be taken in Year 4*"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": "To be taken in Year 4*"
+        },
+        {
+          "code": "CHEM3083",
+          "title": "Cosmetic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4091",
+          "title": "Advanced Cosmetic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4002",
+          "title": "Industrial Attachment Scheme for Science Students",
+          "credits": 3,
+          "remarks": "Project titles to be agreed by the Hong Kong Society of Cosmetic Chemists (HKSCC)"
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "Project shall be related to Cosmetic Chemistry."
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Project shall be related to Cosmetic Chemistry."
+        },
+        {
+          "code": "CHEM2003",
+          "title": "Biochemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2809",
+          "title": "Science Versus Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3084",
+          "title": "Forensic Imaging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4051",
+          "title": "Forensic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3017",
+          "title": "Molecular Biology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3081",
+          "title": "Chemical Biology of DNA and RNA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4089",
+          "title": "Techniques and Instrumentation for Chemical Biology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2004",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2006",
+          "title": "Principles of Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2007",
+          "title": "Principles of Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2008",
+          "title": "Principles of Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2073",
+          "title": "Entrepreneurship Programme In Chemistry 1",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3014",
+          "title": "Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3015",
+          "title": "Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3016",
+          "title": "Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3027",
+          "title": "Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3014",
+          "title": "Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3015",
+          "title": "Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3016",
+          "title": "Physical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3027",
+          "title": "Analytical Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4086",
+          "title": "Independent Research I",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4087",
+          "title": "Independent Research II",
+          "credits": 8,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS2204",
+          "title": "Fundamentals of Internet Applications Development",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS2360",
+          "title": "Java Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI3001",
+          "title": "Grand Challenges in the World",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4002",
+          "title": "Industrial Attachment Scheme for Science Students",
+          "credits": 3,
+          "remarks": "* See footnote"
+        },
+        {
+          "code": "CSCI4005",
+          "title": "Overseas Internship Scheme for Science Student",
+          "credits": 3,
+          "remarks": "* See footnote"
+        },
+        {
+          "code": "CHEM2003",
+          "title": "Biochemistry",
+          "credits": 3,
+          "remarks": "BMS2004 Biochemistry is an equivalent course offered to students from 2017/18."
+        },
+        {
+          "code": "CHEM2005",
+          "title": "Principles of Environmental Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3012",
+          "title": "Genetics",
+          "credits": 4,
+          "remarks": "BMS3203 Genetics is an equivalent course offered to students from 2022/23."
+        },
+        {
+          "code": "CHEM3038",
+          "title": "Environmental Sampling and Risk Assessment",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "1-4 credits, * See footnote"
+        },
+        {
+          "code": "CHEM3081",
+          "title": "Chemical Biology of DNA and RNA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3082",
+          "title": "Graphene: Fundamentals and Emergent Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3084",
+          "title": "Forensic Imaging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3085",
+          "title": "Gemological Science",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4021",
+          "title": "Environmental Pollution",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4022",
+          "title": "Environmental Toxicology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Students of the GREAT stream cannot take this course. * See footnote"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4041",
+          "title": "Selected Topics in Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4088",
+          "title": "Entrepreneurship Programme In Chemistry 2",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2071",
+          "title": "Biological Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3052",
+          "title": "Chemistry beyond the Molecule: Supramolecular Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3053",
+          "title": "Computational Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3055",
+          "title": "Green Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM3083",
+          "title": "Cosmetic Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4029",
+          "title": "Advanced Analytical Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4030",
+          "title": "Advanced Inorganic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4031",
+          "title": "Advanced Organic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4033",
+          "title": "Industrial Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4034",
+          "title": "Environmental Control and Waste Treatment",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4035",
+          "title": "Environmental Measurements",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4043",
+          "title": "Food Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4045",
+          "title": "Medicinal Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4051",
+          "title": "Forensic Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4054",
+          "title": "Chemical Bonding and Molecular Spectroscopy",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4084",
+          "title": "Crystallography/Solid-state Inorganic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4085",
+          "title": "Testing and Certification Sciences",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4089",
+          "title": "Techniques and Instrumentation for Chemical Biology",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4090",
+          "title": "Natural Product Chemistry",
+          "credits": 3,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CHEM4091",
+          "title": "Advanced Cosmetic Chemistry",
+          "credits": 4,
+          "remarks": "Courses offered in alternate years."
+        },
+        {
+          "code": "CSCI4007",
+          "title": "Patent Application and Technopreneurship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4030",
+          "title": "Advanced Inorganic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4031",
+          "title": "Advanced Organic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4054",
+          "title": "Chemical Bonding and Molecular Spectroscopy",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "To be taken in Year 4*"
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "3-4 credits, to be taken in Year 4*"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": "To be taken in Year 4*"
+        },
+        {
+          "code": "CHEM3083",
+          "title": "Cosmetic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4091",
+          "title": "Advanced Cosmetic Chemistry",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CSCI4002",
+          "title": "Industrial Attachment Scheme for Science Students",
+          "credits": 3,
+          "remarks": "Project titles to be agreed by the Hong Kong Society of Cosmetic Chemists (HKSCC)"
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "Project shall be related to Cosmetic Chemistry."
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Project shall be related to Cosmetic Chemistry."
+        },
+        {
+          "code": "CHEM2003",
+          "title": "Biochemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM2809",
+          "title": "Science Versus Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3084",
+          "title": "Forensic Imaging",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM4051",
+          "title": "Forensic Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3017",
+          "title": "Molecular Biology",
+          "credits": 4,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3081",
+          "title": "Chemical Biology of DNA and RNA",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM3042",
+          "title": "Directed Studies in Biology/Chemistry/Environmental Sciences",
+          "credits": 4,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4036",
+          "title": "Project",
+          "credits": 6,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4037",
+          "title": "Seminar Series",
+          "credits": 3,
+          "remarks": "Topics shall be related to Forensic Chemistry"
+        },
+        {
+          "code": "CHEM4089",
+          "title": "Techniques and Instrumentation for Chemical Biology",
+          "credits": 4,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CHEM1200",
+    "CHEM1101",
+    "CHEM1300",
+    "MA1501",
+    "MA1502",
+    "PHY1101",
+    "PHY1201",
+    "CSCI1001",
+    "CSCI1002",
+    "CSCI2002",
+    "CHEM2006A",
+    "CHEM2007A",
+    "MA2509",
+    "PHY1202",
+    "CHEM2004A",
+    "CHEM2008A",
+    "PHY1203",
+    "CHEM2004",
+    "CHEM2006",
+    "CHEM2007",
+    "CHEM2008",
+    "CHEM2073",
+    "CHEM3014",
+    "CHEM3015",
+    "CHEM3016",
+    "CHEM3027",
+    "MA2172",
+    "CHEM4086",
+    "CHEM4087",
+    "MGT2324",
+    "MGT4305",
+    "CS2204",
+    "CS2360",
+    "CSCI3001",
+    "CSCI4002",
+    "CSCI4005",
+    "CHEM2003",
+    "CHEM2005",
+    "CHEM3012",
+    "CHEM3038",
+    "CHEM3042",
+    "CHEM3081",
+    "CHEM3082",
+    "CHEM3084",
+    "CHEM3085",
+    "CHEM4021",
+    "CHEM4022",
+    "CHEM4036",
+    "CHEM4037",
+    "CHEM4041",
+    "CHEM4088",
+    "CHEM2071",
+    "CHEM3052",
+    "CHEM3053",
+    "CHEM3055",
+    "CHEM3083",
+    "CHEM4029",
+    "CHEM4030",
+    "CHEM4031",
+    "CHEM4033",
+    "CHEM4034",
+    "CHEM4035",
+    "CHEM4043",
+    "CHEM4045",
+    "CHEM4051",
+    "CHEM4054",
+    "CHEM4084",
+    "CHEM4085",
+    "CHEM4089",
+    "CHEM4090",
+    "CHEM4091",
+    "CSCI4007",
+    "CHEM2809",
+    "CHEM3017"
+  ]
+}

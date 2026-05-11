@@ -1,0 +1,761 @@
+{
+  "code": "BSS1_PSY-1",
+  "title": "Bachelor of Social Sciences in Psychology",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PSY-1.htm",
+  "degree": "Bachelor of Social",
+  "totalCredits": 121,
+  "department": "Department of Social and Behavioural Sciences",
+  "college": "College of Liberal Arts and Social Sciences",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 342,
+      "courses": [
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAH1603",
+          "title": "Great Works in the Humanities",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "EN2011",
+          "title": "English on the Move",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT1101",
+          "title": "Amazing Things about Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "COM1101",
+          "title": "Media and Communication in the Digital Age",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA2801",
+          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1600",
+          "title": "Discovering the Mystery of Applied Social Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2028",
+          "title": "Basic Psychology II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2033",
+          "title": "Research Methods for Behavioural Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2701",
+          "title": "Developmental Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2712",
+          "title": "Personality and Individual Differences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3707",
+          "title": "Design and Analysis for Psychological Research I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3708",
+          "title": "Design and Analysis for Psychological Research II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3711",
+          "title": "Biological Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3712",
+          "title": "Cognitive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3713",
+          "title": "Learning and Behaviour",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3714",
+          "title": "Social Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4708",
+          "title": "Research Project in Psychology",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SS2715",
+          "title": "Enhancing Cultural Competence in Overseas Study and Work",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3718",
+          "title": "Cultural Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3733",
+          "title": "Supervised Independent Study and Research",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "SS4720",
+          "title": "Psychology Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2702",
+          "title": "Psychology of Interpersonal Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2714",
+          "title": "Psychological Testing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3710",
+          "title": "Psychology of Childhood and Adolescence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3718",
+          "title": "Cultural Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3719",
+          "title": "Psychological Aspects of Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3720",
+          "title": "Neuropsychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3721",
+          "title": "Abnormal Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3722",
+          "title": "Psychology of Ageing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3723",
+          "title": "Psychology of Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3724",
+          "title": "Positive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3725",
+          "title": "Cognitive Neuroscience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3726",
+          "title": "Designing Experiments in Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4707",
+          "title": "Counseling and Therapeutic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4715",
+          "title": "Introduction to Health Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4716",
+          "title": "Introduction to Educational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4719",
+          "title": "Introduction to Industrial and Organizational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4720",
+          "title": "Psychology Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "Offered by CityUHK Academy of Innovation"
+        },
+        {
+          "code": "SS2702",
+          "title": "Psychology of Interpersonal Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3710",
+          "title": "Psychology of Childhood and Adolescence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3721",
+          "title": "Abnormal Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3722",
+          "title": "Psychology of Ageing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3724",
+          "title": "Positive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4707",
+          "title": "Counseling and Therapeutic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4715",
+          "title": "Introduction to Health Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4716",
+          "title": "Introduction to Educational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA3207",
+          "title": "Health Care Policy and Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3720",
+          "title": "Neuropsychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3723",
+          "title": "Psychology of Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3725",
+          "title": "Cognitive Neuroscience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3726",
+          "title": "Designing Experiments in Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT3234",
+          "title": "Language and Cognition",
+          "credits": 3,
+          "remarks": "LT3234 is a College-specified course. As such, LT3234 cannot be used to fulfil the requirements of both GE College-specified courses and the Mind and Brain stream.  An additional College-specified course needs to be taken if LT3234 is to be used to fulfil the Stream requirement."
+        },
+        {
+          "code": "NS2003",
+          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1011",
+          "title": "Social Welfare Services and Issues",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1101",
+          "title": "Basic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS1024",
+          "title": "Social Issues and Problems",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2028",
+          "title": "Basic Psychology II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2033",
+          "title": "Research Methods for Behavioural Sciences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2701",
+          "title": "Developmental Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2712",
+          "title": "Personality and Individual Differences",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3707",
+          "title": "Design and Analysis for Psychological Research I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3708",
+          "title": "Design and Analysis for Psychological Research II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3711",
+          "title": "Biological Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3712",
+          "title": "Cognitive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3713",
+          "title": "Learning and Behaviour",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3714",
+          "title": "Social Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4708",
+          "title": "Research Project in Psychology",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "SS2715",
+          "title": "Enhancing Cultural Competence in Overseas Study and Work",
+          "credits": 1,
+          "remarks": ""
+        },
+        {
+          "code": "SS3718",
+          "title": "Cultural Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3733",
+          "title": "Supervised Independent Study and Research",
+          "credits": 2,
+          "remarks": ""
+        },
+        {
+          "code": "SS4720",
+          "title": "Psychology Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2702",
+          "title": "Psychology of Interpersonal Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS2714",
+          "title": "Psychological Testing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3710",
+          "title": "Psychology of Childhood and Adolescence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3718",
+          "title": "Cultural Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3719",
+          "title": "Psychological Aspects of Crime",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3720",
+          "title": "Neuropsychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3721",
+          "title": "Abnormal Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3722",
+          "title": "Psychology of Ageing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3723",
+          "title": "Psychology of Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3724",
+          "title": "Positive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3725",
+          "title": "Cognitive Neuroscience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3726",
+          "title": "Designing Experiments in Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4707",
+          "title": "Counseling and Therapeutic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4715",
+          "title": "Introduction to Health Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4716",
+          "title": "Introduction to Educational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4719",
+          "title": "Introduction to Industrial and Organizational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4720",
+          "title": "Psychology Internship",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CAI4001",
+          "title": "Start-up Technology Entrepreneur Programme I",
+          "credits": 3,
+          "remarks": "Offered by CityUHK Academy of Innovation"
+        },
+        {
+          "code": "SS2702",
+          "title": "Psychology of Interpersonal Relations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3710",
+          "title": "Psychology of Childhood and Adolescence",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3721",
+          "title": "Abnormal Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3722",
+          "title": "Psychology of Ageing",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3724",
+          "title": "Positive Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4707",
+          "title": "Counseling and Therapeutic Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4715",
+          "title": "Introduction to Health Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS4716",
+          "title": "Introduction to Educational Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PIA3207",
+          "title": "Health Care Policy and Ethics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3720",
+          "title": "Neuropsychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3723",
+          "title": "Psychology of Language",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3725",
+          "title": "Cognitive Neuroscience",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "SS3726",
+          "title": "Designing Experiments in Psychology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "LT3234",
+          "title": "Language and Cognition",
+          "credits": 3,
+          "remarks": "LT3234 is a College-specified course. As such, LT3234 cannot be used to fulfil the requirements of both GE College-specified courses and the Mind and Brain stream.  An additional College-specified course needs to be taken if LT3234 is to be used to fulfil the Stream requirement."
+        },
+        {
+          "code": "NS2003",
+          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CAH1603",
+    "EN2011",
+    "LT1101",
+    "COM1101",
+    "PIA2801",
+    "SS1600",
+    "SS1011",
+    "SS1101",
+    "SS1024",
+    "SS2028",
+    "SS2033",
+    "SS2701",
+    "SS2712",
+    "SS3707",
+    "SS3708",
+    "SS3711",
+    "SS3712",
+    "SS3713",
+    "SS3714",
+    "SS4708",
+    "SS2715",
+    "SS3718",
+    "SS3733",
+    "SS4720",
+    "SS2702",
+    "SS2714",
+    "SS3710",
+    "SS3719",
+    "SS3720",
+    "SS3721",
+    "SS3722",
+    "SS3723",
+    "SS3724",
+    "SS3725",
+    "SS3726",
+    "SS4707",
+    "SS4715",
+    "SS4716",
+    "SS4719",
+    "CAI4001",
+    "PIA3207",
+    "LT3234",
+    "NS2003"
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "code": "BENG1_MASE-1",
+  "title": "Bachelor of Engineering in Materials Science and Engineering",
+  "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MASE-1.htm",
+  "degree": "Bachelor of Engineering",
+  "totalCredits": 121,
+  "department": "Department of Materials Science and Engineering",
+  "college": "College of Engineering",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 252,
+      "courses": [
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1201",
+          "title": "General Physics I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE1001",
+          "title": "Programme Induction",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2104",
+          "title": "Mechanical Behaviour of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2106",
+          "title": "Quantum Properties of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2107",
+          "title": "Measurement Theory and Application",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2108",
+          "title": "Materials Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2109",
+          "title": "Bonding and Structure of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2243",
+          "title": "Workshop Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3110",
+          "title": "Deformation and Fracture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3113",
+          "title": "Soft Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3114",
+          "title": "Fundamentals of Scientific Computing: a Course Powered by AI",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3171",
+          "title": "Materials Characterization",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3172",
+          "title": "Electronic Properties of Solids",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3190",
+          "title": "Thermodynamics of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3195",
+          "title": "Kinetics and Phase Transformations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3244",
+          "title": "Design Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4116",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "FS4003",
+          "title": "CES Placement Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2177",
+          "title": "Engineering Mathematics and Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3111",
+          "title": "Ceramic Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3130",
+          "title": "Biomaterials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4121",
+          "title": "Thin Films",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4170",
+          "title": "Corrosion and Protection of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4118",
+          "title": "Composites",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4119",
+          "title": "Modeling Materials: a Course Powered by AI",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4124",
+          "title": "Failure Analysis and Case Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4178",
+          "title": "Nanostructures and Nanotechnology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4179",
+          "title": "Advanced Materials Characterization and its Industrial Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4307",
+          "title": "Building Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4714",
+          "title": "Special Topics in Materials Science and Engineering I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4715",
+          "title": "Special Topics in Materials Science and Engineering II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4005",
+          "title": "Overseas Internship Scheme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE1001",
+          "title": "Programme Induction",
+          "credits": 0,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2102",
+          "title": "Introduction to Materials Science and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2104",
+          "title": "Mechanical Behaviour of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2106",
+          "title": "Quantum Properties of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2107",
+          "title": "Measurement Theory and Application",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2108",
+          "title": "Materials Chemistry",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2109",
+          "title": "Bonding and Structure of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE2243",
+          "title": "Workshop Practice",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3110",
+          "title": "Deformation and Fracture",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3113",
+          "title": "Soft Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3114",
+          "title": "Fundamentals of Scientific Computing: a Course Powered by AI",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3171",
+          "title": "Materials Characterization",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3172",
+          "title": "Electronic Properties of Solids",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3190",
+          "title": "Thermodynamics of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3195",
+          "title": "Kinetics and Phase Transformations",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3244",
+          "title": "Design Laboratory",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4116",
+          "title": "Dissertation",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "FS4003",
+          "title": "CES Placement Project",
+          "credits": 6,
+          "remarks": ""
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2158",
+          "title": "Linear Algebra and Calculus",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2181",
+          "title": "Mathematical Methods for Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MA2177",
+          "title": "Engineering Mathematics and Statistics",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3111",
+          "title": "Ceramic Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE3130",
+          "title": "Biomaterials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4121",
+          "title": "Thin Films",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4170",
+          "title": "Corrosion and Protection of Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4118",
+          "title": "Composites",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4119",
+          "title": "Modeling Materials: a Course Powered by AI",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4124",
+          "title": "Failure Analysis and Case Studies",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4178",
+          "title": "Nanostructures and Nanotechnology",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4179",
+          "title": "Advanced Materials Characterization and its Industrial Applications",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4307",
+          "title": "Building Materials",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4714",
+          "title": "Special Topics in Materials Science and Engineering I",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "MSE4715",
+          "title": "Special Topics in Materials Science and Engineering II",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4002",
+          "title": "Industrial Attachment Scheme",
+          "credits": 3,
+          "remarks": ""
+        },
+        {
+          "code": "FS4005",
+          "title": "Overseas Internship Scheme",
+          "credits": 3,
+          "remarks": ""
+        }
+      ]
+    },
+    "college": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorCore": {
+      "credits": 0,
+      "courses": []
+    },
+    "majorElectives": {
+      "credits": 0,
+      "courses": []
+    },
+    "freeElectives": {
+      "credits": 0,
+      "courses": []
+    }
+  },
+  "allCourses": [
+    "CHEM1300",
+    "PHY1201",
+    "CS1302",
+    "PHY1202",
+    "MSE1001",
+    "MSE2102",
+    "MSE2104",
+    "MSE2106",
+    "MSE2107",
+    "MSE2108",
+    "MSE2109",
+    "MSE2243",
+    "MSE3110",
+    "MSE3113",
+    "MSE3114",
+    "MSE3171",
+    "MSE3172",
+    "MSE3190",
+    "MSE3195",
+    "MSE3244",
+    "MSE4116",
+    "FS4003",
+    "MA2001",
+    "MA2158",
+    "MA2181",
+    "MA2172",
+    "MA2177",
+    "MSE3111",
+    "MSE3130",
+    "MSE4121",
+    "MSE4170",
+    "MSE4118",
+    "MSE4119",
+    "MSE4124",
+    "MSE4178",
+    "MSE4179",
+    "MSE4307",
+    "MSE4714",
+    "MSE4715",
+    "FS4002",
+    "FS4005"
+  ]
+}
