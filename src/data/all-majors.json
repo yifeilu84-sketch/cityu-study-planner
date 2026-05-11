@@ -25616,8 +25616,8 @@
     "streams": [
       {
         "code": "eSTAR",
-        "name": "Energy/Environment in Science, Technology and Advanced Research",
-        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies.",
+        "name": "eSTAR Stream",
+        "description": "eSTAR (Energy/Environment in Science, Technology & Advanced Research) is a stream under the University's Talents Programme.\n\nComponents:\n(i) ESE or EVE major\n(ii) Research component (X): SEE4993 Research Seminar (1 CU) + Guided Study / Special Project (3-6 CU), total 7+ CU\n(iii) Minor study (Y), choose one of:\n  • Computing (COMP) – 15 CU\n  • Data Science (DSC) – 18 CU\n  • Innovation Management and Entrepreneurship (IME) – 15 CU\n  • International Business (IB) – 15 CU\n\n8 Tracks available (Major × Minor combinations).\n\nAdmission: DSE ≥28 / IB ≥38 for high school entrants; or CGPA top 10% after Year 1 for SEE students.\nStudents must maintain CGPA ≥3.40 every semester. Those who opt out are not allowed to be re-admitted.",
         "studyPlan": {
           "year1": {
             "semA": {
@@ -25881,8 +25881,8 @@
       },
       {
         "code": "BSS",
-        "name": "Building Services Science",
-        "description": "Focus on building services engineering, HVAC, fire engineering, and electrical services.",
+        "name": "Building Services Science Stream",
+        "description": "Building Services Science (BSS) discipline focuses on building services engineering, including HVAC, fire engineering, electrical services, and building systems design.\n\nStudents take additional CA courses (Building Services) alongside the core SEE curriculum.",
         "studyPlan": {
           "year1": {
             "semA": {
@@ -26178,7 +26178,11 @@
     "notes": [
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
       "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
-      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics"
+      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics",
+      "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
+      "eSTAR students are expected to complete more credit units (129 CU at least for ESE) than regular students, but total will not exceed 144 CU.",
+      "eSTAR students may be required to enroll in courses during summer semesters.",
+      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests."
     ]
   },
   {
@@ -26863,8 +26867,8 @@
     "streams": [
       {
         "code": "eSTAR",
-        "name": "Energy/Environment in Science, Technology and Advanced Research",
-        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies.",
+        "name": "eSTAR Stream",
+        "description": "eSTAR (Energy/Environment in Science, Technology & Advanced Research) is a stream under the University's Talents Programme.\n\nComponents:\n(i) ESE or EVE major\n(ii) Research component (X): SEE4993 Research Seminar (1 CU) + Guided Study / Special Project (3-6 CU), total 7+ CU\n(iii) Minor study (Y), choose one of:\n  • Computing (COMP) – 15 CU\n  • Data Science (DSC) – 18 CU\n  • Innovation Management and Entrepreneurship (IME) – 15 CU\n  • International Business (IB) – 15 CU\n\n8 Tracks available (Major × Minor combinations).\n\nAdmission: DSE ≥28 / IB ≥38 for high school entrants; or CGPA top 10% after Year 1 for SEE students.\nStudents must maintain CGPA ≥3.40 every semester. Those who opt out are not allowed to be re-admitted.",
         "studyPlan": {
           "year1": {
             "semA": {
@@ -27123,8 +27127,8 @@
       },
       {
         "code": "BSS",
-        "name": "Building Services Science",
-        "description": "Focus on building services engineering, HVAC, fire engineering, and electrical services.",
+        "name": "Building Services Science Stream",
+        "description": "Building Services Science (BSS) discipline focuses on building services engineering, including HVAC, fire engineering, electrical services, and building systems design.\n\nStudents take additional CA courses (Building Services) alongside the core SEE curriculum.",
         "studyPlan": {
           "year1": {
             "semA": {
@@ -27420,7 +27424,11 @@
     "notes": [
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
       "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
-      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics"
+      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics",
+      "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
+      "eSTAR students are expected to complete more credit units (127 CU at least for EVE) than regular students, but total will not exceed 144 CU.",
+      "eSTAR students may be required to enroll in courses during summer semesters.",
+      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests."
     ]
   },
   {
