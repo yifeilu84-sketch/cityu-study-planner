@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# CityU Study Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+香港城市大学（CityU）课程规划辅助工具，涵盖 53 个本科专业的官方推荐学习计划、课程详情、考核方式、前置要求查询，以及自定义编辑模式。
 
-Currently, two official plugins are available:
+**在线访问：** https://yifeilu84-sketch.github.io/cityu-study-planner/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 功能特性
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **53 个本科专业** — 覆盖 10 个学院的本科课程
+- **1800+ 门课程** — 含课程代码、名称、学分、学期、前置课程、考核方式
+- **官方学习计划** — 基于 CityU 2025 cohort normative 4-year degree 的推荐学习路径
+- **课程详情弹窗** — 学期安排、前置要求、考核占比（平时成绩/期末考试）、及格线
+- **编辑模式** — 拖拽调整课程到不同学期，自动校验前置课程要求
+- **辅修专业选择** — 10 个 predefined minors（COMP、DS、MATH 等）
+- **Summer Term 支持** — 完整的四年学制含暑期学期
+- **移动端适配** — 响应式布局，支持手机浏览器访问
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 技术栈
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19 + TypeScript + Vite
+- Tailwind CSS 4
+- React Router（HashRouter）
+- @dnd-kit/core（拖拽编辑）
+- pdfjs-dist（PDF 课程信息提取）
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 本地开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览生产构建
+npm run preview
+
+# 一键部署到 GitHub Pages
+npm run deploy
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 数据来源
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- CityU 官方课程目录：cityu.edu.hk/catalogue/ug/current
+- 各专业 Recommended Study Plan PDF
+- 通识教育课程信息：cityu.edu.hk/ge_info
+
+---
+
+## 制作人
+
+**吕逸飞（Lyu Yifei）**
+
+如有问题或建议，欢迎通过微信联系：
+**L18617192008**
+
+---
+
+## 免责声明
+
+本网站数据来源于 CityU 官方课程目录，仅供参考。实际选课请以大学官方系统和学术顾问意见为准。
