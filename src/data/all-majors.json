@@ -2405,12 +2405,396 @@
       {
         "code": "ComFin",
         "name": "Computational Finance Stream",
-        "description": "Focus on financial derivatives, econometrics, and computational methods."
+        "description": "Focus on financial derivatives, econometrics, and computational methods.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CS1102",
+                "title": "Introduction to Computer Studies",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "CB2400",
+                "title": "Microeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macroeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CS2311",
+                "title": "Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "EF3320",
+                "title": "Security Analysis and Portfolio Management",
+                "credits": 3
+              },
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "MA2001",
+                "title": "Multi-variable Calculus and Linear Algebra",
+                "credits": 3
+              },
+              {
+                "code": "EF4313",
+                "title": "Corporate Finance",
+                "credits": 3
+              },
+              {
+                "code": "MA2510",
+                "title": "Probability and Statistics",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 42,
+            "courses": [
+              {
+                "code": "MA3511",
+                "title": "Ordinary Differential Equations",
+                "credits": 3
+              },
+              {
+                "code": "MS3601",
+                "title": "Optimization Methods",
+                "credits": 3
+              },
+              {
+                "code": "EF4321",
+                "title": "Derivatives and Risk Management",
+                "credits": 3
+              },
+              {
+                "code": "MS3252",
+                "title": "Regression Analysis",
+                "credits": 3
+              },
+              {
+                "code": "MA3525",
+                "title": "Elementary Numerical Methods",
+                "credits": 3
+              },
+              {
+                "code": "MS3111",
+                "title": "Data Analytics with Excel VBA",
+                "credits": 3
+              },
+              {
+                "code": "CB4001",
+                "title": "Honor Thesis",
+                "credits": 3
+              },
+              {
+                "code": "EF4821",
+                "title": "Derivatives Pricing II",
+                "credits": 3
+              },
+              {
+                "code": "EF4820",
+                "title": "Derivatives Pricing I",
+                "credits": 3
+              },
+              {
+                "code": "EF4822",
+                "title": "Financial Econometrics",
+                "credits": 3
+              },
+              {
+                "code": "EF3520",
+                "title": "Stochastic Calculus for Finance",
+                "credits": 3
+              },
+              {
+                "code": "MS2602",
+                "title": "Statistical Inference",
+                "credits": 3
+              },
+              {
+                "code": "EF4328",
+                "title": "Asset Management",
+                "credits": 3
+              },
+              {
+                "code": "CFFT-ELECTIVE",
+                "title": "Stream Elective",
+                "credits": 3
+              }
+            ],
+            "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
         "code": "FinTech",
         "name": "Financial Technology Stream",
-        "description": "Focus on blockchain, machine learning, and information systems for finance."
+        "description": "Focus on blockchain, machine learning, and information systems for finance.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CS1102",
+                "title": "Introduction to Computer Studies",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "CB2400",
+                "title": "Microeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macroeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CS2311",
+                "title": "Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "EF3320",
+                "title": "Security Analysis and Portfolio Management",
+                "credits": 3
+              },
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "MA2001",
+                "title": "Multi-variable Calculus and Linear Algebra",
+                "credits": 3
+              },
+              {
+                "code": "EF4313",
+                "title": "Corporate Finance",
+                "credits": 3
+              },
+              {
+                "code": "MA2510",
+                "title": "Probability and Statistics",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 42,
+            "courses": [
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3501",
+                "title": "Cybersecurity for Business",
+                "credits": 3
+              },
+              {
+                "code": "MA2185",
+                "title": "Discrete Mathematics",
+                "credits": 3
+              },
+              {
+                "code": "CS2312",
+                "title": "Problem Solving and Programming",
+                "credits": 3
+              },
+              {
+                "code": "EF4314",
+                "title": "Corporate Valuation",
+                "credits": 3
+              },
+              {
+                "code": "CS3334",
+                "title": "Data Structures",
+                "credits": 3
+              },
+              {
+                "code": "IS3240",
+                "title": "Advanced Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "IS4335",
+                "title": "Data Visualization",
+                "credits": 3
+              },
+              {
+                "code": "IS3101",
+                "title": "Blockchain and Digital Currency",
+                "credits": 3
+              },
+              {
+                "code": "IS4940",
+                "title": "Global Technology Entrepreneurship and Innovation",
+                "credits": 3
+              },
+              {
+                "code": "IS4861",
+                "title": "Machine Learning for Business",
+                "credits": 3
+              },
+              {
+                "code": "IS4837",
+                "title": "Regulatory Compliance for Financial Services Technologies",
+                "credits": 3
+              },
+              {
+                "code": "IS4920",
+                "title": "FinTech Capstone Project",
+                "credits": 6
+              },
+              {
+                "code": "CFFT-ELECTIVE",
+                "title": "Stream Elective",
+                "credits": 3
+              }
+            ],
+            "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -3502,12 +3886,446 @@
       {
         "code": "Decision Analytics",
         "name": "Decision Analytics Stream",
-        "description": "Focus on business analytics, statistics, and data-driven decision making."
+        "description": "Focus on business analytics, statistics, and data-driven decision making.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilization - History & Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 42,
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "MS3227",
+                "title": "Probability Theory in Decision Making",
+                "credits": 3
+              },
+              {
+                "code": "MS3251",
+                "title": "Analytics using SAS",
+                "credits": 3
+              },
+              {
+                "code": "MS3252",
+                "title": "Regression Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "MS3111",
+                "title": "Data Analytics with Excel VBA",
+                "credits": 3
+              },
+              {
+                "code": "MS4224",
+                "title": "Enterprise Data Mining",
+                "credits": 3
+              },
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "MS4226",
+                "title": "Financial Risk Analytics",
+                "credits": 3
+              },
+              {
+                "code": "MS3128",
+                "title": "Managerial Decision Analytics",
+                "credits": 3
+              },
+              {
+                "code": "MS4252",
+                "title": "Big Data Analytics",
+                "credits": 3
+              }
+            ],
+            "note": "Major Electives: Take 2 electives from Groups A and B, at least 1 must be from Group A"
+          },
+          "freeElectives": {
+            "credits": 18,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
         "code": "Data Informatics",
         "name": "Data Informatics Stream",
-        "description": "Focus on big data techniques, database management, and business programming."
+        "description": "Focus on data management, big data techniques, and information systems.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilization - History & Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 42,
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "MS3227",
+                "title": "Probability Theory in Decision Making",
+                "credits": 3
+              },
+              {
+                "code": "MS3251",
+                "title": "Analytics using SAS",
+                "credits": 3
+              },
+              {
+                "code": "MS3252",
+                "title": "Regression Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "MS4226",
+                "title": "Financial Risk Analytics",
+                "credits": 3
+              },
+              {
+                "code": "MS4224",
+                "title": "Enterprise Data Mining",
+                "credits": 3
+              },
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3331",
+                "title": "Database Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3100",
+                "title": "Techniques for Big Data",
+                "credits": 3
+              },
+              {
+                "code": "IS3240",
+                "title": "Advanced Business Programming in Python",
+                "credits": 3
+              }
+            ],
+            "note": "Major Electives: Take 2 electives from the list"
+          },
+          "freeElectives": {
+            "credits": 18,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -8656,12 +9474,346 @@
       {
         "code": "Structural",
         "name": "Structural Engineering Stream",
-        "description": "Focus on structural analysis, design, and sustainable construction."
+        "description": "Focus on structural analysis, design, and sustainable construction.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 66,
+            "courses": [
+              {
+                "code": "CA2169",
+                "title": "Environmental Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA2673",
+                "title": "Engineering Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA2675",
+                "title": "Fluid Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA3122",
+                "title": "Engineering Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CA2560",
+                "title": "Geology for Engineers",
+                "credits": 3
+              },
+              {
+                "code": "CA2676",
+                "title": "Transportation Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA3704",
+                "title": "Construction Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA3677",
+                "title": "Hydraulics and Hydrology",
+                "credits": 3
+              },
+              {
+                "code": "CA3144",
+                "title": "Engineering Surveying",
+                "credits": 3
+              },
+              {
+                "code": "CA3619",
+                "title": "Design of Structural Elements",
+                "credits": 3
+              },
+              {
+                "code": "CA3632",
+                "title": "Mechanics of Structures & Materials",
+                "credits": 3
+              },
+              {
+                "code": "CA3687",
+                "title": "Soil Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA3168",
+                "title": "BIM for Capital Projects",
+                "credits": 3
+              },
+              {
+                "code": "CA3633",
+                "title": "Structural Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CA3634",
+                "title": "Reinforced & Prestressed Concrete Structures",
+                "credits": 3
+              },
+              {
+                "code": "CA3686",
+                "title": "Construction Contract and Management",
+                "credits": 3
+              },
+              {
+                "code": "CA4516",
+                "title": "Final Year Project",
+                "credits": 6
+              },
+              {
+                "code": "CA4526",
+                "title": "Integrated Building Project Development (Civil Engineering)",
+                "credits": 3
+              },
+              {
+                "code": "CA4665",
+                "title": "Geotechnical Analysis and Design",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 12,
+            "courses": [
+              {
+                "code": "CEG-ELECTIVE",
+                "title": "Stream Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 12
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
-        "code": "Infrastructure",
+        "code": "Infra",
         "name": "Infrastructure and Smart City Stream",
-        "description": "Focus on smart infrastructure, transport, and urban planning."
+        "description": "Focus on smart city infrastructure, transportation, and urban systems.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 66,
+            "courses": [
+              {
+                "code": "CA2169",
+                "title": "Environmental Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA2673",
+                "title": "Engineering Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA2675",
+                "title": "Fluid Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA3122",
+                "title": "Engineering Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CA2560",
+                "title": "Geology for Engineers",
+                "credits": 3
+              },
+              {
+                "code": "CA2676",
+                "title": "Transportation Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA3704",
+                "title": "Construction Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA3677",
+                "title": "Hydraulics and Hydrology",
+                "credits": 3
+              },
+              {
+                "code": "CA3144",
+                "title": "Engineering Surveying",
+                "credits": 3
+              },
+              {
+                "code": "CA3619",
+                "title": "Design of Structural Elements",
+                "credits": 3
+              },
+              {
+                "code": "CA3632",
+                "title": "Mechanics of Structures & Materials",
+                "credits": 3
+              },
+              {
+                "code": "CA3687",
+                "title": "Soil Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "CA3168",
+                "title": "BIM for Capital Projects",
+                "credits": 3
+              },
+              {
+                "code": "CA3633",
+                "title": "Structural Analysis",
+                "credits": 3
+              },
+              {
+                "code": "CA3634",
+                "title": "Reinforced & Prestressed Concrete Structures",
+                "credits": 3
+              },
+              {
+                "code": "CA3686",
+                "title": "Construction Contract and Management",
+                "credits": 3
+              },
+              {
+                "code": "CA4516",
+                "title": "Final Year Project",
+                "credits": 6
+              },
+              {
+                "code": "CA4526",
+                "title": "Integrated Building Project Development (Civil Engineering)",
+                "credits": 3
+              },
+              {
+                "code": "CA4665",
+                "title": "Geotechnical Analysis and Design",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 12,
+            "courses": [
+              {
+                "code": "CEG-ELECTIVE",
+                "title": "Stream Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 12
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -9141,12 +10293,306 @@
       {
         "code": "Surveying",
         "name": "Surveying Stream",
-        "description": "Focus on construction economics, cost management, and surveying practice."
+        "description": "Focus on construction economics, cost management, and surveying practice.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 60,
+            "courses": [
+              {
+                "code": "CA2123",
+                "title": "Engineering Methods",
+                "credits": 3
+              },
+              {
+                "code": "CA2213",
+                "title": "Development Economics",
+                "credits": 3
+              },
+              {
+                "code": "CA2126",
+                "title": "Measurement of Building Works",
+                "credits": 3
+              },
+              {
+                "code": "CA3214",
+                "title": "Construction Economics",
+                "credits": 3
+              },
+              {
+                "code": "CA3314",
+                "title": "Surveying Studio",
+                "credits": 3
+              },
+              {
+                "code": "CA3703",
+                "title": "Construction Methods and Equipment",
+                "credits": 3
+              },
+              {
+                "code": "CA3691",
+                "title": "Building Services for Building Professionals",
+                "credits": 3
+              },
+              {
+                "code": "CA3321",
+                "title": "Construction Contracts II",
+                "credits": 3
+              },
+              {
+                "code": "CA3324",
+                "title": "Advanced Surveying Studio",
+                "credits": 3
+              },
+              {
+                "code": "CA3629",
+                "title": "Building and Fire Safety Control",
+                "credits": 3
+              },
+              {
+                "code": "CA4513",
+                "title": "Final Year Project",
+                "credits": 6
+              },
+              {
+                "code": "CA4415",
+                "title": "Value Management",
+                "credits": 3
+              },
+              {
+                "code": "CA4524",
+                "title": "Integrated Building Project Development (Surveying)",
+                "credits": 3
+              },
+              {
+                "code": "CA4424",
+                "title": "Strategic BIM Management in Smart Construction",
+                "credits": 3
+              },
+              {
+                "code": "CA4320",
+                "title": "Cost Management of Building and Engineering Works",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "ARSV-ELECTIVE",
+                "title": "Surveying Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 18
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
         "code": "Architecture",
         "name": "Architecture Stream",
-        "description": "Focus on architectural design, building technology, and smart cities."
+        "description": "Focus on architectural design, building technology, and integrated project development.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 60,
+            "courses": [
+              {
+                "code": "CA2123",
+                "title": "Engineering Methods",
+                "credits": 3
+              },
+              {
+                "code": "CA2213",
+                "title": "Development Economics",
+                "credits": 3
+              },
+              {
+                "code": "CA2126",
+                "title": "Measurement of Building Works",
+                "credits": 3
+              },
+              {
+                "code": "CA3214",
+                "title": "Construction Economics",
+                "credits": 3
+              },
+              {
+                "code": "CA3314",
+                "title": "Surveying Studio",
+                "credits": 3
+              },
+              {
+                "code": "CA3703",
+                "title": "Construction Methods and Equipment",
+                "credits": 3
+              },
+              {
+                "code": "CA3691",
+                "title": "Building Services for Building Professionals",
+                "credits": 3
+              },
+              {
+                "code": "CA3321",
+                "title": "Construction Contracts II",
+                "credits": 3
+              },
+              {
+                "code": "CA3324",
+                "title": "Advanced Surveying Studio",
+                "credits": 3
+              },
+              {
+                "code": "CA3629",
+                "title": "Building and Fire Safety Control",
+                "credits": 3
+              },
+              {
+                "code": "CA4513",
+                "title": "Final Year Project",
+                "credits": 6
+              },
+              {
+                "code": "CA4415",
+                "title": "Value Management",
+                "credits": 3
+              },
+              {
+                "code": "CA4524",
+                "title": "Integrated Building Project Development (Surveying)",
+                "credits": 3
+              },
+              {
+                "code": "CA4424",
+                "title": "Strategic BIM Management in Smart Construction",
+                "credits": 3
+              },
+              {
+                "code": "CA4320",
+                "title": "Cost Management of Building and Engineering Works",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "ARSV-ELECTIVE",
+                "title": "Surveying Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 18
+          },
+          "freeElectives": {
+            "credits": 12,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -14495,7 +15941,766 @@
           "credits": 15
         }
       }
-    }
+    },
+    "streams": [
+      {
+        "code": "Chinese",
+        "name": "Chinese Stream",
+        "description": "Focus on Chinese literature, philology, and classical studies.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 30,
+            "courses": []
+          },
+          "collegeRequirement": {
+            "credits": 12,
+            "courses": []
+          },
+          "majorCore": {
+            "credits": 27,
+            "courses": [
+              {
+                "code": "CAH2140",
+                "title": "Modern Chinese Literature",
+                "credits": 3
+              },
+              {
+                "code": "CAH2141",
+                "title": "History of Chinese Literature",
+                "credits": 3
+              },
+              {
+                "code": "CAH2142",
+                "title": "Introduction to Literary Theory and Criticism",
+                "credits": 3
+              },
+              {
+                "code": "CAH3131",
+                "title": "Classical Chinese",
+                "credits": 3
+              },
+              {
+                "code": "CAH3110",
+                "title": "Readings in Pre-Qin Confucianism and Daoism",
+                "credits": 3
+              },
+              {
+                "code": "CAH3132",
+                "title": "Chinese Philology",
+                "credits": 3
+              },
+              {
+                "code": "CAH3133",
+                "title": "Introduction to Chinese Documentology",
+                "credits": 3
+              },
+              {
+                "code": "CAH4150",
+                "title": "Selected Readings in Chinese Shi and Ci",
+                "credits": 3
+              },
+              {
+                "code": "CAH4499",
+                "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 21,
+            "courses": [],
+            "note": "Stream Electives: 21 CU"
+          },
+          "freeElectives": {
+            "credits": 21,
+            "note": "Or Minor courses"
+          }
+        },
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole-Person Development",
+                  "credits": 1
+                },
+                {
+                  "code": "CAH2610",
+                  "title": "Sources of Chinese Tradition",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2612",
+                  "title": "Introduction to Sinology",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE2401",
+                  "title": "Discipline-specific English",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2611",
+                  "title": "Sources of Literature, Cultural Heritage and History",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2613",
+                  "title": "Chinese Writing for Academic Purpose",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2614",
+                  "title": "Methods for Studying Humanities",
+                  "credits": 3
+                },
+                {
+                  "code": "EN2011",
+                  "title": "English on the Move (or Foundation Elective)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH2140",
+                  "title": "Modern Chinese Literature",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2141",
+                  "title": "History of Chinese Literature",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR1",
+                  "title": "Gateway Education (Area 1)",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR2",
+                  "title": "Gateway Education (Area 2)",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC1",
+                  "title": "Stream Elective 1",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH2142",
+                  "title": "Introduction to Literary Theory and Criticism",
+                  "credits": 3
+                },
+                {
+                  "code": "COL-SPEC1",
+                  "title": "College-specified Course 1",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR3",
+                  "title": "Gateway Education (Area 3)",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC2",
+                  "title": "Stream Elective 2",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE1",
+                  "title": "Free Elective 1",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH3131",
+                  "title": "Classical Chinese",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH3110",
+                  "title": "Readings in Pre-Qin Confucianism and Daoism",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH3132",
+                  "title": "Chinese Philology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC3",
+                  "title": "Stream Elective 3",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC4",
+                  "title": "Stream Elective 4",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH3133",
+                  "title": "Introduction to Chinese Documentology",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH4150",
+                  "title": "Selected Readings in Chinese Shi and Ci",
+                  "credits": 3
+                },
+                {
+                  "code": "COL-SPEC2",
+                  "title": "College-specified Course 2",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC5",
+                  "title": "Stream Elective 5",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE2",
+                  "title": "Free Elective 2",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC6",
+                  "title": "Stream Elective 6",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE3",
+                  "title": "Free Elective 3",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE4",
+                  "title": "Free Elective 4",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE5",
+                  "title": "Free Elective 5",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project (continued)",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC7",
+                  "title": "Stream Elective 7",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE6",
+                  "title": "Free Elective 6",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE7",
+                  "title": "Free Elective 7",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE8",
+                  "title": "Free Elective 8",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          }
+        },
+        "allCourses": [
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2401",
+          "CAH2610",
+          "CAH2611",
+          "CAH2612",
+          "CAH2613",
+          "CAH2614",
+          "EN2011",
+          "CAH2140",
+          "CAH2141",
+          "CAH2142",
+          "CAH3131",
+          "CAH3110",
+          "CAH3132",
+          "CAH3133",
+          "CAH4150",
+          "CAH4499",
+          "CAH2105",
+          "CAH3136",
+          "CAH3138",
+          "CAH3145",
+          "CAH3146",
+          "CAH3185",
+          "CAH3187",
+          "CAH4143",
+          "CAH4144",
+          "CAH4186",
+          "CAH2145",
+          "CAH2399",
+          "CAH3151",
+          "CAH3165",
+          "CAH3167",
+          "CAH3168",
+          "CAH3820",
+          "CAH4148",
+          "CAH4180",
+          "CAH4399",
+          "CAH4599",
+          "CAI4001"
+        ]
+      },
+      {
+        "code": "History",
+        "name": "History and Cultural Heritage Stream",
+        "description": "Focus on history, cultural heritage, and museum studies.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 30,
+            "courses": []
+          },
+          "collegeRequirement": {
+            "credits": 12,
+            "courses": []
+          },
+          "majorCore": {
+            "credits": 33,
+            "courses": [
+              {
+                "code": "CAH2501",
+                "title": "Art and Visual Culture",
+                "credits": 3
+              },
+              {
+                "code": "CAH2509",
+                "title": "History and Heritage",
+                "credits": 3
+              },
+              {
+                "code": "CAH2536",
+                "title": "Intangible Heritages and Indigenous Cultures",
+                "credits": 3
+              },
+              {
+                "code": "CAH2812",
+                "title": "Early and Imperial China",
+                "credits": 3
+              },
+              {
+                "code": "CAH2840",
+                "title": "Late Imperial and Modern China",
+                "credits": 3
+              },
+              {
+                "code": "CAH3511",
+                "title": "Hong Kong's Culture and Heritage",
+                "credits": 3
+              },
+              {
+                "code": "CAH3542",
+                "title": "Museum Studies",
+                "credits": 3
+              },
+              {
+                "code": "CAH4802",
+                "title": "Chinese Historical Methods",
+                "credits": 3
+              },
+              {
+                "code": "CAH4842",
+                "title": "History of the Modern World",
+                "credits": 3
+              },
+              {
+                "code": "CAH4813",
+                "title": "History of the Ancient World",
+                "credits": 3
+              },
+              {
+                "code": "CAH4499",
+                "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 15,
+            "courses": [],
+            "note": "Stream Electives: 15 CU"
+          },
+          "freeElectives": {
+            "credits": 21,
+            "note": "Or Minor courses"
+          }
+        },
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole-Person Development",
+                  "credits": 1
+                },
+                {
+                  "code": "CAH2610",
+                  "title": "Sources of Chinese Tradition",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2612",
+                  "title": "Introduction to Sinology",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE2401",
+                  "title": "Discipline-specific English",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2611",
+                  "title": "Sources of Literature, Cultural Heritage and History",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2613",
+                  "title": "Chinese Writing for Academic Purpose",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2614",
+                  "title": "Methods for Studying Humanities",
+                  "credits": 3
+                },
+                {
+                  "code": "EN2011",
+                  "title": "English on the Move (or Foundation Elective)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH2501",
+                  "title": "Art and Visual Culture",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2509",
+                  "title": "History and Heritage",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2536",
+                  "title": "Intangible Heritages and Indigenous Cultures",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR1",
+                  "title": "Gateway Education (Area 1)",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR2",
+                  "title": "Gateway Education (Area 2)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH2812",
+                  "title": "Early and Imperial China",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH2840",
+                  "title": "Late Imperial and Modern China",
+                  "credits": 3
+                },
+                {
+                  "code": "COL-SPEC1",
+                  "title": "College-specified Course 1",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR3",
+                  "title": "Gateway Education (Area 3)",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC1",
+                  "title": "Stream Elective 1",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH3511",
+                  "title": "Hong Kong's Culture and Heritage",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH3542",
+                  "title": "Museum Studies",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH4802",
+                  "title": "Chinese Historical Methods",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC2",
+                  "title": "Stream Elective 2",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC3",
+                  "title": "Stream Elective 3",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH4842",
+                  "title": "History of the Modern World",
+                  "credits": 3
+                },
+                {
+                  "code": "CAH4813",
+                  "title": "History of the Ancient World",
+                  "credits": 3
+                },
+                {
+                  "code": "COL-SPEC2",
+                  "title": "College-specified Course 2",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC4",
+                  "title": "Stream Elective 4",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE1",
+                  "title": "Free Elective 1",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC5",
+                  "title": "Stream Elective 5",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE2",
+                  "title": "Free Elective 2",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE3",
+                  "title": "Free Elective 3",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE4",
+                  "title": "Free Elective 4",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project (continued)",
+                  "credits": 3
+                },
+                {
+                  "code": "CHIS-ELEC6",
+                  "title": "Stream Elective 6",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE5",
+                  "title": "Free Elective 5",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE6",
+                  "title": "Free Elective 6",
+                  "credits": 3
+                },
+                {
+                  "code": "FREE7",
+                  "title": "Free Elective 7",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          }
+        },
+        "allCourses": [
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2401",
+          "CAH2610",
+          "CAH2611",
+          "CAH2612",
+          "CAH2613",
+          "CAH2614",
+          "EN2011",
+          "CAH2501",
+          "CAH2509",
+          "CAH2536",
+          "CAH2812",
+          "CAH2840",
+          "CAH3511",
+          "CAH3542",
+          "CAH4802",
+          "CAH4842",
+          "CAH4813",
+          "CAH4499",
+          "CAH2503",
+          "CAH2505",
+          "CAH2507",
+          "CAH2510",
+          "CAH2516",
+          "CAH2537",
+          "CAH2854",
+          "CAH2865",
+          "CAH2871",
+          "CAH3517",
+          "CAH3522",
+          "CAH3524",
+          "CAH3534",
+          "CAH3535",
+          "CAH3538",
+          "CAH3541",
+          "CAH3546",
+          "CAH3548",
+          "CAH3832",
+          "CAH3852",
+          "CAH3853",
+          "CAH3862",
+          "CAH4507",
+          "CAH4508",
+          "CAH4520",
+          "CAH4536",
+          "CAH4853",
+          "CAH4870",
+          "CAH2545",
+          "CAH3539",
+          "CAH4399",
+          "CAH4599",
+          "CAI4001"
+        ]
+      }
+    ]
   },
   {
     "code": "BA1_EN-1",
@@ -14943,12 +17148,441 @@
       {
         "code": "EPC",
         "name": "English and Professional Communication Stream",
-        "description": "Focus on corporate communication, intercultural communication, and business projects."
+        "description": "Focus on corporate communication, intercultural communication, and business projects.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 6,
+            "courses": [
+              {
+                "code": "COLLEGE-REQ",
+                "title": "College Requirement",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 24,
+            "courses": [
+              {
+                "code": "EN2711",
+                "title": "The Structure of English",
+                "credits": 3
+              },
+              {
+                "code": "EN2717",
+                "title": "Literature Across Time",
+                "credits": 3
+              },
+              {
+                "code": "EN2718",
+                "title": "Literature Across Media",
+                "credits": 3
+              },
+              {
+                "code": "EN3329",
+                "title": "Discourse and Pragmatics",
+                "credits": 3
+              },
+              {
+                "code": "EN3525",
+                "title": "English in Corporate and Professional Communication",
+                "credits": 3
+              },
+              {
+                "code": "EN3593",
+                "title": "English in the Professions",
+                "credits": 3
+              },
+              {
+                "code": "EN3504",
+                "title": "Intercultural Communication",
+                "credits": 3
+              },
+              {
+                "code": "EN3586",
+                "title": "Workplace Culture and Interaction",
+                "credits": 3
+              },
+              {
+                "code": "EN3592",
+                "title": "Professional and Corporate Discourse",
+                "credits": 3
+              },
+              {
+                "code": "EN4574",
+                "title": "Communication Strategies in Business Projects",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 24,
+            "courses": [
+              {
+                "code": "EN2502",
+                "title": "Language in Social Interaction",
+                "credits": 3
+              },
+              {
+                "code": "EN2720",
+                "title": "Persuasive Writing",
+                "credits": 3
+              },
+              {
+                "code": "EN2837",
+                "title": "Communicating Fashion Culture",
+                "credits": 3
+              },
+              {
+                "code": "EN2859",
+                "title": "The Language of Sustainability",
+                "credits": 3
+              },
+              {
+                "code": "EN3321",
+                "title": "Public Speaking and Presentations in Context",
+                "credits": 3
+              },
+              {
+                "code": "EN3513",
+                "title": "Promotional Writing in English",
+                "credits": 3
+              },
+              {
+                "code": "EN3561",
+                "title": "Advertising Copywriting in English",
+                "credits": 3
+              },
+              {
+                "code": "EN3596",
+                "title": "English Summer Programme",
+                "credits": 3
+              },
+              {
+                "code": "EN4166",
+                "title": "Language and Decision Making",
+                "credits": 3
+              },
+              {
+                "code": "EN4505",
+                "title": "Intercultural Organizational Communication and Institutional Interaction",
+                "credits": 3
+              },
+              {
+                "code": "EN4511",
+                "title": "English in Creative and Cultural Professions",
+                "credits": 3
+              },
+              {
+                "code": "EN4519",
+                "title": "Public Relations Writing in English",
+                "credits": 3
+              },
+              {
+                "code": "EN4528",
+                "title": "Multimodal and Mediated Discourse",
+                "credits": 3
+              },
+              {
+                "code": "EN4564",
+                "title": "Strategic Business Communication in English",
+                "credits": 3
+              },
+              {
+                "code": "EN4565",
+                "title": "Negotiation in Professional Contexts",
+                "credits": 3
+              },
+              {
+                "code": "EN4573",
+                "title": "Language in Law and Crime",
+                "credits": 3
+              },
+              {
+                "code": "EN4579",
+                "title": "Research Skills in English Studies",
+                "credits": 3
+              },
+              {
+                "code": "CAI4001",
+                "title": "Start-up Technology Entrepreneur Programme I",
+                "credits": 3
+              }
+            ],
+            "note": "Major Electives: 24 CU from the list"
+          },
+          "freeElectives": {
+            "credits": 18,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
         "code": "LL",
         "name": "Language and Literature Stream",
-        "description": "Focus on literature, drama, discourse analysis, and linguistics."
+        "description": "Focus on literary studies, critical theory, and language in society.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 6,
+            "courses": [
+              {
+                "code": "COLLEGE-REQ",
+                "title": "College Requirement",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 24,
+            "courses": [
+              {
+                "code": "EN2711",
+                "title": "The Structure of English",
+                "credits": 3
+              },
+              {
+                "code": "EN2717",
+                "title": "Literature Across Time",
+                "credits": 3
+              },
+              {
+                "code": "EN2718",
+                "title": "Literature Across Media",
+                "credits": 3
+              },
+              {
+                "code": "EN3329",
+                "title": "Discourse and Pragmatics",
+                "credits": 3
+              },
+              {
+                "code": "EN3525",
+                "title": "English in Corporate and Professional Communication",
+                "credits": 3
+              },
+              {
+                "code": "EN3593",
+                "title": "English in the Professions",
+                "credits": 3
+              },
+              {
+                "code": "EN3589",
+                "title": "Modern Drama: Text and Performance",
+                "credits": 3
+              },
+              {
+                "code": "EN3594",
+                "title": "English as a World Language",
+                "credits": 3
+              },
+              {
+                "code": "EN3595",
+                "title": "English in Society",
+                "credits": 3
+              },
+              {
+                "code": "EN4577",
+                "title": "Critical Approaches to Literature",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 24,
+            "courses": [
+              {
+                "code": "EN2131",
+                "title": "Asian Literature in English",
+                "credits": 3
+              },
+              {
+                "code": "EN2319",
+                "title": "Introduction to English Poetry",
+                "credits": 3
+              },
+              {
+                "code": "EN2320",
+                "title": "Fantasy in Literature",
+                "credits": 3
+              },
+              {
+                "code": "EN2321",
+                "title": "Modern and Contemporary Fiction",
+                "credits": 3
+              },
+              {
+                "code": "EN2322",
+                "title": "Creative Writing",
+                "credits": 3
+              },
+              {
+                "code": "EN2721",
+                "title": "The Art of Life Narrative",
+                "credits": 3
+              },
+              {
+                "code": "EN2801",
+                "title": "Popular Culture and Social Life",
+                "credits": 3
+              },
+              {
+                "code": "EN2808",
+                "title": "Introduction to English Film Studies",
+                "credits": 3
+              },
+              {
+                "code": "EN2832",
+                "title": "Literature and Music",
+                "credits": 3
+              },
+              {
+                "code": "EN2848",
+                "title": "Language and Digital Media",
+                "credits": 3
+              },
+              {
+                "code": "EN3327",
+                "title": "Drama Workshop",
+                "credits": 3
+              },
+              {
+                "code": "EN3571",
+                "title": "Advanced English Phonetics and Phonology",
+                "credits": 3
+              },
+              {
+                "code": "EN3572",
+                "title": "Fiction Writing",
+                "credits": 3
+              },
+              {
+                "code": "EN3578",
+                "title": "Travel Writing",
+                "credits": 3
+              },
+              {
+                "code": "EN3579",
+                "title": "World Literature in English",
+                "credits": 3
+              },
+              {
+                "code": "EN3580",
+                "title": "Literature in the Digital Age",
+                "credits": 3
+              },
+              {
+                "code": "EN3581",
+                "title": "Literature and the City",
+                "credits": 3
+              },
+              {
+                "code": "EN3587",
+                "title": "Critical Discourse Analysis",
+                "credits": 3
+              },
+              {
+                "code": "EN3588",
+                "title": "Advanced English Grammar",
+                "credits": 3
+              },
+              {
+                "code": "EN3590",
+                "title": "Crime Fiction",
+                "credits": 3
+              },
+              {
+                "code": "EN3591",
+                "title": "Hong Kong Language and Society",
+                "credits": 3
+              },
+              {
+                "code": "EN4525",
+                "title": "Gender Discourse",
+                "credits": 3
+              },
+              {
+                "code": "EN4578",
+                "title": "Shakespeare: Film, Text, Performance",
+                "credits": 3
+              },
+              {
+                "code": "EN4579",
+                "title": "Research Skills in English Studies",
+                "credits": 3
+              },
+              {
+                "code": "CAI4001",
+                "title": "Start-up Technology Entrepreneur Programme I",
+                "credits": 3
+              }
+            ],
+            "note": "Major Electives: 24 CU from the list"
+          },
+          "freeElectives": {
+            "credits": 18,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -16877,12 +19511,471 @@
       {
         "code": "PAG",
         "name": "Public Affairs and Governance Stream",
-        "description": "Focus on comparative politics, democracy, and international relations."
+        "description": "Focus on comparative politics, democracy, and international relations.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 12,
+            "courses": [
+              {
+                "code": "PIA-COLLEGE",
+                "title": "PIA College Requirement (Computational Language or Foreign Language)",
+                "credits": 6
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 48,
+            "courses": [
+              {
+                "code": "PIA2105",
+                "title": "Introduction to Political Science",
+                "credits": 3
+              },
+              {
+                "code": "PIA2107",
+                "title": "Government and Law",
+                "credits": 3
+              },
+              {
+                "code": "PIA2307",
+                "title": "Introduction to Public Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2400",
+                "title": "Introduction to Ethics and Public Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA2530",
+                "title": "Exploring Public Affairs in Globalised Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA2012",
+                "title": "Social Research Methods",
+                "credits": 3
+              },
+              {
+                "code": "PIA2050",
+                "title": "Comparative Politics and Societies",
+                "credits": 3
+              },
+              {
+                "code": "PIA2402",
+                "title": "Introduction to Social and Political Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3032",
+                "title": "State and Economy in Asia",
+                "credits": 3
+              },
+              {
+                "code": "PIA3109",
+                "title": "Approaches in Political Analysis",
+                "credits": 3
+              },
+              {
+                "code": "PIA3111",
+                "title": "Democracy and Democratization",
+                "credits": 3
+              },
+              {
+                "code": "PIA3121",
+                "title": "Theories of International Relations",
+                "credits": 3
+              },
+              {
+                "code": "PIA3127",
+                "title": "Political Institutions and Behaviour",
+                "credits": 3
+              },
+              {
+                "code": "PIA3900",
+                "title": "Innovation and Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA4142",
+                "title": "Global Public Health",
+                "credits": 3
+              },
+              {
+                "code": "PIA4601",
+                "title": "Undergraduate Research Project",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 15,
+            "courses": [
+              {
+                "code": "PIA2104",
+                "title": "Hong Kong Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2201",
+                "title": "Public Policy and Social Development",
+                "credits": 3
+              },
+              {
+                "code": "PIA2224",
+                "title": "Environmental Issues and Sustainable Development",
+                "credits": 3
+              },
+              {
+                "code": "PIA2405",
+                "title": "Introduction to Confucian Political Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3031",
+                "title": "Political Dynamics in Asia",
+                "credits": 3
+              },
+              {
+                "code": "PIA3112",
+                "title": "Conflict and Resolution",
+                "credits": 3
+              },
+              {
+                "code": "PIA3113",
+                "title": "Issues in Contemporary World Politics",
+                "credits": 3
+              },
+              {
+                "code": "PIA3120",
+                "title": "Politics and Media",
+                "credits": 3
+              },
+              {
+                "code": "PIA3122",
+                "title": "Rethinking the Value of Democracy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3123",
+                "title": "Theories of Development",
+                "credits": 3
+              },
+              {
+                "code": "PIA3126",
+                "title": "International Political Economy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3130",
+                "title": "U.S. Politics and Foreign Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3153",
+                "title": "European Politics and International Relations",
+                "credits": 3
+              },
+              {
+                "code": "PIA3315",
+                "title": "Ethics in Government",
+                "credits": 3
+              },
+              {
+                "code": "PIA3600",
+                "title": "Experiential Learning for Public Affairs",
+                "credits": 3
+              },
+              {
+                "code": "PIA3607",
+                "title": "Advanced Research Methodology",
+                "credits": 3
+              },
+              {
+                "code": "PIA3710",
+                "title": "Contemporary Chinese Politics",
+                "credits": 3
+              },
+              {
+                "code": "PIA3800",
+                "title": "Professional Internship",
+                "credits": 3
+              },
+              {
+                "code": "PIA4152",
+                "title": "Globalisation and Its Discontents",
+                "credits": 3
+              }
+            ],
+            "note": "Stream Electives: 15 CU from the list"
+          },
+          "freeElectives": {
+            "credits": 21,
+            "note": "Or Minor courses"
+          }
+        }
       },
       {
         "code": "PPM",
         "name": "Public Policy and Management Stream",
-        "description": "Focus on public management, policy processes, and smart government."
+        "description": "Focus on public policy analysis, public management, and urban policy.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 11
+              }
+            ]
+          },
+          "college": {
+            "credits": 12,
+            "courses": [
+              {
+                "code": "PIA-COLLEGE",
+                "title": "PIA College Requirement (Computational Language or Foreign Language)",
+                "credits": 6
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 48,
+            "courses": [
+              {
+                "code": "PIA2105",
+                "title": "Introduction to Political Science",
+                "credits": 3
+              },
+              {
+                "code": "PIA2107",
+                "title": "Government and Law",
+                "credits": 3
+              },
+              {
+                "code": "PIA2307",
+                "title": "Introduction to Public Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2400",
+                "title": "Introduction to Ethics and Public Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA2530",
+                "title": "Exploring Public Affairs in Globalised Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA2012",
+                "title": "Social Research Methods",
+                "credits": 3
+              },
+              {
+                "code": "PIA2308",
+                "title": "Working with Clients in Public Service",
+                "credits": 3
+              },
+              {
+                "code": "PIA2524",
+                "title": "Management Skills for Public Managers",
+                "credits": 3
+              },
+              {
+                "code": "PIA3241",
+                "title": "Policy Processes and Institutions",
+                "credits": 3
+              },
+              {
+                "code": "PIA3306",
+                "title": "Organizational Behaviour for Public Management",
+                "credits": 3
+              },
+              {
+                "code": "PIA3307",
+                "title": "Managing Financial Resources in Public and Nonprofit Sectors",
+                "credits": 3
+              },
+              {
+                "code": "PIA3310",
+                "title": "Smart Government and Sustainable Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA3316",
+                "title": "Managing Human Resources in Public and Nonprofit Sectors",
+                "credits": 3
+              },
+              {
+                "code": "PIA3900",
+                "title": "Innovation and Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA3921",
+                "title": "Urban and Social Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA4601",
+                "title": "Undergraduate Research Project",
+                "credits": 3
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 15,
+            "courses": [
+              {
+                "code": "PIA2201",
+                "title": "Public Policy and Social Development",
+                "credits": 3
+              },
+              {
+                "code": "PIA2224",
+                "title": "Environmental Issues and Sustainable Development",
+                "credits": 3
+              },
+              {
+                "code": "PIA2402",
+                "title": "Introduction to Social and Political Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "PIA2527",
+                "title": "Law for Housing Studies",
+                "credits": 3
+              },
+              {
+                "code": "PIA3032",
+                "title": "State and Economy in Asia",
+                "credits": 3
+              },
+              {
+                "code": "PIA3120",
+                "title": "Politics and Media",
+                "credits": 3
+              },
+              {
+                "code": "PIA3207",
+                "title": "Health Care Policy and Ethics",
+                "credits": 3
+              },
+              {
+                "code": "PIA3309",
+                "title": "Comparative Public Policy and Management",
+                "credits": 3
+              },
+              {
+                "code": "PIA3410",
+                "title": "Management Ethics",
+                "credits": 3
+              },
+              {
+                "code": "PIA3503",
+                "title": "Urbanization and Health Management",
+                "credits": 3
+              },
+              {
+                "code": "PIA3525",
+                "title": "Building Technology and Service for Housing Managers",
+                "credits": 3
+              },
+              {
+                "code": "PIA3600",
+                "title": "Experiential Learning for Public Affairs",
+                "credits": 3
+              },
+              {
+                "code": "PIA3607",
+                "title": "Advanced Research Methodology",
+                "credits": 3
+              },
+              {
+                "code": "PIA3800",
+                "title": "Professional Internship",
+                "credits": 3
+              },
+              {
+                "code": "PIA4142",
+                "title": "Global Public Health",
+                "credits": 3
+              },
+              {
+                "code": "PIA4152",
+                "title": "Globalisation and Its Discontents",
+                "credits": 3
+              },
+              {
+                "code": "PIA4953",
+                "title": "Housing Policy in Contemporary Society",
+                "credits": 3
+              },
+              {
+                "code": "PIA4954",
+                "title": "Housing Management and Practice",
+                "credits": 3
+              }
+            ],
+            "note": "Stream Electives: 15 CU from the list"
+          },
+          "freeElectives": {
+            "credits": 21,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -20099,7 +23192,134 @@
       {
         "code": "CREATE",
         "name": "CREATE Stream",
-        "description": "Leadership & Creativity stream with enhanced creative development."
+        "description": "Leadership & Creativity stream with enhanced creative development.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English or LC0200A",
+                "credits": 3
+              },
+              {
+                "code": "GE2413",
+                "title": "Word, Sound and Image or LC0200B",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilization - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements (Area 1, 2, 3)",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "SM-SS",
+                "title": "School-Specified Course",
+                "credits": 3
+              },
+              {
+                "code": "SM-SS2",
+                "title": "School-Specified Course",
+                "credits": 3
+              },
+              {
+                "code": "SM-CREATE",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 36,
+            "courses": [
+              {
+                "code": "SM2715",
+                "title": "Creative Coding",
+                "credits": 3
+              },
+              {
+                "code": "SM1103A",
+                "title": "Introduction to Media Computing",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3
+              },
+              {
+                "code": "SM1701",
+                "title": "New Media Art",
+                "credits": 3
+              },
+              {
+                "code": "SM2704",
+                "title": "Creative Media Studio II",
+                "credits": 3
+              },
+              {
+                "code": "SM2706",
+                "title": "Critical Theory & Socially Engaged Practices",
+                "credits": 3
+              },
+              {
+                "code": "SM2716",
+                "title": "Physical Computing and Tangible Media",
+                "credits": 3
+              },
+              {
+                "code": "SM-Studio1",
+                "title": "Art & Science Studio Course #1",
+                "credits": 6
+              },
+              {
+                "code": "SM-Studio2",
+                "title": "Art & Science Studio Course #2",
+                "credits": 6
+              },
+              {
+                "code": "SM4712C",
+                "title": "Graduation Thesis / Project",
+                "credits": 6
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "SM-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 30
+          },
+          "freeElectives": {
+            "credits": 24,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -20596,7 +23816,134 @@
       {
         "code": "CREATE",
         "name": "CREATE Stream",
-        "description": "Leadership & Creativity stream."
+        "description": "Leadership & Creativity stream.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 21,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English or LC0200A",
+                "credits": 3
+              },
+              {
+                "code": "GE2413",
+                "title": "Word, Sound and Image or LC0200B",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilization - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CHIN1001",
+                "title": "University Chinese I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 8
+              }
+            ]
+          },
+          "college": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "SM-SS",
+                "title": "School-Specified Course",
+                "credits": 3
+              },
+              {
+                "code": "SM-CREATE",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 3
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 39,
+            "courses": [
+              {
+                "code": "SM2715",
+                "title": "Creative Coding",
+                "credits": 3
+              },
+              {
+                "code": "SM1103A",
+                "title": "Introduction to Media Computing",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3
+              },
+              {
+                "code": "SM1701",
+                "title": "New Media Art",
+                "credits": 3
+              },
+              {
+                "code": "SM2704",
+                "title": "Creative Media Studio II",
+                "credits": 3
+              },
+              {
+                "code": "SM2706",
+                "title": "Critical Theory & Socially Engaged Practices",
+                "credits": 3
+              },
+              {
+                "code": "SM2716",
+                "title": "Physical Computing and Tangible Media",
+                "credits": 3
+              },
+              {
+                "code": "SM2105",
+                "title": "Narrative Strategies & Aesthetics of Time-based Media",
+                "credits": 3
+              },
+              {
+                "code": "SM-Studio1",
+                "title": "Art & Science Studio Course #1",
+                "credits": 6
+              },
+              {
+                "code": "SM-Studio2",
+                "title": "Art & Science Studio Course #2",
+                "credits": 6
+              },
+              {
+                "code": "SM4712C",
+                "title": "Graduation Thesis / Project",
+                "credits": 6
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 30,
+            "courses": [
+              {
+                "code": "SM-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 30
+          },
+          "freeElectives": {
+            "credits": 21,
+            "note": "Or Minor courses"
+          }
+        }
       }
     ],
     "notes": [
@@ -22270,12 +25617,562 @@
       {
         "code": "eSTAR",
         "name": "Energy/Environment in Science, Technology and Advanced Research",
-        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies."
+        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2001",
+                  "title": "Electromagnetic Principles for Energy Engineers",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE3102",
+                  "title": "Power Plant Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3103",
+                  "title": "Energy Efficiency for Buildings",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3001",
+                  "title": "Energy and Environmental Policy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3104",
+                  "title": "Sustainable and Renewable Energy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE4003",
+                  "title": "Energy and Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4112",
+                  "title": "Sustainable Engineering Systems: Modelling and Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4216",
+                  "title": "Combustion and Air Pollution Control",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          }
+        }
       },
       {
         "code": "BSS",
         "name": "Building Services Science",
-        "description": "Students taking BSS discipline follow a different study plan with additional building services courses."
+        "description": "Focus on building services engineering, HVAC, fire engineering, and electrical services.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2001",
+                  "title": "Electromagnetic Principles for Energy Engineers",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CA3712",
+                  "title": "Electrical Services",
+                  "credits": 3
+                },
+                {
+                  "code": "CA3732",
+                  "title": "Fire Engineering and Piped Services",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE3102",
+                  "title": "Power Plant Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3103",
+                  "title": "Energy Efficiency for Buildings",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4218",
+                  "title": "Water and Water Resource Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 22
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3001",
+                  "title": "Energy and Environmental Policy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3104",
+                  "title": "Sustainable and Renewable Energy",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 19
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CA3722",
+                  "title": "HVAC Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "CA4737",
+                  "title": "Fire Science and Modelling",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4003",
+                  "title": "Energy and Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4112",
+                  "title": "Sustainable Engineering Systems: Modelling and Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CA4718",
+                  "title": "Power Electronics and Smart Lighting Controls",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4216",
+                  "title": "Combustion and Air Pollution Control",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4997",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 19
+            }
+          }
+        }
       }
     ],
     "notes": [
@@ -22967,7 +26864,557 @@
       {
         "code": "eSTAR",
         "name": "Energy/Environment in Science, Technology and Advanced Research",
-        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies."
+        "description": "eSTAR provides students with opportunities to participate in research projects and advanced studies.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2203",
+                  "title": "Environmental, Safety, and Occupational Health Management",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2204",
+                  "title": "Principles of Sustainability",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM2004",
+                  "title": "Principles of Analytical Chemistry",
+                  "credits": 4
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4218",
+                  "title": "Water and Water Resource Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3203",
+                  "title": "Air Pollution",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4204",
+                  "title": "Environmental Systems Modelling",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE4002",
+                  "title": "Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 15
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4203",
+                  "title": "Advanced Treatment and Management of Solid and Municipal Waste",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 13
+            }
+          }
+        }
+      },
+      {
+        "code": "BSS",
+        "name": "Building Services Science",
+        "description": "Focus on building services engineering, HVAC, fire engineering, and electrical services.",
+        "studyPlan": {
+          "year1": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "MA1200",
+                  "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1200",
+                  "title": "Discovery in Biology",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM1300",
+                  "title": "Principles of General Chemistry",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1003",
+                  "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE1401",
+                  "title": "University English",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "MA1201",
+                  "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                  "credits": 3
+                },
+                {
+                  "code": "PHY1201",
+                  "title": "General Physics I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE1000",
+                  "title": "Professional Development: Career Planning Workshop",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE1002",
+                  "title": "Introduction to Computing for Energy and Environment",
+                  "credits": 3
+                },
+                {
+                  "code": "GE2410",
+                  "title": "English for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Courses (Distributional Requirements)",
+                  "credits": 6
+                }
+              ],
+              "credits": 18
+            }
+          },
+          "year2": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "SEE2000",
+                  "title": "Professional Development I",
+                  "credits": 0
+                },
+                {
+                  "code": "SEE2001",
+                  "title": "Electromagnetic Principles for Energy Engineers",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2002",
+                  "title": "Chemical Sciences for Energy and Environmental Engineers",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE2003",
+                  "title": "Introduction to Energy and Environmental Data Analysis",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2203",
+                  "title": "Environmental, Safety, and Occupational Health Management",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2204",
+                  "title": "Principles of Sustainability",
+                  "credits": 3
+                },
+                {
+                  "code": "CA1167",
+                  "title": "Engineering Communication",
+                  "credits": 3
+                }
+              ],
+              "credits": 19
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "GE1501",
+                  "title": "Chinese Civilisation - History and Philosophy",
+                  "credits": 3
+                },
+                {
+                  "code": "CHEM2004",
+                  "title": "Principles of Analytical Chemistry",
+                  "credits": 4
+                },
+                {
+                  "code": "MA2181",
+                  "title": "Mathematical Methods for Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2101",
+                  "title": "Engineering Thermofluids I",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE2201",
+                  "title": "Fundamentals of Environmental Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          },
+          "year3": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CA3712",
+                  "title": "Electrical Services",
+                  "credits": 3
+                },
+                {
+                  "code": "CA3732",
+                  "title": "Fire Engineering and Piped Services",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3002",
+                  "title": "Energy and Environmental Economics",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3101",
+                  "title": "Engineering Thermofluids II",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE3103",
+                  "title": "Energy Efficiency for Buildings",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4218",
+                  "title": "Water and Water Resource Engineering",
+                  "credits": 3
+                }
+              ],
+              "credits": 19
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "SEE3003",
+                  "title": "Climate Change and Adaptation Strategies",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE3203",
+                  "title": "Air Pollution",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4001",
+                  "title": "Engineers in Society",
+                  "credits": 1
+                },
+                {
+                  "code": "SEE4204",
+                  "title": "Environmental Systems Modelling",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4217",
+                  "title": "Waste and Wastewater Treatment Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
+                  "code": "GE-DR",
+                  "title": "GE Course (Distributional Requirements)",
+                  "credits": 3
+                }
+              ],
+              "credits": 19
+            }
+          },
+          "year4": {
+            "semA": {
+              "courses": [
+                {
+                  "code": "CA3722",
+                  "title": "HVAC Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "CA4737",
+                  "title": "Fire Science and Modelling",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4002",
+                  "title": "Environmental Engineering Laboratory",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "SYE4024",
+                  "title": "Project Management",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 18
+            },
+            "semB": {
+              "courses": [
+                {
+                  "code": "CA4718",
+                  "title": "Power Electronics and Smart Lighting Controls",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4004",
+                  "title": "Environmental Impact Assessment for Sustainable Development",
+                  "credits": 4
+                },
+                {
+                  "code": "SEE4203",
+                  "title": "Advanced Treatment and Management of Solid and Municipal Waste",
+                  "credits": 3
+                },
+                {
+                  "code": "SEE4996",
+                  "title": "Final Year Project",
+                  "credits": 3
+                },
+                {
+                  "code": "ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
+                }
+              ],
+              "credits": 16
+            }
+          }
+        }
       }
     ],
     "notes": [

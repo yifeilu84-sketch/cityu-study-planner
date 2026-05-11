@@ -21,6 +21,13 @@ export default function MajorPage() {
   const major = (allMajors as any[]).find((m: any) => m.code === majorCode)
   const courses: Record<string, Course> = coursesData as any
 
+  // Determine if this major has streams
+  const hasStreams = major?.streams && major.streams.length > 0
+  const hasStreamPlans = major?.streams && major.streams.some((s: any) => s.studyPlan)
+  const [selectedStreamIdx, setSelectedStreamIdx] = useState<number>(
+    hasStreams ? 0 : -1
+  )
+
   if (!major) {
     return (
       <div className="text-center py-20">
@@ -32,9 +39,11 @@ export default function MajorPage() {
     )
   }
 
-  const studyPlan = useMemo(() => generateStudyPlan(major, courses), [major, courses])
+  const activeStream = selectedStreamIdx >= 0 ? major.streams?.[selectedStreamIdx] : null
 
-  const allReqCourses = useMemo(() => getAllMajorCourses(major), [major])
+  const studyPlan = useMemo(() => generateStudyPlan(major, courses, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined), [major, courses, selectedStreamIdx])
+
+  const allReqCourses = useMemo(() => getAllMajorCourses(major, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined), [major, selectedStreamIdx])
 
   const filteredCourses = useMemo(() => {
     if (!search.trim()) return allReqCourses
@@ -67,11 +76,12 @@ export default function MajorPage() {
     return { credits: 0, courses: [] }
   }
 
-  const reqs = major.requirements || {}
-  const geReq = getReqValue(reqs, ['gatewayEducation'])
-  const collegeReq = getReqValue(reqs, ['college', 'collegeRequirement'])
-  const coreReq = getReqValue(reqs, ['majorCore'])
-  const electiveReq = getReqValue(reqs, ['majorElectives', 'majorElective'])
+  // Use stream-specific requirements if available
+  const activeReqs = activeStream?.requirements ?? major.requirements ?? {}
+  const geReq = getReqValue(activeReqs, ['gatewayEducation'])
+  const collegeReq = getReqValue(activeReqs, ['college', 'collegeRequirement'])
+  const coreReq = getReqValue(activeReqs, ['majorCore'])
+  const electiveReq = getReqValue(activeReqs, ['majorElectives', 'majorElective'])
 
   const totalCredits = major.totalCredits ||
     ((geReq.credits || 0) + (collegeReq.credits || 0) + (coreReq.credits || 0) + (electiveReq.credits || 0))
@@ -126,18 +136,32 @@ export default function MajorPage() {
           </div>
         </div>
 
-        {/* Streams */}
-        {major.streams && major.streams.length > 0 && (
+        {/* Stream Selector */}
+        {hasStreams && major.streams && major.streams.length > 0 && (
           <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
             <h3 className="text-sm font-medium text-gray-700 mb-2">学术方向 / Streams</h3>
             <div className="flex flex-wrap gap-2">
-              {major.streams.map((s: any) => (
-                <div key={s.code} className="px-3 py-1.5 bg-purple-50 border border-purple-200 rounded-lg text-sm">
-                  <span className="font-semibold text-purple-800">{s.code}</span>
-                  <span className="text-purple-600 ml-1">{s.name}</span>
-                </div>
+              {major.streams.map((s: any, idx: number) => (
+                <button
+                  key={s.code}
+                  onClick={() => {
+                    setSelectedStreamIdx(idx)
+                    setEditMode(false)
+                  }}
+                  className={`px-3 py-1.5 border rounded-lg text-sm transition-colors ${
+                    selectedStreamIdx === idx
+                      ? 'bg-cityu-accent text-white border-cityu-accent'
+                      : 'bg-purple-50 border-purple-200 text-purple-800 hover:bg-purple-100'
+                  }`}
+                >
+                  <span className="font-semibold">{s.code}</span>
+                  <span className="ml-1 opacity-90">{s.name}</span>
+                </button>
               ))}
             </div>
+            {activeStream?.description && (
+              <p className="mt-2 text-xs text-gray-500">{activeStream.description}</p>
+            )}
           </div>
         )}
 
@@ -211,6 +235,7 @@ export default function MajorPage() {
                 totalCredits: s.totalCredits
               }))}
               major={major}
+              streamIndex={selectedStreamIdx >= 0 ? selectedStreamIdx : undefined}
               courses={courses}
               onCourseClick={(code) => {
                 const detail = getCourseDetail(code)
@@ -219,11 +244,14 @@ export default function MajorPage() {
             />
           ) : (
             <>
-              {major.studyPlan && (
+              {(major.studyPlan || activeStream?.studyPlan) && (
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4 flex items-start gap-2 sm:gap-3">
                   <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <div className="text-xs sm:text-sm text-blue-800">
-                    <p className="font-medium">官方推荐学习计划</p>
+                    <p className="font-medium">
+                      官方推荐学习计划
+                      {activeStream ? ` — ${activeStream.name}` : ''}
+                    </p>
                     <p>此学习计划来自 CityU 官方 Recommended Study Plan，适用于 2025 cohort normative 4-year degree。</p>
                     <p className="mt-1 text-[10px] sm:text-xs opacity-80">每学期正常学分上限为 18 CU，申请 ARRO 批准后最高可达 21 CU。</p>
                   </div>

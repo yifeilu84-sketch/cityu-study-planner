@@ -51,6 +51,15 @@ export interface MajorRequirements {
   freeElectives?: { credits: number; note?: string } | number;
 }
 
+export interface Stream {
+  code: string;
+  name: string;
+  description?: string;
+  requirements?: MajorRequirements;
+  studyPlan?: StudyPlan;
+  allCourses?: string[];
+}
+
 export interface Major {
   code: string;
   title: string;
@@ -62,6 +71,8 @@ export interface Major {
   requirements: MajorRequirements;
   studyPlan?: StudyPlan;
   allCourses: string[];
+  streams?: Stream[];
+  notes?: string[];
 }
 
 export interface Department {

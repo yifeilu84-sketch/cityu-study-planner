@@ -7,7 +7,7 @@ export interface SemesterPlan {
   totalCredits: number
 }
 
-export function getAllMajorCourses(major: Major): { code: string; title: string; credits: number; category: string }[] {
+export function getAllMajorCourses(major: Major, streamIndex?: number): { code: string; title: string; credits: number; category: string }[] {
   const result: { code: string; title: string; credits: number; category: string }[] = []
   const seen = new Set<string>()
 
@@ -21,7 +21,9 @@ export function getAllMajorCourses(major: Major): { code: string; title: string;
     }
   }
 
-  const reqs = major.requirements as any || {}
+  // Use stream-specific requirements if available
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
+  const reqs = (stream?.requirements ?? major.requirements) as any || {}
   const geCourses = reqs.gatewayEducation?.courses
   const collegeCourses = reqs.college?.courses ?? reqs.collegeRequirement?.courses
   const coreCourses = reqs.majorCore?.courses
@@ -34,7 +36,7 @@ export function getAllMajorCourses(major: Major): { code: string; title: string;
 
   // Fallback: if no courses found but allCourses exists, use studyPlan or allCourses
   if (result.length === 0 && Array.isArray(major.allCourses) && major.allCourses.length > 0) {
-    const allCourseCodes = major.allCourses
+    const allCourseCodes = stream?.allCourses ?? major.allCourses
     for (const code of allCourseCodes) {
       if (!seen.has(code)) {
         seen.add(code)
@@ -50,8 +52,8 @@ export function getAllMajorCourses(major: Major): { code: string; title: string;
   return result
 }
 
-function getCategoryForCode(code: string, major: Major): string {
-  const all = getAllMajorCourses(major)
+function getCategoryForCode(code: string, major: Major, streamIndex?: number): string {
+  const all = getAllMajorCourses(major, streamIndex)
   const found = all.find(c => c.code === code || code.startsWith(c.code.split(' ')[0]))
   if (found) return found.category
   if (/^GE/.test(code)) return 'ge'
@@ -60,11 +62,15 @@ function getCategoryForCode(code: string, major: Major): string {
   return 'majorCore'
 }
 
-export function generateStudyPlan(major: Major, courses: Record<string, Course>): SemesterPlan[] {
+export function generateStudyPlan(major: Major, courses: Record<string, Course>, streamIndex?: number): SemesterPlan[] {
+  // Use stream-specific study plan if available, otherwise fall back to major's study plan
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
+  const studyPlan = stream?.studyPlan ?? major.studyPlan
+
   // Use official study plan if available
-  if (major.studyPlan) {
+  if (studyPlan) {
     const semesters: SemesterPlan[] = []
-    const plan = major.studyPlan
+    const plan = studyPlan
 
     const processSemester = (year: number, sem: 'A' | 'B', data: { courses: { code: string; title: string; credits: number }[]; credits: number }) => {
       const semCourses = data.courses.map(c => {
@@ -73,7 +79,7 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>)
           code: c.code,
           title: c.title || course?.title || c.code,
           credits: c.credits || course?.credits || 0,
-          category: getCategoryForCode(c.code, major),
+          category: getCategoryForCode(c.code, major, streamIndex),
           semester: course?.semester || ''
         }
       })

@@ -11,6 +11,7 @@ import { getCategoryColor, getCreditStatus } from '../utils/studyPlan'
 interface Props {
   initialPlan: EditableSemester[]
   major: any
+  streamIndex?: number
   courses: Record<string, Course>
   onCourseClick: (code: string) => void
 }
@@ -72,8 +73,8 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
   )
 }
 
-export default function StudyPlanEditor({ initialPlan, major, courses, onCourseClick }: Props) {
-  const storageKey = `cityu-study-plan-${major.code}`
+export default function StudyPlanEditor({ initialPlan, major, streamIndex, courses, onCourseClick }: Props) {
+  const storageKey = `cityu-study-plan-${major.code}${streamIndex != null ? '-stream-' + streamIndex : ''}`
 
   const [plan, setPlan] = useState<EditableSemester[]>(() => {
     try {
@@ -102,7 +103,7 @@ export default function StudyPlanEditor({ initialPlan, major, courses, onCourseC
   const minor = minorsData.find((m: any) => m.code === selectedMinor)
   const minorCourseList = minor?.courses as string[] | undefined
 
-  const pool = useMemo(() => buildCoursePool(major, courses, minorCourseList), [major, courses, minorCourseList])
+  const pool = useMemo(() => buildCoursePool(major, courses, minorCourseList, streamIndex), [major, courses, minorCourseList, streamIndex])
 
   const sensors = useSensors(
     useSensor(MouseSensor, { activationConstraint: { distance: 5 } }),

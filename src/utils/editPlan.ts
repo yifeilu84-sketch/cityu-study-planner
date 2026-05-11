@@ -102,7 +102,8 @@ export function recalcCredits(sem: EditableSemester): number {
 export function buildCoursePool(
   major: any,
   courses: Record<string, Course>,
-  minorCourses?: string[]
+  minorCourses?: string[],
+  streamIndex?: number
 ): PlanCourse[] {
   const result: PlanCourse[] = []
   const seen = new Set<string>()
@@ -118,7 +119,7 @@ export function buildCoursePool(
         code: c.code,
         title: c.title,
         credits: c.credits || 0,
-        category: category || getCategoryForCode(c.code, major)
+        category: category || getCategoryForCode(c.code, major, streamIndex)
       })
     } else if (minorCourses?.includes(code)) {
       // Minor course not in main courses database
@@ -131,8 +132,11 @@ export function buildCoursePool(
     }
   }
 
-  // Add all required courses from major
-  const reqs = major.requirements || {}
+  // Use stream-specific requirements if available
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : null
+  const reqs = (stream?.requirements ?? major.requirements) || {}
+  const allCourses = stream?.allCourses ?? major.allCourses
+
   const addReqs = (reqArr: any[]) => {
     if (!Array.isArray(reqArr)) return
     for (const c of reqArr) {
@@ -145,8 +149,8 @@ export function buildCoursePool(
   addReqs(reqs.majorElectives?.courses ?? reqs.majorElective?.courses)
 
   // Add allCourses if flat structure
-  if (major.allCourses && Array.isArray(major.allCourses)) {
-    for (const code of major.allCourses) {
+  if (allCourses && Array.isArray(allCourses)) {
+    for (const code of allCourses) {
       if (typeof code === 'string') add(code)
     }
   }
@@ -173,8 +177,9 @@ export function buildCoursePool(
   return result
 }
 
-function getCategoryForCode(code: string, major: any): string {
-  const reqs = major.requirements || {}
+function getCategoryForCode(code: string, major: any, streamIndex?: number): string {
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : null
+  const reqs = (stream?.requirements ?? major.requirements) || {}
   const inReq = (arr: any[]) => arr?.some((c: any) => c?.code === code)
   if (inReq(reqs.gatewayEducation?.courses)) return 'ge'
   if (inReq(reqs.college?.courses) || inReq(reqs.collegeRequirement?.courses)) return 'college'
