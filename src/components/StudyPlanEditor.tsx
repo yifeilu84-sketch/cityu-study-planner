@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react'
 import { DndContext, useDraggable, useDroppable, TouchSensor, MouseSensor, useSensor, useSensors, DragOverlay } from '@dnd-kit/core'
 import type { DragEndEvent, DragStartEvent } from '@dnd-kit/core'
-import { X, GripVertical, AlertCircle, ChevronUp, ChevronDown } from 'lucide-react'
+import { X, GripVertical, AlertCircle, ChevronUp, ChevronDown, Download } from 'lucide-react'
 import { canAddCourse, getGEArea, isRequiredGE, recalcCredits, buildCoursePool, type EditableSemester } from '../utils/editPlan'
 import minorsData from '../data/minors.json'
 import type { Course } from '../types'
@@ -73,12 +73,31 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
 }
 
 export default function StudyPlanEditor({ initialPlan, major, courses, onCourseClick }: Props) {
-  const [plan, setPlan] = useState<EditableSemester[]>(initialPlan)
+  const storageKey = `cityu-study-plan-${major.code}`
+
+  const [plan, setPlan] = useState<EditableSemester[]>(() => {
+    try {
+      const saved = localStorage.getItem(storageKey)
+      if (saved) return JSON.parse(saved)
+    } catch { /* ignore */ }
+    return initialPlan
+  })
   const [toast, setToast] = useState<string | null>(null)
+  const [saveIndicator, setSaveIndicator] = useState(false)
   const [poolOpen, setPoolOpen] = useState(false)
   const [activeId, setActiveId] = useState<string | null>(null)
 
   const [selectedMinor, setSelectedMinor] = useState<string>('')
+
+  // Auto-save plan to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(plan))
+      setSaveIndicator(true)
+      const timer = setTimeout(() => setSaveIndicator(false), 1500)
+      return () => clearTimeout(timer)
+    } catch { /* ignore */ }
+  }, [plan, storageKey])
 
   const minor = minorsData.find((m: any) => m.code === selectedMinor)
   const minorCourseList = minor?.courses as string[] | undefined
@@ -193,7 +212,37 @@ export default function StudyPlanEditor({ initialPlan, major, courses, onCourseC
   const handleReset = () => {
     if (confirm('确定要重置为官方推荐学习计划吗？所有自定义更改将丢失。')) {
       setPlan(initialPlan)
+      localStorage.removeItem(storageKey)
     }
+  }
+
+  // Export study plan as JSON
+  const handleExport = () => {
+    const data = {
+      major: major.code,
+      majorTitle: major.title,
+      exportedAt: new Date().toISOString(),
+      semesters: plan.map(s => ({
+        year: s.year,
+        sem: s.sem,
+        totalCredits: s.totalCredits,
+        courses: s.courses.map(c => ({
+          code: c.code,
+          title: c.title,
+          credits: c.credits,
+          category: c.category
+        }))
+      }))
+    }
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `cityu-study-plan-${major.code}.json`
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    URL.revokeObjectURL(url)
   }
 
   return (
@@ -224,13 +273,25 @@ export default function StudyPlanEditor({ initialPlan, major, courses, onCourseC
             ))}
           </div>
 
-          <div className="mt-4 flex justify-end">
-            <button
-              onClick={handleReset}
-              className="w-full sm:w-auto px-4 py-2.5 sm:py-2 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
-            >
-              重置为官方计划
-            </button>
+          <div className="mt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-end gap-2">
+            {saveIndicator && (
+              <span className="text-xs text-green-600 text-center sm:text-right">已自动保存</span>
+            )}
+            <div className="flex gap-2">
+              <button
+                onClick={handleExport}
+                className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2.5 sm:py-2 text-sm text-cityu-accent bg-cityu-accent/10 rounded-lg hover:bg-cityu-accent/20 transition-colors"
+              >
+                <Download className="w-4 h-4" />
+                导出计划
+              </button>
+              <button
+                onClick={handleReset}
+                className="flex-1 sm:flex-none px-4 py-2.5 sm:py-2 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+              >
+                重置为官方计划
+              </button>
+            </div>
           </div>
         </div>
 

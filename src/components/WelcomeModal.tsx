@@ -5,7 +5,7 @@ export default function WelcomeModal() {
   const [show, setShow] = useState(false)
 
   useEffect(() => {
-    const seen = localStorage.getItem('cityu-welcome-seen')
+    const seen = sessionStorage.getItem('cityu-welcome-seen')
     if (!seen) {
       setShow(true)
     }
@@ -20,7 +20,7 @@ export default function WelcomeModal() {
 
   const handleClose = () => {
     setShow(false)
-    localStorage.setItem('cityu-welcome-seen', '1')
+    sessionStorage.setItem('cityu-welcome-seen', '1')
   }
 
   if (!show) return null
