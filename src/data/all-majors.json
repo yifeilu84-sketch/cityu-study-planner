@@ -26088,9 +26088,14 @@
                   "code": "MINOR",
                   "title": "Minor Course",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -26192,8 +26197,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "MINOR",
-                  "title": "Minor Course",
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
                   "credits": 3
                 },
                 {
@@ -26229,6 +26234,11 @@
                   "credits": 3
                 },
                 {
+                  "code": "MAJOR-ELECTIVE2",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
@@ -26239,7 +26249,7 @@
                   "credits": 1
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -27445,9 +27455,14 @@
                   "code": "MINOR",
                   "title": "Minor Course",
                   "credits": 3
+                },
+                {
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -27514,6 +27529,11 @@
                   "credits": 3
                 },
                 {
+                  "code": "MAJOR-ELECTIVE2",
+                  "title": "Major Elective",
+                  "credits": 3
+                },
+                {
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
@@ -27524,7 +27544,7 @@
                   "credits": 1
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
