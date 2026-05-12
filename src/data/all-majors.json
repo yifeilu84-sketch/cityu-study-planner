@@ -3217,9 +3217,14 @@
               "code": "FREE",
               "title": "FREE",
               "credits": 3
+            },
+            {
+              "code": "GE",
+              "title": "GE",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -5142,9 +5147,14 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -5462,9 +5472,14 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -6260,51 +6275,188 @@
     "department": "Department of Management",
     "college": "College of Business",
     "requirements": {
-      "gatewayEducation": 30,
-      "collegeRequirement": 15,
-      "majorCore": 30,
-      "majorElective": 15,
-      "freeElective": 30
+      "gatewayEducation": {
+        "credits": 25,
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "CHIN1001",
+            "title": "University Chinese I",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Distributional Requirements",
+            "credits": 12
+          }
+        ]
+      },
+      "college": {
+        "credits": 42,
+        "courses": [
+          {
+            "code": "CB2201",
+            "title": "Operations Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2601",
+            "title": "Marketing",
+            "credits": 3
+          },
+          {
+            "code": "CB2400",
+            "title": "Micro-Economics",
+            "credits": 3
+          },
+          {
+            "code": "CB2100",
+            "title": "Introduction to Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2500",
+            "title": "Information Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2402",
+            "title": "Macro-Economics",
+            "credits": 3
+          },
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2200",
+            "title": "Business Statistics",
+            "credits": 3
+          },
+          {
+            "code": "CB3410",
+            "title": "Financial Management",
+            "credits": 3
+          },
+          {
+            "code": "CB4303",
+            "title": "Strategic Management",
+            "credits": 3
+          }
+        ]
+      },
+      "majorCore": {
+        "credits": 12,
+        "courses": [
+          {
+            "code": "MGT3306",
+            "title": "Organizational Behavior and Human Resources Management",
+            "credits": 3
+          },
+          {
+            "code": "MGT2324",
+            "title": "Introduction to Entrepreneurship",
+            "credits": 3
+          },
+          {
+            "code": "MGT3305",
+            "title": "Corporate Social Responsibility",
+            "credits": 3
+          },
+          {
+            "code": "MGT4227",
+            "title": "International Business",
+            "credits": 3
+          }
+        ]
+      },
+      "majorElectives": {
+        "credits": 9,
+        "courses": [
+          {
+            "code": "MGT3302",
+            "title": "Interactive Skills Workshop for Business",
+            "credits": 3
+          },
+          {
+            "code": "MGT4101",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "MGT4305",
+            "title": "Developing and Presenting a Business Plan",
+            "credits": 3
+          },
+          {
+            "code": "MGT4314",
+            "title": "Negotiation",
+            "credits": 3
+          },
+          {
+            "code": "MGT4315",
+            "title": "Leadership",
+            "credits": 3
+          },
+          {
+            "code": "MGT4800",
+            "title": "Management Internship",
+            "credits": 3
+          }
+        ],
+        "chooseCredits": 9,
+        "note": "Or any one Core course from other BBA majors"
+      }
     },
     "allCourses": [
+      "CB2201",
+      "CB2601",
+      "CB2400",
       "CB2100",
+      "CB2300",
+      "CB2500",
+      "CB2402",
       "CB2101",
       "CB2200",
-      "CB2201",
-      "CB2300",
-      "CB2400",
-      "CB2402",
-      "CB2500",
-      "CB2601",
       "CB3410",
       "CB4303",
-      "AC3202",
-      "CB2041",
-      "CB3020",
-      "CB3020A",
-      "CB3021",
-      "CB3041",
-      "CB3043",
-      "CB3044",
-      "CB3045",
-      "CB3800",
-      "CB3810",
-      "CB3820",
-      "CB3830",
-      "CB3840",
-      "CB4605",
-      "CS1102",
-      "IS2021",
-      "IS2023",
-      "MA1006",
+      "CB2240",
+      "CB2203",
       "MGT3306",
-      "MKT3601",
-      "MS3124",
-      "MS3252",
-      "LW2903",
       "MGT2324",
       "MGT3305",
       "MGT4227",
+      "MGT3302",
+      "MGT4101",
+      "MGT4305",
+      "MGT4314",
+      "MGT4315",
+      "MGT4800",
       "MGT3307",
       "MGT4306",
       "MGT4307",
@@ -6314,48 +6466,57 @@
       "MGT4310",
       "MGT4311",
       "MGT4312",
-      "MGT4313",
-      "MGT3302",
-      "MGT4305",
-      "MGT4314",
-      "MGT4315",
-      "MGT4800",
-      "MGT4101"
+      "MGT4313"
     ],
     "studyPlan": {
       "year1": {
         "semA": {
           "courses": [
             {
-              "code": "CB2100",
-              "title": "Introduction to Financial Accounting",
+              "code": "CB2201",
+              "title": "Operations Management",
               "credits": 3
             },
             {
-              "code": "CB2200",
-              "title": "Business Statistics",
+              "code": "CB2601",
+              "title": "Marketing",
               "credits": 3
             },
             {
               "code": "CB2400",
-              "title": "Microeconomics",
+              "title": "Micro-Economics",
               "credits": 3
             },
             {
-              "code": "GE1401",
-              "title": "University English",
+              "code": "GE-DR1",
+              "title": "Gateway Education (Area 1)",
               "credits": 3
             },
             {
               "code": "GE1601",
               "title": "Whole-Person Development",
               "credits": 1
+            },
+            {
+              "code": "GE1401",
+              "title": "University English or EAP1",
+              "credits": 3
+            },
+            {
+              "code": "CHIN1001",
+              "title": "University Chinese I",
+              "credits": 3
             }
           ],
-          "credits": 13
+          "credits": 19
         },
         "semB": {
           "courses": [
+            {
+              "code": "CB2100",
+              "title": "Introduction to Financial Accounting",
+              "credits": 3
+            },
             {
               "code": "CB2300",
               "title": "Management",
@@ -6367,18 +6528,13 @@
               "credits": 3
             },
             {
-              "code": "CB2601",
-              "title": "Marketing",
+              "code": "GE-DR2",
+              "title": "Gateway Education (Area 2)",
               "credits": 3
             },
             {
               "code": "GE2402",
-              "title": "English for Business Communication",
-              "credits": 3
-            },
-            {
-              "code": "GE1501",
-              "title": "Chinese Civilisation - History and Philosophy",
+              "title": "English for Business Communication or EAP2",
               "credits": 3
             }
           ],
@@ -6389,8 +6545,8 @@
         "semA": {
           "courses": [
             {
-              "code": "CB3410",
-              "title": "Financial Management",
+              "code": "CB2402",
+              "title": "Macro-Economics",
               "credits": 3
             },
             {
@@ -6399,80 +6555,90 @@
               "credits": 3
             },
             {
-              "code": "MS3106",
-              "title": "Management Core 1",
+              "code": "CB2200",
+              "title": "Business Statistics",
               "credits": 3
             },
             {
-              "code": "MS3111",
-              "title": "Management Core 2",
+              "code": "MGT3306",
+              "title": "Organizational Behavior and Human Resources Management",
               "credits": 3
             },
             {
-              "code": "GE-DR1",
-              "title": "Gateway Education (Area 1)",
+              "code": "MGT2324",
+              "title": "Introduction to Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "GE1401",
+              "title": "University English (for students taken EAP)",
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
             {
-              "code": "MS3123",
-              "title": "Management Core 3",
+              "code": "CB2240",
+              "title": "Introduction to Business Programming in Python",
               "credits": 3
             },
             {
-              "code": "MS3124",
-              "title": "Management Core 4",
-              "credits": 3
-            },
-            {
-              "code": "COL-ELEC1",
-              "title": "College Elective 1",
-              "credits": 3
-            },
-            {
-              "code": "GE-DR2",
-              "title": "Gateway Education (Area 2)",
+              "code": "CB3410",
+              "title": "Financial Management",
               "credits": 3
             },
             {
               "code": "GE-DR3",
               "title": "Gateway Education (Area 3)",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
+            },
+            {
+              "code": "MINOR1",
+              "title": "Minor 1",
+              "credits": 3
+            },
+            {
+              "code": "GE2402",
+              "title": "English for Business Communication (for students taken EAP)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year3": {
         "semA": {
           "courses": [
             {
-              "code": "MS3125",
-              "title": "Management Core 5",
+              "code": "CB2203",
+              "title": "Data Driven Business Modeling",
               "credits": 3
             },
             {
-              "code": "MS3127",
-              "title": "Management Core 6",
+              "code": "MGT3305",
+              "title": "Corporate Social Responsibility",
               "credits": 3
             },
             {
-              "code": "MS3128",
-              "title": "Management Core 7",
+              "code": "MGT4227",
+              "title": "International Business",
               "credits": 3
             },
             {
-              "code": "COL-ELEC2",
-              "title": "College Elective 2",
+              "code": "GE1501",
+              "title": "Chinese Civilization - History and Philosophy",
               "credits": 3
             },
             {
-              "code": "FREE1",
-              "title": "Free Elective 1",
+              "code": "MINOR2",
+              "title": "Minor 2",
               "credits": 3
             }
           ],
@@ -6481,28 +6647,28 @@
         "semB": {
           "courses": [
             {
-              "code": "MS3224",
-              "title": "Management Core 8",
+              "code": "GE-COL",
+              "title": "GE / College Elective",
               "credits": 3
             },
             {
-              "code": "MS3227",
-              "title": "Management Core 9",
+              "code": "STREAM-ELECT1",
+              "title": "Stream Elective in HRM or SIM",
               "credits": 3
             },
             {
-              "code": "MS3251",
-              "title": "Management Elective 1",
+              "code": "MAJOR-ELECT1",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "COL-ELEC3",
-              "title": "College Elective 3",
+              "code": "COL-ELEC1",
+              "title": "College Elective #1",
               "credits": 3
             },
             {
-              "code": "FREE2",
-              "title": "Free Elective 2",
+              "code": "MINOR3",
+              "title": "Minor 3",
               "credits": 3
             }
           ],
@@ -6513,28 +6679,28 @@
         "semA": {
           "courses": [
             {
-              "code": "MS4111",
-              "title": "Management Core 10",
-              "credits": 3
-            },
-            {
-              "code": "MS4118",
-              "title": "Management Core 11",
-              "credits": 3
-            },
-            {
               "code": "CB4303",
               "title": "Strategic Management",
               "credits": 3
             },
             {
-              "code": "FREE3",
-              "title": "Free Elective 3",
+              "code": "STREAM-ELECT2",
+              "title": "Stream Elective in HRM or SIM",
               "credits": 3
             },
             {
-              "code": "FREE4",
-              "title": "Free Elective 4",
+              "code": "MAJOR-ELECT2",
+              "title": "Major Elective",
+              "credits": 3
+            },
+            {
+              "code": "COL-ELEC2",
+              "title": "College Elective #2",
+              "credits": 3
+            },
+            {
+              "code": "MINOR4",
+              "title": "Minor 4",
               "credits": 3
             }
           ],
@@ -6543,35 +6709,169 @@
         "semB": {
           "courses": [
             {
-              "code": "MS4212",
-              "title": "Management Core 12",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             },
             {
-              "code": "MS4224",
-              "title": "Management Elective 2",
+              "code": "STREAM-ELECT3",
+              "title": "Stream Elective in HRM or SIM",
               "credits": 3
             },
             {
-              "code": "MS4226",
-              "title": "Management Elective 3",
+              "code": "MAJOR-ELECT3",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE5",
-              "title": "Free Elective 5",
+              "code": "COL-ELEC3",
+              "title": "College Elective #3",
               "credits": 3
             },
             {
-              "code": "FREE6",
-              "title": "Free Elective 6",
+              "code": "MINOR5",
+              "title": "Minor 5",
               "credits": 3
             }
           ],
           "credits": 15
         }
       }
-    }
+    },
+    "streams": [
+      {
+        "code": "HRM",
+        "name": "Human Resources Management (HRM)",
+        "description": "Focus on human resources management, employment law, performance management, and talent development.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 0,
+            "courses": []
+          },
+          "collegeRequirement": {
+            "credits": 0,
+            "courses": []
+          },
+          "majorCore": {
+            "credits": 0,
+            "courses": []
+          },
+          "majorElectives": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "MGT3307",
+                "title": "Employment Law and Practices",
+                "credits": 3
+              },
+              {
+                "code": "MGT4306",
+                "title": "Performance and Compensation Management",
+                "credits": 3
+              },
+              {
+                "code": "MGT4307",
+                "title": "People and HR Analytics",
+                "credits": 3
+              },
+              {
+                "code": "MGT4308",
+                "title": "Staffing",
+                "credits": 3
+              },
+              {
+                "code": "MGT4309",
+                "title": "Talent Management: Learning and Development",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 9,
+            "note": "Select 3 electives from the HRM stream"
+          },
+          "freeElectives": {
+            "credits": 0,
+            "note": ""
+          }
+        },
+        "allCourses": [
+          "MGT3307",
+          "MGT4306",
+          "MGT4307",
+          "MGT4308",
+          "MGT4309"
+        ]
+      },
+      {
+        "code": "SIM",
+        "name": "Strategy and International Management (SIM)",
+        "description": "Focus on strategic analysis, international business, innovation management, and entrepreneurship in Asia Pacific.",
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 0,
+            "courses": []
+          },
+          "collegeRequirement": {
+            "credits": 0,
+            "courses": []
+          },
+          "majorCore": {
+            "credits": 0,
+            "courses": []
+          },
+          "majorElectives": {
+            "credits": 9,
+            "courses": [
+              {
+                "code": "MGT3422",
+                "title": "Product and Service Innovation Management",
+                "credits": 3
+              },
+              {
+                "code": "MGT4310",
+                "title": "Managing Multinationals",
+                "credits": 3
+              },
+              {
+                "code": "MGT4311",
+                "title": "Advanced Strategic Analysis",
+                "credits": 3
+              },
+              {
+                "code": "MGT4312",
+                "title": "Launching Business in Asia Pacific",
+                "credits": 3
+              },
+              {
+                "code": "MGT4313",
+                "title": "Strategic Entrepreneurship",
+                "credits": 3
+              }
+            ],
+            "chooseCredits": 9,
+            "note": "Select 3 electives from the SIM stream"
+          },
+          "freeElectives": {
+            "credits": 0,
+            "note": ""
+          }
+        },
+        "allCourses": [
+          "MGT3422",
+          "MGT4310",
+          "MGT4311",
+          "MGT4312",
+          "MGT4313"
+        ]
+      }
+    ],
+    "notes": [
+      "Model Study Path for normative 4-year degree in 2025/26 intake.",
+      "English Language Requirement: Students scoring below Level 4 in HKDSE English Language or Grade D in HKALE AS-level Use of English are required to complete EL0200A and EL0200B prior to taking GE English courses (GE1401 and GE2402).",
+      "Gateway Education Course Distributional Requirements: Take at least 3 credits from each of the 3 areas (Arts and Humanities, Study of Societies/Social and Business Organizations, Science and Technology).",
+      "Chinese Language Requirement: Students scoring below Level 4 in HKDSE Chinese Language are required to take CHIN1001 University Chinese I.",
+      "Students who do not choose a minor are required to take Free Electives.",
+      "Students are required to fulfill the internship/consultancy project/research project requirement. Students may fulfill this requirement by taking approved course from college elective or major core/elective but preference shall be given to the major course."
+    ]
   },
   {
     "code": "BBA1_MKT1-1",
@@ -6823,9 +7123,14 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -7300,9 +7605,14 @@
               "code": "MAJOR-ELECTIVE",
               "title": "CS Elective (1)",
               "credits": 3
+            },
+            {
+              "code": "GE-ELECTIVE",
+              "title": "Gateway Education (Area)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -7320,9 +7630,14 @@
               "code": "MAJOR-ELECTIVE",
               "title": "CS Elective (3)",
               "credits": 3
+            },
+            {
+              "code": "GE-ELECTIVE",
+              "title": "Gateway Education (Area)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -7759,9 +8074,14 @@
               "code": "CS4335",
               "title": "Design & Analysis of Algorithms",
               "credits": 3
+            },
+            {
+              "code": "GE-ELECTIVE",
+              "title": "Gateway Education (Area)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -12004,9 +12324,14 @@
               "code": "ELECTIVE",
               "title": "Major Elective",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -12034,9 +12359,14 @@
               "code": "ELECTIVE",
               "title": "Major Elective",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -15849,9 +16179,14 @@
               "code": "CHIS-ELEC3",
               "title": "Stream Elective 3",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -16173,9 +16508,14 @@
                   "code": "CHIS-ELEC4",
                   "title": "Stream Elective 4",
                   "credits": 3
+                },
+                {
+                  "code": "GE-DR4",
+                  "title": "Gateway Education (Area 4)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -16550,9 +16890,14 @@
                   "code": "CHIS-ELEC3",
                   "title": "Stream Elective 3",
                   "credits": 3
+                },
+                {
+                  "code": "GE-DR4",
+                  "title": "Gateway Education (Area 4)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -21038,9 +21383,14 @@
               "code": "SW-ELEC1",
               "title": "Social Work Major Elective (Area 1 or 2)",
               "credits": 3
+            },
+            {
+              "code": "GE-DR4",
+              "title": "Gateway Education (Area 4)",
+              "credits": 3
             }
           ],
-          "credits": 13
+          "credits": 16
         },
         "semB": {
           "courses": [
@@ -23667,9 +24017,14 @@
               "code": "SM-Studio1",
               "title": "Art & Science Studio Course #1",
               "credits": 6
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Area 3)",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -25656,9 +26011,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole Person Development through Service Learning",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -25723,9 +26083,14 @@
                   "code": "CA1167",
                   "title": "Engineering Communication",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 13
+              "credits": 16
             },
             "semB": {
               "courses": [
@@ -25753,9 +26118,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             }
           },
           "year3": {
@@ -25785,9 +26155,14 @@
                   "code": "SYE4024",
                   "title": "Project Management",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -25820,9 +26195,14 @@
                   "code": "MINOR",
                   "title": "Minor Course",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             }
           },
           "year4": {
@@ -25844,13 +26224,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "MINOR",
-                  "title": "Minor Course",
-                  "credits": 3
-                },
-                {
-                  "code": "MINOR",
-                  "title": "Minor Course",
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
                   "credits": 3
                 },
                 {
@@ -25864,7 +26239,7 @@
                   "credits": 1
                 }
               ],
-              "credits": 19
+              "credits": 16
             },
             "semB": {
               "courses": [
@@ -25884,13 +26259,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "MINOR",
-                  "title": "Minor Course",
-                  "credits": 3
-                },
-                {
-                  "code": "MINOR",
-                  "title": "Minor Course",
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
                   "credits": 3
                 },
                 {
@@ -25899,7 +26269,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 19
+              "credits": 16
             }
           }
         },
@@ -26926,9 +27296,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole Person Development through Service Learning",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -26998,9 +27373,14 @@
                   "code": "CA1167",
                   "title": "Engineering Communication",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -27028,9 +27408,14 @@
                   "code": "SEE2201",
                   "title": "Fundamentals of Environmental Engineering",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             }
           },
           "year3": {
@@ -27095,9 +27480,14 @@
                   "code": "MINOR",
                   "title": "Minor Course",
                   "credits": 3
+                },
+                {
+                  "code": "MINOR",
+                  "title": "Minor Course",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             }
           },
           "year4": {
@@ -27114,13 +27504,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "MINOR",
-                  "title": "Minor Course",
-                  "credits": 3
-                },
-                {
-                  "code": "MINOR",
-                  "title": "Minor Course",
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
                   "credits": 3
                 },
                 {
@@ -27139,7 +27524,7 @@
                   "credits": 1
                 }
               ],
-              "credits": 19
+              "credits": 16
             },
             "semB": {
               "courses": [
@@ -27159,8 +27544,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "MINOR",
-                  "title": "Minor Course",
+                  "code": "MAJOR-ELECTIVE",
+                  "title": "Major Elective",
                   "credits": 3
                 },
                 {

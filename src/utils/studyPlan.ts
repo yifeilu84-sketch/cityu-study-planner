@@ -58,7 +58,8 @@ function getCategoryForCode(code: string, major: Major, streamIndex?: number): s
   if (found) return found.category
   if (/^GE/.test(code)) return 'ge'
   if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
-  if (/^ELECTIVE$/.test(code)) return 'majorElective'
+  if (/^ELECTIVE$|^MAJOR-ELECTIVE/.test(code)) return 'majorElective'
+  if (/^MINOR/.test(code)) return 'college'
   return 'majorCore'
 }
 
