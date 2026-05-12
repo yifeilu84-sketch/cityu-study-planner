@@ -25810,14 +25810,9 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
-                },
-                {
-                  "code": "SEE4993",
-                  "title": "Research Seminar",
-                  "credits": 1
                 }
               ],
-              "credits": 14
+              "credits": 13
             }
           },
           "year4": {
@@ -25839,22 +25834,27 @@
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -25874,13 +25874,13 @@
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
@@ -26105,14 +26105,9 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
-                },
-                {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
-                  "credits": 3
                 }
               ],
-              "credits": 19
+              "credits": 16
             }
           },
           "year4": {
@@ -26177,14 +26172,9 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
-                },
-                {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
-                  "credits": 3
                 }
               ],
-              "credits": 19
+              "credits": 16
             }
           }
         }
@@ -26197,7 +26187,8 @@
       "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
       "eSTAR students are expected to complete more credit units (129 CU at least for ESE) than regular students, but total will not exceed 144 CU.",
       "eSTAR students may be required to enroll in courses during summer semesters.",
-      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests."
+      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
+      "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
     ]
   },
   {
@@ -26205,7 +26196,7 @@
     "title": "Bachelor of Engineering in Environmental Science and Engineering",
     "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_EVE-1.htm",
     "degree": "Bachelor of Engineering",
-    "totalCredits": 124,
+    "totalCredits": 123,
     "department": "School of Energy and Environment",
     "college": "School of Energy and Environment",
     "requirements": {
@@ -27076,14 +27067,9 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
-                },
-                {
-                  "code": "SEE4993",
-                  "title": "Research Seminar",
-                  "credits": 1
                 }
               ],
-              "credits": 14
+              "credits": 13
             }
           },
           "year4": {
@@ -27100,13 +27086,13 @@
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
@@ -27118,9 +27104,14 @@
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -27140,8 +27131,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
+                  "code": "MINOR",
+                  "title": "Minor Course",
                   "credits": 3
                 },
                 {
@@ -27368,17 +27359,12 @@
                   "credits": 3
                 },
                 {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
-                  "credits": 3
-                },
-                {
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
                 }
               ],
-              "credits": 19
+              "credits": 16
             }
           },
           "year4": {
@@ -27408,14 +27394,9 @@
                   "code": "SYE4024",
                   "title": "Project Management",
                   "credits": 3
-                },
-                {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
-                  "credits": 3
                 }
               ],
-              "credits": 18
+              "credits": 15
             },
             "semB": {
               "courses": [
@@ -27438,14 +27419,9 @@
                   "code": "SEE4996",
                   "title": "Final Year Project",
                   "credits": 3
-                },
-                {
-                  "code": "ELECTIVE",
-                  "title": "Major Elective",
-                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 13
             }
           }
         }
@@ -27458,7 +27434,8 @@
       "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
       "eSTAR students are expected to complete more credit units (127 CU at least for EVE) than regular students, but total will not exceed 144 CU.",
       "eSTAR students may be required to enroll in courses during summer semesters.",
-      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests."
+      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
+      "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
     ]
   },
   {
@@ -29086,14 +29063,9 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
-                },
-                {
-                  "code": "SEE4993",
-                  "title": "Research Seminar",
-                  "credits": 1
                 }
               ],
-              "credits": 14
+              "credits": 13
             }
           },
           "year4": {
@@ -29128,9 +29100,14 @@
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -29366,14 +29343,9 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
-                },
-                {
-                  "code": "SEE4993",
-                  "title": "Research Seminar",
-                  "credits": 1
                 }
               ],
-              "credits": 14
+              "credits": 13
             }
           },
           "year4": {
@@ -29408,9 +29380,14 @@
                   "code": "SEE4994",
                   "title": "Guided Study in Energy and Environment (Part I)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -29455,7 +29432,8 @@
       "Students will benefit from specialized curriculum in energy, environment and sustainability, along with extensive training in global perspectives, innovative mindset and research.",
       "Total credit units: 132 CU (ESE track) or 130 CU (EVE track).",
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
-      "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE."
+      "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
+      "INSPIRE students must complete an overseas exchange/placement for at least one semester. Students should adjust their study plan to ensure one semester (typically Year 2 or Year 3 Semester B) is available for exchange, otherwise graduation requirements may not be met."
     ]
   }
 ]
