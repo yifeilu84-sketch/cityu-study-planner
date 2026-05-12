@@ -25904,7 +25904,8 @@
           "eSTAR students may be required to enroll in courses during summer semesters.",
           "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
           "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
-        ]
+        ],
+        "totalCredits": 131
       },
       {
         "code": "BSS",
@@ -26193,7 +26194,8 @@
         "notes": [
           "Building Services Science (BSS) stream students take additional CA courses as their discipline: CA3712 Electrical Services, CA3722 HVAC Engineering, CA3732 Fire Engineering and Piped Services, CA4718 Power Electronics and Smart Lighting Controls, and CA4737 Fire Science and Modelling (15 CU total).",
           "BSS students follow the same core curriculum as regular ESE/EVE students, with CA courses integrated into Years 3–4."
-        ]
+        ],
+        "totalCredits": 136
       }
     ],
     "notes": [
@@ -27162,7 +27164,8 @@
           "eSTAR students may be required to enroll in courses during summer semesters.",
           "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
           "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
-        ]
+        ],
+        "totalCredits": 129
       },
       {
         "code": "BSS",
@@ -27446,7 +27449,8 @@
         "notes": [
           "Building Services Science (BSS) stream students take additional CA courses as their discipline: CA3712 Electrical Services, CA3722 HVAC Engineering, CA3732 Fire Engineering and Piped Services, CA4718 Power Electronics and Smart Lighting Controls, and CA4737 Fire Science and Modelling (15 CU total).",
           "BSS students follow the same core curriculum as regular ESE/EVE students, with CA courses integrated into Years 3–4."
-        ]
+        ],
+        "totalCredits": 134
       }
     ],
     "notes": [
@@ -27460,7 +27464,7 @@
     "title": "Bachelor of Science in Environment and Sustainable Business",
     "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ESB-1.htm",
     "degree": "Bachelor of Science",
-    "totalCredits": 121,
+    "totalCredits": 127,
     "department": "School of Energy and Environment",
     "college": "School of Energy and Environment",
     "requirements": {
@@ -28829,80 +28833,6 @@
       "SEE4998",
       "SEE4999"
     ],
-    "studyPlan": {
-      "year1": {
-        "semA": {
-          "courses": [
-            {
-              "code": "MA1200",
-              "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
-              "credits": 3
-            },
-            {
-              "code": "CHEM1200",
-              "title": "Discovery in Biology",
-              "credits": 3
-            },
-            {
-              "code": "CHEM1300",
-              "title": "Principles of General Chemistry",
-              "credits": 3
-            },
-            {
-              "code": "SEE1003",
-              "title": "Introduction to Sustainable Energy and Environmental Engineering",
-              "credits": 3
-            },
-            {
-              "code": "GE1401",
-              "title": "University English",
-              "credits": 3
-            },
-            {
-              "code": "GE-DR",
-              "title": "GE Course (Distributional Requirements)",
-              "credits": 3
-            }
-          ],
-          "credits": 18
-        },
-        "semB": {
-          "courses": [
-            {
-              "code": "MA1201",
-              "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
-              "credits": 3
-            },
-            {
-              "code": "PHY1201",
-              "title": "General Physics I",
-              "credits": 3
-            },
-            {
-              "code": "SEE1000",
-              "title": "Professional Development: Career Planning Workshop",
-              "credits": 0
-            },
-            {
-              "code": "SEE1002",
-              "title": "Introduction to Computing for Energy and Environment",
-              "credits": 3
-            },
-            {
-              "code": "GE2410",
-              "title": "English for Engineering",
-              "credits": 3
-            },
-            {
-              "code": "GE-DR",
-              "title": "GE Courses (Distributional Requirements)",
-              "credits": 6
-            }
-          ],
-          "credits": 18
-        }
-      }
-    },
     "streams": [
       {
         "code": "ESE",
@@ -28941,9 +28871,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole-Person Development",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -29182,7 +29117,8 @@
               "credits": 19
             }
           }
-        }
+        },
+        "totalCredits": 132
       },
       {
         "code": "EVE",
@@ -29221,9 +29157,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "GE1601",
+                  "title": "Whole-Person Development",
+                  "credits": 1
                 }
               ],
-              "credits": 18
+              "credits": 19
             },
             "semB": {
               "courses": [
@@ -29457,7 +29398,8 @@
               "credits": 16
             }
           }
-        }
+        },
+        "totalCredits": 130
       }
     ],
     "notes": [

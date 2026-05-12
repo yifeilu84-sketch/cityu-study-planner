@@ -59,6 +59,7 @@ export interface Stream {
   studyPlan?: StudyPlan;
   allCourses?: string[];
   notes?: string[];
+  totalCredits?: number;
 }
 
 export interface Major {

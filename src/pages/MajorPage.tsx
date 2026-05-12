@@ -83,7 +83,7 @@ export default function MajorPage() {
   const coreReq = getReqValue(activeReqs, ['majorCore'])
   const electiveReq = getReqValue(activeReqs, ['majorElectives', 'majorElective'])
 
-  const totalCredits = major.totalCredits ||
+  const totalCredits = activeStream?.totalCredits ?? major.totalCredits ??
     ((geReq.credits || 0) + (collegeReq.credits || 0) + (coreReq.credits || 0) + (electiveReq.credits || 0))
 
   // Build requirement sections dynamically
