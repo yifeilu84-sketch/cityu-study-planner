@@ -25785,14 +25785,9 @@
                   "code": "SYE4024",
                   "title": "Project Management",
                   "credits": 3
-                },
-                {
-                  "code": "MINOR",
-                  "title": "Minor Course",
-                  "credits": 3
                 }
               ],
-              "credits": 19
+              "credits": 16
             },
             "semB": {
               "courses": [
@@ -25913,9 +25908,9 @@
           "eSTAR students are expected to complete more credit units (129 CU at least for ESE) than regular students, but total will not exceed 144 CU.",
           "eSTAR students may be required to enroll in courses during summer semesters.",
           "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
-          "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+          "eSTAR students must complete a Minor (15 CU, typically 5 courses) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
         ],
-        "totalCredits": 137
+        "totalCredits": 134
       },
       {
         "code": "BSS",
@@ -27183,7 +27178,7 @@
           "eSTAR students are expected to complete more credit units (127 CU at least for EVE) than regular students, but total will not exceed 144 CU.",
           "eSTAR students may be required to enroll in courses during summer semesters.",
           "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
-          "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+          "eSTAR students must complete a Minor (15 CU, typically 5 courses) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
         ],
         "totalCredits": 135
       },
