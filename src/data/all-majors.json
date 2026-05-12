@@ -25810,9 +25810,14 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 13
+              "credits": 14
             }
           },
           "year4": {
@@ -25842,9 +25847,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4994",
+                  "title": "Guided Study in Energy and Environment (Part I)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -25872,9 +25882,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4998",
+                  "title": "Special Project in Energy and Environment (Part II)",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             }
           }
         }
@@ -27061,9 +27076,14 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 13
+              "credits": 14
             }
           },
           "year4": {
@@ -27093,9 +27113,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4994",
+                  "title": "Guided Study in Energy and Environment (Part I)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -27118,9 +27143,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4998",
+                  "title": "Special Project in Energy and Environment (Part II)",
+                  "credits": 3
                 }
               ],
-              "credits": 13
+              "credits": 16
             }
           }
         }
@@ -29056,9 +29086,14 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 13
+              "credits": 14
             }
           },
           "year4": {
@@ -29088,9 +29123,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4994",
+                  "title": "Guided Study in Energy and Environment (Part I)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -29118,9 +29158,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4998",
+                  "title": "Special Project in Energy and Environment (Part II)",
+                  "credits": 3
                 }
               ],
-              "credits": 16
+              "credits": 19
             }
           }
         }
@@ -29321,9 +29366,14 @@
                   "code": "SEE4217",
                   "title": "Waste and Wastewater Treatment Engineering",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4993",
+                  "title": "Research Seminar",
+                  "credits": 1
                 }
               ],
-              "credits": 13
+              "credits": 14
             }
           },
           "year4": {
@@ -29353,9 +29403,14 @@
                   "code": "GE-DR",
                   "title": "GE Course (Distributional Requirements)",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4994",
+                  "title": "Guided Study in Energy and Environment (Part I)",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
@@ -29378,9 +29433,14 @@
                   "code": "ELECTIVE",
                   "title": "Major Elective",
                   "credits": 3
+                },
+                {
+                  "code": "SEE4998",
+                  "title": "Special Project in Energy and Environment (Part II)",
+                  "credits": 3
                 }
               ],
-              "credits": 13
+              "credits": 16
             }
           }
         }
