@@ -179,6 +179,21 @@ export default function MajorPage() {
             </ul>
           </div>
         )}
+        {selectedStreamIdx >= 0 && major.streams?.[selectedStreamIdx]?.notes && (
+          <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
+            <h3 className="text-sm font-medium text-gray-700 mb-2">
+              {major.streams[selectedStreamIdx].name} 备注
+            </h3>
+            <ul className="space-y-1">
+              {major.streams[selectedStreamIdx].notes!.map((note: string, i: number) => (
+                <li key={i} className="text-sm text-gray-600 flex items-start gap-2">
+                  <Info className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
+                  {note}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       {/* Tabs */}

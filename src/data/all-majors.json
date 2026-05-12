@@ -25897,7 +25897,14 @@
               "credits": 19
             }
           }
-        }
+        },
+        "notes": [
+          "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
+          "eSTAR students are expected to complete more credit units (129 CU at least for ESE) than regular students, but total will not exceed 144 CU.",
+          "eSTAR students may be required to enroll in courses during summer semesters.",
+          "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
+          "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+        ]
       },
       {
         "code": "BSS",
@@ -26182,18 +26189,17 @@
               "credits": 16
             }
           }
-        }
+        },
+        "notes": [
+          "Building Services Science (BSS) stream students take additional CA courses as their discipline: CA3712 Electrical Services, CA3722 HVAC Engineering, CA3732 Fire Engineering and Piped Services, CA4718 Power Electronics and Smart Lighting Controls, and CA4737 Fire Science and Modelling (15 CU total).",
+          "BSS students follow the same core curriculum as regular ESE/EVE students, with CA courses integrated into Years 3–4."
+        ]
       }
     ],
     "notes": [
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
       "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
-      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics",
-      "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
-      "eSTAR students are expected to complete more credit units (129 CU at least for ESE) than regular students, but total will not exceed 144 CU.",
-      "eSTAR students may be required to enroll in courses during summer semesters.",
-      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
-      "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics"
     ]
   },
   {
@@ -27149,7 +27155,14 @@
               "credits": 16
             }
           }
-        }
+        },
+        "notes": [
+          "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
+          "eSTAR students are expected to complete more credit units (127 CU at least for EVE) than regular students, but total will not exceed 144 CU.",
+          "eSTAR students may be required to enroll in courses during summer semesters.",
+          "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
+          "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+        ]
       },
       {
         "code": "BSS",
@@ -27429,18 +27442,17 @@
               "credits": 13
             }
           }
-        }
+        },
+        "notes": [
+          "Building Services Science (BSS) stream students take additional CA courses as their discipline: CA3712 Electrical Services, CA3722 HVAC Engineering, CA3732 Fire Engineering and Piped Services, CA4718 Power Electronics and Smart Lighting Controls, and CA4737 Fire Science and Modelling (15 CU total).",
+          "BSS students follow the same core curriculum as regular ESE/EVE students, with CA courses integrated into Years 3–4."
+        ]
       }
     ],
     "notes": [
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
       "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
-      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics",
-      "eSTAR students must maintain CGPA ≥ 3.40 every semester.",
-      "eSTAR students are expected to complete more credit units (127 CU at least for EVE) than regular students, but total will not exceed 144 CU.",
-      "eSTAR students may be required to enroll in courses during summer semesters.",
-      "High school entrants admitted to eSTAR may be exempted from first-year courses (CHEM1200, CHEM1300, MA1200/MA1300, MA1201/MA1301, PHY1201, SEE1003) after passing placement tests.",
-      "eSTAR students must complete a Minor (typically 15–18 CU) from College of Business, College of Engineering, College of Liberal Arts and Social Sciences, or School of Science. Minor courses should be planned across Year 2–4 and may replace some Major Electives."
+      "List of 3 School-specified courses: (1) CA1167 Engineering Communication, (2) SEE1003 Introduction to Sustainable Energy and Environmental Engineering, (3) SEE3002 Energy and Environmental Economics"
     ]
   },
   {

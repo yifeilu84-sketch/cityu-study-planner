@@ -58,6 +58,7 @@ export interface Stream {
   requirements?: MajorRequirements;
   studyPlan?: StudyPlan;
   allCourses?: string[];
+  notes?: string[];
 }
 
 export interface Major {
