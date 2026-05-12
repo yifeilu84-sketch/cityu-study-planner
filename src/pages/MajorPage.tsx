@@ -24,9 +24,7 @@ export default function MajorPage() {
   // Determine if this major has streams
   const hasStreams = major?.streams && major.streams.length > 0
   const hasStreamPlans = major?.streams && major.streams.some((s: any) => s.studyPlan)
-  const [selectedStreamIdx, setSelectedStreamIdx] = useState<number>(
-    hasStreams ? 0 : -1
-  )
+  const [selectedStreamIdx, setSelectedStreamIdx] = useState<number>(-1)
 
   if (!major) {
     return (
@@ -141,6 +139,20 @@ export default function MajorPage() {
           <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
             <h3 className="text-sm font-medium text-gray-700 mb-2">学术方向 / Streams</h3>
             <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => {
+                  setSelectedStreamIdx(-1)
+                  setEditMode(false)
+                }}
+                className={`px-3 py-1.5 border rounded-lg text-sm transition-colors ${
+                  selectedStreamIdx === -1
+                    ? 'bg-cityu-accent text-white border-cityu-accent'
+                    : 'bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                <span className="font-semibold">默认</span>
+                <span className="ml-1 opacity-90">不选方向</span>
+              </button>
               {major.streams.map((s: any, idx: number) => (
                 <button
                   key={s.code}
