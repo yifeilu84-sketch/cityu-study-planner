@@ -228,22 +228,22 @@
           "courses": [
             {
               "code": "PHY1201",
-              "title": "PHY1201",
+              "title": "General Physics I",
               "credits": 3
             },
             {
               "code": "CHEM1200",
-              "title": "CHEM1200",
+              "title": "Discovery in Biology",
               "credits": 3
             },
             {
-              "code": "MA1200",
-              "title": "MA1200",
+              "code": "MA1200 / MA1300",
+              "title": "Calculus and Basic Linear Algebra I / Enhanced Calculus and Linear Algebra I",
               "credits": 3
             },
             {
               "code": "BME2105",
-              "title": "BME2105",
+              "title": "Introduction to Biomedical Engineering",
               "credits": 3
             },
             {
@@ -253,7 +253,7 @@
             },
             {
               "code": "GE1601",
-              "title": "GE1601",
+              "title": "Whole-Person Development",
               "credits": 1
             }
           ],
@@ -263,17 +263,17 @@
           "courses": [
             {
               "code": "CHEM1300",
-              "title": "CHEM1300",
+              "title": "Principles of General Chemistry",
               "credits": 3
             },
             {
               "code": "CS1302",
-              "title": "CS1302",
+              "title": "Introduction to Computer Programming",
               "credits": 3
             },
             {
-              "code": "MA1201",
-              "title": "MA1201",
+              "code": "MA1201 / MA1301",
+              "title": "Calculus and Basic Linear Algebra II / Enhanced Calculus and Linear Algebra II",
               "credits": 3
             },
             {
@@ -282,8 +282,8 @@
               "credits": 3
             },
             {
-              "code": "GE-1",
-              "title": "GE-1",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -295,22 +295,22 @@
           "courses": [
             {
               "code": "BME2102",
-              "title": "BME2102",
+              "title": "Introduction to Biomechanics",
               "credits": 3
             },
             {
               "code": "BME2123",
-              "title": "BME2123",
+              "title": "Mathematics for Biomedical Engineering",
               "credits": 3
             },
             {
               "code": "BME2029",
-              "title": "BME2029",
+              "title": "Electrical and Electronic Principles",
               "credits": 3
             },
             {
               "code": "BME2036",
-              "title": "BME2036",
+              "title": "Engineering Computing",
               "credits": 3
             },
             {
@@ -325,27 +325,27 @@
           "courses": [
             {
               "code": "BME2122",
-              "title": "BME2122",
+              "title": "Biological Thermofluids",
               "credits": 3
             },
             {
               "code": "BME2121",
-              "title": "BME2121",
+              "title": "Artificial Intelligence in Biomedical Engineering",
               "credits": 3
             },
             {
               "code": "BME2103",
-              "title": "BME2103",
+              "title": "Medical Biotechnology in Imaging and Measurement",
               "credits": 3
             },
             {
               "code": "BME2106",
-              "title": "BME2106",
+              "title": "Introduction to Cellular and Biomolecular Engineering",
               "credits": 3
             },
             {
-              "code": "GE-2",
-              "title": "GE-2",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -357,27 +357,27 @@
           "courses": [
             {
               "code": "BME4103",
-              "title": "BME4103",
+              "title": "Bio-safety and Risk Assessment",
               "credits": 3
             },
             {
               "code": "BME3121",
-              "title": "BME3121",
+              "title": "Biomedical Signals and Systems",
               "credits": 3
             },
             {
               "code": "BME3123",
-              "title": "BME3123",
+              "title": "Materials for Biomedical Engineering",
               "credits": 3
             },
             {
               "code": "BME2104",
-              "title": "BME2104",
+              "title": "Tissue Engineering",
               "credits": 3
             },
             {
-              "code": "GE-3",
-              "title": "GE-3",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -387,27 +387,27 @@
           "courses": [
             {
               "code": "BME3102",
-              "title": "BME3102",
+              "title": "Human Quantitative Physiology",
               "credits": 3
             },
             {
               "code": "BME4101",
-              "title": "BME4101",
+              "title": "Biomedical Instrumentation",
               "credits": 3
             },
             {
               "code": "BME3103",
-              "title": "BME3103",
+              "title": "Bio-sensors and Bio-devices",
               "credits": 3
             },
             {
               "code": "CS4465",
-              "title": "CS4465",
+              "title": "Computational Biology and Bioinformatics",
               "credits": 3
             },
             {
-              "code": "BME-ELECTIVE1",
-              "title": "BME-ELECTIVE1",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             }
           ],
@@ -419,27 +419,27 @@
           "courses": [
             {
               "code": "BME4102",
-              "title": "BME4102",
+              "title": "Final Year Project",
               "credits": 3
             },
             {
               "code": "BME3104",
-              "title": "BME3104",
+              "title": "Robotic Technology in Healthcare",
               "credits": 3
             },
             {
-              "code": "BME-ELECTIVE2",
-              "title": "BME-ELECTIVE2",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "BME-ELECTIVE3",
-              "title": "BME-ELECTIVE3",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "GE-4",
-              "title": "GE-4",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -448,23 +448,28 @@
         "semB": {
           "courses": [
             {
-              "code": "BME4102",
-              "title": "BME4102",
-              "credits": 6
-            },
-            {
-              "code": "BME2066",
-              "title": "BME2066",
+              "code": "BME4105",
+              "title": "Biomedical Devices for Digital Medicine",
               "credits": 3
             },
             {
-              "code": "BME-ELECTIVE4",
-              "title": "BME-ELECTIVE4",
+              "code": "BME3016",
+              "title": "Biomedical Engineering CAD",
               "credits": 3
             },
             {
-              "code": "FREE",
-              "title": "FREE",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
+              "credits": 3
+            },
+            {
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
+              "credits": 3
+            },
+            {
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -7987,8 +7992,8 @@
               "credits": 3
             },
             {
-              "code": "GE-DR1",
-              "title": "Gateway Education (Area 1)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8019,8 +8024,8 @@
               "credits": 3
             },
             {
-              "code": "GE-DR2",
-              "title": "Gateway Education (Area 2)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8049,8 +8054,8 @@
               "credits": 3
             },
             {
-              "code": "GE-DR3",
-              "title": "Gateway Education (Area 3)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8071,18 +8076,18 @@
               "credits": 3
             },
             {
-              "code": "DSC-ELEC1",
-              "title": "Major Elective 1",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSC-ELEC2",
-              "title": "Major Elective 2",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "GE-DR4",
-              "title": "Gateway Education (Area 4)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8101,18 +8106,18 @@
               "credits": 3
             },
             {
-              "code": "DSC-ELEC3",
-              "title": "Major Elective 3",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSC-ELEC4",
-              "title": "Major Elective 4",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE1",
-              "title": "Free Elective 1",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -8128,23 +8133,23 @@
               "credits": 3
             },
             {
-              "code": "DSC-ELEC5",
-              "title": "Major Elective 5",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSC-ELEC6",
-              "title": "Major Elective 6",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE2",
-              "title": "Free Elective 2",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             },
             {
-              "code": "FREE3",
-              "title": "Free Elective 3",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -8154,27 +8159,27 @@
           "courses": [
             {
               "code": "SDSC4116",
-              "title": "Data Science Capstone (continued)",
+              "title": "Data Science Capstone",
               "credits": 3
             },
             {
-              "code": "DSC-ELEC7",
-              "title": "Major Elective 7",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE4",
-              "title": "Free Elective 4",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             },
             {
-              "code": "FREE5",
-              "title": "Free Elective 5",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             },
             {
-              "code": "FREE6",
-              "title": "Free Elective 6",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -8295,8 +8300,8 @@
               "credits": 1
             },
             {
-              "code": "GE-DR1",
-              "title": "Gateway Education (Area 1)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8325,8 +8330,8 @@
               "credits": 3
             },
             {
-              "code": "GE-DR2",
-              "title": "Gateway Education (Area 2)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8357,8 +8362,8 @@
               "credits": 3
             },
             {
-              "code": "GE-DR3",
-              "title": "Gateway Education (Area 3)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8409,18 +8414,18 @@
               "credits": 3
             },
             {
-              "code": "DSE-ELEC1",
-              "title": "Major Elective 1",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSE-ELEC2",
-              "title": "Major Elective 2",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "GE-DR4",
-              "title": "Gateway Education (Area 4)",
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
           ],
@@ -8434,23 +8439,23 @@
               "credits": 3
             },
             {
-              "code": "DSE-ELEC3",
-              "title": "Major Elective 3",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSE-ELEC4",
-              "title": "Major Elective 4",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSE-ELEC5",
-              "title": "Major Elective 5",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE1",
-              "title": "Free Elective 1",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -8471,18 +8476,18 @@
               "credits": 3
             },
             {
-              "code": "DSE-ELEC6",
-              "title": "Major Elective 6",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "DSE-ELEC7",
-              "title": "Major Elective 7",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE2",
-              "title": "Free Elective 2",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -8492,7 +8497,7 @@
           "courses": [
             {
               "code": "SDSC4116",
-              "title": "Data Science Capstone (continued)",
+              "title": "Data Science Capstone",
               "credits": 3
             },
             {
@@ -8501,13 +8506,13 @@
               "credits": 3
             },
             {
-              "code": "DSE-ELEC8",
-              "title": "Major Elective 8",
+              "code": "MAJOR-ELECTIVE",
+              "title": "Major Elective",
               "credits": 3
             },
             {
-              "code": "FREE3",
-              "title": "Free Elective 3",
+              "code": "FREE-ELECTIVE",
+              "title": "Free Elective",
               "credits": 3
             }
           ],
@@ -27443,7 +27448,7 @@
     "title": "Bachelor of Science in Environment and Sustainable Business",
     "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ESB-1.htm",
     "degree": "Bachelor of Science",
-    "totalCredits": 124,
+    "totalCredits": 121,
     "department": "School of Energy and Environment",
     "college": "School of Energy and Environment",
     "requirements": {
@@ -27879,22 +27884,22 @@
               "credits": 3
             },
             {
+              "code": "SEE1006",
+              "title": "Professional Development: ESB Career Planning Workshop",
+              "credits": 0
+            },
+            {
               "code": "GE1401",
               "title": "University English",
               "credits": 3
             },
             {
-              "code": "GE-ELECTIVE",
+              "code": "GE-DR",
               "title": "GE Course (Distributional Requirements)",
               "credits": 3
-            },
-            {
-              "code": "GE1601",
-              "title": "Whole Person Development through Service Learning",
-              "credits": 1
             }
           ],
-          "credits": 19
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -27914,24 +27919,14 @@
               "credits": 3
             },
             {
-              "code": "SEE1006",
-              "title": "Professional Development: ESB Career Planning Workshop",
-              "credits": 0
-            },
-            {
               "code": "GE2401",
               "title": "English for Science",
               "credits": 3
             },
             {
-              "code": "GE-ELECTIVE",
+              "code": "GE-DR",
               "title": "GE Courses (Distributional Requirements)",
-              "credits": 3
-            },
-            {
-              "code": "GE-ELECTIVE2",
-              "title": "GE Courses (Distributional Requirements)",
-              "credits": 3
+              "credits": 6
             }
           ],
           "credits": 18
@@ -28001,7 +27996,7 @@
               "credits": 3
             },
             {
-              "code": "GE-ELECTIVE",
+              "code": "GE-DR",
               "title": "GE Course (Distributional Requirements)",
               "credits": 3
             }
@@ -28020,7 +28015,7 @@
             {
               "code": "EF3043",
               "title": "Economics of Sustainability",
-              "credits": 0
+              "credits": 3
             },
             {
               "code": "MS3124",
@@ -28043,7 +28038,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -28055,7 +28050,7 @@
             {
               "code": "EF4010",
               "title": "Sustainable Finance",
-              "credits": 0
+              "credits": 3
             },
             {
               "code": "EF4313",
@@ -28078,17 +28073,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
-        },
-        "summer": {
-          "courses": [
-            {
-              "code": "CB4605",
-              "title": "Business Consultancy Project",
-              "credits": 3
-            }
-          ],
-          "credits": 3
+          "credits": 18
         }
       },
       "year4": {
@@ -28102,7 +28087,7 @@
             {
               "code": "SEE4992",
               "title": "Final Year Project on Sustainability",
-              "credits": 0
+              "credits": 3
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -28110,12 +28095,12 @@
               "credits": 3
             },
             {
-              "code": "MAJOR-ELECTIVE2",
+              "code": "MAJOR-ELECTIVE",
               "title": "Major Elective",
               "credits": 3
             }
           ],
-          "credits": 9
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -28127,7 +28112,7 @@
             {
               "code": "SEE4992",
               "title": "Final Year Project on Sustainability",
-              "credits": 0
+              "credits": 3
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -28135,7 +28120,7 @@
               "credits": 3
             }
           ],
-          "credits": 6
+          "credits": 9
         }
       }
     },
@@ -28411,6 +28396,16 @@
         "semA": {
           "courses": [
             {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
               "code": "LW2601",
               "title": "Hong Kong Legal System",
               "credits": 3
@@ -28429,14 +28424,9 @@
               "code": "LW2604",
               "title": "Legal Methods, Research and Writing",
               "credits": 3
-            },
-            {
-              "code": "GE1601",
-              "title": "Whole Person Development through Service Learning",
-              "credits": 1
             }
           ],
-          "credits": 13
+          "credits": 16
         },
         "semB": {
           "courses": [
@@ -28454,9 +28444,14 @@
               "code": "LW3605A",
               "title": "Constitutional Law",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 9
+          "credits": 12
         }
       },
       "year2": {
@@ -28481,9 +28476,14 @@
               "code": "LW4658",
               "title": "Commercial Law",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -28506,9 +28506,14 @@
               "code": "LW3608",
               "title": "Jurisprudence and Legal Theory",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         },
         "summer": {
           "courses": [
@@ -28538,9 +28543,14 @@
               "code": "LW4630A",
               "title": "Equity and Trusts I",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 9
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -28553,9 +28563,14 @@
               "code": "LW4630B",
               "title": "Equity and Trusts II",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 6
+          "credits": 9
         },
         "summer": {
           "courses": [
@@ -28590,9 +28605,14 @@
               "code": "LW-ELECTIVE",
               "title": "Law Elective",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -28615,9 +28635,14 @@
               "code": "LW-ELECTIVE",
               "title": "Law Elective",
               "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Course (Distributional Requirements)",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     },
