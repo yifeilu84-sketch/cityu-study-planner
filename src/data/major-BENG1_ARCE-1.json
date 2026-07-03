@@ -405,7 +405,7 @@
           {
             "code": "CA4749",
             "title": "CA4749",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "CA4527",
@@ -428,14 +428,14 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CA4749",
             "title": "CA4749",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "CA4790",
@@ -458,7 +458,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     }
   },

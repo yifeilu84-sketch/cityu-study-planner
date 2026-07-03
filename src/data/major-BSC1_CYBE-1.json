@@ -143,7 +143,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 21,
+      "credits": 15,
       "courses": [
         {
           "code": "CYBE-ELECTIVE",
@@ -151,7 +151,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 21
+      "chooseCredits": 15
     },
     "freeElectives": {
       "credits": 9,
@@ -283,7 +283,7 @@
           {
             "code": "CS2612",
             "title": "Seminars on Contemporary Cybersecurity",
-            "credits": 2
+            "credits": 1
           },
           {
             "code": "CS3201",
@@ -311,14 +311,14 @@
             "credits": 3
           }
         ],
-        "credits": 17
+        "credits": 16
       },
       "semB": {
         "courses": [
           {
             "code": "CS2612",
             "title": "Seminars on Contemporary Cybersecurity",
-            "credits": 2
+            "credits": 1
           },
           {
             "code": "CS3103",
@@ -346,7 +346,7 @@
             "credits": 3
           }
         ],
-        "credits": 17
+        "credits": 16
       }
     },
     "year3": {
@@ -355,7 +355,7 @@
           {
             "code": "CS3505",
             "title": "IT Professional Internship",
-            "credits": 9
+            "credits": 6
           },
           {
             "code": "CS4101",
@@ -373,14 +373,14 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CS3505",
             "title": "IT Professional Internship",
-            "credits": 9
+            "credits": 3
           },
           {
             "code": "CS4293",
@@ -398,7 +398,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 12
       }
     },
     "year4": {
@@ -407,7 +407,7 @@
           {
             "code": "CS4514",
             "title": "Project",
-            "credits": 9
+            "credits": 3
           },
           {
             "code": "EN4262",
@@ -430,14 +430,14 @@
             "credits": 3
           }
         ],
-        "credits": 21
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CS4514",
             "title": "Project",
-            "credits": 9
+            "credits": 6
           },
           {
             "code": "MAJOR-ELECTIVE",
@@ -455,7 +455,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     }
   },

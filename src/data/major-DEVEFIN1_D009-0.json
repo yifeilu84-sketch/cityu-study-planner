@@ -676,15 +676,20 @@
           {
             "code": "SEE4996",
             "title": "Final Year Project",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "GE-2",
             "title": "Gateway Education (Distributional Requirements)",
             "credits": 3
+          },
+          {
+            "code": "EVE-ELECTIVE2",
+            "title": "EVE Elective",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -701,7 +706,7 @@
           {
             "code": "SEE4996",
             "title": "Final Year Project",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "FIN-ELECTIVE",

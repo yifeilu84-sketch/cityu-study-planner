@@ -537,7 +537,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/en/see/programmes/undergraduate-programmes/flagship-programme---international-sustainability-programme-for-innovation",
-      "sourceKind": "official",
+      "sourceKind": "diy",
       "searchText": "bsee_inspire-1 international sustainability programme for innovation, research and entrepreneurship (inspire) school of energy and environment school of energy and environment bachelor of engineering"
     },
     {
@@ -14214,24 +14214,6 @@
       "department": "EN",
       "relatedMajorCount": 2,
       "searchText": "ge2411 legal english en"
-    },
-    {
-      "type": "course",
-      "code": "PIA-COLLEGE",
-      "title": "College Requirement",
-      "credits": 3,
-      "department": "General",
-      "relatedMajorCount": 1,
-      "searchText": "pia-college college requirement general"
-    },
-    {
-      "type": "course",
-      "code": "SECOND-MAJOR",
-      "title": "Second Major Course",
-      "credits": 3,
-      "department": "General",
-      "relatedMajorCount": 1,
-      "searchText": "second-major second major course general"
     },
     {
       "type": "course",

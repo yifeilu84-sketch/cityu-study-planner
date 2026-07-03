@@ -317,8 +317,8 @@
             "credits": 3
           },
           {
-            "code": "FREE3",
-            "title": "Free Elective 3",
+            "code": "MKT-ELEC4",
+            "title": "Marketing Elective 4",
             "credits": 3
           }
         ],
@@ -342,8 +342,8 @@
             "credits": 6
           },
           {
-            "code": "FREE4",
-            "title": "Free Elective 4",
+            "code": "MKT-ELEC5",
+            "title": "Marketing Elective 5",
             "credits": 3
           },
           {

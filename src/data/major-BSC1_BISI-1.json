@@ -57,7 +57,7 @@
       "courses": []
     },
     "majorCore": {
-      "credits": 72,
+      "credits": 57,
       "courses": [
         {
           "code": "BMS1901",
@@ -148,7 +148,12 @@
           "code": "CHEM3068",
           "title": "General Ecology",
           "credits": 4
-        },
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 15,
+      "courses": [
         {
           "code": "BMS4206",
           "title": "Final Year Project in Biomedical Research",
@@ -159,11 +164,7 @@
           "title": "Industrial Attachment: Biotechnology and Health Sciences",
           "credits": 8
         }
-      ]
-    },
-    "majorElectives": {
-      "credits": 15,
-      "courses": [],
+      ],
       "chooseCredits": 15
     },
     "freeElectives": {

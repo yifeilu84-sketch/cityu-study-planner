@@ -28,7 +28,7 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
     for (const c of courses) {
       if (c && c.code && !isGenericCourseSlot(c.code) && !seen.has(c.code)) {
         seen.add(c.code)
-        result.push({ code: c.code, title: c.title || c.code, credits: c.credits || 0, category })
+        result.push({ code: c.code, title: c.title || c.code, credits: c.credits ?? 0, category })
       }
     }
   }
@@ -52,8 +52,8 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
     result.push({
       code: lookupCode,
       title: title || lookupCode,
-      credits: credits || 0,
-      category: getCategoryFromRequirements(lookupCode, reqs)
+      credits: credits ?? 0,
+      category: getCategoryFromRequirements(lookupCode, reqs) ?? inferCategoryFromCode(lookupCode)
     })
   }
 
@@ -92,28 +92,46 @@ function isCourseInSection(code: string, section: any): boolean {
   })
 }
 
-function getCategoryFromRequirements(code: string, reqs: any): string {
+function getCategoryFromRequirements(code: string, reqs: any): string | null {
   if (isCourseInSection(code, reqs.gatewayEducation)) return 'ge'
   if (isCourseInSection(code, reqs.college) || isCourseInSection(code, reqs.collegeRequirement)) return 'college'
   if (isCourseInSection(code, reqs.majorCore)) return 'majorCore'
   if (isCourseInSection(code, reqs.majorElectives) || isCourseInSection(code, reqs.majorElective)) return 'majorElective'
-  if (/^GE/.test(code)) return 'ge'
+  return null
+}
+
+function inferCategoryFromCode(code: string, title = ''): string {
+  if (/college elective/i.test(title)) return 'college'
+  if (/free elective|minor/i.test(title)) return 'freeElective'
+  if (/(major|stream|finance|marketing|law|crime science|AC|EVE)\s+elective/i.test(title)) return 'majorElective'
+  if (/^GE|^DR-\d+/i.test(code)) return 'ge'
+  if (/^COLLEGE|^COL-|^CE$|^PIA-COLLEGE$/i.test(code)) return 'college'
+  if (/^FREE|^MINOR|^SECOND-MAJOR$/i.test(code)) return 'freeElective'
+  if (
+    /^ELECTIVE$/i.test(code) ||
+    /^MAJOR[-_]?ELECT/i.test(code) ||
+    /^STREAM[-_]?ELECT/i.test(code) ||
+    /^STREAM-COURSE$/i.test(code) ||
+    /^CS-E$/i.test(code) ||
+    /-ELECT/i.test(code) ||
+    /ELECTIVE/i.test(code) ||
+    /-ELEC\d*$/i.test(code)
+  ) {
+    return 'majorElective'
+  }
   if (/^CB|^AC|^EF|^MKT|^IS|^MS|^LW/.test(code)) return 'college'
   if (/^MA|^PHY|^CHEM|^CS1302|^CS1315/.test(code)) return 'college'
   return 'majorCore'
 }
 
 function getCategoryForCode(code: string, major: Major, streamIndex?: number): string {
-  if (/^GE/.test(code)) return 'ge'
-  if (/^COLLEGE|^CE$/.test(code)) return 'college'
-  if (/^ELECTIVE$|^MAJOR-ELECTIVE/.test(code)) return 'majorElective'
-  if (/^FREE/.test(code)) return 'freeElective'
-  if (/^MINOR/.test(code)) return 'college'
   const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
   const reqs = (stream?.requirements ?? major.requirements) as any || {}
   const lookupCode = getCourseLookupCode(code)
   const fromReqs = getCategoryFromRequirements(lookupCode, reqs)
   if (fromReqs) return fromReqs
+  const inferred = inferCategoryFromCode(code)
+  if (inferred) return inferred
   if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
   return 'majorCore'
 }
@@ -135,8 +153,9 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
         return {
           code: c.code,
           title: c.title || course?.title || c.code,
-          credits: c.credits || course?.credits || 0,
-          category: getCategoryForCode(c.code, major, streamIndex),
+          credits: c.credits ?? course?.credits ?? 0,
+          category: getCategoryFromRequirements(lookupCode, (stream?.requirements ?? major.requirements) as any || {})
+            ?? inferCategoryFromCode(c.code, c.title || course?.title || ''),
           semester: course?.semester || ''
         }
       })
@@ -209,11 +228,11 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
     target.courses.push({
       code: courseInfo.code,
       title: course.title || courseInfo.title || courseInfo.code,
-      credits: course.credits || courseInfo.credits || 0,
+      credits: course.credits ?? courseInfo.credits ?? 0,
       category: courseInfo.category,
       semester: course.semester || ''
     })
-    target.totalCredits += course.credits || courseInfo.credits || 0
+    target.totalCredits += course.credits ?? courseInfo.credits ?? 0
   }
 
   return semesters.filter(s => s.courses.length > 0)

@@ -326,7 +326,7 @@
           {
             "code": "CAH4499",
             "title": "Capstone Project (continued)",
-            "credits": 3
+            "credits": 0
           },
           {
             "code": "CHIS-ELEC6",
@@ -349,7 +349,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
   },
@@ -655,7 +655,7 @@
               {
                 "code": "CAH4499",
                 "title": "Capstone Project (continued)",
-                "credits": 3
+                "credits": 0
               },
               {
                 "code": "CHIS-ELEC7",
@@ -678,7 +678,7 @@
                 "credits": 3
               }
             ],
-            "credits": 15
+            "credits": 12
           }
         }
       },
@@ -1037,7 +1037,7 @@
               {
                 "code": "CAH4499",
                 "title": "Capstone Project (continued)",
-                "credits": 3
+                "credits": 0
               },
               {
                 "code": "CHIS-ELEC6",
@@ -1060,7 +1060,7 @@
                 "credits": 3
               }
             ],
-            "credits": 15
+            "credits": 12
           }
         }
       },

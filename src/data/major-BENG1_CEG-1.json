@@ -418,7 +418,7 @@
           {
             "code": "CA4516",
             "title": "CA4516",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "CA4526",
@@ -441,14 +441,14 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CA4516",
             "title": "CA4516",
-            "credits": 6
+            "credits": 3
           },
           {
             "code": "CA4682",
@@ -471,7 +471,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     }
   },

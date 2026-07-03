@@ -119,7 +119,11 @@ function getActiveTotalCredits(major: Major, reqs: MajorRequirements, streamInde
 }
 
 function getRequirementSection(reqs: MajorRequirements, key: SectionKey): RequirementSection {
-  const raw = reqs[key as keyof MajorRequirements]
+  const alternateKey =
+    key === 'majorElectives' ? 'majorElective' :
+      key === 'freeElectives' ? 'freeElective' :
+        null
+  const raw = reqs[key as keyof MajorRequirements] ?? (alternateKey ? (reqs as any)[alternateKey] : undefined)
   if (typeof raw === 'number') return { credits: raw, courses: [] }
   if (raw && typeof raw === 'object') {
     return {
@@ -148,7 +152,7 @@ function isConcreteCourseCode(code: string): boolean {
 
 function courseCredits(course: AuditPlanCourse, courses: Record<string, Course>): number {
   const normalizedCode = normalizeCode(course.code, courses)
-  return course.credits || courses[normalizedCode]?.credits || 0
+  return course.credits ?? courses[normalizedCode]?.credits ?? 0
 }
 
 function flattenPlan(plan: AuditSemester[], courses: Record<string, Course>): NormalizedPlannedCourse[] {
@@ -193,9 +197,14 @@ function getPlannedSectionKey(
     if (sectionHasCourse(getRequirementSection(reqs, section.key), code, courses)) return section.key
   }
   if (/^GE/.test(code) || /^GE/.test(course.code) || course.category === 'ge') return 'gatewayEducation'
-  if (/^FREE/i.test(course.code) || course.category === 'freeElective') return 'freeElectives'
-  if (/^MAJOR|ELECTIVE/i.test(course.code) || course.category === 'majorElective') return 'majorElectives'
   if (/^COLLEGE|^COL-/i.test(course.code) || course.category === 'college') return 'college'
+  if (/^FREE|^MINOR|^SECOND-MAJOR$/i.test(course.code) || course.category === 'freeElective') return 'freeElectives'
+  if (
+    /^MAJOR|^STREAM[-_]?ELECT|^STREAM-COURSE$|^CS-E$|-ELECT|ELECTIVE|-ELEC\d*$/i.test(course.code) ||
+    course.category === 'majorElective'
+  ) {
+    return 'majorElectives'
+  }
   if (course.category === 'majorCore') return 'majorCore'
   return null
 }
@@ -286,8 +295,21 @@ function buildGEAudit(
 
 function buildDuplicateAudit(
   plannedCourses: NormalizedPlannedCourse[],
-  courses: Record<string, Course>
+  courses: Record<string, Course>,
+  reqs: MajorRequirements
 ): { code: string; count: number }[] {
+  const getRequirementCredits = (code: string): number => {
+    let maxCredits = 0
+    for (const section of SECTION_DEFS) {
+      for (const course of getRequirementSection(reqs, section.key).courses) {
+        if (normalizeCode(course.code, courses) === code) {
+          maxCredits = Math.max(maxCredits, course.credits ?? 0)
+        }
+      }
+    }
+    return maxCredits
+  }
+
   const plannedByCode = new Map<string, { count: number; credits: number }>()
   for (const course of plannedCourses) {
     if (!isConcreteCourseCode(course.normalizedCode)) continue
@@ -299,8 +321,8 @@ function buildDuplicateAudit(
   return [...plannedByCode.entries()]
     .filter(([code, item]) => {
       if (item.count <= 1) return false
-      const catalogueCredits = courses[code]?.credits ?? 0
-      return catalogueCredits <= 0 || item.credits > catalogueCredits
+      const catalogueCredits = courses[code]?.credits ?? getRequirementCredits(code)
+      return catalogueCredits <= 0 ? item.credits > 0 : item.credits > catalogueCredits
     })
     .map(([code, item]) => ({ code, count: item.count }))
 }
@@ -445,7 +467,7 @@ export function auditGraduationPlan(
   const plannedTotalCredits = plannedCourses.reduce((sum, course) => sum + course.credits, 0)
   const sections = buildSectionAudit(reqs, plannedCourses, plannedCodes, courses)
   const ge = buildGEAudit(reqs, plannedCourses, plannedCodes, courses)
-  const duplicates = buildDuplicateAudit(plannedCourses, courses)
+  const duplicates = buildDuplicateAudit(plannedCourses, courses, reqs)
   const warnings: AuditWarning[] = []
 
   const sourceWarning = sourceConfidenceWarning(sourceStatus.kind)

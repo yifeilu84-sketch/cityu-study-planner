@@ -443,12 +443,12 @@
       "summer": {
         "courses": [
           {
-            "code": "LW4612",
-            "title": "Legal Placement / G-LEAP",
-            "credits": 3
+            "code": "G-LEAP",
+            "title": "G-LEAP / Legal Placement (alternative timing)",
+            "credits": 0
           }
         ],
-        "credits": 3
+        "credits": 0
       }
     },
     "year4": {

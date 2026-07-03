@@ -268,8 +268,8 @@
       ]
     },
     "majorElectives": {
-      "credits": 15,
-      "chooseCredits": 15,
+      "credits": 9,
+      "chooseCredits": 9,
       "courses": [
         {
           "code": "SS3423",

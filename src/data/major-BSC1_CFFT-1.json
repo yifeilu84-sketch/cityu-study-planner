@@ -168,7 +168,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 12,
+      "credits": 6,
       "courses": [
         {
           "code": "CFFT-ELECTIVE",
@@ -176,7 +176,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 12
+      "chooseCredits": 6
     },
     "freeElectives": {
       "credits": 12,
@@ -571,7 +571,7 @@
           ]
         },
         "majorCore": {
-          "credits": 30,
+          "credits": 66,
           "courses": [
             {
               "code": "CB2400",
@@ -622,12 +622,7 @@
               "code": "MA2510",
               "title": "Probability and Statistics",
               "credits": 3
-            }
-          ]
-        },
-        "majorElectives": {
-          "credits": 42,
-          "courses": [
+            },
             {
               "code": "MA3511",
               "title": "Ordinary Differential Equations",
@@ -692,14 +687,20 @@
               "code": "EF4328",
               "title": "Asset Management",
               "credits": 3
-            },
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 6,
+          "courses": [
             {
               "code": "CFFT-ELECTIVE",
               "title": "Stream Elective",
               "credits": 3
             }
           ],
-          "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+          "note": "Stream Electives: 6 CU",
+          "chooseCredits": 6
         },
         "freeElectives": {
           "credits": 12,
@@ -768,7 +769,7 @@
           ]
         },
         "majorCore": {
-          "credits": 30,
+          "credits": 66,
           "courses": [
             {
               "code": "CB2400",
@@ -819,12 +820,7 @@
               "code": "MA2510",
               "title": "Probability and Statistics",
               "credits": 3
-            }
-          ]
-        },
-        "majorElectives": {
-          "credits": 42,
-          "courses": [
+            },
             {
               "code": "CB2500",
               "title": "Information Management",
@@ -889,14 +885,20 @@
               "code": "IS4920",
               "title": "FinTech Capstone Project",
               "credits": 6
-            },
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 6,
+          "courses": [
             {
               "code": "CFFT-ELECTIVE",
               "title": "Stream Elective",
               "credits": 3
             }
           ],
-          "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+          "note": "Stream Electives: 6 CU",
+          "chooseCredits": 6
         },
         "freeElectives": {
           "credits": 12,

@@ -298,8 +298,8 @@
       ]
     },
     "majorElectives": {
-      "credits": 12,
-      "chooseCredits": 12,
+      "credits": 9,
+      "chooseCredits": 9,
       "courses": [
         {
           "code": "AC-ELECTIVE1",

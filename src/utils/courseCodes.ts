@@ -1,11 +1,15 @@
 const GENERIC_CODE_PATTERNS = [
   /^GE(?!\d{4})/i,
+  /^GE\d{4}\s*\/\s*EAP$/i,
   /^DR-\d+$/i,
   /^CS-E$/i,
   /^CE$/i,
+  /^G-LEAP$/i,
   /^FREE/i,
   /^MINOR/i,
+  /^SECOND-MAJOR$/i,
   /^COLLEGE/i,
+  /^PIA-COLLEGE$/i,
   /^SCHOOL/i,
   /^STREAM/i,
   /^MAJOR/i,
@@ -19,7 +23,9 @@ const GENERIC_CODE_PATTERNS = [
 ]
 
 export function getCourseLookupCode(code: string): string {
-  return (code || '').trim().split(/[\s/]+/)[0]
+  const trimmed = (code || '').trim()
+  if (/\/\s*EAP$/i.test(trimmed)) return trimmed
+  return trimmed.split(/[\s/]+/)[0]
 }
 
 export function isGenericCourseSlot(code: string): boolean {

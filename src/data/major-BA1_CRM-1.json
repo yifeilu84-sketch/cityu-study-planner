@@ -290,9 +290,9 @@
             "credits": 3
           },
           {
-            "code": "GE1501",
-            "title": "Chinese Civilization (School-based)",
-            "credits": 3
+            "code": "CRM-GE1501-SB",
+            "title": "GE1501 Chinese Civilization (school-based alternative)",
+            "credits": 0
           },
           {
             "code": "SM1702",
@@ -305,16 +305,16 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     },
     "year2": {
       "semA": {
         "courses": [
           {
-            "code": "SM2715",
-            "title": "Creative Coding (School-based)",
-            "credits": 3
+            "code": "CRM-SM2715-SB",
+            "title": "SM2715 Creative Coding (school-based alternative)",
+            "credits": 0
           },
           {
             "code": "SM2704",
@@ -337,7 +337,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [

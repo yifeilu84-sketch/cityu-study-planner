@@ -293,7 +293,7 @@
           {
             "code": "CS2613",
             "title": "Seminars on Contemporary Technology",
-            "credits": 2
+            "credits": 1
           },
           {
             "code": "CS2312",
@@ -321,14 +321,14 @@
             "credits": 3
           }
         ],
-        "credits": 17
+        "credits": 16
       },
       "semB": {
         "courses": [
           {
             "code": "CS2613",
             "title": "Seminars on Contemporary Technology",
-            "credits": 2
+            "credits": 1
           },
           {
             "code": "CS3103",
@@ -356,7 +356,7 @@
             "credits": 3
           }
         ],
-        "credits": 17
+        "credits": 16
       }
     },
     "year3": {
@@ -365,7 +365,7 @@
           {
             "code": "CS3505",
             "title": "IT Professional Internship",
-            "credits": 9
+            "credits": 6
           },
           {
             "code": "CS4335",
@@ -383,14 +383,14 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CS3505",
             "title": "IT Professional Internship",
-            "credits": 9
+            "credits": 3
           },
           {
             "code": "MAJOR-ELECTIVE",
@@ -408,7 +408,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 12
       }
     },
     "year4": {
@@ -417,7 +417,7 @@
           {
             "code": "CS4514",
             "title": "Project",
-            "credits": 9
+            "credits": 3
           },
           {
             "code": "MAJOR-ELECTIVE",
@@ -440,14 +440,14 @@
             "credits": 3
           }
         ],
-        "credits": 21
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "CS4514",
             "title": "Project",
-            "credits": 9
+            "credits": 6
           },
           {
             "code": "MAJOR-ELECTIVE",
@@ -465,7 +465,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     }
   },

@@ -335,6 +335,55 @@ test('ESE major elective requirement matches official 12 credit unit catalogue r
   assert.equal(majorElectives?.missingCredits, 0)
 })
 
+test('official generated plans do not report duplicate course conflicts', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+  const duplicateReports = []
+
+  for (const item of majors) {
+    const entities = [{ streamIndex: undefined, entity: item }]
+    for (let streamIndex = 0; streamIndex < (item.streams?.length ?? 0); streamIndex += 1) {
+      entities.push({ streamIndex, entity: item.streams[streamIndex] })
+    }
+
+    for (const { streamIndex, entity } of entities) {
+      if (getStudyPlanSourceStatus(entity).kind === 'diy') continue
+      const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses, streamIndex), streamIndex)
+      for (const duplicate of audit.duplicates) {
+        duplicateReports.push(`${item.code}${streamIndex == null ? '' : `/${entity.code}`}: ${duplicate.code}`)
+      }
+    }
+  }
+
+  assert.deepEqual(duplicateReports, [])
+})
+
+test('official generated plans satisfy their major elective credit requirements', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+  const missingReports = []
+
+  for (const item of majors) {
+    const entities = [{ streamIndex: undefined, entity: item }]
+    for (let streamIndex = 0; streamIndex < (item.streams?.length ?? 0); streamIndex += 1) {
+      entities.push({ streamIndex, entity: item.streams[streamIndex] })
+    }
+
+    for (const { streamIndex, entity } of entities) {
+      if (getStudyPlanSourceStatus(entity).kind === 'diy') continue
+      const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses, streamIndex), streamIndex)
+      const majorElectives = audit.sections.find((section) => section.key === 'majorElectives')
+      if (majorElectives?.missingCredits > 0) {
+        missingReports.push(
+          `${item.code}${streamIndex == null ? '' : `/${entity.code}`}: ${majorElectives.plannedCredits}/${majorElectives.requiredCredits}`
+        )
+      }
+    }
+  }
+
+  assert.deepEqual(missingReports, [])
+})
+
 test('graduation audit panel is wired into major and edit views', () => {
   const panel = readFileSync(new URL('../src/components/GraduationAuditPanel.tsx', import.meta.url), 'utf8')
   const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')

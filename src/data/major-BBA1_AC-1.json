@@ -468,9 +468,14 @@
             "code": "GE",
             "title": "GE",
             "credits": 3
+          },
+          {
+            "code": "AC-ELECTIVE",
+            "title": "AC-ELECTIVE",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [

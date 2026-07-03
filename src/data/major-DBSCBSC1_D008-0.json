@@ -826,7 +826,7 @@
           {
             "code": "CS3505",
             "title": "IT Professional Internship",
-            "credits": 9
+            "credits": 3
           },
           {
             "code": "CS3103",
@@ -871,7 +871,7 @@
             "credits": 3
           }
         ],
-        "credits": 14
+        "credits": 11
       },
       "semB": {
         "courses": [
@@ -896,7 +896,7 @@
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   },

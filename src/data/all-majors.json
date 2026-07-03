@@ -543,7 +543,7 @@
         "courses": []
       },
       "majorCore": {
-        "credits": 72,
+        "credits": 57,
         "courses": [
           {
             "code": "BMS1901",
@@ -634,7 +634,12 @@
             "code": "CHEM3068",
             "title": "General Ecology",
             "credits": 4
-          },
+          }
+        ]
+      },
+      "majorElectives": {
+        "credits": 15,
+        "courses": [
           {
             "code": "BMS4206",
             "title": "Final Year Project in Biomedical Research",
@@ -645,11 +650,7 @@
             "title": "Industrial Attachment: Biotechnology and Health Sciences",
             "credits": 8
           }
-        ]
-      },
-      "majorElectives": {
-        "credits": 15,
-        "courses": [],
+        ],
         "chooseCredits": 15
       },
       "freeElectives": {
@@ -2065,7 +2066,7 @@
         ]
       },
       "majorElectives": {
-        "credits": 12,
+        "credits": 6,
         "courses": [
           {
             "code": "CFFT-ELECTIVE",
@@ -2073,7 +2074,7 @@
             "credits": 3
           }
         ],
-        "chooseCredits": 12
+        "chooseCredits": 6
       },
       "freeElectives": {
         "credits": 12,
@@ -2468,7 +2469,7 @@
             ]
           },
           "majorCore": {
-            "credits": 30,
+            "credits": 66,
             "courses": [
               {
                 "code": "CB2400",
@@ -2519,12 +2520,7 @@
                 "code": "MA2510",
                 "title": "Probability and Statistics",
                 "credits": 3
-              }
-            ]
-          },
-          "majorElectives": {
-            "credits": 42,
-            "courses": [
+              },
               {
                 "code": "MA3511",
                 "title": "Ordinary Differential Equations",
@@ -2589,14 +2585,20 @@
                 "code": "EF4328",
                 "title": "Asset Management",
                 "credits": 3
-              },
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 6,
+            "courses": [
               {
                 "code": "CFFT-ELECTIVE",
                 "title": "Stream Elective",
                 "credits": 3
               }
             ],
-            "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+            "note": "Stream Electives: 6 CU",
+            "chooseCredits": 6
           },
           "freeElectives": {
             "credits": 12,
@@ -2665,7 +2667,7 @@
             ]
           },
           "majorCore": {
-            "credits": 30,
+            "credits": 66,
             "courses": [
               {
                 "code": "CB2400",
@@ -2716,12 +2718,7 @@
                 "code": "MA2510",
                 "title": "Probability and Statistics",
                 "credits": 3
-              }
-            ]
-          },
-          "majorElectives": {
-            "credits": 42,
-            "courses": [
+              },
               {
                 "code": "CB2500",
                 "title": "Information Management",
@@ -2786,14 +2783,20 @@
                 "code": "IS4920",
                 "title": "FinTech Capstone Project",
                 "credits": 6
-              },
+              }
+            ]
+          },
+          "majorElectives": {
+            "credits": 6,
+            "courses": [
               {
                 "code": "CFFT-ELECTIVE",
                 "title": "Stream Elective",
                 "credits": 3
               }
             ],
-            "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+            "note": "Stream Electives: 6 CU",
+            "chooseCredits": 6
           },
           "freeElectives": {
             "credits": 12,
@@ -3279,9 +3282,14 @@
               "code": "GE",
               "title": "GE",
               "credits": 3
+            },
+            {
+              "code": "AC-ELECTIVE",
+              "title": "AC-ELECTIVE",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -6142,8 +6150,8 @@
               "credits": 3
             },
             {
-              "code": "GE2402",
-              "title": "English for Business Communication",
+              "code": "GE-DR2",
+              "title": "Gateway Education Distributional Requirement",
               "credits": 3
             }
           ],
@@ -7733,8 +7741,8 @@
               "credits": 3
             },
             {
-              "code": "FREE3",
-              "title": "Free Elective 3",
+              "code": "MKT-ELEC4",
+              "title": "Marketing Elective 4",
               "credits": 3
             }
           ],
@@ -7758,8 +7766,8 @@
               "credits": 6
             },
             {
-              "code": "FREE4",
-              "title": "Free Elective 4",
+              "code": "MKT-ELEC5",
+              "title": "Marketing Elective 5",
               "credits": 3
             },
             {
@@ -8068,7 +8076,7 @@
             {
               "code": "CS2613",
               "title": "Seminars on Contemporary Technology",
-              "credits": 2
+              "credits": 1
             },
             {
               "code": "CS2312",
@@ -8096,14 +8104,14 @@
               "credits": 3
             }
           ],
-          "credits": 17
+          "credits": 16
         },
         "semB": {
           "courses": [
             {
               "code": "CS2613",
               "title": "Seminars on Contemporary Technology",
-              "credits": 2
+              "credits": 1
             },
             {
               "code": "CS3103",
@@ -8131,7 +8139,7 @@
               "credits": 3
             }
           ],
-          "credits": 17
+          "credits": 16
         }
       },
       "year3": {
@@ -8140,7 +8148,7 @@
             {
               "code": "CS3505",
               "title": "IT Professional Internship",
-              "credits": 9
+              "credits": 6
             },
             {
               "code": "CS4335",
@@ -8158,14 +8166,14 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CS3505",
               "title": "IT Professional Internship",
-              "credits": 9
+              "credits": 3
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -8183,7 +8191,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 12
         }
       },
       "year4": {
@@ -8192,7 +8200,7 @@
             {
               "code": "CS4514",
               "title": "Project",
-              "credits": 9
+              "credits": 3
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -8215,14 +8223,14 @@
               "credits": 3
             }
           ],
-          "credits": 21
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CS4514",
               "title": "Project",
-              "credits": 9
+              "credits": 6
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -8240,7 +8248,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       }
     },
@@ -8397,7 +8405,7 @@
         ]
       },
       "majorElectives": {
-        "credits": 21,
+        "credits": 15,
         "courses": [
           {
             "code": "CYBE-ELECTIVE",
@@ -8405,7 +8413,7 @@
             "credits": 3
           }
         ],
-        "chooseCredits": 21
+        "chooseCredits": 15
       },
       "freeElectives": {
         "credits": 9,
@@ -8537,7 +8545,7 @@
             {
               "code": "CS2612",
               "title": "Seminars on Contemporary Cybersecurity",
-              "credits": 2
+              "credits": 1
             },
             {
               "code": "CS3201",
@@ -8565,14 +8573,14 @@
               "credits": 3
             }
           ],
-          "credits": 17
+          "credits": 16
         },
         "semB": {
           "courses": [
             {
               "code": "CS2612",
               "title": "Seminars on Contemporary Cybersecurity",
-              "credits": 2
+              "credits": 1
             },
             {
               "code": "CS3103",
@@ -8600,7 +8608,7 @@
               "credits": 3
             }
           ],
-          "credits": 17
+          "credits": 16
         }
       },
       "year3": {
@@ -8609,7 +8617,7 @@
             {
               "code": "CS3505",
               "title": "IT Professional Internship",
-              "credits": 9
+              "credits": 6
             },
             {
               "code": "CS4101",
@@ -8627,14 +8635,14 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CS3505",
               "title": "IT Professional Internship",
-              "credits": 9
+              "credits": 3
             },
             {
               "code": "CS4293",
@@ -8652,7 +8660,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 12
         }
       },
       "year4": {
@@ -8661,7 +8669,7 @@
             {
               "code": "CS4514",
               "title": "Project",
-              "credits": 9
+              "credits": 3
             },
             {
               "code": "EN4262",
@@ -8684,14 +8692,14 @@
               "credits": 3
             }
           ],
-          "credits": 21
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CS4514",
               "title": "Project",
-              "credits": 9
+              "credits": 6
             },
             {
               "code": "MAJOR-ELECTIVE",
@@ -8709,7 +8717,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       }
     },
@@ -9800,7 +9808,7 @@
             {
               "code": "CA4749",
               "title": "CA4749",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4527",
@@ -9823,14 +9831,14 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CA4749",
               "title": "CA4749",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4790",
@@ -9853,7 +9861,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       }
     },
@@ -10284,7 +10292,7 @@
             {
               "code": "CA4516",
               "title": "CA4516",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4526",
@@ -10307,14 +10315,14 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CA4516",
               "title": "CA4516",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4682",
@@ -10337,7 +10345,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       }
     },
@@ -11103,7 +11111,7 @@
             {
               "code": "CA4513",
               "title": "CA4513",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4415",
@@ -11126,14 +11134,14 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
             {
               "code": "CA4513",
               "title": "CA4513",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "CA4424",
@@ -11156,7 +11164,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       }
     },
@@ -16708,7 +16716,7 @@
             {
               "code": "CAH4499",
               "title": "Capstone Project (continued)",
-              "credits": 3
+              "credits": 0
             },
             {
               "code": "CHIS-ELEC6",
@@ -16731,7 +16739,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       }
     },
@@ -17037,7 +17045,7 @@
                 {
                   "code": "CAH4499",
                   "title": "Capstone Project (continued)",
-                  "credits": 3
+                  "credits": 0
                 },
                 {
                   "code": "CHIS-ELEC7",
@@ -17060,7 +17068,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 12
             }
           }
         },
@@ -17419,7 +17427,7 @@
                 {
                   "code": "CAH4499",
                   "title": "Capstone Project (continued)",
-                  "credits": 3
+                  "credits": 0
                 },
                 {
                   "code": "CHIS-ELEC6",
@@ -17442,7 +17450,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 12
             }
           }
         },
@@ -19987,7 +19995,7 @@
         ]
       },
       "majorElectives": {
-        "credits": 24,
+        "credits": 15,
         "courses": [
           {
             "code": "PAFM-ELECTIVE",
@@ -19995,7 +20003,7 @@
             "credits": 3
           }
         ],
-        "chooseCredits": 24
+        "chooseCredits": 15
       },
       "freeElectives": {
         "credits": 12,
@@ -20257,9 +20265,14 @@
               "code": "FREE",
               "title": "FREE",
               "credits": 3
+            },
+            {
+              "code": "PAFM-ELECTIVE",
+              "title": "PAFM-ELECTIVE",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -23411,7 +23424,7 @@
             {
               "code": "VM4401",
               "title": "Research Project (Part 1)",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "VM4001",
@@ -23424,7 +23437,7 @@
               "credits": 3
             }
           ],
-          "credits": 21
+          "credits": 18
         }
       },
       "year5": {
@@ -24445,9 +24458,9 @@
               "credits": 3
             },
             {
-              "code": "GE1501",
-              "title": "Chinese Civilization (School-based)",
-              "credits": 3
+              "code": "CRM-GE1501-SB",
+              "title": "GE1501 Chinese Civilization (school-based alternative)",
+              "credits": 0
             },
             {
               "code": "SM1702",
@@ -24460,16 +24473,16 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       },
       "year2": {
         "semA": {
           "courses": [
             {
-              "code": "SM2715",
-              "title": "Creative Coding (School-based)",
-              "credits": 3
+              "code": "CRM-SM2715-SB",
+              "title": "SM2715 Creative Coding (school-based alternative)",
+              "credits": 0
             },
             {
               "code": "SM2704",
@@ -24492,7 +24505,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -27267,7 +27280,7 @@
         ]
       },
       "majorElectives": {
-        "credits": 15,
+        "credits": 9,
         "courses": [
           {
             "code": "SEE4113",
@@ -27400,7 +27413,7 @@
             "credits": 3
           }
         ],
-        "chooseCredits": 15
+        "chooseCredits": 9
       },
       "freeElectives": {
         "credits": 0
@@ -28562,7 +28575,7 @@
         ]
       },
       "majorElectives": {
-        "credits": 22,
+        "credits": 9,
         "courses": [
           {
             "code": "SEE3201",
@@ -28690,7 +28703,7 @@
             "credits": 3
           }
         ],
-        "chooseCredits": 22
+        "chooseCredits": 9
       },
       "freeElectives": {
         "credits": 0
@@ -29479,12 +29492,12 @@
         "summer": {
           "courses": [
             {
-              "code": "LW4612",
-              "title": "Legal Placement / G-LEAP",
-              "credits": 3
+              "code": "G-LEAP",
+              "title": "G-LEAP / Legal Placement (alternative timing)",
+              "credits": 0
             }
           ],
-          "credits": 3
+          "credits": 0
         }
       },
       "year4": {
@@ -30006,7 +30019,117 @@
             }
           }
         },
-        "totalCredits": 132
+        "totalCredits": 132,
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 31,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 12
+              },
+              {
+                "code": "CA1167",
+                "title": "Engineering Communication",
+                "credits": 3
+              },
+              {
+                "code": "SEE1003",
+                "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                "credits": 3
+              },
+              {
+                "code": "SEE3002",
+                "title": "Energy and Environmental Economics",
+                "credits": 3
+              }
+            ]
+          },
+          "college": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "CHEM1200",
+                "title": "Discovery in Biology",
+                "credits": 3
+              },
+              {
+                "code": "CHEM1300",
+                "title": "Principles of General Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                "credits": 3
+              },
+              {
+                "code": "PHY1201",
+                "title": "General Physics I",
+                "credits": 3
+              },
+              {
+                "code": "SEE1002",
+                "title": "Introduction to Computing for Energy and Environment",
+                "credits": 3
+              },
+              {
+                "code": "SEE1000",
+                "title": "Professional Development: Career Planning Workshop",
+                "credits": 0
+              },
+              {
+                "code": "SEE2000",
+                "title": "Professional Development I",
+                "credits": 0
+              },
+              {
+                "code": "SEE4000",
+                "title": "Professional Development II",
+                "credits": 0
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 83,
+            "courses": [],
+            "note": "Depends on ESE or EVE major selected after Year 1"
+          },
+          "majorElectives": {
+            "credits": 12,
+            "note": "Depends on ESE or EVE major"
+          },
+          "freeElectives": {
+            "credits": 0,
+            "note": "Integrated into major electives"
+          }
+        }
       },
       {
         "code": "EVE",
@@ -30287,7 +30410,117 @@
             }
           }
         },
-        "totalCredits": 130
+        "totalCredits": 130,
+        "requirements": {
+          "gatewayEducation": {
+            "credits": 31,
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Distributional Requirements",
+                "credits": 12
+              },
+              {
+                "code": "CA1167",
+                "title": "Engineering Communication",
+                "credits": 3
+              },
+              {
+                "code": "SEE1003",
+                "title": "Introduction to Sustainable Energy and Environmental Engineering",
+                "credits": 3
+              },
+              {
+                "code": "SEE3002",
+                "title": "Energy and Environmental Economics",
+                "credits": 3
+              }
+            ]
+          },
+          "college": {
+            "credits": 18,
+            "courses": [
+              {
+                "code": "CHEM1200",
+                "title": "Discovery in Biology",
+                "credits": 3
+              },
+              {
+                "code": "CHEM1300",
+                "title": "Principles of General Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+                "credits": 3
+              },
+              {
+                "code": "PHY1201",
+                "title": "General Physics I",
+                "credits": 3
+              },
+              {
+                "code": "SEE1002",
+                "title": "Introduction to Computing for Energy and Environment",
+                "credits": 3
+              },
+              {
+                "code": "SEE1000",
+                "title": "Professional Development: Career Planning Workshop",
+                "credits": 0
+              },
+              {
+                "code": "SEE2000",
+                "title": "Professional Development I",
+                "credits": 0
+              },
+              {
+                "code": "SEE4000",
+                "title": "Professional Development II",
+                "credits": 0
+              }
+            ]
+          },
+          "majorCore": {
+            "credits": 83,
+            "courses": [],
+            "note": "Depends on ESE or EVE major selected after Year 1"
+          },
+          "majorElectives": {
+            "credits": 9,
+            "note": "Depends on ESE or EVE major"
+          },
+          "freeElectives": {
+            "credits": 0,
+            "note": "Integrated into major electives"
+          }
+        }
       }
     ],
     "notes": [
@@ -30300,8 +30533,68 @@
       "Total credit units: 132 CU (ESE track) or 130 CU (EVE track).",
       "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
       "Professional Development includes Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
-      "INSPIRE students must complete an overseas exchange/placement for at least one semester. Students should adjust their study plan to ensure one semester (typically Year 2 or Year 3 Semester B) is available for exchange, otherwise graduation requirements may not be met."
-    ]
+      "INSPIRE students must complete an overseas exchange/placement for at least one semester. Students should adjust their study plan to ensure one semester (typically Year 2 or Year 3 Semester B) is available for exchange, otherwise graduation requirements may not be met.",
+      "DIY reference: no single official semester-by-semester study plan is published before students choose the ESE or EVE track; please arrange semesters after confirming track requirements with SEE."
+    ],
+    "studyPlanStatus": "diy",
+    "studyPlan": {
+      "year1": {
+        "semA": {
+          "courses": [],
+          "credits": 0
+        },
+        "semB": {
+          "courses": [],
+          "credits": 0
+        },
+        "summer": {
+          "courses": [],
+          "credits": 0
+        }
+      },
+      "year2": {
+        "semA": {
+          "courses": [],
+          "credits": 0
+        },
+        "semB": {
+          "courses": [],
+          "credits": 0
+        },
+        "summer": {
+          "courses": [],
+          "credits": 0
+        }
+      },
+      "year3": {
+        "semA": {
+          "courses": [],
+          "credits": 0
+        },
+        "semB": {
+          "courses": [],
+          "credits": 0
+        },
+        "summer": {
+          "courses": [],
+          "credits": 0
+        }
+      },
+      "year4": {
+        "semA": {
+          "courses": [],
+          "credits": 0
+        },
+        "semB": {
+          "courses": [],
+          "credits": 0
+        },
+        "summer": {
+          "courses": [],
+          "credits": 0
+        }
+      }
+    }
   },
   {
     "code": "DBSCBSC1_D008-0",
@@ -31131,7 +31424,7 @@
             {
               "code": "CS3505",
               "title": "IT Professional Internship",
-              "credits": 9
+              "credits": 3
             },
             {
               "code": "CS3103",
@@ -31176,7 +31469,7 @@
               "credits": 3
             }
           ],
-          "credits": 14
+          "credits": 11
         },
         "semB": {
           "courses": [
@@ -31201,7 +31494,7 @@
               "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     },
@@ -31887,15 +32180,20 @@
             {
               "code": "SEE4996",
               "title": "Final Year Project",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "GE-2",
               "title": "Gateway Education (Distributional Requirements)",
               "credits": 3
+            },
+            {
+              "code": "EVE-ELECTIVE2",
+              "title": "EVE Elective",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -31912,7 +32210,7 @@
             {
               "code": "SEE4996",
               "title": "Final Year Project",
-              "credits": 6
+              "credits": 3
             },
             {
               "code": "FIN-ELECTIVE",
@@ -32198,8 +32496,8 @@
         ]
       },
       "majorElectives": {
-        "credits": 15,
-        "chooseCredits": 15,
+        "credits": 9,
+        "chooseCredits": 9,
         "courses": [
           {
             "code": "SS3423",
@@ -32951,8 +33249,8 @@
         ]
       },
       "majorElectives": {
-        "credits": 12,
-        "chooseCredits": 12,
+        "credits": 9,
+        "chooseCredits": 9,
         "courses": [
           {
             "code": "AC-ELECTIVE1",

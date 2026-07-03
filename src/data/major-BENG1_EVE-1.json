@@ -208,7 +208,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 15,
+      "credits": 9,
       "courses": [
         {
           "code": "SEE4113",
@@ -341,7 +341,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 15
+      "chooseCredits": 9
     },
     "freeElectives": {
       "credits": 0

@@ -128,7 +128,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 24,
+      "credits": 15,
       "courses": [
         {
           "code": "PAFM-ELECTIVE",
@@ -136,7 +136,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 24
+      "chooseCredits": 15
     },
     "freeElectives": {
       "credits": 12,
@@ -398,9 +398,14 @@
             "code": "FREE",
             "title": "FREE",
             "credits": 3
+          },
+          {
+            "code": "PAFM-ELECTIVE",
+            "title": "PAFM-ELECTIVE",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year4": {
