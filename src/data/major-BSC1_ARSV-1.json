@@ -3,714 +3,154 @@
   "title": "Bachelor of Science in Architecture and Surveying",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ARSV-1.htm",
   "degree": "Bachelor of Science",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "Department of Architecture and Civil Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 414,
+      "credits": 21,
       "courses": [
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2410",
+          "title": "English for Engineering",
+          "credits": 3
         },
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "CA1167",
-          "title": "Engineering Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2674",
-          "title": "Construction Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2744",
-          "title": "Building Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3629",
-          "title": "Building and Fire Safety Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3691",
-          "title": "Building Services for Building Professionals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4534",
-          "title": "Final Year Project",
-          "credits": 6,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4528",
-          "title": "Integrated Building Project Development (Architecture)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2343A",
-          "title": "Architectural Design - Space Making (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2343B",
-          "title": "Architectural Design - Space Making (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2344A",
-          "title": "Architectural Design – Site and Environment (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2344B",
-          "title": "Architectural Design – Site and Environment (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA3349A",
-          "title": "Architectural Design: Building Integration (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3349B",
-          "title": "Architectural Design: Building Integration (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3350A",
-          "title": "Architectural Design: Context (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3350B",
-          "title": "Architectural Design: Context (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA4539",
-          "title": "Architectural Design: Final Year Design Research Project Part 1",
-          "credits": 6,
-          "remarks": "In conjunction with CA4534"
-        },
-        {
-          "code": "CA4540",
-          "title": "Architectural Design: Final Year Design Research Project Part 2",
-          "credits": 6,
-          "remarks": "In conjunction with CA4534"
-        },
-        {
-          "code": "CA2345",
-          "title": "Digital Media and Presentation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3200",
-          "title": "Advanced Design Tools",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2346",
-          "title": "Experiencing Architecture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2347",
-          "title": "History of Architecture - Western",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3170",
-          "title": "History of Architecture – Chinese and Asian",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2348",
-          "title": "Sustainable Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3342",
-          "title": "Architecture, Smart Cities and Design",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2123",
-          "title": "Engineering Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2126",
-          "title": "Measurement of Building Works",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA2213",
-          "title": "Development Economics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2311",
-          "title": "Construction Contracts I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3214",
-          "title": "Construction Economics",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA3314",
-          "title": "Surveying Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3321",
-          "title": "Construction Contracts II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3324",
-          "title": "Advanced Surveying Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3703",
-          "title": "Construction Methods and Equipment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4320",
-          "title": "Cost Management of Building and Engineering Works",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA4415",
-          "title": "Value Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4424",
-          "title": "Strategic BIM Management in Smart Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4513",
-          "title": "Final Year Project",
-          "credits": 6,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4524",
-          "title": "Integrated Building Project Development (Surveying)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4630",
-          "title": "Building Design and Appraisal",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3508",
-          "title": "Industrial Internship",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/ research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA2418",
-          "title": "Green Building and Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2627",
-          "title": "Building Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3168",
-          "title": "Building Information Modelling for Capital Projects",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3200",
-          "title": "Advanced Design Tools",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3228",
-          "title": "Land Use and Urban Planning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3230",
-          "title": "Property Valuation and Interest Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3342",
-          "title": "Architecture, Smart Cities and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3417",
-          "title": "Management for Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3422",
-          "title": "Decision Analysis and Risk Management for Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3508",
-          "title": "Industrial Internship",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4229",
-          "title": "Land Use Planning and Applied Valuation",
-          "credits": 3,
-          "remarks": "HKIS BSD and QSD accreditation required"
-        },
-        {
-          "code": "CA4313",
-          "title": "Construction Contracts III",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4413",
-          "title": "Construction Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4617",
-          "title": "Temporary Works Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4623",
-          "title": "Maintenance Technology and Management",
-          "credits": 3,
-          "remarks": "HKIS BSD accreditation required"
-        },
-        {
-          "code": "CA1167",
-          "title": "Engineering Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2674",
-          "title": "Construction Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2744",
-          "title": "Building Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3629",
-          "title": "Building and Fire Safety Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3691",
-          "title": "Building Services for Building Professionals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4534",
-          "title": "Final Year Project",
-          "credits": 6,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4528",
-          "title": "Integrated Building Project Development (Architecture)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2343A",
-          "title": "Architectural Design - Space Making (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2343B",
-          "title": "Architectural Design - Space Making (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2344A",
-          "title": "Architectural Design – Site and Environment (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA2344B",
-          "title": "Architectural Design – Site and Environment (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor"
-        },
-        {
-          "code": "CA3349A",
-          "title": "Architectural Design: Building Integration (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3349B",
-          "title": "Architectural Design: Building Integration (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3350A",
-          "title": "Architectural Design: Context (Topic 1)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA3350B",
-          "title": "Architectural Design: Context (Topic 2)",
-          "credits": 6,
-          "remarks": "Each studio option focuses on a different project topic as specified by studio tutor. Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA4539",
-          "title": "Architectural Design: Final Year Design Research Project Part 1",
-          "credits": 6,
-          "remarks": "In conjunction with CA4534"
-        },
-        {
-          "code": "CA4540",
-          "title": "Architectural Design: Final Year Design Research Project Part 2",
-          "credits": 6,
-          "remarks": "In conjunction with CA4534"
-        },
-        {
-          "code": "CA2345",
-          "title": "Digital Media and Presentation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3200",
-          "title": "Advanced Design Tools",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2346",
-          "title": "Experiencing Architecture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2347",
-          "title": "History of Architecture - Western",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3170",
-          "title": "History of Architecture – Chinese and Asian",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2348",
-          "title": "Sustainable Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3342",
-          "title": "Architecture, Smart Cities and Design",
-          "credits": 3,
-          "remarks": "Existing BSAS Core Cr."
-        },
-        {
-          "code": "CA2123",
-          "title": "Engineering Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2126",
-          "title": "Measurement of Building Works",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA2213",
-          "title": "Development Economics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2311",
-          "title": "Construction Contracts I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3214",
-          "title": "Construction Economics",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA3314",
-          "title": "Surveying Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3321",
-          "title": "Construction Contracts II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3324",
-          "title": "Advanced Surveying Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3703",
-          "title": "Construction Methods and Equipment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4320",
-          "title": "Cost Management of Building and Engineering Works",
-          "credits": 3,
-          "remarks": "HKIS QSD accreditation required"
-        },
-        {
-          "code": "CA4415",
-          "title": "Value Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4424",
-          "title": "Strategic BIM Management in Smart Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4513",
-          "title": "Final Year Project",
-          "credits": 6,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4524",
-          "title": "Integrated Building Project Development (Surveying)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4630",
-          "title": "Building Design and Appraisal",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3508",
-          "title": "Industrial Internship",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/ research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA2418",
-          "title": "Green Building and Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA2627",
-          "title": "Building Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3168",
-          "title": "Building Information Modelling for Capital Projects",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3200",
-          "title": "Advanced Design Tools",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3228",
-          "title": "Land Use and Urban Planning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3230",
-          "title": "Property Valuation and Interest Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3342",
-          "title": "Architecture, Smart Cities and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3417",
-          "title": "Management for Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3422",
-          "title": "Decision Analysis and Risk Management for Construction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA3508",
-          "title": "Industrial Internship",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CA4229",
-          "title": "Land Use Planning and Applied Valuation",
-          "credits": 3,
-          "remarks": "HKIS BSD and QSD accreditation required"
-        },
-        {
-          "code": "CA4313",
-          "title": "Construction Contracts III",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4413",
-          "title": "Construction Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4617",
-          "title": "Temporary Works Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CA4623",
-          "title": "Maintenance Technology and Management",
-          "credits": 3,
-          "remarks": "HKIS BSD accreditation required"
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 60,
+      "courses": [
+        {
+          "code": "CA2123",
+          "title": "Engineering Methods",
+          "credits": 3
+        },
+        {
+          "code": "CA2213",
+          "title": "Development Economics",
+          "credits": 3
+        },
+        {
+          "code": "CA2126",
+          "title": "Measurement of Building Works",
+          "credits": 3
+        },
+        {
+          "code": "CA3214",
+          "title": "Construction Economics",
+          "credits": 3
+        },
+        {
+          "code": "CA3314",
+          "title": "Surveying Studio",
+          "credits": 3
+        },
+        {
+          "code": "CA3703",
+          "title": "Construction Methods and Equipment",
+          "credits": 3
+        },
+        {
+          "code": "CA3691",
+          "title": "Building Services for Building Professionals",
+          "credits": 3
+        },
+        {
+          "code": "CA3321",
+          "title": "Construction Contracts II",
+          "credits": 3
+        },
+        {
+          "code": "CA3324",
+          "title": "Advanced Surveying Studio",
+          "credits": 3
+        },
+        {
+          "code": "CA3629",
+          "title": "Building and Fire Safety Control",
+          "credits": 3
+        },
+        {
+          "code": "CA4513",
+          "title": "Final Year Project",
+          "credits": 6
+        },
+        {
+          "code": "CA4415",
+          "title": "Value Management",
+          "credits": 3
+        },
+        {
+          "code": "CA4524",
+          "title": "Integrated Building Project Development (Surveying)",
+          "credits": 3
+        },
+        {
+          "code": "CA4424",
+          "title": "Strategic BIM Management in Smart Construction",
+          "credits": 3
+        },
+        {
+          "code": "CA4320",
+          "title": "Cost Management of Building and Engineering Works",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 18,
+      "courses": [
+        {
+          "code": "ARSV-ELECTIVE",
+          "title": "Surveying Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 18
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -768,5 +208,572 @@
     "CA4413",
     "CA4617",
     "CA4623"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA1200",
+            "title": "MA1200",
+            "credits": 3
+          },
+          {
+            "code": "CS1302",
+            "title": "CS1302",
+            "credits": 3
+          },
+          {
+            "code": "PHY1201",
+            "title": "PHY1201",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "CA1167",
+            "title": "CA1167",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA1201",
+            "title": "MA1201",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "CA2066",
+            "title": "CA2066",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CA2123",
+            "title": "CA2123",
+            "credits": 3
+          },
+          {
+            "code": "CA2213",
+            "title": "CA2213",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE1",
+            "title": "ARSV-ELECTIVE1",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CA2126",
+            "title": "CA2126",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE2",
+            "title": "ARSV-ELECTIVE2",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CA3214",
+            "title": "CA3214",
+            "credits": 3
+          },
+          {
+            "code": "CA3314",
+            "title": "CA3314",
+            "credits": 3
+          },
+          {
+            "code": "CA3703",
+            "title": "CA3703",
+            "credits": 3
+          },
+          {
+            "code": "CA3691",
+            "title": "CA3691",
+            "credits": 3
+          },
+          {
+            "code": "CA3629",
+            "title": "CA3629",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CA3321",
+            "title": "CA3321",
+            "credits": 3
+          },
+          {
+            "code": "CA3324",
+            "title": "CA3324",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE3",
+            "title": "ARSV-ELECTIVE3",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE4",
+            "title": "ARSV-ELECTIVE4",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE5",
+            "title": "ARSV-ELECTIVE5",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CA4513",
+            "title": "CA4513",
+            "credits": 6
+          },
+          {
+            "code": "CA4415",
+            "title": "CA4415",
+            "credits": 3
+          },
+          {
+            "code": "CA4524",
+            "title": "CA4524",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE6",
+            "title": "ARSV-ELECTIVE6",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "Gateway Education Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CA4513",
+            "title": "CA4513",
+            "credits": 6
+          },
+          {
+            "code": "CA4424",
+            "title": "CA4424",
+            "credits": 3
+          },
+          {
+            "code": "CA4320",
+            "title": "CA4320",
+            "credits": 3
+          },
+          {
+            "code": "ARSV-ELECTIVE7",
+            "title": "ARSV-ELECTIVE7",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "Surveying",
+      "name": "Surveying Stream",
+      "description": "Focus on construction economics, cost management, and surveying practice.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2410",
+              "title": "English for Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 11
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "MA1201",
+              "title": "Calculus and Basic Linear Algebra II",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 60,
+          "courses": [
+            {
+              "code": "CA2123",
+              "title": "Engineering Methods",
+              "credits": 3
+            },
+            {
+              "code": "CA2213",
+              "title": "Development Economics",
+              "credits": 3
+            },
+            {
+              "code": "CA2126",
+              "title": "Measurement of Building Works",
+              "credits": 3
+            },
+            {
+              "code": "CA3214",
+              "title": "Construction Economics",
+              "credits": 3
+            },
+            {
+              "code": "CA3314",
+              "title": "Surveying Studio",
+              "credits": 3
+            },
+            {
+              "code": "CA3703",
+              "title": "Construction Methods and Equipment",
+              "credits": 3
+            },
+            {
+              "code": "CA3691",
+              "title": "Building Services for Building Professionals",
+              "credits": 3
+            },
+            {
+              "code": "CA3321",
+              "title": "Construction Contracts II",
+              "credits": 3
+            },
+            {
+              "code": "CA3324",
+              "title": "Advanced Surveying Studio",
+              "credits": 3
+            },
+            {
+              "code": "CA3629",
+              "title": "Building and Fire Safety Control",
+              "credits": 3
+            },
+            {
+              "code": "CA4513",
+              "title": "Final Year Project",
+              "credits": 6
+            },
+            {
+              "code": "CA4415",
+              "title": "Value Management",
+              "credits": 3
+            },
+            {
+              "code": "CA4524",
+              "title": "Integrated Building Project Development (Surveying)",
+              "credits": 3
+            },
+            {
+              "code": "CA4424",
+              "title": "Strategic BIM Management in Smart Construction",
+              "credits": 3
+            },
+            {
+              "code": "CA4320",
+              "title": "Cost Management of Building and Engineering Works",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 18,
+          "courses": [
+            {
+              "code": "ARSV-ELECTIVE",
+              "title": "Surveying Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 18
+        },
+        "freeElectives": {
+          "credits": 12,
+          "note": "Or Minor courses"
+        }
+      }
+    },
+    {
+      "code": "Architecture",
+      "name": "Architecture Stream",
+      "description": "Focus on architectural design, building technology, and integrated project development.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2410",
+              "title": "English for Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 11
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "MA1201",
+              "title": "Calculus and Basic Linear Algebra II",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 60,
+          "courses": [
+            {
+              "code": "CA2123",
+              "title": "Engineering Methods",
+              "credits": 3
+            },
+            {
+              "code": "CA2213",
+              "title": "Development Economics",
+              "credits": 3
+            },
+            {
+              "code": "CA2126",
+              "title": "Measurement of Building Works",
+              "credits": 3
+            },
+            {
+              "code": "CA3214",
+              "title": "Construction Economics",
+              "credits": 3
+            },
+            {
+              "code": "CA3314",
+              "title": "Surveying Studio",
+              "credits": 3
+            },
+            {
+              "code": "CA3703",
+              "title": "Construction Methods and Equipment",
+              "credits": 3
+            },
+            {
+              "code": "CA3691",
+              "title": "Building Services for Building Professionals",
+              "credits": 3
+            },
+            {
+              "code": "CA3321",
+              "title": "Construction Contracts II",
+              "credits": 3
+            },
+            {
+              "code": "CA3324",
+              "title": "Advanced Surveying Studio",
+              "credits": 3
+            },
+            {
+              "code": "CA3629",
+              "title": "Building and Fire Safety Control",
+              "credits": 3
+            },
+            {
+              "code": "CA4513",
+              "title": "Final Year Project",
+              "credits": 6
+            },
+            {
+              "code": "CA4415",
+              "title": "Value Management",
+              "credits": 3
+            },
+            {
+              "code": "CA4524",
+              "title": "Integrated Building Project Development (Surveying)",
+              "credits": 3
+            },
+            {
+              "code": "CA4424",
+              "title": "Strategic BIM Management in Smart Construction",
+              "credits": 3
+            },
+            {
+              "code": "CA4320",
+              "title": "Cost Management of Building and Engineering Works",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 18,
+          "courses": [
+            {
+              "code": "ARSV-ELECTIVE",
+              "title": "Surveying Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 18
+        },
+        "freeElectives": {
+          "credits": 12,
+          "note": "Or Minor courses"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Suggested Study Schedule for Architecture and Surveying Major (Surveying Stream).",
+    "Common First Year with Architectural Engineering and Civil Engineering.",
+    "CA4513 Final Year Project is a 2-semester course (6 CUs total).",
+    "Select THREE electives from the approved list in Year 2-3."
   ]
 }

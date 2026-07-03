@@ -8,726 +8,221 @@
   "college": "College of Business",
   "requirements": {
     "gatewayEducation": {
-      "credits": 342,
+      "credits": 22,
       "courses": [
         {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
         },
         {
-          "code": "CB2200",
-          "title": "Business Statistics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4303",
-          "title": "Strategic Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "AC3202",
-          "title": "Corporate Accounting I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2041",
-          "title": "Applications of Game Theory to Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020",
-          "title": "Advanced Business Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020A",
-          "title": "Advanced Business Seminar+",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CB3021",
-          "title": "Business Discovery Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3041",
-          "title": "Financial Statement Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3044",
-          "title": "Introduction to Financial Markets",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3045",
-          "title": "Advanced Seminar on Business Case Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3810",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3820",
-          "title": "Start-up Technology Entrepreneur Programme II",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3830",
-          "title": "Business Consultancy Internship in Greater Bay Area",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3840",
-          "title": "Consulting Co-op Programme",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB4605",
-          "title": "Business Consultancy Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2021",
-          "title": "Big Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2023",
-          "title": "Mobile Applications for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1006",
-          "title": "Calculus and Linear Algebra for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3601",
-          "title": "China Business Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3124",
-          "title": "Global Supply Chain Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2903",
-          "title": "Business and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2200",
-          "title": "Business Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4303",
-          "title": "Strategic Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "AC3202",
-          "title": "Corporate Accounting I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2041",
-          "title": "Applications of Game Theory to Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020",
-          "title": "Advanced Business Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020A",
-          "title": "Advanced Business Seminar+",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CB3021",
-          "title": "Business Discovery Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3041",
-          "title": "Financial Statement Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3044",
-          "title": "Introduction to Financial Markets",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3045",
-          "title": "Advanced Seminar on Business Case Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3810",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3820",
-          "title": "Start-up Technology Entrepreneur Programme II",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3830",
-          "title": "Business Consultancy Internship in Greater Bay Area",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3840",
-          "title": "Consulting Co-op Programme",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB4605",
-          "title": "Business Consultancy Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2021",
-          "title": "Big Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2023",
-          "title": "Mobile Applications for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1006",
-          "title": "Calculus and Linear Algebra for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3601",
-          "title": "China Business Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3124",
-          "title": "Global Supply Chain Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2903",
-          "title": "Business and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3305",
-          "title": "Corporate Social Responsibility",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4227",
-          "title": "International Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3307",
-          "title": "Employment Law and Practices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4306",
-          "title": "Performance and Compensation Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4307",
-          "title": "People and HR Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4308",
-          "title": "Staffing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4309",
-          "title": "Talent Management: Learning and Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3422",
-          "title": "Product and Service Innovation Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4310",
-          "title": "Managing Multinationals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4311",
-          "title": "Advanced Strategic Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4312",
-          "title": "Launching Business in Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4313",
-          "title": "Strategic Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3302",
-          "title": "Interactive Skills Workshop for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4305",
-          "title": "Developing and Presenting a Business Plan",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4314",
-          "title": "Negotiation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4315",
-          "title": "Leadership",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4800",
-          "title": "Management Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "MGT4101",
-          "title": "Project",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3305",
-          "title": "Corporate Social Responsibility",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4227",
-          "title": "International Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3307",
-          "title": "Employment Law and Practices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4306",
-          "title": "Performance and Compensation Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4307",
-          "title": "People and HR Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4308",
-          "title": "Staffing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4309",
-          "title": "Talent Management: Learning and Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3422",
-          "title": "Product and Service Innovation Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4310",
-          "title": "Managing Multinationals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4311",
-          "title": "Advanced Strategic Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4312",
-          "title": "Launching Business in Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4313",
-          "title": "Strategic Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3302",
-          "title": "Interactive Skills Workshop for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4305",
-          "title": "Developing and Presenting a Business Plan",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4314",
-          "title": "Negotiation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4315",
-          "title": "Leadership",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4800",
-          "title": "Management Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "MGT4101",
-          "title": "Project",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
+          "code": "GE-DR",
+          "title": "Gateway Education Course Distributional Requirements",
+          "credits": 12
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 42,
+      "courses": [
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3
+        },
+        {
+          "code": "CB2400",
+          "title": "Micro-Economics",
+          "credits": 3
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2402",
+          "title": "Macro-Economics",
+          "credits": 3
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC1",
+          "title": "College Elective #1",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC2",
+          "title": "College Elective #2",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC3",
+          "title": "College Elective #3",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "courses": [
+        {
+          "code": "MGT3306",
+          "title": "Organizational Behavior and Human Resources Management",
+          "credits": 3
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3
+        },
+        {
+          "code": "MGT3305",
+          "title": "Corporate Social Responsibility",
+          "credits": 3
+        },
+        {
+          "code": "MGT4227",
+          "title": "International Business",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "MGT3302",
+          "title": "Interactive Skills Workshop for Business",
+          "credits": 3
+        },
+        {
+          "code": "MGT4101",
+          "title": "Project",
+          "credits": 3
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3
+        },
+        {
+          "code": "MGT4314",
+          "title": "Negotiation",
+          "credits": 3
+        },
+        {
+          "code": "MGT4315",
+          "title": "Leadership",
+          "credits": 3
+        },
+        {
+          "code": "MGT4800",
+          "title": "Management Internship",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 9,
+      "note": "Or any one Core course from other BBA majors"
+    },
+    "collegeRequirement": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CB2240",
+          "title": "Introduction to Business Programming in Python",
+          "credits": 3
+        },
+        {
+          "code": "CB2203",
+          "title": "Data Driven Business Modeling",
+          "credits": 3
+        },
+        {
+          "code": "GE-COL",
+          "title": "GE / College Elective",
+          "credits": 3
+        }
+      ]
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 18,
+      "note": "5 Minor/Elective courses (15 CU) plus 1 Free Elective (3 CU). Students not choosing a minor must take free electives."
     }
   },
   "allCourses": [
+    "CB2201",
+    "CB2601",
+    "CB2400",
     "CB2100",
+    "CB2300",
+    "CB2500",
+    "CB2402",
     "CB2101",
     "CB2200",
-    "CB2201",
-    "CB2300",
-    "CB2400",
-    "CB2402",
-    "CB2500",
-    "CB2601",
     "CB3410",
     "CB4303",
-    "AC3202",
-    "CB2041",
-    "CB3020",
-    "CB3020A",
-    "CB3021",
-    "CB3041",
-    "CB3043",
-    "CB3044",
-    "CB3045",
-    "CB3800",
-    "CB3810",
-    "CB3820",
-    "CB3830",
-    "CB3840",
-    "CB4605",
-    "CS1102",
-    "IS2021",
-    "IS2023",
-    "MA1006",
+    "CB2240",
+    "CB2203",
     "MGT3306",
-    "MKT3601",
-    "MS3124",
-    "MS3252",
-    "LW2903",
     "MGT2324",
     "MGT3305",
     "MGT4227",
+    "MGT3302",
+    "MGT4101",
+    "MGT4305",
+    "MGT4314",
+    "MGT4315",
+    "MGT4800",
     "MGT3307",
     "MGT4306",
     "MGT4307",
@@ -737,12 +232,904 @@
     "MGT4310",
     "MGT4311",
     "MGT4312",
-    "MGT4313",
-    "MGT3302",
-    "MGT4305",
-    "MGT4314",
-    "MGT4315",
-    "MGT4800",
-    "MGT4101"
+    "MGT4313"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2201",
+            "title": "Operations Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2601",
+            "title": "Marketing",
+            "credits": 3
+          },
+          {
+            "code": "CB2400",
+            "title": "Micro-Economics",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education Course",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE1401",
+            "title": "University English or EAP1",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB2100",
+            "title": "Introduction to Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2500",
+            "title": "Information Management",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education Course",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication or EAP2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2402",
+            "title": "Macro-Economics",
+            "credits": 3
+          },
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2200",
+            "title": "Business Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MGT3306",
+            "title": "Organizational Behavior and Human Resources Management",
+            "credits": 3
+          },
+          {
+            "code": "MGT2324",
+            "title": "Introduction to Entrepreneurship",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB2240",
+            "title": "Introduction to Business Programming in Python",
+            "credits": 3
+          },
+          {
+            "code": "CB3410",
+            "title": "Financial Management",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Course",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education Course",
+            "credits": 3
+          },
+          {
+            "code": "MINOR1",
+            "title": "Minor / Free Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2203",
+            "title": "Data Driven Business Modeling",
+            "credits": 3
+          },
+          {
+            "code": "MGT3305",
+            "title": "Corporate Social Responsibility",
+            "credits": 3
+          },
+          {
+            "code": "MGT4227",
+            "title": "International Business",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "MINOR2",
+            "title": "Minor / Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE-COL",
+            "title": "GE / College Elective",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-ELECT1",
+            "title": "Stream Elective in HRM or SIM",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT1",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC1",
+            "title": "College Elective #1",
+            "credits": 3
+          },
+          {
+            "code": "MINOR3",
+            "title": "Minor / Free Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB4303",
+            "title": "Strategic Management",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-ELECT2",
+            "title": "Stream Elective in HRM or SIM",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT2",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC2",
+            "title": "College Elective #2",
+            "credits": 3
+          },
+          {
+            "code": "MINOR4",
+            "title": "Minor / Free Elective 4",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-ELECT3",
+            "title": "Stream Elective in HRM or SIM",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT3",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC3",
+            "title": "College Elective #3",
+            "credits": 3
+          },
+          {
+            "code": "MINOR5",
+            "title": "Minor / Free Elective 5",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "HRM",
+      "name": "Human Resources Management (HRM)",
+      "description": "Focus on human resources management, employment law, performance management, and talent development.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 0,
+          "courses": []
+        },
+        "collegeRequirement": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorCore": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorElectives": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "MGT3307",
+              "title": "Employment Law and Practices",
+              "credits": 3
+            },
+            {
+              "code": "MGT4306",
+              "title": "Performance and Compensation Management",
+              "credits": 3
+            },
+            {
+              "code": "MGT4307",
+              "title": "People and HR Analytics",
+              "credits": 3
+            },
+            {
+              "code": "MGT4308",
+              "title": "Staffing",
+              "credits": 3
+            },
+            {
+              "code": "MGT4309",
+              "title": "Talent Management: Learning and Development",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 9,
+          "note": "Select 3 electives from the HRM stream"
+        },
+        "freeElectives": {
+          "credits": 0,
+          "note": ""
+        }
+      },
+      "allCourses": [
+        "MGT3307",
+        "MGT4306",
+        "MGT4307",
+        "MGT4308",
+        "MGT4309"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE1401",
+                "title": "University English or EAP1",
+                "credits": 3
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication or EAP2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MGT3306",
+                "title": "Organizational Behavior and Human Resources Management",
+                "credits": 3
+              },
+              {
+                "code": "MGT2324",
+                "title": "Introduction to Entrepreneurship",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "MINOR1",
+                "title": "Minor / Free Elective 1",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "MGT3305",
+                "title": "Corporate Social Responsibility",
+                "credits": 3
+              },
+              {
+                "code": "MGT4227",
+                "title": "International Business",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MINOR2",
+                "title": "Minor / Free Elective 2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "GE-COL",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT1",
+                "title": "HRM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT1",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC1",
+                "title": "College Elective #1",
+                "credits": 3
+              },
+              {
+                "code": "MINOR3",
+                "title": "Minor / Free Elective 3",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT2",
+                "title": "HRM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT2",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC2",
+                "title": "College Elective #2",
+                "credits": 3
+              },
+              {
+                "code": "MINOR4",
+                "title": "Minor / Free Elective 4",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT3",
+                "title": "HRM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT3",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC3",
+                "title": "College Elective #3",
+                "credits": 3
+              },
+              {
+                "code": "MINOR5",
+                "title": "Minor / Free Elective 5",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      }
+    },
+    {
+      "code": "SIM",
+      "name": "Strategy and International Management (SIM)",
+      "description": "Focus on strategic analysis, international business, innovation management, and entrepreneurship in Asia Pacific.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 0,
+          "courses": []
+        },
+        "collegeRequirement": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorCore": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorElectives": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "MGT3422",
+              "title": "Product and Service Innovation Management",
+              "credits": 3
+            },
+            {
+              "code": "MGT4310",
+              "title": "Managing Multinationals",
+              "credits": 3
+            },
+            {
+              "code": "MGT4311",
+              "title": "Advanced Strategic Analysis",
+              "credits": 3
+            },
+            {
+              "code": "MGT4312",
+              "title": "Launching Business in Asia Pacific",
+              "credits": 3
+            },
+            {
+              "code": "MGT4313",
+              "title": "Strategic Entrepreneurship",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 9,
+          "note": "Select 3 electives from the SIM stream"
+        },
+        "freeElectives": {
+          "credits": 0,
+          "note": ""
+        }
+      },
+      "allCourses": [
+        "MGT3422",
+        "MGT4310",
+        "MGT4311",
+        "MGT4312",
+        "MGT4313"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Micro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE1401",
+                "title": "University English or EAP1",
+                "credits": 3
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication or EAP2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2402",
+                "title": "Macro-Economics",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MGT3306",
+                "title": "Organizational Behavior and Human Resources Management",
+                "credits": 3
+              },
+              {
+                "code": "MGT2324",
+                "title": "Introduction to Entrepreneurship",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "MINOR1",
+                "title": "Minor / Free Elective 1",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2203",
+                "title": "Data Driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "MGT3305",
+                "title": "Corporate Social Responsibility",
+                "credits": 3
+              },
+              {
+                "code": "MGT4227",
+                "title": "International Business",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MINOR2",
+                "title": "Minor / Free Elective 2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "GE-COL",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT1",
+                "title": "SIM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT1",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC1",
+                "title": "College Elective #1",
+                "credits": 3
+              },
+              {
+                "code": "MINOR3",
+                "title": "Minor / Free Elective 3",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT2",
+                "title": "SIM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT2",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC2",
+                "title": "College Elective #2",
+                "credits": 3
+              },
+              {
+                "code": "MINOR4",
+                "title": "Minor / Free Elective 4",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "STREAM-ELECT3",
+                "title": "SIM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT3",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC3",
+                "title": "College Elective #3",
+                "credits": 3
+              },
+              {
+                "code": "MINOR5",
+                "title": "Minor / Free Elective 5",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Study plan source: BBAU4_2025 Management schedule, updated on 13 August 2025; effective from Catalogue Term Sem A 2025/26.",
+    "The normative plan counts GE1401 and GE2402 once. Students taking EAP1/EAP2 in Year 1 should take GE1401/GE2402 in Year 2 as shown in the dashed alternative boxes.",
+    "CHIN1001 University Chinese I is required only for students who do not meet the Chinese Language Requirement and is not counted in the 121 CU minimum plan.",
+    "Students who do not choose a minor are required to take free electives.",
+    "Internship, consultancy project, or research project requirements may be fulfilled by approved college elective or major core/elective courses, with preference given to major courses."
   ]
 }

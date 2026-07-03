@@ -2,920 +2,21 @@
   "code": "BA1_MDCM-1",
   "title": "Bachelor of Arts in Media and Communication",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_MDCM-1.htm",
+  "studyPlanStatus": "derived",
+  "notes": [
+    "Study plan is derived from official graduation/catalogue requirements; no separate official semester-by-semester recommended study plan was confirmed on the official website.",
+    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits."
+  ],
   "degree": "Bachelor of Arts",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "Department of Media and Communication",
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 444,
-      "courses": [
-        {
-          "code": "CAH1603",
-          "title": "Great Works in the Humanities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EN2011",
-          "title": "English on the Move",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT1101",
-          "title": "Amazing Things about Language",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM1101",
-          "title": "Media and Communication in the Digital Age",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2801",
-          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SS1600",
-          "title": "Discovering the Mystery of Applied Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAH1603",
-          "title": "Great Works in the Humanities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EN2011",
-          "title": "English on the Move",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT1101",
-          "title": "Amazing Things about Language",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM1101",
-          "title": "Media and Communication in the Digital Age",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2801",
-          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SS1600",
-          "title": "Discovering the Mystery of Applied Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2105",
-          "title": "Visual Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2118",
-          "title": "Media and Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2103",
-          "title": "Communication Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2202",
-          "title": "Writing for the Media",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT2306 in the second major, (ii) BALLA / BATI students in MDCM major (second major), who have taken LT2306, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT2306 in the home major."
-        },
-        {
-          "code": "COM2303",
-          "title": "Video Production and Editing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2501",
-          "title": "Internet Communication",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3210 in the second major, (ii) BALLA / BATI students in BAMDCM (second major), who have taken LT3210, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3210 in the home major."
-        },
-        {
-          "code": "COM2509",
-          "title": "Interactive Digital Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3109",
-          "title": "Media and Communication in Chinese Contexts",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3115",
-          "title": "Communication Law and Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3119",
-          "title": "International Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4604",
-          "title": "Communication Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3107",
-          "title": "Fundamentals of Persuasive Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3117",
-          "title": "Media, Communication and Public Opinion",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3408",
-          "title": "Integrated Strategic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4511",
-          "title": "Social Media and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4602",
-          "title": "Topical Studies in Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4603",
-          "title": "Professional Communication Internship",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3199 in the second major, (ii) BALLA / BATI students in MDCM major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3199 in the home major."
-        },
-        {
-          "code": "COM5104",
-          "title": "Research Methods for Communication and New Media",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM) / (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "COM5503",
-          "title": "Dynamic Web Communication",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM) / (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "LT5406",
-          "title": "Psycholinguistics",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "LT5407",
-          "title": "Research Methodology for Applied Linguistics",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "MKT5610",
-          "title": "Marketing Strategy and Planning",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "MKT5648",
-          "title": "Social Media Marketing",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "SM5325",
-          "title": "Introduction to Media and Cultural Studies",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "SM5336",
-          "title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "COM2201",
-          "title": "News Writing and Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3203",
-          "title": "Data Journalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3209",
-          "title": "Digital Photojournalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3211",
-          "title": "Business Journalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3412",
-          "title": "Advertising Production Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3413",
-          "title": "Writing for Public Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4204",
-          "title": "News Feature Writing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4205",
-          "title": "Advanced News Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4208",
-          "title": "Magazine Writing and Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4210",
-          "title": "Cross-Platform Publication Design and Layout",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4306",
-          "title": "Video News Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4510",
-          "title": "Generative AI for Multimedia Authoring",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2120",
-          "title": "Health Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2401",
-          "title": "Fundamentals of Advertising",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2402",
-          "title": "Principles of Public Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3404",
-          "title": "Event Planning and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3406",
-          "title": "Strategic Media Planning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3411",
-          "title": "Interactive Advertising",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3399 in the second major, (ii) BALLA / BATI students in MDCM major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3399 in the home major."
-        },
-        {
-          "code": "COM3510",
-          "title": "Digital e-Marketing Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3511",
-          "title": "AI and Strategic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4114",
-          "title": "Crisis Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4207",
-          "title": "Campaign Planning and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4414",
-          "title": "Broadcast Advertising",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4506",
-          "title": "Multimedia Campaign",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2116",
-          "title": "Audience Analytics and Media Strategies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2405",
-          "title": "Communication and Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3410",
-          "title": "Consumer Behavior Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4305",
-          "title": "Current Affairs Documentary Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4307",
-          "title": "Video News Production and Anchoring",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4308",
-          "title": "Convergent Newsroom Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4309",
-          "title": "Radio News Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM5108",
-          "title": "Psychological Processing of New Media",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM)/ (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "CAH3165",
-          "title": "Creative Chinese",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAH3167",
-          "title": "Chinese for Mass Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CLA3100",
-          "title": "Professional Internship I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT5432",
-          "title": "Lexical Semantics",
-          "credits": 3,
-          "remarks": "For students admitted to the  Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT5643",
-          "title": "Global Marketing",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3306",
-          "title": "Organizational Behaviour for Public Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM5303",
-          "title": "Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "SS1101",
-          "title": "Basic Psychology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2105",
-          "title": "Visual Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2118",
-          "title": "Media and Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2103",
-          "title": "Communication Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2202",
-          "title": "Writing for the Media",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT2306 in the second major, (ii) BALLA / BATI students in MDCM major (second major), who have taken LT2306, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT2306 in the home major."
-        },
-        {
-          "code": "COM2303",
-          "title": "Video Production and Editing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2501",
-          "title": "Internet Communication",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3210 in the second major, (ii) BALLA / BATI students in BAMDCM (second major), who have taken LT3210, cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3210 in the home major."
-        },
-        {
-          "code": "COM2509",
-          "title": "Interactive Digital Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3109",
-          "title": "Media and Communication in Chinese Contexts",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3115",
-          "title": "Communication Law and Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3119",
-          "title": "International Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4604",
-          "title": "Communication Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3107",
-          "title": "Fundamentals of Persuasive Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3117",
-          "title": "Media, Communication and Public Opinion",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3408",
-          "title": "Integrated Strategic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4511",
-          "title": "Social Media and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4602",
-          "title": "Topical Studies in Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4603",
-          "title": "Professional Communication Internship",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3199 in the second major, (ii) BALLA / BATI students in MDCM major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3199 in the home major."
-        },
-        {
-          "code": "COM5104",
-          "title": "Research Methods for Communication and New Media",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM) / (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "COM5503",
-          "title": "Dynamic Web Communication",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM) / (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "LT5406",
-          "title": "Psycholinguistics",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "LT5407",
-          "title": "Research Methodology for Applied Linguistics",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "MKT5610",
-          "title": "Marketing Strategy and Planning",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "MKT5648",
-          "title": "Social Media Marketing",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "SM5325",
-          "title": "Introduction to Media and Cultural Studies",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "SM5336",
-          "title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "COM2201",
-          "title": "News Writing and Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3203",
-          "title": "Data Journalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3209",
-          "title": "Digital Photojournalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3211",
-          "title": "Business Journalism",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3412",
-          "title": "Advertising Production Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3413",
-          "title": "Writing for Public Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4204",
-          "title": "News Feature Writing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4205",
-          "title": "Advanced News Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4208",
-          "title": "Magazine Writing and Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4210",
-          "title": "Cross-Platform Publication Design and Layout",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4306",
-          "title": "Video News Reporting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4510",
-          "title": "Generative AI for Multimedia Authoring",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2120",
-          "title": "Health Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2401",
-          "title": "Fundamentals of Advertising",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2402",
-          "title": "Principles of Public Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3404",
-          "title": "Event Planning and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3406",
-          "title": "Strategic Media Planning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3411",
-          "title": "Interactive Advertising",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BAMDCM + LLA / TI) only: (i) this course can be double counted to fulfil LT3399 in the second major, (ii) BALLA / BATI students in MDCM major (second major) cannot take this course, and (iii) BALLA / BATI students cannot use this course to fulfil LT3399 in the home major."
-        },
-        {
-          "code": "COM3510",
-          "title": "Digital e-Marketing Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3511",
-          "title": "AI and Strategic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4114",
-          "title": "Crisis Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4207",
-          "title": "Campaign Planning and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4414",
-          "title": "Broadcast Advertising",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4506",
-          "title": "Multimedia Campaign",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2116",
-          "title": "Audience Analytics and Media Strategies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM2405",
-          "title": "Communication and Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM3410",
-          "title": "Consumer Behavior Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4305",
-          "title": "Current Affairs Documentary Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4307",
-          "title": "Video News Production and Anchoring",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4308",
-          "title": "Convergent Newsroom Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM4309",
-          "title": "Radio News Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM5108",
-          "title": "Psychological Processing of New Media",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACNM)/ (BAMDCM + MAIMC) only."
-        },
-        {
-          "code": "CAH3165",
-          "title": "Creative Chinese",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAH3167",
-          "title": "Chinese for Mass Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CLA3100",
-          "title": "Professional Internship I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT5432",
-          "title": "Lexical Semantics",
-          "credits": 3,
-          "remarks": "For students admitted to the  Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MALS) only."
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT5643",
-          "title": "Global Marketing",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MScMKT) only."
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3306",
-          "title": "Organizational Behaviour for Public Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM5303",
-          "title": "Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain",
-          "credits": 3,
-          "remarks": "For students admitted to the Undergraduate plus Taught Postgraduate Degree under CityU Talents Programme (BAMDCM + MACM) only."
-        },
-        {
-          "code": "SS1101",
-          "title": "Basic Psychology",
-          "credits": 3,
-          "remarks": ""
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 30,
+    "collegeRequirement": 15,
+    "majorCore": 33,
+    "majorElective": 30,
+    "freeElective": 12
   },
   "allCourses": [
     "CAH1603",
@@ -992,5 +93,250 @@
     "PIA3306",
     "SM5303",
     "SS1101"
-  ]
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "COL-FOUND1",
+            "title": "College Foundation Course 1",
+            "credits": 3
+          },
+          {
+            "code": "COM2105",
+            "title": "Visual Communication",
+            "credits": 3
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2412",
+            "title": "English for the Humanities and Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "COL-FOUND2",
+            "title": "College Foundation Course 2",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "COL-SPEC1",
+            "title": "College-specified Course 1",
+            "credits": 3
+          },
+          {
+            "code": "COM2118",
+            "title": "Media and Society",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "COM2103",
+            "title": "Communication Research Methods",
+            "credits": 3
+          },
+          {
+            "code": "COM2202",
+            "title": "Writing for the Media",
+            "credits": 3
+          },
+          {
+            "code": "COM2303",
+            "title": "Video Production and Editing",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC1",
+            "title": "MDCM Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "COM2501",
+            "title": "Internet Communication",
+            "credits": 3
+          },
+          {
+            "code": "COM2509",
+            "title": "Interactive Digital Communication",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC2",
+            "title": "MDCM Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC3",
+            "title": "MDCM Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "COM3109",
+            "title": "Media and Communication in Chinese Contexts",
+            "credits": 3
+          },
+          {
+            "code": "COM3115",
+            "title": "Communication Law and Ethics",
+            "credits": 3
+          },
+          {
+            "code": "COM3119",
+            "title": "International Communication",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC4",
+            "title": "MDCM Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC5",
+            "title": "MDCM Elective 5",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MDCM-ELEC6",
+            "title": "MDCM Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC7",
+            "title": "MDCM Elective 7",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC8",
+            "title": "MDCM Elective 8",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education (Area 4)",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "COM4604",
+            "title": "Communication Practicum",
+            "credits": 3
+          },
+          {
+            "code": "MDCM-ELEC9",
+            "title": "MDCM Elective 9",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR5",
+            "title": "Gateway Education (Area 5)",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MDCM-ELEC10",
+            "title": "MDCM Elective 10",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  }
 }

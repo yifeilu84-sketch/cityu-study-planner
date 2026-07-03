@@ -3,1302 +3,134 @@
   "title": "Bachelor of Arts and Science in New Media",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BAS1_NEM-1.htm",
   "degree": "Bachelor of Arts",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "School of Creative Media",
   "college": "School of Creative Media",
   "requirements": {
     "gatewayEducation": {
-      "credits": 648,
+      "credits": 21,
       "courses": [
         {
-          "code": "SM1702",
-          "title": "Creative Media Studio I",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English or LC0200A",
+          "credits": 3
         },
         {
-          "code": "SM4712C",
-          "title": "Graduation Thesis/Project",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE2413",
+          "title": "Word, Sound and Image or LC0200B",
+          "credits": 3
         },
         {
-          "code": "SM1702",
-          "title": "Creative Media Studio I",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilization - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "SM4712C",
-          "title": "Graduation Thesis/Project",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "SM2704",
-          "title": "Creative Media Studio II",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHIN1001",
+          "title": "University Chinese I",
+          "credits": 3
         },
         {
-          "code": "SM2706",
-          "title": "Critical Theory and Socially Engaged Practices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2715",
-          "title": "Creative Coding",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2716",
-          "title": "Physical Computing and Tangible Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3804",
-          "title": "Materials and Fabrication Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3805",
-          "title": "Imaging Science Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3806",
-          "title": "Special Topics in Art and Science Studio I",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3807",
-          "title": "Machine Learning and Robotics Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3808",
-          "title": "Special Topics in Art and Science Studio II",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3809",
-          "title": "Software Art Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM2228",
-          "title": "Understanding Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2231",
-          "title": "3D Animation I - Basic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2277",
-          "title": "Life Drawing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2278",
-          "title": "Web Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2713",
-          "title": "2D Animation I - Basic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2714",
-          "title": "Fundamentals of Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2717",
-          "title": "Abstract and Experimental Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3122",
-          "title": "Computer Programming for Animators",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3146",
-          "title": "2D Animation II - Intermediate",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3605",
-          "title": "3D Contents Production in Maya",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3701",
-          "title": "Digital Composition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4123",
-          "title": "Procedural Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4124",
-          "title": "Character Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4125",
-          "title": "Computer Animation for Interactive Content",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4128",
-          "title": "Digital Lighting and Texturing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1013",
-          "title": "Introduction to Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1201",
-          "title": "Studio Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2002",
-          "title": "The Art of Editing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2211",
-          "title": "Cinematography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2253",
-          "title": "Digital Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2266",
-          "title": "Graphic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2272",
-          "title": "Cinematography II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2274",
-          "title": "History of Cinema",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2719",
-          "title": "Documentary I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2720",
-          "title": "Black and White Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3115",
-          "title": "Chinese Scriptwriting",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3131",
-          "title": "Art Direction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3151",
-          "title": "Visualizing Literature",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3710",
-          "title": "Large Format Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3721",
-          "title": "Concepts of Photography and Imaging",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3734",
-          "title": "Art Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3735",
-          "title": "Alternative Process in Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3737",
-          "title": "Expanded Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3739",
-          "title": "Documentary Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4121",
-          "title": "Directing for Hong Kong Cinema",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM4154",
-          "title": "Screen Acting Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4713",
-          "title": "Documentary II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1012B",
-          "title": "Writing and Creativity (Chinese)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3138",
-          "title": "Creative City and Urban Critique",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3711",
-          "title": "Arts Administration and Cultural Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3729",
-          "title": "Relational Aesthetics and Participatory Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3742",
-          "title": "Micro-Narratives",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3751",
-          "title": "Art, Technology and Wellbeing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2259",
-          "title": "Game and Play Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2260",
-          "title": "Interactive Narrative",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2603",
-          "title": "2D Game Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2723",
-          "title": "Psychology of Interaction and Games: Testing and Evaluation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3120",
-          "title": "Game Level Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3601",
-          "title": "Game Prototyping and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3608",
-          "title": "3D Game Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4704",
-          "title": "Art Game Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "JC2002",
-          "title": "Artists in the Labs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2220",
-          "title": "Generative Art",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2291",
-          "title": "Theories and Phenomena of Human-Computer Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2702",
-          "title": "Interdisciplinary Practices in Art, Science and the Humanities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2712",
-          "title": "Perception, Cognition, Art, and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2718",
-          "title": "Object Art Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3123",
-          "title": "Image Processing and Augmented Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3603",
-          "title": "3D Natural Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3607",
-          "title": "Mobile Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3610",
-          "title": "Hardware Hacking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3611",
-          "title": "New Media for Installation, Events and Performance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3612",
-          "title": "Mixed Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3709",
-          "title": "Art and Technology in New Media Performance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3727",
-          "title": "Wearables",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3732",
-          "title": "Site and Space: Installation Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3750",
-          "title": "Machine Learning for Artists",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3801",
-          "title": "Understanding Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4159",
-          "title": "New Media Art in the Technological Lifeworld",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2276",
-          "title": "Music Studio Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2722",
-          "title": "Sound Objects",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3130",
-          "title": "Sound Installation and Sound Spatialisation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3150",
-          "title": "Location Sound Recording",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3153",
-          "title": "Sound Design for Cinema",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3722",
-          "title": "Live Sound Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4143",
-          "title": "Sonic Arts and the History of Sounds and Noises",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700A",
-          "title": "Professional Internship I",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700B",
-          "title": "Professional Internship II",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700C",
-          "title": "Professional Internship III",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700D",
-          "title": "Professional Internship IV",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM3744",
-          "title": "Special Topics in Creative Media (I)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3745",
-          "title": "Special Topics in Creative Media (II)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3746",
-          "title": "Special Topics in Creative Media (III)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3747",
-          "title": "Special Topics in Creative Media (IV)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3748",
-          "title": "Special Topics in Creative Media (V)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3749",
-          "title": "Special Topics in Creative Media (VI)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM4709",
-          "title": "Internship and Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4711",
-          "title": "Industry Internship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724A",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724B",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724C",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724D",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724E",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724F",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2704",
-          "title": "Creative Media Studio II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2706",
-          "title": "Critical Theory and Socially Engaged Practices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2715",
-          "title": "Creative Coding",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2716",
-          "title": "Physical Computing and Tangible Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3804",
-          "title": "Materials and Fabrication Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3805",
-          "title": "Imaging Science Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3806",
-          "title": "Special Topics in Art and Science Studio I",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3807",
-          "title": "Machine Learning and Robotics Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3808",
-          "title": "Special Topics in Art and Science Studio II",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3809",
-          "title": "Software Art Studio",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM2228",
-          "title": "Understanding Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2231",
-          "title": "3D Animation I - Basic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2277",
-          "title": "Life Drawing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2278",
-          "title": "Web Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2713",
-          "title": "2D Animation I - Basic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2714",
-          "title": "Fundamentals of Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2717",
-          "title": "Abstract and Experimental Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3122",
-          "title": "Computer Programming for Animators",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3146",
-          "title": "2D Animation II - Intermediate",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3605",
-          "title": "3D Contents Production in Maya",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3701",
-          "title": "Digital Composition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4123",
-          "title": "Procedural Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4124",
-          "title": "Character Animation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4125",
-          "title": "Computer Animation for Interactive Content",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4128",
-          "title": "Digital Lighting and Texturing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1013",
-          "title": "Introduction to Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1201",
-          "title": "Studio Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2002",
-          "title": "The Art of Editing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2211",
-          "title": "Cinematography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2253",
-          "title": "Digital Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2266",
-          "title": "Graphic Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2272",
-          "title": "Cinematography II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2274",
-          "title": "History of Cinema",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2719",
-          "title": "Documentary I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2720",
-          "title": "Black and White Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3115",
-          "title": "Chinese Scriptwriting",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM3131",
-          "title": "Art Direction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3151",
-          "title": "Visualizing Literature",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3710",
-          "title": "Large Format Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3721",
-          "title": "Concepts of Photography and Imaging",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3734",
-          "title": "Art Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3735",
-          "title": "Alternative Process in Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3737",
-          "title": "Expanded Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3739",
-          "title": "Documentary Photography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4121",
-          "title": "Directing for Hong Kong Cinema",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SM4154",
-          "title": "Screen Acting Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4713",
-          "title": "Documentary II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1012B",
-          "title": "Writing and Creativity (Chinese)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3138",
-          "title": "Creative City and Urban Critique",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3711",
-          "title": "Arts Administration and Cultural Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3729",
-          "title": "Relational Aesthetics and Participatory Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3742",
-          "title": "Micro-Narratives",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3751",
-          "title": "Art, Technology and Wellbeing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2259",
-          "title": "Game and Play Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2260",
-          "title": "Interactive Narrative",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2603",
-          "title": "2D Game Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2723",
-          "title": "Psychology of Interaction and Games: Testing and Evaluation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3120",
-          "title": "Game Level Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3601",
-          "title": "Game Prototyping and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3608",
-          "title": "3D Game Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4704",
-          "title": "Art Game Studio",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "JC2002",
-          "title": "Artists in the Labs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2220",
-          "title": "Generative Art",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2291",
-          "title": "Theories and Phenomena of Human-Computer Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2702",
-          "title": "Interdisciplinary Practices in Art, Science and the Humanities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2712",
-          "title": "Perception, Cognition, Art, and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2718",
-          "title": "Object Art Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3123",
-          "title": "Image Processing and Augmented Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3603",
-          "title": "3D Natural Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3607",
-          "title": "Mobile Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3610",
-          "title": "Hardware Hacking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3611",
-          "title": "New Media for Installation, Events and Performance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3612",
-          "title": "Mixed Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3709",
-          "title": "Art and Technology in New Media Performance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3727",
-          "title": "Wearables",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3732",
-          "title": "Site and Space: Installation Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3750",
-          "title": "Machine Learning for Artists",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3801",
-          "title": "Understanding Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4159",
-          "title": "New Media Art in the Technological Lifeworld",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2276",
-          "title": "Music Studio Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2722",
-          "title": "Sound Objects",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3130",
-          "title": "Sound Installation and Sound Spatialisation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3150",
-          "title": "Location Sound Recording",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3153",
-          "title": "Sound Design for Cinema",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM3722",
-          "title": "Live Sound Production",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4143",
-          "title": "Sonic Arts and the History of Sounds and Noises",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700A",
-          "title": "Professional Internship I",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700B",
-          "title": "Professional Internship II",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700C",
-          "title": "Professional Internship III",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM1700D",
-          "title": "Professional Internship IV",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SM3744",
-          "title": "Special Topics in Creative Media (I)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3745",
-          "title": "Special Topics in Creative Media (II)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3746",
-          "title": "Special Topics in Creative Media (III)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3747",
-          "title": "Special Topics in Creative Media (IV)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3748",
-          "title": "Special Topics in Creative Media (V)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM3749",
-          "title": "Special Topics in Creative Media (VI)",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "SM4709",
-          "title": "Internship and Practicum",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM4711",
-          "title": "Industry Internship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724A",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724B",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724C",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724D",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724E",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "SM2724F",
-          "title": "Leadership and Creativity",
-          "credits": 1,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements (Area 1, 2, 3)",
+          "credits": 8
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "SM-SS",
+          "title": "School-Specified Course",
+          "credits": 3
+        },
+        {
+          "code": "SM-SS2",
+          "title": "School-Specified Course",
+          "credits": 3
+        },
+        {
+          "code": "SM-CREATE",
+          "title": "Leadership & Creativity (CREATE Stream)",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 36,
+      "courses": [
+        {
+          "code": "SM2715",
+          "title": "Creative Coding",
+          "credits": 3
+        },
+        {
+          "code": "SM1103A",
+          "title": "Introduction to Media Computing",
+          "credits": 3
+        },
+        {
+          "code": "SM1702",
+          "title": "Creative Media Studio I",
+          "credits": 3
+        },
+        {
+          "code": "SM1701",
+          "title": "New Media Art",
+          "credits": 3
+        },
+        {
+          "code": "SM2704",
+          "title": "Creative Media Studio II",
+          "credits": 3
+        },
+        {
+          "code": "SM2706",
+          "title": "Critical Theory & Socially Engaged Practices",
+          "credits": 3
+        },
+        {
+          "code": "SM2716",
+          "title": "Physical Computing and Tangible Media",
+          "credits": 3
+        },
+        {
+          "code": "SM-Studio1",
+          "title": "Art & Science Studio Course #1",
+          "credits": 6
+        },
+        {
+          "code": "SM-Studio2",
+          "title": "Art & Science Studio Course #2",
+          "credits": 6
+        },
+        {
+          "code": "SM4712C",
+          "title": "Graduation Thesis / Project",
+          "credits": 6
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 30,
+      "courses": [
+        {
+          "code": "SM-ELECTIVE",
+          "title": "Major Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 30
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 24,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -1408,5 +240,386 @@
     "SM2724D",
     "SM2724E",
     "SM2724F"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English or LC0200A",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "CHIN1001",
+            "title": "University Chinese I",
+            "credits": 3
+          },
+          {
+            "code": "SM2715",
+            "title": "Creative Coding",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective or Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2413",
+            "title": "Word, Sound and Image or LC0200B",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "SM-SS",
+            "title": "School-Specified Course",
+            "credits": 3
+          },
+          {
+            "code": "SM1702",
+            "title": "Creative Media Studio I",
+            "credits": 6
+          },
+          {
+            "code": "SM1701",
+            "title": "New Media Art",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SM2704",
+            "title": "Creative Media Studio II",
+            "credits": 3
+          },
+          {
+            "code": "SM2706",
+            "title": "Critical Theory & Socially Engaged Practices",
+            "credits": 3
+          },
+          {
+            "code": "SM-SS2",
+            "title": "School-Specified Course",
+            "credits": 3
+          },
+          {
+            "code": "SM-Studio1",
+            "title": "Art & Science Studio Course #1",
+            "credits": 6
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilization - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "SM2716",
+            "title": "Physical Computing and Tangible Media",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #1",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #2",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #3",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #4",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SM-Studio2",
+            "title": "Art & Science Studio Course #2",
+            "credits": 6
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #5",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective or Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #6",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #7",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #8",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #9",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #10",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SM4712C",
+            "title": "Graduation Thesis / Project",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #11",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Any Area)",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective or Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "SM4712C",
+            "title": "Graduation Thesis / Project",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "Major Elective #12",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective or Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective or Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "CREATE",
+      "name": "CREATE Stream",
+      "description": "Leadership & Creativity stream with enhanced creative development.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English or LC0200A",
+              "credits": 3
+            },
+            {
+              "code": "GE2413",
+              "title": "Word, Sound and Image or LC0200B",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilization - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "CHIN1001",
+              "title": "University Chinese I",
+              "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements (Area 1, 2, 3)",
+              "credits": 8
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "SM-SS",
+              "title": "School-Specified Course",
+              "credits": 3
+            },
+            {
+              "code": "SM-SS2",
+              "title": "School-Specified Course",
+              "credits": 3
+            },
+            {
+              "code": "SM-CREATE",
+              "title": "Leadership & Creativity (CREATE Stream)",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 36,
+          "courses": [
+            {
+              "code": "SM2715",
+              "title": "Creative Coding",
+              "credits": 3
+            },
+            {
+              "code": "SM1103A",
+              "title": "Introduction to Media Computing",
+              "credits": 3
+            },
+            {
+              "code": "SM1702",
+              "title": "Creative Media Studio I",
+              "credits": 3
+            },
+            {
+              "code": "SM1701",
+              "title": "New Media Art",
+              "credits": 3
+            },
+            {
+              "code": "SM2704",
+              "title": "Creative Media Studio II",
+              "credits": 3
+            },
+            {
+              "code": "SM2706",
+              "title": "Critical Theory & Socially Engaged Practices",
+              "credits": 3
+            },
+            {
+              "code": "SM2716",
+              "title": "Physical Computing and Tangible Media",
+              "credits": 3
+            },
+            {
+              "code": "SM-Studio1",
+              "title": "Art & Science Studio Course #1",
+              "credits": 6
+            },
+            {
+              "code": "SM-Studio2",
+              "title": "Art & Science Studio Course #2",
+              "credits": 6
+            },
+            {
+              "code": "SM4712C",
+              "title": "Graduation Thesis / Project",
+              "credits": 6
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 30,
+          "courses": [
+            {
+              "code": "SM-ELECTIVE",
+              "title": "Major Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 30
+        },
+        "freeElectives": {
+          "credits": 24,
+          "note": "Or Minor courses"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "School-based admitted students and Major-based admitted students have different course requirements in Year 1 and Year 2.",
+    "Students are encouraged to participate in Go Global activities (Exchange, Internship, Learning Abroad, Service Learning) for not less than 4 weeks.",
+    "Major Electives: Students must take 12 Major Electives (30-36 CUs).",
+    "SM2715 Creative Coding is for Major-based admitted students; SM1103A Introduction to Media Computing is an alternative.",
+    "SM4712C Graduation Thesis/Project is a year-long course spanning Year 4 Semester A and B."
   ]
 }

@@ -3,666 +3,179 @@
   "title": "Bachelor of Engineering in Information Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_INFE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 121,
+  "totalCredits": 126,
   "department": "Department of Electrical Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 324,
+      "credits": 21,
       "courses": [
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilization - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3103",
-          "title": "Operating Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3402",
-          "title": "Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1001",
-          "title": "Foundations of Digital Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1002",
-          "title": "Principles of Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1004",
-          "title": "Foundations of Information Systems and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2000",
-          "title": "Logic Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2004",
-          "title": "Microcomputer Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2005",
-          "title": "Electronic Devices and Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2302",
-          "title": "Foundations of Information Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2331",
-          "title": "Data Structures and Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3008",
-          "title": "Principles of Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3009",
-          "title": "Data Communications and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3070",
-          "title": "Design Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3206",
-          "title": "Java Programming and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3210",
-          "title": "Signals and Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3301",
-          "title": "Optimization Methods for Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3315",
-          "title": "Internet Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3331",
-          "title": "Probability Models in Information Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4080",
-          "title": "Project",
-          "credits": 6,
-          "remarks": "Students successfully completed EE4087 Internship: Industrial Project are not required to take this course. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4090",
-          "title": "Engineering Training",
-          "credits": 0,
-          "remarks": "Students successfully completed EE4085 Internship: Engineering Practice/ FS4007 Start-up Technology Entrepreneur Programme I are not required to take this course."
-        },
-        {
-          "code": "GE1354",
-          "title": "Introduction to Electronic Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4014",
-          "title": "Business Data Communication Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4017",
-          "title": "Internet Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4036",
-          "title": "Wireless Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4212",
-          "title": "Cryptography and Information Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4316",
-          "title": "Mobile Data Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4211 or CS4186 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "CS4482",
-          "title": "Advanced Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3209",
-          "title": "Data Management Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3220",
-          "title": "System-on-Chip Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4015",
-          "title": "Digital Signal Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4016",
-          "title": "Applications of AI with Deep Learning",
-          "credits": 3,
-          "remarks": "Students can only take either EE4016 or EE5438 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4146",
-          "title": "Data Engineering and Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4211",
-          "title": "Computer Vision",
-          "credits": 3,
-          "remarks": "Students can only take either EE4211 or CS4186 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4215",
-          "title": "Cybersecurity Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4221",
-          "title": "Cloud Computing Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4222",
-          "title": "Digital Forensics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5410",
-          "title": "Signal Processing",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE5438",
-          "title": "Applied Deep Learning",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4016 or EE5438 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4386",
-          "title": "AI Game Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4208",
-          "title": "Computer Graphics for Engineers",
-          "credits": 3,
-          "remarks": "Students can only take either EE4208 or EE5808 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4213",
-          "title": "Human-Computer Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4216",
-          "title": "Modern Web Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4304",
-          "title": "iOS Mobile App Development and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5808",
-          "title": "Topics in Computer Graphics",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4208 or EE5808 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4085",
-          "title": "Internship: Engineering Practice",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill EE2066 Engineers in Society and EE4090 Engineering Training.\n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4086",
-          "title": "Internship: Advanced Topics in Electrical Engineering",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill one elective. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4087",
-          "title": "Internship: Industrial Project",
-          "credits": 6,
-          "remarks": "This internship course of 6CU can be used to fulfill EE4080 Project. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3103",
-          "title": "Operating Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3402",
-          "title": "Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1001",
-          "title": "Foundations of Digital Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1002",
-          "title": "Principles of Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1004",
-          "title": "Foundations of Information Systems and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2000",
-          "title": "Logic Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2004",
-          "title": "Microcomputer Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2005",
-          "title": "Electronic Devices and Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2302",
-          "title": "Foundations of Information Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2331",
-          "title": "Data Structures and Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3008",
-          "title": "Principles of Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3009",
-          "title": "Data Communications and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3070",
-          "title": "Design Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3206",
-          "title": "Java Programming and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3210",
-          "title": "Signals and Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3301",
-          "title": "Optimization Methods for Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3315",
-          "title": "Internet Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3331",
-          "title": "Probability Models in Information Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4080",
-          "title": "Project",
-          "credits": 6,
-          "remarks": "Students successfully completed EE4087 Internship: Industrial Project are not required to take this course. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4090",
-          "title": "Engineering Training",
-          "credits": 0,
-          "remarks": "Students successfully completed EE4085 Internship: Engineering Practice/ FS4007 Start-up Technology Entrepreneur Programme I are not required to take this course."
-        },
-        {
-          "code": "GE1354",
-          "title": "Introduction to Electronic Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4014",
-          "title": "Business Data Communication Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4017",
-          "title": "Internet Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4036",
-          "title": "Wireless Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4212",
-          "title": "Cryptography and Information Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4316",
-          "title": "Mobile Data Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4211 or CS4186 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "CS4482",
-          "title": "Advanced Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3209",
-          "title": "Data Management Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3220",
-          "title": "System-on-Chip Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4015",
-          "title": "Digital Signal Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4016",
-          "title": "Applications of AI with Deep Learning",
-          "credits": 3,
-          "remarks": "Students can only take either EE4016 or EE5438 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4146",
-          "title": "Data Engineering and Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4211",
-          "title": "Computer Vision",
-          "credits": 3,
-          "remarks": "Students can only take either EE4211 or CS4186 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4215",
-          "title": "Cybersecurity Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4221",
-          "title": "Cloud Computing Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4222",
-          "title": "Digital Forensics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5410",
-          "title": "Signal Processing",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE5438",
-          "title": "Applied Deep Learning",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4016 or EE5438 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4386",
-          "title": "AI Game Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4208",
-          "title": "Computer Graphics for Engineers",
-          "credits": 3,
-          "remarks": "Students can only take either EE4208 or EE5808 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4213",
-          "title": "Human-Computer Interaction",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4216",
-          "title": "Modern Web Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4304",
-          "title": "iOS Mobile App Development and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5808",
-          "title": "Topics in Computer Graphics",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4208 or EE5808 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4085",
-          "title": "Internship: Engineering Practice",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill EE2066 Engineers in Society and EE4090 Engineering Training.\n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4086",
-          "title": "Internship: Advanced Topics in Electrical Engineering",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill one elective. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4087",
-          "title": "Internship: Industrial Project",
-          "credits": 6,
-          "remarks": "This internship course of 6CU can be used to fulfill EE4080 Project. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 14
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
+          "credits": 3
+        },
+        {
+          "code": "GE1354",
+          "title": "Introduction to Electronic Design",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 72,
+      "courses": [
+        {
+          "code": "EE1001",
+          "title": "Foundations of Digital Techniques",
+          "credits": 3
+        },
+        {
+          "code": "EE1002",
+          "title": "Principles of Electrical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE1004",
+          "title": "Foundations of Information Systems and Data Analysis",
+          "credits": 3
+        },
+        {
+          "code": "CS2311",
+          "title": "Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "EE2000",
+          "title": "Logic Circuit Design",
+          "credits": 3
+        },
+        {
+          "code": "EE2005",
+          "title": "Electronic Devices and Circuits",
+          "credits": 3
+        },
+        {
+          "code": "EE2302",
+          "title": "Foundations of Information Engineering and Cryptography",
+          "credits": 3
+        },
+        {
+          "code": "EE2331",
+          "title": "Data Structures and Algorithms",
+          "credits": 3
+        },
+        {
+          "code": "EE2004",
+          "title": "Microcomputer Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE3301",
+          "title": "Quantitative Methods for Information Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE3210",
+          "title": "Signals and Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE3206",
+          "title": "Object-Oriented Programming and Applications",
+          "credits": 3
+        },
+        {
+          "code": "CS3103",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE3009",
+          "title": "Data Communications and Networking",
+          "credits": 3
+        },
+        {
+          "code": "EE2303",
+          "title": "Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design",
+          "credits": 3
+        },
+        {
+          "code": "CS3402",
+          "title": "Database Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE3315",
+          "title": "Internet Technology",
+          "credits": 3
+        },
+        {
+          "code": "EE3008",
+          "title": "Principles of Communications",
+          "credits": 3
+        },
+        {
+          "code": "EE2066",
+          "title": "Engineers in Society",
+          "credits": 3
+        },
+        {
+          "code": "EE4080",
+          "title": "Project",
+          "credits": 6
+        },
+        {
+          "code": "EE3070",
+          "title": "Design Project",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 15,
+      "courses": [
+        {
+          "code": "EE-ELECTIVE",
+          "title": "Major Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 15
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -681,6 +194,7 @@
     "EE2331",
     "EE3008",
     "EE3009",
+    "EE2303",
     "EE3070",
     "EE3206",
     "EE3210",
@@ -719,5 +233,246 @@
     "EE4085",
     "EE4086",
     "EE4087"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA1200/MA1300",
+            "title": "MA1200 or MA1300",
+            "credits": 3
+          },
+          {
+            "code": "EE1001",
+            "title": "Foundations of Digital Techniques",
+            "credits": 3
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "GE1354",
+            "title": "Introduction to Electronic Design",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA1201/MA1301",
+            "title": "MA1201 or MA1301",
+            "credits": 3
+          },
+          {
+            "code": "PHY1101",
+            "title": "Introductory Classical Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "EE1004",
+            "title": "Foundations of Information Systems and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "EE1002",
+            "title": "Principles of Electrical Engineering",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA2001",
+            "title": "Multi-variable Calculus and Linear Algebra",
+            "credits": 3
+          },
+          {
+            "code": "EE2302",
+            "title": "Foundations of Information Engineering and Cryptography",
+            "credits": 3
+          },
+          {
+            "code": "CS2311",
+            "title": "Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "EE2000",
+            "title": "Logic Circuit Design",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EE3331",
+            "title": "Probability Models in Information Engineering",
+            "credits": 3
+          },
+          {
+            "code": "EE3009",
+            "title": "Data Communications and Networking",
+            "credits": 3
+          },
+          {
+            "code": "EE2303",
+            "title": "Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design",
+            "credits": 3
+          },
+          {
+            "code": "EE2004",
+            "title": "Microcomputer Systems",
+            "credits": 3
+          },
+          {
+            "code": "EE2005",
+            "title": "Electronic Devices and Circuits",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "EE3210",
+            "title": "Signals and Systems",
+            "credits": 3
+          },
+          {
+            "code": "EE3301",
+            "title": "Quantitative Methods for Information Engineering",
+            "credits": 3
+          },
+          {
+            "code": "CS3402",
+            "title": "Database Systems",
+            "credits": 3
+          },
+          {
+            "code": "EE2331",
+            "title": "Data Structures and Algorithms",
+            "credits": 3
+          },
+          {
+            "code": "EE3070",
+            "title": "Design Project",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EE3008",
+            "title": "Principles of Communications",
+            "credits": 3
+          },
+          {
+            "code": "EE3315",
+            "title": "Internet Technology",
+            "credits": 3
+          },
+          {
+            "code": "EE3206",
+            "title": "Object-Oriented Programming and Applications",
+            "credits": 3
+          },
+          {
+            "code": "CS3103",
+            "title": "Operating Systems",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "EE4090",
+            "title": "Engineering Training",
+            "credits": 0
+          }
+        ],
+        "credits": 0
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "EE-ELECTIVE",
+            "title": "Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE-ELECTIVE",
+            "title": "Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE4080",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "EE2066",
+            "title": "Engineers in Society",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EE4080",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "EE-ELECTIVE",
+            "title": "Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE-ELECTIVE",
+            "title": "Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE-ELECTIVE",
+            "title": "Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  },
+  "notes": [
+    "Structure based on Programme Structure 2026/27.",
+    "Major Electives: 5 electives required (15 CUs).",
+    "EE4080 Project is a year-long course spanning Year 4 Semester A and B.",
+    "EE4090 Engineering Training (0 CU) is recommended in Summer after Year 2 or Year 3.",
+    "EE2066 Engineers in Society is Major Requirement for ASI/II students."
   ]
 }

@@ -8,1039 +8,42 @@
   "college": "School of Law",
   "requirements": {
     "gatewayEducation": {
-      "credits": 512,
+      "credits": 31,
       "courses": [
         {
-          "code": "LW4612",
-          "title": "Legal Placement",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "LW4635",
-          "title": "Independent Research",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
         },
         {
-          "code": "LW4649",
-          "title": "International Mooting and Advocacy",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "LW4649B",
-          "title": "International Mooting and Advocacy",
-          "credits": 6,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "LW4667",
-          "title": "City University Law Review",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
         },
         {
-          "code": "LW4682",
-          "title": "Legal Clinic",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHIN1001",
+          "title": "University Chinese I",
+          "credits": 3
         },
         {
-          "code": "LW4612",
-          "title": "Legal Placement",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4635",
-          "title": "Independent Research",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649",
-          "title": "International Mooting and Advocacy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649B",
-          "title": "International Mooting and Advocacy",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4667",
-          "title": "City University Law Review",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4682",
-          "title": "Legal Clinic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2601",
-          "title": "Hong Kong Legal System",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2602A",
-          "title": "Law of Contract I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2602B",
-          "title": "Law of Contract II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2603A",
-          "title": "Law of Tort I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2603B",
-          "title": "Law of Tort II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2604",
-          "title": "Legal Methods, Research and Writing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3605A",
-          "title": "Constitutional Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3605B",
-          "title": "Administrative Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3606A",
-          "title": "Criminal Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3606B",
-          "title": "Criminal Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3607A",
-          "title": "Land Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3607B",
-          "title": "Land Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3608",
-          "title": "Jurisprudence and Legal Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3610",
-          "title": "Public Law of the PRC",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3611",
-          "title": "Private Law of the PRC",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4630A",
-          "title": "Equity and Trusts I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4630B",
-          "title": "Equity and Trusts II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4656",
-          "title": "Company Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4657",
-          "title": "Company Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4612",
-          "title": "Legal Placement",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4613",
-          "title": "Private International Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4614",
-          "title": "Dispute Resolution",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4615",
-          "title": "Principles of Insurance Law (Marine and General)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4616",
-          "title": "Law of Evidence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4617",
-          "title": "Family Law in Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4618",
-          "title": "Law and Gender",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4620",
-          "title": "International Trade Regulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4621",
-          "title": "Law of International Sales and Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4622",
-          "title": "Law of Human Rights and Civil Liberties of Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4624",
-          "title": "Planning Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4625",
-          "title": "Environmental Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4626",
-          "title": "Comparative Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4627",
-          "title": "Economic Law of China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4628",
-          "title": "Foreign Investment and Trade Law of China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4631",
-          "title": "Banking Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4632",
-          "title": "International Financial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4633",
-          "title": "Law and Business in the European Union",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4634",
-          "title": "Public International Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4635",
-          "title": "Independent Research",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4636",
-          "title": "Sea Carriage Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4637",
-          "title": "Criminology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4638",
-          "title": "Criminal Justice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4639",
-          "title": "Securities Regulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4640",
-          "title": "Advanced Legal Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4641",
-          "title": "Intellectual Property: Theory, Copyright and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4642",
-          "title": "Intellectual Property Law: Theory, Patents and Trademarks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4643",
-          "title": "Cyber Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4645",
-          "title": "Revenue Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4646",
-          "title": "Air and Space Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4647",
-          "title": "Law of Wills (Succession)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649",
-          "title": "International Mooting and Advocacy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649B",
-          "title": "International Mooting and Advocacy",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4650",
-          "title": "Issues in Equity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4658",
-          "title": "Commercial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4661",
-          "title": "Human Rights Responsibilities of Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4662",
-          "title": "Intensive Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "LW4663",
-          "title": "Selected Problems in International Investment Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4664",
-          "title": "European Competition Law and Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4665",
-          "title": "Special Topics in International Law: ICL/IHL",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4666",
-          "title": "Admiralty Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4667",
-          "title": "City University Law Review",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4668",
-          "title": "Mediation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4670",
-          "title": "International Human Rights Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4671",
-          "title": "Family Law in a Comparative Perspective",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4672",
-          "title": "Chinese and Comparative Commercial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4673",
-          "title": "Animal Law and Welfare",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4674",
-          "title": "Global Legal Education and Awareness Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4675",
-          "title": "Consumer Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677A",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677B",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677C",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677D",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4678",
-          "title": "Introduction to Law and Economics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4679",
-          "title": "Employment Law in Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4680",
-          "title": "Principles of Maritime Law and Governance for Sustainable Shipping",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4681",
-          "title": "Comparative Contract Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4682",
-          "title": "Legal Clinic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4683",
-          "title": "International Water Law, Policy and Practice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4684",
-          "title": "Torts and Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "JC2066",
-          "title": "IT Professionals: Ethical, Legal and Social Issues",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2601",
-          "title": "Hong Kong Legal System",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2602A",
-          "title": "Law of Contract I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2602B",
-          "title": "Law of Contract II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2603A",
-          "title": "Law of Tort I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2603B",
-          "title": "Law of Tort II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2604",
-          "title": "Legal Methods, Research and Writing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3605A",
-          "title": "Constitutional Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3605B",
-          "title": "Administrative Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3606A",
-          "title": "Criminal Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3606B",
-          "title": "Criminal Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3607A",
-          "title": "Land Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3607B",
-          "title": "Land Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3608",
-          "title": "Jurisprudence and Legal Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3610",
-          "title": "Public Law of the PRC",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW3611",
-          "title": "Private Law of the PRC",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4630A",
-          "title": "Equity and Trusts I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4630B",
-          "title": "Equity and Trusts II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4656",
-          "title": "Company Law I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4657",
-          "title": "Company Law II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4612",
-          "title": "Legal Placement",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4613",
-          "title": "Private International Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4614",
-          "title": "Dispute Resolution",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4615",
-          "title": "Principles of Insurance Law (Marine and General)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4616",
-          "title": "Law of Evidence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4617",
-          "title": "Family Law in Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4618",
-          "title": "Law and Gender",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4620",
-          "title": "International Trade Regulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4621",
-          "title": "Law of International Sales and Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4622",
-          "title": "Law of Human Rights and Civil Liberties of Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4624",
-          "title": "Planning Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4625",
-          "title": "Environmental Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4626",
-          "title": "Comparative Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4627",
-          "title": "Economic Law of China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4628",
-          "title": "Foreign Investment and Trade Law of China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4631",
-          "title": "Banking Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4632",
-          "title": "International Financial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4633",
-          "title": "Law and Business in the European Union",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4634",
-          "title": "Public International Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4635",
-          "title": "Independent Research",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4636",
-          "title": "Sea Carriage Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4637",
-          "title": "Criminology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4638",
-          "title": "Criminal Justice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4639",
-          "title": "Securities Regulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4640",
-          "title": "Advanced Legal Theory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4641",
-          "title": "Intellectual Property: Theory, Copyright and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4642",
-          "title": "Intellectual Property Law: Theory, Patents and Trademarks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4643",
-          "title": "Cyber Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4645",
-          "title": "Revenue Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4646",
-          "title": "Air and Space Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4647",
-          "title": "Law of Wills (Succession)",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649",
-          "title": "International Mooting and Advocacy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4649B",
-          "title": "International Mooting and Advocacy",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LW4650",
-          "title": "Issues in Equity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4658",
-          "title": "Commercial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4661",
-          "title": "Human Rights Responsibilities of Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4662",
-          "title": "Intensive Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "LW4663",
-          "title": "Selected Problems in International Investment Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4664",
-          "title": "European Competition Law and Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4665",
-          "title": "Special Topics in International Law: ICL/IHL",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4666",
-          "title": "Admiralty Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4667",
-          "title": "City University Law Review",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4668",
-          "title": "Mediation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4670",
-          "title": "International Human Rights Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4671",
-          "title": "Family Law in a Comparative Perspective",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4672",
-          "title": "Chinese and Comparative Commercial Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4673",
-          "title": "Animal Law and Welfare",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4674",
-          "title": "Global Legal Education and Awareness Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4675",
-          "title": "Consumer Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677A",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677B",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677C",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4677D",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "LW4678",
-          "title": "Introduction to Law and Economics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4679",
-          "title": "Employment Law in Hong Kong",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4680",
-          "title": "Principles of Maritime Law and Governance for Sustainable Shipping",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4681",
-          "title": "Comparative Contract Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4682",
-          "title": "Legal Clinic",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4683",
-          "title": "International Water Law, Policy and Practice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW4684",
-          "title": "Torts and Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "JC2066",
-          "title": "IT Professionals: Ethical, Legal and Social Issues",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE-OTHER",
+          "title": "Gateway Education courses, Law electives or other courses",
+          "credits": 6
         }
       ]
     },
@@ -1049,16 +52,129 @@
       "courses": []
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 72,
+      "courses": [
+        {
+          "code": "LW2601",
+          "title": "Hong Kong Legal System",
+          "credits": 3
+        },
+        {
+          "code": "LW2602A",
+          "title": "Law of Contract I",
+          "credits": 3
+        },
+        {
+          "code": "LW2602B",
+          "title": "Law of Contract II",
+          "credits": 3
+        },
+        {
+          "code": "LW2603A",
+          "title": "Law of Tort I",
+          "credits": 3
+        },
+        {
+          "code": "LW2603B",
+          "title": "Law of Tort II",
+          "credits": 3
+        },
+        {
+          "code": "LW2604",
+          "title": "Legal Methods, Research and Writing",
+          "credits": 3
+        },
+        {
+          "code": "LW3605A",
+          "title": "Constitutional Law",
+          "credits": 3
+        },
+        {
+          "code": "LW3605B",
+          "title": "Administrative Law",
+          "credits": 3
+        },
+        {
+          "code": "LW3606A",
+          "title": "Criminal Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW3606B",
+          "title": "Criminal Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW3607A",
+          "title": "Land Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW3607B",
+          "title": "Land Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW3608",
+          "title": "Jurisprudence and Legal Theory",
+          "credits": 3
+        },
+        {
+          "code": "LW3610",
+          "title": "Public Law of the PRC",
+          "credits": 3
+        },
+        {
+          "code": "LW3611",
+          "title": "Private Law of the PRC",
+          "credits": 3
+        },
+        {
+          "code": "LW4630A",
+          "title": "Equity and Trusts I",
+          "credits": 3
+        },
+        {
+          "code": "LW4630B",
+          "title": "Equity and Trusts II",
+          "credits": 3
+        },
+        {
+          "code": "LW4656",
+          "title": "Company Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW4657",
+          "title": "Company Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW4658",
+          "title": "Commercial Law",
+          "credits": 3
+        },
+        {
+          "code": "LW4616",
+          "title": "Law of Evidence",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 18,
+      "courses": [
+        {
+          "code": "LW-ELECTIVE",
+          "title": "Law Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 18
     },
     "freeElectives": {
       "credits": 0,
-      "courses": []
+      "note": "No free electives required"
     }
   },
   "allCourses": [
@@ -1142,5 +258,267 @@
     "LW4683",
     "LW4684",
     "JC2066"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "LW2601",
+            "title": "Hong Kong Legal System",
+            "credits": 3
+          },
+          {
+            "code": "LW2602A",
+            "title": "Law of Contract I",
+            "credits": 3
+          },
+          {
+            "code": "LW2603A",
+            "title": "Law of Tort I",
+            "credits": 3
+          },
+          {
+            "code": "LW2604",
+            "title": "Legal Methods, Research and Writing",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LW2602B",
+            "title": "Law of Contract II",
+            "credits": 3
+          },
+          {
+            "code": "LW2603B",
+            "title": "Law of Tort II",
+            "credits": 3
+          },
+          {
+            "code": "LW3605A",
+            "title": "Constitutional Law",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LW3605B",
+            "title": "Administrative Law",
+            "credits": 3
+          },
+          {
+            "code": "LW3606A",
+            "title": "Criminal Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW3607A",
+            "title": "Land Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW4658",
+            "title": "Commercial Law",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LW3610",
+            "title": "Public Law of the PRC",
+            "credits": 3
+          },
+          {
+            "code": "LW3606B",
+            "title": "Criminal Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW3607B",
+            "title": "Land Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW3608",
+            "title": "Jurisprudence and Legal Theory",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "LW4612",
+            "title": "Legal Placement / G-LEAP",
+            "credits": 3
+          }
+        ],
+        "credits": 3
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LW3611",
+            "title": "Private Law of the PRC",
+            "credits": 3
+          },
+          {
+            "code": "LW4656",
+            "title": "Company Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW4630A",
+            "title": "Equity and Trusts I",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LW4657",
+            "title": "Company Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW4630B",
+            "title": "Equity and Trusts II",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 9
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "LW4612",
+            "title": "Legal Placement / G-LEAP",
+            "credits": 3
+          }
+        ],
+        "credits": 3
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LW4616",
+            "title": "Law of Evidence",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "LW-ELECTIVE",
+            "title": "Law Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "notes": [
+    "Suggested study plan for students admitted from 2025 and thereafter.",
+    "Major requirements: 21 core law courses (63 CUs) + Law electives (18 CUs).",
+    "Students are advised to take Law electives from Year 2 onwards.",
+    "Students who go on exchange can exceptionally do core courses concurrently in Year 3 and Year 4.",
+    "G-LEAP / LW4612 Legal Placement (3 CUs) can be taken in Summer of Year 2 or Year 3."
   ]
 }

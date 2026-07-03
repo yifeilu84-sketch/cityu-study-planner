@@ -7,831 +7,11 @@
   "department": "Department of Data Science",
   "college": "College of Computing",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 390,
-      "courses": [
-        {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC1001",
-          "title": "Introduction to Data Science",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2001",
-          "title": "Python for Data Science",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2002",
-          "title": "Convex Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2004",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2005",
-          "title": "Introduction to Computational Social Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2102",
-          "title": "Statistical Methods and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2334",
-          "title": "Data Structures for Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3273",
-          "title": "Data Protection and System Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3006",
-          "title": "Fundamentals of Machine Learning I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3007",
-          "title": "Advanced Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3025",
-          "title": "Internship for Flagship Programme",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC4116",
-          "title": "Data Science Capstone",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "GE2339",
-          "title": "Smart City - a Systems Engineering Perspective",
-          "credits": 3,
-          "remarks": "B2 level / Artificial Intelligence"
-        },
-        {
-          "code": "IS2505",
-          "title": "e-Business",
-          "credits": 3,
-          "remarks": "B2 level / General"
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence, Core course for ACT stream"
-        },
-        {
-          "code": "SDSC3002",
-          "title": "Data Mining",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3004",
-          "title": "Computational Optimization",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC3005",
-          "title": "Computational Statistics",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC3008",
-          "title": "Systems Dynamics and Control",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3009",
-          "title": "Behavioural Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3010",
-          "title": "Digital Trace Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3011",
-          "title": "Social Data Processing and Modelling",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3013",
-          "title": "Introduction to Social Media Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3014",
-          "title": "Introduction to Sharing Economy",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3015",
-          "title": "Knowledge Graph and Cognitive Computing",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3016",
-          "title": "Social Network Analysis",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3017",
-          "title": "Game Theory and Its Application",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3018",
-          "title": "Introduction to Internet of Things",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3019",
-          "title": "Introduction to Networked Life and Data Science",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3023",
-          "title": "Data Science Applications in Portfolio Risk Analysis",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3060",
-          "title": "Operations Research",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3105",
-          "title": "Bayesian Analysis",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "COM4511",
-          "title": "Social Media and Communication",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4296",
-          "title": "Cloud Computing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4001",
-          "title": "Foundation of Reinforcement Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC4008",
-          "title": "Deep Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC4009",
-          "title": "Data Intelligence in Action",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4010",
-          "title": "Projects in Data Science (research)",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "SDSC4011",
-          "title": "Experimental Research for Social Media",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence, Statistical Learning and Social Media Analytics"
-        },
-        {
-          "code": "SDSC4018",
-          "title": "AI in Systematic Trading",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4019",
-          "title": "Stochastic Processes and Applications",
-          "credits": 3,
-          "remarks": "B4 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC4026",
-          "title": "Systems Modelling and Simulation",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC4070",
-          "title": "Large Language Models",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "SDSC4110",
-          "title": "Statistical Design and Analysis of Experiments",
-          "credits": 3,
-          "remarks": "B4 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC0001",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0002",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0003",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0004",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3080",
-          "title": "Internship",
-          "credits": 3,
-          "remarks": "Not available for ACT stream"
-        },
-        {
-          "code": "SDSC1001",
-          "title": "Introduction to Data Science",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2001",
-          "title": "Python for Data Science",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2002",
-          "title": "Convex Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2004",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2005",
-          "title": "Introduction to Computational Social Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2102",
-          "title": "Statistical Methods and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2334",
-          "title": "Data Structures for Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3273",
-          "title": "Data Protection and System Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3006",
-          "title": "Fundamentals of Machine Learning I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3007",
-          "title": "Advanced Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3025",
-          "title": "Internship for Flagship Programme",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC4116",
-          "title": "Data Science Capstone",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "GE2339",
-          "title": "Smart City - a Systems Engineering Perspective",
-          "credits": 3,
-          "remarks": "B2 level / Artificial Intelligence"
-        },
-        {
-          "code": "IS2505",
-          "title": "e-Business",
-          "credits": 3,
-          "remarks": "B2 level / General"
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence, Core course for ACT stream"
-        },
-        {
-          "code": "SDSC3002",
-          "title": "Data Mining",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3004",
-          "title": "Computational Optimization",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC3005",
-          "title": "Computational Statistics",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC3008",
-          "title": "Systems Dynamics and Control",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3009",
-          "title": "Behavioural Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3010",
-          "title": "Digital Trace Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3011",
-          "title": "Social Data Processing and Modelling",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3013",
-          "title": "Introduction to Social Media Analytics",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3014",
-          "title": "Introduction to Sharing Economy",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3015",
-          "title": "Knowledge Graph and Cognitive Computing",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3016",
-          "title": "Social Network Analysis",
-          "credits": 3,
-          "remarks": "B3 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC3017",
-          "title": "Game Theory and Its Application",
-          "credits": 3,
-          "remarks": "B3 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3018",
-          "title": "Introduction to Internet of Things",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3019",
-          "title": "Introduction to Networked Life and Data Science",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3023",
-          "title": "Data Science Applications in Portfolio Risk Analysis",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3060",
-          "title": "Operations Research",
-          "credits": 3,
-          "remarks": "B3 level / General"
-        },
-        {
-          "code": "SDSC3105",
-          "title": "Bayesian Analysis",
-          "credits": 3,
-          "remarks": "B3 level / Statistical Learning"
-        },
-        {
-          "code": "COM4511",
-          "title": "Social Media and Communication",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4296",
-          "title": "Cloud Computing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4001",
-          "title": "Foundation of Reinforcement Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC4008",
-          "title": "Deep Learning",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence and Statistical Learning"
-        },
-        {
-          "code": "SDSC4009",
-          "title": "Data Intelligence in Action",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4010",
-          "title": "Projects in Data Science (research)",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "SDSC4011",
-          "title": "Experimental Research for Social Media",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence, Statistical Learning and Social Media Analytics"
-        },
-        {
-          "code": "SDSC4018",
-          "title": "AI in Systematic Trading",
-          "credits": 3,
-          "remarks": "B4 level / Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4019",
-          "title": "Stochastic Processes and Applications",
-          "credits": 3,
-          "remarks": "B4 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC4026",
-          "title": "Systems Modelling and Simulation",
-          "credits": 3,
-          "remarks": "B4 level / Social Media Analytics"
-        },
-        {
-          "code": "SDSC4070",
-          "title": "Large Language Models",
-          "credits": 3,
-          "remarks": "B4 level / General"
-        },
-        {
-          "code": "SDSC4110",
-          "title": "Statistical Design and Analysis of Experiments",
-          "credits": 3,
-          "remarks": "B4 level / Statistical Learning"
-        },
-        {
-          "code": "SDSC0001",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0002",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0003",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0004",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3080",
-          "title": "Internship",
-          "credits": 3,
-          "remarks": "Not available for ACT stream"
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 30,
+    "collegeRequirement": 15,
+    "majorCore": 45,
+    "majorElective": 15,
+    "freeElective": 16
   },
   "allCourses": [
     "MA1503",
@@ -900,5 +80,261 @@
     "SDSC0003",
     "SDSC0004",
     "SDSC3080"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA1508",
+            "title": "Calculus",
+            "credits": 4
+          },
+          {
+            "code": "CS1315",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "SDSC1001",
+            "title": "Introduction to Data Science",
+            "credits": 2
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA1503",
+            "title": "Linear Algebra with Applications",
+            "credits": 4
+          },
+          {
+            "code": "SDSC2004",
+            "title": "Data Visualization",
+            "credits": 3
+          },
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA2510",
+            "title": "Probability and Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MA2508",
+            "title": "Multi-variable Calculus",
+            "credits": 4
+          },
+          {
+            "code": "SDSC2001",
+            "title": "Python for Data Science",
+            "credits": 4
+          },
+          {
+            "code": "CS2334",
+            "title": "Data Structures for Data Science",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS3402",
+            "title": "Database Systems",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2002",
+            "title": "Convex Optimization",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2005",
+            "title": "Introduction to Computational Social Science",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2102",
+            "title": "Statistical Methods and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SDSC3006",
+            "title": "Fundamentals of Machine Learning I",
+            "credits": 3
+          },
+          {
+            "code": "SDSC3007",
+            "title": "Advanced Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "SDSC2003",
+            "title": "Human Contexts and Ethics in Data Science",
+            "credits": 3
+          },
+          {
+            "code": "CS3273",
+            "title": "Data Protection and System Security",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SDSC4116",
+            "title": "Data Science Capstone",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "SDSC4116",
+            "title": "Data Science Capstone",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "notes": [
+    "Model Study Path for normative 4-year degree.",
+    "Major Electives: 7 electives required (21 CUs).",
+    "Free Electives: 6 courses (18 CUs) or Minor courses.",
+    "SDSC4116 Data Science Capstone is a year-long course spanning Year 4 Semester A and B."
   ]
 }

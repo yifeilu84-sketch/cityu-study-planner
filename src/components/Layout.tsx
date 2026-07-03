@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { BookOpen, GraduationCap } from 'lucide-react'
+import { BookOpen, GraduationCap, Search } from 'lucide-react'
 import type { ReactNode } from 'react'
 
 interface LayoutProps {
@@ -14,6 +14,13 @@ export default function Layout({ children }: LayoutProps) {
           <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8 text-cityu-accent" />
           <Link to="/" className="text-lg sm:text-xl font-bold hover:text-cityu-accent transition-colors">
             CityU Study Planner
+          </Link>
+          <Link
+            to="/ge"
+            className="ml-auto sm:ml-4 inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs sm:text-sm bg-white/10 hover:bg-white/15 hover:text-cityu-accent transition-colors"
+          >
+            <Search className="w-4 h-4" />
+            GE 选课助手
           </Link>
           <span className="text-gray-400 text-xs sm:text-sm ml-auto hidden sm:block">
             香港城市大学课程规划助手

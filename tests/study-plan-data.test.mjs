@@ -1,0 +1,261 @@
+import { readFileSync } from 'node:fs'
+import { test } from 'node:test'
+import assert from 'node:assert/strict'
+import { generateStudyPlan, getAllMajorCourses } from '../src/utils/studyPlan.ts'
+import { buildCoursePool } from '../src/utils/editPlan.ts'
+
+const majors = JSON.parse(readFileSync(new URL('../src/data/all-majors.json', import.meta.url), 'utf8'))
+const courses = JSON.parse(readFileSync(new URL('../src/data/courses.json', import.meta.url), 'utf8'))
+
+function major(code) {
+  const found = majors.find((item) => item.code === code)
+  assert.ok(found, `Expected ${code} to exist in all-majors.json`)
+  return found
+}
+
+function semesterCodes(code, year, sem) {
+  return major(code).studyPlan?.[`year${year}`]?.[sem]?.courses.map((course) => course.code) ?? []
+}
+
+function planCourseCodes(item) {
+  return Object.values(item.studyPlan ?? {})
+    .flatMap((year) => Object.values(year))
+    .flatMap((semester) => semester.courses.map((course) => course.code))
+}
+
+function isGeneric(code) {
+  return /^(GE(-|$)|GE Area|GE-Area|GE-DR|GE-COL|GE-ELECTIVE|ELECTIVE|MAJOR-ELECT|FREE|MINOR|COLLEGE|COL-ELEC|LAW-ELECTIVE|CRS-ELECTIVE|CS-E|DR-|FIN-ELECTIVE|EVE-ELECTIVE|AC-ELECTIVE)/i.test(code)
+}
+
+test('major course list includes real courses that appear only in the official study plan', () => {
+  const bme = major('BENG1_BME-1')
+  const codes = new Set(getAllMajorCourses(bme).map((course) => course.code))
+
+  assert.ok(codes.has('PHY1201'), 'BME Year 1 Sem A physics course should be visible in the course list')
+  assert.ok(codes.has('CHEM1200'), 'BME Year 1 Sem A biology course should be visible in the course list')
+  assert.ok(codes.has('CHEM1300'), 'BME Year 1 Sem B chemistry course should be visible in the course list')
+})
+
+test('EE flowchart majors keep 2026/27 course placement from the official diagrams', () => {
+  assert.deepEqual(semesterCodes('BENG1_CDE-1', 2, 'semA'), ['MA2001', 'EE3001', 'CS2311', 'EE2000'])
+  assert.deepEqual(semesterCodes('BENG1_CDE-1', 3, 'semB'), ['EE4146', 'CS3402', 'EE3220', 'EE3315'])
+
+  assert.deepEqual(semesterCodes('BENG1_ELEL-1', 2, 'semA'), ['MA2001', 'EE2108', 'EE2005', 'CS2311'])
+  assert.deepEqual(semesterCodes('BENG1_ELEL-1', 2, 'semB'), ['EE3121', 'EE3210', 'EE2104', 'EE2000'])
+
+  assert.deepEqual(semesterCodes('BENG1_INFE-1', 2, 'semB'), ['EE3331', 'EE3009', 'EE2303', 'EE2004', 'EE2005'])
+  assert.deepEqual(semesterCodes('BENG1_INFE-1', 3, 'semA'), ['EE3210', 'EE3301', 'CS3402', 'EE2331', 'EE3070'])
+
+  assert.deepEqual(semesterCodes('BENG1_MEE-1', 2, 'semB'), ['EE2800', 'EE3121', 'EE3210', 'EE2104'])
+  assert.deepEqual(semesterCodes('BENG1_MEE-1', 3, 'semA'), ['EE3800', 'EE3008', 'EE3801', 'EE2004'])
+})
+
+test('official summer training slots are generated from study plans', () => {
+  const generated = generateStudyPlan(major('BENG1_CDE-1'), courses)
+  const year3Summer = generated.find((semester) => semester.year === 3 && semester.sem === 'Summer')
+
+  assert.deepEqual(year3Summer?.courses.map((course) => course.code), ['EE4090'])
+})
+
+test('latest INFE v3 course appears in the searchable course list', () => {
+  const infeCourses = getAllMajorCourses(major('BENG1_INFE-1'))
+  const ee2303 = infeCourses.find((course) => course.code === 'EE2303')
+
+  assert.equal(ee2303?.title, 'Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design')
+})
+
+test('MGT 2025/26 normative plan follows the supplied HRM/SIM schedule', () => {
+  const mgt = major('BBA1_MGMT-1')
+  const allPlanCourses = Object.values(mgt.studyPlan)
+    .flatMap((year) => Object.values(year))
+    .flatMap((semester) => semester.courses.map((course) => course.code))
+  const totalPlanCredits = Object.values(mgt.studyPlan)
+    .flatMap((year) => Object.values(year))
+    .reduce((sum, semester) => sum + semester.credits, 0)
+  const mgtCourseList = new Set(getAllMajorCourses(mgt).map((course) => course.code))
+
+  assert.equal(mgt.totalCredits, 121)
+  assert.equal(totalPlanCredits, 121)
+  assert.deepEqual(semesterCodes('BBA1_MGMT-1', 2, 'semA'), ['CB2402', 'CB2101', 'CB2200', 'MGT3306', 'MGT2324'])
+  assert.deepEqual(semesterCodes('BBA1_MGMT-1', 3, 'semB'), ['GE-COL', 'STREAM-ELECT1', 'MAJOR-ELECT1', 'COL-ELEC1', 'MINOR3'])
+  assert.equal(allPlanCourses.filter((code) => code === 'GE1401').length, 1)
+  assert.equal(allPlanCourses.filter((code) => code === 'GE2402').length, 1)
+  assert.equal(allPlanCourses.includes('CHIN1001'), false)
+  assert.ok(mgtCourseList.has('CB2240'))
+  assert.ok(mgtCourseList.has('CB2203'))
+  assert.equal(mgt.streams.find((stream) => stream.code === 'HRM')?.studyPlan.year3.semB.courses[1].title, 'HRM Stream Elective')
+  assert.equal(mgt.streams.find((stream) => stream.code === 'SIM')?.studyPlan.year3.semB.courses[1].title, 'SIM Stream Elective')
+})
+
+test('official double degree programmes from ADMO are present with five-year study plans', () => {
+  const doubleDegreeCodes = [
+    'DBSCBSC1_D008-0',
+    'DEVEFIN1_D009-0',
+    'DBSSLLB1_D007-0',
+    'DLLBBBA1_D005-0',
+  ]
+
+  for (const code of doubleDegreeCodes) {
+    const item = major(code)
+    const generated = generateStudyPlan(item, courses)
+    assert.ok(item.title.includes(' and '), `${code} should be a named double degree`)
+    assert.ok(item.studyPlan.year5, `${code} should keep its fifth year`)
+    assert.equal(generated.some((semester) => semester.year === 5), true, `${code} should render Year 5`)
+    assert.ok(planCourseCodes(item).some((courseCode) => !isGeneric(courseCode)), `${code} should include official planned courses`)
+  }
+
+  assert.deepEqual(semesterCodes('DBSCBSC1_D008-0', 5, 'semA'), ['CB4001', 'EN4262', 'EF4821', 'GE-2'])
+  assert.deepEqual(semesterCodes('DEVEFIN1_D009-0', 5, 'semB'), ['SEE4001', 'SEE4204', 'SEE4996', 'FIN-ELECTIVE'])
+  assert.deepEqual(semesterCodes('DBSSLLB1_D007-0', 5, 'semB'), ['SS4296', 'SS4718', 'LW4616'])
+  assert.deepEqual(semesterCodes('DLLBBBA1_D005-0', 5, 'semA'), ['AC-ELECTIVE1', 'AC-ELECTIVE2', 'COLLEGE-SPECIFIED1', 'LW4658'])
+})
+
+test('flagship pathways without explicit official semester plans use empty DIY planning grids', () => {
+  const flagshipCodes = ['CBIO_BIO3-1', 'CC_ACT-1', 'CENG_PRIME-1', 'SCM_CREATE-1', 'CSCI_GREAT-1']
+
+  for (const code of flagshipCodes) {
+    const item = major(code)
+    assert.equal(item.studyPlanStatus, 'diy')
+    const generated = generateStudyPlan(item, courses)
+    assert.equal(generated.length, 12, `${code} should provide four empty years including summers`)
+    assert.equal(generated.every((semester) => semester.courses.length === 0 && semester.totalCredits === 0), true)
+    assert.ok(item.streams?.length > 0, `${code} should expose official underlying majors as streams`)
+    const pool = buildCoursePool(item, courses, undefined, 0)
+    assert.ok(pool.length > 0, `${code} first stream should expose required courses for DIY planning`)
+  }
+})
+
+test('catalogue-derived plans are labelled as DIY references instead of official plans', () => {
+  const derivedCodes = ['BBA1_BE2-1', 'BBA1_FIN3-1', 'BBA1_MKT1-1', 'BA1_TVB-1', 'BA1_MDCM-1', 'BSS1_IRGA-1']
+
+  for (const code of derivedCodes) {
+    const item = major(code)
+    assert.equal(item.studyPlanStatus, 'derived', `${code} should be marked as derived from graduation requirements`)
+    assert.ok(item.notes.some((note) => note.includes('DIY reference')), `${code} should tell students to DIY-check the plan`)
+    assert.ok(planCourseCodes(item).length > 0, `${code} should still expose the arranged reference plan`)
+  }
+})
+
+test('Artificial Intelligence in Business replaces the old Information Management display name', () => {
+  const aib = major('BBA1_IFMG-1')
+  assert.equal(aib.title, 'Bachelor of Business Administration in Artificial Intelligence in Business')
+  assert.equal(aib.notes.some((note) => note.includes('Information Management')), true)
+})
+
+test('free-combination GE courses and new double-degree courses have verified course assessment data', () => {
+  const gePool = buildCoursePool(major('BENG1_BME-1'), courses).filter((course) => /^GE\d{4}$/.test(course.code))
+  assert.ok(gePool.length >= 100, 'GE pool should include the current free-combination GE course set')
+
+  const requiredCodes = new Set([
+    ...gePool.map((course) => course.code),
+    'GE2262',
+    'GE2263',
+    'CS2611',
+    'EN4262',
+    'AC3390',
+    'CB3043',
+  ])
+
+  const missing = []
+  for (const code of requiredCodes) {
+    const course = courses[code]
+    if (!course) {
+      missing.push(`${code}: missing course`)
+      continue
+    }
+    const hasAssessment = Boolean(course.assessment?.continuous || course.assessment?.exam || course.assessment?.details || course.assessment?.breakdown)
+    if (!course.pdfUrl || !course.courseUrl || !hasAssessment) {
+      missing.push(`${code}: incomplete official course detail`)
+    }
+  }
+
+  assert.deepEqual(missing, [])
+})
+
+test('new official programmes do not expose real course codes without course detail records', () => {
+  const programmeCodes = [
+    'DBSCBSC1_D008-0',
+    'DEVEFIN1_D009-0',
+    'DBSSLLB1_D007-0',
+    'DLLBBBA1_D005-0',
+    'CBIO_BIO3-1',
+    'CC_ACT-1',
+    'CENG_PRIME-1',
+    'SCM_CREATE-1',
+    'CSCI_GREAT-1',
+  ]
+
+  const missing = []
+  for (const code of programmeCodes) {
+    const item = major(code)
+    const candidateCodes = new Set(item.allCourses ?? [])
+    for (const year of Object.values(item.studyPlan ?? {})) {
+      for (const semester of Object.values(year)) {
+        for (const plannedCourse of semester.courses ?? []) {
+          candidateCodes.add(plannedCourse.code)
+        }
+      }
+    }
+    for (const stream of item.streams ?? []) {
+      for (const streamCourse of stream.allCourses ?? []) {
+        candidateCodes.add(streamCourse)
+      }
+    }
+
+    for (const rawCode of candidateCodes) {
+      const lookupCode = rawCode.trim().split(/[\s/]+/)[0]
+      if (!lookupCode || isGeneric(lookupCode)) continue
+      if (!courses[lookupCode]) missing.push(`${code}: ${lookupCode}`)
+    }
+  }
+
+  assert.deepEqual(missing, [])
+})
+
+test('source labels distinguish official, structure, derived, and diy plans', async () => {
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+
+  assert.equal(getStudyPlanSourceStatus(major('BENG1_BME-1')).kind, 'official')
+  assert.equal(getStudyPlanSourceStatus(major('BENG1_CDE-1')).kind, 'structure')
+  assert.equal(getStudyPlanSourceStatus(major('BBA1_BE2-1')).kind, 'derived')
+  assert.equal(getStudyPlanSourceStatus(major('CBIO_BIO3-1')).kind, 'diy')
+})
+
+test('global search returns majors and real courses while excluding placeholders', async () => {
+  const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
+  const index = buildSearchIndex(majors, courses)
+
+  const cs = searchPlanner(index, 'computer science')
+  assert.ok(cs.majors.some((item) => item.code === 'BSC1_CSC1-1'))
+
+  const ge2401 = searchPlanner(index, 'GE2401')
+  assert.ok(ge2401.courses.some((item) => item.code === 'GE2401'))
+
+  const placeholder = searchPlanner(index, 'MAJOR-ELECTIVE')
+  assert.equal(placeholder.courses.length, 0)
+})
+
+test('ge helper exposes verified GE courses with assessment filters', async () => {
+  const { getGECourses, filterGECourses } = await import('../src/utils/geCourses.ts')
+  const items = getGECourses(courses)
+
+  assert.ok(items.length >= 100)
+  assert.ok(items.every((item) => /^GE\d{4}$/.test(item.code)))
+  assert.ok(filterGECourses(items, { query: 'English', area: 'all', exam: 'any' }).length > 0)
+  assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'has-exam' }).every((item) => item.examPercent > 0))
+})
+
+test('issue report includes entity context and official evidence prompt', async () => {
+  const { buildIssueReport } = await import('../src/utils/feedback.ts')
+  const report = buildIssueReport({
+    entityType: 'major',
+    code: 'BBA1_BE2-1',
+    title: 'Business Economics',
+    pageUrl: 'https://example.test/#/major/BBA1_BE2-1',
+    sourceKind: 'derived',
+  })
+
+  assert.ok(report.body.includes('BBA1_BE2-1'))
+  assert.ok(report.body.includes('official evidence'))
+  assert.ok(report.githubUrl.includes('issues/new'))
+})

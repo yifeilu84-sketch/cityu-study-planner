@@ -1,4 +1,5 @@
 import type { Course } from '../types'
+import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export interface PlanCourse {
   code: string
@@ -12,6 +13,13 @@ export interface EditableSemester {
   sem: 'A' | 'B' | 'Summer'
   courses: PlanCourse[]
   totalCredits: number
+}
+
+function getStudyPlanYears(studyPlan: unknown): string[] {
+  if (!studyPlan || typeof studyPlan !== 'object') return []
+  return Object.keys(studyPlan || {})
+    .filter(key => /^year\d+$/.test(key))
+    .sort((a, b) => Number(a.slice(4)) - Number(b.slice(4)))
 }
 
 /** Required GE courses that are not part of Area 1-3 electives (includes discipline-specific English) */
@@ -109,11 +117,13 @@ export function buildCoursePool(
   const seen = new Set<string>()
 
   const add = (code: string, category?: string) => {
-    if (seen.has(code)) return
+    const lookupCode = getCourseLookupCode(code)
+    if (!lookupCode || seen.has(lookupCode)) return
+    if (isGenericCourseSlot(code) || isGenericCourseSlot(lookupCode)) return
     // Skip placeholder GE codes like GE-1, GE-ELECTIVE, GE
-    if (code.startsWith('GE') && !/^GE\d{4}$/.test(code)) return
-    seen.add(code)
-    const c = courses[code] || courses[code.split(/[\s\/]/)[0]]
+    if (lookupCode.startsWith('GE') && !/^GE\d{4}$/.test(lookupCode)) return
+    seen.add(lookupCode)
+    const c = courses[lookupCode]
     if (c) {
       result.push({
         code: c.code,
@@ -121,11 +131,11 @@ export function buildCoursePool(
         credits: c.credits || 0,
         category: category || getCategoryForCode(c.code, major, streamIndex)
       })
-    } else if (minorCourses?.includes(code)) {
+    } else if (minorCourses?.includes(lookupCode)) {
       // Minor course not in main courses database
       result.push({
-        code,
-        title: code,
+        code: lookupCode,
+        title: lookupCode,
         credits: 3,
         category: category || 'majorElective'
       })
@@ -144,7 +154,8 @@ export function buildCoursePool(
     }
   }
   addReqs(reqs.gatewayEducation?.courses)
-  addReqs(reqs.college?.courses ?? reqs.collegeRequirement?.courses)
+  addReqs(reqs.college?.courses)
+  addReqs(reqs.collegeRequirement?.courses)
   addReqs(reqs.majorCore?.courses)
   addReqs(reqs.majorElectives?.courses ?? reqs.majorElective?.courses)
 
@@ -152,6 +163,19 @@ export function buildCoursePool(
   if (allCourses && Array.isArray(allCourses)) {
     for (const code of allCourses) {
       if (typeof code === 'string') add(code)
+    }
+  }
+
+  const studyPlan = stream?.studyPlan ?? major.studyPlan
+  if (studyPlan) {
+    for (const year of getStudyPlanYears(studyPlan)) {
+      for (const sem of ['semA', 'semB', 'summer']) {
+        const semester = studyPlan[year]?.[sem]
+        if (!semester?.courses) continue
+        for (const c of semester.courses) {
+          if (c?.code) add(c.code)
+        }
+      }
     }
   }
 

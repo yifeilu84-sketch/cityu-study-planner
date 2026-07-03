@@ -8,667 +8,47 @@
   "college": "College of Biomedicine",
   "requirements": {
     "gatewayEducation": {
-      "credits": 322,
+      "credits": 31,
       "courses": [
         {
-          "code": "BMS1901",
-          "title": "Calculus for Life Sciences",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "BMS2004",
-          "title": "Biochemistry",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2401",
+          "title": "English for Science",
+          "credits": 3
         },
         {
-          "code": "BMS2005",
-          "title": "Human Physiology",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilization - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "BMS2202",
-          "title": "Diversity of Life and Evolution",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "BMS2204",
-          "title": "Diversity of Life and Microbiology Laboratory",
-          "credits": 2,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
         },
         {
-          "code": "BMS2205",
-          "title": "Essential Techniques in Biomedical Sciences",
-          "credits": 4,
-          "remarks": ""
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3
         },
         {
-          "code": "BMS2206",
-          "title": "Cell Biology",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3
         },
         {
-          "code": "BMS2901",
-          "title": "Introductory Biostatistics and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3203A",
-          "title": "Genetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3204",
-          "title": "Molecular Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3205",
-          "title": "Omics, Genome Editing and Advanced Techniques for Biomedical Research",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3301",
-          "title": "Bioinformatics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4007",
-          "title": "Pharmacology and Toxicology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4008",
-          "title": "Clinical Immunology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4102",
-          "title": "Technology for Regenerative Medicine",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4301",
-          "title": "Cancer Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4303",
-          "title": "Neuroscience",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2013",
-          "title": "Microbiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM3068",
-          "title": "General Ecology",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "NS2003",
-          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3003",
-          "title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4002",
-          "title": "A Mathematical Introduction to Neural Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4003",
-          "title": "Practical Artificial Intelligence Internship in Life Sciences and Biotech",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701A",
-          "title": "Biomedical Research – Rotation Project I (Theme A)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701B",
-          "title": "Biomedical Research – Rotation Project I (Theme B)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701C",
-          "title": "Biomedical Research – Rotation Project I (Theme C)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "NS1001",
-          "title": "Brain Structure and Function",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2002",
-          "title": "Pathophysiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2003B",
-          "title": "Clinical Chemistry",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2007",
-          "title": "Human Anatomy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2008B",
-          "title": "Hematology I",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301A",
-          "title": "Biomedical Research – Rotation Project II (Theme A)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301B",
-          "title": "Biomedical Research – Rotation Project II (Theme B)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301C",
-          "title": "Biomedical Research – Rotation Project II (Theme C)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "NS2001",
-          "title": "Cognition and Behavior",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS2003",
-          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS3002B",
-          "title": "Cellular Pathology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3003B",
-          "title": "Advanced Clinical Chemistry",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3006B",
-          "title": "Transfusion Science and Technology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3007",
-          "title": "Ethics and Practice in Medical Laboratory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3011B",
-          "title": "Hematology II",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3101",
-          "title": "Cell Transport and Signalling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3001",
-          "title": "Technologies in Neuroscience",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3002",
-          "title": "Learning and Memory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3003",
-          "title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS4001",
-          "title": "Medical Informatics and Laboratory Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4003B",
-          "title": "Clinical Biochemistry and Molecular Diagnostics",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4004B",
-          "title": "Advanced Cellular Pathology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4005B",
-          "title": "Medical Virology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4206",
-          "title": "Final Year Project in Biomedical Research",
-          "credits": 8,
-          "remarks": "Not to be taken by students who opt for Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS4304",
-          "title": "Industrial Attachment: Biotechnology and Health Sciences",
-          "credits": 8,
-          "remarks": "Not to be taken by students who opt for Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "CHEM4078",
-          "title": "Aquatic Ecology",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "NS4001",
-          "title": "Brain Disorders and Therapy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4002",
-          "title": "A Mathematical Introduction to Neural Networks",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "NS4003",
-          "title": "Practical Artificial Intelligence Internship in Life Sciences and Biotech",
-          "credits": 6,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS1901",
-          "title": "Calculus for Life Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2004",
-          "title": "Biochemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2005",
-          "title": "Human Physiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2202",
-          "title": "Diversity of Life and Evolution",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2204",
-          "title": "Diversity of Life and Microbiology Laboratory",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2205",
-          "title": "Essential Techniques in Biomedical Sciences",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2206",
-          "title": "Cell Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2901",
-          "title": "Introductory Biostatistics and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3203A",
-          "title": "Genetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3204",
-          "title": "Molecular Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3205",
-          "title": "Omics, Genome Editing and Advanced Techniques for Biomedical Research",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3301",
-          "title": "Bioinformatics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4007",
-          "title": "Pharmacology and Toxicology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4008",
-          "title": "Clinical Immunology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4102",
-          "title": "Technology for Regenerative Medicine",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4301",
-          "title": "Cancer Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4303",
-          "title": "Neuroscience",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2013",
-          "title": "Microbiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM3068",
-          "title": "General Ecology",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "NS2003",
-          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3003",
-          "title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4002",
-          "title": "A Mathematical Introduction to Neural Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4003",
-          "title": "Practical Artificial Intelligence Internship in Life Sciences and Biotech",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701A",
-          "title": "Biomedical Research – Rotation Project I (Theme A)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701B",
-          "title": "Biomedical Research – Rotation Project I (Theme B)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1701C",
-          "title": "Biomedical Research – Rotation Project I (Theme C)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "NS1001",
-          "title": "Brain Structure and Function",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2002",
-          "title": "Pathophysiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2003B",
-          "title": "Clinical Chemistry",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2007",
-          "title": "Human Anatomy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2008B",
-          "title": "Hematology I",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301A",
-          "title": "Biomedical Research – Rotation Project II (Theme A)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301B",
-          "title": "Biomedical Research – Rotation Project II (Theme B)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2301C",
-          "title": "Biomedical Research – Rotation Project II (Theme C)",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "NS2001",
-          "title": "Cognition and Behavior",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS2003",
-          "title": "Introduction to Artificial Intelligence with Brain Computing and Application",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS3002B",
-          "title": "Cellular Pathology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3003B",
-          "title": "Advanced Clinical Chemistry",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3006B",
-          "title": "Transfusion Science and Technology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3007",
-          "title": "Ethics and Practice in Medical Laboratory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3011B",
-          "title": "Hematology II",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3101",
-          "title": "Cell Transport and Signalling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3001",
-          "title": "Technologies in Neuroscience",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3002",
-          "title": "Learning and Memory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS3003",
-          "title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS4001",
-          "title": "Medical Informatics and Laboratory Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4003B",
-          "title": "Clinical Biochemistry and Molecular Diagnostics",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4004B",
-          "title": "Advanced Cellular Pathology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4005B",
-          "title": "Medical Virology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4206",
-          "title": "Final Year Project in Biomedical Research",
-          "credits": 8,
-          "remarks": "Not to be taken by students who opt for Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "BMS4304",
-          "title": "Industrial Attachment: Biotechnology and Health Sciences",
-          "credits": 8,
-          "remarks": "Not to be taken by students who opt for Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "CHEM4078",
-          "title": "Aquatic Ecology",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "NS4001",
-          "title": "Brain Disorders and Therapy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "NS4002",
-          "title": "A Mathematical Introduction to Neural Networks",
-          "credits": 3,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
-        },
-        {
-          "code": "NS4003",
-          "title": "Practical Artificial Intelligence Internship in Life Sciences and Biotech",
-          "credits": 6,
-          "remarks": "Will be counted as Stream Core course for those students declared Human and Artificial Intelligence Stream"
+          "code": "PHY1400",
+          "title": "Introductory Physics for Biologists",
+          "credits": 3
         }
       ]
     },
@@ -677,16 +57,118 @@
       "courses": []
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 72,
+      "courses": [
+        {
+          "code": "BMS1901",
+          "title": "Calculus For Life Sciences",
+          "credits": 3
+        },
+        {
+          "code": "BMS2004",
+          "title": "Biochemistry",
+          "credits": 3
+        },
+        {
+          "code": "BMS2005",
+          "title": "Human Physiology",
+          "credits": 3
+        },
+        {
+          "code": "BMS2202",
+          "title": "Diversity of Life & Evolution",
+          "credits": 3
+        },
+        {
+          "code": "BMS2204",
+          "title": "Diversity of Life and Microbiology Laboratory",
+          "credits": 2
+        },
+        {
+          "code": "BMS2205",
+          "title": "Essential Techniques in Biomedical Sciences",
+          "credits": 4
+        },
+        {
+          "code": "BMS2206",
+          "title": "Cell Biology",
+          "credits": 3
+        },
+        {
+          "code": "BMS2901",
+          "title": "Introductory Biostatistics and Data Analysis",
+          "credits": 3
+        },
+        {
+          "code": "BMS3203A",
+          "title": "Genetics",
+          "credits": 3
+        },
+        {
+          "code": "BMS3204",
+          "title": "Molecular Biology",
+          "credits": 3
+        },
+        {
+          "code": "BMS3205",
+          "title": "Omics, Genome Editing and Advanced Techniques",
+          "credits": 2
+        },
+        {
+          "code": "BMS3301",
+          "title": "Bioinformatics",
+          "credits": 3
+        },
+        {
+          "code": "BMS4007",
+          "title": "Pharmacology and Toxicology",
+          "credits": 3
+        },
+        {
+          "code": "BMS4102",
+          "title": "Technology for Regenerative Medicine",
+          "credits": 3
+        },
+        {
+          "code": "BMS4301",
+          "title": "Cancer Biology",
+          "credits": 3
+        },
+        {
+          "code": "BMS4303",
+          "title": "Neuroscience",
+          "credits": 3
+        },
+        {
+          "code": "CHEM2013",
+          "title": "Microbiology",
+          "credits": 3
+        },
+        {
+          "code": "CHEM3068",
+          "title": "General Ecology",
+          "credits": 4
+        },
+        {
+          "code": "BMS4206",
+          "title": "Final Year Project in Biomedical Research",
+          "credits": 8
+        },
+        {
+          "code": "BMS4304",
+          "title": "Industrial Attachment: Biotechnology and Health Sciences",
+          "credits": 8
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 15,
+      "courses": [],
+      "chooseCredits": 15
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 18,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -741,5 +223,249 @@
     "BMS4304",
     "CHEM4078",
     "NS4001"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS1901",
+            "title": "Calculus For Life Sciences",
+            "credits": 3
+          },
+          {
+            "code": "CHEM1200",
+            "title": "Discovery in Biology",
+            "credits": 3
+          },
+          {
+            "code": "CHEM1300",
+            "title": "Principles of General Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS2004",
+            "title": "Biochemistry",
+            "credits": 3
+          },
+          {
+            "code": "PHY1400",
+            "title": "Introductory Physics for Biologists",
+            "credits": 3
+          },
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilization - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS2005",
+            "title": "Human Physiology",
+            "credits": 3
+          },
+          {
+            "code": "BMS2202",
+            "title": "Diversity of Life & Evolution",
+            "credits": 3
+          },
+          {
+            "code": "BMS2204",
+            "title": "Diversity of Life and Microbiology Laboratory",
+            "credits": 2
+          },
+          {
+            "code": "BMS3203A",
+            "title": "Genetics",
+            "credits": 3
+          },
+          {
+            "code": "CHEM2013",
+            "title": "Microbiology",
+            "credits": 3
+          }
+        ],
+        "credits": 14
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS2206",
+            "title": "Cell Biology",
+            "credits": 3
+          },
+          {
+            "code": "BMS2205",
+            "title": "Essential Techniques in Biomedical Sciences",
+            "credits": 4
+          },
+          {
+            "code": "BMS2901",
+            "title": "Introductory Biostatistics and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "BMS3204",
+            "title": "Molecular Biology",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS3205",
+            "title": "Omics, Genome Editing and Advanced Techniques for Biomedical Research",
+            "credits": 2
+          },
+          {
+            "code": "BMS3301",
+            "title": "Bioinformatics",
+            "credits": 3
+          },
+          {
+            "code": "BMS4007",
+            "title": "Pharmacology and Toxicology",
+            "credits": 3
+          },
+          {
+            "code": "BMS4303",
+            "title": "Neuroscience",
+            "credits": 3
+          },
+          {
+            "code": "CHEM3068",
+            "title": "General Ecology",
+            "credits": 4
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS4008",
+            "title": "Clinical Immunology",
+            "credits": 3
+          },
+          {
+            "code": "BMS4102",
+            "title": "Technology for Regenerative Medicine",
+            "credits": 3
+          },
+          {
+            "code": "BMS4301",
+            "title": "Cancer Biology",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS4206",
+            "title": "Final Year Project in Biomedical Research / Industrial Attachment",
+            "credits": 4
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 4
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 4
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective",
+            "credits": 4
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS4206",
+            "title": "Final Year Project in Biomedical Research / Industrial Attachment",
+            "credits": 4
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 4
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 14
+      }
+    }
+  },
+  "notes": [
+    "Students who intend to choose the BISI major are advised to take CHEM1200 in the first year which is a prerequisite for core courses in Year 2 Semester A.",
+    "Students must choose to take BMS4206 FYP in Biomedical Research (8 CU) or BMS4304 Industrial Attachment: Biotechnology and Health Sciences (8 CU) as one of their major elective courses to fulfill graduation requirement."
   ]
 }

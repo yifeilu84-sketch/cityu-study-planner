@@ -7,747 +7,11 @@
   "department": "Department of Data Science",
   "college": "College of Computing",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 348,
-      "courses": [
-        {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC1001",
-          "title": "Introduction to Data Science",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "GE2339",
-          "title": "Smart City - a Systems Engineering Perspective",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2001",
-          "title": "Python for Data Science",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2002",
-          "title": "Convex Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2004",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2102",
-          "title": "Statistical Methods and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3002",
-          "title": "Data Mining",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3006",
-          "title": "Fundamentals of Machine Learning I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3008",
-          "title": "Systems Dynamics and Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3025",
-          "title": "Internship for Flagship Programme",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3060",
-          "title": "Operations Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4116",
-          "title": "Data Science Capstone",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0001",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0002",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0003",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0004",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "CS2334",
-          "title": "Data Structures for Data Science",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "CS3273",
-          "title": "Data Protection and System Security",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3004",
-          "title": "Computational Optimization",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3013",
-          "title": "Introduction to Social Media Analytics",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3014",
-          "title": "Introduction to Sharing Economy",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3018",
-          "title": "Introduction to Internet of Things",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3019",
-          "title": "Introduction to Networked Life and Data Science",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3020",
-          "title": "Engineering Economics",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3023",
-          "title": "Data Science Applications in Portfolio Risk Analysis",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3027",
-          "title": "Smart Logistics and Transportation",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3080",
-          "title": "Internship",
-          "credits": 3,
-          "remarks": "General, Not available for ACT stream"
-        },
-        {
-          "code": "SDSC3102",
-          "title": "Quality Technologies",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3105",
-          "title": "Bayesian Analysis",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4001",
-          "title": "Foundation of Reinforcement Learning",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4009",
-          "title": "Data Intelligence in Action",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence, Core course for ACT stream"
-        },
-        {
-          "code": "SDSC4018",
-          "title": "AI in Systematic Trading",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4021",
-          "title": "Advanced Internet of Things",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4024",
-          "title": "Project Management and Analysis",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4026",
-          "title": "Systems Modelling and Simulation",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4051",
-          "title": "Facilities and Distribution Management",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC4064",
-          "title": "Reliability Engineering",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4070",
-          "title": "Large Language Models",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4103",
-          "title": "Decision Analytics and Risk Management",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4107",
-          "title": "Financial Engineering and Analytics",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4109",
-          "title": "Smart Manufacturing and Automation",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC4110",
-          "title": "Statistical Design and Analysis of Experiments",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC1001",
-          "title": "Introduction to Data Science",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "GE2339",
-          "title": "Smart City - a Systems Engineering Perspective",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2001",
-          "title": "Python for Data Science",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2002",
-          "title": "Convex Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2004",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC2102",
-          "title": "Statistical Methods and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3002",
-          "title": "Data Mining",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3006",
-          "title": "Fundamentals of Machine Learning I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3008",
-          "title": "Systems Dynamics and Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3025",
-          "title": "Internship for Flagship Programme",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "SDSC3060",
-          "title": "Operations Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "ACT stream only"
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4116",
-          "title": "Data Science Capstone",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC0001",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0002",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0003",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC0004",
-          "title": "Internship",
-          "credits": 0,
-          "remarks": "General"
-        },
-        {
-          "code": "CS2334",
-          "title": "Data Structures for Data Science",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "CS3273",
-          "title": "Data Protection and System Security",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3004",
-          "title": "Computational Optimization",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC3013",
-          "title": "Introduction to Social Media Analytics",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3014",
-          "title": "Introduction to Sharing Economy",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3018",
-          "title": "Introduction to Internet of Things",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3019",
-          "title": "Introduction to Networked Life and Data Science",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3020",
-          "title": "Engineering Economics",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3023",
-          "title": "Data Science Applications in Portfolio Risk Analysis",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC3027",
-          "title": "Smart Logistics and Transportation",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC3080",
-          "title": "Internship",
-          "credits": 3,
-          "remarks": "General, Not available for ACT stream"
-        },
-        {
-          "code": "SDSC3102",
-          "title": "Quality Technologies",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC3105",
-          "title": "Bayesian Analysis",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4001",
-          "title": "Foundation of Reinforcement Learning",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4009",
-          "title": "Data Intelligence in Action",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4016",
-          "title": "Fundamentals of Machine Learning II",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence, Core course for ACT stream"
-        },
-        {
-          "code": "SDSC4018",
-          "title": "AI in Systematic Trading",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4021",
-          "title": "Advanced Internet of Things",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4024",
-          "title": "Project Management and Analysis",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4026",
-          "title": "Systems Modelling and Simulation",
-          "credits": 3,
-          "remarks": "Industrial Artificial Intelligence"
-        },
-        {
-          "code": "SDSC4051",
-          "title": "Facilities and Distribution Management",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC4064",
-          "title": "Reliability Engineering",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4070",
-          "title": "Large Language Models",
-          "credits": 3,
-          "remarks": "General"
-        },
-        {
-          "code": "SDSC4103",
-          "title": "Decision Analytics and Risk Management",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4107",
-          "title": "Financial Engineering and Analytics",
-          "credits": 3,
-          "remarks": "FinTech & Decision Analytics"
-        },
-        {
-          "code": "SDSC4109",
-          "title": "Smart Manufacturing and Automation",
-          "credits": 3,
-          "remarks": "Smart City"
-        },
-        {
-          "code": "SDSC4110",
-          "title": "Statistical Design and Analysis of Experiments",
-          "credits": 3,
-          "remarks": "General"
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 30,
+    "collegeRequirement": 15,
+    "majorCore": 45,
+    "majorElective": 15,
+    "freeElective": 16
   },
   "allCourses": [
     "MA1503",
@@ -809,5 +73,261 @@
     "SDSC4107",
     "SDSC4109",
     "SDSC4110"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA1508",
+            "title": "Calculus",
+            "credits": 4
+          },
+          {
+            "code": "CS1315",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "SDSC1001",
+            "title": "Introduction to Data Science",
+            "credits": 2
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA1503",
+            "title": "Linear Algebra with Applications",
+            "credits": 4
+          },
+          {
+            "code": "SDSC2004",
+            "title": "Data Visualization",
+            "credits": 3
+          },
+          {
+            "code": "GE2339",
+            "title": "Smart City - a Systems Engineering Perspective",
+            "credits": 3
+          },
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA2510",
+            "title": "Probability and Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MA2508",
+            "title": "Multi-variable Calculus",
+            "credits": 4
+          },
+          {
+            "code": "SDSC2001",
+            "title": "Python for Data Science",
+            "credits": 4
+          },
+          {
+            "code": "PHY1201",
+            "title": "General Physics I",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS3402",
+            "title": "Database Systems",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2002",
+            "title": "Convex Optimization",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2102",
+            "title": "Statistical Methods and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "SDSC3060",
+            "title": "Operations Research",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SDSC3006",
+            "title": "Fundamentals of Machine Learning I",
+            "credits": 3
+          },
+          {
+            "code": "SDSC3008",
+            "title": "Systems Dynamics and Control",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR",
+            "title": "GE Course (Distributional Requirements)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "SDSC3002",
+            "title": "Data Mining",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SDSC4116",
+            "title": "Data Science Capstone",
+            "credits": 3
+          },
+          {
+            "code": "CS4480",
+            "title": "Data-Intensive Computing",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "SDSC4116",
+            "title": "Data Science Capstone",
+            "credits": 3
+          },
+          {
+            "code": "SDSC2003",
+            "title": "Human Contexts and Ethics in Data Science",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE-ELECTIVE",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  },
+  "notes": [
+    "Model Study Path for normative 4-year degree.",
+    "Major Electives: 7-8 electives required (21 CUs).",
+    "Free Electives: 5 courses (15 CUs) or Minor courses.",
+    "SDSC4116 Data Science Capstone is a year-long course spanning Year 4 Semester A and B."
   ]
 }

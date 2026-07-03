@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test": "node --test",
+    "split:majors": "node scripts/split-major-data.mjs",
     "preview": "vite preview",
     "deploy": "npm run build && cd dist && git init && git add -A && git commit -m deploy && git push -f https://github.com/yifeilu84-sketch/cityu-study-planner.git master:gh-pages && cd .."
   },

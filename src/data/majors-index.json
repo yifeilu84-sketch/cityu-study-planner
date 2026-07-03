@@ -6,6 +6,16 @@
       "type": "college",
       "departments": [
         {
+          "id": "flagship-programmes",
+          "name": "Flagship and Double Degree Programmes",
+          "majors": [
+            {
+              "code": "CBIO_BIO3-1",
+              "title": "Integrative Bioscience and Bioengineering Programme (Bio3)"
+            }
+          ]
+        },
+        {
           "id": "department-of-biomedical-engineering",
           "name": "Department of Biomedical Engineering",
           "majors": [
@@ -98,7 +108,7 @@
             },
             {
               "code": "BBA1_IFMG-1",
-              "title": "Bachelor of Business Administration in Information Management"
+              "title": "Bachelor of Business Administration in Artificial Intelligence in Business"
             }
           ]
         },
@@ -130,6 +140,16 @@
       "type": "college",
       "departments": [
         {
+          "id": "flagship-programmes",
+          "name": "Flagship and Double Degree Programmes",
+          "majors": [
+            {
+              "code": "CC_ACT-1",
+              "title": "AI, Computing and Transformation (ACT)"
+            }
+          ]
+        },
+        {
           "id": "department-of-computer-science",
           "name": "Department of Computer Science",
           "majors": [
@@ -140,6 +160,10 @@
             {
               "code": "BSC1_CYBE-1",
               "title": "Bachelor of Science in Cybersecurity"
+            },
+            {
+              "code": "DBSCBSC1_D008-0",
+              "title": "Bachelor of Science in Computer Science and Bachelor of Science in Computational Finance and Financial Technology"
             }
           ]
         },
@@ -164,6 +188,16 @@
       "name": "College of Engineering",
       "type": "college",
       "departments": [
+        {
+          "id": "flagship-programmes",
+          "name": "Flagship and Double Degree Programmes",
+          "majors": [
+            {
+              "code": "CENG_PRIME-1",
+              "title": "Pathway for Research, Innovation, and Multinational Engineering (PRIME)"
+            }
+          ]
+        },
         {
           "id": "department-of-architecture-and-civil-engineering",
           "name": "Department of Architecture and Civil Engineering",
@@ -330,6 +364,10 @@
             {
               "code": "BSS1_SW-1",
               "title": "Bachelor of Social Sciences in Social Work"
+            },
+            {
+              "code": "DBSSLLB1_D007-0",
+              "title": "Bachelor of Social Sciences in Crime Science and Bachelor of Laws"
             }
           ]
         }
@@ -340,6 +378,16 @@
       "name": "College of Science",
       "type": "college",
       "departments": [
+        {
+          "id": "flagship-programmes",
+          "name": "Flagship and Double Degree Programmes",
+          "majors": [
+            {
+              "code": "CSCI_GREAT-1",
+              "title": "Global Research Enrichment and Technopreneurship (GREAT)"
+            }
+          ]
+        },
         {
           "id": "department-of-chemistry",
           "name": "Department of Chemistry",
@@ -399,6 +447,10 @@
         {
           "code": "BSC1_CRM1-1",
           "title": "Bachelor of Science in Creative Media"
+        },
+        {
+          "code": "SCM_CREATE-1",
+          "title": "Creative Arts and Technology Excellence (CREATE)"
         }
       ]
     },
@@ -422,6 +474,10 @@
         {
           "code": "BSEE_INSPIRE-1",
           "title": "International Sustainability Programme for Innovation, Research and Entrepreneurship (INSPIRE)"
+        },
+        {
+          "code": "DEVEFIN1_D009-0",
+          "title": "Bachelor of Engineering in Environmental Science and Engineering and Bachelor of Business Administration in Finance"
         }
       ]
     },
@@ -433,6 +489,10 @@
         {
           "code": "LLB1_LW-1",
           "title": "Bachelor of Laws"
+        },
+        {
+          "code": "DLLBBBA1_D005-0",
+          "title": "Bachelor of Laws and Bachelor of Business Administration in Accountancy"
         }
       ]
     }

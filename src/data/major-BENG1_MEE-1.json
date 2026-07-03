@@ -3,582 +3,164 @@
   "title": "Bachelor of Engineering in Microelectronics Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MEE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "Department of Electrical Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 282,
+      "credits": 21,
       "courses": [
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2410",
+          "title": "English for Engineering",
+          "credits": 3
         },
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1001",
-          "title": "Foundations of Digital Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1002",
-          "title": "Principles of Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1004",
-          "title": "Foundations of Information Systems and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2000",
-          "title": "Logic Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2004",
-          "title": "Microcomputer Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2005",
-          "title": "Electronic Devices and Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2104",
-          "title": "Introduction to Electromagnetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2800",
-          "title": "Semiconductor Physics for Engineers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3008",
-          "title": "Principles of Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3070",
-          "title": "Design Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3115",
-          "title": "Applied Optoelectronic Devices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3121",
-          "title": "Differential Equations for Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3122",
-          "title": "Analogue Circuit Fundamentals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3210",
-          "title": "Signals and Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3220",
-          "title": "System-on-Chip Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3800",
-          "title": "Semiconductor Materials and Devices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3801",
-          "title": "Microsystems and Nanotechnology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4080",
-          "title": "Project",
-          "credits": 6,
-          "remarks": "Students successfully completed EE4087 Internship: Industrial Project are not required to take this course.  A course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4090",
-          "title": "Engineering Training",
-          "credits": 0,
-          "remarks": "Students successfully completed EE4085 Internship: Engineering Practice/ FS4007 Start-up Technology Entrepreneur Programme I are not required to take this course."
-        },
-        {
-          "code": "GE1354",
-          "title": "Introduction to Electronic Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3009",
-          "title": "Data Communications and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3109",
-          "title": "Applied Electromagnetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3114",
-          "title": "Systems and Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3125",
-          "title": "Basic Power Electronics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4015",
-          "title": "Digital Signal Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4035",
-          "title": "Optical Fibre Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4036",
-          "title": "Wireless Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4101",
-          "title": "Sustainable Energy Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4105",
-          "title": "Principles of Lasers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4107",
-          "title": "5G Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4108",
-          "title": "Antennas for Wireless Communications and Sensing Connectivity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4142",
-          "title": "Introduction to Integrated Photonics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4146",
-          "title": "Data Engineering and Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4316",
-          "title": "Mobile Data Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4802",
-          "title": "VLSI Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4803",
-          "title": "Analog IC Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4804",
-          "title": "Antenna Design for Integrated Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5410",
-          "title": "Signal Processing",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "SYE4006",
-          "title": "Semiconductor Manufacturing and Process Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4085",
-          "title": "Internship: Engineering Practice",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill EE2066 Engineers in Society and EE4090 Engineering Training.\n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4086",
-          "title": "Internship: Advanced Topics in Electrical Engineering",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill one elective. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4087",
-          "title": "Internship: Industrial Project",
-          "credits": 6,
-          "remarks": "This internship course of 6CU can be used to fulfill EE4080 Project. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1001",
-          "title": "Foundations of Digital Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1002",
-          "title": "Principles of Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE1004",
-          "title": "Foundations of Information Systems and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2000",
-          "title": "Logic Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2004",
-          "title": "Microcomputer Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2005",
-          "title": "Electronic Devices and Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2104",
-          "title": "Introduction to Electromagnetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE2800",
-          "title": "Semiconductor Physics for Engineers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3008",
-          "title": "Principles of Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3070",
-          "title": "Design Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3115",
-          "title": "Applied Optoelectronic Devices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3121",
-          "title": "Differential Equations for Electrical Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3122",
-          "title": "Analogue Circuit Fundamentals",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3210",
-          "title": "Signals and Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3220",
-          "title": "System-on-Chip Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3800",
-          "title": "Semiconductor Materials and Devices",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3801",
-          "title": "Microsystems and Nanotechnology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4080",
-          "title": "Project",
-          "credits": 6,
-          "remarks": "Students successfully completed EE4087 Internship: Industrial Project are not required to take this course.  A course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4090",
-          "title": "Engineering Training",
-          "credits": 0,
-          "remarks": "Students successfully completed EE4085 Internship: Engineering Practice/ FS4007 Start-up Technology Entrepreneur Programme I are not required to take this course."
-        },
-        {
-          "code": "GE1354",
-          "title": "Introduction to Electronic Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3009",
-          "title": "Data Communications and Networking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3109",
-          "title": "Applied Electromagnetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3114",
-          "title": "Systems and Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE3125",
-          "title": "Basic Power Electronics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4015",
-          "title": "Digital Signal Processing",
-          "credits": 3,
-          "remarks": "Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "EE4035",
-          "title": "Optical Fibre Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4036",
-          "title": "Wireless Communications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4101",
-          "title": "Sustainable Energy Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4105",
-          "title": "Principles of Lasers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4107",
-          "title": "5G Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4108",
-          "title": "Antennas for Wireless Communications and Sensing Connectivity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4142",
-          "title": "Introduction to Integrated Photonics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4146",
-          "title": "Data Engineering and Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4316",
-          "title": "Mobile Data Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4802",
-          "title": "VLSI Circuit Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4803",
-          "title": "Analog IC Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4804",
-          "title": "Antenna Design for Integrated Circuits",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE5410",
-          "title": "Signal Processing",
-          "credits": 3,
-          "remarks": "P5 level course — Students can only take either EE4015 or EE5410 to fulfill the curriculum requirement."
-        },
-        {
-          "code": "SYE4006",
-          "title": "Semiconductor Manufacturing and Process Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EE4085",
-          "title": "Internship: Engineering Practice",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill EE2066 Engineers in Society and EE4090 Engineering Training.\n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4086",
-          "title": "Internship: Advanced Topics in Electrical Engineering",
-          "credits": 3,
-          "remarks": "This internship course of 3CU can be used to fulfill one elective. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
-        },
-        {
-          "code": "EE4087",
-          "title": "Internship: Industrial Project",
-          "credits": 6,
-          "remarks": "This internship course of 6CU can be used to fulfill EE4080 Project. \n\nA course to fulfill the internship/consultancy project/research project requirement for normative 4-year degree students."
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 66,
+      "courses": [
+        {
+          "code": "EE1001",
+          "title": "Foundations of Digital Techniques",
+          "credits": 3
+        },
+        {
+          "code": "EE1002",
+          "title": "Principles of Electrical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE1004",
+          "title": "Foundations of Information Systems and Data Analysis",
+          "credits": 3
+        },
+        {
+          "code": "GE1354",
+          "title": "Introduction to Electronic Design",
+          "credits": 3
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
+          "credits": 3
+        },
+        {
+          "code": "CS2311",
+          "title": "Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "EE2004",
+          "title": "Microcomputer Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE2800",
+          "title": "Semiconductor Physics for Engineers",
+          "credits": 3
+        },
+        {
+          "code": "EE3122",
+          "title": "Analogue Circuit Fundamentals",
+          "credits": 3
+        },
+        {
+          "code": "EE3115",
+          "title": "Applied Opto-Electronic Devices",
+          "credits": 3
+        },
+        {
+          "code": "EE3008",
+          "title": "Principles of Communications",
+          "credits": 3
+        },
+        {
+          "code": "EE3800",
+          "title": "Semiconductor Materials and Devices",
+          "credits": 3
+        },
+        {
+          "code": "EE3220",
+          "title": "System-on-Chip Design",
+          "credits": 3
+        },
+        {
+          "code": "EE2005",
+          "title": "Electronic Devices and Circuits",
+          "credits": 3
+        },
+        {
+          "code": "EE3210",
+          "title": "Signals and Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4080",
+          "title": "Project",
+          "credits": 6
+        },
+        {
+          "code": "EE3070",
+          "title": "Design Project",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MEE-ELECTIVE",
+          "title": "Technical Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 18
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 6,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -628,5 +210,240 @@
     "EE4085",
     "EE4086",
     "EE4087"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA1200/MA1300",
+            "title": "MA1200 or MA1300",
+            "credits": 3
+          },
+          {
+            "code": "EE1001",
+            "title": "Foundations of Digital Techniques",
+            "credits": 3
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "GE1354",
+            "title": "Introduction to Electronic Design",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA1201/MA1301",
+            "title": "MA1201 or MA1301",
+            "credits": 3
+          },
+          {
+            "code": "PHY1101",
+            "title": "Introductory Classical Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "EE1004",
+            "title": "Foundations of Information Systems and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "EE1002",
+            "title": "Principles of Electrical Engineering",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA2001",
+            "title": "Multi-variable Calculus and Linear Algebra",
+            "credits": 3
+          },
+          {
+            "code": "EE2000",
+            "title": "Logic Circuit Design",
+            "credits": 3
+          },
+          {
+            "code": "EE2005",
+            "title": "Electronic Devices and Circuits",
+            "credits": 3
+          },
+          {
+            "code": "CS2311",
+            "title": "Computer Programming",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EE2800",
+            "title": "Semiconductor Physics for Engineers",
+            "credits": 3
+          },
+          {
+            "code": "EE3121",
+            "title": "Differential Equations for Electrical Engineering",
+            "credits": 3
+          },
+          {
+            "code": "EE3210",
+            "title": "Signals and Systems",
+            "credits": 3
+          },
+          {
+            "code": "EE2104",
+            "title": "Introduction to Electromagnetics",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "EE3800",
+            "title": "Semiconductor Materials and Devices",
+            "credits": 3
+          },
+          {
+            "code": "EE3008",
+            "title": "Principles of Communications",
+            "credits": 3
+          },
+          {
+            "code": "EE3801",
+            "title": "Microsystems and Nanotechnology",
+            "credits": 3
+          },
+          {
+            "code": "EE2004",
+            "title": "Microcomputer Systems",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE3115",
+            "title": "Applied Optoelectronic Devices",
+            "credits": 3
+          },
+          {
+            "code": "EE3122",
+            "title": "Analogue Circuit Fundamentals",
+            "credits": 3
+          },
+          {
+            "code": "EE3220",
+            "title": "System-on-Chip Design",
+            "credits": 3
+          },
+          {
+            "code": "EE3070",
+            "title": "Design Project",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "EE4090",
+            "title": "Engineering Training",
+            "credits": 0
+          }
+        ],
+        "credits": 0
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          },
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          },
+          {
+            "code": "EE4080",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "EE2066",
+            "title": "Engineers in Society",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EE4080",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          },
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          },
+          {
+            "code": "MEE-ELECTIVE",
+            "title": "Technical Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  },
+  "notes": [
+    "Structure and Flowchart for BEng in Microelectronics Engineering (2026/27 Entering Major).",
+    "EE4080 Project is a year-long course spanning Year 4 Semester A and B.",
+    "EE4090 Engineering Training (0 CU) is recommended in Summer after Year 2 or Year 3.",
+    "1 Technical Elective in Year 3 plus 5 Final Year Technical Electives (18 CUs total)."
   ]
 }

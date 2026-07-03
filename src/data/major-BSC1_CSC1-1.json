@@ -8,829 +8,149 @@
   "college": "College of Computing",
   "requirements": {
     "gatewayEducation": {
-      "credits": 434,
+      "credits": 21,
       "courses": [
         {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
+          "code": "GE2410",
+          "title": "English for Engineering",
+          "credits": 3
         },
         {
-          "code": "MA1503",
-          "title": "Linear Algebra with Applications",
-          "credits": 4,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "MA1508",
-          "title": "Calculus",
-          "credits": 4,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "CS2115",
-          "title": "Computer Organization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2204",
-          "title": "Fundamentals of Internet Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2310",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2312",
-          "title": "Problem Solving and Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2402",
-          "title": "Introduction to Computational Probability Modeling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2613",
-          "title": "Seminars on Contemporary Technology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CS3103",
-          "title": "Operating Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3334",
-          "title": "Data Structures",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4335",
-          "title": "Design and Analysis of Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4514",
-          "title": "Project",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CS3000",
-          "title": "Professional Career Development Internship",
-          "credits": 0,
-          "remarks": "Exclusive with CS3505\nStudents who choose to enrol in CS3000 are required to take 3 elective courses from the Elective List in lieu of the 9-credit CS3505."
-        },
-        {
-          "code": "CS3505",
-          "title": "IT Professional Internship",
-          "credits": 9,
-          "remarks": "Exclusive with CS3000\nA course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students\n@Same course"
-        },
-        {
-          "code": "MA2185",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2313",
-          "title": "Global IT Case Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2324",
-          "title": "The Art and Science of Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2338",
-          "title": "Everyday Security - Protecting Yourself in the Digital Age",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2340",
-          "title": "Artificial Intelligence – Past, Present, and Future",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "*Same course"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "#Same course"
-        },
-        {
-          "code": "CS4386",
-          "title": "AI Game Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4489",
-          "title": "Optimization Foundations for AI Training",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4490",
-          "title": "Generative AI Essentials and Applications",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4493",
-          "title": "Natural Language Processing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3481",
-          "title": "Fundamentals of Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "*Same course"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4293",
-          "title": "Topics in Cybersecurity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4394",
-          "title": "Information Security and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3483",
-          "title": "Multimodal Interface Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4182",
-          "title": "Computer Graphics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3189",
-          "title": "User-centred Interaction Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4185",
-          "title": "Multimedia Technologies and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "#Same course"
-        },
-        {
-          "code": "CS4187",
-          "title": "Computer Vision for Interactivity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4188",
-          "title": "Virtual Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3346",
-          "title": "Software Testing and Maintenance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3356",
-          "title": "Managing Software Projects",
-          "credits": 3,
-          "remarks": "Exclusive with IS4500"
-        },
-        {
-          "code": "CS4348",
-          "title": "Software Quality Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4389",
-          "title": "Decentralized Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3283",
-          "title": "Distributed Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3382",
-          "title": "Web Usability Design and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4280",
-          "title": "Advanced Internet Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4284",
-          "title": "Mobile Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4288",
-          "title": "Cryptographic Algorithms and Protocols",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4295",
-          "title": "Mobile Application Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4296",
-          "title": "Cloud Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4298",
-          "title": "iOS Application Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4367",
-          "title": "Computer Games Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4381",
-          "title": "Advanced Software Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4385",
-          "title": "Topics in Software Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4485",
-          "title": "Information Retrieval",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4552",
-          "title": "Guided Study",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "MA2172",
-          "title": "Applied Statistics for Sciences and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3505",
-          "title": "IT Professional Internship",
-          "credits": 9,
-          "remarks": "@Same course"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2115",
-          "title": "Computer Organization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2204",
-          "title": "Fundamentals of Internet Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2310",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2312",
-          "title": "Problem Solving and Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2402",
-          "title": "Introduction to Computational Probability Modeling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2613",
-          "title": "Seminars on Contemporary Technology",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CS3103",
-          "title": "Operating Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3201",
-          "title": "Computer Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3334",
-          "title": "Data Structures",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3342",
-          "title": "Software Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4335",
-          "title": "Design and Analysis of Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4514",
-          "title": "Project",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "CS3000",
-          "title": "Professional Career Development Internship",
-          "credits": 0,
-          "remarks": "Exclusive with CS3505\nStudents who choose to enrol in CS3000 are required to take 3 elective courses from the Elective List in lieu of the 9-credit CS3505."
-        },
-        {
-          "code": "CS3505",
-          "title": "IT Professional Internship",
-          "credits": 9,
-          "remarks": "Exclusive with CS3000\nA course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students\n@Same course"
-        },
-        {
-          "code": "MA2185",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2313",
-          "title": "Global IT Case Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2324",
-          "title": "The Art and Science of Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2338",
-          "title": "Everyday Security - Protecting Yourself in the Digital Age",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "GE2340",
-          "title": "Artificial Intelligence – Past, Present, and Future",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "*Same course"
-        },
-        {
-          "code": "CS3383",
-          "title": "AI for Software Engineering",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "#Same course"
-        },
-        {
-          "code": "CS4386",
-          "title": "AI Game Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4489",
-          "title": "Optimization Foundations for AI Training",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4490",
-          "title": "Generative AI Essentials and Applications",
-          "credits": 3,
-          "remarks": "New course"
-        },
-        {
-          "code": "CS4493",
-          "title": "Natural Language Processing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3481",
-          "title": "Fundamentals of Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4480",
-          "title": "Data-Intensive Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": "*Same course"
-        },
-        {
-          "code": "CS4286",
-          "title": "Internet Security and e-Commerce Protocols",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4293",
-          "title": "Topics in Cybersecurity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4394",
-          "title": "Information Security and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3483",
-          "title": "Multimodal Interface Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4182",
-          "title": "Computer Graphics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3189",
-          "title": "User-centred Interaction Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4185",
-          "title": "Multimedia Technologies and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4186",
-          "title": "Computer Vision and Image Processing",
-          "credits": 3,
-          "remarks": "#Same course"
-        },
-        {
-          "code": "CS4187",
-          "title": "Computer Vision for Interactivity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4188",
-          "title": "Virtual Reality",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3346",
-          "title": "Software Testing and Maintenance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3356",
-          "title": "Managing Software Projects",
-          "credits": 3,
-          "remarks": "Exclusive with IS4500"
-        },
-        {
-          "code": "CS4348",
-          "title": "Software Quality Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4389",
-          "title": "Decentralized Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3283",
-          "title": "Distributed Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3382",
-          "title": "Web Usability Design and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4280",
-          "title": "Advanced Internet Applications Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4284",
-          "title": "Mobile Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4288",
-          "title": "Cryptographic Algorithms and Protocols",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4295",
-          "title": "Mobile Application Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4296",
-          "title": "Cloud Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4298",
-          "title": "iOS Application Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4367",
-          "title": "Computer Games Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4381",
-          "title": "Advanced Software Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4385",
-          "title": "Topics in Software Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4485",
-          "title": "Information Retrieval",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4552",
-          "title": "Guided Study",
-          "credits": 3,
-          "remarks": "A course to fulfil the internship/consultancy project/research project requirement for normative 4-year degree students"
-        },
-        {
-          "code": "MA2172",
-          "title": "Applied Statistics for Sciences and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3505",
-          "title": "IT Professional Internship",
-          "credits": 9,
-          "remarks": "@Same course"
-        },
-        {
-          "code": "SDSC3026",
-          "title": "International Professional Development",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 8,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA1508",
+          "title": "Calculus",
+          "credits": 4
+        },
+        {
+          "code": "MA1503",
+          "title": "Linear Algebra with Applications",
+          "credits": 4
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 60,
+      "courses": [
+        {
+          "code": "CS2310",
+          "title": "Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "CS2115",
+          "title": "Computer Organization",
+          "credits": 3
+        },
+        {
+          "code": "CS2402",
+          "title": "Introduction to Computational Probability Modelling",
+          "credits": 3
+        },
+        {
+          "code": "CS2204",
+          "title": "Fundamentals of Internet Applications Development",
+          "credits": 3
+        },
+        {
+          "code": "CS2312",
+          "title": "Problem Solving and Programming",
+          "credits": 3
+        },
+        {
+          "code": "CS3201",
+          "title": "Computer Networks",
+          "credits": 3
+        },
+        {
+          "code": "CS3334",
+          "title": "Data Structures",
+          "credits": 3
+        },
+        {
+          "code": "CS3402",
+          "title": "Database Systems",
+          "credits": 3
+        },
+        {
+          "code": "CS3103",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "code": "CS3342",
+          "title": "Software Design",
+          "credits": 3
+        },
+        {
+          "code": "JC2066",
+          "title": "IT Professionals: Ethical, Legal and Social Issues",
+          "credits": 3
+        },
+        {
+          "code": "MA2185",
+          "title": "Discrete Mathematics",
+          "credits": 3
+        },
+        {
+          "code": "CS3505",
+          "title": "IT Professional Internship",
+          "credits": 9
+        },
+        {
+          "code": "CS4335",
+          "title": "Design & Analysis of Algorithms",
+          "credits": 3
+        },
+        {
+          "code": "CS4514",
+          "title": "Project",
+          "credits": 6
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 24,
+      "courses": [
+        {
+          "code": "CS-ELECTIVE",
+          "title": "CS Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 24
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -898,5 +218,262 @@
     "CS4552",
     "MA2172",
     "SDSC3026"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "MA1508",
+            "title": "Calculus",
+            "credits": 4
+          },
+          {
+            "code": "CS2310",
+            "title": "Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "CS2115",
+            "title": "Computer Organization",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "MA1503",
+            "title": "Linear Algebra with Applications",
+            "credits": 4
+          },
+          {
+            "code": "CS2402",
+            "title": "Introduction to Computational Probability Modelling",
+            "credits": 3
+          },
+          {
+            "code": "CS2204",
+            "title": "Fundamentals of Internet Applications Development",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CS2613",
+            "title": "Seminars on Contemporary Technology",
+            "credits": 2
+          },
+          {
+            "code": "CS2312",
+            "title": "Problem Solving and Programming",
+            "credits": 3
+          },
+          {
+            "code": "CS3201",
+            "title": "Computer Networks",
+            "credits": 3
+          },
+          {
+            "code": "CS3334",
+            "title": "Data Structures",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          },
+          {
+            "code": "MA2185",
+            "title": "Discrete Mathematics",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS2613",
+            "title": "Seminars on Contemporary Technology",
+            "credits": 2
+          },
+          {
+            "code": "CS3103",
+            "title": "Operating Systems",
+            "credits": 3
+          },
+          {
+            "code": "CS3342",
+            "title": "Software Design",
+            "credits": 3
+          },
+          {
+            "code": "CS3402",
+            "title": "Database Systems",
+            "credits": 3
+          },
+          {
+            "code": "JC2066",
+            "title": "IT Professionals: Ethical, Legal and Social Issues",
+            "credits": 3
+          },
+          {
+            "code": "DR-1",
+            "title": "Department Required Supporting Course",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CS3505",
+            "title": "IT Professional Internship",
+            "credits": 9
+          },
+          {
+            "code": "CS4335",
+            "title": "Design & Analysis of Algorithms",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (1)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS3505",
+            "title": "IT Professional Internship",
+            "credits": 9
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (2)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (3)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CS4514",
+            "title": "Project",
+            "credits": 9
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (4)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (5)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (6)",
+            "credits": 3
+          },
+          {
+            "code": "DR-2",
+            "title": "Department Required Supporting Course",
+            "credits": 3
+          }
+        ],
+        "credits": 21
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS4514",
+            "title": "Project",
+            "credits": 9
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (7)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (8)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    }
+  },
+  "notes": [
+    "Sample Study Schedule for normative 4-year degree (Common First Year).",
+    "CS3505 IT Professional Internship: 9 credit units (6 in Sem A, 3 in Sem B).",
+    "CS4514 Project is a year-long course spanning Year 4 Semester A and B.",
+    "Major Electives: minimum 24 credit units from approved electives.",
+    "Students may choose any of the streams by taking 3 courses of the selected stream and any 5 electives from the list."
   ]
 }

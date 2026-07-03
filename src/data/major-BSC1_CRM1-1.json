@@ -732,5 +732,250 @@
     "SM2724D",
     "SM2724E",
     "SM2724F"
-  ]
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "COL-FOUND1",
+            "title": "College Foundation - Liberal Arts",
+            "credits": 3
+          },
+          {
+            "code": "CRM-CORE1",
+            "title": "Creative Media Core 1",
+            "credits": 3
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "COL-FOUND2",
+            "title": "College Foundation - Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "CRM-CORE2",
+            "title": "Creative Media Core 2",
+            "credits": 3
+          },
+          {
+            "code": "CRM-CORE3",
+            "title": "Creative Media Core 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CRM-CORE4",
+            "title": "Creative Media Core 4",
+            "credits": 3
+          },
+          {
+            "code": "CRM-CORE5",
+            "title": "Creative Media Core 5",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "CRM-ELEC1",
+            "title": "Creative Media Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CRM-CORE6",
+            "title": "Creative Media Core 6",
+            "credits": 3
+          },
+          {
+            "code": "CRM-CORE7",
+            "title": "Creative Media Core 7",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "CRM-ELEC2",
+            "title": "Creative Media Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CRM-CORE8",
+            "title": "Creative Media Core 8",
+            "credits": 3
+          },
+          {
+            "code": "CRM-ELEC3",
+            "title": "Creative Media Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education (Area 4)",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CRM-CORE9",
+            "title": "Creative Media Core 9",
+            "credits": 3
+          },
+          {
+            "code": "CRM-ELEC4",
+            "title": "Creative Media Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "FREE7",
+            "title": "Free Elective 7",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CRM-CAPSTONE",
+            "title": "Creative Media Capstone",
+            "credits": 3
+          },
+          {
+            "code": "CRM-ELEC5",
+            "title": "Creative Media Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR5",
+            "title": "Gateway Education (Area 5)",
+            "credits": 3
+          },
+          {
+            "code": "FREE8",
+            "title": "Free Elective 8",
+            "credits": 3
+          },
+          {
+            "code": "FREE9",
+            "title": "Free Elective 9",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CRM-ELEC6",
+            "title": "Creative Media Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "FREE10",
+            "title": "Free Elective 10",
+            "credits": 3
+          },
+          {
+            "code": "FREE11",
+            "title": "Free Elective 11",
+            "credits": 3
+          },
+          {
+            "code": "FREE12",
+            "title": "Free Elective 12",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  }
 }

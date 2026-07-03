@@ -8,1105 +8,139 @@
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
     "gatewayEducation": {
-      "credits": 558,
+      "credits": 21,
       "courses": [
         {
-          "code": "LC2401",
-          "title": "French 1",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2412",
+          "title": "English for Humanities and Social Sciences",
+          "credits": 3
         },
         {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "#"
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "LC2501",
-          "title": "German 1",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2930",
-          "title": "Japanese 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2973",
-          "title": "Korean 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2601",
-          "title": "Spanish 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "PIA2601",
-          "title": "Computational Language Course 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2602",
-          "title": "Computational Language Course 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2401",
-          "title": "French 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2501",
-          "title": "German 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2930",
-          "title": "Japanese 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2973",
-          "title": "Korean 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2601",
-          "title": "Spanish 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "PIA2601",
-          "title": "Computational Language Course 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2602",
-          "title": "Computational Language Course 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2105",
-          "title": "Introduction to Political Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2107",
-          "title": "Government and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2307",
-          "title": "Introduction to Public Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2400",
-          "title": "Introduction to Ethics and Public Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2530",
-          "title": "Exploring Public Affairs in Globalised Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2050",
-          "title": "Comparative Politics and Societies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3109",
-          "title": "Approaches in Political Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3121",
-          "title": "Theories of International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3127",
-          "title": "Political Institutions and Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3900",
-          "title": "Innovation and Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4601",
-          "title": "Undergraduate Research Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2308",
-          "title": "Working with Clients in Public Service",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2524",
-          "title": "Management Skills for Public Managers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3241",
-          "title": "Policy Processes and Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3306",
-          "title": "Organizational Behaviour for Public Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3307",
-          "title": "Managing Financial Resources in Public and Nonprofit Sectors",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3310",
-          "title": "Smart Government and Sustainable Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3316",
-          "title": "Managing Human Resources in Public and Nonprofit Sectors",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3921",
-          "title": "Urban and Social Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3900",
-          "title": "Innovation and Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4601",
-          "title": "Undergraduate Research Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2201",
-          "title": "Public Policy and Social Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2224",
-          "title": "Environmental Issues and Sustainable Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2405",
-          "title": "Introduction to Confucian Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3031",
-          "title": "Political Dynamics in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3112",
-          "title": "Conflict and Resolution",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3122",
-          "title": "Rethinking the Value of Democracy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3123",
-          "title": "Theories of Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3126",
-          "title": "International Political Economy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3130",
-          "title": "U.S. Politics and Foreign Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3153",
-          "title": "European Politics and International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3241",
-          "title": "Policy Processes and Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3310",
-          "title": "Smart Government and Sustainable Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3315",
-          "title": "Ethics in Government",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3600",
-          "title": "Experiential Learning for Public Affairs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3607",
-          "title": "Advanced Research Methodology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3710",
-          "title": "Contemporary Chinese Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "PIA2224",
-          "title": "Environmental Issues and Sustainable Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2527",
-          "title": "Law for Housing Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3207",
-          "title": "Health Care Policy and Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3309",
-          "title": "Comparative Public Policy and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3410",
-          "title": "Management Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3503",
-          "title": "Urbanization and Health Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3525",
-          "title": "Building Technology and Services for Housing Managers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3600",
-          "title": "Experiential Learning for Public Affairs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3607",
-          "title": "Advanced Research Methodology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4953",
-          "title": "Housing Policy in Contemporary Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4954",
-          "title": "Housing Management and Practice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "PIA2105",
-          "title": "Introduction to Political Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2107",
-          "title": "Government and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2307",
-          "title": "Introduction to Public Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2400",
-          "title": "Introduction to Ethics and Public Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2530",
-          "title": "Exploring Public Affairs in Globalised Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2050",
-          "title": "Comparative Politics and Societies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3109",
-          "title": "Approaches in Political Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3121",
-          "title": "Theories of International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3127",
-          "title": "Political Institutions and Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3900",
-          "title": "Innovation and Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4601",
-          "title": "Undergraduate Research Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2308",
-          "title": "Working with Clients in Public Service",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2524",
-          "title": "Management Skills for Public Managers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3241",
-          "title": "Policy Processes and Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3306",
-          "title": "Organizational Behaviour for Public Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3307",
-          "title": "Managing Financial Resources in Public and Nonprofit Sectors",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3310",
-          "title": "Smart Government and Sustainable Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3316",
-          "title": "Managing Human Resources in Public and Nonprofit Sectors",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3921",
-          "title": "Urban and Social Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3900",
-          "title": "Innovation and Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4601",
-          "title": "Undergraduate Research Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2201",
-          "title": "Public Policy and Social Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2224",
-          "title": "Environmental Issues and Sustainable Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2405",
-          "title": "Introduction to Confucian Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3031",
-          "title": "Political Dynamics in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3112",
-          "title": "Conflict and Resolution",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3122",
-          "title": "Rethinking the Value of Democracy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3123",
-          "title": "Theories of Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3126",
-          "title": "International Political Economy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3130",
-          "title": "U.S. Politics and Foreign Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3153",
-          "title": "European Politics and International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3241",
-          "title": "Policy Processes and Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3310",
-          "title": "Smart Government and Sustainable Cities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3315",
-          "title": "Ethics in Government",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3600",
-          "title": "Experiential Learning for Public Affairs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3607",
-          "title": "Advanced Research Methodology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3710",
-          "title": "Contemporary Chinese Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "PIA2224",
-          "title": "Environmental Issues and Sustainable Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2527",
-          "title": "Law for Housing Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3207",
-          "title": "Health Care Policy and Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3309",
-          "title": "Comparative Public Policy and Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3410",
-          "title": "Management Ethics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3503",
-          "title": "Urbanization and Health Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3525",
-          "title": "Building Technology and Services for Housing Managers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3600",
-          "title": "Experiential Learning for Public Affairs",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3607",
-          "title": "Advanced Research Methodology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4953",
-          "title": "Housing Policy in Contemporary Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4954",
-          "title": "Housing Management and Practice",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "Either PIA3800 or CAI4001"
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "courses": [
+        {
+          "code": "PIA-COLLEGE",
+          "title": "PIA College Requirement (Computational Language or Foreign Language)",
+          "credits": 6
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 48,
+      "courses": [
+        {
+          "code": "PIA2307",
+          "title": "Introduction to Public Governance",
+          "credits": 3
+        },
+        {
+          "code": "PIA2530",
+          "title": "Exploring Public Affairs in Globalised Cities",
+          "credits": 3
+        },
+        {
+          "code": "PIA2400",
+          "title": "Introduction to Ethics and Public Policy",
+          "credits": 3
+        },
+        {
+          "code": "PIA2105",
+          "title": "Introduction to Political Science",
+          "credits": 3
+        },
+        {
+          "code": "PIA2107",
+          "title": "Government and Law",
+          "credits": 3
+        },
+        {
+          "code": "PIA2012",
+          "title": "Social Research Methods",
+          "credits": 3
+        },
+        {
+          "code": "PIA2402",
+          "title": "Introduction to Social and Political Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "PIA3032",
+          "title": "State and Economy in Asia",
+          "credits": 3
+        },
+        {
+          "code": "PIA2524",
+          "title": "Management Skills for Public Managers",
+          "credits": 3
+        },
+        {
+          "code": "PIA3121",
+          "title": "Theories of International Relations",
+          "credits": 3
+        },
+        {
+          "code": "PIA3241",
+          "title": "Policy Processes and Institutions",
+          "credits": 3
+        },
+        {
+          "code": "PIA3127",
+          "title": "Political Institutions and Behaviour",
+          "credits": 3
+        },
+        {
+          "code": "PIA3307",
+          "title": "Managing Financial Resources in Public and Nonprofit Sectors",
+          "credits": 3
+        },
+        {
+          "code": "PIA4142",
+          "title": "Global Public Health",
+          "credits": 3
+        },
+        {
+          "code": "PIA3921",
+          "title": "Urban and Social Policy",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 24,
+      "courses": [
+        {
+          "code": "PAFM-ELECTIVE",
+          "title": "Stream Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 24
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -1181,5 +215,732 @@
     "PIA3525",
     "PIA4953",
     "PIA4954"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "PIA2307",
+            "title": "PIA2307",
+            "credits": 3
+          },
+          {
+            "code": "PIA2530",
+            "title": "PIA2530",
+            "credits": 3
+          },
+          {
+            "code": "PIA2400",
+            "title": "PIA2400",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "GE1601",
+            "credits": 1
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "PIA2105",
+            "title": "PIA2105",
+            "credits": 3
+          },
+          {
+            "code": "PIA2107",
+            "title": "PIA2107",
+            "credits": 3
+          },
+          {
+            "code": "PIA-COLLEGE",
+            "title": "PIA-COLLEGE",
+            "credits": 3
+          },
+          {
+            "code": "PIA-COLLEGE",
+            "title": "PIA-COLLEGE",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "PIA2012",
+            "title": "PIA2012",
+            "credits": 3
+          },
+          {
+            "code": "PIA2402",
+            "title": "PIA2402",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "PIA3032",
+            "title": "PIA3032",
+            "credits": 3
+          },
+          {
+            "code": "PIA2524",
+            "title": "PIA2524",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "PAFM-ELECTIVE",
+            "title": "PAFM-ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "PAFM-ELECTIVE",
+            "title": "PAFM-ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "PAFM-ELECTIVE",
+            "title": "PAFM-ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "PAFM-ELECTIVE",
+            "title": "PAFM-ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "PAG",
+      "name": "Public Affairs and Governance Stream",
+      "description": "Focus on comparative politics, democracy, and international relations.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2412",
+              "title": "English for Humanities and Social Sciences",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 11
+            }
+          ]
+        },
+        "college": {
+          "credits": 12,
+          "courses": [
+            {
+              "code": "PIA-COLLEGE",
+              "title": "PIA College Requirement (Computational Language or Foreign Language)",
+              "credits": 6
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 48,
+          "courses": [
+            {
+              "code": "PIA2105",
+              "title": "Introduction to Political Science",
+              "credits": 3
+            },
+            {
+              "code": "PIA2107",
+              "title": "Government and Law",
+              "credits": 3
+            },
+            {
+              "code": "PIA2307",
+              "title": "Introduction to Public Governance",
+              "credits": 3
+            },
+            {
+              "code": "PIA2400",
+              "title": "Introduction to Ethics and Public Policy",
+              "credits": 3
+            },
+            {
+              "code": "PIA2530",
+              "title": "Exploring Public Affairs in Globalised Cities",
+              "credits": 3
+            },
+            {
+              "code": "PIA2012",
+              "title": "Social Research Methods",
+              "credits": 3
+            },
+            {
+              "code": "PIA2050",
+              "title": "Comparative Politics and Societies",
+              "credits": 3
+            },
+            {
+              "code": "PIA2402",
+              "title": "Introduction to Social and Political Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "PIA3032",
+              "title": "State and Economy in Asia",
+              "credits": 3
+            },
+            {
+              "code": "PIA3109",
+              "title": "Approaches in Political Analysis",
+              "credits": 3
+            },
+            {
+              "code": "PIA3111",
+              "title": "Democracy and Democratization",
+              "credits": 3
+            },
+            {
+              "code": "PIA3121",
+              "title": "Theories of International Relations",
+              "credits": 3
+            },
+            {
+              "code": "PIA3127",
+              "title": "Political Institutions and Behaviour",
+              "credits": 3
+            },
+            {
+              "code": "PIA3900",
+              "title": "Innovation and Governance",
+              "credits": 3
+            },
+            {
+              "code": "PIA4142",
+              "title": "Global Public Health",
+              "credits": 3
+            },
+            {
+              "code": "PIA4601",
+              "title": "Undergraduate Research Project",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 15,
+          "courses": [
+            {
+              "code": "PIA2104",
+              "title": "Hong Kong Governance",
+              "credits": 3
+            },
+            {
+              "code": "PIA2201",
+              "title": "Public Policy and Social Development",
+              "credits": 3
+            },
+            {
+              "code": "PIA2224",
+              "title": "Environmental Issues and Sustainable Development",
+              "credits": 3
+            },
+            {
+              "code": "PIA2405",
+              "title": "Introduction to Confucian Political Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "PIA3031",
+              "title": "Political Dynamics in Asia",
+              "credits": 3
+            },
+            {
+              "code": "PIA3112",
+              "title": "Conflict and Resolution",
+              "credits": 3
+            },
+            {
+              "code": "PIA3113",
+              "title": "Issues in Contemporary World Politics",
+              "credits": 3
+            },
+            {
+              "code": "PIA3120",
+              "title": "Politics and Media",
+              "credits": 3
+            },
+            {
+              "code": "PIA3122",
+              "title": "Rethinking the Value of Democracy",
+              "credits": 3
+            },
+            {
+              "code": "PIA3123",
+              "title": "Theories of Development",
+              "credits": 3
+            },
+            {
+              "code": "PIA3126",
+              "title": "International Political Economy",
+              "credits": 3
+            },
+            {
+              "code": "PIA3130",
+              "title": "U.S. Politics and Foreign Policy",
+              "credits": 3
+            },
+            {
+              "code": "PIA3153",
+              "title": "European Politics and International Relations",
+              "credits": 3
+            },
+            {
+              "code": "PIA3315",
+              "title": "Ethics in Government",
+              "credits": 3
+            },
+            {
+              "code": "PIA3600",
+              "title": "Experiential Learning for Public Affairs",
+              "credits": 3
+            },
+            {
+              "code": "PIA3607",
+              "title": "Advanced Research Methodology",
+              "credits": 3
+            },
+            {
+              "code": "PIA3710",
+              "title": "Contemporary Chinese Politics",
+              "credits": 3
+            },
+            {
+              "code": "PIA3800",
+              "title": "Professional Internship",
+              "credits": 3
+            },
+            {
+              "code": "PIA4152",
+              "title": "Globalisation and Its Discontents",
+              "credits": 3
+            }
+          ],
+          "note": "Stream Electives: 15 CU from the list"
+        },
+        "freeElectives": {
+          "credits": 21,
+          "note": "Or Minor courses"
+        }
+      }
+    },
+    {
+      "code": "PPM",
+      "name": "Public Policy and Management Stream",
+      "description": "Focus on public policy analysis, public management, and urban policy.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2412",
+              "title": "English for Humanities and Social Sciences",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 11
+            }
+          ]
+        },
+        "college": {
+          "credits": 12,
+          "courses": [
+            {
+              "code": "PIA-COLLEGE",
+              "title": "PIA College Requirement (Computational Language or Foreign Language)",
+              "credits": 6
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 48,
+          "courses": [
+            {
+              "code": "PIA2105",
+              "title": "Introduction to Political Science",
+              "credits": 3
+            },
+            {
+              "code": "PIA2107",
+              "title": "Government and Law",
+              "credits": 3
+            },
+            {
+              "code": "PIA2307",
+              "title": "Introduction to Public Governance",
+              "credits": 3
+            },
+            {
+              "code": "PIA2400",
+              "title": "Introduction to Ethics and Public Policy",
+              "credits": 3
+            },
+            {
+              "code": "PIA2530",
+              "title": "Exploring Public Affairs in Globalised Cities",
+              "credits": 3
+            },
+            {
+              "code": "PIA2012",
+              "title": "Social Research Methods",
+              "credits": 3
+            },
+            {
+              "code": "PIA2308",
+              "title": "Working with Clients in Public Service",
+              "credits": 3
+            },
+            {
+              "code": "PIA2524",
+              "title": "Management Skills for Public Managers",
+              "credits": 3
+            },
+            {
+              "code": "PIA3241",
+              "title": "Policy Processes and Institutions",
+              "credits": 3
+            },
+            {
+              "code": "PIA3306",
+              "title": "Organizational Behaviour for Public Management",
+              "credits": 3
+            },
+            {
+              "code": "PIA3307",
+              "title": "Managing Financial Resources in Public and Nonprofit Sectors",
+              "credits": 3
+            },
+            {
+              "code": "PIA3310",
+              "title": "Smart Government and Sustainable Cities",
+              "credits": 3
+            },
+            {
+              "code": "PIA3316",
+              "title": "Managing Human Resources in Public and Nonprofit Sectors",
+              "credits": 3
+            },
+            {
+              "code": "PIA3900",
+              "title": "Innovation and Governance",
+              "credits": 3
+            },
+            {
+              "code": "PIA3921",
+              "title": "Urban and Social Policy",
+              "credits": 3
+            },
+            {
+              "code": "PIA4601",
+              "title": "Undergraduate Research Project",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 15,
+          "courses": [
+            {
+              "code": "PIA2201",
+              "title": "Public Policy and Social Development",
+              "credits": 3
+            },
+            {
+              "code": "PIA2224",
+              "title": "Environmental Issues and Sustainable Development",
+              "credits": 3
+            },
+            {
+              "code": "PIA2402",
+              "title": "Introduction to Social and Political Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "PIA2527",
+              "title": "Law for Housing Studies",
+              "credits": 3
+            },
+            {
+              "code": "PIA3032",
+              "title": "State and Economy in Asia",
+              "credits": 3
+            },
+            {
+              "code": "PIA3120",
+              "title": "Politics and Media",
+              "credits": 3
+            },
+            {
+              "code": "PIA3207",
+              "title": "Health Care Policy and Ethics",
+              "credits": 3
+            },
+            {
+              "code": "PIA3309",
+              "title": "Comparative Public Policy and Management",
+              "credits": 3
+            },
+            {
+              "code": "PIA3410",
+              "title": "Management Ethics",
+              "credits": 3
+            },
+            {
+              "code": "PIA3503",
+              "title": "Urbanization and Health Management",
+              "credits": 3
+            },
+            {
+              "code": "PIA3525",
+              "title": "Building Technology and Service for Housing Managers",
+              "credits": 3
+            },
+            {
+              "code": "PIA3600",
+              "title": "Experiential Learning for Public Affairs",
+              "credits": 3
+            },
+            {
+              "code": "PIA3607",
+              "title": "Advanced Research Methodology",
+              "credits": 3
+            },
+            {
+              "code": "PIA3800",
+              "title": "Professional Internship",
+              "credits": 3
+            },
+            {
+              "code": "PIA4142",
+              "title": "Global Public Health",
+              "credits": 3
+            },
+            {
+              "code": "PIA4152",
+              "title": "Globalisation and Its Discontents",
+              "credits": 3
+            },
+            {
+              "code": "PIA4953",
+              "title": "Housing Policy in Contemporary Society",
+              "credits": 3
+            },
+            {
+              "code": "PIA4954",
+              "title": "Housing Management and Practice",
+              "credits": 3
+            }
+          ],
+          "note": "Stream Electives: 15 CU from the list"
+        },
+        "freeElectives": {
+          "credits": 21,
+          "note": "Or Minor courses"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Indicative Study Plan - Normative 4-Year.",
+    "Two streams available: Public Affairs and Governance (PAG) and Public Policy and Management (PPM).",
+    "Students can take part in Go Global Activities in any semester.",
+    "Each student is required to take 12-18 credits per semester."
   ]
 }

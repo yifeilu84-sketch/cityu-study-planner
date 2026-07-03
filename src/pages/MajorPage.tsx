@@ -1,15 +1,45 @@
 import { useParams, Link } from 'react-router-dom'
-import { useState, useMemo } from 'react'
-import { ArrowLeft, BookOpen, GraduationCap, Clock, FileText, LayoutGrid, List, AlertCircle, Info, Pencil, Eye } from 'lucide-react'
-import allMajors from '../data/all-majors.json'
-import coursesData from '../data/courses.json'
+import { useEffect, useState, useMemo } from 'react'
+import { ArrowLeft, BookOpen, GraduationCap, Clock, FileText, LayoutGrid, List, AlertCircle, Info, Pencil, Eye, ExternalLink, Flag } from 'lucide-react'
 import type { Course } from '../types'
 import CourseDetailModal from '../components/CourseDetailModal'
 import CourseBadge from '../components/CourseBadge'
 import StudyPlanEditor from '../components/StudyPlanEditor'
 import { generateStudyPlan, getAllMajorCourses, getCategoryColor, getCategoryLabel, getCreditStatus } from '../utils/studyPlan'
+import { getCourseLookupCode, isGenericCourseSlot } from '../utils/courseCodes.ts'
+import { getStudyPlanSourceStatus } from '../utils/sourceStatus.ts'
+import { buildIssueReport } from '../utils/feedback.ts'
 
 type Tab = 'plan' | 'requirements' | 'courses'
+
+const majorModules = import.meta.glob('../data/major-*.json')
+
+const SOURCE_TONE_CLASSES = {
+  blue: {
+    box: 'bg-blue-50 border border-blue-200',
+    icon: 'text-blue-600',
+    text: 'text-blue-800',
+    link: 'text-blue-700 hover:text-blue-900',
+  },
+  indigo: {
+    box: 'bg-indigo-50 border border-indigo-200',
+    icon: 'text-indigo-600',
+    text: 'text-indigo-900',
+    link: 'text-indigo-700 hover:text-indigo-950',
+  },
+  amber: {
+    box: 'bg-amber-50 border border-amber-200',
+    icon: 'text-amber-600',
+    text: 'text-amber-900',
+    link: 'text-amber-800 hover:text-amber-950',
+  },
+  slate: {
+    box: 'bg-slate-50 border border-slate-200',
+    icon: 'text-slate-600',
+    text: 'text-slate-800',
+    link: 'text-slate-700 hover:text-slate-950',
+  },
+}
 
 export default function MajorPage() {
   const { majorCode } = useParams<{ majorCode: string }>()
@@ -17,31 +47,51 @@ export default function MajorPage() {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
   const [search, setSearch] = useState('')
   const [editMode, setEditMode] = useState(false)
-
-  const major = (allMajors as any[]).find((m: any) => m.code === majorCode)
-  const courses: Record<string, Course> = coursesData as any
-
-  // Determine if this major has streams
-  const hasStreams = major?.streams && major.streams.length > 0
-  const hasStreamPlans = major?.streams && major.streams.some((s: any) => s.studyPlan)
   const [selectedStreamIdx, setSelectedStreamIdx] = useState<number>(-1)
+  const [major, setMajor] = useState<any | null>(null)
+  const [majorLoadState, setMajorLoadState] = useState<'loading' | 'ready' | 'missing'>('loading')
+  const [courseDetails, setCourseDetails] = useState<Record<string, Course> | null>(null)
+  const [courseDetailsLoading, setCourseDetailsLoading] = useState(false)
 
-  if (!major) {
-    return (
-      <div className="text-center py-20">
-        <h2 className="text-2xl font-bold text-gray-600">专业未找到</h2>
-        <Link to="/" className="text-cityu-accent mt-4 inline-block hover:underline">
-          返回首页
-        </Link>
-      </div>
-    )
-  }
+  const courses: Record<string, Course> = courseDetails ?? {}
 
-  const activeStream = selectedStreamIdx >= 0 ? major.streams?.[selectedStreamIdx] : null
+  useEffect(() => {
+    let cancelled = false
+    setMajor(null)
+    setMajorLoadState('loading')
+    setSelectedStreamIdx(-1)
+    setEditMode(false)
 
-  const studyPlan = useMemo(() => generateStudyPlan(major, courses, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined), [major, courses, selectedStreamIdx])
+    const loader = majorModules[`../data/major-${majorCode}.json`]
+    if (!majorCode || !loader) {
+      setMajorLoadState('missing')
+      return
+    }
 
-  const allReqCourses = useMemo(() => getAllMajorCourses(major, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined), [major, selectedStreamIdx])
+    loader().then((module: any) => {
+      if (cancelled) return
+      setMajor(module.default)
+      setMajorLoadState('ready')
+    }).catch(() => {
+      if (cancelled) return
+      setMajorLoadState('missing')
+    })
+
+    return () => {
+      cancelled = true
+    }
+  }, [majorCode])
+
+  const hasStreams = Boolean(major?.streams && major.streams.length > 0)
+  const activeStream = major && selectedStreamIdx >= 0 ? major.streams?.[selectedStreamIdx] : null
+
+  const studyPlan = useMemo(() => (
+    major ? generateStudyPlan(major, courses, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : []
+  ), [major, courses, selectedStreamIdx])
+
+  const allReqCourses = useMemo(() => (
+    major ? getAllMajorCourses(major, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : []
+  ), [major, selectedStreamIdx])
 
   const filteredCourses = useMemo(() => {
     if (!search.trim()) return allReqCourses
@@ -51,18 +101,34 @@ export default function MajorPage() {
     )
   }, [allReqCourses, search])
 
-  const getCourseDetail = (code: string): Course | null => {
-    // Try exact match
-    if (courses[code]) return courses[code]
-    // Try first part before space or slash
-    const baseCode = code.split(/[\s\/]/)[0]
-    if (courses[baseCode]) return courses[baseCode]
-    // For special placeholders
-    if (code === 'GE-DR' || code === 'ELECTIVE') return null
-    return {
-      code, title: code, credits: 0, department: '', prerequisites: [],
-      semester: '', assessment: {}, pdfUrl: '', courseUrl: ''
+  const loadCourseDetails = async (): Promise<Record<string, Course>> => {
+    if (courseDetails) return courseDetails
+    setCourseDetailsLoading(true)
+    try {
+      const module = await import('../data/courses.json')
+      const loaded = module.default as unknown as Record<string, Course>
+      setCourseDetails(loaded)
+      return loaded
+    } finally {
+      setCourseDetailsLoading(false)
     }
+  }
+
+  const openCourseDetail = async (code: string) => {
+    if (isGenericCourseSlot(code)) return
+    const loadedCourses = await loadCourseDetails()
+    const lookupCode = getCourseLookupCode(code)
+    const detail = loadedCourses[code] ?? loadedCourses[lookupCode] ?? null
+    if (detail) setSelectedCourse(detail)
+  }
+
+  const toggleEditMode = async () => {
+    if (editMode) {
+      setEditMode(false)
+      return
+    }
+    await loadCourseDetails()
+    setEditMode(true)
   }
 
   // Helper to get credits from either flat or nested requirement structure
@@ -75,14 +141,15 @@ export default function MajorPage() {
   }
 
   // Use stream-specific requirements if available
-  const activeReqs = activeStream?.requirements ?? major.requirements ?? {}
+  const activeReqs = activeStream?.requirements ?? major?.requirements ?? {}
   const geReq = getReqValue(activeReqs, ['gatewayEducation'])
-  const collegeReq = getReqValue(activeReqs, ['college', 'collegeRequirement'])
+  const collegeReq = getReqValue(activeReqs, ['college'])
+  const collegeSpecifiedReq = getReqValue(activeReqs, ['collegeRequirement'])
   const coreReq = getReqValue(activeReqs, ['majorCore'])
   const electiveReq = getReqValue(activeReqs, ['majorElectives', 'majorElective'])
 
-  const totalCredits = activeStream?.totalCredits ?? major.totalCredits ??
-    ((geReq.credits || 0) + (collegeReq.credits || 0) + (coreReq.credits || 0) + (electiveReq.credits || 0))
+  const totalCredits = activeStream?.totalCredits ?? major?.totalCredits ??
+    ((geReq.credits || 0) + (collegeReq.credits || 0) + (collegeSpecifiedReq.credits || 0) + (coreReq.credits || 0) + (electiveReq.credits || 0))
 
   // Build requirement sections dynamically
   const reqSections = useMemo(() => {
@@ -90,6 +157,7 @@ export default function MajorPage() {
     const reqList = [
       { key: 'gatewayEducation', label: '通识教育', icon: GraduationCap, req: geReq },
       { key: 'college', label: '学院/学系要求', icon: BookOpen, req: collegeReq },
+      { key: 'collegeRequirement', label: '学院指定课程', icon: BookOpen, req: collegeSpecifiedReq },
       { key: 'majorCore', label: '专业核心', icon: FileText, req: coreReq },
       { key: 'majorElectives', label: '专业选修', icon: LayoutGrid, req: electiveReq },
     ]
@@ -99,7 +167,36 @@ export default function MajorPage() {
       }
     }
     return sections
-  }, [geReq, collegeReq, coreReq, electiveReq])
+  }, [geReq, collegeReq, collegeSpecifiedReq, coreReq, electiveReq])
+
+  if (majorLoadState === 'loading') {
+    return (
+      <div className="text-center py-20 text-gray-500">
+        正在加载专业数据...
+      </div>
+    )
+  }
+
+  if (!major) {
+    return (
+      <div className="text-center py-20">
+        <h2 className="text-2xl font-bold text-gray-600">专业未找到</h2>
+        <Link to="/" className="text-cityu-accent mt-4 inline-block hover:underline">
+          返回首页
+        </Link>
+      </div>
+    )
+  }
+
+  const sourceStatus = getStudyPlanSourceStatus(activeStream ?? major)
+  const sourceTone = SOURCE_TONE_CLASSES[sourceStatus.tone]
+  const issueReport = buildIssueReport({
+    entityType: 'major',
+    code: activeStream?.code ? `${major.code} / ${activeStream.code}` : major.code,
+    title: activeStream?.name ? `${major.title} - ${activeStream.name}` : major.title,
+    pageUrl: typeof window !== 'undefined' ? window.location.href : major.url,
+    sourceKind: sourceStatus.kind,
+  })
 
   return (
     <div>
@@ -123,12 +220,21 @@ export default function MajorPage() {
             <p className="text-gray-500 text-sm sm:text-base">{major.degree}</p>
           </div>
           <div className="flex items-center gap-2 sm:gap-4">
+            <a
+              href={issueReport.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-lg text-sm text-gray-600 hover:text-cityu-accent hover:border-cityu-accent transition-colors"
+            >
+              <Flag className="w-4 h-4" />
+              报告问题
+            </a>
             <div className="text-center px-3 sm:px-4 py-2 bg-gray-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-cityu-dark">{totalCredits}</div>
               <div className="text-xs text-gray-500">总学分</div>
             </div>
             <div className="text-center px-3 sm:px-4 py-2 bg-gray-50 rounded-lg">
-              <div className="text-xl sm:text-2xl font-bold text-cityu-dark">{major.allCourses.length}</div>
+              <div className="text-xl sm:text-2xl font-bold text-cityu-dark">{allReqCourses.length}</div>
               <div className="text-xs text-gray-500">课程数</div>
             </div>
           </div>
@@ -232,7 +338,8 @@ export default function MajorPage() {
         </div>
         {tab === 'plan' && (
           <button
-            onClick={() => setEditMode(v => !v)}
+            onClick={toggleEditMode}
+            disabled={courseDetailsLoading}
             className={`flex items-center gap-1.5 px-3 py-2.5 sm:py-1.5 text-sm rounded-lg transition-colors shrink-0 ${
               editMode
                 ? 'bg-cityu-accent text-white'
@@ -240,7 +347,7 @@ export default function MajorPage() {
             }`}
           >
             {editMode ? <Eye className="w-4 h-4" /> : <Pencil className="w-4 h-4" />}
-            {editMode ? '退出编辑' : '编辑模式'}
+            {courseDetailsLoading ? '加载课程库...' : editMode ? '退出编辑' : '编辑模式'}
           </button>
         )}
       </div>
@@ -248,7 +355,7 @@ export default function MajorPage() {
       {/* Tab Content */}
       {tab === 'plan' && (
         <div className="space-y-6">
-          {editMode ? (
+          {editMode && courseDetails ? (
             <StudyPlanEditor
               initialPlan={studyPlan.map(s => ({
                 year: s.year,
@@ -263,30 +370,46 @@ export default function MajorPage() {
               }))}
               major={major}
               streamIndex={selectedStreamIdx >= 0 ? selectedStreamIdx : undefined}
-              courses={courses}
-              onCourseClick={(code) => {
-                const detail = getCourseDetail(code)
-                if (detail) setSelectedCourse(detail)
-              }}
+              courses={courseDetails}
+              onCourseClick={openCourseDetail}
             />
           ) : (
             <>
               {(major.studyPlan || activeStream?.studyPlan) && (
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4 flex items-start gap-2 sm:gap-3">
-                  <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <div className="text-xs sm:text-sm text-blue-800">
+                <div className={`rounded-lg p-3 sm:p-4 flex items-start gap-2 sm:gap-3 ${sourceTone.box}`}>
+                  <Info className={`w-5 h-5 flex-shrink-0 mt-0.5 ${sourceTone.icon}`} />
+                  <div className={`text-xs sm:text-sm ${sourceTone.text}`}>
                     <p className="font-medium">
-                      官方推荐学习计划
-                      {activeStream ? ` — ${activeStream.name}` : ''}
+                      {sourceStatus.label}
+                      {activeStream ? ` - ${activeStream.name}` : ''}
                     </p>
-                    <p>此学习计划来自 CityU 官方 Recommended Study Plan，适用于 2025 cohort normative 4-year degree。</p>
-                    <p className="mt-1 text-[10px] sm:text-xs opacity-80">每学期正常学分上限为 18 CU，申请 ARRO 批准后最高可达 21 CU。</p>
+                    <p>{sourceStatus.description}</p>
+                    {sourceStatus.kind === 'diy' && (
+                      <p className="mt-1">课程池包含该路径底层主修的毕业要求课程及可自由组合的 GE 课程，请自行拖拽到各学期。</p>
+                    )}
+                    {sourceStatus.kind === 'derived' && (
+                      <p className="mt-1">请务必结合当年实际开课、先修要求、交换/实习安排和个人学分负荷自行调整。</p>
+                    )}
+                    <div className="mt-1 flex flex-wrap items-center gap-3 text-[10px] sm:text-xs opacity-90">
+                      <span>每学期正常学分上限为 18 CU，申请 ARRO 批准后最高可达 21 CU。</span>
+                      {sourceStatus.sourceUrl && (
+                        <a
+                          href={sourceStatus.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`inline-flex items-center gap-1 font-medium ${sourceTone.link}`}
+                        >
+                          查看来源
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               )}
 
               <div className="flex items-center gap-4 flex-wrap">
-                {['ge', 'college', 'majorCore', 'majorElective'].map(cat => (
+                {['ge', 'college', 'majorCore', 'majorElective', 'freeElective'].map(cat => (
                   <div key={cat} className="flex items-center gap-1.5 text-sm">
                     <span className={`w-3 h-3 rounded border ${getCategoryColor(cat)}`} />
                     {getCategoryLabel(cat)}
@@ -329,10 +452,7 @@ export default function MajorPage() {
                             title={c.title}
                             credits={c.credits}
                             category={c.category}
-                            onClick={() => {
-                              const detail = getCourseDetail(c.code)
-                              if (detail) setSelectedCourse(detail)
-                            }}
+                            onClick={() => openCourseDetail(c.code)}
                           />
                         ))}
                       </div>
@@ -374,10 +494,7 @@ export default function MajorPage() {
                     <tbody className="divide-y divide-gray-100">
                       {req.courses.map((c: any) => (
                         <tr key={c.code} className="hover:bg-gray-50 active:bg-gray-100 cursor-pointer"
-                          onClick={() => {
-                            const detail = getCourseDetail(c.code)
-                            if (detail) setSelectedCourse(detail)
-                          }}>
+                          onClick={() => openCourseDetail(c.code)}>
                           <td className="px-2 sm:px-3 py-2 font-mono text-cityu-accent font-medium whitespace-nowrap">{c.code}</td>
                           <td className="px-2 sm:px-3 py-2 max-w-[180px] truncate">{c.title}</td>
                           <td className="px-2 sm:px-3 py-2 whitespace-nowrap">{c.credits}</td>
@@ -424,10 +541,7 @@ export default function MajorPage() {
               return (
                 <button
                   key={c.code}
-                  onClick={() => {
-                    const detail = getCourseDetail(c.code)
-                    if (detail) setSelectedCourse(detail)
-                  }}
+                  onClick={() => openCourseDetail(c.code)}
                   className={`text-left p-4 rounded-xl border transition-all hover:shadow-md active:scale-[0.98] ${getCategoryColor(c.category)}`}
                 >
                   <div className="flex items-start justify-between gap-2">

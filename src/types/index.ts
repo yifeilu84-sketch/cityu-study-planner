@@ -34,10 +34,7 @@ export interface StudyPlanSemester {
 }
 
 export interface StudyPlan {
-  year1: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
-  year2: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
-  year3: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
-  year4: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
+  [year: string]: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
 }
 
 export interface MajorRequirements {
@@ -57,6 +54,7 @@ export interface Stream {
   description?: string;
   requirements?: MajorRequirements;
   studyPlan?: StudyPlan;
+  studyPlanStatus?: 'official' | 'derived' | 'diy';
   allCourses?: string[];
   notes?: string[];
   totalCredits?: number;
@@ -72,6 +70,7 @@ export interface Major {
   url: string;
   requirements: MajorRequirements;
   studyPlan?: StudyPlan;
+  studyPlanStatus?: 'official' | 'derived' | 'diy';
   allCourses: string[];
   streams?: Stream[];
   notes?: string[];

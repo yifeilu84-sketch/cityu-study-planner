@@ -7,1287 +7,11 @@
   "department": "Department of Mathematics",
   "college": "College of Science",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 640,
-      "courses": [
-        {
-          "code": "CHEM1200",
-          "title": "Discovery in Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1101",
-          "title": "Introduction to Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1300",
-          "title": "Principles of General Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1502",
-          "title": "Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI1001",
-          "title": "Employability for Scientists",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI1002",
-          "title": "Career Lab for Scientists",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI2002",
-          "title": "Workshop on Research Methodology",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1300",
-          "title": "Principles of General Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2006A",
-          "title": "Principles of Inorganic Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2007A",
-          "title": "Principles of Organic Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2509",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1202",
-          "title": "General Physics II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2004A",
-          "title": "Principles of Analytical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2008A",
-          "title": "Principles of Physical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1203",
-          "title": "General Physics III",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1200",
-          "title": "Discovery in Biology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1101",
-          "title": "Introduction to Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1300",
-          "title": "Principles of General Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1502",
-          "title": "Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1201",
-          "title": "General Physics I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI1001",
-          "title": "Employability for Scientists",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI1002",
-          "title": "Career Lab for Scientists",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI2002",
-          "title": "Workshop on Research Methodology",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM1300",
-          "title": "Principles of General Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2006A",
-          "title": "Principles of Inorganic Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2007A",
-          "title": "Principles of Organic Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2509",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1202",
-          "title": "General Physics II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2004A",
-          "title": "Principles of Analytical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CHEM2008A",
-          "title": "Principles of Physical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1203",
-          "title": "General Physics III",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2503",
-          "title": "Linear Algebra",
-          "credits": 4,
-          "remarks": "*"
-        },
-        {
-          "code": "MA2507",
-          "title": "Computing Mathematics Laboratory",
-          "credits": 1,
-          "remarks": "Waived for students admitted into ASII"
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2509",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3512",
-          "title": "Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3515",
-          "title": "Introduction to Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3517",
-          "title": "Complex Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3518",
-          "title": "Applied Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3525",
-          "title": "Elementary Numerical Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3526",
-          "title": "Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2360",
-          "title": "Java Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2468",
-          "title": "Data Structures and Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4530",
-          "title": "Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4555",
-          "title": "Supervised Individual Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4001",
-          "title": "Co-operative Education Scheme for Science Students",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4002",
-          "title": "Industrial Attachment Scheme for Science Students",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4005",
-          "title": "Overseas Internship Scheme for Science Student",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": "Only for first year students of Normative 4-year Degree (BSCSIU4/CM) except with special approval."
-        },
-        {
-          "code": "MA3521",
-          "title": "Introductory Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3523",
-          "title": "Introduction to Abstract Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3530",
-          "title": "Selected Topics on Mathematics",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "MA4523",
-          "title": "Introduction to Finite Element Method",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4524",
-          "title": "Elementary Number Theory and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4525",
-          "title": "Combinatorial and Network Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4527",
-          "title": "Computational Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4528",
-          "title": "Introduction to Dynamical Systems and Chaos",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4529",
-          "title": "Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4530",
-          "title": "Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4531",
-          "title": "Partial Differential Equations II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4532",
-          "title": "Applied Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4533",
-          "title": "Applied Mathematics Laboratory",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "MA4534",
-          "title": "Computer Graphics and Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4535",
-          "title": "Applied Probability",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4537",
-          "title": "Introduction to Actuarial Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4538",
-          "title": "Numerical Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4540",
-          "title": "Modelling and Case Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4543",
-          "title": "Introduction to Time Series and Forecasting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4545",
-          "title": "Applied Differential Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4546",
-          "title": "Introduction to Stochastic Processes",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4547",
-          "title": "Asymptotic Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4548",
-          "title": "Abstract Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4549",
-          "title": "Sampling Survey Methods for Social and Market Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4550",
-          "title": "A Mathematical Introduction to Machine Learning for Data Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4551",
-          "title": "Introduction to Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4552",
-          "title": "Introduction to Differential Manifolds",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4553",
-          "title": "A Mathematical Introduction to Image Processing and Analysis, with Some Surprising Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4554",
-          "title": "Statistical Foundations of Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI3001",
-          "title": "Grand Challenges in the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4107",
-          "title": "Financial Engineering and Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3523",
-          "title": "Introduction to Abstract Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4545",
-          "title": "Applied Differential Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4528",
-          "title": "Introduction to Dynamical Systems and Chaos",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4546",
-          "title": "Introduction to Stochastic Processes",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4551",
-          "title": "Introduction to Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3521",
-          "title": "Introductory Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4529",
-          "title": "Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4537",
-          "title": "Introduction to Actuarial Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4821",
-          "title": "Derivatives Pricing II: Interest Rate and Credit Risk",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3510",
-          "title": "Independent Research I",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4510",
-          "title": "Independent Research II",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA2503",
-          "title": "Linear Algebra",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3512",
-          "title": "Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3515",
-          "title": "Introduction to Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3517",
-          "title": "Complex Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3518",
-          "title": "Applied Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3525",
-          "title": "Elementary Numerical Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3526",
-          "title": "Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2360",
-          "title": "Java Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2468",
-          "title": "Data Structures and Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2503",
-          "title": "Linear Algebra",
-          "credits": 4,
-          "remarks": "*"
-        },
-        {
-          "code": "MA2507",
-          "title": "Computing Mathematics Laboratory",
-          "credits": 1,
-          "remarks": "Waived for students admitted into ASII"
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2509",
-          "title": "Discrete Mathematics",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": "*"
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3512",
-          "title": "Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3515",
-          "title": "Introduction to Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3517",
-          "title": "Complex Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3518",
-          "title": "Applied Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3525",
-          "title": "Elementary Numerical Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3526",
-          "title": "Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2360",
-          "title": "Java Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2468",
-          "title": "Data Structures and Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4530",
-          "title": "Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4555",
-          "title": "Supervised Individual Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4001",
-          "title": "Co-operative Education Scheme for Science Students",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4002",
-          "title": "Industrial Attachment Scheme for Science Students",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI4005",
-          "title": "Overseas Internship Scheme for Science Student",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1501",
-          "title": "Coordinate Geometry",
-          "credits": 3,
-          "remarks": "Only for first year students of Normative 4-year Degree (BSCSIU4/CM) except with special approval."
-        },
-        {
-          "code": "MA3521",
-          "title": "Introductory Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3523",
-          "title": "Introduction to Abstract Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3530",
-          "title": "Selected Topics on Mathematics",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "MA4523",
-          "title": "Introduction to Finite Element Method",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4524",
-          "title": "Elementary Number Theory and Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4525",
-          "title": "Combinatorial and Network Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4527",
-          "title": "Computational Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4528",
-          "title": "Introduction to Dynamical Systems and Chaos",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4529",
-          "title": "Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4530",
-          "title": "Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4531",
-          "title": "Partial Differential Equations II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4532",
-          "title": "Applied Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4533",
-          "title": "Applied Mathematics Laboratory",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "MA4534",
-          "title": "Computer Graphics and Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4535",
-          "title": "Applied Probability",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4537",
-          "title": "Introduction to Actuarial Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4538",
-          "title": "Numerical Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4540",
-          "title": "Modelling and Case Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4543",
-          "title": "Introduction to Time Series and Forecasting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4545",
-          "title": "Applied Differential Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4546",
-          "title": "Introduction to Stochastic Processes",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4547",
-          "title": "Asymptotic Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4548",
-          "title": "Abstract Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4549",
-          "title": "Sampling Survey Methods for Social and Market Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4550",
-          "title": "A Mathematical Introduction to Machine Learning for Data Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4551",
-          "title": "Introduction to Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4552",
-          "title": "Introduction to Differential Manifolds",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4553",
-          "title": "A Mathematical Introduction to Image Processing and Analysis, with Some Surprising Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4554",
-          "title": "Statistical Foundations of Data Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4486",
-          "title": "Artificial Intelligence",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4487",
-          "title": "Machine Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CSCI3001",
-          "title": "Grand Challenges in the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3001",
-          "title": "Big Data: The Arts and Science of Scaling",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3003",
-          "title": "Blockchain",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC3022",
-          "title": "Financial Data Analytics for Investments",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SDSC4107",
-          "title": "Financial Engineering and Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3523",
-          "title": "Introduction to Abstract Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4545",
-          "title": "Applied Differential Geometry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4528",
-          "title": "Introduction to Dynamical Systems and Chaos",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4546",
-          "title": "Introduction to Stochastic Processes",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4551",
-          "title": "Introduction to Functional Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3521",
-          "title": "Introductory Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4529",
-          "title": "Mathematical Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4537",
-          "title": "Introduction to Actuarial Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4821",
-          "title": "Derivatives Pricing II: Interest Rate and Credit Risk",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3510",
-          "title": "Independent Research I",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA4510",
-          "title": "Independent Research II",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "MA2503",
-          "title": "Linear Algebra",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2508",
-          "title": "Multi-variable Calculus",
-          "credits": 4,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3512",
-          "title": "Partial Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3515",
-          "title": "Introduction to Optimization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3517",
-          "title": "Complex Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3518",
-          "title": "Applied Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3525",
-          "title": "Elementary Numerical Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3526",
-          "title": "Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2360",
-          "title": "Java Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2468",
-          "title": "Data Structures and Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 31,
+    "collegeRequirement": 6,
+    "majorCore": 45,
+    "majorElective": "18-20",
+    "freeElective": "20-22"
   },
   "allCourses": [
     "CHEM1200",
@@ -1367,5 +91,275 @@
     "MA3510",
     "MA4510",
     "MGT2324"
-  ]
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "MA1300",
+            "title": "Enhanced Calculus and Linear Algebra I",
+            "credits": 3
+          },
+          {
+            "code": "MA1502",
+            "title": "Algebra (or Science Elective)",
+            "credits": 3
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "CSCI1001",
+            "title": "Employability for Scientists",
+            "credits": 0
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "MA1301",
+            "title": "Enhanced Calculus and Linear Algebra II",
+            "credits": 3
+          },
+          {
+            "code": "MA1501",
+            "title": "Coordinate Geometry (or Science Elective)",
+            "credits": 3
+          },
+          {
+            "code": "CSCI1002",
+            "title": "Career Lab for Scientists",
+            "credits": 0
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA2503",
+            "title": "Linear Algebra",
+            "credits": 4
+          },
+          {
+            "code": "MA2508",
+            "title": "Multi-variable Calculus",
+            "credits": 4
+          },
+          {
+            "code": "MA2509",
+            "title": "Discrete Mathematics",
+            "credits": 3
+          },
+          {
+            "code": "CS2360",
+            "title": "Java Programming",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education (Area 3)",
+            "credits": 3
+          }
+        ],
+        "credits": 17
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA2507",
+            "title": "Computing Mathematics Laboratory",
+            "credits": 1
+          },
+          {
+            "code": "MA2510",
+            "title": "Probability and Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MA3511",
+            "title": "Ordinary Differential Equations",
+            "credits": 3
+          },
+          {
+            "code": "CS2468",
+            "title": "Data Structures and Data Management",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education (Area 4)",
+            "credits": 3
+          },
+          {
+            "code": "MA3526",
+            "title": "Analysis (if not taken in Y1)",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA3512",
+            "title": "Partial Differential Equations",
+            "credits": 3
+          },
+          {
+            "code": "MA3518",
+            "title": "Applied Statistics",
+            "credits": 3
+          },
+          {
+            "code": "MA3525",
+            "title": "Elementary Numerical Methods",
+            "credits": 3
+          },
+          {
+            "code": "MJR-ELEC1",
+            "title": "Major Elective 1 / Stream",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1 / Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2 / Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA3514",
+            "title": "Numerical Methods for Differential Equations",
+            "credits": 3
+          },
+          {
+            "code": "MA3515",
+            "title": "Introduction to Optimization",
+            "credits": 3
+          },
+          {
+            "code": "MA3517",
+            "title": "Complex Analysis",
+            "credits": 3
+          },
+          {
+            "code": "MJR-ELEC2",
+            "title": "Major Elective 2 / Stream",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3 / Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4 / Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MA4530",
+            "title": "Project (FYP) or Major Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "MJR-ELEC4",
+            "title": "Major Elective 4 / Stream",
+            "credits": 3
+          },
+          {
+            "code": "MJR-ELEC5",
+            "title": "Major Elective 5 / Stream",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5 / Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MA4530",
+            "title": "Project (FYP) or Major Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6 / Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE7",
+            "title": "Free Elective 7",
+            "credits": 3
+          },
+          {
+            "code": "FREE8",
+            "title": "Free Elective 8",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  }
 }

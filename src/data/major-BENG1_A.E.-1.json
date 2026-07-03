@@ -3,870 +3,194 @@
   "title": "Bachelor of Engineering in Aerospace Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_A.E.-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "Department of Mechanical Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 442,
+      "credits": 21,
       "courses": [
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2410",
+          "title": "English for Engineering",
+          "credits": 3
         },
         {
-          "code": "CS1302",
-          "title": "Introduction to Computer Programming",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3001",
-          "title": "Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2020",
-          "title": "Engineering Workshop Practice",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2029",
-          "title": "Electrical and Electronic Principles I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2036",
-          "title": "Engineering Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2109",
-          "title": "Engineering Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2110",
-          "title": "Engineering Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2112",
-          "title": "Thermodynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2116",
-          "title": "Engineering Graphics",
-          "credits": 0,
-          "remarks": "# Department-specified Course for top 40% majors allocation"
-        },
-        {
-          "code": "MNE2204",
-          "title": "Aircraft System Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3049",
-          "title": "Control Principles",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3118",
-          "title": "Mechanics of Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3122",
-          "title": "Fluid Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3202",
-          "title": "Aircraft Dynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3203",
-          "title": "Aerospace Propulsion Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3204",
-          "title": "NDT Technologies for Aircraft Structures and Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3205",
-          "title": "Flight Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4109",
-          "title": "Reliability Engineering and Risk Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4201",
-          "title": "Aerodynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4202",
-          "title": "Aeroelasticity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4203",
-          "title": "Modelling and Simulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1202",
-          "title": "General Physics II",
-          "credits": 3,
-          "remarks": "# Department-specified Course for top 40% majors allocation"
-        },
-        {
-          "code": "MNE4068",
-          "title": "Project (Individual)",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/ consultancy project/research project requirement"
-        },
-        {
-          "code": "MNE4119",
-          "title": "Project (Group)",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/ consultancy project/research project requirement"
-        },
-        {
-          "code": "MNE3119",
-          "title": "Manufacturing Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4208",
-          "title": "Advanced Composites and Polymers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4213",
-          "title": "Advanced Structural Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3207",
-          "title": "Avionic Power Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4204",
-          "title": "Signals, Sensors and Communication Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4217",
-          "title": "Autonomous Systems and Navigation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3119",
-          "title": "Manufacturing Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3207",
-          "title": "Avionic Power Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4204",
-          "title": "Signals, Sensors and Communication Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4208",
-          "title": "Advanced Composites and Polymers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4213",
-          "title": "Advanced Structural Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4217",
-          "title": "Autonomous Systems and Navigation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "FS2001",
-          "title": "Workshop-based Study in Science and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2114",
-          "title": "Experimental Sustainable Engineering Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3046",
-          "title": "Automation Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3104",
-          "title": "Sustainable and Renewable Energy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3125",
-          "title": "Fluid Mechanics for Energy-Related Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3126",
-          "title": "Methodologies for Solving Complex Engineering Problems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3127",
-          "title": "Electron Microscopy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3128",
-          "title": "Radiological Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4005",
-          "title": "Finite Element Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4032",
-          "title": "Robotics and Machine Vision",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4047",
-          "title": "Directed Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4125",
-          "title": "Principles and Transport Process Fundamentals of Semiconductor Manufacturing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SYE3102",
-          "title": "Quality Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SYE4024",
-          "title": "Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "FS2002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS3002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS4001",
-          "title": "Co-operative Education Scheme (CES)",
-          "credits": 8,
-          "remarks": "Internship (8 - 12 months)"
-        },
-        {
-          "code": "FS4002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS4005",
-          "title": "Overseas Internship Scheme",
-          "credits": 3,
-          "remarks": "Internship (9 - 13 weeks)"
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3001",
-          "title": "Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2020",
-          "title": "Engineering Workshop Practice",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2029",
-          "title": "Electrical and Electronic Principles I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2036",
-          "title": "Engineering Computing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2109",
-          "title": "Engineering Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2110",
-          "title": "Engineering Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2112",
-          "title": "Thermodynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2116",
-          "title": "Engineering Graphics",
-          "credits": 0,
-          "remarks": "# Department-specified Course for top 40% majors allocation"
-        },
-        {
-          "code": "MNE2204",
-          "title": "Aircraft System Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3049",
-          "title": "Control Principles",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3118",
-          "title": "Mechanics of Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3122",
-          "title": "Fluid Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3202",
-          "title": "Aircraft Dynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3203",
-          "title": "Aerospace Propulsion Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3204",
-          "title": "NDT Technologies for Aircraft Structures and Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3205",
-          "title": "Flight Mechanics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4109",
-          "title": "Reliability Engineering and Risk Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4201",
-          "title": "Aerodynamics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4202",
-          "title": "Aeroelasticity",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4203",
-          "title": "Modelling and Simulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PHY1202",
-          "title": "General Physics II",
-          "credits": 3,
-          "remarks": "# Department-specified Course for top 40% majors allocation"
-        },
-        {
-          "code": "MNE4068",
-          "title": "Project (Individual)",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/ consultancy project/research project requirement"
-        },
-        {
-          "code": "MNE4119",
-          "title": "Project (Group)",
-          "credits": 9,
-          "remarks": "A course to fulfil the internship/ consultancy project/research project requirement"
-        },
-        {
-          "code": "MNE3119",
-          "title": "Manufacturing Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4208",
-          "title": "Advanced Composites and Polymers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4213",
-          "title": "Advanced Structural Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3207",
-          "title": "Avionic Power Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4204",
-          "title": "Signals, Sensors and Communication Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4217",
-          "title": "Autonomous Systems and Navigation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3119",
-          "title": "Manufacturing Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3121",
-          "title": "Heat Transfer",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3123",
-          "title": "Internship in Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3207",
-          "title": "Avionic Power Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4010",
-          "title": "Dynamics and Vibrations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4121",
-          "title": "Machine Learning and Quantum Computation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4204",
-          "title": "Signals, Sensors and Communication Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4208",
-          "title": "Advanced Composites and Polymers",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4213",
-          "title": "Advanced Structural Materials",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4217",
-          "title": "Autonomous Systems and Navigation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "FS2001",
-          "title": "Workshop-based Study in Science and Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE2114",
-          "title": "Experimental Sustainable Engineering Techniques",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3046",
-          "title": "Automation Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3104",
-          "title": "Sustainable and Renewable Energy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3125",
-          "title": "Fluid Mechanics for Energy-Related Applications",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3126",
-          "title": "Methodologies for Solving Complex Engineering Problems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3127",
-          "title": "Electron Microscopy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE3128",
-          "title": "Radiological Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4005",
-          "title": "Finite Element Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4032",
-          "title": "Robotics and Machine Vision",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4047",
-          "title": "Directed Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MNE4125",
-          "title": "Principles and Transport Process Fundamentals of Semiconductor Manufacturing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SYE3102",
-          "title": "Quality Engineering",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SYE4024",
-          "title": "Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "FS2002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS3002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS4001",
-          "title": "Co-operative Education Scheme (CES)",
-          "credits": 8,
-          "remarks": "Internship (8 - 12 months)"
-        },
-        {
-          "code": "FS4002",
-          "title": "Industrial Attachment Scheme",
-          "credits": 3,
-          "remarks": "Internship (minimum 6 weeks)"
-        },
-        {
-          "code": "FS4005",
-          "title": "Overseas Internship Scheme",
-          "credits": 3,
-          "remarks": "Internship (9 - 13 weeks)"
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 69,
+      "courses": [
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "PHY1202",
+          "title": "General Physics II",
+          "credits": 3
+        },
+        {
+          "code": "MNE2066",
+          "title": "Engineers in Society",
+          "credits": 3
+        },
+        {
+          "code": "MNE2109",
+          "title": "Engineering Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "MNE2112",
+          "title": "Thermodynamics",
+          "credits": 3
+        },
+        {
+          "code": "MA2177",
+          "title": "Engineering Mathematics and Statistics",
+          "credits": 3
+        },
+        {
+          "code": "MNE2029",
+          "title": "Electrical and Electronic Principles I",
+          "credits": 3
+        },
+        {
+          "code": "MNE3122",
+          "title": "Fluid Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "MNE2204",
+          "title": "Aircraft System Design",
+          "credits": 3
+        },
+        {
+          "code": "MNE2036",
+          "title": "Engineering Computing",
+          "credits": 3
+        },
+        {
+          "code": "MNE2110",
+          "title": "Engineering Materials",
+          "credits": 3
+        },
+        {
+          "code": "MNE3118",
+          "title": "Mechanics of Materials",
+          "credits": 3
+        },
+        {
+          "code": "MNE3202",
+          "title": "Aircraft Dynamics",
+          "credits": 3
+        },
+        {
+          "code": "MNE3203",
+          "title": "Aerospace Propulsion Systems",
+          "credits": 3
+        },
+        {
+          "code": "MNE4201",
+          "title": "Aerodynamics",
+          "credits": 3
+        },
+        {
+          "code": "MNE3204",
+          "title": "NDT Technologies for Aircraft Structures and Materials",
+          "credits": 3
+        },
+        {
+          "code": "MNE3049",
+          "title": "Control Principles",
+          "credits": 3
+        },
+        {
+          "code": "MNE3205",
+          "title": "Flight Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "MNE4202",
+          "title": "Aeroelasticity",
+          "credits": 3
+        },
+        {
+          "code": "MNE4203",
+          "title": "Modelling and Simulation",
+          "credits": 3
+        },
+        {
+          "code": "MNE4068",
+          "title": "Project (Individual)",
+          "credits": 3
+        },
+        {
+          "code": "MNE4119",
+          "title": "Project (Group)",
+          "credits": 3
+        },
+        {
+          "code": "MNE4109",
+          "title": "Aerospace Engineering Design",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "courses": [
+        {
+          "code": "AE-ELECTIVE",
+          "title": "Major Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 12
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -926,5 +250,266 @@
     "FS4001",
     "FS4002",
     "FS4005"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "PHY1101",
+            "title": "Introductory Classical Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "MA1200 / MA1300",
+            "title": "Calculus and Basic Linear Algebra I / Enhanced Calculus and Linear Algebra I",
+            "credits": 3
+          },
+          {
+            "code": "MNE2066",
+            "title": "Engineers in Society",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "MNE2116",
+            "title": "Engineering Graphics",
+            "credits": 0
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Course (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole Person Development through Service Learning",
+            "credits": 1
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "MA1201 / MA1301",
+            "title": "Calculus and Basic Linear Algebra II / Enhanced Calculus and Linear Algebra II",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "PHY1202",
+            "title": "General Physics II",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MNE2109",
+            "title": "Engineering Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "MNE2112",
+            "title": "Thermodynamics",
+            "credits": 3
+          },
+          {
+            "code": "MA2177",
+            "title": "Engineering Mathematics and Statistics",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Course (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Course (Area 3)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MNE2029",
+            "title": "Electrical and Electronic Principles I",
+            "credits": 3
+          },
+          {
+            "code": "MNE3122",
+            "title": "Fluid Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "MNE2204",
+            "title": "Aircraft System Design",
+            "credits": 3
+          },
+          {
+            "code": "MNE2036",
+            "title": "Engineering Computing",
+            "credits": 3
+          },
+          {
+            "code": "MNE2110",
+            "title": "Engineering Materials",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MNE3118",
+            "title": "Mechanics of Materials",
+            "credits": 3
+          },
+          {
+            "code": "MNE3202",
+            "title": "Aircraft Dynamics",
+            "credits": 3
+          },
+          {
+            "code": "MNE3203",
+            "title": "Aerospace Propulsion Systems",
+            "credits": 3
+          },
+          {
+            "code": "MNE4201",
+            "title": "Aerodynamics",
+            "credits": 3
+          },
+          {
+            "code": "MNE3204",
+            "title": "NDT Technologies for Aircraft Structures and Materials",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MNE3049",
+            "title": "Control Principles",
+            "credits": 3
+          },
+          {
+            "code": "MNE3205",
+            "title": "Flight Mechanics",
+            "credits": 3
+          },
+          {
+            "code": "MNE4202",
+            "title": "Aeroelasticity",
+            "credits": 3
+          },
+          {
+            "code": "MNE4203",
+            "title": "Modelling and Simulation",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "MNE4068 / MNE4119",
+            "title": "Project (Individual) / Project (Group)",
+            "credits": 3
+          },
+          {
+            "code": "MNE4109",
+            "title": "Reliability Engineering and Risk Analysis",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-COURSE",
+            "title": "Stream Course 1",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-COURSE",
+            "title": "Stream Course 2",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Course (Area 4)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "MNE4068 / MNE4119",
+            "title": "Project (Individual) / Project (Group)",
+            "credits": 6
+          },
+          {
+            "code": "STREAM-COURSE",
+            "title": "Stream Course 3",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-COURSE",
+            "title": "Stream Course 4",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "Major Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "notes": [
+    "Suggested Study Path for BENGEGU4 A.E. 2024/25 Cohort.",
+    "General / Aerospace Materials Stream / Aerospace Systems Stream available.",
+    "Summer after Year 3 reserved for IAS (Industrial Attachment Scheme).",
+    "MNE4068 Project (Individual) or MNE4119 Project (Group) in Year 4."
   ]
 }

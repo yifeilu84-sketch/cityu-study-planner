@@ -2,1556 +2,21 @@
   "code": "BSS1_IRGA-1",
   "title": "Bachelor of Social Sciences in International Relations and Global Affairs",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
+  "studyPlanStatus": "derived",
+  "notes": [
+    "Study plan is derived from official graduation/catalogue requirements; no separate official semester-by-semester recommended study plan was confirmed on the official website.",
+    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits."
+  ],
   "degree": "Bachelor of Social",
-  "totalCredits": 121,
+  "totalCredits": 120,
   "department": "Department of Public and International Affairs",
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 780,
-      "courses": [
-        {
-          "code": "LC2401",
-          "title": "French 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2501",
-          "title": "German 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2930",
-          "title": "Japanese 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2973",
-          "title": "Korean 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2601",
-          "title": "Spanish 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "PIA2601",
-          "title": "Computational Language Course 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2602",
-          "title": "Computational Language Course 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2401",
-          "title": "French 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2501",
-          "title": "German 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "LC2930",
-          "title": "Japanese 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2973",
-          "title": "Korean 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2601",
-          "title": "Spanish 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "#"
-        },
-        {
-          "code": "PIA2601",
-          "title": "Computational Language Course 1",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2602",
-          "title": "Computational Language Course 2",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2105",
-          "title": "Introduction to Political Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2030",
-          "title": "Traditions of Inquiry in the Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2050",
-          "title": "Comparative Politics and Societies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3031",
-          "title": "Political Dynamics in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3121",
-          "title": "Theories of International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3123",
-          "title": "Theories of Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3126",
-          "title": "International Political Economy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3130",
-          "title": "U.S. Politics and Foreign Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3142",
-          "title": "Global Social Movements",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3151",
-          "title": "Managing New Global Challenges",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3153",
-          "title": "European Politics and International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3812",
-          "title": "International Experience",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4123",
-          "title": "International Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2032",
-          "title": "Hong Kong: Continuity and Change",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2073",
-          "title": "Understanding Culture in Japan and China through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2200",
-          "title": "Introduction to International Studies Through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2918",
-          "title": "A Portrait of Japan : Experiencing Japanese Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2958",
-          "title": "Introduction to Korean Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3060",
-          "title": "Special Topics in Asian Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3070",
-          "title": "Special Topics in Development Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3124",
-          "title": "Special Topics in International Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3141",
-          "title": "Spies, Intelligence and National Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3315",
-          "title": "Ethics in Government",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3544",
-          "title": "East Asia and Globalization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "Applies only to where the destination is Japan"
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "Applies only to where the destination is Korea"
-        },
-        {
-          "code": "PIA3984",
-          "title": "Korean Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4027",
-          "title": "Religions and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4060",
-          "title": "Directed Research Project",
-          "credits": 6,
-          "remarks": "PIA4060 carries eligibility requirement of 3.0 CGPA"
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4122",
-          "title": "International Organisations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2032",
-          "title": "Hong Kong: Continuity and Change",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2073",
-          "title": "Understanding Culture in Japan and China through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2918",
-          "title": "A Portrait of Japan : Experiencing Japanese Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2958",
-          "title": "Introduction to Korean Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3060",
-          "title": "Special Topics in Asian Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3984",
-          "title": "Korean Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4027",
-          "title": "Religions and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2200",
-          "title": "Introduction to International Studies Through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3124",
-          "title": "Special Topics in International Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3141",
-          "title": "Spies, Intelligence and National Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4122",
-          "title": "International Organisations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3070",
-          "title": "Special Topics in Development Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3544",
-          "title": "East Asia and Globalization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2105",
-          "title": "Introduction to Political Science",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2402",
-          "title": "Introduction to Social and Political Philosophy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2012",
-          "title": "Social Research Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2030",
-          "title": "Traditions of Inquiry in the Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2050",
-          "title": "Comparative Politics and Societies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3031",
-          "title": "Political Dynamics in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3032",
-          "title": "State and Economy in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3121",
-          "title": "Theories of International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3123",
-          "title": "Theories of Development",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3126",
-          "title": "International Political Economy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3130",
-          "title": "U.S. Politics and Foreign Policy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3142",
-          "title": "Global Social Movements",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3151",
-          "title": "Managing New Global Challenges",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3153",
-          "title": "European Politics and International Relations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3800",
-          "title": "Professional Internship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3812",
-          "title": "International Experience",
-          "credits": 0,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4123",
-          "title": "International Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4152",
-          "title": "Globalization and Its Discontents",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2032",
-          "title": "Hong Kong: Continuity and Change",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2073",
-          "title": "Understanding Culture in Japan and China through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2200",
-          "title": "Introduction to International Studies Through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2918",
-          "title": "A Portrait of Japan : Experiencing Japanese Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2958",
-          "title": "Introduction to Korean Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3060",
-          "title": "Special Topics in Asian Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3070",
-          "title": "Special Topics in Development Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3124",
-          "title": "Special Topics in International Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3141",
-          "title": "Spies, Intelligence and National Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3315",
-          "title": "Ethics in Government",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3544",
-          "title": "East Asia and Globalization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "Applies only to where the destination is Japan"
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "Applies only to where the destination is Korea"
-        },
-        {
-          "code": "PIA3984",
-          "title": "Korean Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4027",
-          "title": "Religions and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4060",
-          "title": "Directed Research Project",
-          "credits": 6,
-          "remarks": "PIA4060 carries eligibility requirement of 3.0 CGPA"
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4122",
-          "title": "International Organisations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2032",
-          "title": "Hong Kong: Continuity and Change",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2073",
-          "title": "Understanding Culture in Japan and China through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2104",
-          "title": "Hong Kong Governance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2918",
-          "title": "A Portrait of Japan : Experiencing Japanese Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2958",
-          "title": "Introduction to Korean Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3060",
-          "title": "Special Topics in Asian Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3984",
-          "title": "Korean Culture",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4027",
-          "title": "Religions and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2040",
-          "title": "History and Society in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2200",
-          "title": "Introduction to International Studies Through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3111",
-          "title": "Democracy and Democratization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3113",
-          "title": "Issues in Contemporary World Politics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3120",
-          "title": "Politics and Media",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3124",
-          "title": "Special Topics in International Studies I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3141",
-          "title": "Spies, Intelligence and National Security",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810J",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA3810K",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4072",
-          "title": "Contemporary International Politics of the Asia Pacific",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4122",
-          "title": "International Organisations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2041",
-          "title": "Political and Social Development in China",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2914",
-          "title": "Introduction to Japanese Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3003",
-          "title": "PIA Summer School",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3033",
-          "title": "Culture and Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3034",
-          "title": "Environmental Challenges in Asia and the World",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3046",
-          "title": "Asian Migration and the Global Diasporas",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3070",
-          "title": "Special Topics in Development Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3544",
-          "title": "East Asia and Globalization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA3810",
-          "title": "Study Tour",
-          "credits": 3,
-          "remarks": "As the contents of the tour may vary from year to year, the final say as to which stream students shall be awarded rests with the Major leader."
-        },
-        {
-          "code": "PIA4028",
-          "title": "Women and Social Change in Asia",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4071",
-          "title": "Globalisation and the Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4127",
-          "title": "Poverty and the Politics of Aid",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4132",
-          "title": "Introduction to India",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA4142",
-          "title": "Global Public Health",
-          "credits": 3,
-          "remarks": ""
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 30,
+    "collegeRequirement": 15,
+    "majorCore": 36,
+    "majorElective": 18,
+    "freeElective": 21
   },
   "allCourses": [
     "LC2401",
@@ -1622,5 +87,250 @@
     "PIA4127",
     "PIA4132",
     "PIA4142"
-  ]
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "COL-FOUND1",
+            "title": "College Foundation - Liberal Arts",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-CORE1",
+            "title": "IRGA Core Course 1",
+            "credits": 3
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2401",
+            "title": "English for Humanities and Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "COL-FOUND2",
+            "title": "College Foundation - Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education (Area 1)",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-CORE2",
+            "title": "IRGA Core Course 2",
+            "credits": 3
+          },
+          {
+            "code": "LANG1",
+            "title": "Foreign Language 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "IRGA-CORE3",
+            "title": "IRGA Core Course 3",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-CORE4",
+            "title": "IRGA Core Course 4",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "LANG2",
+            "title": "Foreign Language 2",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC1",
+            "title": "IRGA Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "IRGA-CORE5",
+            "title": "IRGA Core Course 5",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-CORE6",
+            "title": "IRGA Core Course 6",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC2",
+            "title": "IRGA Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "IRGA-CORE7",
+            "title": "IRGA Core Course 7",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-CORE8",
+            "title": "IRGA Core Course 8",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC3",
+            "title": "IRGA Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education (Area 4)",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "IRGA-CORE9",
+            "title": "IRGA Core Course 9",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC4",
+            "title": "IRGA Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC5",
+            "title": "IRGA Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "IRGA-CAPSTONE",
+            "title": "IRGA Capstone Project",
+            "credits": 3
+          },
+          {
+            "code": "IRGA-ELEC6",
+            "title": "IRGA Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR5",
+            "title": "Gateway Education (Area 5)",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "IRGA-ELEC7",
+            "title": "IRGA Elective 7",
+            "credits": 3
+          },
+          {
+            "code": "FREE7",
+            "title": "Free Elective 7",
+            "credits": 3
+          },
+          {
+            "code": "FREE8",
+            "title": "Free Elective 8",
+            "credits": 3
+          },
+          {
+            "code": "FREE9",
+            "title": "Free Elective 9",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  }
 }

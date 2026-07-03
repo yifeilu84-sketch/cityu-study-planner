@@ -1,0 +1,1137 @@
+{
+  "code": "CBIO_BIO3-1",
+  "title": "Integrative Bioscience and Bioengineering Programme (Bio3)",
+  "url": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+  "degree": "Flagship Programme",
+  "totalCredits": 121,
+  "department": "College of Biomedicine",
+  "college": "College of Biomedicine",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 21,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE2410",
+          "title": "English for Engineering",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
+        }
+      ]
+    },
+    "college": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        }
+      ]
+    },
+    "majorCore": {
+      "credits": 66,
+      "courses": [
+        {
+          "code": "BME2105",
+          "title": "Introduction to Biomedical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME2102",
+          "title": "Introduction to Biomechanics",
+          "credits": 3
+        },
+        {
+          "code": "BME2123",
+          "title": "Mathematics for Biomedical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME2029",
+          "title": "Electrical and Electronic Principles",
+          "credits": 3
+        },
+        {
+          "code": "BME2036",
+          "title": "Engineering Computing",
+          "credits": 3
+        },
+        {
+          "code": "BME2122",
+          "title": "Biological Thermofluids",
+          "credits": 3
+        },
+        {
+          "code": "BME2121",
+          "title": "Artificial Intelligence in Biomedical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME2103",
+          "title": "Medical Biotechnology in Imaging and Measurement",
+          "credits": 3
+        },
+        {
+          "code": "BME2106",
+          "title": "Introduction to Cellular and Biomolecular Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME4103",
+          "title": "Bio-safety and Risk Assessment",
+          "credits": 3
+        },
+        {
+          "code": "BME3121",
+          "title": "Biomedical Signals and Systems",
+          "credits": 3
+        },
+        {
+          "code": "BME3123",
+          "title": "Materials for Biomedical Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME2104",
+          "title": "Tissue Engineering",
+          "credits": 3
+        },
+        {
+          "code": "BME3102",
+          "title": "Human Quantitative Physiology",
+          "credits": 3
+        },
+        {
+          "code": "BME4101",
+          "title": "Biomedical Instrumentation",
+          "credits": 3
+        },
+        {
+          "code": "BME3103",
+          "title": "Bio-sensors and Bio-devices",
+          "credits": 3
+        },
+        {
+          "code": "BME4102",
+          "title": "Final Year Project",
+          "credits": 6
+        },
+        {
+          "code": "BME3104",
+          "title": "Robotic Technology in Healthcare",
+          "credits": 3
+        },
+        {
+          "code": "BME2066",
+          "title": "Professional Engineering Practice",
+          "credits": 3
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 12,
+      "courses": [
+        {
+          "code": "CS4465",
+          "title": "Computational Biology and Bioinformatics",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 12
+    },
+    "freeElectives": {
+      "credits": 12,
+      "note": "Or Minor courses"
+    }
+  },
+  "allCourses": [
+    "BME2029",
+    "BME2036",
+    "BME2066",
+    "BME2102",
+    "BME2103",
+    "BME2104",
+    "BME2105",
+    "BME2106",
+    "BME2121",
+    "BME2122",
+    "BME2123",
+    "BME3102",
+    "BME3103",
+    "BME3104",
+    "BME3121",
+    "BME3123",
+    "BME4101",
+    "BME4102",
+    "BME4103",
+    "CS1302",
+    "CS4465",
+    "MA1200",
+    "MA1201",
+    "MA1300",
+    "MA1301",
+    "CHEM2013",
+    "EE2104",
+    "BME3016",
+    "BME3101",
+    "BME3105",
+    "BME3122",
+    "BME3200",
+    "BMS3101",
+    "BME4032",
+    "BME4047",
+    "BME4104",
+    "BME4105",
+    "BMS4102",
+    "PHY4232",
+    "PHY4274",
+    "BME3201"
+  ],
+  "studyPlanStatus": "diy",
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [],
+        "credits": 0
+      },
+      "semB": {
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [],
+        "credits": 0
+      },
+      "semB": {
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [],
+        "credits": 0
+      },
+      "semB": {
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [],
+        "credits": 0
+      },
+      "semB": {
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "BME",
+      "name": "BEng Biomedical Engineering",
+      "description": "Free choice of major under Bio3.",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2410",
+              "title": "English for Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 11
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "MA1201",
+              "title": "Calculus and Basic Linear Algebra II",
+              "credits": 3
+            },
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 66,
+          "courses": [
+            {
+              "code": "BME2105",
+              "title": "Introduction to Biomedical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME2102",
+              "title": "Introduction to Biomechanics",
+              "credits": 3
+            },
+            {
+              "code": "BME2123",
+              "title": "Mathematics for Biomedical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME2029",
+              "title": "Electrical and Electronic Principles",
+              "credits": 3
+            },
+            {
+              "code": "BME2036",
+              "title": "Engineering Computing",
+              "credits": 3
+            },
+            {
+              "code": "BME2122",
+              "title": "Biological Thermofluids",
+              "credits": 3
+            },
+            {
+              "code": "BME2121",
+              "title": "Artificial Intelligence in Biomedical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME2103",
+              "title": "Medical Biotechnology in Imaging and Measurement",
+              "credits": 3
+            },
+            {
+              "code": "BME2106",
+              "title": "Introduction to Cellular and Biomolecular Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME4103",
+              "title": "Bio-safety and Risk Assessment",
+              "credits": 3
+            },
+            {
+              "code": "BME3121",
+              "title": "Biomedical Signals and Systems",
+              "credits": 3
+            },
+            {
+              "code": "BME3123",
+              "title": "Materials for Biomedical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME2104",
+              "title": "Tissue Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BME3102",
+              "title": "Human Quantitative Physiology",
+              "credits": 3
+            },
+            {
+              "code": "BME4101",
+              "title": "Biomedical Instrumentation",
+              "credits": 3
+            },
+            {
+              "code": "BME3103",
+              "title": "Bio-sensors and Bio-devices",
+              "credits": 3
+            },
+            {
+              "code": "BME4102",
+              "title": "Final Year Project",
+              "credits": 6
+            },
+            {
+              "code": "BME3104",
+              "title": "Robotic Technology in Healthcare",
+              "credits": 3
+            },
+            {
+              "code": "BME2066",
+              "title": "Professional Engineering Practice",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 12,
+          "courses": [
+            {
+              "code": "CS4465",
+              "title": "Computational Biology and Bioinformatics",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 12
+        },
+        "freeElectives": {
+          "credits": 12,
+          "note": "Or Minor courses"
+        }
+      },
+      "allCourses": [
+        "BME2029",
+        "BME2036",
+        "BME2066",
+        "BME2102",
+        "BME2103",
+        "BME2104",
+        "BME2105",
+        "BME2106",
+        "BME2121",
+        "BME2122",
+        "BME2123",
+        "BME3102",
+        "BME3103",
+        "BME3104",
+        "BME3121",
+        "BME3123",
+        "BME4101",
+        "BME4102",
+        "BME4103",
+        "CS1302",
+        "CS4465",
+        "MA1200",
+        "MA1201",
+        "MA1300",
+        "MA1301",
+        "CHEM2013",
+        "EE2104",
+        "BME3016",
+        "BME3101",
+        "BME3105",
+        "BME3122",
+        "BME3200",
+        "BMS3101",
+        "BME4032",
+        "BME4047",
+        "BME4104",
+        "BME4105",
+        "BMS4102",
+        "PHY4232",
+        "PHY4274",
+        "BME3201"
+      ],
+      "studyPlanStatus": "diy",
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        }
+      },
+      "notes": [
+        "DIY stream based on the graduation requirements of Bachelor of Engineering in Biomedical Engineering.",
+        "No separate official semester-by-semester study plan was found for this flagship pathway."
+      ]
+    },
+    {
+      "code": "BISI",
+      "name": "BSc Biological Sciences",
+      "description": "Free choice of major under Bio3.",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2401",
+              "title": "English for Science",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilization - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "CHEM1200",
+              "title": "Discovery in Biology",
+              "credits": 3
+            },
+            {
+              "code": "CHEM1300",
+              "title": "Principles of General Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "PHY1400",
+              "title": "Introductory Physics for Biologists",
+              "credits": 3
+            }
+          ]
+        },
+        "college": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorCore": {
+          "credits": 72,
+          "courses": [
+            {
+              "code": "BMS1901",
+              "title": "Calculus For Life Sciences",
+              "credits": 3
+            },
+            {
+              "code": "BMS2004",
+              "title": "Biochemistry",
+              "credits": 3
+            },
+            {
+              "code": "BMS2005",
+              "title": "Human Physiology",
+              "credits": 3
+            },
+            {
+              "code": "BMS2202",
+              "title": "Diversity of Life & Evolution",
+              "credits": 3
+            },
+            {
+              "code": "BMS2204",
+              "title": "Diversity of Life and Microbiology Laboratory",
+              "credits": 2
+            },
+            {
+              "code": "BMS2205",
+              "title": "Essential Techniques in Biomedical Sciences",
+              "credits": 4
+            },
+            {
+              "code": "BMS2206",
+              "title": "Cell Biology",
+              "credits": 3
+            },
+            {
+              "code": "BMS2901",
+              "title": "Introductory Biostatistics and Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "BMS3203A",
+              "title": "Genetics",
+              "credits": 3
+            },
+            {
+              "code": "BMS3204",
+              "title": "Molecular Biology",
+              "credits": 3
+            },
+            {
+              "code": "BMS3205",
+              "title": "Omics, Genome Editing and Advanced Techniques",
+              "credits": 2
+            },
+            {
+              "code": "BMS3301",
+              "title": "Bioinformatics",
+              "credits": 3
+            },
+            {
+              "code": "BMS4007",
+              "title": "Pharmacology and Toxicology",
+              "credits": 3
+            },
+            {
+              "code": "BMS4102",
+              "title": "Technology for Regenerative Medicine",
+              "credits": 3
+            },
+            {
+              "code": "BMS4301",
+              "title": "Cancer Biology",
+              "credits": 3
+            },
+            {
+              "code": "BMS4303",
+              "title": "Neuroscience",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2013",
+              "title": "Microbiology",
+              "credits": 3
+            },
+            {
+              "code": "CHEM3068",
+              "title": "General Ecology",
+              "credits": 4
+            },
+            {
+              "code": "BMS4206",
+              "title": "Final Year Project in Biomedical Research",
+              "credits": 8
+            },
+            {
+              "code": "BMS4304",
+              "title": "Industrial Attachment: Biotechnology and Health Sciences",
+              "credits": 8
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 15,
+          "courses": [],
+          "chooseCredits": 15
+        },
+        "freeElectives": {
+          "credits": 18,
+          "note": "Or Minor courses"
+        }
+      },
+      "allCourses": [
+        "BMS1901",
+        "BMS2004",
+        "BMS2005",
+        "BMS2202",
+        "BMS2204",
+        "BMS2205",
+        "BMS2206",
+        "BMS2901",
+        "BMS3203A",
+        "BMS3204",
+        "BMS3205",
+        "BMS3301",
+        "BMS4007",
+        "BMS4008",
+        "BMS4102",
+        "BMS4301",
+        "BMS4303",
+        "CHEM2013",
+        "CHEM3068",
+        "NS2003",
+        "NS3003",
+        "NS4002",
+        "NS4003",
+        "BMS1701A",
+        "BMS1701B",
+        "BMS1701C",
+        "NS1001",
+        "BMS2002",
+        "BMS2003B",
+        "BMS2007",
+        "BMS2008B",
+        "BMS2301A",
+        "BMS2301B",
+        "BMS2301C",
+        "NS2001",
+        "BMS3002B",
+        "BMS3003B",
+        "BMS3006B",
+        "BMS3007",
+        "BMS3011B",
+        "BMS3101",
+        "NS3001",
+        "NS3002",
+        "BMS4001",
+        "BMS4003B",
+        "BMS4004B",
+        "BMS4005B",
+        "BMS4206",
+        "BMS4304",
+        "CHEM4078",
+        "NS4001"
+      ],
+      "studyPlanStatus": "diy",
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        }
+      },
+      "notes": [
+        "DIY stream based on the graduation requirements of Bachelor of Science in Biological Sciences.",
+        "No separate official semester-by-semester study plan was found for this flagship pathway."
+      ]
+    },
+    {
+      "code": "BMS",
+      "name": "BSc Biomedical Sciences",
+      "description": "Free choice of major under Bio3.",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2401",
+              "title": "English for Science",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilization - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "CHEM1200",
+              "title": "Discovery in Biology",
+              "credits": 3
+            },
+            {
+              "code": "CHEM1300",
+              "title": "Principles of General Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "PHY1400",
+              "title": "Introductory Physics for Biologists",
+              "credits": 3
+            }
+          ]
+        },
+        "college": {
+          "credits": 0,
+          "courses": []
+        },
+        "majorCore": {
+          "credits": 90,
+          "courses": [
+            {
+              "code": "BMS1901",
+              "title": "Calculus for Life Sciences",
+              "credits": 3
+            },
+            {
+              "code": "BMS2001",
+              "title": "Medical Microbiology",
+              "credits": 3
+            },
+            {
+              "code": "BMS2002",
+              "title": "Pathophysiology",
+              "credits": 3
+            },
+            {
+              "code": "BMS2003",
+              "title": "Clinical Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "BMS2004",
+              "title": "Biochemistry",
+              "credits": 3
+            },
+            {
+              "code": "BMS2005",
+              "title": "Human Physiology",
+              "credits": 3
+            },
+            {
+              "code": "BMS2007",
+              "title": "Human Anatomy",
+              "credits": 3
+            },
+            {
+              "code": "BMS2008",
+              "title": "Hematology I",
+              "credits": 3
+            },
+            {
+              "code": "BMS2201",
+              "title": "Molecular Biology of the Cell",
+              "credits": 3
+            },
+            {
+              "code": "BMS2901",
+              "title": "Introductory Biostatistics and Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "BMS3002",
+              "title": "Cellular Pathology",
+              "credits": 3
+            },
+            {
+              "code": "BMS3003",
+              "title": "Advanced Clinical Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "BMS3005",
+              "title": "Medical Genetics",
+              "credits": 3
+            },
+            {
+              "code": "BMS3006",
+              "title": "Transfusion Science and Technology",
+              "credits": 3
+            },
+            {
+              "code": "BMS3007",
+              "title": "Ethics and Practice in Medical Laboratory",
+              "credits": 3
+            },
+            {
+              "code": "BMS3008",
+              "title": "Modern Medical Laboratory Techniques and Instrumentation",
+              "credits": 3
+            },
+            {
+              "code": "BMS3011",
+              "title": "Hematology II",
+              "credits": 3
+            },
+            {
+              "code": "BMS4001",
+              "title": "Medical Informatics and Laboratory Management",
+              "credits": 3
+            },
+            {
+              "code": "BMS4002",
+              "title": "Public Health and Emerging Infectious Diseases",
+              "credits": 3
+            },
+            {
+              "code": "BMS4003",
+              "title": "Clinical Biochemistry and Molecular Diagnostics",
+              "credits": 3
+            },
+            {
+              "code": "BMS4004",
+              "title": "Advanced Cellular Pathology",
+              "credits": 3
+            },
+            {
+              "code": "BMS4005",
+              "title": "Medical Virology",
+              "credits": 3
+            },
+            {
+              "code": "BMS4006",
+              "title": "Final Year Project: Medical Laboratory Research",
+              "credits": 6
+            },
+            {
+              "code": "BMS4007",
+              "title": "Pharmacology and Toxicology",
+              "credits": 3
+            },
+            {
+              "code": "BMS4008",
+              "title": "Clinical Immunology",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 0,
+          "courses": [],
+          "chooseCredits": 0
+        },
+        "freeElectives": {
+          "credits": 0,
+          "note": "No free electives required"
+        }
+      },
+      "allCourses": [
+        "BMS1901",
+        "BMS2001",
+        "BMS2002",
+        "BMS2003",
+        "BMS2004",
+        "BMS2005",
+        "BMS2007",
+        "BMS2008",
+        "BMS2901",
+        "BMS2201",
+        "BMS3002",
+        "BMS3003",
+        "BMS3004",
+        "BMS3005",
+        "BMS3006",
+        "BMS3007",
+        "BMS3008",
+        "BMS3009",
+        "BMS3011",
+        "BMS4001",
+        "BMS4002",
+        "BMS4003",
+        "BMS4004",
+        "BMS4005",
+        "BMS4006",
+        "BMS4007",
+        "BMS4008"
+      ],
+      "studyPlanStatus": "diy",
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [],
+            "credits": 0
+          },
+          "semB": {
+            "courses": [],
+            "credits": 0
+          },
+          "summer": {
+            "courses": [],
+            "credits": 0
+          }
+        }
+      },
+      "notes": [
+        "DIY stream based on the graduation requirements of Bachelor of Science in Biomedical Sciences.",
+        "No separate official semester-by-semester study plan was found for this flagship pathway."
+      ]
+    }
+  ],
+  "notes": [
+    "ADMO lists Bio3 as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found."
+  ]
+}

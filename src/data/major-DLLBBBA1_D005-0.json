@@ -1,0 +1,698 @@
+{
+  "code": "DLLBBBA1_D005-0",
+  "title": "Bachelor of Laws and Bachelor of Business Administration in Accountancy",
+  "url": "https://www.cityu.edu.hk/slw/-/media/project/cityuhk/academic/slw/current-students/teaching-resources/student-handbooks/llbbbaac-handbook-2025-26-for-2025-cohort_confirmed.pdf",
+  "degree": "Bachelor of Laws and Bachelor of Business Administration",
+  "totalCredits": 151,
+  "department": "School of Law / Department of Accountancy",
+  "college": "School of Law",
+  "requirements": {
+    "gatewayEducation": {
+      "credits": 31,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
+        },
+        {
+          "code": "GE2411",
+          "title": "Legal English",
+          "credits": 3
+        },
+        {
+          "code": "GE2262",
+          "title": "Business Statistics",
+          "credits": 3
+        },
+        {
+          "code": "GE2263",
+          "title": "Information Management",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE-AREA1",
+          "title": "GE Area 1",
+          "credits": 3
+        },
+        {
+          "code": "GE-AREA3",
+          "title": "GE Area 3",
+          "credits": 3
+        }
+      ]
+    },
+    "collegeRequirement": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "COLLEGE-SPECIFIED1",
+          "title": "College-specified Course",
+          "credits": 3
+        },
+        {
+          "code": "COLLEGE-SPECIFIED2",
+          "title": "College-specified Course",
+          "credits": 3
+        },
+        {
+          "code": "COLLEGE-SPECIFIED3",
+          "title": "College-specified Course",
+          "credits": 3
+        }
+      ]
+    },
+    "majorCore": {
+      "credits": 99,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "LW2601",
+          "title": "Hong Kong Legal System",
+          "credits": 3
+        },
+        {
+          "code": "LW2603A",
+          "title": "Law of Tort I",
+          "credits": 3
+        },
+        {
+          "code": "LW2604",
+          "title": "Legal Methods, Research and Writing",
+          "credits": 3
+        },
+        {
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
+        },
+        {
+          "code": "GE2262",
+          "title": "Business Statistics",
+          "credits": 3
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3
+        },
+        {
+          "code": "LW2603B",
+          "title": "Law of Tort II",
+          "credits": 3
+        },
+        {
+          "code": "LW3605A",
+          "title": "Constitutional Law",
+          "credits": 3
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "GE2263",
+          "title": "Information Management",
+          "credits": 3
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3
+        },
+        {
+          "code": "LW2602A",
+          "title": "Law of Contract I",
+          "credits": 3
+        },
+        {
+          "code": "LW3605B",
+          "title": "Administrative Law",
+          "credits": 3
+        },
+        {
+          "code": "AC3202",
+          "title": "Corporate Accounting I",
+          "credits": 3
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3
+        },
+        {
+          "code": "LW2602B",
+          "title": "Law of Contract II",
+          "credits": 3
+        },
+        {
+          "code": "LW3610",
+          "title": "Public Law of the PRC",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "AC4301",
+          "title": "Corporate Accounting II",
+          "credits": 3
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3
+        },
+        {
+          "code": "LW3606A",
+          "title": "Criminal Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW3611",
+          "title": "Private Law of the PRC",
+          "credits": 3
+        },
+        {
+          "code": "AC4332",
+          "title": "Corporate Finance and Control",
+          "credits": 3
+        },
+        {
+          "code": "AC4342",
+          "title": "Auditing",
+          "credits": 3
+        },
+        {
+          "code": "LW3606B",
+          "title": "Criminal Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW3608",
+          "title": "Jurisprudence and Legal Theory",
+          "credits": 3
+        },
+        {
+          "code": "AC4251",
+          "title": "Taxation and Tax Planning",
+          "credits": 3
+        },
+        {
+          "code": "AC4303",
+          "title": "Advanced Financial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "LW3607A",
+          "title": "Land Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW4656",
+          "title": "Company Law I",
+          "credits": 3
+        },
+        {
+          "code": "LW4630A",
+          "title": "Equity and Trusts I",
+          "credits": 3
+        },
+        {
+          "code": "AC4391",
+          "title": "Accounting and Business Ethics",
+          "credits": 3
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3
+        },
+        {
+          "code": "LW3607B",
+          "title": "Land Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW4657",
+          "title": "Company Law II",
+          "credits": 3
+        },
+        {
+          "code": "LW4630B",
+          "title": "Equity and Trusts II",
+          "credits": 3
+        },
+        {
+          "code": "LW4658",
+          "title": "Commercial Law",
+          "credits": 3
+        },
+        {
+          "code": "LW4616",
+          "title": "Law of Evidence",
+          "credits": 3
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 12,
+      "chooseCredits": 12,
+      "courses": [
+        {
+          "code": "AC-ELECTIVE1",
+          "title": "AC Elective",
+          "credits": 3
+        },
+        {
+          "code": "AC-ELECTIVE2",
+          "title": "AC Elective",
+          "credits": 3
+        },
+        {
+          "code": "LAW-ELECTIVE1",
+          "title": "Law Elective",
+          "credits": 3
+        }
+      ]
+    }
+  },
+  "allCourses": [
+    "GE1401",
+    "GE1601",
+    "LW2601",
+    "LW2603A",
+    "LW2604",
+    "GE2402",
+    "GE2262",
+    "CB2201",
+    "CB2300",
+    "LW2603B",
+    "LW3605A",
+    "CB2100",
+    "GE2263",
+    "CB3410",
+    "LW2602A",
+    "LW3605B",
+    "AC3202",
+    "CB2101",
+    "CB2400",
+    "LW2602B",
+    "LW3610",
+    "GE1501",
+    "AC4301",
+    "CB2402",
+    "CB2601",
+    "LW3606A",
+    "LW3611",
+    "AC4332",
+    "AC4342",
+    "LW3606B",
+    "LW3608",
+    "AC4251",
+    "AC4303",
+    "LW3607A",
+    "LW4656",
+    "LW4630A",
+    "AC4391",
+    "CB4303",
+    "LW3607B",
+    "LW4657",
+    "LW4630B",
+    "LW4658",
+    "LW4616"
+  ],
+  "studyPlanStatus": "official",
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-AREA1",
+            "title": "GE Area 1",
+            "credits": 3
+          },
+          {
+            "code": "LW2601",
+            "title": "Hong Kong Legal System",
+            "credits": 3
+          },
+          {
+            "code": "LW2603A",
+            "title": "Law of Tort I",
+            "credits": 3
+          },
+          {
+            "code": "LW2604",
+            "title": "Legal Methods, Research and Writing",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE2402 / GE2411",
+            "title": "English for Business Communication / Legal English",
+            "credits": 3
+          },
+          {
+            "code": "GE2262",
+            "title": "Business Statistics",
+            "credits": 3
+          },
+          {
+            "code": "CB2201",
+            "title": "Operations Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "LW2603B",
+            "title": "Law of Tort II",
+            "credits": 3
+          },
+          {
+            "code": "LW3605A",
+            "title": "Constitutional Law",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "GE-AREA3",
+            "title": "GE Area 3",
+            "credits": 3
+          }
+        ],
+        "credits": 3
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2100",
+            "title": "Introduction to Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "GE2263",
+            "title": "Information Management",
+            "credits": 3
+          },
+          {
+            "code": "CB3410",
+            "title": "Financial Management",
+            "credits": 3
+          },
+          {
+            "code": "LW2602A",
+            "title": "Law of Contract I",
+            "credits": 3
+          },
+          {
+            "code": "LW3605B",
+            "title": "Administrative Law",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "AC3202",
+            "title": "Corporate Accounting I",
+            "credits": 3
+          },
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2400",
+            "title": "Microeconomics",
+            "credits": 3
+          },
+          {
+            "code": "LW2602B",
+            "title": "Law of Contract II",
+            "credits": 3
+          },
+          {
+            "code": "LW3610",
+            "title": "Public Law of the PRC",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          }
+        ],
+        "credits": 3
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "AC4301",
+            "title": "Corporate Accounting II",
+            "credits": 3
+          },
+          {
+            "code": "CB2402",
+            "title": "Macroeconomics",
+            "credits": 3
+          },
+          {
+            "code": "CB2601",
+            "title": "Marketing",
+            "credits": 3
+          },
+          {
+            "code": "LW3606A",
+            "title": "Criminal Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW3611",
+            "title": "Private Law of the PRC",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "AC4332",
+            "title": "Corporate Finance and Control",
+            "credits": 3
+          },
+          {
+            "code": "AC4342",
+            "title": "Auditing",
+            "credits": 3
+          },
+          {
+            "code": "LW3606B",
+            "title": "Criminal Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW3608",
+            "title": "Jurisprudence and Legal Theory",
+            "credits": 3
+          },
+          {
+            "code": "LAW-ELECTIVE1",
+            "title": "Law Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "AC4251",
+            "title": "Taxation and Tax Planning",
+            "credits": 3
+          },
+          {
+            "code": "AC4303",
+            "title": "Advanced Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "LW3607A",
+            "title": "Land Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW4656",
+            "title": "Company Law I",
+            "credits": 3
+          },
+          {
+            "code": "LW4630A",
+            "title": "Equity and Trusts I",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "AC4391",
+            "title": "Accounting and Business Ethics",
+            "credits": 3
+          },
+          {
+            "code": "CB4303",
+            "title": "Strategic Management",
+            "credits": 3
+          },
+          {
+            "code": "LW3607B",
+            "title": "Land Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW4657",
+            "title": "Company Law II",
+            "credits": 3
+          },
+          {
+            "code": "LW4630B",
+            "title": "Equity and Trusts II",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year5": {
+      "semA": {
+        "courses": [
+          {
+            "code": "AC-ELECTIVE1",
+            "title": "AC Elective",
+            "credits": 3
+          },
+          {
+            "code": "AC-ELECTIVE2",
+            "title": "AC Elective",
+            "credits": 3
+          },
+          {
+            "code": "COLLEGE-SPECIFIED1",
+            "title": "College-specified Course",
+            "credits": 3
+          },
+          {
+            "code": "LW4658",
+            "title": "Commercial Law",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "COLLEGE-SPECIFIED2",
+            "title": "College-specified Course",
+            "credits": 3
+          },
+          {
+            "code": "COLLEGE-SPECIFIED3",
+            "title": "College-specified Course",
+            "credits": 3
+          },
+          {
+            "code": "LW4616",
+            "title": "Law of Evidence",
+            "credits": 3
+          }
+        ],
+        "credits": 9
+      }
+    }
+  },
+  "notes": [
+    "Source: School of Law Student Handbook 2025-26 for LLB and BBA Accountancy, revised 4 November 2025."
+  ]
+}

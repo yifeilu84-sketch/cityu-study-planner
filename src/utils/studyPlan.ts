@@ -1,10 +1,22 @@
 import type { Major, Course } from '../types'
+import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export interface SemesterPlan {
   year: number
   sem: 'A' | 'B' | 'Summer'
   courses: { code: string; title: string; credits: number; category: string; semester: string }[]
   totalCredits: number
+}
+
+function getStudyPlanYears(studyPlan: unknown): { key: string; year: number }[] {
+  if (!studyPlan || typeof studyPlan !== 'object') return []
+  return Object.keys(studyPlan || {})
+    .map(key => {
+      const match = key.match(/^year(\d+)$/)
+      return match ? { key, year: Number(match[1]) } : null
+    })
+    .filter((item): item is { key: string; year: number } => Boolean(item))
+    .sort((a, b) => a.year - b.year)
 }
 
 export function getAllMajorCourses(major: Major, streamIndex?: number): { code: string; title: string; credits: number; category: string }[] {
@@ -14,7 +26,7 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
   const addCourses = (courses: any[], category: string) => {
     if (!Array.isArray(courses)) return
     for (const c of courses) {
-      if (c && c.code && !seen.has(c.code)) {
+      if (c && c.code && !isGenericCourseSlot(c.code) && !seen.has(c.code)) {
         seen.add(c.code)
         result.push({ code: c.code, title: c.title || c.code, credits: c.credits || 0, category })
       }
@@ -25,26 +37,46 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
   const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
   const reqs = (stream?.requirements ?? major.requirements) as any || {}
   const geCourses = reqs.gatewayEducation?.courses
-  const collegeCourses = reqs.college?.courses ?? reqs.collegeRequirement?.courses
+  const collegeCourses = [
+    ...(reqs.college?.courses ?? []),
+    ...(reqs.collegeRequirement?.courses ?? []),
+  ]
   const coreCourses = reqs.majorCore?.courses
   const electiveCourses = reqs.majorElectives?.courses ?? reqs.majorElective?.courses
+
+  const addCode = (code: string, title?: string, credits?: number) => {
+    if (!code || isGenericCourseSlot(code)) return
+    const lookupCode = getCourseLookupCode(code)
+    if (!lookupCode || isGenericCourseSlot(lookupCode) || seen.has(lookupCode)) return
+    seen.add(lookupCode)
+    result.push({
+      code: lookupCode,
+      title: title || lookupCode,
+      credits: credits || 0,
+      category: getCategoryFromRequirements(lookupCode, reqs)
+    })
+  }
 
   addCourses(geCourses, 'ge')
   addCourses(collegeCourses, 'college')
   addCourses(coreCourses, 'majorCore')
   addCourses(electiveCourses, 'majorElective')
 
-  // Fallback: if no courses found but allCourses exists, use studyPlan or allCourses
-  if (result.length === 0 && Array.isArray(major.allCourses) && major.allCourses.length > 0) {
-    const allCourseCodes = stream?.allCourses ?? major.allCourses
-    for (const code of allCourseCodes) {
-      if (!seen.has(code)) {
-        seen.add(code)
-        let category = 'majorCore'
-        if (/^GE/.test(code)) category = 'ge'
-        else if (/^CB|^AC|^EF|^MKT|^IS/.test(code)) category = 'college'
-        else if (/^MA|^EN|^LC|^PHY|^CHEM/.test(code)) category = 'ge'
-        result.push({ code, title: code, credits: 0, category })
+  // Merge allCourses and official studyPlan codes. Several majors keep
+  // first-year/supporting courses only in the recommended plan, while elective
+  // pools often live only in allCourses.
+  const allCourseCodes = stream?.allCourses ?? major.allCourses
+  if (Array.isArray(allCourseCodes)) {
+    for (const code of allCourseCodes) addCode(code)
+  }
+
+  const studyPlan = stream?.studyPlan ?? major.studyPlan
+  if (studyPlan) {
+    for (const { key: year } of getStudyPlanYears(studyPlan)) {
+      for (const sem of ['semA', 'semB', 'summer'] as const) {
+        const semester = studyPlan[year]?.[sem]
+        if (!semester?.courses) continue
+        for (const course of semester.courses) addCode(course.code, course.title, course.credits)
       }
     }
   }
@@ -52,14 +84,37 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
   return result
 }
 
-function getCategoryForCode(code: string, major: Major, streamIndex?: number): string {
-  const all = getAllMajorCourses(major, streamIndex)
-  const found = all.find(c => c.code === code || code.startsWith(c.code.split(' ')[0]))
-  if (found) return found.category
+function isCourseInSection(code: string, section: any): boolean {
+  if (!Array.isArray(section?.courses)) return false
+  return section.courses.some((course: any) => {
+    const itemCode = course?.code
+    return itemCode === code || getCourseLookupCode(itemCode) === code
+  })
+}
+
+function getCategoryFromRequirements(code: string, reqs: any): string {
+  if (isCourseInSection(code, reqs.gatewayEducation)) return 'ge'
+  if (isCourseInSection(code, reqs.college) || isCourseInSection(code, reqs.collegeRequirement)) return 'college'
+  if (isCourseInSection(code, reqs.majorCore)) return 'majorCore'
+  if (isCourseInSection(code, reqs.majorElectives) || isCourseInSection(code, reqs.majorElective)) return 'majorElective'
   if (/^GE/.test(code)) return 'ge'
-  if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
+  if (/^CB|^AC|^EF|^MKT|^IS|^MS|^LW/.test(code)) return 'college'
+  if (/^MA|^PHY|^CHEM|^CS1302|^CS1315/.test(code)) return 'college'
+  return 'majorCore'
+}
+
+function getCategoryForCode(code: string, major: Major, streamIndex?: number): string {
+  if (/^GE/.test(code)) return 'ge'
+  if (/^COLLEGE|^CE$/.test(code)) return 'college'
   if (/^ELECTIVE$|^MAJOR-ELECTIVE/.test(code)) return 'majorElective'
+  if (/^FREE/.test(code)) return 'freeElective'
   if (/^MINOR/.test(code)) return 'college'
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
+  const reqs = (stream?.requirements ?? major.requirements) as any || {}
+  const lookupCode = getCourseLookupCode(code)
+  const fromReqs = getCategoryFromRequirements(lookupCode, reqs)
+  if (fromReqs) return fromReqs
+  if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
   return 'majorCore'
 }
 
@@ -73,9 +128,10 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
     const semesters: SemesterPlan[] = []
     const plan = studyPlan
 
-    const processSemester = (year: number, sem: 'A' | 'B', data: { courses: { code: string; title: string; credits: number }[]; credits: number }) => {
+    const processSemester = (year: number, sem: 'A' | 'B' | 'Summer', data: { courses: { code: string; title: string; credits: number }[]; credits: number }) => {
       const semCourses = data.courses.map(c => {
-        const course = courses[c.code] || courses[c.code.split(' ')[0]]
+        const lookupCode = getCourseLookupCode(c.code)
+        const course = courses[c.code] || courses[lookupCode]
         return {
           code: c.code,
           title: c.title || course?.title || c.code,
@@ -92,17 +148,15 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
       })
     }
 
-    if (plan.year1?.semA) processSemester(1, 'A', plan.year1.semA)
-    if (plan.year1?.semB) processSemester(1, 'B', plan.year1.semB)
-    if (plan.year2?.semA) processSemester(2, 'A', plan.year2.semA)
-    if (plan.year2?.semB) processSemester(2, 'B', plan.year2.semB)
-    if (plan.year3?.semA) processSemester(3, 'A', plan.year3.semA)
-    if (plan.year3?.semB) processSemester(3, 'B', plan.year3.semB)
-    if (plan.year4?.semA) processSemester(4, 'A', plan.year4.semA)
-    if (plan.year4?.semB) processSemester(4, 'B', plan.year4.semB)
+    for (const { key, year } of getStudyPlanYears(plan)) {
+      if (plan[key]?.semA) processSemester(year, 'A', plan[key].semA)
+      if (plan[key]?.semB) processSemester(year, 'B', plan[key].semB)
+      if (plan[key]?.summer) processSemester(year, 'Summer', plan[key].summer)
+    }
 
     // Add empty Summer semesters for each year that has courses
-    for (let year = 1; year <= 4; year++) {
+    const yearNumbers = getStudyPlanYears(plan).map(item => item.year)
+    for (const year of yearNumbers) {
       const hasAny = semesters.some(s => s.year === year)
       if (hasAny && !semesters.some(s => s.year === year && s.sem === 'Summer')) {
         semesters.push({ year, sem: 'Summer', courses: [], totalCredits: 0 })
@@ -181,6 +235,7 @@ export function getCategoryColor(category: string): string {
     case 'college': return 'bg-purple-50 border-purple-200 text-purple-800'
     case 'majorCore': return 'bg-emerald-50 border-emerald-200 text-emerald-800'
     case 'majorElective': return 'bg-amber-50 border-amber-200 text-amber-800'
+    case 'freeElective': return 'bg-slate-50 border-slate-200 text-slate-700'
     default: return 'bg-gray-50 border-gray-200 text-gray-800'
   }
 }
@@ -191,6 +246,7 @@ export function getCategoryLabel(category: string): string {
     case 'college': return '学院/学系要求'
     case 'majorCore': return '专业核心'
     case 'majorElective': return '专业选修'
+    case 'freeElective': return '自由选修'
     default: return '其他'
   }
 }

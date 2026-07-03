@@ -8,865 +8,179 @@
   "college": "College of Business",
   "requirements": {
     "gatewayEducation": {
-      "credits": 426,
+      "credits": 21,
       "courses": [
         {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
         },
         {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHIN1001",
+          "title": "University Chinese I",
+          "credits": 3
         },
         {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1200",
-          "title": "Calculus and Basic Linear Algebra I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1300",
-          "title": "Enhanced Calculus and Linear Algebra I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1201",
-          "title": "Calculus and Basic Linear Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1301",
-          "title": "Enhanced Calculus and Linear Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3402",
-          "title": "Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4313",
-          "title": "Corporate Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4321",
-          "title": "Derivatives and Risk Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3520",
-          "title": "Stochastic Calculus for Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4820",
-          "title": "Derivatives Pricing I: Stock and FX",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4821",
-          "title": "Derivatives Pricing II: Interest Rate and Credit Risk",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4822",
-          "title": "Financial Econometrics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4328",
-          "title": "Asset Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS2602",
-          "title": "Statistical Inference",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3111",
-          "title": "Data Analytics with Excel VBA",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3601",
-          "title": "Optimization Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4001",
-          "title": "Honor Thesis",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4335",
-          "title": "Design and Analysis of Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4312",
-          "title": "Mergers and Acquisitions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4314",
-          "title": "Corporate Valuation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4323",
-          "title": "Trading Room Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4327",
-          "title": "Fixed Income Securities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4331",
-          "title": "International Finance and Banking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4334",
-          "title": "Regulation and Management of Financial Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3106",
-          "title": "Simulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4212",
-          "title": "Predictive Analytics and Forecasting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4224",
-          "title": "Enterprise Data Mining",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4252",
-          "title": "Big Data Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3334",
-          "title": "Data Structures",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4314",
-          "title": "Corporate Valuation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3101",
-          "title": "Blockchain and Digital Currency",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3501",
-          "title": "Cybersecurity for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4837",
-          "title": "Regulatory Compliance for Financial Services Technologies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4920",
-          "title": "FinTech Capstone Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4312",
-          "title": "Mergers and Acquisitions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4323",
-          "title": "Trading Room Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2502",
-          "title": "Social Media and Social Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3230",
-          "title": "Java Programming for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4032",
-          "title": "Mobile Apps",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4537",
-          "title": "Information Systems Audit",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4543",
-          "title": "Risk Management and Information Systems Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1200",
-          "title": "Calculus and Basic Linear Algebra I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1300",
-          "title": "Enhanced Calculus and Linear Algebra I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1201",
-          "title": "Calculus and Basic Linear Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1301",
-          "title": "Enhanced Calculus and Linear Algebra II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2510",
-          "title": "Probability and Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3402",
-          "title": "Database Systems",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4313",
-          "title": "Corporate Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4321",
-          "title": "Derivatives and Risk Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3511",
-          "title": "Ordinary Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF3520",
-          "title": "Stochastic Calculus for Finance",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4820",
-          "title": "Derivatives Pricing I: Stock and FX",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4821",
-          "title": "Derivatives Pricing II: Interest Rate and Credit Risk",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4822",
-          "title": "Financial Econometrics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4328",
-          "title": "Asset Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS2602",
-          "title": "Statistical Inference",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3111",
-          "title": "Data Analytics with Excel VBA",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3601",
-          "title": "Optimization Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4001",
-          "title": "Honor Thesis",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3391",
-          "title": "Advanced Programming",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS4335",
-          "title": "Design and Analysis of Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4312",
-          "title": "Mergers and Acquisitions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4314",
-          "title": "Corporate Valuation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4323",
-          "title": "Trading Room Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4327",
-          "title": "Fixed Income Securities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4331",
-          "title": "International Finance and Banking",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4334",
-          "title": "Regulation and Management of Financial Institutions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3106",
-          "title": "Simulation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4212",
-          "title": "Predictive Analytics and Forecasting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4224",
-          "title": "Enterprise Data Mining",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS4252",
-          "title": "Big Data Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA3514",
-          "title": "Numerical Methods for Differential Equations",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA4542",
-          "title": "Real Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CS3334",
-          "title": "Data Structures",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4314",
-          "title": "Corporate Valuation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3101",
-          "title": "Blockchain and Digital Currency",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3501",
-          "title": "Cybersecurity for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4837",
-          "title": "Regulatory Compliance for Financial Services Technologies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4920",
-          "title": "FinTech Capstone Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/consultancy project/research project requirement."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4312",
-          "title": "Mergers and Acquisitions",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EF4323",
-          "title": "Trading Room Workshop",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2502",
-          "title": "Social Media and Social Networks",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3230",
-          "title": "Java Programming for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4032",
-          "title": "Mobile Apps",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4537",
-          "title": "Information Systems Audit",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4543",
-          "title": "Risk Management and Information Systems Control",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT2324",
-          "title": "Introduction to Entrepreneurship",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 8
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CB2240",
+          "title": "Introduction to Business Programming in Python",
+          "credits": 3
+        },
+        {
+          "code": "CS1102",
+          "title": "Introduction to Computer Studies",
+          "credits": 3
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 66,
+      "courses": [
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3
+        },
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3
+        },
+        {
+          "code": "CS2311",
+          "title": "Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "EF3320",
+          "title": "Security Analysis and Portfolio Management",
+          "credits": 3
+        },
+        {
+          "code": "CS3402",
+          "title": "Database Systems",
+          "credits": 3
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
+          "credits": 3
+        },
+        {
+          "code": "EF4313",
+          "title": "Corporate Finance",
+          "credits": 3
+        },
+        {
+          "code": "MA2510",
+          "title": "Probability and Statistics",
+          "credits": 3
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3
+        },
+        {
+          "code": "MS3601",
+          "title": "Optimization Methods",
+          "credits": 3
+        },
+        {
+          "code": "EF4321",
+          "title": "Derivatives and Risk Management",
+          "credits": 3
+        },
+        {
+          "code": "MS3252",
+          "title": "Regression Analysis",
+          "credits": 3
+        },
+        {
+          "code": "MA3525",
+          "title": "Elementary Numerical Methods",
+          "credits": 3
+        },
+        {
+          "code": "MS3111",
+          "title": "Data Analytics with Excel VBA",
+          "credits": 3
+        },
+        {
+          "code": "CB4001",
+          "title": "Honor Thesis",
+          "credits": 3
+        },
+        {
+          "code": "EF4821",
+          "title": "Derivatives Pricing II",
+          "credits": 3
+        },
+        {
+          "code": "EF4820",
+          "title": "Derivatives Pricing I",
+          "credits": 3
+        },
+        {
+          "code": "EF4822",
+          "title": "Financial Econometrics",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "courses": [
+        {
+          "code": "CFFT-ELECTIVE",
+          "title": "Stream Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 12
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 12,
+      "note": "Or Minor courses"
     }
   },
   "allCourses": [
@@ -934,5 +248,667 @@
     "IS4543",
     "MKT3603",
     "MGT2324"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2400",
+            "title": "CB2400",
+            "credits": 3
+          },
+          {
+            "code": "CS1102",
+            "title": "CS1102",
+            "credits": 3
+          },
+          {
+            "code": "MA1200",
+            "title": "MA1200",
+            "credits": 3
+          },
+          {
+            "code": "CB2240",
+            "title": "Introduction to Business Programming in Python",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "GE1601",
+            "credits": 1
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB2100",
+            "title": "CB2100",
+            "credits": 3
+          },
+          {
+            "code": "CB3410",
+            "title": "CB3410",
+            "credits": 3
+          },
+          {
+            "code": "MA1201",
+            "title": "MA1201",
+            "credits": 3
+          },
+          {
+            "code": "CS2311",
+            "title": "CS2311",
+            "credits": 3
+          },
+          {
+            "code": "CB2402",
+            "title": "CB2402",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "EF3320",
+            "title": "EF3320",
+            "credits": 3
+          },
+          {
+            "code": "CS3402",
+            "title": "CS3402",
+            "credits": 3
+          },
+          {
+            "code": "MA2001",
+            "title": "MA2001",
+            "credits": 3
+          },
+          {
+            "code": "CS3334",
+            "title": "CS3334",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "EF4313",
+            "title": "EF4313",
+            "credits": 3
+          },
+          {
+            "code": "MA2510",
+            "title": "MA2510",
+            "credits": 3
+          },
+          {
+            "code": "MA3511",
+            "title": "MA3511",
+            "credits": 3
+          },
+          {
+            "code": "MS3601",
+            "title": "MS3601",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "EF4321",
+            "title": "EF4321",
+            "credits": 3
+          },
+          {
+            "code": "MS3252",
+            "title": "MS3252",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "MA3525",
+            "title": "MA3525",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "CB4001",
+            "title": "CB4001",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-ELECT",
+            "title": "STREAM-ELECT",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "STREAM-CORE",
+            "title": "STREAM-CORE",
+            "credits": 3
+          },
+          {
+            "code": "STREAM-ELECT",
+            "title": "STREAM-ELECT",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "streams": [
+    {
+      "code": "ComFin",
+      "name": "Computational Finance Stream",
+      "description": "Focus on financial derivatives, econometrics, and computational methods.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2402",
+              "title": "English for Business Communication",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "CHIN1001",
+              "title": "University Chinese I",
+              "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 8
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "CB2240",
+              "title": "Introduction to Business Programming in Python",
+              "credits": 3
+            },
+            {
+              "code": "CS1102",
+              "title": "Introduction to Computer Studies",
+              "credits": 3
+            },
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 30,
+          "courses": [
+            {
+              "code": "CB2400",
+              "title": "Microeconomics",
+              "credits": 3
+            },
+            {
+              "code": "CB2100",
+              "title": "Introduction to Financial Accounting",
+              "credits": 3
+            },
+            {
+              "code": "CB3410",
+              "title": "Financial Management",
+              "credits": 3
+            },
+            {
+              "code": "CB2402",
+              "title": "Macroeconomics",
+              "credits": 3
+            },
+            {
+              "code": "CS2311",
+              "title": "Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "EF3320",
+              "title": "Security Analysis and Portfolio Management",
+              "credits": 3
+            },
+            {
+              "code": "CS3402",
+              "title": "Database Systems",
+              "credits": 3
+            },
+            {
+              "code": "MA2001",
+              "title": "Multi-variable Calculus and Linear Algebra",
+              "credits": 3
+            },
+            {
+              "code": "EF4313",
+              "title": "Corporate Finance",
+              "credits": 3
+            },
+            {
+              "code": "MA2510",
+              "title": "Probability and Statistics",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 42,
+          "courses": [
+            {
+              "code": "MA3511",
+              "title": "Ordinary Differential Equations",
+              "credits": 3
+            },
+            {
+              "code": "MS3601",
+              "title": "Optimization Methods",
+              "credits": 3
+            },
+            {
+              "code": "EF4321",
+              "title": "Derivatives and Risk Management",
+              "credits": 3
+            },
+            {
+              "code": "MS3252",
+              "title": "Regression Analysis",
+              "credits": 3
+            },
+            {
+              "code": "MA3525",
+              "title": "Elementary Numerical Methods",
+              "credits": 3
+            },
+            {
+              "code": "MS3111",
+              "title": "Data Analytics with Excel VBA",
+              "credits": 3
+            },
+            {
+              "code": "CB4001",
+              "title": "Honor Thesis",
+              "credits": 3
+            },
+            {
+              "code": "EF4821",
+              "title": "Derivatives Pricing II",
+              "credits": 3
+            },
+            {
+              "code": "EF4820",
+              "title": "Derivatives Pricing I",
+              "credits": 3
+            },
+            {
+              "code": "EF4822",
+              "title": "Financial Econometrics",
+              "credits": 3
+            },
+            {
+              "code": "EF3520",
+              "title": "Stochastic Calculus for Finance",
+              "credits": 3
+            },
+            {
+              "code": "MS2602",
+              "title": "Statistical Inference",
+              "credits": 3
+            },
+            {
+              "code": "EF4328",
+              "title": "Asset Management",
+              "credits": 3
+            },
+            {
+              "code": "CFFT-ELECTIVE",
+              "title": "Stream Elective",
+              "credits": 3
+            }
+          ],
+          "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+        },
+        "freeElectives": {
+          "credits": 12,
+          "note": "Or Minor courses"
+        }
+      }
+    },
+    {
+      "code": "FinTech",
+      "name": "Financial Technology Stream",
+      "description": "Focus on blockchain, machine learning, and information systems for finance.",
+      "requirements": {
+        "gatewayEducation": {
+          "credits": 21,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2402",
+              "title": "English for Business Communication",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation - History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "CHIN1001",
+              "title": "University Chinese I",
+              "credits": 3
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 8
+            }
+          ]
+        },
+        "college": {
+          "credits": 9,
+          "courses": [
+            {
+              "code": "CB2240",
+              "title": "Introduction to Business Programming in Python",
+              "credits": 3
+            },
+            {
+              "code": "CS1102",
+              "title": "Introduction to Computer Studies",
+              "credits": 3
+            },
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 30,
+          "courses": [
+            {
+              "code": "CB2400",
+              "title": "Microeconomics",
+              "credits": 3
+            },
+            {
+              "code": "CB2100",
+              "title": "Introduction to Financial Accounting",
+              "credits": 3
+            },
+            {
+              "code": "CB3410",
+              "title": "Financial Management",
+              "credits": 3
+            },
+            {
+              "code": "CB2402",
+              "title": "Macroeconomics",
+              "credits": 3
+            },
+            {
+              "code": "CS2311",
+              "title": "Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "EF3320",
+              "title": "Security Analysis and Portfolio Management",
+              "credits": 3
+            },
+            {
+              "code": "CS3402",
+              "title": "Database Systems",
+              "credits": 3
+            },
+            {
+              "code": "MA2001",
+              "title": "Multi-variable Calculus and Linear Algebra",
+              "credits": 3
+            },
+            {
+              "code": "EF4313",
+              "title": "Corporate Finance",
+              "credits": 3
+            },
+            {
+              "code": "MA2510",
+              "title": "Probability and Statistics",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 42,
+          "courses": [
+            {
+              "code": "CB2500",
+              "title": "Information Management",
+              "credits": 3
+            },
+            {
+              "code": "IS3501",
+              "title": "Cybersecurity for Business",
+              "credits": 3
+            },
+            {
+              "code": "MA2185",
+              "title": "Discrete Mathematics",
+              "credits": 3
+            },
+            {
+              "code": "CS2312",
+              "title": "Problem Solving and Programming",
+              "credits": 3
+            },
+            {
+              "code": "EF4314",
+              "title": "Corporate Valuation",
+              "credits": 3
+            },
+            {
+              "code": "CS3334",
+              "title": "Data Structures",
+              "credits": 3
+            },
+            {
+              "code": "IS3240",
+              "title": "Advanced Business Programming in Python",
+              "credits": 3
+            },
+            {
+              "code": "IS4335",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "IS3101",
+              "title": "Blockchain and Digital Currency",
+              "credits": 3
+            },
+            {
+              "code": "IS4940",
+              "title": "Global Technology Entrepreneurship and Innovation",
+              "credits": 3
+            },
+            {
+              "code": "IS4861",
+              "title": "Machine Learning for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS4837",
+              "title": "Regulatory Compliance for Financial Services Technologies",
+              "credits": 3
+            },
+            {
+              "code": "IS4920",
+              "title": "FinTech Capstone Project",
+              "credits": 6
+            },
+            {
+              "code": "CFFT-ELECTIVE",
+              "title": "Stream Elective",
+              "credits": 3
+            }
+          ],
+          "note": "Stream Core: 36 CU, Stream Electives: 6 CU"
+        },
+        "freeElectives": {
+          "credits": 12,
+          "note": "Or Minor courses"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "BSc Computational Finance and Financial Technology - 4 Year Structure (2025 Intake).",
+    "Two streams available: Computational Finance and Financial Technology.",
+    "Stream Core: 36 CU, Stream Electives: 6 CU.",
+    "CB4001 Honor Thesis can be taken in Sem A or B."
   ]
 }

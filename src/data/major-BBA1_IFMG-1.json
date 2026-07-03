@@ -1,1257 +1,17 @@
 {
   "code": "BBA1_IFMG-1",
-  "title": "Bachelor of Business Administration in Information Management",
+  "title": "Bachelor of Business Administration in Artificial Intelligence in Business",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
   "degree": "Bachelor of Business",
   "totalCredits": 121,
   "department": "Department of Information Systems",
   "college": "College of Business",
   "requirements": {
-    "gatewayEducation": {
-      "credits": 612,
-      "courses": [
-        {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2200",
-          "title": "Business Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4303",
-          "title": "Strategic Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "AC3202",
-          "title": "Corporate Accounting I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2041",
-          "title": "Applications of Game Theory to Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020",
-          "title": "Advanced Business Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020A",
-          "title": "Advanced Business Seminar+",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CB3021",
-          "title": "Business Discovery Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3041",
-          "title": "Financial Statement Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3044",
-          "title": "Introduction to Financial Markets",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3045",
-          "title": "Advanced Seminar on Business Case Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3810",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3820",
-          "title": "Start-up Technology Entrepreneur Programme II",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3830",
-          "title": "Business Consultancy Internship in Greater Bay Area",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3840",
-          "title": "Consulting Co-op Programme",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB4605",
-          "title": "Business Consultancy Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2021",
-          "title": "Big Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2023",
-          "title": "Mobile Applications for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1006",
-          "title": "Calculus and Linear Algebra for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3601",
-          "title": "China Business Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3124",
-          "title": "Global Supply Chain Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2903",
-          "title": "Business and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2100",
-          "title": "Introduction to Financial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2101",
-          "title": "Introduction to Managerial Accounting",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2200",
-          "title": "Business Statistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2201",
-          "title": "Operations Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2300",
-          "title": "Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2400",
-          "title": "Microeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2402",
-          "title": "Macroeconomics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2500",
-          "title": "Information Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2601",
-          "title": "Marketing",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3410",
-          "title": "Financial Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB4303",
-          "title": "Strategic Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "AC3202",
-          "title": "Corporate Accounting I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB2041",
-          "title": "Applications of Game Theory to Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020",
-          "title": "Advanced Business Seminar",
-          "credits": 1,
-          "remarks": ""
-        },
-        {
-          "code": "CB3020A",
-          "title": "Advanced Business Seminar+",
-          "credits": 2,
-          "remarks": ""
-        },
-        {
-          "code": "CB3021",
-          "title": "Business Discovery Methods",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3041",
-          "title": "Financial Statement Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3043",
-          "title": "Business Case Analysis and Communication",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3044",
-          "title": "Introduction to Financial Markets",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3045",
-          "title": "Advanced Seminar on Business Case Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3810",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3820",
-          "title": "Start-up Technology Entrepreneur Programme II",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3830",
-          "title": "Business Consultancy Internship in Greater Bay Area",
-          "credits": 3,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB3840",
-          "title": "Consulting Co-op Programme",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CB4605",
-          "title": "Business Consultancy Project",
-          "credits": 6,
-          "remarks": "This course can be used to fulfil the internship/ consultancy project/ research project requirement"
-        },
-        {
-          "code": "CS1102",
-          "title": "Introduction to Computer Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2021",
-          "title": "Big Data Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2023",
-          "title": "Mobile Applications for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MA1006",
-          "title": "Calculus and Linear Algebra for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT3306",
-          "title": "Organizational Behavior and Human Resources Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MKT3601",
-          "title": "China Business Environment",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3124",
-          "title": "Global Supply Chain Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LW2903",
-          "title": "Business and Law",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3100",
-          "title": "Techniques for Big Data",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": "Stream Core Course, Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4834",
-          "title": "Business Intelligence and Analytics",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": "Stream Core Course, Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3501",
-          "title": "Cybersecurity for Business",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4133",
-          "title": "Cloud Computing and Services",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4435",
-          "title": "Governance & Regulatory Compliance for Financial Information Systems",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4537",
-          "title": "Information Systems Audit",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4543",
-          "title": "Risk Management and Information Systems Control",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2502",
-          "title": "Social Media and Social Networks",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS2505",
-          "title": "e-Business",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4246",
-          "title": "Digital Marketing and Customer Relationship Management",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4340",
-          "title": "Search Engine Optimization",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4538",
-          "title": "O2O Services",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3100",
-          "title": "Techniques for Big Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4834",
-          "title": "Business Intelligence and Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MS3227",
-          "title": "Probability Theory in Decision Making",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3251",
-          "title": "Analytics using SAS",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2010",
-          "title": "Internship in Information Systems",
-          "credits": 0,
-          "remarks": "Students may choose to enroll in the course to enrich their studies."
-        },
-        {
-          "code": "IS2022",
-          "title": "Business Programming with Spreadsheet",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2239",
-          "title": "Data Structure and Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3101",
-          "title": "Blockchain and Digital Currency",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3230",
-          "title": "Java Programming for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3542",
-          "title": "Generative Artificial Intelligence for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4030",
-          "title": "Website Design for e-Commerce",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4032",
-          "title": "Mobile Apps",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4238",
-          "title": "Internship I",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4239",
-          "title": "Internship II",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4636",
-          "title": "Business Process and Service Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4837",
-          "title": "Regulatory Compliance for Financial Services Technologies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4937",
-          "title": "Information Systems Project I",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements.\n• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4938",
-          "title": "Information Systems Project II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements.\n• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "AC4301",
-          "title": "Corporate Accounting II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "AC4342",
-          "title": "Auditing",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "EF3333",
-          "title": "Financial Systems, Markets and Instruments",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS2010",
-          "title": "Internship in Information Systems",
-          "credits": 0,
-          "remarks": "Students may choose to enroll in the course to enrich their studies."
-        },
-        {
-          "code": "IS2022",
-          "title": "Business Programming with Spreadsheet",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3542",
-          "title": "Generative Artificial Intelligence for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4238",
-          "title": "Internship I",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4239",
-          "title": "Internship II",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4937",
-          "title": "Information Systems Project I",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements. This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4938",
-          "title": "Information Systems Project II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements. This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4313",
-          "title": "Strategic Entrepreneurship",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MKT3608",
-          "title": "Marketing Intelligence and Applications of Analytics",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MS3224",
-          "title": "Business Survey Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3403",
-          "title": "Internship for Decision Analytics and Operations",
-          "credits": 3,
-          "remarks": "• This course can be taken by BANL major students only. \n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• The internship/ consultancy project/ research project requirement does not apply to students admitted to BDMS in 2021.\n• Students are allowed to take both CB3800 and MS3403. If both courses are taken, (a) they must be taken in different academic years and under different organizations, (b) only one of them can be used to satisfy major elective requirements and the other can be used to fulfil free elective course requirements."
-        },
-        {
-          "code": "MS4226",
-          "title": "Financial Risk Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3100",
-          "title": "Techniques for Big Data",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": "Stream Core Course, Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4834",
-          "title": "Business Intelligence and Analytics",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": "Stream Core Course, Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3501",
-          "title": "Cybersecurity for Business",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4133",
-          "title": "Cloud Computing and Services",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4435",
-          "title": "Governance & Regulatory Compliance for Financial Information Systems",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4537",
-          "title": "Information Systems Audit",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4543",
-          "title": "Risk Management and Information Systems Control",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3430",
-          "title": "Systems Analysis and Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4532",
-          "title": "Global Project Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2502",
-          "title": "Social Media and Social Networks",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS2505",
-          "title": "e-Business",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4246",
-          "title": "Digital Marketing and Customer Relationship Management",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4340",
-          "title": "Search Engine Optimization",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS4538",
-          "title": "O2O Services",
-          "credits": 3,
-          "remarks": "Stream Core Course"
-        },
-        {
-          "code": "IS3100",
-          "title": "Techniques for Big Data",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3240",
-          "title": "Advanced Business Programming in Python",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3331",
-          "title": "Database Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4834",
-          "title": "Business Intelligence and Analytics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4861",
-          "title": "Machine Learning for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MS3227",
-          "title": "Probability Theory in Decision Making",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3251",
-          "title": "Analytics using SAS",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3252",
-          "title": "Regression Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2010",
-          "title": "Internship in Information Systems",
-          "credits": 0,
-          "remarks": "Students may choose to enroll in the course to enrich their studies."
-        },
-        {
-          "code": "IS2022",
-          "title": "Business Programming with Spreadsheet",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS2239",
-          "title": "Data Structure and Algorithms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3101",
-          "title": "Blockchain and Digital Currency",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS3230",
-          "title": "Java Programming for Business",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3542",
-          "title": "Generative Artificial Intelligence for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4030",
-          "title": "Website Design for e-Commerce",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4032",
-          "title": "Mobile Apps",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4238",
-          "title": "Internship I",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4239",
-          "title": "Internship II",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4636",
-          "title": "Business Process and Service Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4837",
-          "title": "Regulatory Compliance for Financial Services Technologies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4937",
-          "title": "Information Systems Project I",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements.\n• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4938",
-          "title": "Information Systems Project II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements.\n• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CB3800",
-          "title": "Business Practice Internship",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "AC4301",
-          "title": "Corporate Accounting II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "AC4342",
-          "title": "Auditing",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "EF3320",
-          "title": "Security Analysis and Portfolio Management",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "EF3333",
-          "title": "Financial Systems, Markets and Instruments",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS2010",
-          "title": "Internship in Information Systems",
-          "credits": 0,
-          "remarks": "Students may choose to enroll in the course to enrich their studies."
-        },
-        {
-          "code": "IS2022",
-          "title": "Business Programming with Spreadsheet",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS3542",
-          "title": "Generative Artificial Intelligence for Business",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "IS4238",
-          "title": "Internship I",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4239",
-          "title": "Internship II",
-          "credits": 3,
-          "remarks": "• This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take CB3800, IS4238, IS4239 but in different semesters and the nature of the internship should be different."
-        },
-        {
-          "code": "IS4335",
-          "title": "Data Visualization",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "IS4937",
-          "title": "Information Systems Project I",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements. This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4938",
-          "title": "Information Systems Project II",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements. This course can be taken by IS major students only, but NOT applicable to students admitted to BDIS in 2021.\n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• Students are allowed to take IS4937, IS4938 but in different semesters."
-        },
-        {
-          "code": "IS4940",
-          "title": "Global Technology Entrepreneurship and Innovation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MGT4313",
-          "title": "Strategic Entrepreneurship",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MKT3603",
-          "title": "Consumer Behaviour",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MKT3608",
-          "title": "Marketing Intelligence and Applications of Analytics",
-          "credits": 3,
-          "remarks": "Subject to fulfilling pre-requisite requirements"
-        },
-        {
-          "code": "MS3224",
-          "title": "Business Survey Design",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "MS3403",
-          "title": "Internship for Decision Analytics and Operations",
-          "credits": 3,
-          "remarks": "• This course can be taken by BANL major students only. \n• This course can be used to fulfil the internship/ consultancy project/ research project requirement.\n• The internship/ consultancy project/ research project requirement does not apply to students admitted to BDMS in 2021.\n• Students are allowed to take both CB3800 and MS3403. If both courses are taken, (a) they must be taken in different academic years and under different organizations, (b) only one of them can be used to satisfy major elective requirements and the other can be used to fulfil free elective course requirements."
-        },
-        {
-          "code": "MS4226",
-          "title": "Financial Risk Analytics",
-          "credits": 3,
-          "remarks": ""
-        }
-      ]
-    },
-    "college": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorCore": {
-      "credits": 0,
-      "courses": []
-    },
-    "majorElectives": {
-      "credits": 0,
-      "courses": []
-    },
-    "freeElectives": {
-      "credits": 0,
-      "courses": []
-    }
+    "gatewayEducation": 31,
+    "collegeRequirement": 42,
+    "majorCore": 24,
+    "majorElective": 6,
+    "freeElective": 18
   },
   "allCourses": [
     "CB2100",
@@ -1334,5 +94,258 @@
     "MS3224",
     "MS3403",
     "MS4226"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2400",
+            "title": "Microeconomics",
+            "credits": 3
+          },
+          {
+            "code": "CB2500",
+            "title": "Information Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2601",
+            "title": "Marketing",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB2100",
+            "title": "Introduction to Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2200",
+            "title": "Business Statistics",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication",
+            "credits": 3
+          },
+          {
+            "code": "CB2240",
+            "title": "Introduction to Business Programming in Python",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2402",
+            "title": "Macroeconomics",
+            "credits": 3
+          },
+          {
+            "code": "IS3331",
+            "title": "Database Management",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education (Area 1)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB3410",
+            "title": "Financial Management",
+            "credits": 3
+          },
+          {
+            "code": "IS3430",
+            "title": "Systems Analysis and Design",
+            "credits": 3
+          },
+          {
+            "code": "MINOR1",
+            "title": "Minor / Free Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "MINOR2",
+            "title": "Minor / Free Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "IFMG-CORE1",
+            "title": "IFMG Stream Core 1",
+            "credits": 3
+          },
+          {
+            "code": "IFMG-CORE2",
+            "title": "IFMG Stream Core 2",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education (Area 2)",
+            "credits": 3
+          },
+          {
+            "code": "MINOR3",
+            "title": "Minor / Free Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC1",
+            "title": "College Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "IFMG-CORE3",
+            "title": "IFMG Stream Core 3",
+            "credits": 3
+          },
+          {
+            "code": "IFMG-CORE4",
+            "title": "IFMG Stream Core 4",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "MINOR4",
+            "title": "Minor / Free Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC2",
+            "title": "College Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "IFMG-CORE5",
+            "title": "IFMG Stream Core 5",
+            "credits": 3
+          },
+          {
+            "code": "IFMG-ELEC1",
+            "title": "IFMG Major Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "MINOR5",
+            "title": "Minor / Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "MINOR6",
+            "title": "Minor / Free Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC3",
+            "title": "College Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "CB4303",
+            "title": "Strategy and Policy",
+            "credits": 3
+          },
+          {
+            "code": "IFMG-ELEC2",
+            "title": "IFMG Major Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education (Area 4)",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "notes": [
+    "ADMO 2026/27 lists this programme as BBA Artificial Intelligence in Business (JS1019/1019); the 2025 departmental suggested study plan PDF is still named IFMG / Information Management."
   ]
 }

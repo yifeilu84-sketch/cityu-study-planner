@@ -8,901 +8,114 @@
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
     "gatewayEducation": {
-      "credits": 462,
+      "credits": 21,
       "courses": [
         {
-          "code": "CAH1603",
-          "title": "Great Works in the Humanities",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "EN2011",
-          "title": "English on the Move",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2412",
+          "title": "English for Humanities and Social Sciences",
+          "credits": 3
         },
         {
-          "code": "LT1101",
-          "title": "Amazing Things about Language",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "COM1101",
-          "title": "Media and Communication in the Digital Age",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "PIA2801",
-          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SS1600",
-          "title": "Discovering the Mystery of Applied Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAH1603",
-          "title": "Great Works in the Humanities",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "EN2011",
-          "title": "English on the Move",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT1101",
-          "title": "Amazing Things about Language",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "COM1101",
-          "title": "Media and Communication in the Digital Age",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "PIA2801",
-          "title": "Social Change and Governance Challenges: A Critical Appreciation through Film",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "SS1600",
-          "title": "Discovering the Mystery of Applied Social Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2203",
-          "title": "Language in Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2204",
-          "title": "Language and Mind",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2207",
-          "title": "Introduction to Linguistic Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2229",
-          "title": "Fundamentals of Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2231",
-          "title": "Introduction to Language Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3209",
-          "title": "Syntax",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3211",
-          "title": "Semantics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3212",
-          "title": "Phonetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3214",
-          "title": "Phonology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3199",
-          "title": "Professional Internship I",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM4603 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major) cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM4603 in the home major."
-        },
-        {
-          "code": "LT4235",
-          "title": "Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4391",
-          "title": "Undergraduate Research Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LT2206",
-          "title": "Fundamentals of Statistics for Language Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2232",
-          "title": "English Linguistics – Communicative Functions of Grammar",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2306",
-          "title": "Appreciating Written Texts",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM2202 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major), who have taken COM2202, cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM2202 in the home major."
-        },
-        {
-          "code": "LT3210",
-          "title": "Electronic Publishing",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM2501 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major), who have taken COM2501, cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM2501 in the home major."
-        },
-        {
-          "code": "LT3213",
-          "title": "Text Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3215",
-          "title": "Pragmatics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3216",
-          "title": "Chinese Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3220",
-          "title": "Corpus Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3224",
-          "title": "Computational Lexicography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3234",
-          "title": "Language and Cognition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3235",
-          "title": "Experimental Approaches to Language Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3326",
-          "title": "Comparative Study of Chinese and English",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3345",
-          "title": "Discovering and Managing Terms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3399",
-          "title": "LT Global Study",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM3411 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major) cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM3411 in the home major."
-        },
-        {
-          "code": "LT4216",
-          "title": "Advanced Topics in Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4218",
-          "title": "Advanced Topics in Computational Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4223",
-          "title": "Experimental Phonetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4225",
-          "title": "Computer Assisted Language Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4226",
-          "title": "Second Language Acquisition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4227",
-          "title": "First Language Acquisition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4239",
-          "title": "Conversation Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4241",
-          "title": "Topics in Syntax",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4242",
-          "title": "Topics in Semantics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4243",
-          "title": "Field and Research Methods in Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4244",
-          "title": "Sociolinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4245",
-          "title": "Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4254",
-          "title": "Psycholinguistics of Reading",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4255",
-          "title": "Applied Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4256",
-          "title": "Topics in Neurolinguistics and Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4257",
-          "title": "Historical Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3932",
-          "title": "Japanese 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3933",
-          "title": "Japanese 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC4994",
-          "title": "Japanese 5",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC4995",
-          "title": "Japanese 6",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3982",
-          "title": "Korean 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3983",
-          "title": "Korean 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2402",
-          "title": "French 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3403",
-          "title": "French 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3404",
-          "title": "French 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2502",
-          "title": "German 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3503",
-          "title": "German 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3504",
-          "title": "German 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2602",
-          "title": "Spanish 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3603",
-          "title": "Spanish 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3604",
-          "title": "Spanish 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LT2203",
-          "title": "Language in Society",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2204",
-          "title": "Language and Mind",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2207",
-          "title": "Introduction to Linguistic Research",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2229",
-          "title": "Fundamentals of Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2231",
-          "title": "Introduction to Language Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3209",
-          "title": "Syntax",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3211",
-          "title": "Semantics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3212",
-          "title": "Phonetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3214",
-          "title": "Phonology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3233",
-          "title": "Computational Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3199",
-          "title": "Professional Internship I",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM4603 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major) cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM4603 in the home major."
-        },
-        {
-          "code": "LT4235",
-          "title": "Project",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4391",
-          "title": "Undergraduate Research Project",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "LT2206",
-          "title": "Fundamentals of Statistics for Language Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2232",
-          "title": "English Linguistics – Communicative Functions of Grammar",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT2306",
-          "title": "Appreciating Written Texts",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM2202 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major), who have taken COM2202, cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM2202 in the home major."
-        },
-        {
-          "code": "LT3210",
-          "title": "Electronic Publishing",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM2501 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major), who have taken COM2501, cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM2501 in the home major."
-        },
-        {
-          "code": "LT3213",
-          "title": "Text Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3215",
-          "title": "Pragmatics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3216",
-          "title": "Chinese Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3220",
-          "title": "Corpus Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3224",
-          "title": "Computational Lexicography",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3234",
-          "title": "Language and Cognition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3235",
-          "title": "Experimental Approaches to Language Studies",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3326",
-          "title": "Comparative Study of Chinese and English",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3345",
-          "title": "Discovering and Managing Terms",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT3399",
-          "title": "LT Global Study",
-          "credits": 3,
-          "remarks": "For students admitted to double major (BALLA + MDCM / TVB) only: (i) this course can be double counted to fulfil COM3411 in the second major, (ii) BAMDCM / BATVB students in LLA major (second major) cannot take this course, and (iii) BAMDCM / BATVB students cannot use this course to fulfil COM3411 in the home major."
-        },
-        {
-          "code": "LT4216",
-          "title": "Advanced Topics in Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4218",
-          "title": "Advanced Topics in Computational Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4223",
-          "title": "Experimental Phonetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4225",
-          "title": "Computer Assisted Language Learning",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4226",
-          "title": "Second Language Acquisition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4227",
-          "title": "First Language Acquisition",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4239",
-          "title": "Conversation Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4241",
-          "title": "Topics in Syntax",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4242",
-          "title": "Topics in Semantics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4243",
-          "title": "Field and Research Methods in Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4244",
-          "title": "Sociolinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4245",
-          "title": "Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4254",
-          "title": "Psycholinguistics of Reading",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4255",
-          "title": "Applied Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4256",
-          "title": "Topics in Neurolinguistics and Psycholinguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LT4257",
-          "title": "Historical Linguistics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "CAI4001",
-          "title": "Start-up Technology Entrepreneur Programme I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "LC2931",
-          "title": "Japanese 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3932",
-          "title": "Japanese 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3933",
-          "title": "Japanese 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC4994",
-          "title": "Japanese 5",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC4995",
-          "title": "Japanese 6",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2974",
-          "title": "Korean 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3982",
-          "title": "Korean 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3983",
-          "title": "Korean 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2402",
-          "title": "French 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2406",
-          "title": "Intensive French 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2412",
-          "title": "French for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3403",
-          "title": "French 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3404",
-          "title": "French 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2502",
-          "title": "German 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2506",
-          "title": "Intensive German 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2512",
-          "title": "German for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3503",
-          "title": "German 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3504",
-          "title": "German 4",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2602",
-          "title": "Spanish 2",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2606",
-          "title": "Intensive Spanish 1 and 2",
-          "credits": 6,
-          "remarks": "@"
-        },
-        {
-          "code": "LC2612",
-          "title": "Spanish for Business",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3603",
-          "title": "Spanish 3",
-          "credits": 3,
-          "remarks": "@"
-        },
-        {
-          "code": "LC3604",
-          "title": "Spanish 4",
-          "credits": 3,
-          "remarks": "@"
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 11
         }
       ]
     },
     "college": {
-      "credits": 0,
-      "courses": []
+      "credits": 6,
+      "courses": [
+        {
+          "code": "COLLEGE-REQ",
+          "title": "College Requirement",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 30,
+      "courses": [
+        {
+          "code": "LT2229",
+          "title": "Fundamentals of Linguistics",
+          "credits": 3
+        },
+        {
+          "code": "LT2207",
+          "title": "Introduction to Linguistic Research",
+          "credits": 3
+        },
+        {
+          "code": "LT2203",
+          "title": "Language in Society",
+          "credits": 3
+        },
+        {
+          "code": "LT2204",
+          "title": "Language and Mind",
+          "credits": 3
+        },
+        {
+          "code": "LT3212",
+          "title": "Phonetics",
+          "credits": 3
+        },
+        {
+          "code": "LT3209",
+          "title": "Syntax",
+          "credits": 3
+        },
+        {
+          "code": "LT2231",
+          "title": "Introduction to Language Technology",
+          "credits": 3
+        },
+        {
+          "code": "LT3214",
+          "title": "Phonology",
+          "credits": 3
+        },
+        {
+          "code": "LT3211",
+          "title": "Semantics",
+          "credits": 3
+        },
+        {
+          "code": "LT3233",
+          "title": "Computational Linguistics",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 9,
+      "courses": [
+        {
+          "code": "LT-ELECTIVE",
+          "title": "Core Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 9
     },
     "freeElectives": {
-      "credits": 0,
-      "courses": []
+      "credits": 48,
+      "note": "Elective and Free Elective courses"
     }
   },
   "allCourses": [
@@ -979,5 +192,261 @@
     "LC2612",
     "LC3603",
     "LC3604"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LT2229",
+            "title": "LT2229",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "GE1601",
+            "credits": 1
+          },
+          {
+            "code": "COLLEGE-REQ",
+            "title": "COLLEGE-REQ",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 13
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LT2207",
+            "title": "LT2207",
+            "credits": 3
+          },
+          {
+            "code": "GE2412",
+            "title": "GE2412",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "COLLEGE-REQ",
+            "title": "COLLEGE-REQ",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LT2203",
+            "title": "LT2203",
+            "credits": 3
+          },
+          {
+            "code": "LT2231",
+            "title": "LT2231",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LT2204",
+            "title": "LT2204",
+            "credits": 3
+          },
+          {
+            "code": "LT3212",
+            "title": "LT3212",
+            "credits": 3
+          },
+          {
+            "code": "LT3209",
+            "title": "LT3209",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "LT3214",
+            "title": "LT3214",
+            "credits": 3
+          },
+          {
+            "code": "LT3211",
+            "title": "LT3211",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "LT3233",
+            "title": "LT3233",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "GE",
+            "title": "GE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "ELECTIVE",
+            "title": "ELECTIVE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          },
+          {
+            "code": "FREE",
+            "title": "FREE",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    }
+  },
+  "notes": [
+    "Study Plan of BA in Linguistics and Language Applications Cohort 2025 (Four-Year Curriculum).",
+    "All core courses are 3 CUs except LT4391 Undergraduate Research Project (6 CUs).",
+    "LT3199 is offered in summer terms.",
+    "At least one and up to two core electives (LT3199 in summer is open to all cohorts)."
   ]
 }

@@ -1,10 +1,12 @@
 import { useEffect } from 'react'
-import { X, ExternalLink, Clock, FileText, BookOpen, AlertCircle } from 'lucide-react'
+import { X, ExternalLink, Clock, FileText, BookOpen, AlertCircle, Flag } from 'lucide-react'
 import type { Course } from '../types'
+import { buildIssueReport } from '../utils/feedback.ts'
 
 interface Props {
   course: Course | null
   onClose: () => void
+  pageUrl?: string
 }
 
 function extractCAItems(details: string): { name: string; weight: number }[] {
@@ -60,7 +62,7 @@ function extractCAItems(details: string): { name: string; weight: number }[] {
   }).filter(Boolean) as { name: string; weight: number }[]
 }
 
-export default function CourseDetailModal({ course, onClose }: Props) {
+export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
   useEffect(() => {
     if (course) {
       document.body.style.overflow = 'hidden'
@@ -71,6 +73,13 @@ export default function CourseDetailModal({ course, onClose }: Props) {
   if (!course) return null
 
   const caItems = extractCAItems(course.assessment?.details || '')
+  const issueReport = buildIssueReport({
+    entityType: 'course',
+    code: course.code,
+    title: course.title,
+    pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : course.courseUrl),
+    sourceKind: 'course-pdf',
+  })
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" onClick={onClose}>
@@ -129,7 +138,7 @@ export default function CourseDetailModal({ course, onClose }: Props) {
           )}
 
           {/* Assessment */}
-          {(course.assessment.continuous || course.assessment.exam) && (
+          {(course.assessment.continuous || course.assessment.exam || course.assessment.details) && (
             <div className="flex items-start gap-3">
               <FileText className="w-5 h-5 text-cityu-green mt-0.5" />
               <div>
@@ -150,6 +159,9 @@ export default function CourseDetailModal({ course, onClose }: Props) {
                   )}
                   {course.assessment.examDuration && (
                     <div>考试时长: {course.assessment.examDuration}</div>
+                  )}
+                  {course.assessment.details && caItems.length === 0 && (
+                    <div className="text-sm text-gray-500">{course.assessment.details}</div>
                   )}
                 </div>
                 {(course.assessment.minCAPass || course.assessment.minExamPass) && (
@@ -182,9 +194,10 @@ export default function CourseDetailModal({ course, onClose }: Props) {
             </div>
           )}
 
-          {/* PDF Link */}
-          {course.pdfUrl && (
-            <div className="pt-3 border-t border-gray-100">
+          {(course.pdfUrl || issueReport.githubUrl) && (
+            <div className="pt-3 border-t border-gray-100 flex flex-wrap gap-2">
+              {/* PDF Link */}
+              {course.pdfUrl && (
               <a
                 href={course.pdfUrl}
                 target="_blank"
@@ -193,6 +206,17 @@ export default function CourseDetailModal({ course, onClose }: Props) {
               >
                 <FileText className="w-4 h-4" />
                 查看课程官方PDF
+                <ExternalLink className="w-3 h-3" />
+              </a>
+              )}
+              <a
+                href={issueReport.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
+              >
+                <Flag className="w-4 h-4" />
+                报告课程问题
                 <ExternalLink className="w-3 h-3" />
               </a>
             </div>

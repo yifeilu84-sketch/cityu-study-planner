@@ -9270,7 +9270,7 @@
   },
   "EE2302": {
     "code": "EE2302",
-    "title": "Foundations of Information Engineering",
+    "title": "Foundations of Information Engineering and Cryptography",
     "credits": 3,
     "prerequisites": [],
     "prerequisitesRaw": "",
@@ -9584,7 +9584,7 @@
   },
   "EE3206": {
     "code": "EE3206",
-    "title": "Java Programming and Applications",
+    "title": "Object-Oriented Programming and Applications",
     "credits": 3,
     "prerequisites": [
       "EE2331E",
@@ -9687,7 +9687,7 @@
   },
   "EE3301": {
     "code": "EE3301",
-    "title": "Optimization Methods for Engineering",
+    "title": "Quantitative Methods for Information Engineering",
     "credits": 3,
     "prerequisites": [
       "MA2001P",
@@ -30103,7 +30103,7 @@
     "assessment": {
       "details": "1 Students will produce a part draft of a Final Year Project Report. 1, 2, 3, 4 65 Individual work No 2 Students will make intellectually engaging presentations of their final year projects and skilfully address questions raised in the question and answer session 2, 4 30 Individual work No 3 Class attendance and in class participation 1, 2, 3, 4 5 Individual work Yes"
     },
-    "pdfUrl": "",
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/EN4262.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/EN4262.htm",
     "description": "",
     "prerequisitesRaw": ""
@@ -30820,7 +30820,9 @@
     "department": "CAH",
     "prerequisites": [],
     "semester": "Summer",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1101.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1101.htm"
   },
@@ -30844,7 +30846,9 @@
     "department": "CAH",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1105.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1105.htm"
   },
@@ -30868,7 +30872,9 @@
     "department": "CAH",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1107.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1107.htm"
   },
@@ -30931,7 +30937,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1120.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1120.htm"
   },
@@ -30942,7 +30950,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1121.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1121.htm"
   },
@@ -30953,7 +30963,9 @@
     "department": "CAH",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1125.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1125.htm"
   },
@@ -30977,7 +30989,9 @@
     "department": "SCM",
     "prerequisites": [],
     "semester": "Semester B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1127.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1127.htm"
   },
@@ -31027,7 +31041,9 @@
     "department": "LT",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1132.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1132.htm"
   },
@@ -31038,7 +31054,9 @@
     "department": "SLW",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1136.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1136.htm"
   },
@@ -31049,7 +31067,9 @@
     "department": "SS",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1137.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1137.htm"
   },
@@ -31086,7 +31106,9 @@
     "department": "EN",
     "prerequisites": [],
     "semester": "Semester A",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2105.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2105.htm"
   },
@@ -31097,7 +31119,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2106.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2106.htm"
   },
@@ -31121,7 +31145,9 @@
     "department": "SS",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2109.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2109.htm"
   },
@@ -31132,7 +31158,9 @@
     "department": "ACE",
     "prerequisites": [],
     "semester": "Semester B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2110.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2110.htm"
   },
@@ -31156,7 +31184,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2120.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2120.htm"
   },
@@ -31167,7 +31197,9 @@
     "department": "IS",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1201.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1201.htm"
   },
@@ -31204,7 +31236,9 @@
     "department": "EF",
     "prerequisites": [],
     "semester": "Semester A or B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1205.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1205.htm"
   },
@@ -31215,7 +31249,9 @@
     "department": "IS",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1206.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1206.htm"
   },
@@ -31252,7 +31288,9 @@
     "department": "SLW",
     "prerequisites": [],
     "semester": "Semester B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1214.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1214.htm"
   },
@@ -31263,7 +31301,9 @@
     "department": "MGT",
     "prerequisites": [],
     "semester": "Semester A",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1216.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1216.htm"
   },
@@ -31274,7 +31314,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1218.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1218.htm"
   },
@@ -31285,7 +31327,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1220.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1220.htm"
   },
@@ -31348,7 +31392,9 @@
     "department": "SEE",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1230.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1230.htm"
   },
@@ -31372,7 +31418,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "Semester A",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2210.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2210.htm"
   },
@@ -31396,7 +31444,9 @@
     "department": "MGT",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2212.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2212.htm"
   },
@@ -31433,7 +31483,9 @@
     "department": "PIA",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2217.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2217.htm"
   },
@@ -31444,7 +31496,9 @@
     "department": "MKT",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2220.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2220.htm"
   },
@@ -31468,7 +31522,9 @@
     "department": "SS",
     "prerequisites": [],
     "semester": "Semester B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2222.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2222.htm"
   },
@@ -31531,7 +31587,9 @@
     "department": "ACE",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1307.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1307.htm"
   },
@@ -31555,7 +31613,9 @@
     "department": "ACE",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1312.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1312.htm"
   },
@@ -31566,7 +31626,9 @@
     "department": "ACE",
     "prerequisites": [],
     "semester": "Semester B",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1313.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1313.htm"
   },
@@ -31590,7 +31652,9 @@
     "department": "EE",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1315.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1315.htm"
   },
@@ -31601,7 +31665,9 @@
     "department": "ACE",
     "prerequisites": [],
     "semester": "Semester A",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1318.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1318.htm"
   },
@@ -31703,7 +31769,9 @@
     "department": "MNE",
     "prerequisites": [],
     "semester": "",
-    "assessment": {},
+    "assessment": {
+      "details": "Official syllabus PDF link verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1340.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1340.htm"
   },
@@ -31836,5 +31904,149 @@
     },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE1355.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE1355.htm"
+  },
+  "EE2303": {
+    "code": "EE2303",
+    "title": "Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {},
+    "pdfUrl": "",
+    "courseUrl": "",
+    "description": "Course listed in the official 2026/2027 Information Engineering flowchart. A standalone course catalogue page was not available at the time this data was updated."
+  },
+  "GE2262": {
+    "code": "GE2262",
+    "title": "Business Statistics",
+    "credits": 3,
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
+    "assessment": {
+      "continuous": "50%",
+      "exam": "50%",
+      "examDuration": "2 hours",
+      "details": "1 Quizzes 1, 2, 3 20 - Yes 2 Assignments 2, 3, 4 30 - No"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2262.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2262.htm",
+    "description": "This course aims to facilitate students' learning of basic statistical concepts commonly used in business management decision making, and their application to the real world. The course content is based on real-world examples and cases to encourage students to develop their attitude and ability to discover and innovate.",
+    "department": "Department of Decision Analytics and Operations"
+  },
+  "GE2263": {
+    "code": "GE2263",
+    "title": "Information Management",
+    "credits": 3,
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
+    "assessment": {
+      "continuous": "50%",
+      "exam": "50%",
+      "examDuration": "2 hours",
+      "details": "1 AT1. Participation:A. Student’s participation will be evaluated in terms of quality of questions, answers and student engagement in the lecture and tutorial throughout the semester. B. Bi- weekly MC quizzes will be given to students to help them consolidate the concepts learned in the week. 1, 2, 3, 4, 5 15 - Yes 2 AT2. Project:A project is designed to test students’ ability in performing basic business intelligence analysis, identifying business needs in a competitive environment, and recommending solutions to help organizations compete more effectively and efficiently in the business world. 1, 2, 3, 4, 5 15 - Yes 3 AT3. Mid-term Test:To ensure reinforcement of reading and seminar, a mid- term test will be used to gauge the students’ grasp of information management concepts and knowledge, as well as their ability to apply them to solve business problems in various situations. 1, 2, 4 20 - Yes"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/GE2263.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2263.htm",
+    "description": "Provide knowledge about the foundations of information management using business information systems; Introduce database management systems, social media, project management, information systems auditing, business continuity planning, and enterprise systems; Introduce the concepts of digital transformation using artificial intelligence (AI), big data, and cloud services; Provide students with hands-on experience to use office management software (e.g., Excel) and business intelligence",
+    "department": "Department of Information Systems"
+  },
+  "CS2611": {
+    "code": "CS2611",
+    "title": "Seminars on Contemporary Technology I",
+    "credits": 1,
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Semester A 2025/26, Semester B 2025/26, Summer 2026, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative), Summer 2027 (Tentative)",
+    "assessment": {
+      "continuous": "100%",
+      "details": "1 Attendance of the arranged seminars 1 50 N/A No 2 Reflections and extended readings documented in the submitted reports for the seminars that students attended 1, 2 50 - No"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/CS2611.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS2611.htm",
+    "description": "This course aims to increase the breadth of outlook of students in computer related topics. Upon completion, students should be able to: 1. know the current technological trends, social and ethical issues in computer related professions; 2. acquire knowledge through self-motivated, continuous and outside-class-room learning."
+  },
+  "CS3185": {
+    "code": "CS3185",
+    "title": "Computer Architecture",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official course page verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/202122/course/CS3185.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/202425/course/CS3185.htm",
+    "description": ""
+  },
+  "CS4285": {
+    "code": "CS4285",
+    "title": "High Speed Multimedia Networks",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official course page verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/202122/course/CS4285.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/ug/current/course/CS4285.htm",
+    "description": ""
+  },
+  "CS4289": {
+    "code": "CS4289",
+    "title": "Pervasive Computing",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official course page verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/202223/course/CS4289.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/ug/current/course/CS4289.htm",
+    "description": ""
+  },
+  "CS4297": {
+    "code": "CS4297",
+    "title": "Cloud Robotics and Automation",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official course page verified. Detailed Assessment Tasks / Activities are provided in the linked CityUHK course syllabus PDF."
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/202122/course/CS4297.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/202425/course/CS4297.htm",
+    "description": ""
+  },
+  "CS4514A": {
+    "code": "CS4514A",
+    "title": "Project",
+    "credits": 6,
+    "prerequisites": [
+      "CS3504",
+      "CS3505E",
+      "FS4004C",
+      "CS4514"
+    ],
+    "prerequisitesRaw": "CS3504 or CS3505",
+    "semester": "Semester A 2025/26, Semester B 2025/26, Summer 2026, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative), Summer 2027 (Tentative)",
+    "assessment": {
+      "continuous": "100%",
+      "details": "1 Project Plan 1 5 Use GenAI to polish only. Original components should be largely from the students. Yes 2 Interim Report I 2, 6 5 Use GenAI to polish only. Original components should be largely from the students. Yes 3 Interim Report II 3, 6 5 Use GenAI to polish only. Original components should be largely from the students. Yes 4 Project Management 6 5 Use GenAI to polish only. Original components should be largely from the students. Yes 5 Technical Merit 1, 2, 3, 4 40 Use GenAI to polish only. Original components should be largely from the students. Yes 6 Final Report 2, 5 25 Use GenAI to polish only. Original components should be largely from the students. Yes 7 Oral Presentation 5 10 Use GenAI to polish only. Original components should be largely from the students. Yes 8 Demonstration 3, 4 5 Use GenAI to polish only. Original components should be largely from the students. Yes"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/CS4514.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4514.htm",
+    "description": "This course is for students to explore individually an area of computing of their own choice. Students will apply their skills and knowledge of this area of interest to further their understanding of computer science. Students exercise good management methods to the planning, developing, and monitoring of progress. It provides the context for students to demonstrate their ability to integrate computer related knowledge they have acquired in other preceding and concurrent courses of"
   }
 }

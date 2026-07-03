@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
-import { Building2, Search, ArrowRight } from 'lucide-react'
-import { useState, useMemo } from 'react'
+import { Building2, Search, ArrowRight, BookOpen, GraduationCap } from 'lucide-react'
+import { useEffect, useState, useMemo } from 'react'
 import majorIndex from '../data/majors-index.json'
+import CourseDetailModal from '../components/CourseDetailModal'
+import type { Course } from '../types'
+import type { SearchIndex, SearchResults } from '../utils/searchIndex.ts'
 
 const COLLEGE_COLORS: Record<string, string> = {
   'college-of-biomedicine': 'bg-rose-100 text-rose-800 border-rose-200',
@@ -16,6 +19,8 @@ const COLLEGE_COLORS: Record<string, string> = {
   'school-of-law': 'bg-indigo-100 text-indigo-800 border-indigo-200',
 }
 
+const EMPTY_SEARCH_RESULTS: SearchResults = { majors: [], courses: [] }
+
 function getMajorCount(college: any) {
   if (college.majors && college.majors.length > 0) {
     return college.majors.length
@@ -23,25 +28,53 @@ function getMajorCount(college: any) {
   return college.departments.reduce((sum: number, d: any) => sum + d.majors.length, 0)
 }
 
-function matchesSearch(college: any, s: string): boolean {
-  if (college.name.toLowerCase().includes(s)) return true
-  if (college.majors) {
-    return college.majors.some((m: any) => m.title.toLowerCase().includes(s))
-  }
-  return college.departments.some((d: any) =>
-    d.name.toLowerCase().includes(s) ||
-    d.majors.some((m: any) => m.title.toLowerCase().includes(s))
-  )
-}
-
 export default function Home() {
   const [search, setSearch] = useState('')
+  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
+  const [searchBundle, setSearchBundle] = useState<{
+    index: SearchIndex
+    searchPlanner: (index: SearchIndex, query: string, options?: { limit?: number }) => SearchResults
+  } | null>(null)
+  const [courseDetails, setCourseDetails] = useState<Record<string, Course> | null>(null)
 
-  const filteredColleges = useMemo(() => {
-    if (!search.trim()) return majorIndex.colleges
-    const s = search.toLowerCase()
-    return (majorIndex.colleges as any[]).filter(c => matchesSearch(c, s))
-  }, [search])
+  const hasSearch = search.trim().length > 0
+  const isSearchLoading = hasSearch && !searchBundle
+
+  useEffect(() => {
+    if (!hasSearch || searchBundle) return
+    let cancelled = false
+
+    Promise.all([
+      import('../data/search-index.json'),
+      import('../utils/searchIndex.ts'),
+    ]).then(([indexModule, searchModule]) => {
+      if (cancelled) return
+      setSearchBundle({
+        index: indexModule.default as SearchIndex,
+        searchPlanner: searchModule.searchPlanner,
+      })
+    })
+
+    return () => {
+      cancelled = true
+    }
+  }, [hasSearch, searchBundle])
+
+  const searchResults = useMemo(() => {
+    if (!hasSearch || !searchBundle) return EMPTY_SEARCH_RESULTS
+    return searchBundle.searchPlanner(searchBundle.index, search, { limit: 10 })
+  }, [hasSearch, searchBundle, search])
+
+  const openCourse = async (code: string) => {
+    if (courseDetails) {
+      setSelectedCourse(courseDetails[code] ?? null)
+      return
+    }
+    const coursesModule = await import('../data/courses.json')
+    const loadedCourses = coursesModule.default as unknown as Record<string, Course>
+    setCourseDetails(loadedCourses)
+    setSelectedCourse(loadedCourses[code] ?? null)
+  }
 
   const totalMajors = (majorIndex.colleges as any[]).reduce((sum, c) => sum + getMajorCount(c), 0)
 
@@ -70,42 +103,129 @@ export default function Home() {
         />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {filteredColleges.map(college => {
-          const majorCount = getMajorCount(college)
-          const deptCount = college.departments?.length || 0
-          const isSchool = college.type === 'school'
-          const colorClass = COLLEGE_COLORS[college.id] || 'bg-gray-100 text-gray-800 border-gray-200'
-
-          return (
-            <Link
-              key={college.id}
-              to={`/college/${college.id}`}
-              className={`group block p-5 rounded-xl border-2 transition-all hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] ${colorClass}`}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <Building2 className="w-6 h-6 opacity-70" />
-                <span className="text-xs font-medium px-2 py-1 rounded-full bg-white/60">
-                  {majorCount} 个专业
-                </span>
+      {hasSearch ? (
+        <div className="space-y-6">
+          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h2 className="font-bold text-gray-800 flex items-center gap-2">
+                <GraduationCap className="w-5 h-5 text-cityu-accent" />
+                专业结果
+              </h2>
+              <span className="text-xs text-gray-500">{searchResults.majors.length} 个匹配</span>
+            </div>
+            {isSearchLoading ? (
+              <div className="text-sm text-gray-500 py-3">正在加载搜索索引...</div>
+            ) : searchResults.majors.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {searchResults.majors.map(item => (
+                  <Link
+                    key={item.code}
+                    to={`/major/${item.code}`}
+                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
+                        {item.code}
+                      </span>
+                      <span className="text-xs text-gray-500 truncate">{item.department || item.college}</span>
+                    </div>
+                    <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
+                    <div className="text-xs text-gray-500 mt-1">{item.college}</div>
+                  </Link>
+                ))}
               </div>
-              <h2 className="font-bold text-lg mb-1">{college.name}</h2>
-              <p className="text-sm opacity-70">
-                {isSchool ? '独立学院' : `${deptCount} 个学系`}
-              </p>
-              <div className="mt-3 flex items-center gap-1 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                查看详情 <ArrowRight className="w-4 h-4" />
-              </div>
-            </Link>
-          )
-        })}
-      </div>
+            ) : (
+              <div className="text-sm text-gray-500 py-3">没有找到匹配专业</div>
+            )}
+          </section>
 
-      {filteredColleges.length === 0 && (
-        <div className="text-center py-12 text-gray-500">
-          未找到匹配的学院或专业
+          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h2 className="font-bold text-gray-800 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-cityu-blue" />
+                课程结果
+              </h2>
+              <span className="text-xs text-gray-500">{searchResults.courses.length} 门匹配</span>
+            </div>
+            {isSearchLoading ? (
+              <div className="text-sm text-gray-500 py-3">正在加载课程索引...</div>
+            ) : searchResults.courses.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {searchResults.courses.map(item => (
+                  <button
+                    key={item.code}
+                    onClick={() => openCourse(item.code)}
+                    className="text-left border border-gray-100 rounded-lg p-3 hover:border-cityu-blue hover:bg-blue-50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="px-2 py-0.5 bg-blue-50 text-cityu-blue text-xs font-bold rounded">
+                        {item.code}
+                      </span>
+                      <span className="text-xs text-gray-500">{item.credits} CU</span>
+                    </div>
+                    <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
+                    <div className="text-xs text-gray-500 mt-1">
+                      {item.relatedMajorCount > 0
+                        ? `出现在 ${item.relatedMajorCount} 个专业/路径中`
+                        : '暂未关联到专业学习计划'}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <div className="text-sm text-gray-500 py-3">没有找到匹配课程</div>
+            )}
+          </section>
         </div>
+      ) : (
+        <>
+          <div className="mb-6 bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div>
+              <div className="font-bold text-gray-800">GE 选课助手</div>
+              <div className="text-sm text-gray-500">按课程名、代码和考核方式筛选可自由组合的 GE 课程。</div>
+            </div>
+            <Link
+              to="/ge"
+              className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+            >
+              打开 GE 工具
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(majorIndex.colleges as any[]).map(college => {
+            const majorCount = getMajorCount(college)
+            const deptCount = college.departments?.length || 0
+            const isSchool = college.type === 'school'
+            const colorClass = COLLEGE_COLORS[college.id] || 'bg-gray-100 text-gray-800 border-gray-200'
+
+            return (
+              <Link
+                key={college.id}
+                to={`/college/${college.id}`}
+                className={`group block p-5 rounded-xl border-2 transition-all hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] ${colorClass}`}
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <Building2 className="w-6 h-6 opacity-70" />
+                  <span className="text-xs font-medium px-2 py-1 rounded-full bg-white/60">
+                    {majorCount} 个专业
+                  </span>
+                </div>
+                <h2 className="font-bold text-lg mb-1">{college.name}</h2>
+                <p className="text-sm opacity-70">
+                  {isSchool ? '独立学院' : `${deptCount} 个学系`}
+                </p>
+                <div className="mt-3 flex items-center gap-1 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                  查看详情 <ArrowRight className="w-4 h-4" />
+                </div>
+              </Link>
+            )
+            })}
+          </div>
+        </>
       )}
+
+      <CourseDetailModal course={selectedCourse} onClose={() => setSelectedCourse(null)} />
     </div>
   )
 }

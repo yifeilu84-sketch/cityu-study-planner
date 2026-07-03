@@ -8,331 +8,47 @@
   "college": "College of Biomedicine",
   "requirements": {
     "gatewayEducation": {
-      "credits": 180,
+      "credits": 31,
       "courses": [
         {
-          "code": "BMS1901",
-          "title": "Calculus for Life Sciences",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
         },
         {
-          "code": "BMS2001",
-          "title": "Medical Microbiology",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE2401",
+          "title": "English for Science",
+          "credits": 3
         },
         {
-          "code": "BMS2002",
-          "title": "Pathophysiology",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1501",
+          "title": "Chinese Civilization - History and Philosophy",
+          "credits": 3
         },
         {
-          "code": "BMS2003",
-          "title": "Clinical Chemistry",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
         },
         {
-          "code": "BMS2004",
-          "title": "Biochemistry",
-          "credits": 3,
-          "remarks": ""
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
         },
         {
-          "code": "BMS2005",
-          "title": "Human Physiology",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHEM1200",
+          "title": "Discovery in Biology",
+          "credits": 3
         },
         {
-          "code": "BMS2007",
-          "title": "Human Anatomy",
-          "credits": 3,
-          "remarks": ""
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3
         },
         {
-          "code": "BMS2008",
-          "title": "Hematology I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2901",
-          "title": "Introductory Biostatistics and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2201",
-          "title": "Molecular Biology of the Cell",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3002",
-          "title": "Cellular Pathology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3003",
-          "title": "Advanced Clinical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3004",
-          "title": "Advanced Medical Microbiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3005",
-          "title": "Medical Genetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3006",
-          "title": "Transfusion Science and Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3007",
-          "title": "Ethics and Practice in Medical Laboratory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3008",
-          "title": "Modern Medical Laboratory Techniques and Instrumentation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3009",
-          "title": "Clinical Laboratory / Industrial Attachment",
-          "credits": 9,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3011",
-          "title": "Hematology II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4001",
-          "title": "Medical Informatics and Laboratory Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4002",
-          "title": "Public Health and Emerging Infectious Diseases",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4003",
-          "title": "Clinical Biochemistry and Molecular Diagnostics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4004",
-          "title": "Advanced Cellular Pathology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4005",
-          "title": "Medical Virology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4006",
-          "title": "Final Year Project Medical Laboratory Research",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4007",
-          "title": "Pharmacology and Toxicology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4008",
-          "title": "Clinical Immunology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS1901",
-          "title": "Calculus for Life Sciences",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2001",
-          "title": "Medical Microbiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2002",
-          "title": "Pathophysiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2003",
-          "title": "Clinical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2004",
-          "title": "Biochemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2005",
-          "title": "Human Physiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2007",
-          "title": "Human Anatomy",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2008",
-          "title": "Hematology I",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2901",
-          "title": "Introductory Biostatistics and Data Analysis",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS2201",
-          "title": "Molecular Biology of the Cell",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3002",
-          "title": "Cellular Pathology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3003",
-          "title": "Advanced Clinical Chemistry",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3004",
-          "title": "Advanced Medical Microbiology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3005",
-          "title": "Medical Genetics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3006",
-          "title": "Transfusion Science and Technology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3007",
-          "title": "Ethics and Practice in Medical Laboratory",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3008",
-          "title": "Modern Medical Laboratory Techniques and Instrumentation",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3009",
-          "title": "Clinical Laboratory / Industrial Attachment",
-          "credits": 9,
-          "remarks": ""
-        },
-        {
-          "code": "BMS3011",
-          "title": "Hematology II",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4001",
-          "title": "Medical Informatics and Laboratory Management",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4002",
-          "title": "Public Health and Emerging Infectious Diseases",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4003",
-          "title": "Clinical Biochemistry and Molecular Diagnostics",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4004",
-          "title": "Advanced Cellular Pathology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4005",
-          "title": "Medical Virology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4006",
-          "title": "Final Year Project Medical Laboratory Research",
-          "credits": 6,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4007",
-          "title": "Pharmacology and Toxicology",
-          "credits": 3,
-          "remarks": ""
-        },
-        {
-          "code": "BMS4008",
-          "title": "Clinical Immunology",
-          "credits": 3,
-          "remarks": ""
+          "code": "PHY1400",
+          "title": "Introductory Physics for Biologists",
+          "credits": 3
         }
       ]
     },
@@ -341,16 +57,143 @@
       "courses": []
     },
     "majorCore": {
-      "credits": 0,
-      "courses": []
+      "credits": 90,
+      "courses": [
+        {
+          "code": "BMS1901",
+          "title": "Calculus for Life Sciences",
+          "credits": 3
+        },
+        {
+          "code": "BMS2001",
+          "title": "Medical Microbiology",
+          "credits": 3
+        },
+        {
+          "code": "BMS2002",
+          "title": "Pathophysiology",
+          "credits": 3
+        },
+        {
+          "code": "BMS2003",
+          "title": "Clinical Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "BMS2004",
+          "title": "Biochemistry",
+          "credits": 3
+        },
+        {
+          "code": "BMS2005",
+          "title": "Human Physiology",
+          "credits": 3
+        },
+        {
+          "code": "BMS2007",
+          "title": "Human Anatomy",
+          "credits": 3
+        },
+        {
+          "code": "BMS2008",
+          "title": "Hematology I",
+          "credits": 3
+        },
+        {
+          "code": "BMS2201",
+          "title": "Molecular Biology of the Cell",
+          "credits": 3
+        },
+        {
+          "code": "BMS2901",
+          "title": "Introductory Biostatistics and Data Analysis",
+          "credits": 3
+        },
+        {
+          "code": "BMS3002",
+          "title": "Cellular Pathology",
+          "credits": 3
+        },
+        {
+          "code": "BMS3003",
+          "title": "Advanced Clinical Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "BMS3005",
+          "title": "Medical Genetics",
+          "credits": 3
+        },
+        {
+          "code": "BMS3006",
+          "title": "Transfusion Science and Technology",
+          "credits": 3
+        },
+        {
+          "code": "BMS3007",
+          "title": "Ethics and Practice in Medical Laboratory",
+          "credits": 3
+        },
+        {
+          "code": "BMS3008",
+          "title": "Modern Medical Laboratory Techniques and Instrumentation",
+          "credits": 3
+        },
+        {
+          "code": "BMS3011",
+          "title": "Hematology II",
+          "credits": 3
+        },
+        {
+          "code": "BMS4001",
+          "title": "Medical Informatics and Laboratory Management",
+          "credits": 3
+        },
+        {
+          "code": "BMS4002",
+          "title": "Public Health and Emerging Infectious Diseases",
+          "credits": 3
+        },
+        {
+          "code": "BMS4003",
+          "title": "Clinical Biochemistry and Molecular Diagnostics",
+          "credits": 3
+        },
+        {
+          "code": "BMS4004",
+          "title": "Advanced Cellular Pathology",
+          "credits": 3
+        },
+        {
+          "code": "BMS4005",
+          "title": "Medical Virology",
+          "credits": 3
+        },
+        {
+          "code": "BMS4006",
+          "title": "Final Year Project: Medical Laboratory Research",
+          "credits": 6
+        },
+        {
+          "code": "BMS4007",
+          "title": "Pharmacology and Toxicology",
+          "credits": 3
+        },
+        {
+          "code": "BMS4008",
+          "title": "Clinical Immunology",
+          "credits": 3
+        }
+      ]
     },
     "majorElectives": {
       "credits": 0,
-      "courses": []
+      "courses": [],
+      "chooseCredits": 0
     },
     "freeElectives": {
       "credits": 0,
-      "courses": []
+      "note": "No free electives required"
     }
   },
   "allCourses": [
@@ -381,5 +224,256 @@
     "BMS4006",
     "BMS4007",
     "BMS4008"
+  ],
+  "studyPlan": {
+    "year1": {
+      "semA": {
+        "courses": [
+          {
+            "code": "CHEM1300",
+            "title": "Principles of General Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "CHEM1200",
+            "title": "Discovery in Biology",
+            "credits": 3
+          },
+          {
+            "code": "BMS1901",
+            "title": "Calculus for Life Sciences",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 16
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "PHY1400",
+            "title": "Introductory Physics for Biologists",
+            "credits": 3
+          },
+          {
+            "code": "BMS2004",
+            "title": "Biochemistry",
+            "credits": 3
+          },
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilization - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year2": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS2001",
+            "title": "Medical Microbiology",
+            "credits": 3
+          },
+          {
+            "code": "BMS2005",
+            "title": "Human Physiology",
+            "credits": 3
+          },
+          {
+            "code": "BMS2007",
+            "title": "Human Anatomy",
+            "credits": 3
+          },
+          {
+            "code": "BMS2008",
+            "title": "Hematology I",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS2002",
+            "title": "Pathophysiology",
+            "credits": 3
+          },
+          {
+            "code": "BMS2003",
+            "title": "Clinical Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "BMS2201",
+            "title": "Molecular Biology of the Cell",
+            "credits": 3
+          },
+          {
+            "code": "BMS2901",
+            "title": "Introductory Biostatistics and Data Analysis",
+            "credits": 3
+          },
+          {
+            "code": "BMS3004",
+            "title": "Advanced Medical Microbiology",
+            "credits": 3
+          },
+          {
+            "code": "BMS3008",
+            "title": "Modern Medical Laboratory Techniques and Instrumentation",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      }
+    },
+    "year3": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS3002",
+            "title": "Cellular Pathology",
+            "credits": 3
+          },
+          {
+            "code": "BMS3003",
+            "title": "Advanced Clinical Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "BMS3011",
+            "title": "Hematology II",
+            "credits": 3
+          },
+          {
+            "code": "BMS4005",
+            "title": "Medical Virology",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "GE Distributional Requirements",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS3005",
+            "title": "Medical Genetics",
+            "credits": 3
+          },
+          {
+            "code": "BMS3006",
+            "title": "Transfusion Science and Technology",
+            "credits": 3
+          },
+          {
+            "code": "BMS3007",
+            "title": "Ethics and Practice in Medical Laboratory",
+            "credits": 3
+          },
+          {
+            "code": "BMS4004",
+            "title": "Advanced Cellular Pathology",
+            "credits": 3
+          },
+          {
+            "code": "BMS4008",
+            "title": "Clinical Immunology",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "BMS4001",
+            "title": "Medical Informatics and Laboratory Management",
+            "credits": 3
+          },
+          {
+            "code": "BMS4002",
+            "title": "Public Health and Emerging Infectious Diseases",
+            "credits": 3
+          },
+          {
+            "code": "BMS4003",
+            "title": "Clinical Biochemistry and Molecular Diagnostics",
+            "credits": 3
+          },
+          {
+            "code": "BMS4006",
+            "title": "Final Year Project: Medical Laboratory Research (IP)",
+            "credits": 3
+          },
+          {
+            "code": "BMS4007",
+            "title": "Pharmacology and Toxicology",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "BMS3009",
+            "title": "Clinical Laboratory/Industrial Attachment",
+            "credits": 9
+          },
+          {
+            "code": "BMS4006",
+            "title": "Final Year Project: Medical Laboratory Research",
+            "credits": 3
+          }
+        ],
+        "credits": 12
+      }
+    }
+  },
+  "notes": [
+    "Students should pay special attention to the prerequisite of courses as specified in the syllabuses.",
+    "Clinical Laboratory/Industrial Attachment is with full-time/day schedule. Students have to show up at host labs from Monday to Friday daytime.",
+    "Some Clinical Laboratory/Industrial Attachment opportunities will be open in Year-3 Summer for application.",
+    "Students might start their final year project from Year-3 Summer, as they will be occupied for the Clinical Laboratory/Industrial Attachment in Year-4 Semester B."
   ]
 }
