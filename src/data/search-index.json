@@ -6181,112 +6181,126 @@
       "code": "GE1138",
       "title": "Exploring Hong Kong: History, Culture and Society",
       "credits": 3,
+      "department": "CAH",
       "relatedMajorCount": 2,
-      "searchText": "ge1138 exploring hong kong: history, culture and society"
+      "searchText": "ge1138 exploring hong kong: history, culture and society cah"
     },
     {
       "type": "course",
       "code": "GE1337",
       "title": "Urban Green City: Pollution and Solution",
       "credits": 3,
+      "department": "SEE",
       "relatedMajorCount": 2,
-      "searchText": "ge1337 urban green city: pollution and solution"
+      "searchText": "ge1337 urban green city: pollution and solution see"
     },
     {
       "type": "course",
       "code": "GE1354",
       "title": "Introduction to Electronic Design",
       "credits": 3,
+      "department": "EE",
       "relatedMajorCount": 5,
-      "searchText": "ge1354 introduction to electronic design"
+      "searchText": "ge1354 introduction to electronic design ee"
     },
     {
       "type": "course",
       "code": "GE2213",
       "title": "Understanding Uncertainty and Statistical Reasoning",
       "credits": 3,
+      "department": "MS",
       "relatedMajorCount": 2,
-      "searchText": "ge2213 understanding uncertainty and statistical reasoning"
+      "searchText": "ge2213 understanding uncertainty and statistical reasoning ms"
     },
     {
       "type": "course",
       "code": "GE2223",
       "title": "Interpersonal Skills and Positive Personal Development",
       "credits": 3,
+      "department": "SS",
       "relatedMajorCount": 2,
-      "searchText": "ge2223 interpersonal skills and positive personal development"
+      "searchText": "ge2223 interpersonal skills and positive personal development ss"
     },
     {
       "type": "course",
       "code": "GE2226",
       "title": "Ageing Society: Hong Kong and Beyond",
       "credits": 3,
+      "department": "SS",
       "relatedMajorCount": 2,
-      "searchText": "ge2226 ageing society: hong kong and beyond"
+      "searchText": "ge2226 ageing society: hong kong and beyond ss"
     },
     {
       "type": "course",
       "code": "GE2230",
       "title": "Innovation and Entrepreneurship in Global Business",
       "credits": 3,
+      "department": "MGT",
       "relatedMajorCount": 2,
-      "searchText": "ge2230 innovation and entrepreneurship in global business"
+      "searchText": "ge2230 innovation and entrepreneurship in global business mgt"
     },
     {
       "type": "course",
       "code": "GE2234",
       "title": "Social Networks for Media, Business and Technological Applications",
       "credits": 3,
+      "department": "COM",
       "relatedMajorCount": 2,
-      "searchText": "ge2234 social networks for media, business and technological applications"
+      "searchText": "ge2234 social networks for media, business and technological applications com"
     },
     {
       "type": "course",
       "code": "GE2304",
       "title": "Foundations of Innovation and Entrepreneurship",
       "credits": 3,
+      "department": "SYE",
       "relatedMajorCount": 2,
-      "searchText": "ge2304 foundations of innovation and entrepreneurship"
+      "searchText": "ge2304 foundations of innovation and entrepreneurship sye"
     },
     {
       "type": "course",
       "code": "GE2313",
       "title": "Global IT Case Studies",
       "credits": 3,
+      "department": "CS",
       "relatedMajorCount": 3,
-      "searchText": "ge2313 global it case studies"
+      "searchText": "ge2313 global it case studies cs"
     },
     {
       "type": "course",
       "code": "GE2324",
       "title": "The Art and Science of Data",
       "credits": 3,
+      "department": "CS",
       "relatedMajorCount": 3,
-      "searchText": "ge2324 the art and science of data"
+      "searchText": "ge2324 the art and science of data cs"
     },
     {
       "type": "course",
       "code": "GE2338",
-      "title": "Everyday Security - Protecting Yourself in the Digital Age",
+      "title": "Everyday Security – Protecting yourself in the digital age",
       "credits": 3,
+      "department": "CS",
       "relatedMajorCount": 3,
-      "searchText": "ge2338 everyday security - protecting yourself in the digital age"
+      "searchText": "ge2338 everyday security – protecting yourself in the digital age cs"
     },
     {
       "type": "course",
       "code": "GE2339",
       "title": "Smart City - a Systems Engineering Perspective",
       "credits": 3,
+      "department": "SYE",
       "relatedMajorCount": 3,
-      "searchText": "ge2339 smart city - a systems engineering perspective"
+      "searchText": "ge2339 smart city - a systems engineering perspective sye"
     },
     {
       "type": "course",
       "code": "GE2340",
-      "title": "Artificial Intelligence ‒ Past, Present, and Future",
+      "title": "Artificial Intelligence - Past, Present, and Future",
       "credits": 3,
+      "department": "CS",
       "relatedMajorCount": 3,
-      "searchText": "ge2340 artificial intelligence ‒ past, present, and future"
+      "searchText": "ge2340 artificial intelligence - past, present, and future cs"
     },
     {
       "type": "course",
@@ -13925,11 +13939,11 @@
     {
       "type": "course",
       "code": "GE1501",
-      "title": "Chinese Civilisation - History and Philosophy",
+      "title": "Chinese Civilisation-History and Philosophy",
       "credits": 3,
       "department": "Gateway Education",
       "relatedMajorCount": 63,
-      "searchText": "ge1501 chinese civilisation - history and philosophy gateway education"
+      "searchText": "ge1501 chinese civilisation-history and philosophy gateway education"
     },
     {
       "type": "course",
@@ -14042,11 +14056,11 @@
     {
       "type": "course",
       "code": "GE2413",
-      "title": "Word, Sound and Image: Writing for Creative Media",
+      "title": "Words, Sound and Images: Writing for Creative Media",
       "credits": 3,
       "department": "Gateway Education",
       "relatedMajorCount": 3,
-      "searchText": "ge2413 word, sound and image: writing for creative media gateway education"
+      "searchText": "ge2413 words, sound and images: writing for creative media gateway education"
     },
     {
       "type": "course",
@@ -15053,6 +15067,645 @@
       "credits": 6,
       "relatedMajorCount": 1,
       "searchText": "cs4514a project"
+    },
+    {
+      "type": "course",
+      "code": "GE1356",
+      "title": "Introduction to Data Science",
+      "credits": 3,
+      "department": "DS",
+      "relatedMajorCount": 0,
+      "searchText": "ge1356 introduction to data science ds"
+    },
+    {
+      "type": "course",
+      "code": "GE1357",
+      "title": "Introduction to Chemistry",
+      "credits": 3,
+      "department": "CHEM",
+      "relatedMajorCount": 0,
+      "searchText": "ge1357 introduction to chemistry chem"
+    },
+    {
+      "type": "course",
+      "code": "GE1358",
+      "title": "Coordinate Geometry",
+      "credits": 3,
+      "department": "MA",
+      "relatedMajorCount": 0,
+      "searchText": "ge1358 coordinate geometry ma"
+    },
+    {
+      "type": "course",
+      "code": "GE1359",
+      "title": "Algebra",
+      "credits": 3,
+      "department": "MA",
+      "relatedMajorCount": 0,
+      "searchText": "ge1359 algebra ma"
+    },
+    {
+      "type": "course",
+      "code": "GE1360",
+      "title": "Introductory Physics",
+      "credits": 3,
+      "department": "PHY",
+      "relatedMajorCount": 0,
+      "searchText": "ge1360 introductory physics phy"
+    },
+    {
+      "type": "course",
+      "code": "GE1361",
+      "title": "Digital Literacy: New Technologies, Society, and You",
+      "credits": 3,
+      "department": "CS",
+      "relatedMajorCount": 0,
+      "searchText": "ge1361 digital literacy: new technologies, society, and you cs"
+    },
+    {
+      "type": "course",
+      "code": "GE1362",
+      "title": "Exploring Generative AI in Practice",
+      "credits": 3,
+      "department": "CS",
+      "relatedMajorCount": 0,
+      "searchText": "ge1362 exploring generative ai in practice cs"
+    },
+    {
+      "type": "course",
+      "code": "GE2122",
+      "title": "The Cantonese Language in Use: Language, Grammar and Culture",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2122 the cantonese language in use: language, grammar and culture lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2124",
+      "title": "The World through Languages",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2124 the world through languages lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2125",
+      "title": "The Bible: Its History, Literature, and Influence",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2125 the bible: its history, literature, and influence lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2128",
+      "title": "The Sounds of the World’s Languages",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2128 the sounds of the world’s languages lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2129",
+      "title": "Psychology for Young Professionals",
+      "credits": 3,
+      "department": "SS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2129 psychology for young professionals ss"
+    },
+    {
+      "type": "course",
+      "code": "GE2130",
+      "title": "Happiness：An Interdisciplinary Perspective",
+      "credits": 3,
+      "department": "SS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2130 happiness：an interdisciplinary perspective ss"
+    },
+    {
+      "type": "course",
+      "code": "GE2132",
+      "title": "Discovering the Dynamics of Contemporary Cities and Architecture in China",
+      "credits": 3,
+      "department": "CAH",
+      "relatedMajorCount": 0,
+      "searchText": "ge2132 discovering the dynamics of contemporary cities and architecture in china cah"
+    },
+    {
+      "type": "course",
+      "code": "GE2133",
+      "title": "The Life and Times of English Literature",
+      "credits": 3,
+      "department": "EN",
+      "relatedMajorCount": 0,
+      "searchText": "ge2133 the life and times of english literature en"
+    },
+    {
+      "type": "course",
+      "code": "GE2134",
+      "title": "Critical and Creative Thinking",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2134 critical and creative thinking pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2135",
+      "title": "World Religions",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2135 world religions pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2136",
+      "title": "Sources of Chinese Tradition",
+      "credits": 3,
+      "department": "CAH",
+      "relatedMajorCount": 0,
+      "searchText": "ge2136 sources of chinese tradition cah"
+    },
+    {
+      "type": "course",
+      "code": "GE2137",
+      "title": "Sources of Literature, Cultural Heritage and History",
+      "credits": 3,
+      "department": "CAH",
+      "relatedMajorCount": 0,
+      "searchText": "ge2137 sources of literature, cultural heritage and history cah"
+    },
+    {
+      "type": "course",
+      "code": "GE2138",
+      "title": "Introduction to Ethics and Public Policy",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2138 introduction to ethics and public policy pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2139",
+      "title": "Animal Welfare and Ethics",
+      "credits": 3,
+      "department": "PH",
+      "relatedMajorCount": 1,
+      "searchText": "ge2139 animal welfare and ethics ph"
+    },
+    {
+      "type": "course",
+      "code": "GE2140",
+      "title": "Language and Voice in Marginalized Communities",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2140 language and voice in marginalized communities lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2141",
+      "title": "Narratives of Health and Healing: Introduction to the Medical Humanities",
+      "credits": 3,
+      "department": "EN",
+      "relatedMajorCount": 0,
+      "searchText": "ge2141 narratives of health and healing: introduction to the medical humanities en"
+    },
+    {
+      "type": "course",
+      "code": "GE2142",
+      "title": "Network Analysis for the Humanities and Social Sciences",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2142 network analysis for the humanities and social sciences lt"
+    },
+    {
+      "type": "course",
+      "code": "GE2231",
+      "title": "Business, Media and Society",
+      "credits": 3,
+      "department": "MGT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2231 business, media and society mgt"
+    },
+    {
+      "type": "course",
+      "code": "GE2232",
+      "title": "Knowing Ourselves Better in Work and Life",
+      "credits": 3,
+      "department": "MGT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2232 knowing ourselves better in work and life mgt"
+    },
+    {
+      "type": "course",
+      "code": "GE2239",
+      "title": "Food: Culture, Science and Society",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2239 food: culture, science and society pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2242",
+      "title": "Conducting Online Business in China",
+      "credits": 3,
+      "department": "IS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2242 conducting online business in china is"
+    },
+    {
+      "type": "course",
+      "code": "GE2244",
+      "title": "The Hidden City: Space, Power and Social Processes in Hong Kong",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2244 the hidden city: space, power and social processes in hong kong pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2248",
+      "title": "Persuasion in Everyday Life",
+      "credits": 3,
+      "department": "MKT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2248 persuasion in everyday life mkt"
+    },
+    {
+      "type": "course",
+      "code": "GE2256",
+      "title": "Applications of Game Theory to Business",
+      "credits": 3,
+      "department": "EF",
+      "relatedMajorCount": 0,
+      "searchText": "ge2256 applications of game theory to business ef"
+    },
+    {
+      "type": "course",
+      "code": "GE2258",
+      "title": "Introduction to Economics",
+      "credits": 3,
+      "department": "EF",
+      "relatedMajorCount": 0,
+      "searchText": "ge2258 introduction to economics ef"
+    },
+    {
+      "type": "course",
+      "code": "GE2259",
+      "title": "Technology Ventures: From ICT Innovation to Enterprise",
+      "credits": 3,
+      "department": "IS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2259 technology ventures: from ict innovation to enterprise is"
+    },
+    {
+      "type": "course",
+      "code": "GE2260",
+      "title": "Introduction to Finance",
+      "credits": 3,
+      "department": "EF",
+      "relatedMajorCount": 0,
+      "searchText": "ge2260 introduction to finance ef"
+    },
+    {
+      "type": "course",
+      "code": "GE2261",
+      "title": "Urban Sustainability in Hong Kong",
+      "credits": 3,
+      "department": "SEE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2261 urban sustainability in hong kong see"
+    },
+    {
+      "type": "course",
+      "code": "GE2264",
+      "title": "Introduction to People Management in Organization",
+      "credits": 3,
+      "department": "MGT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2264 introduction to people management in organization mgt"
+    },
+    {
+      "type": "course",
+      "code": "GE2265",
+      "title": "Introduction to Marketing",
+      "credits": 3,
+      "department": "MKT",
+      "relatedMajorCount": 0,
+      "searchText": "ge2265 introduction to marketing mkt"
+    },
+    {
+      "type": "course",
+      "code": "GE2266",
+      "title": "Health Communication",
+      "credits": 3,
+      "department": "COM",
+      "relatedMajorCount": 0,
+      "searchText": "ge2266 health communication com"
+    },
+    {
+      "type": "course",
+      "code": "GE2267",
+      "title": "Exploring Public Affairs in Globalised Cities",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge2267 exploring public affairs in globalised cities pia"
+    },
+    {
+      "type": "course",
+      "code": "GE2301",
+      "title": "Science and Technology: Fascinating Mechanical Engineering",
+      "credits": 3,
+      "department": "MNE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2301 science and technology: fascinating mechanical engineering mne"
+    },
+    {
+      "type": "course",
+      "code": "GE2303",
+      "title": "Save the Earth: Sustainable Development",
+      "credits": 3,
+      "department": "ACE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2303 save the earth: sustainable development ace"
+    },
+    {
+      "type": "course",
+      "code": "GE2305",
+      "title": "Astronomy – The Universe and Us",
+      "credits": 3,
+      "department": "PHY",
+      "relatedMajorCount": 0,
+      "searchText": "ge2305 astronomy – the universe and us phy"
+    },
+    {
+      "type": "course",
+      "code": "GE2306",
+      "title": "Energy and Technology",
+      "credits": 3,
+      "department": "MSE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2306 energy and technology mse"
+    },
+    {
+      "type": "course",
+      "code": "GE2309",
+      "title": "The World of NANO: The Next Big Thing is Really Small",
+      "credits": 3,
+      "department": "MSE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2309 the world of nano: the next big thing is really small mse"
+    },
+    {
+      "type": "course",
+      "code": "GE2311",
+      "title": "Technology and Society",
+      "credits": 3,
+      "department": "ACE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2311 technology and society ace"
+    },
+    {
+      "type": "course",
+      "code": "GE2314",
+      "title": "Construction As One of the Founding Stones of Modern Hong Kong",
+      "credits": 3,
+      "department": "ACE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2314 construction as one of the founding stones of modern hong kong ace"
+    },
+    {
+      "type": "course",
+      "code": "GE2316",
+      "title": "Computing Snapshot, Today and Tomorrow",
+      "credits": 3,
+      "department": "EE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2316 computing snapshot, today and tomorrow ee"
+    },
+    {
+      "type": "course",
+      "code": "GE2318",
+      "title": "Complexity in Science and Technology",
+      "credits": 3,
+      "department": "EE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2318 complexity in science and technology ee"
+    },
+    {
+      "type": "course",
+      "code": "GE2320",
+      "title": "Robots in Our Life: How Applications of Robots Affect Our Life and Society",
+      "credits": 3,
+      "department": "Gateway Education",
+      "relatedMajorCount": 0,
+      "searchText": "ge2320 robots in our life: how applications of robots affect our life and society gateway education"
+    },
+    {
+      "type": "course",
+      "code": "GE2322",
+      "title": "The Nobel Prize: A Discovery Approach to Human Greatness",
+      "credits": 3,
+      "department": "CHEM",
+      "relatedMajorCount": 0,
+      "searchText": "ge2322 the nobel prize: a discovery approach to human greatness chem"
+    },
+    {
+      "type": "course",
+      "code": "GE2327",
+      "title": "Green and Intelligent Buildings",
+      "credits": 3,
+      "department": "ACE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2327 green and intelligent buildings ace"
+    },
+    {
+      "type": "course",
+      "code": "GE2329",
+      "title": "Green Buildings: Discovery & Innovations",
+      "credits": 3,
+      "department": "ACE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2329 green buildings: discovery & innovations ace"
+    },
+    {
+      "type": "course",
+      "code": "GE2333",
+      "title": "The Science of Cosmetics",
+      "credits": 3,
+      "department": "CHEM",
+      "relatedMajorCount": 0,
+      "searchText": "ge2333 the science of cosmetics chem"
+    },
+    {
+      "type": "course",
+      "code": "GE2334",
+      "title": "Science Versus Crime",
+      "credits": 3,
+      "department": "CHEM",
+      "relatedMajorCount": 0,
+      "searchText": "ge2334 science versus crime chem"
+    },
+    {
+      "type": "course",
+      "code": "GE2335",
+      "title": "Business Programming with Spreadsheet",
+      "credits": 3,
+      "department": "IS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2335 business programming with spreadsheet is"
+    },
+    {
+      "type": "course",
+      "code": "GE2336",
+      "title": "Systems Thinking to Understanding Phenomena",
+      "credits": 3,
+      "department": "SYE",
+      "relatedMajorCount": 0,
+      "searchText": "ge2336 systems thinking to understanding phenomena sye"
+    },
+    {
+      "type": "course",
+      "code": "GE2341",
+      "title": "Freshwater Aquaculture and Aquatic Animal Health",
+      "credits": 3,
+      "department": "PH",
+      "relatedMajorCount": 0,
+      "searchText": "ge2341 freshwater aquaculture and aquatic animal health ph"
+    },
+    {
+      "type": "course",
+      "code": "GE2342",
+      "title": "Introduction to Zoonotic Diseases",
+      "credits": 3,
+      "department": "PH",
+      "relatedMajorCount": 1,
+      "searchText": "ge2342 introduction to zoonotic diseases ph"
+    },
+    {
+      "type": "course",
+      "code": "GE2343",
+      "title": "Data Visualization",
+      "credits": 3,
+      "department": "DS",
+      "relatedMajorCount": 0,
+      "searchText": "ge2343 data visualization ds"
+    },
+    {
+      "type": "course",
+      "code": "GE3104",
+      "title": "Data is Beautiful: Visualization in the Humanities",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge3104 data is beautiful: visualization in the humanities lt"
+    },
+    {
+      "type": "course",
+      "code": "GE3108",
+      "title": "Language in Art, Invention and Inspiration",
+      "credits": 3,
+      "department": "LT",
+      "relatedMajorCount": 0,
+      "searchText": "ge3108 language in art, invention and inspiration lt"
+    },
+    {
+      "type": "course",
+      "code": "GE3109",
+      "title": "Hong Kong Legal System and One Country, Two Systems",
+      "credits": 3,
+      "department": "SLW",
+      "relatedMajorCount": 0,
+      "searchText": "ge3109 hong kong legal system and one country, two systems slw"
+    },
+    {
+      "type": "course",
+      "code": "GE3110",
+      "title": "English in Society",
+      "credits": 3,
+      "department": "EN",
+      "relatedMajorCount": 0,
+      "searchText": "ge3110 english in society en"
+    },
+    {
+      "type": "course",
+      "code": "GE3202",
+      "title": "Citizen Journalism and Civil Society",
+      "credits": 3,
+      "department": "COM",
+      "relatedMajorCount": 0,
+      "searchText": "ge3202 citizen journalism and civil society com"
+    },
+    {
+      "type": "course",
+      "code": "GE3204",
+      "title": "Business and Hong Kong Society",
+      "credits": 3,
+      "department": "MGT",
+      "relatedMajorCount": 0,
+      "searchText": "ge3204 business and hong kong society mgt"
+    },
+    {
+      "type": "course",
+      "code": "GE3206",
+      "title": "China in World Affairs",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge3206 china in world affairs pia"
+    },
+    {
+      "type": "course",
+      "code": "GE3207",
+      "title": "Comparing Capitalisms in East Asia and the West",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge3207 comparing capitalisms in east asia and the west pia"
+    },
+    {
+      "type": "course",
+      "code": "GE3208",
+      "title": "Democracy at the Movies",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge3208 democracy at the movies pia"
+    },
+    {
+      "type": "course",
+      "code": "GE3209",
+      "title": "Managing New Global Challenges",
+      "credits": 3,
+      "department": "PIA",
+      "relatedMajorCount": 0,
+      "searchText": "ge3209 managing new global challenges pia"
+    },
+    {
+      "type": "course",
+      "code": "GE4102",
+      "title": "Video Game: History, Industry, Society, and Creativity",
+      "credits": 3,
+      "department": "SCM",
+      "relatedMajorCount": 0,
+      "searchText": "ge4102 video game: history, industry, society, and creativity scm"
+    },
+    {
+      "type": "course",
+      "code": "GE4103",
+      "title": "Technologies in Art, Science and Everyday Life",
+      "credits": 3,
+      "department": "SCM",
+      "relatedMajorCount": 0,
+      "searchText": "ge4103 technologies in art, science and everyday life scm"
     }
   ]
 }

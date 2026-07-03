@@ -18,6 +18,14 @@ export interface Course {
   pdfUrl: string;
   courseUrl: string;
   description?: string;
+  area?: string;
+  geArea?: string;
+  offeringUnit?: string;
+  geLevel?: string;
+  geTerms?: string[];
+  geWithExam?: 'Yes' | 'No' | string;
+  geSource?: string;
+  geSourceUrl?: string;
 }
 
 export interface MajorCourse {

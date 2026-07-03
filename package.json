@@ -8,9 +8,10 @@
     "build": "npm run prepare:data && tsc -b && vite build",
     "lint": "eslint .",
     "test": "node --test",
+    "apply:ge": "node scripts/apply-ge-official-metadata.mjs",
     "build:search": "node scripts/build-search-index.mjs",
     "split:majors": "node scripts/split-major-data.mjs",
-    "prepare:data": "npm run split:majors && npm run build:search",
+    "prepare:data": "npm run apply:ge && npm run split:majors && npm run build:search",
     "preview": "vite preview",
     "deploy": "npm run build && cd dist && git init && git add -A && git commit -m deploy && git push -f https://github.com/yifeilu84-sketch/cityu-study-planner.git master:gh-pages && cd .."
   },

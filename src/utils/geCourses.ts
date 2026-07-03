@@ -1,3 +1,5 @@
+import { getGEArea, isRequiredGE } from './editPlan.ts'
+
 export interface GECourseSummary {
   code: string
   title: string
@@ -5,6 +7,7 @@ export interface GECourseSummary {
   area: string
   continuousPercent: number
   examPercent: number
+  hasFinalExam: boolean
   hasAssessment: boolean
   course: any
 }
@@ -24,7 +27,16 @@ function parsePercent(value: unknown): number {
 }
 
 function inferArea(course: any): string {
-  return course?.area || course?.geArea || '未标注'
+  const explicitArea = course?.geArea || course?.area
+  if (explicitArea) return explicitArea
+
+  const code = String(course?.code ?? '').toUpperCase()
+  if (isRequiredGE(code)) return 'University Req.'
+  return getGEArea(code) || '未标注'
+}
+
+function hasOfficialExamFlag(course: any): boolean {
+  return String(course?.geWithExam ?? '').toLowerCase() === 'yes'
 }
 
 export function getGECourses(courses: Record<string, any>): GECourseSummary[] {
@@ -33,6 +45,7 @@ export function getGECourses(courses: Record<string, any>): GECourseSummary[] {
     .map((course: any) => {
       const continuousPercent = parsePercent(course.assessment?.continuous)
       const examPercent = parsePercent(course.assessment?.exam)
+      const hasFinalExam = examPercent > 0 || hasOfficialExamFlag(course)
       return {
         code: course.code,
         title: course.title,
@@ -40,7 +53,8 @@ export function getGECourses(courses: Record<string, any>): GECourseSummary[] {
         area: inferArea(course),
         continuousPercent,
         examPercent,
-        hasAssessment: Boolean(continuousPercent || examPercent || course.assessment?.details),
+        hasFinalExam,
+        hasAssessment: Boolean(continuousPercent || examPercent || hasFinalExam || course.assessment?.details),
         course,
       }
     })
@@ -51,8 +65,8 @@ export function filterGECourses(items: GECourseSummary[], filters: GEFilters): G
   const query = filters.query.trim().toLowerCase()
   return items.filter((item) => {
     if (filters.area !== 'all' && item.area !== filters.area) return false
-    if (filters.exam === 'has-exam' && item.examPercent <= 0) return false
-    if (filters.exam === 'no-exam' && item.examPercent > 0) return false
+    if (filters.exam === 'has-exam' && !item.hasFinalExam) return false
+    if (filters.exam === 'no-exam' && item.hasFinalExam) return false
     if (query && !`${item.code} ${item.title}`.toLowerCase().includes(query)) return false
     return true
   })

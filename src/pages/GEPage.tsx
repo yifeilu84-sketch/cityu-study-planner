@@ -6,6 +6,8 @@ import type { Course } from '../types'
 import CourseDetailModal from '../components/CourseDetailModal'
 import { filterGECourses, getGECourses } from '../utils/geCourses.ts'
 
+const AREA_ORDER = ['Area 1', 'Area 2', 'Area 3', 'University Req.', '未标注']
+
 export default function GEPage() {
   const courses: Record<string, Course> = coursesData as any
   const [query, setQuery] = useState('')
@@ -14,7 +16,14 @@ export default function GEPage() {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
 
   const geCourses = useMemo(() => getGECourses(courses), [courses])
-  const areas = useMemo(() => Array.from(new Set(geCourses.map(item => item.area))).sort(), [geCourses])
+  const areas = useMemo(() => Array.from(new Set(geCourses.map(item => item.area))).sort((a, b) => {
+    const indexA = AREA_ORDER.indexOf(a)
+    const indexB = AREA_ORDER.indexOf(b)
+    if (indexA !== -1 || indexB !== -1) {
+      return (indexA === -1 ? AREA_ORDER.length : indexA) - (indexB === -1 ? AREA_ORDER.length : indexB)
+    }
+    return a.localeCompare(b)
+  }), [geCourses])
   const filtered = useMemo(() => filterGECourses(geCourses, { query, area, exam }), [geCourses, query, area, exam])
 
   return (
@@ -107,11 +116,11 @@ export default function GEPage() {
                 CA {item.continuousPercent || 0}%
               </span>
               <span className={`text-xs px-2 py-1 rounded border ${
-                item.examPercent > 0
+                item.hasFinalExam
                   ? 'bg-rose-50 text-rose-700 border-rose-100'
                   : 'bg-blue-50 text-blue-700 border-blue-100'
               }`}>
-                Final {item.examPercent || 0}%
+                {item.examPercent > 0 ? `Final ${item.examPercent}%` : item.hasFinalExam ? 'Final: Yes' : 'Final 0%'}
               </span>
             </div>
           </button>

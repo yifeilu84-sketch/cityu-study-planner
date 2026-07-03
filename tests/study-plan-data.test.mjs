@@ -6,6 +6,7 @@ import { buildCoursePool } from '../src/utils/editPlan.ts'
 
 const majors = JSON.parse(readFileSync(new URL('../src/data/all-majors.json', import.meta.url), 'utf8'))
 const courses = JSON.parse(readFileSync(new URL('../src/data/courses.json', import.meta.url), 'utf8'))
+const officialGECourses = JSON.parse(readFileSync(new URL('../src/data/ge-official-courses.json', import.meta.url), 'utf8'))
 
 function major(code) {
   const found = majors.find((item) => item.code === code)
@@ -25,6 +26,13 @@ function planCourseCodes(item) {
 
 function isGeneric(code) {
   return /^(GE(-|$)|GE Area|GE-Area|GE-DR|GE-COL|GE-ELECTIVE|ELECTIVE|MAJOR-ELECT|FREE|MINOR|COLLEGE|COL-ELEC|LAW-ELECTIVE|CRS-ELECTIVE|CS-E|DR-|FIN-ELECTIVE|EVE-ELECTIVE|AC-ELECTIVE)/i.test(code)
+}
+
+function countByArea(items) {
+  return items.reduce((counts, item) => {
+    counts[item.area] = (counts[item.area] ?? 0) + 1
+    return counts
+  }, {})
 }
 
 test('major course list includes real courses that appear only in the official study plan', () => {
@@ -144,7 +152,11 @@ test('Artificial Intelligence in Business replaces the old Information Managemen
 
 test('free-combination GE courses and new double-degree courses have verified course assessment data', () => {
   const gePool = buildCoursePool(major('BENG1_BME-1'), courses).filter((course) => /^GE\d{4}$/.test(course.code))
-  assert.ok(gePool.length >= 100, 'GE pool should include the current free-combination GE course set')
+  const gePoolCodes = new Set(gePool.map((course) => course.code))
+  assert.equal(gePool.length, officialGECourses.length, 'GE pool should mirror the full official GE Search list')
+  for (const officialCourse of officialGECourses) {
+    assert.ok(gePoolCodes.has(officialCourse.code), `${officialCourse.code} should be available in free-combination GE choices`)
+  }
 
   const requiredCodes = new Set([
     ...gePool.map((course) => course.code),
@@ -164,7 +176,8 @@ test('free-combination GE courses and new double-degree courses have verified co
       continue
     }
     const hasAssessment = Boolean(course.assessment?.continuous || course.assessment?.exam || course.assessment?.details || course.assessment?.breakdown)
-    if (!course.pdfUrl || !course.courseUrl || !hasAssessment) {
+    const isGE = /^GE\d{4}$/.test(code)
+    if (!course.courseUrl || !hasAssessment || (!isGE && !course.pdfUrl)) {
       missing.push(`${code}: incomplete official course detail`)
     }
   }
@@ -239,10 +252,41 @@ test('ge helper exposes verified GE courses with assessment filters', async () =
   const { getGECourses, filterGECourses } = await import('../src/utils/geCourses.ts')
   const items = getGECourses(courses)
 
-  assert.ok(items.length >= 100)
+  assert.equal(items.length, officialGECourses.length)
   assert.ok(items.every((item) => /^GE\d{4}$/.test(item.code)))
+  assert.equal(items.some((item) => item.area === '未标注'), false)
+  assert.deepEqual(countByArea(items), {
+    'Area 1': 53,
+    'Area 2': 55,
+    'Area 3': 63,
+    'University Req.': 9,
+  })
+  assert.equal(items.find((item) => item.code === 'GE2122')?.area, 'Area 1')
+  assert.equal(items.find((item) => item.code === 'GE1362')?.area, 'Area 3')
+  assert.equal(items.find((item) => item.code === 'GE2401')?.area, 'University Req.')
+  assert.equal(items.find((item) => item.code === 'GE4103')?.area, 'Area 1')
   assert.ok(filterGECourses(items, { query: 'English', area: 'all', exam: 'any' }).length > 0)
-  assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'has-exam' }).every((item) => item.examPercent > 0))
+  assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'has-exam' }).every((item) => item.hasFinalExam))
+  assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'no-exam' }).every((item) => !item.hasFinalExam))
+})
+
+test('official GE search metadata is complete and linked to site course records', () => {
+  assert.equal(officialGECourses.length, 180)
+  assert.equal(new Set(officialGECourses.map((course) => course.code)).size, officialGECourses.length)
+  assert.deepEqual(countByArea(officialGECourses), {
+    'Area 1': 53,
+    'Area 2': 55,
+    'Area 3': 63,
+    'University Req.': 9,
+  })
+
+  for (const officialCourse of officialGECourses) {
+    const course = courses[officialCourse.code]
+    assert.ok(course, `${officialCourse.code} should exist in courses.json`)
+    assert.equal(course.courseUrl, officialCourse.geInfoUrl)
+    assert.equal(course.geArea ?? course.area, officialCourse.area)
+    assert.ok(course.assessment?.exam || course.assessment?.details, `${officialCourse.code} should expose official assessment metadata`)
+  }
 })
 
 test('issue report includes entity context and official evidence prompt', async () => {

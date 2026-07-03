@@ -78,7 +78,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
     code: course.code,
     title: course.title,
     pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : course.courseUrl),
-    sourceKind: 'course-pdf',
+    sourceKind: course.geSource ? 'official-ge-page' : 'course-pdf',
   })
 
   return (
@@ -207,6 +207,17 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                 <FileText className="w-4 h-4" />
                 查看课程官方PDF
                 <ExternalLink className="w-3 h-3" />
+              </a>
+              )}
+              {course.courseUrl && (
+              <a
+                href={course.courseUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 bg-white text-gray-700 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />
+                查看官方课程页
               </a>
               )}
               <a
