@@ -1,0 +1,1 @@
+var e=[/^GE(?!\d{4})/i,/^DR-\d+$/i,/^CS-E$/i,/^CE$/i,/^FREE/i,/^MINOR/i,/^COLLEGE/i,/^SCHOOL/i,/^STREAM/i,/^MAJOR/i,/^COL-/i,/^CRM-/i,/-ELECT/i,/ELECTIVE/i,/-ELEC\d*$/i,/-CORE\d*$/i,/FOUND\d*$/i];function t(e){return(e||``).trim().split(/[\s/]+/)[0]}function n(t){let n=(t||``).trim();return n?e.some(e=>e.test(n)):!0}export{n,t};
