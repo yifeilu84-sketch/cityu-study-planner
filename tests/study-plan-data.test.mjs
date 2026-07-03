@@ -234,6 +234,80 @@ test('source labels distinguish official, structure, derived, and diy plans', as
   assert.equal(getStudyPlanSourceStatus(major('CBIO_BIO3-1')).kind, 'diy')
 })
 
+test('graduation audit catches removed required course and GE area gaps', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const bme = major('BENG1_BME-1')
+  const plan = generateStudyPlan(bme, courses).map((semester) => {
+    const keptCourses = semester.courses.filter((course) => course.code !== 'GE1401')
+    return {
+      ...semester,
+      courses: keptCourses,
+      totalCredits: keptCourses.reduce((sum, course) => sum + course.credits, 0),
+    }
+  })
+
+  const audit = auditGraduationPlan(bme, courses, plan)
+
+  assert.equal(audit.status, 'danger')
+  assert.ok(audit.ge.missingRequiredCodes.includes('GE1401'))
+  assert.ok(audit.ge.missingAreas.includes('Area 1'))
+  assert.ok(audit.ge.missingAreas.includes('Area 2'))
+  assert.ok(audit.ge.missingAreas.includes('Area 3'))
+  assert.ok(audit.sections.some((section) => section.missingCourseCodes.includes('GE1401')))
+})
+
+test('graduation audit marks derived and diy plans as advisory', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const derivedMajor = major('BBA1_BE2-1')
+  const diyMajor = major('CBIO_BIO3-1')
+
+  const derived = auditGraduationPlan(derivedMajor, courses, generateStudyPlan(derivedMajor, courses))
+  const diy = auditGraduationPlan(diyMajor, courses, generateStudyPlan(diyMajor, courses), 0)
+
+  assert.equal(derived.source.kind, 'derived')
+  assert.equal(derived.source.advisory, true)
+  assert.equal(diy.source.kind, 'diy')
+  assert.equal(diy.source.advisory, true)
+  assert.ok(diy.warnings.some((warning) => warning.kind === 'source-confidence' && warning.message.includes('DIY')))
+})
+
+test('graduation audit detects duplicate courses and prerequisite ordering', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const bme = major('BENG1_BME-1')
+  const plan = generateStudyPlan(bme, courses)
+  const duplicated = plan[0].courses[0]
+  const coursesForTest = {
+    ...courses,
+    TEST2000: {
+      code: 'TEST2000',
+      title: 'Synthetic Prerequisite Check',
+      credits: 3,
+      department: 'Test',
+      prerequisites: ['TEST1000'],
+      prerequisitesRaw: 'TEST1000',
+      semester: '',
+      assessment: {},
+      pdfUrl: '',
+      courseUrl: '',
+    },
+  }
+
+  plan[0].courses.push({ ...duplicated })
+  plan[0].courses.push({
+    code: 'TEST2000',
+    title: 'Synthetic Prerequisite Check',
+    credits: 3,
+    category: 'majorCore',
+    semester: '',
+  })
+  plan[0].totalCredits += duplicated.credits + 3
+
+  const audit = auditGraduationPlan(bme, coursesForTest, plan)
+
+  assert.equal(audit.duplicates.some((item) => item.code === duplicated.code), true)
+  assert.equal(audit.warnings.some((warning) => warning.kind === 'prerequisite' && warning.codes.includes('TEST2000')), true)
+})
+
 test('global search returns majors and real courses while excluding placeholders', async () => {
   const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
   const index = buildSearchIndex(majors, courses)
