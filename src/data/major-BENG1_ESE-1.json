@@ -203,7 +203,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 15,
+      "credits": 12,
       "courses": [
         {
           "code": "SDSC3002",
@@ -336,7 +336,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 15
+      "chooseCredits": 12
     },
     "freeElectives": {
       "credits": 0,

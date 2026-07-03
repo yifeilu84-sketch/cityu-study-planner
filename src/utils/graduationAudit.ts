@@ -284,15 +284,25 @@ function buildGEAudit(
   }
 }
 
-function buildDuplicateAudit(plannedCourses: NormalizedPlannedCourse[]): { code: string; count: number }[] {
-  const counts = new Map<string, number>()
+function buildDuplicateAudit(
+  plannedCourses: NormalizedPlannedCourse[],
+  courses: Record<string, Course>
+): { code: string; count: number }[] {
+  const plannedByCode = new Map<string, { count: number; credits: number }>()
   for (const course of plannedCourses) {
     if (!isConcreteCourseCode(course.normalizedCode)) continue
-    counts.set(course.normalizedCode, (counts.get(course.normalizedCode) ?? 0) + 1)
+    const item = plannedByCode.get(course.normalizedCode) ?? { count: 0, credits: 0 }
+    item.count += 1
+    item.credits += course.credits
+    plannedByCode.set(course.normalizedCode, item)
   }
-  return [...counts.entries()]
-    .filter(([, count]) => count > 1)
-    .map(([code, count]) => ({ code, count }))
+  return [...plannedByCode.entries()]
+    .filter(([code, item]) => {
+      if (item.count <= 1) return false
+      const catalogueCredits = courses[code]?.credits ?? 0
+      return catalogueCredits <= 0 || item.credits > catalogueCredits
+    })
+    .map(([code, item]) => ({ code, count: item.count }))
 }
 
 function buildPriorCodeSets(plannedCourses: NormalizedPlannedCourse[]): Map<number, Set<string>> {
@@ -435,7 +445,7 @@ export function auditGraduationPlan(
   const plannedTotalCredits = plannedCourses.reduce((sum, course) => sum + course.credits, 0)
   const sections = buildSectionAudit(reqs, plannedCourses, plannedCodes, courses)
   const ge = buildGEAudit(reqs, plannedCourses, plannedCodes, courses)
-  const duplicates = buildDuplicateAudit(plannedCourses)
+  const duplicates = buildDuplicateAudit(plannedCourses, courses)
   const warnings: AuditWarning[] = []
 
   const sourceWarning = sourceConfidenceWarning(sourceStatus.kind)

@@ -308,6 +308,33 @@ test('graduation audit detects duplicate courses and prerequisite ordering', asy
   assert.equal(audit.warnings.some((warning) => warning.kind === 'prerequisite' && warning.codes.includes('TEST2000')), true)
 })
 
+test('graduation audit accepts split final year project courses in SEE study plans', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const ese = major('BENG1_ESE-1')
+  const eve = major('BENG1_EVE-1')
+
+  const eseAudit = auditGraduationPlan(ese, courses, generateStudyPlan(ese, courses))
+  const eveAudit = auditGraduationPlan(eve, courses, generateStudyPlan(eve, courses))
+
+  assert.equal(eseAudit.duplicates.some((item) => item.code === 'SEE4997'), false)
+  assert.equal(eseAudit.warnings.some((warning) => warning.kind === 'duplicate' && warning.codes.includes('SEE4997')), false)
+  assert.equal(eveAudit.duplicates.some((item) => item.code === 'SEE4996'), false)
+  assert.equal(eveAudit.warnings.some((warning) => warning.kind === 'duplicate' && warning.codes.includes('SEE4996')), false)
+})
+
+test('ESE major elective requirement matches official 12 credit unit catalogue requirement', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const ese = major('BENG1_ESE-1')
+  const audit = auditGraduationPlan(ese, courses, generateStudyPlan(ese, courses))
+  const majorElectives = audit.sections.find((section) => section.key === 'majorElectives')
+
+  assert.equal(ese.requirements.majorElectives.credits, 12)
+  assert.equal(ese.requirements.majorElectives.chooseCredits, 12)
+  assert.equal(majorElectives?.plannedCredits, 12)
+  assert.equal(majorElectives?.requiredCredits, 12)
+  assert.equal(majorElectives?.missingCredits, 0)
+})
+
 test('graduation audit panel is wired into major and edit views', () => {
   const panel = readFileSync(new URL('../src/components/GraduationAuditPanel.tsx', import.meta.url), 'utf8')
   const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')
