@@ -308,6 +308,19 @@ test('graduation audit detects duplicate courses and prerequisite ordering', asy
   assert.equal(audit.warnings.some((warning) => warning.kind === 'prerequisite' && warning.codes.includes('TEST2000')), true)
 })
 
+test('graduation audit panel is wired into major and edit views', () => {
+  const panel = readFileSync(new URL('../src/components/GraduationAuditPanel.tsx', import.meta.url), 'utf8')
+  const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')
+  const editor = readFileSync(new URL('../src/components/StudyPlanEditor.tsx', import.meta.url), 'utf8')
+
+  assert.ok(panel.includes('毕业要求自检'))
+  assert.ok(panel.includes('audit.totalCredits.planned'))
+  assert.ok(majorPage.includes('GraduationAuditPanel'))
+  assert.ok(majorPage.includes('auditGraduationPlan'))
+  assert.ok(editor.includes('GraduationAuditPanel'))
+  assert.ok(editor.includes('auditGraduationPlan'))
+})
+
 test('global search returns majors and real courses while excluding placeholders', async () => {
   const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
   const index = buildSearchIndex(majors, courses)

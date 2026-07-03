@@ -6,7 +6,9 @@ import { canAddCourse, getGEArea, isRequiredGE, recalcCredits, buildCoursePool, 
 import minorsData from '../data/minors.json'
 import type { Course } from '../types'
 import CourseBadge from './CourseBadge'
+import GraduationAuditPanel from './GraduationAuditPanel'
 import { getCategoryColor, getCreditStatus } from '../utils/studyPlan'
+import { auditGraduationPlan } from '../utils/graduationAudit.ts'
 
 interface Props {
   initialPlan: EditableSemester[]
@@ -104,6 +106,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
   const minorCourseList = minor?.courses as string[] | undefined
 
   const pool = useMemo(() => buildCoursePool(major, courses, minorCourseList, streamIndex), [major, courses, minorCourseList, streamIndex])
+  const audit = useMemo(() => auditGraduationPlan(major, courses, plan, streamIndex), [major, courses, plan, streamIndex])
 
   const sensors = useSensors(
     useSensor(MouseSensor, { activationConstraint: { distance: 5 } }),
@@ -248,6 +251,10 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
 
   return (
     <DndContext sensors={sensors} onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
+      <div className="mb-4">
+        <GraduationAuditPanel audit={audit} compact />
+      </div>
+
       <div className="flex flex-col lg:flex-row gap-4">
         {/* Semester Grid */}
         <div className="flex-1">

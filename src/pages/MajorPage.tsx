@@ -5,10 +5,12 @@ import type { Course } from '../types'
 import CourseDetailModal from '../components/CourseDetailModal'
 import CourseBadge from '../components/CourseBadge'
 import StudyPlanEditor from '../components/StudyPlanEditor'
+import GraduationAuditPanel from '../components/GraduationAuditPanel'
 import { generateStudyPlan, getAllMajorCourses, getCategoryColor, getCategoryLabel, getCreditStatus } from '../utils/studyPlan'
 import { getCourseLookupCode, isGenericCourseSlot } from '../utils/courseCodes.ts'
 import { getStudyPlanSourceStatus } from '../utils/sourceStatus.ts'
 import { buildIssueReport } from '../utils/feedback.ts'
+import { auditGraduationPlan } from '../utils/graduationAudit.ts'
 
 type Tab = 'plan' | 'requirements' | 'courses'
 
@@ -88,6 +90,10 @@ export default function MajorPage() {
   const studyPlan = useMemo(() => (
     major ? generateStudyPlan(major, courses, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : []
   ), [major, courses, selectedStreamIdx])
+
+  const planAudit = useMemo(() => (
+    major ? auditGraduationPlan(major, courses, studyPlan, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : null
+  ), [major, courses, studyPlan, selectedStreamIdx])
 
   const allReqCourses = useMemo(() => (
     major ? getAllMajorCourses(major, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : []
@@ -406,6 +412,10 @@ export default function MajorPage() {
                     </div>
                   </div>
                 </div>
+              )}
+
+              {planAudit && (
+                <GraduationAuditPanel audit={planAudit} />
               )}
 
               <div className="flex items-center gap-4 flex-wrap">
