@@ -54,7 +54,7 @@ export interface Stream {
   description?: string;
   requirements?: MajorRequirements;
   studyPlan?: StudyPlan;
-  studyPlanStatus?: 'official' | 'derived' | 'diy';
+  studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
   allCourses?: string[];
   notes?: string[];
   totalCredits?: number;
@@ -70,7 +70,7 @@ export interface Major {
   url: string;
   requirements: MajorRequirements;
   studyPlan?: StudyPlan;
-  studyPlanStatus?: 'official' | 'derived' | 'diy';
+  studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
   allCourses: string[];
   streams?: Stream[];
   notes?: string[];

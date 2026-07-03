@@ -1,4 +1,5 @@
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
+import { getStudyPlanSourceStatus, type SourceStatusKind } from './sourceStatus.ts'
 
 export interface SearchMajorItem {
   type: 'major'
@@ -7,6 +8,7 @@ export interface SearchMajorItem {
   college: string
   department?: string
   url?: string
+  sourceKind: SourceStatusKind
   searchText: string
 }
 
@@ -84,6 +86,7 @@ export function buildSearchIndex(majors: any[], courses: Record<string, any>): S
     college: major.college,
     department: major.department,
     url: major.url,
+    sourceKind: getStudyPlanSourceStatus(major).kind,
     searchText: normalise([major.code, major.title, major.college, major.department, major.degree].filter(Boolean).join(' ')),
   }))
 
@@ -113,12 +116,13 @@ export function buildSearchIndex(majors: any[], courses: Record<string, any>): S
   return { majors: majorItems, courses: courseItems }
 }
 
-export function searchPlanner(index: SearchIndex, query: string, options: { limit?: number } = {}): SearchResults {
+export function searchPlanner(index: SearchIndex, query: string, options: { limit?: number; sourceKind?: SourceStatusKind | 'all' } = {}): SearchResults {
   const q = normalise(query)
   const limit = options.limit ?? 8
   if (!q || isGenericCourseSlot(q)) return { majors: [], courses: [] }
 
   const majors = index.majors
+    .filter((item) => !options.sourceKind || options.sourceKind === 'all' || item.sourceKind === options.sourceKind)
     .map((item) => ({ item, score: score(item.searchText, q, item.code) }))
     .filter((entry) => entry.score > 0)
     .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))

@@ -25,7 +25,7 @@ export function getStudyPlanSourceStatus(entity: any): SourceStatusInfo {
   const text = textFromEntity(entity)
 
   let kind: SourceStatusKind = 'official'
-  if (explicit === 'derived' || explicit === 'diy' || explicit === 'official') {
+  if (explicit === 'derived' || explicit === 'diy' || explicit === 'official' || explicit === 'structure') {
     kind = explicit
   } else if (/flowchart|programme structure|program(?:me)? structure|structure and flowchart|structure based/.test(text)) {
     kind = 'structure'

@@ -259,3 +259,32 @@ test('issue report includes entity context and official evidence prompt', async 
   assert.ok(report.body.includes('official evidence'))
   assert.ok(report.githubUrl.includes('issues/new'))
 })
+
+test('source summary groups majors by official confirmation level', async () => {
+  const { summarizeMajorSourceStatuses, filterMajorsBySource } = await import('../src/utils/sourceSummary.ts')
+  const summary = summarizeMajorSourceStatuses(majors)
+
+  assert.equal(summary.total, majors.length)
+  assert.equal(summary.groups.reduce((sum, group) => sum + group.count, 0), majors.length)
+  assert.ok(summary.counts.official > 0)
+  assert.ok(summary.counts.structure >= 4)
+  assert.ok(summary.counts.derived >= 6)
+  assert.ok(summary.counts.diy >= 5)
+  assert.equal(summary.needsReviewCount, summary.counts.structure + summary.counts.derived + summary.counts.diy)
+
+  const diyMajors = filterMajorsBySource(majors, 'diy')
+  assert.ok(diyMajors.some((item) => item.code === 'CBIO_BIO3-1'))
+  assert.equal(diyMajors.every((item) => item.source.kind === 'diy'), true)
+})
+
+test('global search can filter major results by source confidence', async () => {
+  const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
+  const index = buildSearchIndex(majors, courses)
+
+  const derived = searchPlanner(index, 'business', { sourceKind: 'derived', limit: 20 })
+  assert.ok(derived.majors.some((item) => item.code === 'BBA1_BE2-1'))
+  assert.equal(derived.majors.every((item) => item.sourceKind === 'derived'), true)
+
+  const diy = searchPlanner(index, 'PRIME', { sourceKind: 'diy', limit: 20 })
+  assert.deepEqual(diy.majors.map((item) => item.code), ['CENG_PRIME-1'])
+})

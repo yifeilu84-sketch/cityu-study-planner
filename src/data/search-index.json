@@ -7,6 +7,7 @@
       "college": "College of Biomedicine",
       "department": "Department of Biomedical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_BME-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_bme-1 bachelor of engineering in biomedical engineering college of biomedicine department of biomedical engineering bachelor of engineering"
     },
     {
@@ -16,6 +17,7 @@
       "college": "College of Biomedicine",
       "department": "Department of Biomedical Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_BISI-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_bisi-1 bachelor of science in biological sciences college of biomedicine department of biomedical sciences bachelor of science"
     },
     {
@@ -25,6 +27,7 @@
       "college": "College of Biomedicine",
       "department": "Department of Biomedical Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_BMS-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_bms-1 bachelor of science in biomedical sciences college of biomedicine department of biomedical sciences bachelor of science"
     },
     {
@@ -34,6 +37,7 @@
       "college": "College of Business",
       "department": "College of Business",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GBU-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_gbu-1 bachelor of business administration in global business college of business college of business bachelor of business"
     },
     {
@@ -43,6 +47,7 @@
       "college": "College of Business",
       "department": "College of Business",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CFFT-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_cfft-1 bachelor of science in computational finance and financial technology college of business college of business bachelor of science"
     },
     {
@@ -52,6 +57,7 @@
       "college": "College of Business",
       "department": "Department of Accountancy",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_AC-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_ac-1 bachelor of business administration in accountancy college of business department of accountancy bachelor of business"
     },
     {
@@ -61,6 +67,7 @@
       "college": "College of Business",
       "department": "Department of Decision Analytics and Operations",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BDAN-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_bdan-1 bachelor of business administration in business decision analytics college of business department of decision analytics and operations bachelor of business"
     },
     {
@@ -70,6 +77,7 @@
       "college": "College of Business",
       "department": "Department of Decision Analytics and Operations",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GOM-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_gom-1 bachelor of business administration in global operations management college of business department of decision analytics and operations bachelor of business"
     },
     {
@@ -79,6 +87,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
+      "sourceKind": "derived",
       "searchText": "bba1_be2-1 bachelor of business administration in business economics college of business department of economics and finance bachelor of business"
     },
     {
@@ -88,6 +97,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_FIN3-1.htm",
+      "sourceKind": "derived",
       "searchText": "bba1_fin3-1 bachelor of business administration in finance college of business department of economics and finance bachelor of business"
     },
     {
@@ -97,6 +107,7 @@
       "college": "College of Business",
       "department": "Department of Information Systems",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GBSM-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_gbsm-1 bachelor of business administration in global business systems management college of business department of information systems bachelor of business"
     },
     {
@@ -106,6 +117,7 @@
       "college": "College of Business",
       "department": "Department of Information Systems",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_ifmg-1 bachelor of business administration in artificial intelligence in business college of business department of information systems bachelor of business"
     },
     {
@@ -115,6 +127,7 @@
       "college": "College of Business",
       "department": "Department of Management",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MGMT-1.htm",
+      "sourceKind": "official",
       "searchText": "bba1_mgmt-1 bachelor of business administration in management college of business department of management bachelor of business"
     },
     {
@@ -124,6 +137,7 @@
       "college": "College of Business",
       "department": "Department of Marketing",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MKT1-1.htm",
+      "sourceKind": "derived",
       "searchText": "bba1_mkt1-1 bachelor of business administration in marketing college of business department of marketing bachelor of business"
     },
     {
@@ -133,6 +147,7 @@
       "college": "College of Computing",
       "department": "Department of Computer Science",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_csc1-1 bachelor of science in computer science college of computing department of computer science bachelor of science"
     },
     {
@@ -142,6 +157,7 @@
       "college": "College of Computing",
       "department": "Department of Computer Science",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CYBE-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_cybe-1 bachelor of science in cybersecurity college of computing department of computer science bachelor of science"
     },
     {
@@ -151,6 +167,7 @@
       "college": "College of Computing",
       "department": "Department of Data Science",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_DSC-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_dsc-1 bachelor of science in data science college of computing department of data science bachelor of science"
     },
     {
@@ -160,6 +177,7 @@
       "college": "College of Computing",
       "department": "Department of Data Science",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_DSE1-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_dse1-1 bachelor of science in data and systems engineering college of computing department of data science bachelor of science"
     },
     {
@@ -169,6 +187,7 @@
       "college": "College of Engineering",
       "department": "Department of Architecture and Civil Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ARCE-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_arce-1 bachelor of engineering in architectural engineering college of engineering department of architecture and civil engineering bachelor of engineering"
     },
     {
@@ -178,6 +197,7 @@
       "college": "College of Engineering",
       "department": "Department of Architecture and Civil Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CEG-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_ceg-1 bachelor of engineering in civil engineering college of engineering department of architecture and civil engineering bachelor of engineering"
     },
     {
@@ -187,6 +207,7 @@
       "college": "College of Engineering",
       "department": "Department of Architecture and Civil Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ARSV-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_arsv-1 bachelor of science in architecture and surveying college of engineering department of architecture and civil engineering bachelor of science"
     },
     {
@@ -196,6 +217,7 @@
       "college": "College of Engineering",
       "department": "Department of Electrical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CDE-1.htm",
+      "sourceKind": "structure",
       "searchText": "beng1_cde-1 bachelor of engineering in computer and data engineering college of engineering department of electrical engineering bachelor of engineering"
     },
     {
@@ -205,6 +227,7 @@
       "college": "College of Engineering",
       "department": "Department of Electrical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ELEL-1.htm",
+      "sourceKind": "structure",
       "searchText": "beng1_elel-1 bachelor of engineering in electronic and electrical engineering college of engineering department of electrical engineering bachelor of engineering"
     },
     {
@@ -214,6 +237,7 @@
       "college": "College of Engineering",
       "department": "Department of Electrical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_INFE-1.htm",
+      "sourceKind": "structure",
       "searchText": "beng1_infe-1 bachelor of engineering in information engineering college of engineering department of electrical engineering bachelor of engineering"
     },
     {
@@ -223,6 +247,7 @@
       "college": "College of Engineering",
       "department": "Department of Electrical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MEE-1.htm",
+      "sourceKind": "structure",
       "searchText": "beng1_mee-1 bachelor of engineering in microelectronics engineering college of engineering department of electrical engineering bachelor of engineering"
     },
     {
@@ -232,6 +257,7 @@
       "college": "College of Engineering",
       "department": "Department of Materials Science and Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MASE-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_mase-1 bachelor of engineering in materials science and engineering college of engineering department of materials science and engineering bachelor of engineering"
     },
     {
@@ -241,6 +267,7 @@
       "college": "College of Engineering",
       "department": "Department of Mechanical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_A.E.-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_a.e.-1 bachelor of engineering in aerospace engineering college of engineering department of mechanical engineering bachelor of engineering"
     },
     {
@@ -250,6 +277,7 @@
       "college": "College of Engineering",
       "department": "Department of Mechanical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_M.E.-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_m.e.-1 bachelor of engineering in mechanical engineering college of engineering department of mechanical engineering bachelor of engineering"
     },
     {
@@ -259,6 +287,7 @@
       "college": "College of Engineering",
       "department": "Department of Mechanical Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_NRE-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_nre-1 bachelor of engineering in nuclear and risk engineering college of engineering department of mechanical engineering bachelor of engineering"
     },
     {
@@ -268,6 +297,7 @@
       "college": "College of Engineering",
       "department": "Department of Systems Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_IEEG-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_ieeg-1 bachelor of engineering in innovation and enterprise engineering college of engineering department of systems engineering bachelor of engineering"
     },
     {
@@ -277,6 +307,7 @@
       "college": "College of Engineering",
       "department": "Department of Systems Engineering",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ITME-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_itme-1 bachelor of engineering in intelligent manufacturing engineering college of engineering department of systems engineering bachelor of engineering"
     },
     {
@@ -286,6 +317,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Chinese and History",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
+      "sourceKind": "official",
       "searchText": "ba1_chis-1 bachelor of arts in chinese and history college of liberal arts and social sciences department of chinese and history bachelor of arts"
     },
     {
@@ -295,6 +327,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of English",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_EN-1.htm",
+      "sourceKind": "official",
       "searchText": "ba1_en-1 bachelor of arts in english college of liberal arts and social sciences department of english bachelor of arts"
     },
     {
@@ -304,6 +337,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Linguistics and Translation",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_LLA-1.htm",
+      "sourceKind": "official",
       "searchText": "ba1_lla-1 bachelor of arts in linguistics and language applications college of liberal arts and social sciences department of linguistics and translation bachelor of arts"
     },
     {
@@ -313,6 +347,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
+      "sourceKind": "derived",
       "searchText": "ba1_tvb-1 bachelor of arts in digital television and broadcasting college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -322,6 +357,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_MDCM-1.htm",
+      "sourceKind": "derived",
       "searchText": "ba1_mdcm-1 bachelor of arts in media and communication college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -331,6 +367,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Public and International Affairs",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
+      "sourceKind": "derived",
       "searchText": "bss1_irga-1 bachelor of social sciences in international relations and global affairs college of liberal arts and social sciences department of public and international affairs bachelor of social"
     },
     {
@@ -340,6 +377,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Public and International Affairs",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PAFM-1.htm",
+      "sourceKind": "official",
       "searchText": "bss1_pafm-1 bachelor of social sciences in public affairs and management college of liberal arts and social sciences department of public and international affairs bachelor of social"
     },
     {
@@ -349,6 +387,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRS-1.htm",
+      "sourceKind": "official",
       "searchText": "bss1_crs-1 bachelor of social sciences in crime science college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -358,6 +397,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRSO-1.htm",
+      "sourceKind": "official",
       "searchText": "bss1_crso-1 bachelor of social sciences in criminology and sociology college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -367,6 +407,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PSY-1.htm",
+      "sourceKind": "official",
       "searchText": "bss1_psy-1 bachelor of social sciences in psychology college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -376,6 +417,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_SW-1.htm",
+      "sourceKind": "official",
       "searchText": "bss1_sw-1 bachelor of social sciences in social work college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -385,6 +427,7 @@
       "college": "College of Science",
       "department": "Department of Chemistry",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CHEM-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_chem-1 bachelor of science in chemistry college of science department of chemistry bachelor of science"
     },
     {
@@ -394,6 +437,7 @@
       "college": "College of Science",
       "department": "Department of Mathematics",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CM-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_cm-1 bachelor of science in computing mathematics college of science department of mathematics bachelor of science"
     },
     {
@@ -403,6 +447,7 @@
       "college": "College of Science",
       "department": "Department of Physics",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_PHY-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_phy-1 bachelor of science in physics college of science department of physics bachelor of science"
     },
     {
@@ -412,6 +457,7 @@
       "college": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BVM_VM2-1.htm",
+      "sourceKind": "official",
       "searchText": "bvm_vm2-1 bachelor of veterinary medicine jockey club college of veterinary medicine and life sciences jockey club college of veterinary medicine and life sciences bachelor of veterinary"
     },
     {
@@ -421,6 +467,7 @@
       "college": "School of Creative Media",
       "department": "School of Creative Media",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BAS1_NEM-1.htm",
+      "sourceKind": "official",
       "searchText": "bas1_nem-1 bachelor of arts and science in new media school of creative media school of creative media bachelor of arts"
     },
     {
@@ -430,6 +477,7 @@
       "college": "School of Creative Media",
       "department": "School of Creative Media",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CRM-1.htm",
+      "sourceKind": "official",
       "searchText": "ba1_crm-1 bachelor of arts in creative media school of creative media school of creative media bachelor of arts"
     },
     {
@@ -439,6 +487,7 @@
       "college": "School of Creative Media",
       "department": "School of Creative Media",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CRM1-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_crm1-1 bachelor of science in creative media school of creative media school of creative media bachelor of science"
     },
     {
@@ -448,6 +497,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ESE-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_ese-1 bachelor of engineering in energy science and engineering school of energy and environment school of energy and environment bachelor of engineering"
     },
     {
@@ -457,6 +507,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_EVE-1.htm",
+      "sourceKind": "official",
       "searchText": "beng1_eve-1 bachelor of engineering in environmental science and engineering school of energy and environment school of energy and environment bachelor of engineering"
     },
     {
@@ -466,6 +517,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ESB-1.htm",
+      "sourceKind": "official",
       "searchText": "bsc1_esb-1 bachelor of science in environment and sustainable business school of energy and environment school of energy and environment bachelor of science"
     },
     {
@@ -475,6 +527,7 @@
       "college": "School of Law",
       "department": "School of Law",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/LLB1_LW-1.htm",
+      "sourceKind": "official",
       "searchText": "llb1_lw-1 bachelor of laws school of law school of law bachelor of laws法律學學士"
     },
     {
@@ -484,6 +537,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/en/see/programmes/undergraduate-programmes/flagship-programme---international-sustainability-programme-for-innovation",
+      "sourceKind": "official",
       "searchText": "bsee_inspire-1 international sustainability programme for innovation, research and entrepreneurship (inspire) school of energy and environment school of energy and environment bachelor of engineering"
     },
     {
@@ -493,6 +547,7 @@
       "college": "College of Computing",
       "department": "Department of Computer Science / College of Business",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/DoubleDegree/DBSCBSC1_D008-0.htm",
+      "sourceKind": "official",
       "searchText": "dbscbsc1_d008-0 bachelor of science in computer science and bachelor of science in computational finance and financial technology college of computing department of computer science / college of business bachelor of science and bachelor of science"
     },
     {
@@ -502,6 +557,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment / Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/see/-/media/project/cityuhk/academic/see/programmes/undergraduate-programmes/student-advising-handbook/files/evefin-recommended-study-plan-2025-cohort.pdf",
+      "sourceKind": "official",
       "searchText": "devefin1_d009-0 bachelor of engineering in environmental science and engineering and bachelor of business administration in finance school of energy and environment school of energy and environment / department of economics and finance bachelor of engineering and bachelor of business administration"
     },
     {
@@ -511,6 +567,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences / School of Law",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/DoubleDegree/DBSSLLB_D007-0.htm",
+      "sourceKind": "official",
       "searchText": "dbssllb1_d007-0 bachelor of social sciences in crime science and bachelor of laws college of liberal arts and social sciences department of social and behavioural sciences / school of law bachelor of social sciences and bachelor of laws"
     },
     {
@@ -520,6 +577,7 @@
       "college": "School of Law",
       "department": "School of Law / Department of Accountancy",
       "url": "https://www.cityu.edu.hk/slw/-/media/project/cityuhk/academic/slw/current-students/teaching-resources/student-handbooks/llbbbaac-handbook-2025-26-for-2025-cohort_confirmed.pdf",
+      "sourceKind": "official",
       "searchText": "dllbbba1_d005-0 bachelor of laws and bachelor of business administration in accountancy school of law school of law / department of accountancy bachelor of laws and bachelor of business administration"
     },
     {
@@ -529,6 +587,7 @@
       "college": "College of Biomedicine",
       "department": "College of Biomedicine",
       "url": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "sourceKind": "diy",
       "searchText": "cbio_bio3-1 integrative bioscience and bioengineering programme (bio3) college of biomedicine college of biomedicine flagship programme"
     },
     {
@@ -538,6 +597,7 @@
       "college": "College of Computing",
       "department": "College of Computing",
       "url": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "sourceKind": "diy",
       "searchText": "cc_act-1 ai, computing and transformation (act) college of computing college of computing flagship programme"
     },
     {
@@ -547,6 +607,7 @@
       "college": "College of Engineering",
       "department": "College of Engineering",
       "url": "https://www.cityu.edu.hk/admo/programmes/pathway-research-innovation-and-multinational-engineering-prime",
+      "sourceKind": "diy",
       "searchText": "ceng_prime-1 pathway for research, innovation, and multinational engineering (prime) college of engineering college of engineering flagship programme"
     },
     {
@@ -556,6 +617,7 @@
       "college": "School of Creative Media",
       "department": "School of Creative Media",
       "url": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "sourceKind": "diy",
       "searchText": "scm_create-1 creative arts and technology excellence (create) school of creative media school of creative media flagship programme"
     },
     {
@@ -565,6 +627,7 @@
       "college": "College of Science",
       "department": "College of Science",
       "url": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
+      "sourceKind": "diy",
       "searchText": "csci_great-1 global research enrichment and technopreneurship (great) college of science college of science flagship programme"
     }
   ],
