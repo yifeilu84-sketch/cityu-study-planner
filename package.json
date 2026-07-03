@@ -13,7 +13,7 @@
     "split:majors": "node scripts/split-major-data.mjs",
     "prepare:data": "npm run apply:ge && npm run split:majors && npm run build:search",
     "preview": "vite preview",
-    "deploy": "npm run build && cd dist && git init && git add -A && git commit -m deploy && git push -f https://github.com/yifeilu84-sketch/cityu-study-planner.git master:gh-pages && cd .."
+    "deploy": "npm run build && node -e \"console.log('Built dist/. Push main to trigger the GitHub Pages workflow.')\""
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
