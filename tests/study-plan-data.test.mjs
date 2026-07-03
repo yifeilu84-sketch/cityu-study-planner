@@ -265,9 +265,26 @@ test('ge helper exposes verified GE courses with assessment filters', async () =
   assert.equal(items.find((item) => item.code === 'GE1362')?.area, 'Area 3')
   assert.equal(items.find((item) => item.code === 'GE2401')?.area, 'University Req.')
   assert.equal(items.find((item) => item.code === 'GE4103')?.area, 'Area 1')
+  assert.equal(items.find((item) => item.code === 'GE2122')?.offeringUnit, 'LT')
+  assert.deepEqual(items.find((item) => item.code === 'GE4103')?.terms, ['2025-26 Sem A'])
+  assert.equal(items.find((item) => item.code === 'GE1362')?.sourceUrl, 'https://www.cityu.edu.hk/ge_info/Course/GE1362')
   assert.ok(filterGECourses(items, { query: 'English', area: 'all', exam: 'any' }).length > 0)
   assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'has-exam' }).every((item) => item.hasFinalExam))
   assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'no-exam' }).every((item) => !item.hasFinalExam))
+})
+
+test('ge helper summarizes official areas in user-facing order', async () => {
+  const { getGECourses, summarizeGEAreas } = await import('../src/utils/geCourses.ts')
+  const summary = summarizeGEAreas(getGECourses(courses))
+
+  assert.equal(summary.total, 180)
+  assert.deepEqual(summary.groups.map((group) => group.area), ['Area 1', 'Area 2', 'Area 3', 'University Req.'])
+  assert.deepEqual(summary.groups.map((group) => group.count), [53, 55, 63, 9])
+  assert.equal(summary.groups[0].label, 'Arts and Humanities')
+  assert.equal(summary.groups[1].label, 'Study of Societies, Social and Business Organisations')
+  assert.equal(summary.groups[2].label, 'Science and Technology')
+  assert.equal(summary.groups[3].label, 'University Requirements')
+  assert.equal(summary.groups.reduce((sum, group) => sum + group.withExamCount, 0), getGECourses(courses).filter((course) => course.hasFinalExam).length)
 })
 
 test('official GE search metadata is complete and linked to site course records', () => {

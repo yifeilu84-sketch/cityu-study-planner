@@ -1,12 +1,16 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, BookOpen, FileText, Search, SlidersHorizontal } from 'lucide-react'
+import { ArrowLeft, BookOpen, ExternalLink, FileText, Search, SlidersHorizontal } from 'lucide-react'
 import coursesData from '../data/courses.json'
 import type { Course } from '../types'
 import CourseDetailModal from '../components/CourseDetailModal'
-import { filterGECourses, getGECourses } from '../utils/geCourses.ts'
+import { filterGECourses, getGECourses, summarizeGEAreas } from '../utils/geCourses.ts'
 
-const AREA_ORDER = ['Area 1', 'Area 2', 'Area 3', 'University Req.', '未标注']
+function formatTerms(terms: string[]): string {
+  if (terms.length === 0) return '官方暂未列出学期'
+  if (terms.length <= 2) return terms.join(' / ')
+  return `${terms.slice(0, 2).join(' / ')} +${terms.length - 2}`
+}
 
 export default function GEPage() {
   const courses: Record<string, Course> = coursesData as any
@@ -16,14 +20,8 @@ export default function GEPage() {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
 
   const geCourses = useMemo(() => getGECourses(courses), [courses])
-  const areas = useMemo(() => Array.from(new Set(geCourses.map(item => item.area))).sort((a, b) => {
-    const indexA = AREA_ORDER.indexOf(a)
-    const indexB = AREA_ORDER.indexOf(b)
-    if (indexA !== -1 || indexB !== -1) {
-      return (indexA === -1 ? AREA_ORDER.length : indexA) - (indexB === -1 ? AREA_ORDER.length : indexB)
-    }
-    return a.localeCompare(b)
-  }), [geCourses])
+  const geSummary = useMemo(() => summarizeGEAreas(geCourses), [geCourses])
+  const areas = useMemo(() => geSummary.groups.map(group => group.area), [geSummary])
   const filtered = useMemo(() => filterGECourses(geCourses, { query, area, exam }), [geCourses, query, area, exam])
 
   return (
@@ -48,6 +46,21 @@ export default function GEPage() {
             <div className="font-semibold text-cityu-dark">{filtered.length} / {geCourses.length}</div>
             <div>当前显示 / GE 总数</div>
           </div>
+        </div>
+
+        <div className="mb-4 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-xs text-blue-800">
+          <div>
+            GE Area、开课单位、Level 和学期来自 CityU 官方 GE Search；评分细则优先保留已解析的课程 PDF，缺 PDF 明细时显示官方 GE 页标记。
+          </div>
+          <a
+            href="https://www.cityu.edu.hk/ge_info/Search/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 font-semibold text-blue-900 hover:text-cityu-accent"
+          >
+            CityU GE Search
+            <ExternalLink className="w-3 h-3" />
+          </a>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_auto] gap-3">
@@ -81,6 +94,32 @@ export default function GEPage() {
           </select>
         </div>
 
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2">
+          {geSummary.groups.map(group => (
+            <button
+              key={group.area}
+              type="button"
+              onClick={() => setArea(area === group.area ? 'all' : group.area)}
+              className={`text-left rounded-lg border p-3 transition-colors ${
+                area === group.area
+                  ? 'border-cityu-accent bg-cityu-accent/5'
+                  : 'border-gray-100 bg-white hover:border-cityu-accent/60'
+              }`}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <div className="text-sm font-bold text-cityu-dark">{group.area}</div>
+                  <div className="text-xs text-gray-500 leading-snug break-words">{group.label}</div>
+                </div>
+                <div className="text-lg font-bold text-cityu-accent">{group.count}</div>
+              </div>
+              <div className="mt-2 text-[11px] text-gray-500">
+                {group.withExamCount} 有 Final / {group.noExamCount} 无 Final
+              </div>
+            </button>
+          ))}
+        </div>
+
         {areas.includes('未标注') && (
           <div className="mt-3 text-xs text-amber-700 bg-amber-50 border border-amber-100 rounded-lg px-3 py-2 flex items-start gap-2">
             <SlidersHorizontal className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -107,6 +146,23 @@ export default function GEPage() {
                 <h2 className="font-semibold text-gray-800 text-sm leading-snug">{item.title}</h2>
               </div>
               <FileText className="w-4 h-4 text-gray-400 flex-shrink-0" />
+            </div>
+            <div className="mt-3 grid grid-cols-1 gap-1 text-xs text-gray-500">
+              <div className="flex flex-wrap gap-1.5">
+                {item.offeringUnit && (
+                  <span className="px-2 py-0.5 rounded bg-gray-50 border border-gray-100">
+                    {item.offeringUnit}
+                  </span>
+                )}
+                {item.level && (
+                  <span className="px-2 py-0.5 rounded bg-gray-50 border border-gray-100">
+                    {item.level}
+                  </span>
+                )}
+              </div>
+              <div className="leading-snug break-words">
+                {formatTerms(item.terms)}
+              </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-3">
               <span className="text-xs px-2 py-1 rounded bg-gray-50 text-gray-600 border border-gray-100">
