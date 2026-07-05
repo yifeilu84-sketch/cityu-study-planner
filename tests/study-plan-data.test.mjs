@@ -664,6 +664,57 @@ test('postgraduate sample and DIY plans follow official-source policy', () => {
   assert.equal(Object.values(engd.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
 })
 
+test('postgraduate taught programmes expose confirmed course pools when official curriculum lists exist', () => {
+  const expectations = [
+    {
+      code: 'P70',
+      courses: ['SDSC5001', 'SDSC5002', 'SDSC6006', 'CS6493'],
+    },
+    {
+      code: 'P75',
+      courses: ['CS5491', 'CS5611', 'CS6528', 'CS6529'],
+    },
+    {
+      code: 'P91',
+      courses: ['CS5285', 'CS5612', 'CS6531', 'CS6532'],
+    },
+    {
+      code: 'P17',
+      courses: ['CS5281', 'CS5488', 'IS5314', 'IS6400'],
+    },
+    {
+      code: 'P63',
+      courses: ['SEE5114', 'SEE6201', 'SEE5211', 'SEE6999'],
+    },
+  ]
+
+  for (const expectation of expectations) {
+    const programme = postgraduateProgrammes.find((item) => item.code === expectation.code)
+    assert.ok(programme, `${expectation.code} should exist`)
+    assert.equal(programme.courseListStatus?.kind, 'official-course-list')
+    for (const code of expectation.courses) {
+      assert.ok(programme.allCourses.includes(code), `${expectation.code} should expose ${code}`)
+      assert.ok(pgCourses[code], `${code} should exist in pg-courses.json`)
+    }
+    const requirementCodes = new Set(
+      programme.requirements.sections.flatMap((section) => (section.courses ?? []).map((course) => course.code))
+    )
+    for (const code of expectation.courses) {
+      assert.ok(requirementCodes.has(code), `${expectation.code} requirements should list ${code}`)
+    }
+  }
+})
+
+test('postgraduate taught programmes without parsed course lists are explicitly labelled', () => {
+  const silentMissing = postgraduateProgrammes
+    .filter((item) => item.type !== 'research-degree')
+    .filter((item) => (item.allCourses ?? []).length === 0)
+    .filter((item) => item.courseListStatus?.kind !== 'course-list-unconfirmed')
+    .map((item) => item.code)
+
+  assert.deepEqual(silentMissing, [])
+})
+
 test('postgraduate course details include assessment metadata for parsed PG courses', () => {
   const requiredCodes = ['CS5222', 'CS5351', 'CS5481', 'CS6520']
 

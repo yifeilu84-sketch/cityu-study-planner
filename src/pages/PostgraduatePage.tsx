@@ -18,6 +18,7 @@ import type { PostgraduateProgramme } from '../types'
 
 type ProgrammeType = PostgraduateProgramme['type'] | 'all'
 type SourceKind = PostgraduateProgramme['sourceStatus']['kind'] | 'all'
+type CourseListKind = NonNullable<PostgraduateProgramme['courseListStatus']>['kind']
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
 
@@ -45,6 +46,18 @@ const SOURCE_CLASSES: Record<PostgraduateProgramme['sourceStatus']['kind'], stri
   'official-sample': 'bg-cyan-50 text-cyan-700 border-cyan-100',
   'requirements-diy': 'bg-amber-50 text-amber-800 border-amber-100',
   'research-diy': 'bg-slate-50 text-slate-700 border-slate-200',
+}
+
+const COURSE_LIST_LABELS: Record<CourseListKind, string> = {
+  'official-course-list': '课程池已解析',
+  'course-list-unconfirmed': '课程池待确认',
+  'research-not-course-based': '研究型要求',
+}
+
+const COURSE_LIST_CLASSES: Record<CourseListKind, string> = {
+  'official-course-list': 'bg-emerald-50 text-emerald-700 border-emerald-100',
+  'course-list-unconfirmed': 'bg-rose-50 text-rose-700 border-rose-100',
+  'research-not-course-based': 'bg-slate-50 text-slate-700 border-slate-200',
 }
 
 const OFFICIAL_LINKS = [
@@ -81,9 +94,10 @@ function matchesQuery(programme: PostgraduateProgramme, query: string) {
     programme.department,
     programme.mode,
     programme.sourceStatus.label,
+    programme.courseListStatus?.label,
     ...(programme.researchAreas ?? []),
     ...(programme.allCourses ?? []),
-  ].join(' ').toLowerCase()
+  ].filter(Boolean).join(' ').toLowerCase()
   return haystack.includes(query)
 }
 
@@ -104,6 +118,8 @@ export default function PostgraduatePage() {
     doctorate: postgraduateProgrammes.filter((item) => item.type === 'professional-doctorate').length,
     officialSample: postgraduateProgrammes.filter((item) => item.sourceStatus.kind === 'official-sample').length,
     diy: postgraduateProgrammes.filter((item) => item.sourceStatus.kind !== 'official-sample').length,
+    parsedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'official-course-list').length,
+    unconfirmedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'course-list-unconfirmed').length,
   }), [])
 
   const filteredProgrammes = useMemo(() => {
@@ -159,6 +175,14 @@ export default function PostgraduatePage() {
             <div className="rounded-lg border border-amber-100 bg-amber-50 p-3">
               <div className="text-xl font-bold text-amber-800">{stats.diy}</div>
               <div className="text-xs text-amber-700">DIY 空表</div>
+            </div>
+            <div className="rounded-lg border border-emerald-100 bg-emerald-50 p-3">
+              <div className="text-xl font-bold text-emerald-800">{stats.parsedCourseLists}</div>
+              <div className="text-xs text-emerald-700">课程池已解析</div>
+            </div>
+            <div className="rounded-lg border border-rose-100 bg-rose-50 p-3">
+              <div className="text-xl font-bold text-rose-800">{stats.unconfirmedCourseLists}</div>
+              <div className="text-xs text-rose-700">课程池待确认</div>
             </div>
           </div>
         </div>
@@ -250,6 +274,11 @@ export default function PostgraduatePage() {
                       <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${SOURCE_CLASSES[programme.sourceStatus.kind]}`}>
                         {SOURCE_LABELS[programme.sourceStatus.kind]}
                       </span>
+                      {programme.courseListStatus ? (
+                        <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${COURSE_LIST_CLASSES[programme.courseListStatus.kind]}`}>
+                          {COURSE_LIST_LABELS[programme.courseListStatus.kind]}
+                        </span>
+                      ) : null}
                     </div>
                     <h3 className="font-semibold text-gray-900 leading-snug">{programme.title}</h3>
                   </div>

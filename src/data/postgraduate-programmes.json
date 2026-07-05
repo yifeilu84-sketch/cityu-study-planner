@@ -14,6 +14,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -105,7 +110,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -123,6 +128,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -214,7 +224,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -232,6 +242,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -323,7 +338,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -341,6 +356,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -432,7 +452,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -450,6 +470,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -541,7 +566,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -559,6 +584,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -650,7 +680,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -668,6 +698,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -759,7 +794,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -777,6 +812,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -868,7 +908,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -886,6 +926,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -977,7 +1022,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -995,6 +1040,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1086,7 +1136,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1104,6 +1154,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1195,7 +1250,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1213,6 +1268,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1304,7 +1364,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1322,6 +1382,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1413,7 +1478,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1431,6 +1496,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1522,7 +1592,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1540,6 +1610,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1631,7 +1706,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1649,6 +1724,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1740,7 +1820,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1758,6 +1838,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -1849,7 +1934,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -1860,30 +1945,110 @@
     "college": "College of Business",
     "department": "Department of Information Systems",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 33,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-information-systems/p17",
+    "curriculumUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-electronic-commerce/curriculum/structures",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-electronic-commerce/curriculum/structures"
+    },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "33 credit units with a 15 CU required core and at least 18 CU electives, based on the official MSc Electronic Commerce structure page.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "overview",
+          "title": "Programme core / overview",
+          "credits": 15,
+          "courses": [
+            {
+              "code": "EC5001",
+              "title": "Introduction to eCommerce",
+              "credits": 3
+            }
+          ],
+          "note": "The official structure page identifies a 15 CU required core; only structured course entries confirmed from the page are listed here."
+        },
+        {
+          "key": "technology-oriented",
+          "title": "Technology-oriented course set",
+          "courses": [
+            {
+              "code": "CS5281",
+              "title": "Internet Application Development",
+              "credits": 3
+            },
+            {
+              "code": "CS5285",
+              "title": "Information Security for eCommerce",
+              "credits": 3
+            },
+            {
+              "code": "CS5488",
+              "title": "Big Data Algorithms and Techniques",
+              "credits": 3
+            },
+            {
+              "code": "CS5489",
+              "title": "Machine Learning: Algorithms and Applications",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "business-oriented",
+          "title": "Business-oriented course set",
+          "courses": [
+            {
+              "code": "IS5314",
+              "title": "eBusiness System Integration",
+              "credits": 3
+            },
+            {
+              "code": "IS5414",
+              "title": "Analysis and Design of eCommerce Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS6321",
+              "title": "Business Intelligence Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6640",
+              "title": "Information Systems Planning and Strategy",
+              "credits": 3
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official structure page confirms the course sets; students should confirm the full current core list and offering terms before DIY planning."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "EC5001",
+      "CS5281",
+      "CS5285",
+      "CS5488",
+      "CS5489",
+      "IS5314",
+      "IS5414",
+      "IS6321",
+      "IS6400",
+      "IS6640"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1957,8 +2122,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1976,6 +2141,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2067,7 +2237,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2085,6 +2255,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2176,7 +2351,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2194,6 +2369,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2285,7 +2465,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2303,6 +2483,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2394,7 +2579,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2412,6 +2597,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2503,7 +2693,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2521,6 +2711,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -2612,7 +2807,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -2632,6 +2827,12 @@
       "kind": "official-sample",
       "label": "Official sample schedule",
       "description": "CityUHK publishes a sample study schedule for this programme. Treat it as an official sample, not a compulsory path."
+    },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-computer-science/curriculum/overview"
     },
     "requirements": {
       "summary": "30 credit units: 9 CU core courses plus at least 21 CU electives, including at least 3 CU from Group I electives.",
@@ -3228,30 +3429,119 @@
     "college": "College of Computing",
     "department": "Department of Data Science",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-computing/department-of-data-science/p70",
+    "curriculumUrl": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/msds",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/msds"
+    },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 15 CU core electives plus 15 CU electives, based on the official MSc Data Science course list.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core-electives",
+          "title": "Core electives",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "SDSC5001",
+              "title": "Statistical Machine Learning I",
+              "credits": 3
+            },
+            {
+              "code": "SDSC5002",
+              "title": "Exploratory Data Analysis and Visualization",
+              "credits": 3
+            },
+            {
+              "code": "SDSC5003",
+              "title": "Storing and Retrieving Data",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6001",
+              "title": "Statistical Machine Learning II",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6002",
+              "title": "Research Projects for Data Science",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "CS5285",
+              "title": "Information Security for eCommerce",
+              "credits": 3
+            },
+            {
+              "code": "CS5487",
+              "title": "Machine Learning: Principles and Practice",
+              "credits": 3
+            },
+            {
+              "code": "CS6290",
+              "title": "Privacy-enhancing Technologies",
+              "credits": 3
+            },
+            {
+              "code": "CS6493",
+              "title": "Natural Language Processing",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6003",
+              "title": "Bayesian Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6004",
+              "title": "Topics of Artificial Intelligence for Smart Cities",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6006",
+              "title": "Dissertation",
+              "credits": 6
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page provides a course list, not a fixed semester-by-semester study plan.",
+        "Students should DIY semester placement after checking offering terms and prerequisites."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "SDSC5001",
+      "SDSC5002",
+      "SDSC5003",
+      "SDSC6001",
+      "SDSC6002",
+      "CS5285",
+      "CS5487",
+      "CS6290",
+      "CS6493",
+      "SDSC6003",
+      "SDSC6004",
+      "SDSC6006"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -3325,8 +3615,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -3337,30 +3627,196 @@
     "college": "College of Computing",
     "department": "Department of Computer Science",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 31,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-computing/department-of-computer-science/p75",
+    "curriculumUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-artificial-intelligence/curriculum",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-artificial-intelligence/curriculum"
+    },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "At least 31 credit units: all 10 CU core courses plus at least 21 CU electives, based on the official MSc Artificial Intelligence curriculum.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 10,
+          "courses": [
+            {
+              "code": "CS5491",
+              "title": "Artificial Intelligence",
+              "credits": 3
+            },
+            {
+              "code": "CS5486",
+              "title": "Intelligent Systems",
+              "credits": 3
+            },
+            {
+              "code": "CS5489",
+              "title": "Machine Learning: Algorithms and Applications",
+              "credits": 3
+            },
+            {
+              "code": "CS5611",
+              "title": "Seminar on AI Ethics",
+              "credits": 1
+            }
+          ]
+        },
+        {
+          "key": "group-i",
+          "title": "Group I electives",
+          "chooseCredits": 21,
+          "courses": [
+            {
+              "code": "CS5493",
+              "title": "Topics in Autonomous Driving",
+              "credits": 3
+            },
+            {
+              "code": "SDSC6007",
+              "title": "Dynamic Programming and Reinforcement Learning",
+              "credits": 3
+            },
+            {
+              "code": "CS6522",
+              "title": "Project in Autonomous Driving",
+              "credits": 6
+            },
+            {
+              "code": "CS6523",
+              "title": "Internship in Autonomous Driving",
+              "credits": 6
+            },
+            {
+              "code": "CS6493",
+              "title": "Natural Language Processing",
+              "credits": 3
+            },
+            {
+              "code": "CS5494",
+              "title": "Topics in Generative AI",
+              "credits": 3
+            },
+            {
+              "code": "CS6524",
+              "title": "Project in Generative AI",
+              "credits": 6
+            },
+            {
+              "code": "CS6525",
+              "title": "Internship in Generative AI",
+              "credits": 6
+            },
+            {
+              "code": "CS5495",
+              "title": "Explainable AI",
+              "credits": 3
+            },
+            {
+              "code": "CS5297",
+              "title": "Topics in AI Security",
+              "credits": 3
+            },
+            {
+              "code": "CS6526",
+              "title": "Project in Trustworthy AI",
+              "credits": 6
+            },
+            {
+              "code": "CS6527",
+              "title": "Internship in Trustworthy AI",
+              "credits": 6
+            },
+            {
+              "code": "CS6528",
+              "title": "Internship in Artificial Intelligence",
+              "credits": 6
+            },
+            {
+              "code": "CS6529",
+              "title": "Project in Artificial Intelligence",
+              "credits": 6
+            }
+          ],
+          "note": "Project and internship options are subject to official stream and eligibility notes."
+        },
+        {
+          "key": "group-ii",
+          "title": "Group II electives",
+          "courses": [
+            {
+              "code": "CS5187",
+              "title": "Vision and Image",
+              "credits": 3
+            },
+            {
+              "code": "CS5487",
+              "title": "Machine Learning: Principles and Practice",
+              "credits": 3
+            },
+            {
+              "code": "CS6187",
+              "title": "Vision and Language",
+              "credits": 3
+            },
+            {
+              "code": "CS6487",
+              "title": "Topics in Machine Learning",
+              "credits": 3
+            },
+            {
+              "code": "CS6535",
+              "title": "Guided Study in Artificial Intelligence",
+              "credits": 3
+            },
+            {
+              "code": "CS6491",
+              "title": "Topics in Optimization and its Applications in Computer Science",
+              "credits": 3
+            }
+          ],
+          "note": "Official curriculum limits Group II electives toward the elective requirement."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official curriculum page lists course groups and notes; no fixed semester placement is stored here."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "CS5491",
+      "CS5486",
+      "CS5489",
+      "CS5611",
+      "CS5493",
+      "SDSC6007",
+      "CS6522",
+      "CS6523",
+      "CS6493",
+      "CS5494",
+      "CS6524",
+      "CS6525",
+      "CS5495",
+      "CS5297",
+      "CS6526",
+      "CS6527",
+      "CS6528",
+      "CS6529",
+      "CS5187",
+      "CS5487",
+      "CS6187",
+      "CS6487",
+      "CS6535",
+      "CS6491"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -3434,8 +3890,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -3453,6 +3909,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -3544,7 +4005,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -3555,30 +4016,177 @@
     "college": "College of Computing",
     "department": "Department of Computer Science",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 31,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-computing/department-of-computer-science/p91",
+    "curriculumUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-cybersecurity/curriculum",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/msc-cybersecurity/curriculum"
+    },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "At least 31 credit units: all 10 CU core courses plus at least 21 CU electives, including at least 12 CU from Group I and at most 9 CU from Group II.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 10,
+          "courses": [
+            {
+              "code": "CS5285",
+              "title": "Introduction to Cybersecurity",
+              "credits": 3
+            },
+            {
+              "code": "CS5293",
+              "title": "Topics in Information Security and Privacy",
+              "credits": 3
+            },
+            {
+              "code": "CS5294",
+              "title": "Information Security Technology Management",
+              "credits": 3
+            },
+            {
+              "code": "CS5612",
+              "title": "Seminar on Contemporary Cybersecurity",
+              "credits": 1
+            }
+          ]
+        },
+        {
+          "key": "group-i",
+          "title": "Group I electives",
+          "chooseCredits": 12,
+          "courses": [
+            {
+              "code": "CS5288",
+              "title": "Cryptography: Theory and Practice",
+              "credits": 3
+            },
+            {
+              "code": "CS5291",
+              "title": "Cybersecurity Forensics and Incident Response",
+              "credits": 3
+            },
+            {
+              "code": "CS5292",
+              "title": "Cybersecurity Audits and Compliance",
+              "credits": 3
+            },
+            {
+              "code": "CS6283",
+              "title": "Advanced Topics in Mobile and IoT Security",
+              "credits": 3
+            },
+            {
+              "code": "CS5295",
+              "title": "Network and Cloud Security",
+              "credits": 3
+            },
+            {
+              "code": "CS6290",
+              "title": "Privacy-enhancing Technologies",
+              "credits": 3
+            },
+            {
+              "code": "CS6284",
+              "title": "Advanced Topics in Software Security",
+              "credits": 3
+            },
+            {
+              "code": "CS5297",
+              "title": "Topics in AI Security",
+              "credits": 3
+            },
+            {
+              "code": "CS5298",
+              "title": "Blockchain and Web3.0 Security",
+              "credits": 3
+            },
+            {
+              "code": "CS6537",
+              "title": "Guided Study in Information Security",
+              "credits": 3
+            },
+            {
+              "code": "CS6531",
+              "title": "Project in Cybersecurity",
+              "credits": 6
+            },
+            {
+              "code": "CS6532",
+              "title": "Internship in Cybersecurity",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "group-ii",
+          "title": "Group II electives",
+          "courses": [
+            {
+              "code": "CS5296",
+              "title": "Cloud Computing: Theory and Practice",
+              "credits": 3
+            },
+            {
+              "code": "CS5222",
+              "title": "Computer Networks and Internets",
+              "credits": 3
+            },
+            {
+              "code": "CS5483",
+              "title": "Data Warehousing and Data Mining",
+              "credits": 3
+            },
+            {
+              "code": "CS5351",
+              "title": "Software Engineering",
+              "credits": 3
+            },
+            {
+              "code": "CS5489",
+              "title": "Machine Learning: Algorithms and Applications",
+              "credits": 3
+            }
+          ],
+          "note": "At most 9 CU from Group II may count toward the elective requirement."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official curriculum page lists course groups and credit rules; no fixed semester placement is stored here."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "CS5285",
+      "CS5293",
+      "CS5294",
+      "CS5612",
+      "CS5288",
+      "CS5291",
+      "CS5292",
+      "CS6283",
+      "CS5295",
+      "CS6290",
+      "CS6284",
+      "CS5297",
+      "CS5298",
+      "CS6537",
+      "CS6531",
+      "CS6532",
+      "CS5296",
+      "CS5222",
+      "CS5483",
+      "CS5351",
+      "CS5489"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -3652,8 +4260,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -3671,6 +4279,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -3762,7 +4375,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -3780,6 +4393,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -3871,7 +4489,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -3889,6 +4507,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -3980,7 +4603,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -3998,6 +4621,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4089,7 +4717,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4107,6 +4735,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4198,7 +4831,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4216,6 +4849,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4307,7 +4945,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4325,6 +4963,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4416,7 +5059,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4434,6 +5077,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4525,7 +5173,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4543,6 +5191,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4634,7 +5287,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4652,6 +5305,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4743,7 +5401,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4761,6 +5419,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4852,7 +5515,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4870,6 +5533,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -4961,7 +5629,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -4979,6 +5647,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5070,7 +5743,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5088,6 +5761,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5179,7 +5857,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5197,6 +5875,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5288,7 +5971,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5306,6 +5989,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5397,7 +6085,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5415,6 +6103,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5506,7 +6199,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5524,6 +6217,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5615,7 +6313,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5633,6 +6331,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5724,7 +6427,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5742,6 +6445,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5833,7 +6541,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5851,6 +6559,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -5942,7 +6655,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -5960,6 +6673,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6051,7 +6769,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6069,6 +6787,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6160,7 +6883,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6178,6 +6901,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6269,7 +6997,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6287,6 +7015,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6378,7 +7111,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6396,6 +7129,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6487,7 +7225,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6505,6 +7243,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6596,7 +7339,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6614,6 +7357,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6705,7 +7453,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6723,6 +7471,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6814,7 +7567,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6832,6 +7585,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -6923,7 +7681,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -6941,6 +7699,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7032,7 +7795,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7050,6 +7813,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7141,7 +7909,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7159,6 +7927,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7250,7 +8023,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7261,30 +8034,187 @@
     "college": "School of Energy and Environment",
     "department": "School of Energy and Environment",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+    "curriculumUrl": "https://www.cityu.edu.hk/see/programmes/master-science-energy-and-environment/curriculum",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cityu.edu.hk/see/programmes/master-science-energy-and-environment/curriculum"
+    },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units from programme core, stream core options and electives, based on the official MSc Energy and Environment curriculum page.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "programme-core",
+          "title": "Programme core",
+          "courses": [
+            {
+              "code": "SEE5114",
+              "title": "Energy, Environment and Sustainable Development",
+              "credits": 3
+            },
+            {
+              "code": "SEE6201",
+              "title": "Environmental and Energy Policy",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "stream-core",
+          "title": "Stream core options",
+          "courses": [
+            {
+              "code": "SEE5211",
+              "title": "Data Analysis in Environmental Applications",
+              "credits": 3
+            },
+            {
+              "code": "SEE5212",
+              "title": "Environmental Pollution: Theories, Measurement and Mitigation",
+              "credits": 3
+            },
+            {
+              "code": "SEE6103",
+              "title": "Energy Conversion: Theory and Methodology",
+              "credits": 3
+            },
+            {
+              "code": "SEE6104",
+              "title": "Energy Conservation and Audit",
+              "credits": 3
+            }
+          ],
+          "note": "Official curriculum assigns stream core requirements by Energy / Environment study focus."
+        },
+        {
+          "key": "electives",
+          "title": "Electives and project options",
+          "courses": [
+            {
+              "code": "SEE6118",
+              "title": "Emerging Energy Technologies",
+              "credits": 3
+            },
+            {
+              "code": "SEE6123",
+              "title": "Electrochemical Energy Storage",
+              "credits": 3
+            },
+            {
+              "code": "SEE6124",
+              "title": "Fuel Processing",
+              "credits": 3
+            },
+            {
+              "code": "SEE6125",
+              "title": "Carbon Capture Use and Storage",
+              "credits": 3
+            },
+            {
+              "code": "SEE5201",
+              "title": "Air Pollution and Atmospheric Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "SEE6203",
+              "title": "Environmental Impact Assessment: Principles and Practice",
+              "credits": 3
+            },
+            {
+              "code": "SEE6212",
+              "title": "Environmental Modelling",
+              "credits": 3
+            },
+            {
+              "code": "SEE6213",
+              "title": "Wastewater Engineering and Water Quality Assessment",
+              "credits": 3
+            },
+            {
+              "code": "SEE6214",
+              "title": "Solid Waste Treatment and Management",
+              "credits": 3
+            },
+            {
+              "code": "SEE6224",
+              "title": "Environmental Engineering Science",
+              "credits": 3
+            },
+            {
+              "code": "SEE5202",
+              "title": "Climate Change: Science, Adaptation and Mitigation",
+              "credits": 3
+            },
+            {
+              "code": "SEE6101",
+              "title": "Energy Generation and Storage Systems",
+              "credits": 3
+            },
+            {
+              "code": "SEE6115",
+              "title": "Carbon Audit and Management",
+              "credits": 3
+            },
+            {
+              "code": "SEE6122",
+              "title": "Advanced Thermosciences for Energy Engineering",
+              "credits": 3
+            },
+            {
+              "code": "SEE6225",
+              "title": "Environmental Assessment",
+              "credits": 3
+            },
+            {
+              "code": "SEE6999",
+              "title": "Dissertation",
+              "credits": 6
+            },
+            {
+              "code": "LW6959",
+              "title": "Energy and Environmental Law",
+              "credits": 6
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official curriculum page lists programme and stream requirements; no fixed semester placement is stored here."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "SEE5114",
+      "SEE6201",
+      "SEE5211",
+      "SEE5212",
+      "SEE6103",
+      "SEE6104",
+      "SEE6118",
+      "SEE6123",
+      "SEE6124",
+      "SEE6125",
+      "SEE5201",
+      "SEE6203",
+      "SEE6212",
+      "SEE6213",
+      "SEE6214",
+      "SEE6224",
+      "SEE5202",
+      "SEE6101",
+      "SEE6115",
+      "SEE6122",
+      "SEE6225",
+      "SEE6999",
+      "LW6959"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -7358,8 +8288,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -7377,6 +8307,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7468,7 +8403,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7486,6 +8421,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7577,7 +8517,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7595,6 +8535,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7686,7 +8631,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7704,6 +8649,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7795,7 +8745,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7813,6 +8763,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Programme-specific graduation requirements are listed on the official programme page.",
       "sections": [
@@ -7904,7 +8859,7 @@
     ],
     "notes": [
       "No confirmed official sample schedule is stored for this programme.",
-      "Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
     ]
   },
   {
@@ -7921,6 +8876,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -8099,6 +9059,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -8275,6 +9240,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -8453,6 +9423,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -8629,6 +9604,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -8807,6 +9787,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -8983,6 +9968,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -9161,6 +10151,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -9338,6 +10333,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -9514,6 +10514,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -9694,6 +10699,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -9871,6 +10881,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -10047,6 +11062,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -10226,6 +11246,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -10402,6 +11427,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -10580,6 +11610,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -10756,6 +11791,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -10934,6 +11974,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -11110,6 +12155,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -11288,6 +12338,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -11464,6 +12519,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -11642,6 +12702,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -11818,6 +12883,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -11996,6 +13066,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -12172,6 +13247,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -12350,6 +13430,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -12526,6 +13611,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -12704,6 +13794,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -12880,6 +13975,11 @@
       "kind": "research-diy",
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
+    },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
     },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
@@ -13058,6 +14158,11 @@
       "label": "Research DIY planner",
       "description": "Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas."
     },
+    "courseListStatus": {
+      "kind": "research-not-course-based",
+      "label": "Research degree requirements",
+      "description": "Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements."
+    },
     "requirements": {
       "summary": "Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.",
       "sections": [
@@ -13235,6 +14340,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Professional doctorate requirements should be confirmed on the official programme page. No official semester-by-semester plan is prefilled here.",
       "sections": [
@@ -13405,6 +14515,11 @@
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
+    },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
     },
     "requirements": {
       "summary": "Professional doctorate requirements should be confirmed on the official programme page. No official semester-by-semester plan is prefilled here.",
@@ -13577,6 +14692,11 @@
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+    },
     "requirements": {
       "summary": "Professional doctorate requirements should be confirmed on the official programme page. No official semester-by-semester plan is prefilled here.",
       "sections": [
@@ -13747,6 +14867,11 @@
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
+    },
+    "courseListStatus": {
+      "kind": "course-list-unconfirmed",
+      "label": "Course list not yet structured",
+      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
     },
     "requirements": {
       "summary": "Professional doctorate requirements should be confirmed on the official programme page. No official semester-by-semester plan is prefilled here.",

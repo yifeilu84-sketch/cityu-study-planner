@@ -20,6 +20,27 @@ const SOURCE = {
   },
 }
 
+const COURSE_LIST_STATUS = {
+  official(sourceUrl) {
+    return {
+      kind: 'official-course-list',
+      label: 'Official course list parsed',
+      description: 'The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.',
+      sourceUrl,
+    }
+  },
+  unconfirmed: {
+    kind: 'course-list-unconfirmed',
+    label: 'Course list not yet structured',
+    description: 'The official programme page is linked, but this site has not yet structured the required/elective course list for this programme.',
+  },
+  research: {
+    kind: 'research-not-course-based',
+    label: 'Research degree requirements',
+    description: 'Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements.',
+  },
+}
+
 function slug(value) {
   return value
     .toLowerCase()
@@ -146,6 +167,66 @@ const pgCourses = {
     courseUrl: 'https://www.cityu.edu.hk/catalogue/pg/current/course/ec5001.htm',
     sourceUrl: 'https://www.cityu.edu.hk/catalogue/pg/current/course/ec5001.htm',
   }),
+  SDSC5001: makeCourse('SDSC5001', 'Statistical Machine Learning I', 3, { department: 'Department of Data Science' }),
+  SDSC5002: makeCourse('SDSC5002', 'Exploratory Data Analysis and Visualization', 3, { department: 'Department of Data Science' }),
+  SDSC5003: makeCourse('SDSC5003', 'Storing and Retrieving Data', 3, { department: 'Department of Data Science' }),
+  SDSC6001: makeCourse('SDSC6001', 'Statistical Machine Learning II', 3, { department: 'Department of Data Science' }),
+  SDSC6002: makeCourse('SDSC6002', 'Research Projects for Data Science', 3, { department: 'Department of Data Science' }),
+  SDSC6003: makeCourse('SDSC6003', 'Bayesian Data Analysis', 3, { department: 'Department of Data Science' }),
+  SDSC6004: makeCourse('SDSC6004', 'Topics of Artificial Intelligence for Smart Cities', 3, { department: 'Department of Data Science' }),
+  SDSC6006: makeCourse('SDSC6006', 'Dissertation', 6, { department: 'Department of Data Science' }),
+  SDSC6007: makeCourse('SDSC6007', 'Dynamic Programming and Reinforcement Learning', 3, { department: 'Department of Data Science' }),
+  CS5611: makeCourse('CS5611', 'Seminar on AI Ethics', 1),
+  CS5493: makeCourse('CS5493', 'Topics in Autonomous Driving'),
+  CS6522: makeCourse('CS6522', 'Project in Autonomous Driving', 6),
+  CS6523: makeCourse('CS6523', 'Internship in Autonomous Driving', 6),
+  CS5494: makeCourse('CS5494', 'Topics in Generative AI'),
+  CS6524: makeCourse('CS6524', 'Project in Generative AI', 6),
+  CS6525: makeCourse('CS6525', 'Internship in Generative AI', 6),
+  CS5495: makeCourse('CS5495', 'Explainable AI'),
+  CS5297: makeCourse('CS5297', 'Topics in AI Security'),
+  CS6526: makeCourse('CS6526', 'Project in Trustworthy AI', 6),
+  CS6527: makeCourse('CS6527', 'Internship in Trustworthy AI', 6),
+  CS6528: makeCourse('CS6528', 'Internship in Artificial Intelligence', 6),
+  CS6529: makeCourse('CS6529', 'Project in Artificial Intelligence', 6),
+  CS5612: makeCourse('CS5612', 'Seminar on Contemporary Cybersecurity', 1),
+  CS5291: makeCourse('CS5291', 'Cybersecurity Forensics and Incident Response'),
+  CS5292: makeCourse('CS5292', 'Cybersecurity Audits and Compliance'),
+  CS6283: makeCourse('CS6283', 'Advanced Topics in Mobile and IoT Security'),
+  CS5295: makeCourse('CS5295', 'Network and Cloud Security'),
+  CS6284: makeCourse('CS6284', 'Advanced Topics in Software Security'),
+  CS5298: makeCourse('CS5298', 'Blockchain and Web3.0 Security'),
+  CS6531: makeCourse('CS6531', 'Project in Cybersecurity', 6),
+  CS6532: makeCourse('CS6532', 'Internship in Cybersecurity'),
+  CS5281: makeCourse('CS5281', 'Internet Application Development'),
+  IS5314: makeCourse('IS5314', 'eBusiness System Integration', 3, { department: 'Department of Information Systems' }),
+  IS5414: makeCourse('IS5414', 'Analysis and Design of eCommerce Systems', 3, { department: 'Department of Information Systems' }),
+  IS6321: makeCourse('IS6321', 'Business Intelligence Applications', 3, { department: 'Department of Information Systems' }),
+  IS6400: makeCourse('IS6400', 'Business Data Analytics', 3, { department: 'Department of Information Systems' }),
+  IS6640: makeCourse('IS6640', 'Information Systems Planning and Strategy', 3, { department: 'Department of Information Systems' }),
+  SEE5114: makeCourse('SEE5114', 'Energy, Environment and Sustainable Development', 3, { department: 'School of Energy and Environment' }),
+  SEE6201: makeCourse('SEE6201', 'Environmental and Energy Policy', 3, { department: 'School of Energy and Environment' }),
+  SEE5211: makeCourse('SEE5211', 'Data Analysis in Environmental Applications', 3, { department: 'School of Energy and Environment' }),
+  SEE5212: makeCourse('SEE5212', 'Environmental Pollution: Theories, Measurement and Mitigation', 3, { department: 'School of Energy and Environment' }),
+  SEE6103: makeCourse('SEE6103', 'Energy Conversion: Theory and Methodology', 3, { department: 'School of Energy and Environment' }),
+  SEE6104: makeCourse('SEE6104', 'Energy Conservation and Audit', 3, { department: 'School of Energy and Environment' }),
+  SEE6118: makeCourse('SEE6118', 'Emerging Energy Technologies', 3, { department: 'School of Energy and Environment' }),
+  SEE6123: makeCourse('SEE6123', 'Electrochemical Energy Storage', 3, { department: 'School of Energy and Environment' }),
+  SEE6124: makeCourse('SEE6124', 'Fuel Processing', 3, { department: 'School of Energy and Environment' }),
+  SEE6125: makeCourse('SEE6125', 'Carbon Capture Use and Storage', 3, { department: 'School of Energy and Environment' }),
+  SEE5201: makeCourse('SEE5201', 'Air Pollution and Atmospheric Chemistry', 3, { department: 'School of Energy and Environment' }),
+  SEE6203: makeCourse('SEE6203', 'Environmental Impact Assessment: Principles and Practice', 3, { department: 'School of Energy and Environment' }),
+  SEE6212: makeCourse('SEE6212', 'Environmental Modelling', 3, { department: 'School of Energy and Environment' }),
+  SEE6213: makeCourse('SEE6213', 'Wastewater Engineering and Water Quality Assessment', 3, { department: 'School of Energy and Environment' }),
+  SEE6214: makeCourse('SEE6214', 'Solid Waste Treatment and Management', 3, { department: 'School of Energy and Environment' }),
+  SEE6224: makeCourse('SEE6224', 'Environmental Engineering Science', 3, { department: 'School of Energy and Environment' }),
+  SEE5202: makeCourse('SEE5202', 'Climate Change: Science, Adaptation and Mitigation', 3, { department: 'School of Energy and Environment' }),
+  SEE6101: makeCourse('SEE6101', 'Energy Generation and Storage Systems', 3, { department: 'School of Energy and Environment' }),
+  SEE6115: makeCourse('SEE6115', 'Carbon Audit and Management', 3, { department: 'School of Energy and Environment' }),
+  SEE6122: makeCourse('SEE6122', 'Advanced Thermosciences for Energy Engineering', 3, { department: 'School of Energy and Environment' }),
+  SEE6225: makeCourse('SEE6225', 'Environmental Assessment', 3, { department: 'School of Energy and Environment' }),
+  SEE6999: makeCourse('SEE6999', 'Dissertation', 6, { department: 'School of Energy and Environment' }),
+  LW6959: makeCourse('LW6959', 'Energy and Environmental Law', 6, { department: 'School of Law' }),
 }
 
 function ref(code, overrides = {}) {
@@ -200,6 +281,179 @@ const mscComputerScienceRequirements = {
     'Official schedule page describes these as sample study schedules for illustration; each student should plan with academic advice.',
     'Project CS6520 is displayed across Semester B and Summer in the official sample schedule.',
   ],
+}
+
+const CONFIRMED_CURRICULA = {
+  P70: {
+    totalCredits: 30,
+    curriculumUrl: 'https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/msds',
+    requirements: {
+      summary: '30 credit units: 15 CU core electives plus 15 CU electives, based on the official MSc Data Science course list.',
+      sections: [
+        {
+          key: 'core-electives',
+          title: 'Core electives',
+          credits: 15,
+          chooseCredits: 15,
+          courses: ['SDSC5001', 'SDSC5002', 'SDSC5003', 'SDSC6001', 'SDSC6002'].map((code) => ref(code)),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 15,
+          chooseCredits: 15,
+          courses: ['CS5285', 'CS5487', 'CS6290', 'CS6493', 'SDSC6003', 'SDSC6004', 'SDSC6006'].map((code) => ref(code)),
+        },
+      ],
+      notes: [
+        'Official page provides a course list, not a fixed semester-by-semester study plan.',
+        'Students should DIY semester placement after checking offering terms and prerequisites.',
+      ],
+    },
+  },
+  P75: {
+    totalCredits: 31,
+    curriculumUrl: 'https://www.cs.cityu.edu.hk/en/academic-programmes/msc-artificial-intelligence/curriculum',
+    requirements: {
+      summary: 'At least 31 credit units: all 10 CU core courses plus at least 21 CU electives, based on the official MSc Artificial Intelligence curriculum.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 10,
+          courses: ['CS5491', 'CS5486', 'CS5489', 'CS5611'].map((code) => ref(code)),
+        },
+        {
+          key: 'group-i',
+          title: 'Group I electives',
+          chooseCredits: 21,
+          courses: [
+            'CS5493', 'SDSC6007', 'CS6522', 'CS6523', 'CS6493', 'CS5494', 'CS6524', 'CS6525',
+            'CS5495', 'CS5297', 'CS6526', 'CS6527', 'CS6528', 'CS6529',
+          ].map((code) => ref(code)),
+          note: 'Project and internship options are subject to official stream and eligibility notes.',
+        },
+        {
+          key: 'group-ii',
+          title: 'Group II electives',
+          courses: ['CS5187', 'CS5487', 'CS6187', 'CS6487', 'CS6535', 'CS6491'].map((code) => ref(code)),
+          note: 'Official curriculum limits Group II electives toward the elective requirement.',
+        },
+      ],
+      notes: [
+        'Official curriculum page lists course groups and notes; no fixed semester placement is stored here.',
+      ],
+    },
+  },
+  P91: {
+    totalCredits: 31,
+    curriculumUrl: 'https://www.cs.cityu.edu.hk/en/academic-programmes/msc-cybersecurity/curriculum',
+    requirements: {
+      summary: 'At least 31 credit units: all 10 CU core courses plus at least 21 CU electives, including at least 12 CU from Group I and at most 9 CU from Group II.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 10,
+          courses: [
+            ref('CS5285', { title: 'Introduction to Cybersecurity' }),
+            ref('CS5293', { title: 'Topics in Information Security and Privacy' }),
+            ref('CS5294'),
+            ref('CS5612'),
+          ],
+        },
+        {
+          key: 'group-i',
+          title: 'Group I electives',
+          chooseCredits: 12,
+          courses: [
+            'CS5288', 'CS5291', 'CS5292', 'CS6283', 'CS5295', 'CS6290', 'CS6284', 'CS5297',
+            'CS5298', 'CS6537', 'CS6531', 'CS6532',
+          ].map((code) => ref(code)),
+        },
+        {
+          key: 'group-ii',
+          title: 'Group II electives',
+          courses: ['CS5296', 'CS5222', 'CS5483', 'CS5351', 'CS5489'].map((code) => ref(code)),
+          note: 'At most 9 CU from Group II may count toward the elective requirement.',
+        },
+      ],
+      notes: [
+        'Official curriculum page lists course groups and credit rules; no fixed semester placement is stored here.',
+      ],
+    },
+  },
+  P17: {
+    totalCredits: 33,
+    curriculumUrl: 'https://www.cs.cityu.edu.hk/en/academic-programmes/msc-electronic-commerce/curriculum/structures',
+    requirements: {
+      summary: '33 credit units with a 15 CU required core and at least 18 CU electives, based on the official MSc Electronic Commerce structure page.',
+      sections: [
+        {
+          key: 'overview',
+          title: 'Programme core / overview',
+          credits: 15,
+          courses: [ref('EC5001')],
+          note: 'The official structure page identifies a 15 CU required core; only structured course entries confirmed from the page are listed here.',
+        },
+        {
+          key: 'technology-oriented',
+          title: 'Technology-oriented course set',
+          courses: [
+            'CS5281',
+            'CS5285',
+            'CS5488',
+            'CS5489',
+          ].map((code) => ref(code, code === 'CS5285' ? { title: 'Information Security for eCommerce' } : {})),
+        },
+        {
+          key: 'business-oriented',
+          title: 'Business-oriented course set',
+          courses: ['IS5314', 'IS5414', 'IS6321', 'IS6400', 'IS6640'].map((code) => ref(code)),
+        },
+      ],
+      notes: [
+        'Official structure page confirms the course sets; students should confirm the full current core list and offering terms before DIY planning.',
+      ],
+    },
+  },
+  P63: {
+    totalCredits: 30,
+    curriculumUrl: 'https://www.cityu.edu.hk/see/programmes/master-science-energy-and-environment/curriculum',
+    requirements: {
+      summary: '30 credit units from programme core, stream core options and electives, based on the official MSc Energy and Environment curriculum page.',
+      sections: [
+        {
+          key: 'programme-core',
+          title: 'Programme core',
+          courses: ['SEE5114', 'SEE6201'].map((code) => ref(code)),
+        },
+        {
+          key: 'stream-core',
+          title: 'Stream core options',
+          courses: ['SEE5211', 'SEE5212', 'SEE6103', 'SEE6104'].map((code) => ref(code)),
+          note: 'Official curriculum assigns stream core requirements by Energy / Environment study focus.',
+        },
+        {
+          key: 'electives',
+          title: 'Electives and project options',
+          courses: [
+            'SEE6118', 'SEE6123', 'SEE6124', 'SEE6125', 'SEE5201', 'SEE6203', 'SEE6212', 'SEE6213',
+            'SEE6214', 'SEE6224', 'SEE5202', 'SEE6101', 'SEE6115', 'SEE6122', 'SEE6225', 'SEE6999', 'LW6959',
+          ].map((code) => ref(code)),
+        },
+      ],
+      notes: [
+        'Official curriculum page lists programme and stream requirements; no fixed semester placement is stored here.',
+      ],
+    },
+  },
+}
+
+function courseCodesFromRequirements(requirements) {
+  return Array.from(new Set(
+    requirements.sections.flatMap((section) => (section.courses ?? []).map((course) => course.code))
+  ))
 }
 
 const p53StudyPlanVariants = [
@@ -266,6 +520,7 @@ function mscComputerScienceProgramme() {
     sampleScheduleUrl: 'https://www.cs.cityu.edu.hk/en/academic-programmes/msc-computer-science/curriculum/schedule',
     courseCatalogueUrl: 'https://www.cityu.edu.hk/catalogue/pg/current/programme/MSCS1.htm',
     sourceStatus: clone(SOURCE.officialSample),
+    courseListStatus: COURSE_LIST_STATUS.official('https://www.cs.cityu.edu.hk/en/academic-programmes/msc-computer-science/curriculum/overview'),
     requirements: mscComputerScienceRequirements,
     allCourses: mscComputerScienceCodes,
     studyPlan: p53StudyPlanVariants[0].studyPlan,
@@ -300,7 +555,9 @@ function genericRequirements(totalCredits) {
 
 function taught(info) {
   if (info.code === 'P53') return mscComputerScienceProgramme()
+  const confirmed = CONFIRMED_CURRICULA[info.code]
   const plan = emptyStudyPlan(info.years ?? 2)
+  const requirements = confirmed?.requirements ?? genericRequirements(info.totalCredits)
   return {
     code: info.code,
     title: info.title,
@@ -309,11 +566,15 @@ function taught(info) {
     college: info.college,
     department: info.department,
     mode: info.mode ?? 'Full-time / Part-time where offered',
-    totalCredits: info.totalCredits ?? null,
+    totalCredits: confirmed?.totalCredits ?? info.totalCredits ?? null,
     url: info.url ?? programmeUrl(info.college, info.department, info.code),
+    curriculumUrl: confirmed?.curriculumUrl,
     sourceStatus: clone(SOURCE.requirementsDiy),
-    requirements: genericRequirements(info.totalCredits),
-    allCourses: info.allCourses ?? [],
+    courseListStatus: confirmed
+      ? COURSE_LIST_STATUS.official(confirmed.curriculumUrl)
+      : clone(COURSE_LIST_STATUS.unconfirmed),
+    requirements,
+    allCourses: confirmed ? courseCodesFromRequirements(requirements) : info.allCourses ?? [],
     studyPlan: plan,
     studyPlanVariants: [
       {
@@ -324,10 +585,15 @@ function taught(info) {
         studyPlan: plan,
       },
     ],
-    notes: [
-      'No confirmed official sample schedule is stored for this programme.',
-      'Use the official programme page to confirm current courses, streams, and credit requirements before planning.',
-    ],
+    notes: confirmed
+      ? [
+        'Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.',
+        'Use the course pool and official requirements to DIY semester placement after checking offering terms.',
+      ]
+      : [
+        'No confirmed official sample schedule is stored for this programme.',
+        'The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning.',
+      ],
   }
 }
 
@@ -428,6 +694,7 @@ function researchProgramme(seed) {
     totalCredits: null,
     url: 'https://www.cityu.edu.hk/pg/research-degree-programmes/research-areas',
     sourceStatus: clone(SOURCE.researchDiy),
+    courseListStatus: clone(COURSE_LIST_STATUS.research),
     requirements: {
       summary: 'Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.',
       sections: [
@@ -516,6 +783,7 @@ function professionalDoctorate(seed) {
     totalCredits: seed.totalCredits ?? null,
     url: seed.url,
     sourceStatus: clone(SOURCE.requirementsDiy),
+    courseListStatus: clone(COURSE_LIST_STATUS.unconfirmed),
     requirements: {
       summary: 'Professional doctorate requirements should be confirmed on the official programme page. No official semester-by-semester plan is prefilled here.',
       sections: [

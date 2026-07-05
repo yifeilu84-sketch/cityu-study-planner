@@ -15887,7 +15887,7 @@
       "college": "College of Business",
       "department": "Department of Information Systems",
       "sourceKind": "requirements-diy",
-      "searchText": "p17 msc electronic commerce master of science taught-master college of business department of information systems"
+      "searchText": "p17 msc electronic commerce master of science taught-master college of business department of information systems ec5001 cs5281 cs5285 cs5488 cs5489 is5314 is5414 is6321 is6400 is6640"
     },
     {
       "type": "postgraduate-programme",
@@ -15975,7 +15975,7 @@
       "college": "College of Computing",
       "department": "Department of Data Science",
       "sourceKind": "requirements-diy",
-      "searchText": "p70 msc data science master of science taught-master college of computing department of data science"
+      "searchText": "p70 msc data science master of science taught-master college of computing department of data science sdsc5001 sdsc5002 sdsc5003 sdsc6001 sdsc6002 cs5285 cs5487 cs6290 cs6493 sdsc6003 sdsc6004 sdsc6006"
     },
     {
       "type": "postgraduate-programme",
@@ -15986,7 +15986,7 @@
       "college": "College of Computing",
       "department": "Department of Computer Science",
       "sourceKind": "requirements-diy",
-      "searchText": "p75 msc artificial intelligence master of science taught-master college of computing department of computer science"
+      "searchText": "p75 msc artificial intelligence master of science taught-master college of computing department of computer science cs5491 cs5486 cs5489 cs5611 cs5493 sdsc6007 cs6522 cs6523 cs6493 cs5494 cs6524 cs6525 cs5495 cs5297 cs6526 cs6527 cs6528 cs6529 cs5187 cs5487 cs6187 cs6487 cs6535 cs6491"
     },
     {
       "type": "postgraduate-programme",
@@ -16008,7 +16008,7 @@
       "college": "College of Computing",
       "department": "Department of Computer Science",
       "sourceKind": "requirements-diy",
-      "searchText": "p91 msc cybersecurity master of science taught-master college of computing department of computer science"
+      "searchText": "p91 msc cybersecurity master of science taught-master college of computing department of computer science cs5285 cs5293 cs5294 cs5612 cs5288 cs5291 cs5292 cs6283 cs5295 cs6290 cs6284 cs5297 cs5298 cs6537 cs6531 cs6532 cs5296 cs5222 cs5483 cs5351 cs5489"
     },
     {
       "type": "postgraduate-programme",
@@ -16382,7 +16382,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "sourceKind": "requirements-diy",
-      "searchText": "p63 msc energy and environment master of science taught-master school of energy and environment school of energy and environment"
+      "searchText": "p63 msc energy and environment master of science taught-master school of energy and environment school of energy and environment see5114 see6201 see5211 see5212 see6103 see6104 see6118 see6123 see6124 see6125 see5201 see6203 see6212 see6213 see6214 see6224 see5202 see6101 see6115 see6122 see6225 see6999 lw6959"
     },
     {
       "type": "postgraduate-programme",
@@ -17147,6 +17147,546 @@
       "department": "Department of Information Systems",
       "detailStatus": "linked-unparsed",
       "searchText": "ec5001 introduction to ecommerce department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC5001",
+      "title": "Statistical Machine Learning I",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc5001 statistical machine learning i department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC5002",
+      "title": "Exploratory Data Analysis and Visualization",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc5002 exploratory data analysis and visualization department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC5003",
+      "title": "Storing and Retrieving Data",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc5003 storing and retrieving data department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6001",
+      "title": "Statistical Machine Learning II",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6001 statistical machine learning ii department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6002",
+      "title": "Research Projects for Data Science",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6002 research projects for data science department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6003",
+      "title": "Bayesian Data Analysis",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6003 bayesian data analysis department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6004",
+      "title": "Topics of Artificial Intelligence for Smart Cities",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6004 topics of artificial intelligence for smart cities department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6006",
+      "title": "Dissertation",
+      "credits": 6,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6006 dissertation department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "SDSC6007",
+      "title": "Dynamic Programming and Reinforcement Learning",
+      "credits": 3,
+      "department": "Department of Data Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "sdsc6007 dynamic programming and reinforcement learning department of data science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5611",
+      "title": "Seminar on AI Ethics",
+      "credits": 1,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5611 seminar on ai ethics department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5493",
+      "title": "Topics in Autonomous Driving",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5493 topics in autonomous driving department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6522",
+      "title": "Project in Autonomous Driving",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6522 project in autonomous driving department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6523",
+      "title": "Internship in Autonomous Driving",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6523 internship in autonomous driving department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5494",
+      "title": "Topics in Generative AI",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5494 topics in generative ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6524",
+      "title": "Project in Generative AI",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6524 project in generative ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6525",
+      "title": "Internship in Generative AI",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6525 internship in generative ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5495",
+      "title": "Explainable AI",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5495 explainable ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5297",
+      "title": "Topics in AI Security",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5297 topics in ai security department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6526",
+      "title": "Project in Trustworthy AI",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6526 project in trustworthy ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6527",
+      "title": "Internship in Trustworthy AI",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6527 internship in trustworthy ai department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6528",
+      "title": "Internship in Artificial Intelligence",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6528 internship in artificial intelligence department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6529",
+      "title": "Project in Artificial Intelligence",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6529 project in artificial intelligence department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5612",
+      "title": "Seminar on Contemporary Cybersecurity",
+      "credits": 1,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5612 seminar on contemporary cybersecurity department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5291",
+      "title": "Cybersecurity Forensics and Incident Response",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5291 cybersecurity forensics and incident response department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5292",
+      "title": "Cybersecurity Audits and Compliance",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5292 cybersecurity audits and compliance department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6283",
+      "title": "Advanced Topics in Mobile and IoT Security",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6283 advanced topics in mobile and iot security department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5295",
+      "title": "Network and Cloud Security",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5295 network and cloud security department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6284",
+      "title": "Advanced Topics in Software Security",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6284 advanced topics in software security department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5298",
+      "title": "Blockchain and Web3.0 Security",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5298 blockchain and web3.0 security department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6531",
+      "title": "Project in Cybersecurity",
+      "credits": 6,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6531 project in cybersecurity department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS6532",
+      "title": "Internship in Cybersecurity",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs6532 internship in cybersecurity department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "CS5281",
+      "title": "Internet Application Development",
+      "credits": 3,
+      "department": "Department of Computer Science",
+      "detailStatus": "linked-unparsed",
+      "searchText": "cs5281 internet application development department of computer science"
+    },
+    {
+      "type": "pg-course",
+      "code": "IS5314",
+      "title": "eBusiness System Integration",
+      "credits": 3,
+      "department": "Department of Information Systems",
+      "detailStatus": "linked-unparsed",
+      "searchText": "is5314 ebusiness system integration department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "IS5414",
+      "title": "Analysis and Design of eCommerce Systems",
+      "credits": 3,
+      "department": "Department of Information Systems",
+      "detailStatus": "linked-unparsed",
+      "searchText": "is5414 analysis and design of ecommerce systems department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "IS6321",
+      "title": "Business Intelligence Applications",
+      "credits": 3,
+      "department": "Department of Information Systems",
+      "detailStatus": "linked-unparsed",
+      "searchText": "is6321 business intelligence applications department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "IS6400",
+      "title": "Business Data Analytics",
+      "credits": 3,
+      "department": "Department of Information Systems",
+      "detailStatus": "linked-unparsed",
+      "searchText": "is6400 business data analytics department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "IS6640",
+      "title": "Information Systems Planning and Strategy",
+      "credits": 3,
+      "department": "Department of Information Systems",
+      "detailStatus": "linked-unparsed",
+      "searchText": "is6640 information systems planning and strategy department of information systems"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE5114",
+      "title": "Energy, Environment and Sustainable Development",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see5114 energy, environment and sustainable development school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6201",
+      "title": "Environmental and Energy Policy",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6201 environmental and energy policy school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE5211",
+      "title": "Data Analysis in Environmental Applications",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see5211 data analysis in environmental applications school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE5212",
+      "title": "Environmental Pollution: Theories, Measurement and Mitigation",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see5212 environmental pollution: theories, measurement and mitigation school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6103",
+      "title": "Energy Conversion: Theory and Methodology",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6103 energy conversion: theory and methodology school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6104",
+      "title": "Energy Conservation and Audit",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6104 energy conservation and audit school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6118",
+      "title": "Emerging Energy Technologies",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6118 emerging energy technologies school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6123",
+      "title": "Electrochemical Energy Storage",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6123 electrochemical energy storage school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6124",
+      "title": "Fuel Processing",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6124 fuel processing school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6125",
+      "title": "Carbon Capture Use and Storage",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6125 carbon capture use and storage school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE5201",
+      "title": "Air Pollution and Atmospheric Chemistry",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see5201 air pollution and atmospheric chemistry school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6203",
+      "title": "Environmental Impact Assessment: Principles and Practice",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6203 environmental impact assessment: principles and practice school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6212",
+      "title": "Environmental Modelling",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6212 environmental modelling school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6213",
+      "title": "Wastewater Engineering and Water Quality Assessment",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6213 wastewater engineering and water quality assessment school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6214",
+      "title": "Solid Waste Treatment and Management",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6214 solid waste treatment and management school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6224",
+      "title": "Environmental Engineering Science",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6224 environmental engineering science school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE5202",
+      "title": "Climate Change: Science, Adaptation and Mitigation",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see5202 climate change: science, adaptation and mitigation school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6101",
+      "title": "Energy Generation and Storage Systems",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6101 energy generation and storage systems school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6115",
+      "title": "Carbon Audit and Management",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6115 carbon audit and management school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6122",
+      "title": "Advanced Thermosciences for Energy Engineering",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6122 advanced thermosciences for energy engineering school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6225",
+      "title": "Environmental Assessment",
+      "credits": 3,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6225 environmental assessment school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "SEE6999",
+      "title": "Dissertation",
+      "credits": 6,
+      "department": "School of Energy and Environment",
+      "detailStatus": "linked-unparsed",
+      "searchText": "see6999 dissertation school of energy and environment"
+    },
+    {
+      "type": "pg-course",
+      "code": "LW6959",
+      "title": "Energy and Environmental Law",
+      "credits": 6,
+      "department": "School of Law",
+      "detailStatus": "linked-unparsed",
+      "searchText": "lw6959 energy and environmental law school of law"
     }
   ]
 }

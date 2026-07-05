@@ -667,5 +667,1085 @@
     "catalogue": "pg",
     "detailStatus": "linked-unparsed",
     "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ec5001.htm"
+  },
+  "SDSC5001": {
+    "code": "SDSC5001",
+    "title": "Statistical Machine Learning I",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5001.htm"
+  },
+  "SDSC5002": {
+    "code": "SDSC5002",
+    "title": "Exploratory Data Analysis and Visualization",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5002.htm"
+  },
+  "SDSC5003": {
+    "code": "SDSC5003",
+    "title": "Storing and Retrieving Data",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5003.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc5003.htm"
+  },
+  "SDSC6001": {
+    "code": "SDSC6001",
+    "title": "Statistical Machine Learning II",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6001.htm"
+  },
+  "SDSC6002": {
+    "code": "SDSC6002",
+    "title": "Research Projects for Data Science",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6002.htm"
+  },
+  "SDSC6003": {
+    "code": "SDSC6003",
+    "title": "Bayesian Data Analysis",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6003.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6003.htm"
+  },
+  "SDSC6004": {
+    "code": "SDSC6004",
+    "title": "Topics of Artificial Intelligence for Smart Cities",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6004.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6004.htm"
+  },
+  "SDSC6006": {
+    "code": "SDSC6006",
+    "title": "Dissertation",
+    "credits": 6,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6006.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6006.htm"
+  },
+  "SDSC6007": {
+    "code": "SDSC6007",
+    "title": "Dynamic Programming and Reinforcement Learning",
+    "credits": 3,
+    "department": "Department of Data Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6007.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sdsc6007.htm"
+  },
+  "CS5611": {
+    "code": "CS5611",
+    "title": "Seminar on AI Ethics",
+    "credits": 1,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5611.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5611.htm"
+  },
+  "CS5493": {
+    "code": "CS5493",
+    "title": "Topics in Autonomous Driving",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5493.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5493.htm"
+  },
+  "CS6522": {
+    "code": "CS6522",
+    "title": "Project in Autonomous Driving",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6522.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6522.htm"
+  },
+  "CS6523": {
+    "code": "CS6523",
+    "title": "Internship in Autonomous Driving",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6523.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6523.htm"
+  },
+  "CS5494": {
+    "code": "CS5494",
+    "title": "Topics in Generative AI",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5494.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5494.htm"
+  },
+  "CS6524": {
+    "code": "CS6524",
+    "title": "Project in Generative AI",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6524.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6524.htm"
+  },
+  "CS6525": {
+    "code": "CS6525",
+    "title": "Internship in Generative AI",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6525.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6525.htm"
+  },
+  "CS5495": {
+    "code": "CS5495",
+    "title": "Explainable AI",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5495.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5495.htm"
+  },
+  "CS5297": {
+    "code": "CS5297",
+    "title": "Topics in AI Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5297.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5297.htm"
+  },
+  "CS6526": {
+    "code": "CS6526",
+    "title": "Project in Trustworthy AI",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6526.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6526.htm"
+  },
+  "CS6527": {
+    "code": "CS6527",
+    "title": "Internship in Trustworthy AI",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6527.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6527.htm"
+  },
+  "CS6528": {
+    "code": "CS6528",
+    "title": "Internship in Artificial Intelligence",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6528.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6528.htm"
+  },
+  "CS6529": {
+    "code": "CS6529",
+    "title": "Project in Artificial Intelligence",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6529.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6529.htm"
+  },
+  "CS5612": {
+    "code": "CS5612",
+    "title": "Seminar on Contemporary Cybersecurity",
+    "credits": 1,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5612.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5612.htm"
+  },
+  "CS5291": {
+    "code": "CS5291",
+    "title": "Cybersecurity Forensics and Incident Response",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5291.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5291.htm"
+  },
+  "CS5292": {
+    "code": "CS5292",
+    "title": "Cybersecurity Audits and Compliance",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5292.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5292.htm"
+  },
+  "CS6283": {
+    "code": "CS6283",
+    "title": "Advanced Topics in Mobile and IoT Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6283.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6283.htm"
+  },
+  "CS5295": {
+    "code": "CS5295",
+    "title": "Network and Cloud Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5295.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5295.htm"
+  },
+  "CS6284": {
+    "code": "CS6284",
+    "title": "Advanced Topics in Software Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6284.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6284.htm"
+  },
+  "CS5298": {
+    "code": "CS5298",
+    "title": "Blockchain and Web3.0 Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5298.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5298.htm"
+  },
+  "CS6531": {
+    "code": "CS6531",
+    "title": "Project in Cybersecurity",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6531.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6531.htm"
+  },
+  "CS6532": {
+    "code": "CS6532",
+    "title": "Internship in Cybersecurity",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6532.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6532.htm"
+  },
+  "CS5281": {
+    "code": "CS5281",
+    "title": "Internet Application Development",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5281.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5281.htm"
+  },
+  "IS5314": {
+    "code": "IS5314",
+    "title": "eBusiness System Integration",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5314.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5314.htm"
+  },
+  "IS5414": {
+    "code": "IS5414",
+    "title": "Analysis and Design of eCommerce Systems",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5414.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5414.htm"
+  },
+  "IS6321": {
+    "code": "IS6321",
+    "title": "Business Intelligence Applications",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6321.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6321.htm"
+  },
+  "IS6400": {
+    "code": "IS6400",
+    "title": "Business Data Analytics",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6400.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6400.htm"
+  },
+  "IS6640": {
+    "code": "IS6640",
+    "title": "Information Systems Planning and Strategy",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6640.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6640.htm"
+  },
+  "SEE5114": {
+    "code": "SEE5114",
+    "title": "Energy, Environment and Sustainable Development",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5114.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5114.htm"
+  },
+  "SEE6201": {
+    "code": "SEE6201",
+    "title": "Environmental and Energy Policy",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6201.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6201.htm"
+  },
+  "SEE5211": {
+    "code": "SEE5211",
+    "title": "Data Analysis in Environmental Applications",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5211.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5211.htm"
+  },
+  "SEE5212": {
+    "code": "SEE5212",
+    "title": "Environmental Pollution: Theories, Measurement and Mitigation",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5212.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5212.htm"
+  },
+  "SEE6103": {
+    "code": "SEE6103",
+    "title": "Energy Conversion: Theory and Methodology",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6103.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6103.htm"
+  },
+  "SEE6104": {
+    "code": "SEE6104",
+    "title": "Energy Conservation and Audit",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6104.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6104.htm"
+  },
+  "SEE6118": {
+    "code": "SEE6118",
+    "title": "Emerging Energy Technologies",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6118.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6118.htm"
+  },
+  "SEE6123": {
+    "code": "SEE6123",
+    "title": "Electrochemical Energy Storage",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6123.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6123.htm"
+  },
+  "SEE6124": {
+    "code": "SEE6124",
+    "title": "Fuel Processing",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6124.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6124.htm"
+  },
+  "SEE6125": {
+    "code": "SEE6125",
+    "title": "Carbon Capture Use and Storage",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6125.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6125.htm"
+  },
+  "SEE5201": {
+    "code": "SEE5201",
+    "title": "Air Pollution and Atmospheric Chemistry",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5201.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5201.htm"
+  },
+  "SEE6203": {
+    "code": "SEE6203",
+    "title": "Environmental Impact Assessment: Principles and Practice",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6203.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6203.htm"
+  },
+  "SEE6212": {
+    "code": "SEE6212",
+    "title": "Environmental Modelling",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6212.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6212.htm"
+  },
+  "SEE6213": {
+    "code": "SEE6213",
+    "title": "Wastewater Engineering and Water Quality Assessment",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6213.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6213.htm"
+  },
+  "SEE6214": {
+    "code": "SEE6214",
+    "title": "Solid Waste Treatment and Management",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6214.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6214.htm"
+  },
+  "SEE6224": {
+    "code": "SEE6224",
+    "title": "Environmental Engineering Science",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6224.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6224.htm"
+  },
+  "SEE5202": {
+    "code": "SEE5202",
+    "title": "Climate Change: Science, Adaptation and Mitigation",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5202.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see5202.htm"
+  },
+  "SEE6101": {
+    "code": "SEE6101",
+    "title": "Energy Generation and Storage Systems",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6101.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6101.htm"
+  },
+  "SEE6115": {
+    "code": "SEE6115",
+    "title": "Carbon Audit and Management",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6115.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6115.htm"
+  },
+  "SEE6122": {
+    "code": "SEE6122",
+    "title": "Advanced Thermosciences for Energy Engineering",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6122.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6122.htm"
+  },
+  "SEE6225": {
+    "code": "SEE6225",
+    "title": "Environmental Assessment",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6225.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6225.htm"
+  },
+  "SEE6999": {
+    "code": "SEE6999",
+    "title": "Dissertation",
+    "credits": 6,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6999.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6999.htm"
+  },
+  "LW6959": {
+    "code": "LW6959",
+    "title": "Energy and Environmental Law",
+    "credits": 6,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6959.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6959.htm"
   }
 }

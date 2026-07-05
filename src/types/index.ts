@@ -54,6 +54,13 @@ export interface PostgraduateSourceStatus {
   description: string;
 }
 
+export interface PostgraduateCourseListStatus {
+  kind: 'official-course-list' | 'course-list-unconfirmed' | 'research-not-course-based';
+  label: string;
+  description: string;
+  sourceUrl?: string;
+}
+
 export interface PostgraduateRequirementSection {
   key: string;
   title: string;
@@ -91,6 +98,7 @@ export interface PostgraduateProgramme {
   sampleScheduleUrl?: string;
   courseCatalogueUrl?: string;
   sourceStatus: PostgraduateSourceStatus;
+  courseListStatus?: PostgraduateCourseListStatus;
   requirements: PostgraduateRequirements;
   allCourses: string[];
   studyPlan: StudyPlan;

@@ -38,10 +38,17 @@ export default function CoveragePage() {
       .filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
       .sort((a, b) => a.code.localeCompare(b.code))
   ), [pgCourses])
+  const missingPgCourseLists = useMemo(() => (
+    postgraduateProgrammes
+      .filter((item) => item.type !== 'research-degree')
+      .filter((item) => item.courseListStatus?.kind === 'course-list-unconfirmed')
+      .sort((a, b) => a.code.localeCompare(b.code))
+  ), [postgraduateProgrammes])
   const pgSourceSummary = useMemo(() => ({
     total: postgraduateProgrammes.length,
     officialSample: postgraduateProgrammes.filter((item) => item.sourceStatus.kind === 'official-sample').length,
     diy: postgraduateProgrammes.filter((item) => item.sourceStatus.kind !== 'official-sample').length,
+    parsedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'official-course-list').length,
   }), [postgraduateProgrammes])
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -98,7 +105,7 @@ export default function CoveragePage() {
               PG 数据覆盖
             </h2>
             <p className="mt-1 text-sm text-gray-500 leading-relaxed">
-              已接入 {pgSourceSummary.total} 个硕博项目，其中 {pgSourceSummary.officialSample} 个有官方 sample schedule，{pgSourceSummary.diy} 个按要求显示 DIY 空表。
+              已接入 {pgSourceSummary.total} 个硕博项目，其中 {pgSourceSummary.officialSample} 个有官方 sample schedule，{pgSourceSummary.diy} 个按要求显示 DIY 空表，{pgSourceSummary.parsedCourseLists} 个已结构化课程池。
             </p>
           </div>
           <Link
@@ -109,6 +116,36 @@ export default function CoveragePage() {
             <ExternalLink className="w-4 h-4" />
           </Link>
         </div>
+
+        {missingPgCourseLists.length > 0 ? (
+          <div className="mt-4 rounded-lg border border-rose-100 bg-rose-50 p-4">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="w-5 h-5 text-rose-700 flex-shrink-0 mt-0.5" />
+              <div className="min-w-0">
+                <div className="font-semibold text-rose-900">PG 课程池待结构化</div>
+                <p className="mt-1 text-sm text-rose-800 leading-relaxed">
+                  这些授课型或专业博士项目目前只链接官方 programme page，尚未把 required / elective course list 解析到本站。
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {missingPgCourseLists.slice(0, 48).map((programme) => (
+                    <Link
+                      key={programme.code}
+                      to={`/postgraduate/${programme.code}`}
+                      className="rounded-lg border border-rose-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-rose-800 hover:border-rose-400 transition-colors"
+                    >
+                      {programme.code}
+                    </Link>
+                  ))}
+                  {missingPgCourseLists.length > 48 && (
+                    <span className="rounded-lg border border-rose-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-rose-800">
+                      +{missingPgCourseLists.length - 48} more
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : null}
 
         <div className="mt-4 rounded-lg border border-amber-100 bg-amber-50 p-4">
           <div className="flex items-start gap-3">

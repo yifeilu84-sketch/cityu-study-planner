@@ -37,6 +37,18 @@ const SOURCE_CLASSES: Record<PostgraduateProgramme['sourceStatus']['kind'], stri
   'research-diy': 'bg-slate-50 text-slate-700 border-slate-200',
 }
 
+const COURSE_LIST_CLASSES: Record<NonNullable<PostgraduateProgramme['courseListStatus']>['kind'], string> = {
+  'official-course-list': 'bg-emerald-50 text-emerald-700 border-emerald-100',
+  'course-list-unconfirmed': 'bg-rose-50 text-rose-700 border-rose-100',
+  'research-not-course-based': 'bg-slate-50 text-slate-700 border-slate-200',
+}
+
+const COURSE_LIST_PANEL_CLASSES: Record<NonNullable<PostgraduateProgramme['courseListStatus']>['kind'], string> = {
+  'official-course-list': 'border-emerald-100 bg-emerald-50 text-emerald-800',
+  'course-list-unconfirmed': 'border-rose-100 bg-rose-50 text-rose-800',
+  'research-not-course-based': 'border-slate-200 bg-slate-50 text-slate-700',
+}
+
 const SEMESTERS = [
   ['semA', 'Semester A'],
   ['semB', 'Semester B'],
@@ -108,6 +120,7 @@ export default function PostgraduateDetailPage() {
     { label: 'Curriculum overview', url: programme.curriculumUrl },
     { label: 'Sample schedule', url: programme.sampleScheduleUrl },
     { label: 'PG course catalogue', url: programme.courseCatalogueUrl },
+    { label: 'Course list source', url: programme.courseListStatus?.sourceUrl },
   ].filter((item): item is { label: string; url: string } => Boolean(item.url))
 
   return (
@@ -128,6 +141,11 @@ export default function PostgraduateDetailPage() {
               <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${SOURCE_CLASSES[programme.sourceStatus.kind]}`}>
                 {programme.sourceStatus.label}
               </span>
+              {programme.courseListStatus ? (
+                <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${COURSE_LIST_CLASSES[programme.courseListStatus.kind]}`}>
+                  {programme.courseListStatus.label}
+                </span>
+              ) : null}
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">{programme.title}</h1>
             <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-sm">
@@ -173,6 +191,13 @@ export default function PostgraduateDetailPage() {
             </div>
           </div>
         </div>
+
+        {programme.courseListStatus ? (
+          <div className={`mt-3 rounded-lg border p-3 ${COURSE_LIST_PANEL_CLASSES[programme.courseListStatus.kind]}`}>
+            <div className="font-semibold text-sm">Course list status: {programme.courseListStatus.label}</div>
+            <p className="mt-1 text-sm leading-relaxed">{programme.courseListStatus.description}</p>
+          </div>
+        ) : null}
       </section>
 
       {studyPlanVariants.length > 1 && (
@@ -353,7 +378,7 @@ export default function PostgraduateDetailPage() {
               </div>
             ) : (
               <div className="rounded-lg border border-dashed border-gray-200 bg-gray-50 p-4 text-sm text-gray-500 leading-relaxed">
-                官方课程池尚未结构化到本站。请打开官方 programme page 核对 required / elective / research requirements 后自行填入 DIY 表格。
+                {programme.courseListStatus?.description ?? '官方课程池尚未结构化到本站。请打开官方 programme page 核对 required / elective / research requirements 后自行填入 DIY 表格。'}
               </div>
             )}
           </section>
