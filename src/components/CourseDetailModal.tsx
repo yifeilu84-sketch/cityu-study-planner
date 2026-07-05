@@ -80,6 +80,9 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
     pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : course.courseUrl),
     sourceKind: course.catalogue === 'pg' ? 'pg-catalogue' : course.geSource ? 'official-ge-page' : 'course-pdf',
   })
+  const pgDetailReviewMessage = course.detailStatus === 'official-page-missing'
+    ? '已保留 CityUHK PG Course Catalogue current 链接；自动核对未命中 2026/27-2017/18 年度课程页，请人工打开官网确认 assessment / exam。'
+    : '已链接 CityUHK PG Course Catalogue；assessment / exam 等细项仍需打开官方课程页核对。'
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" onClick={onClose}>
@@ -192,7 +195,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
               <div>
                 <div className="font-medium text-amber-900">官方课程详情未确认</div>
                 <div className="text-sm text-amber-800 mt-1">
-                  已链接 CityUHK PG Course Catalogue；assessment / exam 等细项仍需打开官方课程页核对。
+                  {pgDetailReviewMessage}
                 </div>
               </div>
             </div>

@@ -1042,18 +1042,33 @@ test('research postgraduate programmes expose real coursework pools for DIY plan
 })
 
 test('postgraduate course details include assessment metadata for parsed PG courses', () => {
-  const requiredCodes = ['CS5222', 'CS5351', 'CS5481', 'CS6520']
+  const requiredCourses = {
+    CS5222: { continuous: '30%', exam: '70%', examDuration: '2 hours' },
+    CS5351: { continuous: '60%', exam: '40%', examDuration: '2 hours' },
+    CS5481: { continuous: '60%', exam: '40%', examDuration: '2 hours' },
+    CS6520: { continuous: '100%' },
+    SDSC5001: { continuous: '50%', exam: '50%', examDuration: '2 hours' },
+  }
+  const placeholderDetails = 'Official PG catalogue page linked; detailed assessment should be checked from the course page.'
+  const parsedCourses = Object.values(pgCourses).filter((course) => course.catalogue === 'pg' && course.detailStatus === 'parsed')
+  const unresolvedCourses = Object.values(pgCourses).filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
 
-  for (const code of requiredCodes) {
+  assert.ok(parsedCourses.length >= 900, `expected at least 900 PG courses with official assessment parsed, got ${parsedCourses.length}`)
+  assert.ok(unresolvedCourses.length <= 20, `expected at most 20 PG courses pending manual detail review, got ${unresolvedCourses.length}`)
+
+  for (const [code, expected] of Object.entries(requiredCourses)) {
     const course = pgCourses[code]
     assert.ok(course, `${code} should exist in pg-courses.json`)
     assert.equal(course.catalogue, 'pg')
     assert.ok(course.courseUrl?.includes('/catalogue/pg/current/course/'), `${code} should link to PG course catalogue`)
     assert.ok(course.assessment?.continuous || course.assessment?.exam || course.assessment?.details, `${code} should include assessment`)
+    assert.equal(course.detailStatus, 'parsed', `${code} should be parsed from an official PG catalogue page`)
+    assert.equal(course.assessment.continuous, expected.continuous, `${code} should expose official continuous assessment`)
+    if (expected.exam) assert.equal(course.assessment.exam, expected.exam, `${code} should expose official examination weighting`)
+    if (expected.examDuration) assert.equal(course.assessment.examDuration, expected.examDuration, `${code} should expose official examination duration`)
+    assert.notEqual(course.assessment.details, placeholderDetails, `${code} should not keep the default PG placeholder details`)
+    assert.ok(course.pdfUrl?.includes(`/pg/`) && course.pdfUrl.endsWith(`/${code}.pdf`), `${code} should link to the official syllabus PDF`)
   }
-
-  assert.equal(pgCourses.CS5222.assessment.continuous, '30%')
-  assert.equal(pgCourses.CS5222.assessment.exam, '70%')
 })
 
 test('postgraduate detail route and global search are wired', async () => {

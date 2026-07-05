@@ -1,6 +1,7 @@
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 
 const DATA_DIR = 'src/data'
+const PG_COURSE_DETAILS_FILE = `${DATA_DIR}/pg-course-details.json`
 
 const SOURCE = {
   officialSample: {
@@ -67,6 +68,16 @@ function programmeUrl(college, department, code) {
 function clone(value) {
   return JSON.parse(JSON.stringify(value))
 }
+
+function loadPgCourseDetails() {
+  if (!existsSync(PG_COURSE_DETAILS_FILE)) return {}
+  const parsed = JSON.parse(readFileSync(PG_COURSE_DETAILS_FILE, 'utf8'))
+  return Object.fromEntries(
+    Object.entries(parsed).filter(([code]) => !code.startsWith('_')),
+  )
+}
+
+const pgCourseDetails = loadPgCourseDetails()
 
 function emptySemester() {
   return { courses: [], credits: 0 }
@@ -4876,6 +4887,29 @@ const programmes = [
   const typeOrder = ['taught-master', 'research-degree', 'professional-doctorate']
   return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type) || a.college.localeCompare(b.college) || a.code.localeCompare(b.code)
 })
+
+function applyPgCourseDetails() {
+  for (const [code, detail] of Object.entries(pgCourseDetails)) {
+    const course = pgCourses[code]
+    if (!course) continue
+
+    if (detail.assessment) {
+      course.assessment = {
+        ...course.assessment,
+        ...detail.assessment,
+      }
+    }
+    if (detail.detailStatus) course.detailStatus = detail.detailStatus
+    if (detail.pdfUrl) course.pdfUrl = detail.pdfUrl
+    if (detail.sourceUrl) course.sourceUrl = detail.sourceUrl
+    if (detail.sourceYear) course.sourceYear = detail.sourceYear
+    if (detail.semester) course.semester = detail.semester
+    if (detail.prerequisitesRaw) course.prerequisitesRaw = detail.prerequisitesRaw
+    if (detail.sourceCheckedYears) course.sourceCheckedYears = detail.sourceCheckedYears
+  }
+}
+
+applyPgCourseDetails()
 
 mkdirSync(DATA_DIR, { recursive: true })
 writeFileSync(`${DATA_DIR}/postgraduate-programmes.json`, `${JSON.stringify(programmes, null, 2)}\n`)

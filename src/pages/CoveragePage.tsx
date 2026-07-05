@@ -38,6 +38,13 @@ export default function CoveragePage() {
       .filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
       .sort((a, b) => a.code.localeCompare(b.code))
   ), [pgCourses])
+  const pgCourseDetailSummary = useMemo(() => {
+    const courses = Object.values(pgCourses).filter((course) => course.catalogue === 'pg')
+    return {
+      total: courses.length,
+      parsed: courses.filter((course) => course.detailStatus === 'parsed').length,
+    }
+  }, [pgCourses])
   const missingPgCourseLists = useMemo(() => (
     postgraduateProgrammes
       .filter((item) => item.type !== 'research-degree')
@@ -151,9 +158,9 @@ export default function CoveragePage() {
           <div className="flex items-start gap-3">
             <AlertTriangle className="w-5 h-5 text-amber-700 flex-shrink-0 mt-0.5" />
             <div className="min-w-0">
-              <div className="font-semibold text-amber-900">PG 课程详情待确认</div>
+              <div className="font-semibold text-amber-900">PG 课程详情剩余待核对</div>
               <p className="mt-1 text-sm text-amber-800 leading-relaxed">
-                以下 PG 课程已链接 CityUHK PG Course Catalogue，但 assessment / exam / duration 尚未从官方课程页完全解析。
+                已从 CityUHK PG Course Catalogue 年度课程页解析 {pgCourseDetailSummary.parsed}/{pgCourseDetailSummary.total} 门 PG 课程的 assessment / exam / duration。以下剩余课程保留 current catalogue 链接，但 2026/27-2017/18 年度页未命中，需人工打开官网核对。
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {pendingPgCourses.slice(0, 40).map((course) => (

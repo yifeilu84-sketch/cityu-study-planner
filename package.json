@@ -11,6 +11,7 @@
     "apply:ge": "node scripts/apply-ge-official-metadata.mjs",
     "build:academic": "node scripts/import-academic-data.mjs",
     "build:pg": "node scripts/build-postgraduate-data.mjs",
+    "fetch:pg-details": "node scripts/fetch-pg-course-details.mjs",
     "build:search": "node scripts/build-search-index.mjs",
     "split:majors": "node scripts/split-major-data.mjs",
     "prepare:data": "npm run apply:ge && npm run build:pg && npm run build:academic && npm run split:majors && npm run build:search",
