@@ -570,3 +570,33 @@ test('global search can filter major results by source confidence', async () => 
   const diy = searchPlanner(index, 'PRIME', { sourceKind: 'diy', limit: 20 })
   assert.deepEqual(diy.majors.map((item) => item.code), ['CENG_PRIME-1'])
 })
+
+test('major comparison summarizes credits, source confidence, and overlapping courses', async () => {
+  const { buildMajorComparison, findCompareCandidates } = await import('../src/utils/majorComparison.ts')
+
+  const comparison = buildMajorComparison(majors, ['BSC1_CSC1-1', 'BSC1_CYBE-1'])
+
+  assert.deepEqual(comparison.items.map((item) => item.code), ['BSC1_CSC1-1', 'BSC1_CYBE-1'])
+  assert.equal(comparison.items[0].totalCredits, 122)
+  assert.equal(comparison.items[1].totalCredits, 121)
+  assert.equal(comparison.sourceCounts.official, 2)
+  assert.ok(comparison.overlaps.some((item) => item.code === 'MA1503' && item.majorCodes.length === 2))
+  assert.ok(comparison.overlaps.every((item) => !isGeneric(item.code)))
+  assert.equal(comparison.overlaps.some((item) => /^GE\d{4}$/.test(item.code)), false)
+  assert.ok(comparison.items.every((item) => item.requirementRows.some((row) => row.key === 'majorCore' && row.credits > 0)))
+
+  const candidates = findCompareCandidates(majors, 'computer', ['BSC1_CSC1-1'], 5)
+  assert.equal(candidates.some((item) => item.code === 'BSC1_CSC1-1'), false)
+  assert.ok(candidates.some((item) => item.code === 'BSC1_CYBE-1' || item.code === 'BSC1_CM-1'))
+})
+
+test('major comparison page is wired into navigation and routes', () => {
+  const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+  const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+
+  assert.ok(app.includes('ComparePage'))
+  assert.ok(app.includes('path="/compare"'))
+  assert.ok(layout.includes('专业对比'))
+  assert.ok(home.includes('/compare'))
+})

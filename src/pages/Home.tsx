@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, BookOpen, Building2, Database, GraduationCap, Search, ShieldCheck } from 'lucide-react'
+import { ArrowRight, BookOpen, Building2, Database, GitCompareArrows, GraduationCap, Search, ShieldCheck } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import majorIndex from '../data/majors-index.json'
 import CourseDetailModal from '../components/CourseDetailModal'
@@ -224,7 +224,7 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 gap-3">
+          <div className="mb-6 grid grid-cols-1 lg:grid-cols-3 gap-3">
             <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
@@ -251,6 +251,22 @@ export default function Home() {
                 className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
               >
                 打开 GE 工具
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div>
+                <div className="font-bold text-gray-800 flex items-center gap-2">
+                  <GitCompareArrows className="w-4 h-4 text-cityu-accent" />
+                  专业对比
+                </div>
+                <div className="text-sm text-gray-500">并排查看 2-3 个专业的学分结构、来源可信度和重叠课程。</div>
+              </div>
+              <Link
+                to="/compare"
+                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+              >
+                打开对比
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
