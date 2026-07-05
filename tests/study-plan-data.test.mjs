@@ -982,6 +982,61 @@ test('postgraduate taught programmes without parsed course lists are explicitly 
   assert.deepEqual(silentMissing, [])
 })
 
+test('every postgraduate programme exposes a non-empty DIY picker pool', () => {
+  const emptyPools = postgraduateProgrammes
+    .map((programme) => {
+      const requirementCourses = programme.requirements.sections.flatMap((section) => section.courses ?? [])
+      const allCourseCodes = programme.allCourses ?? []
+      return {
+        code: programme.code,
+        poolSize: requirementCourses.length + allCourseCodes.length,
+      }
+    })
+    .filter((item) => item.poolSize === 0)
+    .map((item) => item.code)
+
+  assert.deepEqual(emptyPools, [])
+})
+
+test('research postgraduate programmes expose real coursework pools for DIY planning', () => {
+  const reports = []
+  const expectedCoursework = {
+    RPG_CS: ['SG8001', 'SG8002', 'CS6382', 'CS6491', 'CS8692', 'CS8695'],
+    RPG_MNE: ['SG8001', 'SG8002', 'MNE8009', 'MNE8108', 'MNE8121'],
+    RPG_MGT: ['SG8001', 'SG8002', 'MGT8904', 'MGT5313', 'MGT6202', 'MGT6314'],
+    RPG_LAW: ['SG8001', 'SG8002', 'LW6100E', 'LW6132E'],
+    RPG_LT: ['SG8001', 'SG8002', 'LT8806', 'LT8808', 'LT8809'],
+  }
+
+  for (const programme of postgraduateProgrammes.filter((item) => item.type === 'research-degree')) {
+    const pool = programme.requirements.sections.flatMap((section) => section.courses ?? [])
+    const codes = new Set(pool.map((course) => course.code))
+    if (pool.length < 5) reports.push(`${programme.code}: missing research coursework pool`)
+    if (!codes.has('SG8001')) reports.push(`${programme.code}: missing SG8001`)
+    if (!codes.has('SG8002')) reports.push(`${programme.code}: missing SG8002`)
+    if (!pool.some((course) => !course.code.startsWith('SG'))) reports.push(`${programme.code}: missing department coursework candidates`)
+    if (programme.courseListStatus?.kind !== 'official-course-list') reports.push(`${programme.code}: coursework source not marked official-course-list`)
+    for (const course of pool) {
+      if (course.sourceOnly || course.code.startsWith('PGRSCH_') || course.code.startsWith('PGTITLE_')) {
+        reports.push(`${programme.code}: ${course.code} should be a real coursework option`)
+      }
+      if (!pgCourses[course.code]) {
+        reports.push(`${programme.code}: ${course.code} missing from pg-courses.json`)
+      }
+    }
+  }
+
+  for (const [programmeCode, requiredCodes] of Object.entries(expectedCoursework)) {
+    const programme = postgraduateProgrammes.find((item) => item.code === programmeCode)
+    const codes = new Set(programme.requirements.sections.flatMap((section) => section.courses ?? []).map((course) => course.code))
+    for (const code of requiredCodes) {
+      if (!codes.has(code)) reports.push(`${programmeCode}: missing official coursework ${code}`)
+    }
+  }
+
+  assert.deepEqual(reports, [])
+})
+
 test('postgraduate course details include assessment metadata for parsed PG courses', () => {
   const requiredCodes = ['CS5222', 'CS5351', 'CS5481', 'CS6520']
 

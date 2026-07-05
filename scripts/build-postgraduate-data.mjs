@@ -16,7 +16,7 @@ const SOURCE = {
   researchDiy: {
     kind: 'research-diy',
     label: 'Research DIY planner',
-    description: 'Research degrees are not converted into a taught-course semester plan. Use the empty grid with research milestones and official research areas.',
+    description: 'Research degrees are not converted into a fixed semester plan. Use the empty grid with the coursework pool, research milestones and official research areas.',
   },
 }
 
@@ -42,10 +42,13 @@ const COURSE_LIST_STATUS = {
     label: 'Course list not yet structured',
     description: 'The official programme page is linked, but this site has not yet structured the required/elective course list for this programme.',
   },
-  research: {
-    kind: 'research-not-course-based',
-    label: 'Research degree requirements',
-    description: 'Research postgraduate programmes are not represented as fixed taught-course pools unless the department publishes approved coursework requirements.',
+  research(sourceUrl) {
+    return {
+      kind: 'official-course-list',
+      label: 'Research coursework pool parsed',
+      description: 'Research postgraduate degrees have coursework requirements. This pool combines SGS research coursework entries, department-approved research courses where published, and CityUHK PG catalogue courses from the same academic unit. The semester grid remains DIY because no fixed study schedule is published.',
+      sourceUrl,
+    }
   },
 }
 
@@ -1041,6 +1044,223 @@ addPgCourses([
   ['LW6198E', 'Intellectual Property: Law, Practice and Procedure', 3],
 ], 'School of Law')
 
+const RESEARCH_COURSE_BASE_URL = 'https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist'
+
+const RESEARCH_COURSE_SOURCES = {
+  SGS: `${RESEARCH_COURSE_BASE_URL}/sgs`,
+  AC: `${RESEARCH_COURSE_BASE_URL}/ac`,
+  ACE: `${RESEARCH_COURSE_BASE_URL}/ace`,
+  BME: `${RESEARCH_COURSE_BASE_URL}/bme`,
+  BMS: `${RESEARCH_COURSE_BASE_URL}/bms`,
+  CAH: `${RESEARCH_COURSE_BASE_URL}/cah`,
+  CHEM: `${RESEARCH_COURSE_BASE_URL}/chem`,
+  COM: `${RESEARCH_COURSE_BASE_URL}/com`,
+  CS: `${RESEARCH_COURSE_BASE_URL}/cs`,
+  DS: `${RESEARCH_COURSE_BASE_URL}/sdsc`,
+  E2: `${RESEARCH_COURSE_BASE_URL}/see`,
+  EE: `${RESEARCH_COURSE_BASE_URL}/ee`,
+  EF: `${RESEARCH_COURSE_BASE_URL}/ef`,
+  EN: `${RESEARCH_COURSE_BASE_URL}/en`,
+  IDPH: `${RESEARCH_COURSE_BASE_URL}/ph`,
+  IS: `${RESEARCH_COURSE_BASE_URL}/is`,
+  LAW: `${RESEARCH_COURSE_BASE_URL}/slw`,
+  LT: `${RESEARCH_COURSE_BASE_URL}/lt`,
+  MATH: `${RESEARCH_COURSE_BASE_URL}/ma`,
+  MGT: `${RESEARCH_COURSE_BASE_URL}/mgt`,
+  MKT: `${RESEARCH_COURSE_BASE_URL}/mkt`,
+  MNE: `${RESEARCH_COURSE_BASE_URL}/mne`,
+  MSE: `${RESEARCH_COURSE_BASE_URL}/mse`,
+  MS: `${RESEARCH_COURSE_BASE_URL}/dao`,
+  NS: `${RESEARCH_COURSE_BASE_URL}/ns`,
+  PHY: `${RESEARCH_COURSE_BASE_URL}/phy`,
+  PIA: `${RESEARCH_COURSE_BASE_URL}/pia`,
+  SCM: `${RESEARCH_COURSE_BASE_URL}/scm`,
+  SS: `${RESEARCH_COURSE_BASE_URL}/ss`,
+  SYE: `${RESEARCH_COURSE_BASE_URL}/sye`,
+  VCS: `${RESEARCH_COURSE_BASE_URL}/vcs`,
+}
+
+function addResearchCourses(entries, department, sourceUrl) {
+  for (const [code, title, credits = 3] of entries) {
+    if (!pgCourses[code]) {
+      pgCourses[code] = makeCourse(code, title, credits, {
+        department,
+        sourceUrl,
+        detailStatus: 'linked-unparsed',
+        assessment: {
+          details: 'Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department.',
+        },
+      })
+    }
+  }
+}
+
+addResearchCourses([
+  ['SG8001', 'Teaching Students: First Steps', 1],
+  ['SG8002', 'English for the Medium of Instruction', 1],
+], 'Chow Yei Ching School of Graduate Studies', RESEARCH_COURSE_SOURCES.SGS)
+
+addResearchCourses([
+  ['BME8103', 'Manufacturing of Biomedical Devices', 3],
+  ['BME8122', 'Biomedical Engineering Design', 3],
+  ['BME8125', 'Micro Systems Technology', 3],
+  ['BME8127', 'Biomedical Instrumentation', 3],
+  ['BME8130', 'Biomedical Safety and Risk Assessment', 3],
+  ['BME8131', 'Biomedical Imaging and Biophotonics', 3],
+  ['BME8132', 'Biomechanics', 3],
+], 'Department of Biomedical Engineering', RESEARCH_COURSE_SOURCES.BME)
+
+addResearchCourses([
+  ['BMS8101A', 'Biomedical Research Seminar A', 1],
+  ['BMS8101B', 'Biomedical Research Seminar B', 1],
+  ['BMS8101C', 'Biomedical Research Seminar C', 1],
+  ['BMS8101D', 'Biomedical Research Seminar D', 1],
+  ['BMS8102', 'Frontiers in Biomedical Research', 2],
+], 'Department of Biomedical Sciences', RESEARCH_COURSE_SOURCES.BMS)
+
+addResearchCourses([
+  ['CA8004', 'Postgraduate Seminar', 3],
+  ['CA8018', 'Modelling and Computational Techniques', 3],
+  ['CA8028', 'Strategies for Planning and Design', 3],
+], 'Department of Architecture and Civil Engineering', RESEARCH_COURSE_SOURCES.ACE)
+
+addResearchCourses([
+  ['CAH8808', 'Research Methods for Humanities Studies', 3],
+], 'Department of Chinese and History', RESEARCH_COURSE_SOURCES.CAH)
+
+addResearchCourses([
+  ['CHEM8007B', 'Window on Science B', 3],
+], 'Department of Chemistry', RESEARCH_COURSE_SOURCES.CHEM)
+
+addResearchCourses([
+  ['CS8692', 'Comprehensive Studies in Selected Topics in Computer Science', 3],
+  ['CS8695', 'Research In Computer Science', 2],
+], 'Department of Computer Science', RESEARCH_COURSE_SOURCES.CS)
+
+addResearchCourses([
+  ['EE8001', 'Guided Studies', 3],
+  ['EE5435', 'Advanced Topics in Applied Electromagnetics', 3],
+  ['EE6453', 'Mobile Communication and Networks', 3],
+  ['EE6624', 'Advanced Topics in Power and Energy Systems', 3],
+  ['EE8461', 'Research Seminar I', 0.5],
+  ['EE8462', 'Research Seminar II', 0.5],
+], 'Department of Electrical Engineering', RESEARCH_COURSE_SOURCES.EE)
+
+addResearchCourses([
+  ['EF8070', 'Advanced Microeconomics', 3],
+  ['EF8090', 'Advanced Econometrics', 3],
+], 'Department of Economics and Finance', RESEARCH_COURSE_SOURCES.EF)
+
+addResearchCourses([
+  ['EN5315', 'Analysing Specialised Texts for Applied Purposes', 3],
+  ['EN5450', 'Survey of Literary Genres', 3],
+  ['EN8001', 'English Department Research Students Seminar I', 2],
+  ['EN8002', 'English Department Research Students Seminar II', 2],
+  ['EN8014', 'English Department Research Students Seminar III', 2],
+], 'Department of English', RESEARCH_COURSE_SOURCES.EN)
+
+addResearchCourses([
+  ['LT8806', 'Advanced Topics in Linguistics Research', 3],
+  ['LT8807', 'Advanced Topics in Translation and Interpretation Research', 3],
+  ['LT8808', 'Research Methodology for Language Studies', 3],
+  ['LT8809', 'Research Student Seminar', 3],
+], 'Department of Linguistics and Translation', RESEARCH_COURSE_SOURCES.LT)
+
+addResearchCourses([
+  ['LW6100E', 'Advanced Legal Research Methodology', 3],
+  ['LW6132E', 'Theory and Practice of Comparative Law', 3],
+], 'School of Law', RESEARCH_COURSE_SOURCES.LAW)
+
+addResearchCourses([
+  ['MA8004', 'Selected Topics in Applied Analysis', 3],
+  ['MA8005', 'Advanced Partial Differential Equations I', 3],
+  ['MA8006', 'Functional Analysis and Applications', 3],
+  ['MA8014', 'Advanced Methods for Scientific Computation', 3],
+  ['MA8019', 'Topics in Applied Mathematics', 3],
+], 'Department of Mathematics', RESEARCH_COURSE_SOURCES.MATH)
+
+addResearchCourses([
+  ['MGT8904', 'Advanced Topics in Organizational Behavior and Human Resource Management', 3],
+  ['MGT8905', 'Directed Studies in Organization and Strategy', 3],
+  ['MGT8906', 'Advanced Topics in Organization and Strategy', 3],
+  ['MGT8907', 'Directed Studies in Organizational Behavior and Human Resource Management', 3],
+], 'Department of Management', RESEARCH_COURSE_SOURCES.MGT)
+
+addResearchCourses([
+  ['MKT8630', 'Doctoral Studies: Marketing Modeling', 3],
+  ['MKT8631', 'Doctoral Studies: Marketing Theory', 3],
+  ['MKT8632', 'Doctoral Studies: Marketing Strategy', 3],
+], 'Department of Marketing', RESEARCH_COURSE_SOURCES.MKT)
+
+addResearchCourses([
+  ['MNE8001', 'Comprehensive Studies', 3],
+  ['MNE8009', 'Research Methodology', 2],
+  ['MNE8101', 'Special Topics on Advanced Structural Materials', 3],
+  ['MNE8102', 'Kinetics in Nanoscale Materials', 3],
+  ['MNE8104', 'Nano-manufacturing', 3],
+  ['MNE8105', 'Mechanical Behaviour of Materials: From Metallic to Biomedical/Biological Materials', 3],
+  ['MNE8106', 'Electron Microscopy', 3],
+  ['MNE8108', 'Engineering Methods', 3],
+  ['MNE8109', 'Thermodynamics and Kinetics', 3],
+  ['MNE8110', 'Sensors for Robotics, AI, and Control Systems', 3],
+  ['MNE8111', 'Advanced Thermal Fluids', 3],
+  ['MNE8112', 'CAD/CAM/CAE Integration', 3],
+  ['MNE8113', 'Applied Engineering Mechanics', 3],
+  ['MNE8114', 'Fundamentals of Nuclear Engineering', 3],
+  ['MNE8116', 'Computer Controlled Systems', 3],
+  ['MNE8117', 'Micro Systems Technology', 3],
+  ['MNE8118', 'Advanced Automation Technology', 3],
+  ['MNE8119', 'Sustainable Green Manufacturing', 3],
+  ['MNE8120', 'Microfluidics: From Fundamentals to Applications', 3],
+  ['MNE8121', 'Advanced Machine Learning and Quantum Computation for Engineering', 3],
+  ['MNE8122', 'Advanced Topics in Nonlinear Dynamics, Vibration and Control', 3],
+], 'Department of Mechanical Engineering', RESEARCH_COURSE_SOURCES.MNE)
+
+addResearchCourses([
+  ['MSE8001', 'Survival Skills for Research Scientists', 2],
+], 'Department of Materials Science and Engineering', RESEARCH_COURSE_SOURCES.MSE)
+
+addResearchCourses([
+  ['MS8944', 'Probability and Markov Chain Models', 3],
+  ['MS8945', 'Stochastic Operations Research', 3],
+  ['MS8952', 'Introduction to Mathematical Statistics', 3],
+  ['MS8953', 'Optimization Theory and Method', 3],
+  ['MS8956', 'Advanced Regression Techniques', 3],
+], 'Department of Management Sciences', RESEARCH_COURSE_SOURCES.MS)
+
+addResearchCourses([
+  ['PH6201', 'Advanced Epidemiology', 3],
+  ['PH8002', 'Infectious Disease Epidemiology', 3],
+  ['PH8004', 'Animal Welfare and Research Ethics', 2],
+  ['PH8005', 'Principles of Immunology', 3],
+  ['PH8006', 'Advanced Molecular Diagnostics and Imaging', 3],
+  ['PH8007', 'Medical Imaging Instrumentation for Research and Clinical Practice', 3],
+  ['PH8008', 'Multiplanar Anatomy', 3],
+], 'Department of Infectious Diseases and Public Health', RESEARCH_COURSE_SOURCES.IDPH)
+
+addResearchCourses([
+  ['SEE8002', 'Scientific Writing and Communication', 3],
+  ['SEE8003', 'Skills for Scientists', 2],
+  ['SEE8212', 'Data Analysis in Environmental Applications', 3],
+], 'School of Energy and Environment', RESEARCH_COURSE_SOURCES.E2)
+
+addResearchCourses([
+  ['SM8402', 'Research Skills and Methods', 3],
+], 'School of Creative Media', RESEARCH_COURSE_SOURCES.SCM)
+
+addResearchCourses([
+  ['ADSE8201', 'Optimization and Applications', 3],
+  ['ADSE8202', 'Systems Modelling and Management', 3],
+], 'Department of Systems Engineering', RESEARCH_COURSE_SOURCES.SYE)
+
+addResearchCourses([
+  ['VCS8002', 'Grant Writing and Peer Review', 2],
+  ['VCS8003A', 'Frontiers in Veterinary Medical Research (A)', 1],
+  ['VCS8003B', 'Frontiers in Veterinary Medical Research (B)', 1],
+  ['VCS8003C', 'Frontiers in Veterinary Medical Research (C)', 1],
+  ['VCS8003D', 'Frontiers in Veterinary Medical Research (D)', 1],
+], 'Department of Veterinary Clinical Sciences', RESEARCH_COURSE_SOURCES.VCS)
+
 function ref(code, overrides = {}) {
   const course = pgCourses[code]
   return {
@@ -1068,6 +1288,152 @@ function refs(codes) {
 
 function titleRefs(programmeCode, titles, credits = 3) {
   return titles.map((title) => titleRef(programmeCode, title, credits))
+}
+
+const RESEARCH_COMMON_CODES = ['SG8001', 'SG8002']
+
+const RESEARCH_PROGRAMME_SOURCE_KEYS = {
+  RPG_AC: 'AC',
+  RPG_ACE: 'ACE',
+  RPG_BME: 'BME',
+  RPG_BMS: 'BMS',
+  RPG_CAH: 'CAH',
+  RPG_CHEM: 'CHEM',
+  RPG_COM: 'COM',
+  RPG_CS: 'CS',
+  RPG_DS: 'DS',
+  RPG_E2: 'E2',
+  RPG_EE: 'EE',
+  RPG_EF: 'EF',
+  RPG_EN: 'EN',
+  RPG_IDPH: 'IDPH',
+  RPG_IS: 'IS',
+  RPG_LAW: 'LAW',
+  RPG_LT: 'LT',
+  RPG_MATH: 'MATH',
+  RPG_MGT: 'MGT',
+  RPG_MKT: 'MKT',
+  RPG_MNE: 'MNE',
+  RPG_MSE: 'MSE',
+  RPG_MS: 'MS',
+  RPG_NS: 'NS',
+  RPG_PHY: 'PHY',
+  RPG_PIA: 'PIA',
+  RPG_SCM: 'SCM',
+  RPG_SS: 'SS',
+  RPG_SYE: 'SYE',
+  RPG_VCS: 'VCS',
+}
+
+const RESEARCH_EXPLICIT_CODES = {
+  RPG_AC: ['AC5511', 'AC5690', 'AC6533', 'AC6761'],
+  RPG_ACE: ['CA8004', 'CA8018', 'CA8028'],
+  RPG_BME: ['BME8103', 'BME8122', 'BME8125', 'BME8127', 'BME8130', 'BME8131', 'BME8132'],
+  RPG_BMS: ['BMS8101A', 'BMS8101B', 'BMS8101C', 'BMS8101D', 'BMS8102', 'BMS8103', 'BMS8105', 'BMS8106', 'BMS8107', 'BMS8110'],
+  RPG_CAH: ['CAH8808', 'CAH5741', 'CLA5002'],
+  RPG_CHEM: ['CHEM8007B', 'CHEM6134'],
+  RPG_COM: ['COM5104', 'COM5105', 'COM5506'],
+  RPG_CS: ['CS6382', 'CS6491', 'CS8692', 'CS8695'],
+  RPG_DS: ['SDSC8007', 'SDSC8009', 'DSC6008', 'DSC6020', 'DSC6022'],
+  RPG_E2: ['SEE8002', 'SEE8003', 'SEE8212'],
+  RPG_EE: ['EE8001', 'EE8461', 'EE8462', 'EE5410', 'EE5435', 'EE6453', 'EE6624'],
+  RPG_EF: ['EF8070', 'EF8090', 'EF5042', 'EF5052'],
+  RPG_EN: ['EN8001', 'EN8002', 'EN8014', 'EN5315', 'EN5450'],
+  RPG_IDPH: ['PH6201', 'PH8001', 'PH8002', 'PH8003', 'PH8004', 'PH8005', 'PH8006', 'PH8007', 'PH8008'],
+  RPG_IS: ['IS6000', 'IS6400', 'IS6640'],
+  RPG_LAW: ['LW6100E', 'LW6132E', 'LW6102E', 'LW6181E'],
+  RPG_LT: ['LT8806', 'LT8807', 'LT8808', 'LT8809'],
+  RPG_MATH: ['MA8004', 'MA8005', 'MA8006', 'MA8014', 'MA8019'],
+  RPG_MGT: ['MGT8904', 'MGT8905', 'MGT8906', 'MGT8907', 'MGT5313', 'MGT6202', 'MGT6314'],
+  RPG_MKT: ['MKT8630', 'MKT8631', 'MKT8632', 'MKT6614'],
+  RPG_MNE: ['MNE8009', 'MNE8108', 'MNE8109', 'MNE8110', 'MNE8111', 'MNE8113', 'MNE8114', 'MNE8121', 'MNE8122'],
+  RPG_MSE: ['MSE8001', 'MSE5301', 'MSE5303', 'MSE6183'],
+  RPG_MS: ['MS8944', 'MS8945', 'MS8952', 'MS8953', 'MS8956'],
+  RPG_NS: ['NS5001', 'NS5004', 'NS8002', 'NS6002'],
+  RPG_PHY: ['PHY5503', 'PHY5504', 'PHY5505', 'PHY5506', 'PHY6502', 'PHY6603', 'PHY6604'],
+  RPG_PIA: ['PIA5003', 'PIA6803', 'PIA6501', 'PIA6505'],
+  RPG_SCM: ['SM8402', 'SM5358', 'SM6317'],
+  RPG_SS: ['SS5790', 'SS5791', 'SS5792', 'SS5793'],
+  RPG_SYE: ['ADSE8201', 'ADSE8202', 'SYE8202', 'SYE8204', 'SYE8205'],
+  RPG_VCS: ['VCS8001', 'VCS8002', 'VCS8003A', 'VCS8003B', 'VCS8003C', 'VCS8003D'],
+}
+
+const RESEARCH_PREFIXES = {
+  RPG_AC: ['AC'],
+  RPG_ACE: [],
+  RPG_BME: ['BME'],
+  RPG_BMS: ['BMS', 'BIOS'],
+  RPG_CAH: ['CAH', 'CLA'],
+  RPG_CHEM: ['CHEM'],
+  RPG_COM: ['COM', 'CLA'],
+  RPG_CS: ['CS'],
+  RPG_DS: ['SDSC', 'DSC'],
+  RPG_E2: ['SEE'],
+  RPG_EE: ['EE'],
+  RPG_EF: ['EF'],
+  RPG_EN: ['EN', 'CLA'],
+  RPG_IDPH: ['PH'],
+  RPG_IS: ['IS', 'EC'],
+  RPG_LAW: ['LW'],
+  RPG_LT: ['LT'],
+  RPG_MATH: ['MA'],
+  RPG_MGT: ['MGT'],
+  RPG_MKT: ['MKT'],
+  RPG_MNE: ['MNE'],
+  RPG_MSE: ['MSE'],
+  RPG_MS: ['MS'],
+  RPG_NS: ['NS'],
+  RPG_PHY: ['PHY'],
+  RPG_PIA: ['PIA', 'POL', 'CLA'],
+  RPG_SCM: ['SM'],
+  RPG_SS: ['SS', 'CLA'],
+  RPG_SYE: ['SYE', 'ADSE'],
+  RPG_VCS: ['VCS', 'VSC'],
+}
+
+const RESEARCH_ADDITIONAL_DEPARTMENTS = {
+  RPG_CAH: ['College of Liberal Arts and Social Sciences'],
+  RPG_COM: ['College of Liberal Arts and Social Sciences'],
+  RPG_EN: ['College of Liberal Arts and Social Sciences'],
+  RPG_PIA: ['Department of Public Policy', 'College of Liberal Arts and Social Sciences'],
+  RPG_SS: ['College of Liberal Arts and Social Sciences'],
+}
+
+function researchSourceUrl(seed) {
+  const key = RESEARCH_PROGRAMME_SOURCE_KEYS[seed.code]
+  return key ? RESEARCH_COURSE_SOURCES[key] : RESEARCH_COURSE_BASE_URL
+}
+
+function dedupeCodes(codes) {
+  const seen = new Set()
+  return codes.filter((code) => {
+    if (!code || seen.has(code) || !pgCourses[code]) return false
+    seen.add(code)
+    return true
+  })
+}
+
+function researchCandidateCodes(seed) {
+  const prefixes = RESEARCH_PREFIXES[seed.code] ?? []
+  const departments = new Set([seed.department, ...(RESEARCH_ADDITIONAL_DEPARTMENTS[seed.code] ?? [])])
+  const fromCatalogue = Object.values(pgCourses)
+    .filter((course) => !course.code.startsWith('SG'))
+    .filter((course) => departments.has(course.department) || prefixes.some((prefix) => course.code.startsWith(prefix)))
+    .map((course) => course.code)
+    .sort((a, b) => a.localeCompare(b))
+
+  return dedupeCodes([
+    ...RESEARCH_COMMON_CODES,
+    ...(RESEARCH_EXPLICIT_CODES[seed.code] ?? []),
+    ...fromCatalogue,
+  ])
+}
+
+function researchRefs(codes, sourceUrl, remarks = '') {
+  return codes.map((code) => ({
+    ...ref(code, { remarks }),
+    sourceUrl,
+  }))
 }
 
 const mscComputerScienceCodes = [
@@ -4277,6 +4643,10 @@ const taughtSeeds = [
 
 function researchProgramme(seed) {
   const plan = emptyStudyPlan(4)
+  const sourceUrl = researchSourceUrl(seed)
+  const courseCodes = researchCandidateCodes(seed)
+  const commonCourses = courseCodes.filter((code) => RESEARCH_COMMON_CODES.includes(code))
+  const departmentCourses = courseCodes.filter((code) => !RESEARCH_COMMON_CODES.includes(code))
   return {
     code: seed.code,
     title: `${seed.award ?? 'MPhil / PhD'} in ${seed.discipline}`,
@@ -4288,10 +4658,31 @@ function researchProgramme(seed) {
     totalCredits: null,
     url: 'https://www.cityu.edu.hk/pg/research-degree-programmes/research-areas',
     sourceStatus: clone(SOURCE.researchDiy),
-    courseListStatus: clone(COURSE_LIST_STATUS.research),
+    courseListStatus: COURSE_LIST_STATUS.research(sourceUrl),
     requirements: {
-      summary: 'Research postgraduate planning depends on supervisor, research area, approved courses where required, qualifying/progress review, thesis and oral examination.',
+      summary: 'Research postgraduate degrees include coursework plus thesis/research milestones. Use the official SGS/department approved course pool below to DIY the semester grid with supervisor or department approval.',
       sections: [
+        {
+          key: 'sgs-coursework',
+          title: 'SGS / common research courses',
+          credits: 0,
+          courses: researchRefs(
+            commonCourses,
+            RESEARCH_COURSE_SOURCES.SGS,
+            'Common SGS research course; SG8002 may be conditional and these credits may not count toward programme coursework where SGS says so.'
+          ),
+          note: 'Common SGS research courses are shown for planning. Confirm whether SG8002 applies and whether the credits count toward the programme requirement.',
+        },
+        {
+          key: 'approved-research-coursework',
+          title: 'Approved / candidate research coursework',
+          courses: researchRefs(
+            departmentCourses,
+            sourceUrl,
+            'Approved or candidate postgraduate coursework for this research area; exact selection requires supervisor/department approval.'
+          ),
+          note: 'CityUHK research degrees require coursework, but departments differ on core/elective combinations. The table is intentionally not prefilled into semesters.',
+        },
         {
           key: 'research-areas',
           title: 'Research areas',
@@ -4308,11 +4699,11 @@ function researchProgramme(seed) {
         },
       ],
       notes: [
-        'This is not a taught-course study plan.',
-        'No fixed semester-by-semester courses are prefilled for research degrees.',
+        'This is not an official semester-by-semester study plan.',
+        'MPhil/PhD students should DIY the semester grid using the listed coursework pool, supervisor advice, qualifying/progress review timing, thesis and oral examination requirements.',
       ],
     },
-    allCourses: [],
+    allCourses: courseCodes,
     researchAreas: seed.researchAreas,
     studyPlan: plan,
     studyPlanVariants: [
@@ -4326,7 +4717,8 @@ function researchProgramme(seed) {
     ],
     notes: [
       'Research areas are taken from the official research-area directory.',
-      'Approved courses, if any, should be confirmed with the department and supervisor.',
+      'Course pools are drawn from SGS approved research-course pages and CityUHK PG catalogue entries for the same academic unit where a full fixed schedule is not published.',
+      'Students should confirm final coursework selection with the department and supervisor before registration.',
     ],
   }
 }

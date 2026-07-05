@@ -14797,5 +14797,1733 @@
     "catalogue": "pg",
     "detailStatus": "linked-unparsed",
     "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6198e.htm"
+  },
+  "SG8001": {
+    "code": "SG8001",
+    "title": "Teaching Students: First Steps",
+    "credits": 1,
+    "department": "Chow Yei Ching School of Graduate Studies",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sg8001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/sgs"
+  },
+  "SG8002": {
+    "code": "SG8002",
+    "title": "English for the Medium of Instruction",
+    "credits": 1,
+    "department": "Chow Yei Ching School of Graduate Studies",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sg8002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/sgs"
+  },
+  "BME8103": {
+    "code": "BME8103",
+    "title": "Manufacturing of Biomedical Devices",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8103.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8122": {
+    "code": "BME8122",
+    "title": "Biomedical Engineering Design",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8122.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8125": {
+    "code": "BME8125",
+    "title": "Micro Systems Technology",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8125.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8127": {
+    "code": "BME8127",
+    "title": "Biomedical Instrumentation",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8127.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8130": {
+    "code": "BME8130",
+    "title": "Biomedical Safety and Risk Assessment",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8130.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8131": {
+    "code": "BME8131",
+    "title": "Biomedical Imaging and Biophotonics",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8131.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BME8132": {
+    "code": "BME8132",
+    "title": "Biomechanics",
+    "credits": 3,
+    "department": "Department of Biomedical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bme8132.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bme"
+  },
+  "BMS8101A": {
+    "code": "BMS8101A",
+    "title": "Biomedical Research Seminar A",
+    "credits": 1,
+    "department": "Department of Biomedical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bms8101a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bms"
+  },
+  "BMS8101B": {
+    "code": "BMS8101B",
+    "title": "Biomedical Research Seminar B",
+    "credits": 1,
+    "department": "Department of Biomedical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bms8101b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bms"
+  },
+  "BMS8101C": {
+    "code": "BMS8101C",
+    "title": "Biomedical Research Seminar C",
+    "credits": 1,
+    "department": "Department of Biomedical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bms8101c.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bms"
+  },
+  "BMS8101D": {
+    "code": "BMS8101D",
+    "title": "Biomedical Research Seminar D",
+    "credits": 1,
+    "department": "Department of Biomedical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bms8101d.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bms"
+  },
+  "BMS8102": {
+    "code": "BMS8102",
+    "title": "Frontiers in Biomedical Research",
+    "credits": 2,
+    "department": "Department of Biomedical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/bms8102.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/bms"
+  },
+  "CA8004": {
+    "code": "CA8004",
+    "title": "Postgraduate Seminar",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca8004.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ace"
+  },
+  "CA8018": {
+    "code": "CA8018",
+    "title": "Modelling and Computational Techniques",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca8018.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ace"
+  },
+  "CA8028": {
+    "code": "CA8028",
+    "title": "Strategies for Planning and Design",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca8028.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ace"
+  },
+  "CAH8808": {
+    "code": "CAH8808",
+    "title": "Research Methods for Humanities Studies",
+    "credits": 3,
+    "department": "Department of Chinese and History",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cah8808.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/cah"
+  },
+  "CHEM8007B": {
+    "code": "CHEM8007B",
+    "title": "Window on Science B",
+    "credits": 3,
+    "department": "Department of Chemistry",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/chem8007b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/chem"
+  },
+  "CS8692": {
+    "code": "CS8692",
+    "title": "Comprehensive Studies in Selected Topics in Computer Science",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs8692.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/cs"
+  },
+  "CS8695": {
+    "code": "CS8695",
+    "title": "Research In Computer Science",
+    "credits": 2,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs8695.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/cs"
+  },
+  "EE8001": {
+    "code": "EE8001",
+    "title": "Guided Studies",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee8001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EE5435": {
+    "code": "EE5435",
+    "title": "Advanced Topics in Applied Electromagnetics",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee5435.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EE6453": {
+    "code": "EE6453",
+    "title": "Mobile Communication and Networks",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee6453.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EE6624": {
+    "code": "EE6624",
+    "title": "Advanced Topics in Power and Energy Systems",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee6624.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EE8461": {
+    "code": "EE8461",
+    "title": "Research Seminar I",
+    "credits": 0.5,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee8461.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EE8462": {
+    "code": "EE8462",
+    "title": "Research Seminar II",
+    "credits": 0.5,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee8462.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ee"
+  },
+  "EF8070": {
+    "code": "EF8070",
+    "title": "Advanced Microeconomics",
+    "credits": 3,
+    "department": "Department of Economics and Finance",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef8070.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ef"
+  },
+  "EF8090": {
+    "code": "EF8090",
+    "title": "Advanced Econometrics",
+    "credits": 3,
+    "department": "Department of Economics and Finance",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef8090.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ef"
+  },
+  "EN5315": {
+    "code": "EN5315",
+    "title": "Analysing Specialised Texts for Applied Purposes",
+    "credits": 3,
+    "department": "Department of English",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/en5315.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/en"
+  },
+  "EN5450": {
+    "code": "EN5450",
+    "title": "Survey of Literary Genres",
+    "credits": 3,
+    "department": "Department of English",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/en5450.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/en"
+  },
+  "EN8001": {
+    "code": "EN8001",
+    "title": "English Department Research Students Seminar I",
+    "credits": 2,
+    "department": "Department of English",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/en8001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/en"
+  },
+  "EN8002": {
+    "code": "EN8002",
+    "title": "English Department Research Students Seminar II",
+    "credits": 2,
+    "department": "Department of English",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/en8002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/en"
+  },
+  "EN8014": {
+    "code": "EN8014",
+    "title": "English Department Research Students Seminar III",
+    "credits": 2,
+    "department": "Department of English",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/en8014.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/en"
+  },
+  "LT8806": {
+    "code": "LT8806",
+    "title": "Advanced Topics in Linguistics Research",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt8806.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/lt"
+  },
+  "LT8807": {
+    "code": "LT8807",
+    "title": "Advanced Topics in Translation and Interpretation Research",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt8807.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/lt"
+  },
+  "LT8808": {
+    "code": "LT8808",
+    "title": "Research Methodology for Language Studies",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt8808.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/lt"
+  },
+  "LT8809": {
+    "code": "LT8809",
+    "title": "Research Student Seminar",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt8809.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/lt"
+  },
+  "LW6100E": {
+    "code": "LW6100E",
+    "title": "Advanced Legal Research Methodology",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6100e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/slw"
+  },
+  "LW6132E": {
+    "code": "LW6132E",
+    "title": "Theory and Practice of Comparative Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6132e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/slw"
+  },
+  "MA8004": {
+    "code": "MA8004",
+    "title": "Selected Topics in Applied Analysis",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ma8004.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ma"
+  },
+  "MA8005": {
+    "code": "MA8005",
+    "title": "Advanced Partial Differential Equations I",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ma8005.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ma"
+  },
+  "MA8006": {
+    "code": "MA8006",
+    "title": "Functional Analysis and Applications",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ma8006.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ma"
+  },
+  "MA8014": {
+    "code": "MA8014",
+    "title": "Advanced Methods for Scientific Computation",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ma8014.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ma"
+  },
+  "MA8019": {
+    "code": "MA8019",
+    "title": "Topics in Applied Mathematics",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ma8019.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ma"
+  },
+  "MGT8904": {
+    "code": "MGT8904",
+    "title": "Advanced Topics in Organizational Behavior and Human Resource Management",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt8904.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mgt"
+  },
+  "MGT8905": {
+    "code": "MGT8905",
+    "title": "Directed Studies in Organization and Strategy",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt8905.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mgt"
+  },
+  "MGT8906": {
+    "code": "MGT8906",
+    "title": "Advanced Topics in Organization and Strategy",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt8906.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mgt"
+  },
+  "MGT8907": {
+    "code": "MGT8907",
+    "title": "Directed Studies in Organizational Behavior and Human Resource Management",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt8907.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mgt"
+  },
+  "MKT8630": {
+    "code": "MKT8630",
+    "title": "Doctoral Studies: Marketing Modeling",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt8630.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mkt"
+  },
+  "MKT8631": {
+    "code": "MKT8631",
+    "title": "Doctoral Studies: Marketing Theory",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt8631.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mkt"
+  },
+  "MKT8632": {
+    "code": "MKT8632",
+    "title": "Doctoral Studies: Marketing Strategy",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt8632.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mkt"
+  },
+  "MNE8001": {
+    "code": "MNE8001",
+    "title": "Comprehensive Studies",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8009": {
+    "code": "MNE8009",
+    "title": "Research Methodology",
+    "credits": 2,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8009.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8101": {
+    "code": "MNE8101",
+    "title": "Special Topics on Advanced Structural Materials",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8101.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8102": {
+    "code": "MNE8102",
+    "title": "Kinetics in Nanoscale Materials",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8102.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8104": {
+    "code": "MNE8104",
+    "title": "Nano-manufacturing",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8104.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8105": {
+    "code": "MNE8105",
+    "title": "Mechanical Behaviour of Materials: From Metallic to Biomedical/Biological Materials",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8105.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8106": {
+    "code": "MNE8106",
+    "title": "Electron Microscopy",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8106.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8108": {
+    "code": "MNE8108",
+    "title": "Engineering Methods",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8108.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8109": {
+    "code": "MNE8109",
+    "title": "Thermodynamics and Kinetics",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8109.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8110": {
+    "code": "MNE8110",
+    "title": "Sensors for Robotics, AI, and Control Systems",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8110.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8111": {
+    "code": "MNE8111",
+    "title": "Advanced Thermal Fluids",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8111.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8112": {
+    "code": "MNE8112",
+    "title": "CAD/CAM/CAE Integration",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8112.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8113": {
+    "code": "MNE8113",
+    "title": "Applied Engineering Mechanics",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8113.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8114": {
+    "code": "MNE8114",
+    "title": "Fundamentals of Nuclear Engineering",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8114.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8116": {
+    "code": "MNE8116",
+    "title": "Computer Controlled Systems",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8116.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8117": {
+    "code": "MNE8117",
+    "title": "Micro Systems Technology",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8117.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8118": {
+    "code": "MNE8118",
+    "title": "Advanced Automation Technology",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8118.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8119": {
+    "code": "MNE8119",
+    "title": "Sustainable Green Manufacturing",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8119.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8120": {
+    "code": "MNE8120",
+    "title": "Microfluidics: From Fundamentals to Applications",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8120.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8121": {
+    "code": "MNE8121",
+    "title": "Advanced Machine Learning and Quantum Computation for Engineering",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8121.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MNE8122": {
+    "code": "MNE8122",
+    "title": "Advanced Topics in Nonlinear Dynamics, Vibration and Control",
+    "credits": 3,
+    "department": "Department of Mechanical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mne8122.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mne"
+  },
+  "MSE8001": {
+    "code": "MSE8001",
+    "title": "Survival Skills for Research Scientists",
+    "credits": 2,
+    "department": "Department of Materials Science and Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mse8001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/mse"
+  },
+  "MS8944": {
+    "code": "MS8944",
+    "title": "Probability and Markov Chain Models",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms8944.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/dao"
+  },
+  "MS8945": {
+    "code": "MS8945",
+    "title": "Stochastic Operations Research",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms8945.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/dao"
+  },
+  "MS8952": {
+    "code": "MS8952",
+    "title": "Introduction to Mathematical Statistics",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms8952.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/dao"
+  },
+  "MS8953": {
+    "code": "MS8953",
+    "title": "Optimization Theory and Method",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms8953.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/dao"
+  },
+  "MS8956": {
+    "code": "MS8956",
+    "title": "Advanced Regression Techniques",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms8956.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/dao"
+  },
+  "PH8002": {
+    "code": "PH8002",
+    "title": "Infectious Disease Epidemiology",
+    "credits": 3,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "PH8004": {
+    "code": "PH8004",
+    "title": "Animal Welfare and Research Ethics",
+    "credits": 2,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8004.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "PH8005": {
+    "code": "PH8005",
+    "title": "Principles of Immunology",
+    "credits": 3,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8005.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "PH8006": {
+    "code": "PH8006",
+    "title": "Advanced Molecular Diagnostics and Imaging",
+    "credits": 3,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8006.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "PH8007": {
+    "code": "PH8007",
+    "title": "Medical Imaging Instrumentation for Research and Clinical Practice",
+    "credits": 3,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8007.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "PH8008": {
+    "code": "PH8008",
+    "title": "Multiplanar Anatomy",
+    "credits": 3,
+    "department": "Department of Infectious Diseases and Public Health",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ph8008.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/ph"
+  },
+  "SEE8002": {
+    "code": "SEE8002",
+    "title": "Scientific Writing and Communication",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see8002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/see"
+  },
+  "SEE8003": {
+    "code": "SEE8003",
+    "title": "Skills for Scientists",
+    "credits": 2,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see8003.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/see"
+  },
+  "SEE8212": {
+    "code": "SEE8212",
+    "title": "Data Analysis in Environmental Applications",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see8212.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/see"
+  },
+  "SM8402": {
+    "code": "SM8402",
+    "title": "Research Skills and Methods",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm8402.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/scm"
+  },
+  "ADSE8201": {
+    "code": "ADSE8201",
+    "title": "Optimization and Applications",
+    "credits": 3,
+    "department": "Department of Systems Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/adse8201.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/sye"
+  },
+  "ADSE8202": {
+    "code": "ADSE8202",
+    "title": "Systems Modelling and Management",
+    "credits": 3,
+    "department": "Department of Systems Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/adse8202.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/sye"
+  },
+  "VCS8002": {
+    "code": "VCS8002",
+    "title": "Grant Writing and Peer Review",
+    "credits": 2,
+    "department": "Department of Veterinary Clinical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs8002.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/vcs"
+  },
+  "VCS8003A": {
+    "code": "VCS8003A",
+    "title": "Frontiers in Veterinary Medical Research (A)",
+    "credits": 1,
+    "department": "Department of Veterinary Clinical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs8003a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/vcs"
+  },
+  "VCS8003B": {
+    "code": "VCS8003B",
+    "title": "Frontiers in Veterinary Medical Research (B)",
+    "credits": 1,
+    "department": "Department of Veterinary Clinical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs8003b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/vcs"
+  },
+  "VCS8003C": {
+    "code": "VCS8003C",
+    "title": "Frontiers in Veterinary Medical Research (C)",
+    "credits": 1,
+    "department": "Department of Veterinary Clinical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs8003c.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/vcs"
+  },
+  "VCS8003D": {
+    "code": "VCS8003D",
+    "title": "Frontiers in Veterinary Medical Research (D)",
+    "credits": 1,
+    "department": "Department of Veterinary Clinical Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official research coursework list linked; detailed assessment should be confirmed from the PG catalogue or department."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs8003d.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/sgs/student/rpg/courses/courselist/vcs"
   }
 }
