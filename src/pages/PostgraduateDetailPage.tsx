@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   AlertTriangle,
@@ -10,10 +10,12 @@ import {
   GraduationCap,
   Layers,
   Microscope,
+  PencilLine,
 } from 'lucide-react'
 import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import pgCoursesData from '../data/pg-courses.json'
 import CourseDetailModal from '../components/CourseDetailModal'
+import PostgraduatePlanEditor from '../components/PostgraduatePlanEditor'
 import type { Course, MajorCourse, PostgraduateProgramme, StudyPlan } from '../types'
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
@@ -100,6 +102,7 @@ export default function PostgraduateDetailPage() {
   const programme = postgraduateProgrammes.find((item) => item.code.toLowerCase() === (programmeCode ?? '').toLowerCase())
   const [selectedVariantCode, setSelectedVariantCode] = useState<string | null>(null)
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
+  const [editMode, setEditMode] = useState(false)
 
   const selectedVariant = useMemo(() => {
     if (!programme) return null
@@ -110,6 +113,10 @@ export default function PostgraduateDetailPage() {
   const activePlan = selectedVariant?.studyPlan ?? programme?.studyPlan
   const coursePool = useMemo(() => (programme ? coursePoolFor(programme) : []), [programme])
   const isDiy = programme?.sourceStatus.kind !== 'official-sample'
+
+  useEffect(() => {
+    setEditMode(false)
+  }, [programme?.code, selectedVariant?.code])
 
   if (!programme || !activePlan) {
     return (
@@ -244,13 +251,37 @@ export default function PostgraduateDetailPage() {
                   {selectedVariant ? selectedVariant.title : 'Programme plan'} · {isDiy ? 'DIY empty semesters' : 'Official sample'}
                 </p>
               </div>
-              {programme.totalCredits ? (
-                <span className="rounded-lg border border-gray-100 bg-gray-50 px-3 py-2 text-sm font-semibold text-gray-700">
-                  {programme.totalCredits} CU
-                </span>
-              ) : null}
+              <div className="flex flex-wrap items-center gap-2">
+                {programme.totalCredits ? (
+                  <span className="rounded-lg border border-gray-100 bg-gray-50 px-3 py-2 text-sm font-semibold text-gray-700">
+                    {programme.totalCredits} CU
+                  </span>
+                ) : null}
+                <button
+                  type="button"
+                  onClick={() => setEditMode((current) => !current)}
+                  className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
+                    editMode
+                      ? 'border-cityu-accent bg-cityu-accent text-white'
+                      : 'border-gray-200 bg-white text-gray-700 hover:border-cityu-accent hover:text-cityu-accent'
+                  }`}
+                >
+                  <PencilLine className="h-4 w-4" />
+                  {editMode ? 'Editing DIY copy' : 'Edit DIY plan'}
+                </button>
+              </div>
             </div>
 
+            {editMode ? (
+              <PostgraduatePlanEditor
+                programme={programme}
+                variantCode={selectedVariant?.code}
+                initialPlan={activePlan}
+                coursePool={coursePool}
+                pgCourses={pgCourses}
+                onCourseClick={setSelectedCourse}
+              />
+            ) : (
             <div className="space-y-4">
               {planEntries(activePlan).map(({ key, label, year }) => (
                 <div key={key} className="border border-gray-100 rounded-lg overflow-hidden">
@@ -296,6 +327,7 @@ export default function PostgraduateDetailPage() {
                 </div>
               ))}
             </div>
+            )}
           </section>
 
           <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
@@ -409,7 +441,7 @@ export default function PostgraduateDetailPage() {
             <div className="space-y-2">
               {sourceLinks.map((link) => (
                 <a
-                  key={link.url}
+                  key={`${link.label}-${link.url}`}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"

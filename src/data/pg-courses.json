@@ -10243,5 +10243,4559 @@
     "catalogue": "pg",
     "detailStatus": "linked-unparsed",
     "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sye8205.htm"
+  },
+  "CAI6001": {
+    "code": "CAI6001",
+    "title": "GRIT (Graduate Research and Innovation Trek) Integrated Study",
+    "credits": 6,
+    "department": "CityUHK Academy of Innovation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cai6001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cai6001.htm"
+  },
+  "CAI6003": {
+    "code": "CAI6003",
+    "title": "Innovation Project",
+    "credits": 12,
+    "department": "CityUHK Academy of Innovation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cai6003.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cai6003.htm"
+  },
+  "AC5813": {
+    "code": "AC5813",
+    "title": "Financial and Management Accounting",
+    "credits": 3,
+    "department": "Department of Accountancy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5813.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5813.htm"
+  },
+  "AC5690": {
+    "code": "AC5690",
+    "title": "Corporate Governance",
+    "credits": 3,
+    "department": "Department of Accountancy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5690.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5690.htm"
+  },
+  "AC6533": {
+    "code": "AC6533",
+    "title": "Corporate Finance and Policies",
+    "credits": 3,
+    "department": "Department of Accountancy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac6533.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac6533.htm"
+  },
+  "COM5101": {
+    "code": "COM5101",
+    "title": "Communication Fundamentals",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5101.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5101.htm"
+  },
+  "COM5104": {
+    "code": "COM5104",
+    "title": "Research Methods for Communication and New Media",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5104.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5104.htm"
+  },
+  "COM5105": {
+    "code": "COM5105",
+    "title": "Media Economics and Financial Markets",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5105.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5105.htm"
+  },
+  "COM5106": {
+    "code": "COM5106",
+    "title": "Integrated Marketing Communication",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5106.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5106.htm"
+  },
+  "COM5107": {
+    "code": "COM5107",
+    "title": "Professional Communication Skills",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5107.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5107.htm"
+  },
+  "COM5111": {
+    "code": "COM5111",
+    "title": "Generative AI for Digital Marketing",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5111.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5111.htm"
+  },
+  "COM5405": {
+    "code": "COM5405",
+    "title": "Consumer Behavior Insight",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5405.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5405.htm"
+  },
+  "COM5406": {
+    "code": "COM5406",
+    "title": "Entrepreneurship and Business Planning",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5406.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5406.htm"
+  },
+  "COM5408": {
+    "code": "COM5408",
+    "title": "Global Promotion and Branding",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5408.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5408.htm"
+  },
+  "COM5506": {
+    "code": "COM5506",
+    "title": "Social Network Analysis for Communication",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5506.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5506.htm"
+  },
+  "COM5510": {
+    "code": "COM5510",
+    "title": "Introduction to Artificial Intelligence",
+    "credits": 3,
+    "department": "Department of Media and Communication",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5510.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/com5510.htm"
+  },
+  "IS5010": {
+    "code": "IS5010",
+    "title": "Introduction to Financial Technologies",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5010.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5010.htm"
+  },
+  "LW6401": {
+    "code": "LW6401",
+    "title": "Dispute Resolution in Theory and Practice",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6401.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6401.htm"
+  },
+  "LW6405": {
+    "code": "LW6405",
+    "title": "Arbitration Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6405.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6405.htm"
+  },
+  "LW5957": {
+    "code": "LW5957",
+    "title": "Legal Studies for the Built Environment",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw5957.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw5957.htm"
+  },
+  "MGT5507": {
+    "code": "MGT5507",
+    "title": "Managerial Decision Making",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt5507.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt5507.htm"
+  },
+  "MGT6066": {
+    "code": "MGT6066",
+    "title": "Business Ethics & Social Responsibility",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6066.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6066.htm"
+  },
+  "MGT6202": {
+    "code": "MGT6202",
+    "title": "Global Business Leadership",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6202.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6202.htm"
+  },
+  "MGT6324": {
+    "code": "MGT6324",
+    "title": "Business Intelligence in Asia",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6324.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6324.htm"
+  },
+  "MKT5610": {
+    "code": "MKT5610",
+    "title": "Marketing Strategy and Planning",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5610.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5610.htm"
+  },
+  "MKT5641": {
+    "code": "MKT5641",
+    "title": "Chinese Business Culture and Marketing",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5641.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5641.htm"
+  },
+  "MKT5643": {
+    "code": "MKT5643",
+    "title": "Global Marketing",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5643.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5643.htm"
+  },
+  "MKT5645": {
+    "code": "MKT5645",
+    "title": "Customer Relationship Management",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5645.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5645.htm"
+  },
+  "MKT5646": {
+    "code": "MKT5646",
+    "title": "Advertising and Integrated Marketing Communications",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5646.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5646.htm"
+  },
+  "MKT5648": {
+    "code": "MKT5648",
+    "title": "Social Media Marketing",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5648.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt5648.htm"
+  },
+  "MS5223": {
+    "code": "MS5223",
+    "title": "Project Management",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5223.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5223.htm"
+  },
+  "PIA5000": {
+    "code": "PIA5000",
+    "title": "PIA Postgraduate Internship",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5000.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5000.htm"
+  },
+  "PIA5057": {
+    "code": "PIA5057",
+    "title": "Collaborative Governance for Sustainability",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5057.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5057.htm"
+  },
+  "PIA5500": {
+    "code": "PIA5500",
+    "title": "Understanding the Modern Metropolis",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5500.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5500.htm"
+  },
+  "PIA5504": {
+    "code": "PIA5504",
+    "title": "The Asian Metropolis: Issues in Urban Management",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5504.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5504.htm"
+  },
+  "PIA5510": {
+    "code": "PIA5510",
+    "title": "Understanding and Managing Smart Cities",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5510.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5510.htm"
+  },
+  "PIA5701": {
+    "code": "PIA5701",
+    "title": "Comparative and International Housing and Urban Policy",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5701.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5701.htm"
+  },
+  "PIA5702": {
+    "code": "PIA5702",
+    "title": "Finance and Economics in Housing and Urban Studies",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5702.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5702.htm"
+  },
+  "PIA5703": {
+    "code": "PIA5703",
+    "title": "Contemporary Issues in Housing and Urban Management",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5703.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5703.htm"
+  },
+  "PIA5704": {
+    "code": "PIA5704",
+    "title": "Building Services Systems and Maintenance for Housing Managers",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5704.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia5704.htm"
+  },
+  "PIA6501": {
+    "code": "PIA6501",
+    "title": "Urban Development and Sustainable Cities",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6501.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6501.htm"
+  },
+  "PIA6505": {
+    "code": "PIA6505",
+    "title": "Financing Sustainability: Policy and Mechanisms",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6505.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6505.htm"
+  },
+  "PIA6800": {
+    "code": "PIA6800",
+    "title": "Contemporary Management for Housing Managers",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6800.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6800.htm"
+  },
+  "PIA6802": {
+    "code": "PIA6802",
+    "title": "Advanced Housing Practice (and Residential)",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6802.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6802.htm"
+  },
+  "PIA6803": {
+    "code": "PIA6803",
+    "title": "Research Methods for Housing and Urban Management",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6803.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6803.htm"
+  },
+  "PIA6804": {
+    "code": "PIA6804",
+    "title": "MAHUM Capstone Project",
+    "credits": 3,
+    "department": "Department of Public and International Affairs",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6804.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pia6804.htm"
+  },
+  "SEE6116": {
+    "code": "SEE6116",
+    "title": "Building Performance Assessment",
+    "credits": 3,
+    "department": "School of Energy and Environment",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6116.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/see6116.htm"
+  },
+  "CA5136": {
+    "code": "CA5136",
+    "title": "Foundation Studio for Values and Fundamentals in Design and Planning",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5136.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5136.htm"
+  },
+  "CA5137": {
+    "code": "CA5137",
+    "title": "Urban Design Studio",
+    "credits": 6,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5137.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5137.htm"
+  },
+  "CA5147": {
+    "code": "CA5147",
+    "title": "Housing and Community Development",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5147.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5147.htm"
+  },
+  "CA5148": {
+    "code": "CA5148",
+    "title": "Architecture and Urbanism",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5148.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5148.htm"
+  },
+  "CA5150": {
+    "code": "CA5150",
+    "title": "Advanced Architectural Design Studio: Urban Design",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5150.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5150.htm"
+  },
+  "CA5152": {
+    "code": "CA5152",
+    "title": "Advanced Architectural Design Studio: Conservation",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5152.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5152.htm"
+  },
+  "CA5159": {
+    "code": "CA5159",
+    "title": "Design Representation and Building Information Management",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5159.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5159.htm"
+  },
+  "CA5160": {
+    "code": "CA5160",
+    "title": "Advanced Architectural Design Studio: Housing and Community",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5160.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5160.htm"
+  },
+  "CA5161": {
+    "code": "CA5161",
+    "title": "Theory and Criticism of Architecture",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5161.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5161.htm"
+  },
+  "CA5239": {
+    "code": "CA5239",
+    "title": "Building and Urban Conservation",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5239.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5239.htm"
+  },
+  "CA5240": {
+    "code": "CA5240",
+    "title": "Urban Design and Regional Planning History, Theory and Practice",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5240.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5240.htm"
+  },
+  "CA5301": {
+    "code": "CA5301",
+    "title": "Professional Practice - Building Controls, Contract Administration",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5301.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5301.htm"
+  },
+  "CA5696": {
+    "code": "CA5696",
+    "title": "Advanced Topics in Structural and Material Design",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5696.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca5696.htm"
+  },
+  "CA6138": {
+    "code": "CA6138",
+    "title": "Urban Design Charrette",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6138.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6138.htm"
+  },
+  "CA6162": {
+    "code": "CA6162",
+    "title": "Advanced Architectural Design Studio: Performance-based Design",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6162.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6162.htm"
+  },
+  "CA6163": {
+    "code": "CA6163",
+    "title": "Research Methods and Thesis Development Seminar in Architecture",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6163.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6163.htm"
+  },
+  "CA6164": {
+    "code": "CA6164",
+    "title": "Architecture Thesis Studio",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6164.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6164.htm"
+  },
+  "CA6165": {
+    "code": "CA6165",
+    "title": "Professional Practice and Project Administration",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6165.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6165.htm"
+  },
+  "CA6167": {
+    "code": "CA6167",
+    "title": "Advanced Topics in Architectural History and Theory",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6167.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6167.htm"
+  },
+  "CA6179": {
+    "code": "CA6179",
+    "title": "Advanced Architectural Design Studio: Digital Architecture",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6179.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6179.htm"
+  },
+  "CA6183": {
+    "code": "CA6183",
+    "title": "Advanced Architectural Design Studio: Comprehensive Development",
+    "credits": 8,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6183.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6183.htm"
+  },
+  "CA6200": {
+    "code": "CA6200",
+    "title": "Thesis Writing Skills",
+    "credits": 1,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6200.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6200.htm"
+  },
+  "CA6242": {
+    "code": "CA6242",
+    "title": "Advanced Topics in Sustainable Urban Development",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6242.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6242.htm"
+  },
+  "CA6319": {
+    "code": "CA6319",
+    "title": "Advanced Topics in Architectural Practice and Law",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6319.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6319.htm"
+  },
+  "CA6533": {
+    "code": "CA6533",
+    "title": "Thesis Studio for Design and Planning",
+    "credits": 9,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6533.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6533.htm"
+  },
+  "CA6609": {
+    "code": "CA6609",
+    "title": "Green Building, Architecture and People",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6609.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6609.htm"
+  },
+  "CA6701": {
+    "code": "CA6701",
+    "title": "Advanced Topics in Computational Design",
+    "credits": 3,
+    "department": "Department of Architecture and Civil Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6701.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ca6701.htm"
+  },
+  "POL5701": {
+    "code": "POL5701",
+    "title": "Comparative and International Housing and Urban Policy",
+    "credits": 3,
+    "department": "Department of Public Policy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5701.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5701.htm"
+  },
+  "POL5702": {
+    "code": "POL5702",
+    "title": "Finance and Economics in Housing and Urban Studies",
+    "credits": 3,
+    "department": "Department of Public Policy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5702.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5702.htm"
+  },
+  "POL5703": {
+    "code": "POL5703",
+    "title": "Contemporary Issues of Housing and Urban Management",
+    "credits": 3,
+    "department": "Department of Public Policy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5703.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol5703.htm"
+  },
+  "POL6805": {
+    "code": "POL6805",
+    "title": "Housing Management, Local Politics and Public Relations",
+    "credits": 3,
+    "department": "Department of Public Policy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol6805.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/pol6805.htm"
+  },
+  "LT5199": {
+    "code": "LT5199",
+    "title": "Professional Internship",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5199.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5199.htm"
+  },
+  "LT5401": {
+    "code": "LT5401",
+    "title": "Phonetics and Phonology",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5401.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5401.htm"
+  },
+  "LT5402": {
+    "code": "LT5402",
+    "title": "Syntax and Morphology",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5402.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5402.htm"
+  },
+  "LT5403": {
+    "code": "LT5403",
+    "title": "Semantics and Discourse",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5403.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5403.htm"
+  },
+  "LT5406": {
+    "code": "LT5406",
+    "title": "Psycholinguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5406.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5406.htm"
+  },
+  "LT5407": {
+    "code": "LT5407",
+    "title": "Research Methodology for Applied Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5407.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5407.htm"
+  },
+  "LT5408": {
+    "code": "LT5408",
+    "title": "Sociolinguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5408.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5408.htm"
+  },
+  "LT5409": {
+    "code": "LT5409",
+    "title": "Systemic Functional Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5409.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5409.htm"
+  },
+  "LT5411": {
+    "code": "LT5411",
+    "title": "Computational Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5411.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5411.htm"
+  },
+  "LT5412": {
+    "code": "LT5412",
+    "title": "Language Teaching",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5412.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5412.htm"
+  },
+  "LT5413": {
+    "code": "LT5413",
+    "title": "Philosophy of Language",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5413.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5413.htm"
+  },
+  "LT5416": {
+    "code": "LT5416",
+    "title": "Historical Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5416.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5416.htm"
+  },
+  "LT5417": {
+    "code": "LT5417",
+    "title": "Language Universals and Linguistic Typology",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5417.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5417.htm"
+  },
+  "LT5418": {
+    "code": "LT5418",
+    "title": "Second Language Pronunciation Acquisition: from Theory to Practice",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5418.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5418.htm"
+  },
+  "LT5420": {
+    "code": "LT5420",
+    "title": "Language Arts and Literature",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5420.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5420.htm"
+  },
+  "LT5421": {
+    "code": "LT5421",
+    "title": "Corpus Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5421.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5421.htm"
+  },
+  "LT5422": {
+    "code": "LT5422",
+    "title": "Neurocognition of Language",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5422.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5422.htm"
+  },
+  "LT5430": {
+    "code": "LT5430",
+    "title": "Special Topics in Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5430.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5430.htm"
+  },
+  "LT5431": {
+    "code": "LT5431",
+    "title": "Functional Approaches to Syntax",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5431.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5431.htm"
+  },
+  "LT5432": {
+    "code": "LT5432",
+    "title": "Lexical Semantics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5432.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5432.htm"
+  },
+  "LT5451": {
+    "code": "LT5451",
+    "title": "Pedagogical Grammar: Chinese and English",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5451.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5451.htm"
+  },
+  "LT5452": {
+    "code": "LT5452",
+    "title": "Learning and Teaching Chinese as a Foreign Language",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5452.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5452.htm"
+  },
+  "LT5453": {
+    "code": "LT5453",
+    "title": "The Cantonese Language: Pronunciation, Lexicon and Grammar",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5453.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5453.htm"
+  },
+  "LT5454": {
+    "code": "LT5454",
+    "title": "Grammar of Chinese",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5454.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5454.htm"
+  },
+  "LT5455": {
+    "code": "LT5455",
+    "title": "Pragmatics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5455.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5455.htm"
+  },
+  "LT5456": {
+    "code": "LT5456",
+    "title": "Text Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5456.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5456.htm"
+  },
+  "LT5457": {
+    "code": "LT5457",
+    "title": "Computational Lexicography",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5457.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5457.htm"
+  },
+  "LT5458": {
+    "code": "LT5458",
+    "title": "Computer-Assisted Language Learning",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5458.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5458.htm"
+  },
+  "LT5459": {
+    "code": "LT5459",
+    "title": "Terminology and Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5459.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5459.htm"
+  },
+  "LT5460": {
+    "code": "LT5460",
+    "title": "Studies of Second Language Acquisition",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5460.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5460.htm"
+  },
+  "LT5461": {
+    "code": "LT5461",
+    "title": "Cognition and Language Differences",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5461.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5461.htm"
+  },
+  "LT5462": {
+    "code": "LT5462",
+    "title": "Social Approaches to Language in Education",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5462.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5462.htm"
+  },
+  "LT5510": {
+    "code": "LT5510",
+    "title": "Contrastive Studies of Chinese and English Grammar",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5510.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5510.htm"
+  },
+  "LT5601": {
+    "code": "LT5601",
+    "title": "Stylistics and Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5601.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5601.htm"
+  },
+  "LT5603": {
+    "code": "LT5603",
+    "title": "Theory of Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5603.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5603.htm"
+  },
+  "LT5604": {
+    "code": "LT5604",
+    "title": "Translation Methodology",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5604.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5604.htm"
+  },
+  "LT5605": {
+    "code": "LT5605",
+    "title": "Interpretation Methodology",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5605.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5605.htm"
+  },
+  "LT5606": {
+    "code": "LT5606",
+    "title": "Translating Cultures",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5606.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5606.htm"
+  },
+  "LT5617": {
+    "code": "LT5617",
+    "title": "Bilingual Reading and Writing for Translators",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5617.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5617.htm"
+  },
+  "LT5621": {
+    "code": "LT5621",
+    "title": "Language and Literature in Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5621.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5621.htm"
+  },
+  "LT5626": {
+    "code": "LT5626",
+    "title": "Translation and Comparative Literature",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5626.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5626.htm"
+  },
+  "LT5627": {
+    "code": "LT5627",
+    "title": "Advanced Interpreting",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5627.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5627.htm"
+  },
+  "LT5628": {
+    "code": "LT5628",
+    "title": "Human-Machine Interactive Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5628.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5628.htm"
+  },
+  "LT5630": {
+    "code": "LT5630",
+    "title": "Special Topics in Translation and Interpretation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5630.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5630.htm"
+  },
+  "LT5633": {
+    "code": "LT5633",
+    "title": "Performance and Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5633.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5633.htm"
+  },
+  "LT5903": {
+    "code": "LT5903",
+    "title": "Language and its Applications",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5903.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5903.htm"
+  },
+  "LT5904": {
+    "code": "LT5904",
+    "title": "Language and Culture in Society",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5904.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt5904.htm"
+  },
+  "LT6421": {
+    "code": "LT6421",
+    "title": "Advanced Topics in Corpus and Empirical Linguistics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6421.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6421.htm"
+  },
+  "LT6422": {
+    "code": "LT6422",
+    "title": "Advanced Topics in Semantics",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6422.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6422.htm"
+  },
+  "LT6423": {
+    "code": "LT6423",
+    "title": "Advanced Topics in Syntax",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6423.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6423.htm"
+  },
+  "LT6505": {
+    "code": "LT6505",
+    "title": "Legal Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6505.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6505.htm"
+  },
+  "LT6514": {
+    "code": "LT6514",
+    "title": "Advanced Legal Translation",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6514.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6514.htm"
+  },
+  "LT6580": {
+    "code": "LT6580",
+    "title": "Master's Project",
+    "credits": 6,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6580.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6580.htm"
+  },
+  "LT6582": {
+    "code": "LT6582",
+    "title": "Capstone Project",
+    "credits": 3,
+    "department": "Department of Linguistics and Translation",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6582.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lt6582.htm"
+  },
+  "SM5301": {
+    "code": "SM5301",
+    "title": "Studio I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301.htm"
+  },
+  "SM5301A": {
+    "code": "SM5301A",
+    "title": "Studio I (Games)",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301a.htm"
+  },
+  "SM5301B": {
+    "code": "SM5301B",
+    "title": "Studio I (Human-Computer Interaction)",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5301b.htm"
+  },
+  "SM5302": {
+    "code": "SM5302",
+    "title": "Studio II",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302.htm"
+  },
+  "SM5302A": {
+    "code": "SM5302A",
+    "title": "Studio II (Games)",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302a.htm"
+  },
+  "SM5302B": {
+    "code": "SM5302B",
+    "title": "Studio II (Human-Computer Interaction)",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5302b.htm"
+  },
+  "SM5303": {
+    "code": "SM5303",
+    "title": "Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5303.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5303.htm"
+  },
+  "SM5308": {
+    "code": "SM5308",
+    "title": "Art and Technology",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5308.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5308.htm"
+  },
+  "SM5312": {
+    "code": "SM5312",
+    "title": "Interactive Media I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5312.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5312.htm"
+  },
+  "SM5313": {
+    "code": "SM5313",
+    "title": "Interactive Media II",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5313.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5313.htm"
+  },
+  "SM5315": {
+    "code": "SM5315",
+    "title": "Independent Study I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5315.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5315.htm"
+  },
+  "SM5316": {
+    "code": "SM5316",
+    "title": "Topics in Media Art I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5316.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5316.htm"
+  },
+  "SM5317": {
+    "code": "SM5317",
+    "title": "Digital Sound and Computer Music",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5317.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5317.htm"
+  },
+  "SM5318": {
+    "code": "SM5318",
+    "title": "Topics in Media History and Theory I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5318.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5318.htm"
+  },
+  "SM5323": {
+    "code": "SM5323",
+    "title": "Topics in Media History and Theory II",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5323.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5323.htm"
+  },
+  "SM5325": {
+    "code": "SM5325",
+    "title": "Introduction to Media and Cultural Studies",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5325.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5325.htm"
+  },
+  "SM5326": {
+    "code": "SM5326",
+    "title": "Gender in Popular Media",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5326.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5326.htm"
+  },
+  "SM5327": {
+    "code": "SM5327",
+    "title": "Chinese Cinema",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5327.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5327.htm"
+  },
+  "SM5329": {
+    "code": "SM5329",
+    "title": "Arts Management and Curatorship",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5329.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5329.htm"
+  },
+  "SM5331": {
+    "code": "SM5331",
+    "title": "Topics in Media History and Theory III",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5331.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5331.htm"
+  },
+  "SM5333": {
+    "code": "SM5333",
+    "title": "Prototyping New Cinema: The Future Moving Image",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5333.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5333.htm"
+  },
+  "SM5334": {
+    "code": "SM5334",
+    "title": "Navigating Social Media: Culture, Aesthetics, and Technology",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5334.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5334.htm"
+  },
+  "SM5335": {
+    "code": "SM5335",
+    "title": "Archaeology of New Media Art",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5335.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5335.htm"
+  },
+  "SM5336": {
+    "code": "SM5336",
+    "title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5336.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5336.htm"
+  },
+  "SM5337": {
+    "code": "SM5337",
+    "title": "Aesthetics Beyond the Anthropocene",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5337.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5337.htm"
+  },
+  "SM5339": {
+    "code": "SM5339",
+    "title": "Art and Activist Games Workshop",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5339.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5339.htm"
+  },
+  "SM5343": {
+    "code": "SM5343",
+    "title": "Law, Policies and Global Media Platforms",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5343.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5343.htm"
+  },
+  "SM5344": {
+    "code": "SM5344",
+    "title": "Abstract and Experimental Animation",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5344.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5344.htm"
+  },
+  "SM5346": {
+    "code": "SM5346",
+    "title": "Topics in Interactive",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5346.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5346.htm"
+  },
+  "SM5347": {
+    "code": "SM5347",
+    "title": "Topics in Media Worlding",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5347.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5347.htm"
+  },
+  "SM5348": {
+    "code": "SM5348",
+    "title": "Curating Creative Media",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5348.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5348.htm"
+  },
+  "SM5349": {
+    "code": "SM5349",
+    "title": "Distributed Curation",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5349.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5349.htm"
+  },
+  "SM5350": {
+    "code": "SM5350",
+    "title": "Game Design Fundamentals",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5350.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5350.htm"
+  },
+  "SM5351": {
+    "code": "SM5351",
+    "title": "Introduction to Influencer Studies",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5351.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5351.htm"
+  },
+  "SM5352": {
+    "code": "SM5352",
+    "title": "Influencer Techniques: Aesthetics, Narratives, and Audience",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5352.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5352.htm"
+  },
+  "SM5353": {
+    "code": "SM5353",
+    "title": "Creative Entrepreneurship in Media",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5353.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5353.htm"
+  },
+  "SM5355": {
+    "code": "SM5355",
+    "title": "Korean Cinema",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5355.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5355.htm"
+  },
+  "SM5356": {
+    "code": "SM5356",
+    "title": "Art, Technology, and Queering",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5356.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5356.htm"
+  },
+  "SM5357": {
+    "code": "SM5357",
+    "title": "Media and Human Experiences: Anxiety, Nostalgia, and Transcendence",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5357.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5357.htm"
+  },
+  "SM5358": {
+    "code": "SM5358",
+    "title": "Qualitative Research in Social Computing and Art Technology",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5358.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5358.htm"
+  },
+  "SM5359": {
+    "code": "SM5359",
+    "title": "Psychology of Interactive Media and Games",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5359.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5359.htm"
+  },
+  "SM5360": {
+    "code": "SM5360",
+    "title": "Making Interactive Things",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5360.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5360.htm"
+  },
+  "SM5363": {
+    "code": "SM5363",
+    "title": "Human-Centered AI: Agents, Interaction, and Integration",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5363.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm5363.htm"
+  },
+  "SM6300": {
+    "code": "SM6300",
+    "title": "Thesis Project - Studio I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300.htm"
+  },
+  "SM6300A": {
+    "code": "SM6300A",
+    "title": "Thesis Project - Studio I (Games)",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300a.htm"
+  },
+  "SM6300B": {
+    "code": "SM6300B",
+    "title": "Thesis Project - Studio I (Human-Computer Interaction)",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6300b.htm"
+  },
+  "SM6302": {
+    "code": "SM6302",
+    "title": "Thesis Project - Studio II",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302.htm"
+  },
+  "SM6302A": {
+    "code": "SM6302A",
+    "title": "Thesis Project - Studio II (Games)",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302a.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302a.htm"
+  },
+  "SM6302B": {
+    "code": "SM6302B",
+    "title": "Thesis Project - Studio II (Human-Computer Interaction)",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302b.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6302b.htm"
+  },
+  "SM6305": {
+    "code": "SM6305",
+    "title": "Media Art: Theory and Practice I",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6305.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6305.htm"
+  },
+  "SM6310": {
+    "code": "SM6310",
+    "title": "Independent Study II",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6310.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6310.htm"
+  },
+  "SM6311": {
+    "code": "SM6311",
+    "title": "Topics in Media Art II",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6311.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6311.htm"
+  },
+  "SM6316": {
+    "code": "SM6316",
+    "title": "Media Art: Theory and Practice II",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6316.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6316.htm"
+  },
+  "SM6317": {
+    "code": "SM6317",
+    "title": "Research Project in Media Studies",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6317.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6317.htm"
+  },
+  "SM6319": {
+    "code": "SM6319",
+    "title": "Privacy and Surveillance in Art and Culture",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6319.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6319.htm"
+  },
+  "SM6322": {
+    "code": "SM6322",
+    "title": "The Art Market: Transaction, Activism, Analysis",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6322.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6322.htm"
+  },
+  "SM6323": {
+    "code": "SM6323",
+    "title": "Critical Ludology: Games, Playability and New Media Art",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6323.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6323.htm"
+  },
+  "SM6324": {
+    "code": "SM6324",
+    "title": "Sensory Ethnography: Critical and Creative Practices",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6324.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6324.htm"
+  },
+  "SM6328": {
+    "code": "SM6328",
+    "title": "Analysis and Criticism of Computer Games",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6328.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6328.htm"
+  },
+  "SM6329": {
+    "code": "SM6329",
+    "title": "History and Making of Exhibitions",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6329.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6329.htm"
+  },
+  "SM6331": {
+    "code": "SM6331",
+    "title": "Digital Media for Curating",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6331.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6331.htm"
+  },
+  "SM6332": {
+    "code": "SM6332",
+    "title": "Computer Games and Society",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6332.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6332.htm"
+  },
+  "SM6333": {
+    "code": "SM6333",
+    "title": "World Making: Artistic Strategies for Contingent Systems",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6333.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6333.htm"
+  },
+  "SM6341": {
+    "code": "SM6341",
+    "title": "Independent Documentary Production",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6341.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6341.htm"
+  },
+  "SM6342": {
+    "code": "SM6342",
+    "title": "Transcultural Collaboration - A Hong Kong-Swiss International Exchange Project",
+    "credits": 6,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6342.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6342.htm"
+  },
+  "SM6343": {
+    "code": "SM6343",
+    "title": "Collaborative Topics in Media Art",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6343.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6343.htm"
+  },
+  "SM6344": {
+    "code": "SM6344",
+    "title": "Technology and Aesthetics",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6344.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6344.htm"
+  },
+  "SM6345": {
+    "code": "SM6345",
+    "title": "Media Cultures Theory x Practice Summer Seminar",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6345.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6345.htm"
+  },
+  "SM6346": {
+    "code": "SM6346",
+    "title": "Social Media, Aesthetics and Curation",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6346.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6346.htm"
+  },
+  "SM6347": {
+    "code": "SM6347",
+    "title": "Protocols and Techniques of Decentralised Curation",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6347.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6347.htm"
+  },
+  "SM6348": {
+    "code": "SM6348",
+    "title": "Under the Skin of Fashion",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6348.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6348.htm"
+  },
+  "SM6349": {
+    "code": "SM6349",
+    "title": "Platform Cultures",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6349.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6349.htm"
+  },
+  "SM6350": {
+    "code": "SM6350",
+    "title": "Videographic Criticism",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6350.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6350.htm"
+  },
+  "SM6351": {
+    "code": "SM6351",
+    "title": "Information Visualization",
+    "credits": 3,
+    "department": "School of Creative Media",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6351.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/sm6351.htm"
+  },
+  "LW5608": {
+    "code": "LW5608",
+    "title": "Constitutional Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw5608.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw5608.htm"
+  },
+  "LW6103E": {
+    "code": "LW6103E",
+    "title": "Company Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6103e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6103e.htm"
+  },
+  "LW6105E": {
+    "code": "LW6105E",
+    "title": "Cross-Border Restructuring and Insolvency",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6105e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6105e.htm"
+  },
+  "LW6106E": {
+    "code": "LW6106E",
+    "title": "Legal and Operational Aspects of Corporate Governance",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6106e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6106e.htm"
+  },
+  "LW6107E": {
+    "code": "LW6107E",
+    "title": "Capital and Securities Market Regulation",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6107e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6107e.htm"
+  },
+  "LW6108E": {
+    "code": "LW6108E",
+    "title": "International Finance: Law and Regulation",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6108e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6108e.htm"
+  },
+  "LW6109E": {
+    "code": "LW6109E",
+    "title": "Banking Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6109e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6109e.htm"
+  },
+  "LW6110E": {
+    "code": "LW6110E",
+    "title": "Commercial Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6110e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6110e.htm"
+  },
+  "LW6111E": {
+    "code": "LW6111E",
+    "title": "Insurance Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6111e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6111e.htm"
+  },
+  "LW6112E": {
+    "code": "LW6112E",
+    "title": "Human Rights Responsibilities of Business",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6112e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6112e.htm"
+  },
+  "LW6118E": {
+    "code": "LW6118E",
+    "title": "Entertainment Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6118e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6118e.htm"
+  },
+  "LW6121E": {
+    "code": "LW6121E",
+    "title": "Constitutional and Administrative Law of China",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6121e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6121e.htm"
+  },
+  "LW6122E": {
+    "code": "LW6122E",
+    "title": "Chinese and Comparative Financial Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6122e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6122e.htm"
+  },
+  "LW6127E": {
+    "code": "LW6127E",
+    "title": "International and Comparative Intellectual Property Law: Trademarks and Patents",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6127e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6127e.htm"
+  },
+  "LW6129E": {
+    "code": "LW6129E",
+    "title": "Chinese and Comparative Environmental Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6129e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6129e.htm"
+  },
+  "LW6131C": {
+    "code": "LW6131C",
+    "title": "Legal Systems in South East Asia",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6131c.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6131c.htm"
+  },
+  "LW6133E": {
+    "code": "LW6133E",
+    "title": "International and Comparative Copyright Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6133e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6133e.htm"
+  },
+  "LW6134E": {
+    "code": "LW6134E",
+    "title": "Chinese and Comparative Company Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6134e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6134e.htm"
+  },
+  "LW6136E": {
+    "code": "LW6136E",
+    "title": "Property Rights in China: Legal, Economic, and Policy Analysis",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6136e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6136e.htm"
+  },
+  "LW6138E": {
+    "code": "LW6138E",
+    "title": "Chinese Law of Obligations",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6138e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6138e.htm"
+  },
+  "LW6140E": {
+    "code": "LW6140E",
+    "title": "Chinese and Comparative Commercial Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6140e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6140e.htm"
+  },
+  "LW6141E": {
+    "code": "LW6141E",
+    "title": "Chinese Foreign Trade and Investment Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6141e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6141e.htm"
+  },
+  "LW6142E": {
+    "code": "LW6142E",
+    "title": "International Investment Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6142e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6142e.htm"
+  },
+  "LW6143E": {
+    "code": "LW6143E",
+    "title": "Law and Business in Asia",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6143e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6143e.htm"
+  },
+  "LW6144E": {
+    "code": "LW6144E",
+    "title": "International Trade Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6144e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6144e.htm"
+  },
+  "LW6145E": {
+    "code": "LW6145E",
+    "title": "Transnational Legal Problems",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6145e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6145e.htm"
+  },
+  "LW6160E": {
+    "code": "LW6160E",
+    "title": "Advanced Study of Antidumping and Countervailing Measures",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6160e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6160e.htm"
+  },
+  "LW6161E": {
+    "code": "LW6161E",
+    "title": "Chinese and Comparative Competition Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6161e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6161e.htm"
+  },
+  "LW6164E": {
+    "code": "LW6164E",
+    "title": "Law of Contract",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6164e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6164e.htm"
+  },
+  "LW6165E": {
+    "code": "LW6165E",
+    "title": "Law of Tort",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6165e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6165e.htm"
+  },
+  "LW6167E": {
+    "code": "LW6167E",
+    "title": "Current Issues in WTO Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6167e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6167e.htm"
+  },
+  "LW6169E": {
+    "code": "LW6169E",
+    "title": "Chinese and Comparative Labour Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6169e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6169e.htm"
+  },
+  "LW6172E": {
+    "code": "LW6172E",
+    "title": "Law and Society in China",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6172e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6172e.htm"
+  },
+  "LW6173E": {
+    "code": "LW6173E",
+    "title": "Private International Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6173e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6173e.htm"
+  },
+  "LW6175E": {
+    "code": "LW6175E",
+    "title": "Maritime Insurance Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6175e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6175e.htm"
+  },
+  "LW6176E": {
+    "code": "LW6176E",
+    "title": "Aviation Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6176e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6176e.htm"
+  },
+  "LW6179E": {
+    "code": "LW6179E",
+    "title": "Maritime Arbitration Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6179e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6179e.htm"
+  },
+  "LW6180E": {
+    "code": "LW6180E",
+    "title": "International Commercial Contracts and Uniform Sales Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6180e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6180e.htm"
+  },
+  "LW6181E": {
+    "code": "LW6181E",
+    "title": "Common Law System, Reasoning and Methodology",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6181e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6181e.htm"
+  },
+  "LW6187E": {
+    "code": "LW6187E",
+    "title": "Chinese and Comparative Alternative Dispute Resolution",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6187e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6187e.htm"
+  },
+  "LW6188E": {
+    "code": "LW6188E",
+    "title": "Chinese and Comparative Maritime Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6188e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6188e.htm"
+  },
+  "LW6189E": {
+    "code": "LW6189E",
+    "title": "Bills of Lading Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6189e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6189e.htm"
+  },
+  "LW6190E": {
+    "code": "LW6190E",
+    "title": "Charterparties Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6190e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6190e.htm"
+  },
+  "LW6191E": {
+    "code": "LW6191E",
+    "title": "Admiralty Procedure Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6191e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6191e.htm"
+  },
+  "LW6192E": {
+    "code": "LW6192E",
+    "title": "Admiralty Law",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6192e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6192e.htm"
+  },
+  "LW6195E": {
+    "code": "LW6195E",
+    "title": "International and Comparative Law of Copyright, Designs and Allied Rights",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6195e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6195e.htm"
+  },
+  "LW6198E": {
+    "code": "LW6198E",
+    "title": "Intellectual Property: Law, Practice and Procedure",
+    "credits": 3,
+    "department": "School of Law",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6198e.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6198e.htm"
   }
 }

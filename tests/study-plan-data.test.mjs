@@ -801,6 +801,51 @@ test('postgraduate programmes with newly found official curricula expose course 
   }
 })
 
+test('remaining postgraduate placeholders are completed or explicitly constrained by official sources', () => {
+  const expectations = [
+    { code: 'P01A', titles: ['Official Chinese EMBA programme brochure / admissions requirements'] },
+    { code: 'P01B', titles: ['CityUHK EMBA + Tsinghua MPA admissions booklet'] },
+    { code: 'P11', titles: ['International Business Analytics and Decision Modelling', 'Digital Marketing and e-Commerce'] },
+    { code: 'P88', titles: ['GRIT (Graduate Research and Innovation Trek) Integrated Study', 'Blockchain Technology and Business Applications'] },
+    { code: 'P64', titles: ['Foundation Studio for Values and Fundamentals in Design and Planning', 'Urban Design Charrette'] },
+    { code: 'P82', titles: ['Advanced Architectural Design Studio: Urban Design', 'Architecture Thesis Studio'] },
+    { code: 'P30', titles: ['Language and its Applications', 'Human-Machine Interactive Translation'] },
+    { code: 'P78', titles: ['Comparative and International Housing and Urban Policy', 'Urban Economics and Regional Planning'] },
+    { code: 'P80', titles: ['Introduction to Digital Processes: From Creative Computation to Fabrication', 'Human-Centered AI: Agents, Interaction, and Integration'] },
+    { code: 'P81', titles: ['Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain', 'Protocols and Techniques of Decentralised Curation'] },
+    { code: 'P46', titles: ['Introduction to Common Law System and Methodology', 'International and Comparative Law of Trade Marks and Patents'] },
+    { code: 'DBAC', titles: ['Methodology for Applied Business Research I', 'Doctoral Thesis'] },
+  ]
+
+  for (const expectation of expectations) {
+    const programme = postgraduateProgrammes.find((item) => item.code === expectation.code)
+    assert.ok(programme, `${expectation.code} should exist`)
+    assert.ok(
+      ['official-course-list', 'official-title-list'].includes(programme.courseListStatus?.kind),
+      `${expectation.code} should no longer be an unstructured placeholder`
+    )
+    const titles = new Set(
+      programme.requirements.sections.flatMap((section) => (section.courses ?? []).map((course) => course.title))
+    )
+    for (const title of expectation.titles) {
+      assert.ok(titles.has(title), `${expectation.code} should list ${title}`)
+    }
+    assert.equal(Object.values(programme.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
+  }
+})
+
+test('postgraduate DIY planner is editable and persists a local copy', () => {
+  const detail = readFileSync(new URL('../src/pages/PostgraduateDetailPage.tsx', import.meta.url), 'utf8')
+  const editor = readFileSync(new URL('../src/components/PostgraduatePlanEditor.tsx', import.meta.url), 'utf8')
+
+  assert.ok(detail.includes('PostgraduatePlanEditor'))
+  assert.ok(detail.includes('editMode'))
+  assert.ok(editor.includes('localStorage'))
+  assert.ok(editor.includes('addCourseToSemester'))
+  assert.ok(editor.includes('removeCourseFromSemester'))
+  assert.ok(editor.includes('exportPlan'))
+})
+
 test('postgraduate taught programmes without parsed course lists are explicitly labelled', () => {
   const silentMissing = postgraduateProgrammes
     .filter((item) => item.type !== 'research-degree')
