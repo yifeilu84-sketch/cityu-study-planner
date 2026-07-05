@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Database, ExternalLink, Search, ShieldCheck } from 'lucide-react'
+import { AlertTriangle, ArrowLeft, BookOpen, Database, ExternalLink, Search, ShieldCheck } from 'lucide-react'
 import allMajors from '../data/all-majors.json'
+import pgCoursesData from '../data/pg-courses.json'
+import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import { filterMajorsBySource, summarizeMajorSourceStatuses } from '../utils/sourceSummary.ts'
+import type { Course, PostgraduateProgramme } from '../types'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
 
 type SourceFilter = SourceStatusKind | 'all'
@@ -24,10 +27,22 @@ const TONE_CLASSES: Record<SourceStatusKind, string> = {
 
 export default function CoveragePage() {
   const majors = allMajors as any[]
+  const pgCourses = pgCoursesData as Record<string, Course>
+  const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
   const [selectedKind, setSelectedKind] = useState<SourceFilter>('all')
   const [query, setQuery] = useState('')
 
   const summary = useMemo(() => summarizeMajorSourceStatuses(majors), [majors])
+  const pendingPgCourses = useMemo(() => (
+    Object.values(pgCourses)
+      .filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
+      .sort((a, b) => a.code.localeCompare(b.code))
+  ), [pgCourses])
+  const pgSourceSummary = useMemo(() => ({
+    total: postgraduateProgrammes.length,
+    officialSample: postgraduateProgrammes.filter((item) => item.sourceStatus.kind === 'official-sample').length,
+    diy: postgraduateProgrammes.filter((item) => item.sourceStatus.kind !== 'official-sample').length,
+  }), [postgraduateProgrammes])
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
     return filterMajorsBySource(majors, selectedKind).filter((item) => {
@@ -71,6 +86,57 @@ export default function CoveragePage() {
                 <div className="text-xs font-medium leading-tight">{FILTERS.find((item) => item.kind === group.kind)?.label}</div>
               </button>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
+          <div>
+            <h2 className="font-bold text-gray-800 flex items-center gap-2">
+              <BookOpen className="w-5 h-5 text-cityu-accent" />
+              PG 数据覆盖
+            </h2>
+            <p className="mt-1 text-sm text-gray-500 leading-relaxed">
+              已接入 {pgSourceSummary.total} 个硕博项目，其中 {pgSourceSummary.officialSample} 个有官方 sample schedule，{pgSourceSummary.diy} 个按要求显示 DIY 空表。
+            </p>
+          </div>
+          <Link
+            to="/postgraduate"
+            className="inline-flex items-center justify-center gap-2 rounded-lg bg-cityu-dark px-4 py-2 text-sm font-semibold text-white hover:bg-cityu-purple transition-colors"
+          >
+            打开硕博目录
+            <ExternalLink className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="mt-4 rounded-lg border border-amber-100 bg-amber-50 p-4">
+          <div className="flex items-start gap-3">
+            <AlertTriangle className="w-5 h-5 text-amber-700 flex-shrink-0 mt-0.5" />
+            <div className="min-w-0">
+              <div className="font-semibold text-amber-900">PG 课程详情待确认</div>
+              <p className="mt-1 text-sm text-amber-800 leading-relaxed">
+                以下 PG 课程已链接 CityUHK PG Course Catalogue，但 assessment / exam / duration 尚未从官方课程页完全解析。
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {pendingPgCourses.slice(0, 40).map((course) => (
+                  <a
+                    key={course.code}
+                    href={course.courseUrl || course.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-amber-800 hover:border-amber-400 transition-colors"
+                  >
+                    {course.code}
+                  </a>
+                ))}
+                {pendingPgCourses.length > 40 && (
+                  <span className="rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-amber-800">
+                    +{pendingPgCourses.length - 40} more
+                  </span>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </section>

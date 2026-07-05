@@ -78,7 +78,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
     code: course.code,
     title: course.title,
     pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : course.courseUrl),
-    sourceKind: course.geSource ? 'official-ge-page' : 'course-pdf',
+    sourceKind: course.catalogue === 'pg' ? 'pg-catalogue' : course.geSource ? 'official-ge-page' : 'course-pdf',
   })
 
   return (
@@ -93,6 +93,11 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
               <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-sm font-bold rounded">
                 {course.code}
               </span>
+              {course.catalogue === 'pg' && (
+                <span className="px-2 py-0.5 bg-blue-50 text-cityu-blue text-sm font-bold rounded border border-blue-100">
+                  PG Catalogue
+                </span>
+              )}
               <span className="text-sm text-gray-500">{course.credits} 学分</span>
             </div>
             <h2 className="text-xl font-bold text-gray-800">{course.title}</h2>
@@ -177,6 +182,18 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                     )}
                   </div>
                 )}
+              </div>
+            </div>
+          )}
+
+          {course.catalogue === 'pg' && course.detailStatus !== 'parsed' && (
+            <div className="flex items-start gap-3 rounded-lg border border-amber-100 bg-amber-50 p-3">
+              <AlertCircle className="w-5 h-5 text-amber-700 mt-0.5" />
+              <div>
+                <div className="font-medium text-amber-900">官方课程详情未确认</div>
+                <div className="text-sm text-amber-800 mt-1">
+                  已链接 CityUHK PG Course Catalogue；assessment / exam 等细项仍需打开官方课程页核对。
+                </div>
               </div>
             </div>
           )}

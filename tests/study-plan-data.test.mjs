@@ -7,6 +7,8 @@ import { buildCoursePool } from '../src/utils/editPlan.ts'
 const majors = JSON.parse(readFileSync(new URL('../src/data/all-majors.json', import.meta.url), 'utf8'))
 const courses = JSON.parse(readFileSync(new URL('../src/data/courses.json', import.meta.url), 'utf8'))
 const officialGECourses = JSON.parse(readFileSync(new URL('../src/data/ge-official-courses.json', import.meta.url), 'utf8'))
+const postgraduateProgrammes = JSON.parse(readFileSync(new URL('../src/data/postgraduate-programmes.json', import.meta.url), 'utf8'))
+const pgCourses = JSON.parse(readFileSync(new URL('../src/data/pg-courses.json', import.meta.url), 'utf8'))
 
 function major(code) {
   const found = majors.find((item) => item.code === code)
@@ -617,4 +619,79 @@ test('postgraduate page is wired into navigation and uses official postgraduate 
   assert.ok(page.includes('https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list'))
   assert.ok(page.includes('https://www.cityu.edu.hk/pg/research-degree-programmes/research-areas'))
   assert.ok(page.includes('本科 study plan 审查'))
+})
+
+test('postgraduate programmes include official project-level study plan data', () => {
+  assert.ok(postgraduateProgrammes.length >= 50)
+  assert.ok(postgraduateProgrammes.some((item) => item.type === 'taught-master'))
+  assert.ok(postgraduateProgrammes.some((item) => item.type === 'research-degree'))
+  assert.ok(postgraduateProgrammes.some((item) => item.type === 'professional-doctorate'))
+
+  for (const item of postgraduateProgrammes) {
+    assert.ok(item.code, 'PG programme should have a code')
+    assert.ok(item.title, `${item.code} should have a title`)
+    assert.ok(item.award, `${item.code} should have an award`)
+    assert.ok(item.type, `${item.code} should have a type`)
+    assert.ok(item.college, `${item.code} should have a college`)
+    assert.ok(item.department, `${item.code} should have a department`)
+    assert.ok(item.url?.startsWith('https://www.cityu.edu.hk/'), `${item.code} should use official CityUHK URL`)
+    assert.ok(item.sourceStatus, `${item.code} should have source status`)
+    assert.ok(['official-sample', 'requirements-diy', 'research-diy'].includes(item.sourceStatus.kind))
+  }
+})
+
+test('postgraduate sample and DIY plans follow official-source policy', () => {
+  const mscCs = postgraduateProgrammes.find((item) => item.code === 'P53')
+  const researchCs = postgraduateProgrammes.find((item) => item.code === 'RPG_CS')
+  const engd = postgraduateProgrammes.find((item) => item.code === 'ENGDEM')
+
+  assert.ok(mscCs, 'MSc Computer Science should be included')
+  assert.equal(mscCs.sourceStatus.kind, 'official-sample')
+  assert.ok(mscCs.studyPlanVariants.some((variant) => variant.code === 'full-time-no-stream-project'))
+  const fullTime = mscCs.studyPlanVariants.find((variant) => variant.code === 'full-time-no-stream-project')
+  assert.deepEqual(fullTime.studyPlan.year1.semA.courses.map((course) => course.code), ['CS5222', 'CS5351', 'CS5481', 'CS5491', 'CS6534'])
+  assert.deepEqual(fullTime.studyPlan.year1.summer.courses.map((course) => course.code), ['CS6520'])
+
+  assert.ok(researchCs, 'CS MPhil/PhD should be included')
+  assert.equal(researchCs.type, 'research-degree')
+  assert.equal(researchCs.sourceStatus.kind, 'research-diy')
+  assert.equal(Object.values(researchCs.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
+  assert.ok(researchCs.researchAreas.length > 0)
+
+  assert.ok(engd, 'Engineering Doctorate should be included')
+  assert.equal(engd.type, 'professional-doctorate')
+  assert.equal(engd.sourceStatus.kind, 'requirements-diy')
+  assert.equal(Object.values(engd.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
+})
+
+test('postgraduate course details include assessment metadata for parsed PG courses', () => {
+  const requiredCodes = ['CS5222', 'CS5351', 'CS5481', 'CS6520']
+
+  for (const code of requiredCodes) {
+    const course = pgCourses[code]
+    assert.ok(course, `${code} should exist in pg-courses.json`)
+    assert.equal(course.catalogue, 'pg')
+    assert.ok(course.courseUrl?.includes('/catalogue/pg/current/course/'), `${code} should link to PG course catalogue`)
+    assert.ok(course.assessment?.continuous || course.assessment?.exam || course.assessment?.details, `${code} should include assessment`)
+  }
+
+  assert.equal(pgCourses.CS5222.assessment.continuous, '30%')
+  assert.equal(pgCourses.CS5222.assessment.exam, '70%')
+})
+
+test('postgraduate detail route and global search are wired', async () => {
+  const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+  const page = readFileSync(new URL('../src/pages/PostgraduatePage.tsx', import.meta.url), 'utf8')
+  const detail = readFileSync(new URL('../src/pages/PostgraduateDetailPage.tsx', import.meta.url), 'utf8')
+  const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
+
+  assert.ok(app.includes('path="/postgraduate/:programmeCode"'))
+  assert.ok(page.includes('/postgraduate/'))
+  assert.ok(detail.includes('studyPlanVariants'))
+  assert.ok(detail.includes('DIY'))
+
+  const index = buildSearchIndex(majors, courses, postgraduateProgrammes, pgCourses)
+  const results = searchPlanner(index, 'CS5222', { limit: 10 })
+  assert.ok(results.pgCourses.some((item) => item.code === 'CS5222'))
+  assert.ok(searchPlanner(index, 'Computer Science', { limit: 10 }).postgraduateProgrammes.some((item) => item.code === 'P53'))
 })

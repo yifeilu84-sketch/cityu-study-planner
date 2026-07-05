@@ -9,9 +9,10 @@
     "lint": "eslint .",
     "test": "node --test",
     "apply:ge": "node scripts/apply-ge-official-metadata.mjs",
+    "build:pg": "node scripts/build-postgraduate-data.mjs",
     "build:search": "node scripts/build-search-index.mjs",
     "split:majors": "node scripts/split-major-data.mjs",
-    "prepare:data": "npm run apply:ge && npm run split:majors && npm run build:search",
+    "prepare:data": "npm run apply:ge && npm run build:pg && npm run split:majors && npm run build:search",
     "preview": "vite preview",
     "deploy": "npm run build && node -e \"console.log('Built dist/. Push main to trigger the GitHub Pages workflow.')\""
   },

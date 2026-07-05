@@ -22,14 +22,40 @@ export interface SearchCourseItem {
   searchText: string
 }
 
+export interface SearchPostgraduateProgrammeItem {
+  type: 'postgraduate-programme'
+  code: string
+  title: string
+  award: string
+  programmeType: string
+  college: string
+  department: string
+  sourceKind: string
+  searchText: string
+}
+
+export interface SearchPostgraduateCourseItem {
+  type: 'pg-course'
+  code: string
+  title: string
+  credits: number
+  department?: string
+  detailStatus?: string
+  searchText: string
+}
+
 export interface SearchIndex {
   majors: SearchMajorItem[]
   courses: SearchCourseItem[]
+  postgraduateProgrammes: SearchPostgraduateProgrammeItem[]
+  pgCourses: SearchPostgraduateCourseItem[]
 }
 
 export interface SearchResults {
   majors: SearchMajorItem[]
   courses: SearchCourseItem[]
+  postgraduateProgrammes: SearchPostgraduateProgrammeItem[]
+  pgCourses: SearchPostgraduateCourseItem[]
 }
 
 function normalise(value: string): string {
@@ -78,7 +104,12 @@ function score(searchText: string, query: string, code?: string): number {
   return 0
 }
 
-export function buildSearchIndex(majors: any[], courses: Record<string, any>): SearchIndex {
+export function buildSearchIndex(
+  majors: any[],
+  courses: Record<string, any>,
+  postgraduateProgrammes: any[] = [],
+  pgCourses: Record<string, any> = {},
+): SearchIndex {
   const majorItems: SearchMajorItem[] = majors.map((major) => ({
     type: 'major',
     code: major.code,
@@ -113,13 +144,51 @@ export function buildSearchIndex(majors: any[], courses: Record<string, any>): S
       searchText: normalise([course.code, course.title, course.department].filter(Boolean).join(' ')),
     }))
 
-  return { majors: majorItems, courses: courseItems }
+  const postgraduateProgrammeItems: SearchPostgraduateProgrammeItem[] = postgraduateProgrammes.map((programme) => ({
+    type: 'postgraduate-programme',
+    code: programme.code,
+    title: programme.title,
+    award: programme.award,
+    programmeType: programme.type,
+    college: programme.college,
+    department: programme.department,
+    sourceKind: programme.sourceStatus?.kind ?? 'unknown',
+    searchText: normalise([
+      programme.code,
+      programme.title,
+      programme.award,
+      programme.type,
+      programme.college,
+      programme.department,
+      ...(programme.researchAreas ?? []),
+      ...(programme.allCourses ?? []),
+    ].filter(Boolean).join(' ')),
+  }))
+
+  const postgraduateCourseItems: SearchPostgraduateCourseItem[] = Object.values(pgCourses)
+    .filter((course: any) => course?.code && !isGenericCourseSlot(course.code))
+    .map((course: any) => ({
+      type: 'pg-course',
+      code: course.code,
+      title: course.title,
+      credits: course.credits ?? 0,
+      department: course.department,
+      detailStatus: course.detailStatus,
+      searchText: normalise([course.code, course.title, course.department].filter(Boolean).join(' ')),
+    }))
+
+  return {
+    majors: majorItems,
+    courses: courseItems,
+    postgraduateProgrammes: postgraduateProgrammeItems,
+    pgCourses: postgraduateCourseItems,
+  }
 }
 
 export function searchPlanner(index: SearchIndex, query: string, options: { limit?: number; sourceKind?: SourceStatusKind | 'all' } = {}): SearchResults {
   const q = normalise(query)
   const limit = options.limit ?? 8
-  if (!q || isGenericCourseSlot(q)) return { majors: [], courses: [] }
+  if (!q || isGenericCourseSlot(q)) return { majors: [], courses: [], postgraduateProgrammes: [], pgCourses: [] }
 
   const majors = index.majors
     .filter((item) => !options.sourceKind || options.sourceKind === 'all' || item.sourceKind === options.sourceKind)
@@ -136,5 +205,19 @@ export function searchPlanner(index: SearchIndex, query: string, options: { limi
     .slice(0, limit)
     .map((entry) => entry.item)
 
-  return { majors, courses }
+  const postgraduateProgrammes = (index.postgraduateProgrammes ?? [])
+    .map((item) => ({ item, score: score(item.searchText, q, item.code) }))
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
+    .slice(0, limit)
+    .map((entry) => entry.item)
+
+  const pgCourses = (index.pgCourses ?? [])
+    .map((item) => ({ item, score: score(item.searchText, q, item.code) }))
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score || a.item.code.localeCompare(b.item.code))
+    .slice(0, limit)
+    .map((entry) => entry.item)
+
+  return { majors, courses, postgraduateProgrammes, pgCourses }
 }

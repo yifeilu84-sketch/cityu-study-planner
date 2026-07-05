@@ -1,0 +1,671 @@
+{
+  "CS5222": {
+    "code": "CS5222",
+    "title": "Computer Networks and Internets",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "continuous": "30%",
+      "exam": "70%",
+      "examDuration": "2 hours",
+      "details": "Continuous Assessment: 30%; Examination: 70%."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5222.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5222.htm"
+  },
+  "CS5351": {
+    "code": "CS5351",
+    "title": "Software Engineering",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5351.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5351.htm"
+  },
+  "CS5481": {
+    "code": "CS5481",
+    "title": "Data Engineering",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5481.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5481.htm"
+  },
+  "CS5491": {
+    "code": "CS5491",
+    "title": "Artificial Intelligence",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5491.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5491.htm"
+  },
+  "CS6534": {
+    "code": "CS6534",
+    "title": "Guided Study",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6534.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6534.htm"
+  },
+  "CS6520": {
+    "code": "CS6520",
+    "title": "Project",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6520.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6520.htm"
+  },
+  "CS5188": {
+    "code": "CS5188",
+    "title": "Virtual Reality Technologies and Applications",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5188.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5188.htm"
+  },
+  "CS5483": {
+    "code": "CS5483",
+    "title": "Data Warehousing and Data Mining",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5483.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5483.htm"
+  },
+  "CS5489": {
+    "code": "CS5489",
+    "title": "Machine Learning: Algorithms and Applications",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5489.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5489.htm"
+  },
+  "CS5285": {
+    "code": "CS5285",
+    "title": "Information Security for eCommerce",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5285.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5285.htm"
+  },
+  "CS5294": {
+    "code": "CS5294",
+    "title": "Information Security Technology Management",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5294.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5294.htm"
+  },
+  "CS5182": {
+    "code": "CS5182",
+    "title": "Computer Graphics",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5182.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5182.htm"
+  },
+  "CS5187": {
+    "code": "CS5187",
+    "title": "Vision and Image",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5187.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5187.htm"
+  },
+  "CS6290": {
+    "code": "CS6290",
+    "title": "Privacy-enhancing Technologies",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6290.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6290.htm"
+  },
+  "CS6537": {
+    "code": "CS6537",
+    "title": "Guided Study in Information Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6537.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6537.htm"
+  },
+  "CS5486": {
+    "code": "CS5486",
+    "title": "Intelligent Systems",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5486.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5486.htm"
+  },
+  "CS5487": {
+    "code": "CS5487",
+    "title": "Machine Learning: Principles and Practice",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5487.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5487.htm"
+  },
+  "CS6493": {
+    "code": "CS6493",
+    "title": "Natural Language Processing",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6493.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6493.htm"
+  },
+  "CS6535": {
+    "code": "CS6535",
+    "title": "Guided Study in Artificial Intelligence",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6535.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6535.htm"
+  },
+  "CS5286": {
+    "code": "CS5286",
+    "title": "Algorithms and Techniques for Web Searching",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5286.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5286.htm"
+  },
+  "CS5296": {
+    "code": "CS5296",
+    "title": "Cloud Computing: Theory and Practice",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5296.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5296.htm"
+  },
+  "CS6536": {
+    "code": "CS6536",
+    "title": "Guided Study in Data Science",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6536.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6536.htm"
+  },
+  "CS5293": {
+    "code": "CS5293",
+    "title": "Topics on Information Security",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5293.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5293.htm"
+  },
+  "CS5367": {
+    "code": "CS5367",
+    "title": "Computer Games Design",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5367.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5367.htm"
+  },
+  "CS6187": {
+    "code": "CS6187",
+    "title": "Vision and Language",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6187.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6187.htm"
+  },
+  "CS6382": {
+    "code": "CS6382",
+    "title": "Selected Topics in Computer Science",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6382.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6382.htm"
+  },
+  "CS6487": {
+    "code": "CS6487",
+    "title": "Topics in Machine Learning",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6487.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6487.htm"
+  },
+  "CS6521": {
+    "code": "CS6521",
+    "title": "Thesis",
+    "credits": 6,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6521.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6521.htm"
+  },
+  "CS6538": {
+    "code": "CS6538",
+    "title": "Guided Study in Computer Science",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6538.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6538.htm"
+  },
+  "CS5488": {
+    "code": "CS5488",
+    "title": "Big Data Algorithms and Techniques",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5488.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5488.htm"
+  },
+  "CS5288": {
+    "code": "CS5288",
+    "title": "Cryptography: Theory and Practice",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5288.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5288.htm"
+  },
+  "CS5185": {
+    "code": "CS5185",
+    "title": "Multimedia Technologies and Applications",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5185.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5185.htm"
+  },
+  "CS5282": {
+    "code": "CS5282",
+    "title": "Practical Optimization Algorithms and Techniques",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5282.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5282.htm"
+  },
+  "CS5348": {
+    "code": "CS5348",
+    "title": "Software Quality Engineering",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5348.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs5348.htm"
+  },
+  "CS6175": {
+    "code": "CS6175",
+    "title": "Virtual Reality and Game-Engine Technologies",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6175.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6175.htm"
+  },
+  "CS6491": {
+    "code": "CS6491",
+    "title": "Topics in Optimization and its Applications in Computer Science",
+    "credits": 3,
+    "department": "Department of Computer Science",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6491.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/cs6491.htm"
+  },
+  "EC5001": {
+    "code": "EC5001",
+    "title": "Introduction to eCommerce",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ec5001.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ec5001.htm"
+  }
+}

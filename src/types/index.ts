@@ -26,6 +26,9 @@ export interface Course {
   geWithExam?: 'Yes' | 'No' | string;
   geSource?: string;
   geSourceUrl?: string;
+  catalogue?: 'ug' | 'pg' | string;
+  detailStatus?: 'parsed' | 'linked-unparsed' | 'needs-review' | string;
+  sourceUrl?: string;
 }
 
 export interface MajorCourse {
@@ -43,6 +46,57 @@ export interface StudyPlanSemester {
 
 export interface StudyPlan {
   [year: string]: { semA: StudyPlanSemester; semB: StudyPlanSemester; summer?: StudyPlanSemester };
+}
+
+export interface PostgraduateSourceStatus {
+  kind: 'official-sample' | 'requirements-diy' | 'research-diy';
+  label: string;
+  description: string;
+}
+
+export interface PostgraduateRequirementSection {
+  key: string;
+  title: string;
+  credits?: number;
+  chooseCredits?: number;
+  courses?: MajorCourse[];
+  note?: string;
+}
+
+export interface PostgraduateRequirements {
+  summary: string;
+  sections: PostgraduateRequirementSection[];
+  notes?: string[];
+}
+
+export interface PostgraduateStudyPlanVariant {
+  code: string;
+  title: string;
+  mode: string;
+  sourceStatus: PostgraduateSourceStatus;
+  studyPlan: StudyPlan;
+}
+
+export interface PostgraduateProgramme {
+  code: string;
+  title: string;
+  award: string;
+  type: 'taught-master' | 'research-degree' | 'professional-doctorate';
+  college: string;
+  department: string;
+  mode: string;
+  totalCredits?: number | null;
+  url: string;
+  curriculumUrl?: string;
+  sampleScheduleUrl?: string;
+  courseCatalogueUrl?: string;
+  sourceStatus: PostgraduateSourceStatus;
+  requirements: PostgraduateRequirements;
+  allCourses: string[];
+  studyPlan: StudyPlan;
+  studyPlanVariants: PostgraduateStudyPlanVariant[];
+  researchAreas?: string[];
+  notes?: string[];
 }
 
 export interface MajorRequirements {

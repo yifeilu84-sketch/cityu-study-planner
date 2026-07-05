@@ -37,7 +37,12 @@ const SOURCE_BADGE_CLASSES: Record<SourceStatusKind, string> = {
   diy: 'bg-slate-50 text-slate-700 border-slate-200',
 }
 
-const EMPTY_SEARCH_RESULTS: SearchResults = { majors: [], courses: [] }
+const EMPTY_SEARCH_RESULTS: SearchResults = {
+  majors: [],
+  courses: [],
+  postgraduateProgrammes: [],
+  pgCourses: [],
+}
 
 function getMajorCount(college: any) {
   if (college.majors && college.majors.length > 0) {
@@ -93,10 +98,15 @@ export default function Home() {
       setSelectedCourse(courseDetails[code] ?? null)
       return
     }
-    const coursesModule = await import('../data/courses.json')
+    const [coursesModule, pgCoursesModule] = await Promise.all([
+      import('../data/courses.json'),
+      import('../data/pg-courses.json'),
+    ])
     const loadedCourses = coursesModule.default as unknown as Record<string, Course>
-    setCourseDetails(loadedCourses)
-    setSelectedCourse(loadedCourses[code] ?? null)
+    const loadedPgCourses = pgCoursesModule.default as unknown as Record<string, Course>
+    const mergedCourses = { ...loadedCourses, ...loadedPgCourses }
+    setCourseDetails(mergedCourses)
+    setSelectedCourse(mergedCourses[code] ?? null)
   }
 
   const totalMajors = (majorIndex.colleges as any[]).reduce((sum, c) => sum + getMajorCount(c), 0)
@@ -187,6 +197,43 @@ export default function Home() {
           <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
+                <GraduationCap className="w-5 h-5 text-cityu-accent" />
+                硕博项目
+              </h2>
+              <span className="text-xs text-gray-500">{searchResults.postgraduateProgrammes.length} 个匹配</span>
+            </div>
+            {isSearchLoading ? (
+              <div className="text-sm text-gray-500 py-3">正在加载硕博项目索引...</div>
+            ) : searchResults.postgraduateProgrammes.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {searchResults.postgraduateProgrammes.map(item => (
+                  <Link
+                    key={item.code}
+                    to={`/postgraduate/${item.code}`}
+                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
+                        {item.code}
+                      </span>
+                      <span className="px-2 py-0.5 border text-xs rounded bg-amber-50 text-amber-800 border-amber-100">
+                        {item.sourceKind}
+                      </span>
+                      <span className="text-xs text-gray-500 truncate">{item.department || item.college}</span>
+                    </div>
+                    <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
+                    <div className="text-xs text-gray-500 mt-1">{item.award}</div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div className="text-sm text-gray-500 py-3">没有找到匹配硕博项目</div>
+            )}
+          </section>
+
+          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-blue" />
                 课程结果
               </h2>
@@ -219,6 +266,43 @@ export default function Home() {
               </div>
             ) : (
               <div className="text-sm text-gray-500 py-3">没有找到匹配课程</div>
+            )}
+          </section>
+
+          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h2 className="font-bold text-gray-800 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-cityu-blue" />
+                PG 课程
+              </h2>
+              <span className="text-xs text-gray-500">{searchResults.pgCourses.length} 门匹配</span>
+            </div>
+            {isSearchLoading ? (
+              <div className="text-sm text-gray-500 py-3">正在加载 PG 课程索引...</div>
+            ) : searchResults.pgCourses.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {searchResults.pgCourses.map(item => (
+                  <button
+                    key={item.code}
+                    onClick={() => openCourse(item.code)}
+                    className="text-left border border-gray-100 rounded-lg p-3 hover:border-cityu-blue hover:bg-blue-50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span className="px-2 py-0.5 bg-blue-50 text-cityu-blue text-xs font-bold rounded">
+                        {item.code}
+                      </span>
+                      <span className="text-xs text-gray-500">{item.credits} CU</span>
+                      {item.detailStatus !== 'parsed' && (
+                        <span className="text-xs text-amber-700">官方课程详情未确认</span>
+                      )}
+                    </div>
+                    <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
+                    <div className="text-xs text-gray-500 mt-1">{item.department}</div>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <div className="text-sm text-gray-500 py-3">没有找到匹配 PG 课程</div>
             )}
           </section>
         </div>
