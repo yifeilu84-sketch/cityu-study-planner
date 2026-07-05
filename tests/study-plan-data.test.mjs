@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { generateStudyPlan, getAllMajorCourses } from '../src/utils/studyPlan.ts'
@@ -9,6 +9,10 @@ const courses = JSON.parse(readFileSync(new URL('../src/data/courses.json', impo
 const officialGECourses = JSON.parse(readFileSync(new URL('../src/data/ge-official-courses.json', import.meta.url), 'utf8'))
 const postgraduateProgrammes = JSON.parse(readFileSync(new URL('../src/data/postgraduate-programmes.json', import.meta.url), 'utf8'))
 const pgCourses = JSON.parse(readFileSync(new URL('../src/data/pg-courses.json', import.meta.url), 'utf8'))
+const academicProfilesUrl = new URL('../src/data/academic-profiles.json', import.meta.url)
+const academicProfilesData = existsSync(academicProfilesUrl)
+  ? JSON.parse(readFileSync(academicProfilesUrl, 'utf8'))
+  : { summary: {}, profiles: [], colleges: [] }
 
 function major(code) {
   const found = majors.find((item) => item.code === code)
@@ -1067,4 +1071,47 @@ test('postgraduate detail route and global search are wired', async () => {
   const results = searchPlanner(index, 'CS5222', { limit: 10 })
   assert.ok(results.pgCourses.some((item) => item.code === 'CS5222'))
   assert.ok(searchPlanner(index, 'Computer Science', { limit: 10 }).postgraduateProgrammes.some((item) => item.code === 'P53'))
+})
+
+test('academic profiles are imported from the companion cityuhk-academic repository', () => {
+  assert.ok(existsSync(academicProfilesUrl), 'academic-profiles.json should be generated from cityuhk-academic')
+  assert.equal(academicProfilesData.summary.sourceRepository, 'cityuhk-academic')
+  assert.ok(academicProfilesData.summary.collegeCount >= 8, 'academic reference should cover most CityUHK colleges/schools')
+  assert.ok(academicProfilesData.summary.departmentCount >= 30, 'academic reference should cover department-level data')
+  assert.ok(academicProfilesData.summary.professorCount >= 900, 'academic reference should include the professor directory')
+  assert.ok(academicProfilesData.summary.publicationCount >= 2000, 'academic reference should preserve representative publications')
+
+  const profiles = academicProfilesData.profiles
+  assert.ok(profiles.some((profile) => profile.scholarUrl || profile.googleScholar || profile.url), 'profiles should preserve source links')
+  assert.ok(profiles.some((profile) => (profile.interests ?? []).length > 0), 'profiles should expose research interests')
+  assert.ok(profiles.some((profile) => (profile.topPublications ?? []).length > 0), 'profiles should expose representative publications')
+})
+
+test('academic routes, search, and related research matching are wired', async () => {
+  const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+  const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')
+  const postgraduateDetail = readFileSync(new URL('../src/pages/PostgraduateDetailPage.tsx', import.meta.url), 'utf8')
+  const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
+  const { findRelatedAcademicProfiles } = await import('../src/utils/academicProfiles.ts')
+
+  assert.ok(app.includes('path="/academic"'))
+  assert.ok(app.includes('path="/academic/:profileId"'))
+  assert.ok(layout.includes('to="/academic"'))
+  assert.ok(home.includes('academicProfiles'))
+  assert.ok(majorPage.includes('Research Reference'))
+  assert.ok(postgraduateDetail.includes('Research Reference'))
+
+  const index = buildSearchIndex(majors, courses, postgraduateProgrammes, pgCourses, academicProfilesData)
+  const dataScienceResults = searchPlanner(index, 'data science', { limit: 20 })
+  assert.ok(dataScienceResults.academicProfiles.length > 0, 'global search should return academic profiles')
+
+  const csMajor = major('BSC1_CSC1-1')
+  const relatedForMajor = findRelatedAcademicProfiles(academicProfilesData.profiles, csMajor, { limit: 6 })
+  assert.ok(relatedForMajor.length > 0, 'major pages should receive related professor suggestions')
+
+  const csPg = postgraduateProgrammes.find((item) => item.code === 'P53')
+  const relatedForPg = findRelatedAcademicProfiles(academicProfilesData.profiles, csPg, { limit: 6 })
+  assert.ok(relatedForPg.length > 0, 'postgraduate pages should receive related professor suggestions')
 })

@@ -1,5 +1,16 @@
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 import { getStudyPlanSourceStatus, type SourceStatusKind } from './sourceStatus.ts'
+import { academicProfileSearchText, scoreAcademicProfile, type AcademicSearchableProfile } from './academicProfiles.ts'
+
+type AcademicProfileIndexInput = AcademicSearchableProfile & {
+  id: string
+  collegeName?: string
+  collegeNameEn?: string
+  departmentName?: string
+  departmentNameEn?: string
+}
+
+type AcademicProfileIndexData = AcademicProfileIndexInput[] | { profiles?: AcademicProfileIndexInput[] }
 
 export interface SearchMajorItem {
   type: 'major'
@@ -44,11 +55,27 @@ export interface SearchPostgraduateCourseItem {
   searchText: string
 }
 
+export interface SearchAcademicProfileItem {
+  type: 'academic-profile'
+  id: string
+  name: string
+  nameCN?: string
+  title?: string
+  college: string
+  department: string
+  ugWelcome: boolean
+  studentCount: number
+  publicationCount: number
+  interests: string[]
+  searchText: string
+}
+
 export interface SearchIndex {
   majors: SearchMajorItem[]
   courses: SearchCourseItem[]
   postgraduateProgrammes: SearchPostgraduateProgrammeItem[]
   pgCourses: SearchPostgraduateCourseItem[]
+  academicProfiles: SearchAcademicProfileItem[]
 }
 
 export interface SearchResults {
@@ -56,6 +83,7 @@ export interface SearchResults {
   courses: SearchCourseItem[]
   postgraduateProgrammes: SearchPostgraduateProgrammeItem[]
   pgCourses: SearchPostgraduateCourseItem[]
+  academicProfiles: SearchAcademicProfileItem[]
 }
 
 function normalise(value: string): string {
@@ -109,6 +137,7 @@ export function buildSearchIndex(
   courses: Record<string, any>,
   postgraduateProgrammes: any[] = [],
   pgCourses: Record<string, any> = {},
+  academicProfilesData: AcademicProfileIndexData = { profiles: [] },
 ): SearchIndex {
   const majorItems: SearchMajorItem[] = majors.map((major) => ({
     type: 'major',
@@ -183,18 +212,40 @@ export function buildSearchIndex(
       searchText: normalise([course.code, course.title, course.department].filter(Boolean).join(' ')),
     }))
 
+  const academicProfiles = Array.isArray(academicProfilesData)
+    ? academicProfilesData
+    : (academicProfilesData?.profiles ?? [])
+
+  const academicProfileItems: SearchAcademicProfileItem[] = academicProfiles
+    .filter((profile) => profile?.id && profile?.name)
+    .map((profile) => ({
+      type: 'academic-profile',
+      id: profile.id,
+      name: profile.name,
+      nameCN: profile.nameCN,
+      title: profile.title,
+      college: profile.collegeNameEn || profile.collegeName || '',
+      department: profile.departmentNameEn || profile.departmentName || '',
+      ugWelcome: Boolean(profile.ugWelcome),
+      studentCount: profile.studentCount ?? 0,
+      publicationCount: profile.publicationCount ?? 0,
+      interests: (profile.interests ?? []).slice(0, 4),
+      searchText: normalise(academicProfileSearchText(profile)),
+    }))
+
   return {
     majors: majorItems,
     courses: courseItems,
     postgraduateProgrammes: postgraduateProgrammeItems,
     pgCourses: postgraduateCourseItems,
+    academicProfiles: academicProfileItems,
   }
 }
 
 export function searchPlanner(index: SearchIndex, query: string, options: { limit?: number; sourceKind?: SourceStatusKind | 'all' } = {}): SearchResults {
   const q = normalise(query)
   const limit = options.limit ?? 8
-  if (!q || isGenericCourseSlot(q)) return { majors: [], courses: [], postgraduateProgrammes: [], pgCourses: [] }
+  if (!q || isGenericCourseSlot(q)) return { majors: [], courses: [], postgraduateProgrammes: [], pgCourses: [], academicProfiles: [] }
 
   const majors = index.majors
     .filter((item) => !options.sourceKind || options.sourceKind === 'all' || item.sourceKind === options.sourceKind)
@@ -225,5 +276,12 @@ export function searchPlanner(index: SearchIndex, query: string, options: { limi
     .slice(0, limit)
     .map((entry) => entry.item)
 
-  return { majors, courses, postgraduateProgrammes, pgCourses }
+  const academicProfiles = (index.academicProfiles ?? [])
+    .map((item) => ({ item, score: scoreAcademicProfile(item, q) }))
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
+    .slice(0, limit)
+    .map((entry) => entry.item)
+
+  return { majors, courses, postgraduateProgrammes, pgCourses, academicProfiles }
 }

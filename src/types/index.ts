@@ -109,6 +109,78 @@ export interface PostgraduateProgramme {
   notes?: string[];
 }
 
+export interface AcademicStudent {
+  name: string;
+  topic?: string;
+}
+
+export interface AcademicPublication {
+  title: string;
+  journal?: string;
+  year?: number | null;
+  cites?: number | null;
+  url?: string;
+}
+
+export interface AcademicProfile {
+  id: string;
+  sourceKey: string;
+  name: string;
+  nameCN?: string;
+  title?: string;
+  background?: string;
+  interests: string[];
+  ugWelcome: boolean;
+  students: AcademicStudent[];
+  studentCount: number;
+  phdStudents?: string[];
+  topPublications: AcademicPublication[];
+  publicationCount: number;
+  scholarUrl?: string;
+  googleScholar?: string;
+  url?: string;
+  collegeId: string;
+  collegeName: string;
+  collegeNameEn: string;
+  departmentId: string;
+  departmentName: string;
+  departmentNameEn: string;
+  departmentUrl?: string;
+  searchText?: string;
+}
+
+export interface AcademicDepartmentDirectory {
+  id: string;
+  name: string;
+  nameEn: string;
+  url?: string;
+  profileIds: string[];
+}
+
+export interface AcademicCollegeDirectory {
+  id: string;
+  name: string;
+  nameEn: string;
+  icon?: string;
+  url?: string;
+  departments: AcademicDepartmentDirectory[];
+}
+
+export interface AcademicProfilesData {
+  summary: {
+    sourceRepository: string;
+    sourceUrl: string;
+    sourceFile: string;
+    collegeCount: number;
+    departmentCount: number;
+    professorCount: number;
+    studentCount: number;
+    publicationCount: number;
+  };
+  colleges: AcademicCollegeDirectory[];
+  profiles: AcademicProfile[];
+}
+
 export interface MajorRequirements {
   // Nested structure (official PDF majors)
   gatewayEducation?: { credits: number | string; courses: MajorCourse[] } | number | string;

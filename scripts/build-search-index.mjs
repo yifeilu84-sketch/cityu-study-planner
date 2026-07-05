@@ -9,10 +9,14 @@ const postgraduateProgrammes = existsSync('src/data/postgraduate-programmes.json
 const pgCourses = existsSync('src/data/pg-courses.json')
   ? JSON.parse(readFileSync('src/data/pg-courses.json', 'utf8'))
   : {}
-const index = buildSearchIndex(majors, courses, postgraduateProgrammes, pgCourses)
+const academicProfiles = existsSync('src/data/academic-profiles.json')
+  ? JSON.parse(readFileSync('src/data/academic-profiles.json', 'utf8'))
+  : { profiles: [] }
+const index = buildSearchIndex(majors, courses, postgraduateProgrammes, pgCourses, academicProfiles)
 
 writeFileSync('src/data/search-index.json', `${JSON.stringify(index, null, 2)}\n`)
 console.log(
   `Indexed ${index.majors.length} majors, ${index.courses.length} courses, ` +
-  `${index.postgraduateProgrammes.length} postgraduate programmes and ${index.pgCourses.length} PG courses.`
+  `${index.postgraduateProgrammes.length} postgraduate programmes, ${index.pgCourses.length} PG courses ` +
+  `and ${index.academicProfiles.length} academic profiles.`
 )

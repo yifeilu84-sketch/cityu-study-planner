@@ -6,15 +6,20 @@ import CourseDetailModal from '../components/CourseDetailModal'
 import CourseBadge from '../components/CourseBadge'
 import StudyPlanEditor from '../components/StudyPlanEditor'
 import GraduationAuditPanel from '../components/GraduationAuditPanel'
+import ResearchReferencePanel from '../components/ResearchReferencePanel'
 import { generateStudyPlan, getAllMajorCourses, getCategoryColor, getCategoryLabel, getCreditStatus } from '../utils/studyPlan'
 import { getCourseLookupCode, isGenericCourseSlot } from '../utils/courseCodes.ts'
 import { getStudyPlanSourceStatus } from '../utils/sourceStatus.ts'
 import { buildIssueReport } from '../utils/feedback.ts'
 import { auditGraduationPlan } from '../utils/graduationAudit.ts'
+import { findRelatedAcademicProfiles } from '../utils/academicProfiles.ts'
+import academicProfilesJson from '../data/academic-profiles.json'
+import type { AcademicProfilesData } from '../types'
 
 type Tab = 'plan' | 'requirements' | 'courses'
 
 const majorModules = import.meta.glob('../data/major-*.json')
+const academicData = academicProfilesJson as AcademicProfilesData
 
 const SOURCE_TONE_CLASSES = {
   blue: {
@@ -124,6 +129,14 @@ export default function MajorPage() {
       c.code.toLowerCase().includes(s) || c.title.toLowerCase().includes(s)
     )
   }, [allReqCourses, search])
+
+  const relatedAcademicProfiles = useMemo(() => {
+    if (!major) return []
+    const entityForMatching = activeStream
+      ? { ...major, title: `${major.title} ${activeStream.name}`, degree: `${major.degree} ${activeStream.description ?? ''}` }
+      : major
+    return findRelatedAcademicProfiles(academicData.profiles, entityForMatching, { limit: 6 })
+  }, [activeStream, major])
 
   const openCourseDetail = async (code: string) => {
     if (isGenericCourseSlot(code)) return
@@ -324,6 +337,12 @@ export default function MajorPage() {
           </div>
         )}
       </div>
+
+      <ResearchReferencePanel
+        profiles={relatedAcademicProfiles}
+        heading="Research Reference"
+        description="Related CityUHK academic profiles for FYP, RA, reading-list, and supervisor exploration. This is separate from the official course plan above."
+      />
 
       {/* Tabs */}
       <div className="flex flex-col sm:flex-row gap-2 mb-6 border-b border-gray-200 items-start sm:items-center justify-between">

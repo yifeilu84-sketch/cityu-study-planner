@@ -11,6 +11,8 @@ const CoveragePage = lazy(() => import('./pages/CoveragePage'))
 const ComparePage = lazy(() => import('./pages/ComparePage'))
 const PostgraduatePage = lazy(() => import('./pages/PostgraduatePage'))
 const PostgraduateDetailPage = lazy(() => import('./pages/PostgraduateDetailPage'))
+const AcademicPage = lazy(() => import('./pages/AcademicPage'))
+const AcademicProfilePage = lazy(() => import('./pages/AcademicProfilePage'))
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/ge" element={<GEPage />} />
           <Route path="/compare" element={<ComparePage />} />
+          <Route path="/academic" element={<AcademicPage />} />
+          <Route path="/academic/:profileId" element={<AcademicProfilePage />} />
           <Route path="/postgraduate" element={<PostgraduatePage />} />
           <Route path="/postgraduate/:programmeCode" element={<PostgraduateDetailPage />} />
           <Route path="/coverage" element={<CoveragePage />} />

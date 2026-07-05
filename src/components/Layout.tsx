@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { BookOpen, Database, GitCompareArrows, GraduationCap, Search } from 'lucide-react'
+import { BookOpen, Database, GitCompareArrows, GraduationCap, Microscope, Search } from 'lucide-react'
 import type { ReactNode } from 'react'
 
 interface LayoutProps {
@@ -47,6 +47,14 @@ export default function Layout({ children }: LayoutProps) {
               <GraduationCap className="w-4 h-4" />
               <span className="hidden sm:inline">硕博</span>
               <span className="sm:hidden">硕博</span>
+            </Link>
+            <Link
+              to="/academic"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs sm:text-sm bg-white/10 hover:bg-white/15 hover:text-cityu-accent transition-colors"
+            >
+              <Microscope className="w-4 h-4" />
+              <span className="hidden sm:inline">科研参考</span>
+              <span className="sm:hidden">科研</span>
             </Link>
           </nav>
         </div>

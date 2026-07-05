@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, BookOpen, Building2, Database, GitCompareArrows, GraduationCap, Search, ShieldCheck } from 'lucide-react'
+import { ArrowRight, BookOpen, Building2, Database, GitCompareArrows, GraduationCap, Microscope, Search, ShieldCheck, Users } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import majorIndex from '../data/majors-index.json'
 import CourseDetailModal from '../components/CourseDetailModal'
@@ -42,6 +42,7 @@ const EMPTY_SEARCH_RESULTS: SearchResults = {
   courses: [],
   postgraduateProgrammes: [],
   pgCourses: [],
+  academicProfiles: [],
 }
 
 function getMajorCount(college: any) {
@@ -197,6 +198,50 @@ export default function Home() {
           <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
+                <Microscope className="w-5 h-5 text-cityu-accent" />
+                科研参考
+              </h2>
+              <span className="text-xs text-gray-500">{searchResults.academicProfiles.length} matches</span>
+            </div>
+            {isSearchLoading ? (
+              <div className="text-sm text-gray-500 py-3">Loading academic profiles...</div>
+            ) : searchResults.academicProfiles.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {searchResults.academicProfiles.map(item => (
+                  <Link
+                    key={item.id}
+                    to={`/academic/${item.id}`}
+                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
+                        {item.name}
+                      </span>
+                      {item.nameCN ? <span className="text-xs text-gray-500">{item.nameCN}</span> : null}
+                      {item.ugWelcome ? (
+                        <span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">UG</span>
+                      ) : null}
+                    </div>
+                    <div className="font-semibold text-gray-800 text-sm line-clamp-2">{item.title || item.department}</div>
+                    <div className="mt-2 flex items-center gap-3 text-xs text-gray-500">
+                      <span className="inline-flex items-center gap-1">
+                        <Users className="w-3.5 h-3.5" />
+                        {item.studentCount}
+                      </span>
+                      <span>{item.publicationCount} pubs</span>
+                      <span className="truncate">{item.department}</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div className="text-sm text-gray-500 py-3">No matching academic profiles</div>
+            )}
+          </section>
+
+          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-cityu-accent" />
                 硕博项目
               </h2>
@@ -308,7 +353,7 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-3">
+          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 gap-3">
             <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
@@ -335,6 +380,22 @@ export default function Home() {
                 className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
               >
                 打开 GE 工具
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div>
+                <div className="font-bold text-gray-800 flex items-center gap-2">
+                  <Microscope className="w-4 h-4 text-cityu-accent" />
+                  科研参考
+                </div>
+                <div className="text-sm text-gray-500">按教授、研究方向、学生课题和代表论文检索 CityUHK 科研资料。</div>
+              </div>
+              <Link
+                to="/academic"
+                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+              >
+                打开科研
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

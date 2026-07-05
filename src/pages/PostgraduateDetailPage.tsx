@@ -14,12 +14,16 @@ import {
 } from 'lucide-react'
 import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import pgCoursesData from '../data/pg-courses.json'
+import academicProfilesJson from '../data/academic-profiles.json'
 import CourseDetailModal from '../components/CourseDetailModal'
 import PostgraduatePlanEditor from '../components/PostgraduatePlanEditor'
-import type { Course, MajorCourse, PostgraduateProgramme, StudyPlan } from '../types'
+import ResearchReferencePanel from '../components/ResearchReferencePanel'
+import { findRelatedAcademicProfiles } from '../utils/academicProfiles.ts'
+import type { AcademicProfilesData, Course, MajorCourse, PostgraduateProgramme, StudyPlan } from '../types'
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
 const pgCourses = pgCoursesData as Record<string, Course>
+const academicData = academicProfilesJson as AcademicProfilesData
 
 const TYPE_LABELS: Record<PostgraduateProgramme['type'], string> = {
   'taught-master': '授课型硕士',
@@ -113,6 +117,9 @@ export default function PostgraduateDetailPage() {
   const activePlan = selectedVariant?.studyPlan ?? programme?.studyPlan
   const coursePool = useMemo(() => (programme ? coursePoolFor(programme) : []), [programme])
   const isDiy = programme?.sourceStatus.kind !== 'official-sample'
+  const relatedAcademicProfiles = useMemo(() => (
+    programme ? findRelatedAcademicProfiles(academicData.profiles, programme, { limit: 5 }) : []
+  ), [programme])
 
   useEffect(() => {
     setEditMode(false)
@@ -371,6 +378,13 @@ export default function PostgraduateDetailPage() {
         </div>
 
         <aside className="space-y-4">
+          <ResearchReferencePanel
+            profiles={relatedAcademicProfiles}
+            heading="Research Reference"
+            description="Related CityUHK academic profiles for supervisor, research group, and publication exploration. This is separate from programme coursework requirements."
+            compact
+          />
+
           {programme.researchAreas?.length ? (
             <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
