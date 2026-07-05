@@ -88,7 +88,7 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
       </div>
 
       {!compact && (
-        <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 border-y border-current/10 py-3 text-xs sm:text-sm">
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 border-y border-current/10 py-3 text-xs sm:text-sm">
           <div className="sm:border-r sm:border-current/10 sm:pr-3">
             <div className="text-gray-500">GE 已规划</div>
             <div className="font-bold text-gray-800 mt-1">{audit.ge.plannedCredits}/{audit.ge.requiredCredits} CU</div>
@@ -103,6 +103,25 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
             <div className="text-gray-500">重复课程</div>
             <div className="font-bold text-gray-800 mt-1">
               {audit.duplicates.length > 0 ? audit.duplicates.map(item => item.code).join(', ') : '未发现'}
+            </div>
+          </div>
+          <div>
+            <div className="text-gray-500">跨学期项目</div>
+            <div className="font-bold text-gray-800 mt-1">
+              {audit.splitCourses.length > 0 ? audit.splitCourses.map(item => item.code).join(', ') : '无'}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {audit.splitCourses.length > 0 && (
+        <div className="mt-3 flex items-start gap-2 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-xs sm:text-sm text-blue-800">
+          <Info className="w-4 h-4 shrink-0 mt-0.5" />
+          <div>
+            <div className="font-semibold">跨学期课程已单独识别</div>
+            <div>
+              {audit.splitCourses.map(item => `${item.code} (${item.plannedCredits}/${item.catalogueCredits} CU, ${item.count} 个学期)`).join('；')}
+              {' '}按年度项目或分学期完成处理，不计为重复课程冲突。
             </div>
           </div>
         </div>

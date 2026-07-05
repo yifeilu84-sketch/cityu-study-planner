@@ -43,6 +43,17 @@ export interface GEFilters {
   query: string
   area: string
   exam: 'any' | 'has-exam' | 'no-exam'
+  unit?: string
+  level?: string
+  term?: string
+  assessment?: 'any' | 'has-exam' | 'no-exam' | 'ca-only' | 'ca-heavy'
+}
+
+export interface GEFilterOptions {
+  areas: string[]
+  units: string[]
+  levels: string[]
+  terms: string[]
 }
 
 function parsePercent(value: unknown): number {
@@ -133,12 +144,35 @@ export function summarizeGEAreas(items: GECourseSummary[]): GEAreaSummary {
   }
 }
 
+export function getGEFilterOptions(items: GECourseSummary[]): GEFilterOptions {
+  const collect = (values: string[]) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b))
+  return {
+    areas: summarizeGEAreas(items).groups.map(group => group.area),
+    units: collect(items.map(item => item.offeringUnit)),
+    levels: collect(items.map(item => item.level)),
+    terms: collect(items.flatMap(item => item.terms)),
+  }
+}
+
+function matchesAssessment(item: GECourseSummary, assessment: GEFilters['assessment'], exam: GEFilters['exam']): boolean {
+  const selected = assessment ?? 'any'
+  if (selected === 'has-exam') return item.hasFinalExam
+  if (selected === 'no-exam') return !item.hasFinalExam
+  if (selected === 'ca-only') return !item.hasFinalExam && item.continuousPercent >= 100
+  if (selected === 'ca-heavy') return item.continuousPercent >= 60
+  if (exam === 'has-exam') return item.hasFinalExam
+  if (exam === 'no-exam') return !item.hasFinalExam
+  return true
+}
+
 export function filterGECourses(items: GECourseSummary[], filters: GEFilters): GECourseSummary[] {
   const query = filters.query.trim().toLowerCase()
   return items.filter((item) => {
     if (filters.area !== 'all' && item.area !== filters.area) return false
-    if (filters.exam === 'has-exam' && !item.hasFinalExam) return false
-    if (filters.exam === 'no-exam' && item.hasFinalExam) return false
+    if (filters.unit && filters.unit !== 'all' && item.offeringUnit !== filters.unit) return false
+    if (filters.level && filters.level !== 'all' && item.level !== filters.level) return false
+    if (filters.term && filters.term !== 'all' && !item.terms.includes(filters.term)) return false
+    if (!matchesAssessment(item, filters.assessment, filters.exam)) return false
     if (query && !`${item.code} ${item.title} ${item.offeringUnit} ${item.terms.join(' ')}`.toLowerCase().includes(query)) return false
     return true
   })

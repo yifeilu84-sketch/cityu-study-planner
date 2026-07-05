@@ -73,6 +73,7 @@ export interface GraduationAudit {
     missingRequiredCodes: string[]
   }
   duplicates: { code: string; count: number }[]
+  splitCourses: { code: string; count: number; plannedCredits: number; catalogueCredits: number }[]
   warnings: AuditWarning[]
 }
 
@@ -293,23 +294,23 @@ function buildGEAudit(
   }
 }
 
-function buildDuplicateAudit(
-  plannedCourses: NormalizedPlannedCourse[],
+function getRequirementCreditsForCode(
+  code: string,
   courses: Record<string, Course>,
   reqs: MajorRequirements
-): { code: string; count: number }[] {
-  const getRequirementCredits = (code: string): number => {
-    let maxCredits = 0
-    for (const section of SECTION_DEFS) {
-      for (const course of getRequirementSection(reqs, section.key).courses) {
-        if (normalizeCode(course.code, courses) === code) {
-          maxCredits = Math.max(maxCredits, course.credits ?? 0)
-        }
+): number {
+  let maxCredits = 0
+  for (const section of SECTION_DEFS) {
+    for (const course of getRequirementSection(reqs, section.key).courses) {
+      if (normalizeCode(course.code, courses) === code) {
+        maxCredits = Math.max(maxCredits, course.credits ?? 0)
       }
     }
-    return maxCredits
   }
+  return maxCredits
+}
 
+function summarizeRepeatedCourses(plannedCourses: NormalizedPlannedCourse[]): Map<string, { count: number; credits: number }> {
   const plannedByCode = new Map<string, { count: number; credits: number }>()
   for (const course of plannedCourses) {
     if (!isConcreteCourseCode(course.normalizedCode)) continue
@@ -318,13 +319,42 @@ function buildDuplicateAudit(
     item.credits += course.credits
     plannedByCode.set(course.normalizedCode, item)
   }
+  return plannedByCode
+}
+
+function buildDuplicateAudit(
+  plannedCourses: NormalizedPlannedCourse[],
+  courses: Record<string, Course>,
+  reqs: MajorRequirements
+): { code: string; count: number }[] {
+  const plannedByCode = summarizeRepeatedCourses(plannedCourses)
   return [...plannedByCode.entries()]
     .filter(([code, item]) => {
       if (item.count <= 1) return false
-      const catalogueCredits = courses[code]?.credits ?? getRequirementCredits(code)
+      const catalogueCredits = courses[code]?.credits ?? getRequirementCreditsForCode(code, courses, reqs)
       return catalogueCredits <= 0 ? item.credits > 0 : item.credits > catalogueCredits
     })
     .map(([code, item]) => ({ code, count: item.count }))
+}
+
+function buildSplitCourseAudit(
+  plannedCourses: NormalizedPlannedCourse[],
+  courses: Record<string, Course>,
+  reqs: MajorRequirements
+): GraduationAudit['splitCourses'] {
+  const plannedByCode = summarizeRepeatedCourses(plannedCourses)
+  return [...plannedByCode.entries()]
+    .filter(([code, item]) => {
+      if (item.count <= 1) return false
+      const catalogueCredits = courses[code]?.credits ?? getRequirementCreditsForCode(code, courses, reqs)
+      return catalogueCredits > 0 && item.credits > 0 && item.credits <= catalogueCredits
+    })
+    .map(([code, item]) => ({
+      code,
+      count: item.count,
+      plannedCredits: item.credits,
+      catalogueCredits: courses[code]?.credits ?? getRequirementCreditsForCode(code, courses, reqs),
+    }))
 }
 
 function buildPriorCodeSets(plannedCourses: NormalizedPlannedCourse[]): Map<number, Set<string>> {
@@ -468,6 +498,7 @@ export function auditGraduationPlan(
   const sections = buildSectionAudit(reqs, plannedCourses, plannedCodes, courses)
   const ge = buildGEAudit(reqs, plannedCourses, plannedCodes, courses)
   const duplicates = buildDuplicateAudit(plannedCourses, courses, reqs)
+  const splitCourses = buildSplitCourseAudit(plannedCourses, courses, reqs)
   const warnings: AuditWarning[] = []
 
   const sourceWarning = sourceConfidenceWarning(sourceStatus.kind)
@@ -548,6 +579,7 @@ export function auditGraduationPlan(
     sections,
     ge,
     duplicates,
+    splitCourses,
     warnings,
   }
 }

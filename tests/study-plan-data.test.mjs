@@ -318,8 +318,10 @@ test('graduation audit accepts split final year project courses in SEE study pla
 
   assert.equal(eseAudit.duplicates.some((item) => item.code === 'SEE4997'), false)
   assert.equal(eseAudit.warnings.some((warning) => warning.kind === 'duplicate' && warning.codes.includes('SEE4997')), false)
+  assert.ok(eseAudit.splitCourses.some((item) => item.code === 'SEE4997' && item.count === 2))
   assert.equal(eveAudit.duplicates.some((item) => item.code === 'SEE4996'), false)
   assert.equal(eveAudit.warnings.some((warning) => warning.kind === 'duplicate' && warning.codes.includes('SEE4996')), false)
+  assert.ok(eveAudit.splitCourses.some((item) => item.code === 'SEE4996' && item.count === 2))
 })
 
 test('ESE major elective requirement matches official 12 credit unit catalogue requirement', async () => {
@@ -390,6 +392,7 @@ test('graduation audit panel is wired into major and edit views', () => {
   const editor = readFileSync(new URL('../src/components/StudyPlanEditor.tsx', import.meta.url), 'utf8')
 
   assert.ok(panel.includes('毕业要求自检'))
+  assert.ok(panel.includes('跨学期'))
   assert.ok(panel.includes('audit.totalCredits.planned'))
   assert.ok(majorPage.includes('GraduationAuditPanel'))
   assert.ok(majorPage.includes('auditGraduationPlan'))
@@ -434,6 +437,61 @@ test('ge helper exposes verified GE courses with assessment filters', async () =
   assert.ok(filterGECourses(items, { query: 'English', area: 'all', exam: 'any' }).length > 0)
   assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'has-exam' }).every((item) => item.hasFinalExam))
   assert.ok(filterGECourses(items, { query: '', area: 'all', exam: 'no-exam' }).every((item) => !item.hasFinalExam))
+})
+
+test('ge helper filters by unit, level, term, and assessment profile', async () => {
+  const { filterGECourses } = await import('../src/utils/geCourses.ts')
+  const items = [
+    {
+      code: 'GE1111',
+      title: 'Arts Course',
+      credits: 3,
+      area: 'Area 1',
+      offeringUnit: 'LT',
+      level: 'B1',
+      terms: ['2025-26 Sem A'],
+      sourceUrl: '',
+      continuousPercent: 70,
+      examPercent: 30,
+      hasFinalExam: true,
+      hasAssessment: true,
+      course: {},
+    },
+    {
+      code: 'GE2222',
+      title: 'Society Course',
+      credits: 3,
+      area: 'Area 2',
+      offeringUnit: 'SS',
+      level: 'B2',
+      terms: ['2025-26 Sem B'],
+      sourceUrl: '',
+      continuousPercent: 100,
+      examPercent: 0,
+      hasFinalExam: false,
+      hasAssessment: true,
+      course: {},
+    },
+  ]
+
+  assert.deepEqual(
+    filterGECourses(items, { query: '', area: 'all', exam: 'any', unit: 'SS', level: 'B2', term: '2025-26 Sem B', assessment: 'ca-only' }).map((item) => item.code),
+    ['GE2222']
+  )
+  assert.deepEqual(
+    filterGECourses(items, { query: '', area: 'all', exam: 'any', unit: 'LT', level: 'all', term: 'all', assessment: 'has-exam' }).map((item) => item.code),
+    ['GE1111']
+  )
+})
+
+test('ge shortlist helpers toggle and normalize saved course codes', async () => {
+  const { toggleGEShortlist, serializeGEShortlist, parseGEShortlist } = await import('../src/utils/geShortlist.ts')
+
+  const first = toggleGEShortlist([], ' ge1111 ')
+  assert.deepEqual(first, ['GE1111'])
+  assert.deepEqual(toggleGEShortlist(first, 'GE1111'), [])
+  assert.deepEqual(parseGEShortlist(serializeGEShortlist(['GE1111', 'GE2222'])), ['GE1111', 'GE2222'])
+  assert.deepEqual(parseGEShortlist('not json'), [])
 })
 
 test('ge helper summarizes official areas in user-facing order', async () => {
