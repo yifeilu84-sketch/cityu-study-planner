@@ -600,3 +600,21 @@ test('major comparison page is wired into navigation and routes', () => {
   assert.ok(layout.includes('专业对比'))
   assert.ok(home.includes('/compare'))
 })
+
+test('postgraduate page is wired into navigation and uses official postgraduate links', () => {
+  const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+  const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const page = readFileSync(new URL('../src/pages/PostgraduatePage.tsx', import.meta.url), 'utf8')
+
+  assert.ok(app.includes('PostgraduatePage'))
+  assert.ok(app.includes('path="/postgraduate"'))
+  assert.ok(layout.includes('/postgraduate'))
+  assert.ok(home.includes('/postgraduate'))
+  assert.ok(page.includes("Master's Programmes"))
+  assert.ok(page.includes('Research Degree Programmes'))
+  assert.ok(page.includes('Professional Doctorate Programmes'))
+  assert.ok(page.includes('https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list'))
+  assert.ok(page.includes('https://www.cityu.edu.hk/pg/research-degree-programmes/research-areas'))
+  assert.ok(page.includes('本科 study plan 审查'))
+})

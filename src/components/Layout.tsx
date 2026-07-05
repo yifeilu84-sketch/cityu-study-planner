@@ -40,6 +40,14 @@ export default function Layout({ children }: LayoutProps) {
               <span className="hidden sm:inline">专业对比</span>
               <span className="sm:hidden">对比</span>
             </Link>
+            <Link
+              to="/postgraduate"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs sm:text-sm bg-white/10 hover:bg-white/15 hover:text-cityu-accent transition-colors"
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span className="hidden sm:inline">硕博</span>
+              <span className="sm:hidden">硕博</span>
+            </Link>
           </nav>
         </div>
       </header>

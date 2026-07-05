@@ -224,7 +224,7 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="mb-6 grid grid-cols-1 lg:grid-cols-3 gap-3">
+          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-3">
             <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
@@ -251,6 +251,22 @@ export default function Home() {
                 className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
               >
                 打开 GE 工具
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div>
+                <div className="font-bold text-gray-800 flex items-center gap-2">
+                  <GraduationCap className="w-4 h-4 text-cityu-accent" />
+                  硕博页面
+                </div>
+                <div className="text-sm text-gray-500">集中查看 CityUHK 硕士、研究型硕博和专业博士官方入口。</div>
+              </div>
+              <Link
+                to="/postgraduate"
+                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+              >
+                打开硕博
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
