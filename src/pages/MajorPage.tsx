@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useCallback } from 'react'
 import { ArrowLeft, BookOpen, GraduationCap, Clock, FileText, LayoutGrid, List, AlertCircle, Info, Pencil, Eye, ExternalLink, Flag } from 'lucide-react'
 import type { Course } from '../types'
 import CourseDetailModal from '../components/CourseDetailModal'
@@ -55,7 +55,20 @@ export default function MajorPage() {
   const [courseDetails, setCourseDetails] = useState<Record<string, Course> | null>(null)
   const [courseDetailsLoading, setCourseDetailsLoading] = useState(false)
 
-  const courses: Record<string, Course> = courseDetails ?? {}
+  const courses: Record<string, Course> = useMemo(() => courseDetails ?? {}, [courseDetails])
+
+  const loadCourseDetails = useCallback(async (): Promise<Record<string, Course>> => {
+    if (courseDetails) return courseDetails
+    setCourseDetailsLoading(true)
+    try {
+      const module = await import('../data/courses.json')
+      const loaded = module.default as unknown as Record<string, Course>
+      setCourseDetails(loaded)
+      return loaded
+    } finally {
+      setCourseDetailsLoading(false)
+    }
+  }, [courseDetails])
 
   useEffect(() => {
     let cancelled = false
@@ -74,6 +87,11 @@ export default function MajorPage() {
       if (cancelled) return
       setMajor(module.default)
       setMajorLoadState('ready')
+      void import('../data/courses.json').then((coursesModule) => {
+        if (cancelled) return
+        const loadedCourses = coursesModule.default as unknown as Record<string, Course>
+        setCourseDetails(current => current ?? loadedCourses)
+      })
     }).catch(() => {
       if (cancelled) return
       setMajorLoadState('missing')
@@ -106,19 +124,6 @@ export default function MajorPage() {
       c.code.toLowerCase().includes(s) || c.title.toLowerCase().includes(s)
     )
   }, [allReqCourses, search])
-
-  const loadCourseDetails = async (): Promise<Record<string, Course>> => {
-    if (courseDetails) return courseDetails
-    setCourseDetailsLoading(true)
-    try {
-      const module = await import('../data/courses.json')
-      const loaded = module.default as unknown as Record<string, Course>
-      setCourseDetails(loaded)
-      return loaded
-    } finally {
-      setCourseDetailsLoading(false)
-    }
-  }
 
   const openCourseDetail = async (code: string) => {
     if (isGenericCourseSlot(code)) return

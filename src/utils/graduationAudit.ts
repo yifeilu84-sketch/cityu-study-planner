@@ -103,6 +103,15 @@ interface RequirementSection {
   note?: string
 }
 
+function parseRequirementCredits(raw: unknown): number {
+  if (typeof raw === 'number') return raw
+  if (typeof raw === 'string') {
+    const values = raw.match(/\d+(?:\.\d+)?/g)?.map(Number) ?? []
+    return values.length > 0 ? Math.min(...values) : 0
+  }
+  return 0
+}
+
 function getActiveEntity(major: Major, streamIndex?: number): Major | NonNullable<Major['streams']>[number] {
   return streamIndex != null && major.streams?.[streamIndex] ? major.streams[streamIndex] : major
 }
@@ -125,10 +134,10 @@ function getRequirementSection(reqs: MajorRequirements, key: SectionKey): Requir
       key === 'freeElectives' ? 'freeElective' :
         null
   const raw = reqs[key as keyof MajorRequirements] ?? (alternateKey ? (reqs as any)[alternateKey] : undefined)
-  if (typeof raw === 'number') return { credits: raw, courses: [] }
+  if (typeof raw === 'number' || typeof raw === 'string') return { credits: parseRequirementCredits(raw), courses: [] }
   if (raw && typeof raw === 'object') {
     return {
-      credits: raw.credits ?? 0,
+      credits: parseRequirementCredits(raw.credits),
       courses: 'courses' in raw && Array.isArray(raw.courses) ? raw.courses : [],
       choose: 'choose' in raw ? raw.choose : undefined,
       chooseCredits: 'chooseCredits' in raw ? raw.chooseCredits : undefined,
@@ -188,6 +197,20 @@ function sectionHasCourse(section: RequirementSection, code: string, courses: Re
   return getSectionCourseCodes(section, courses).includes(code)
 }
 
+function hasRequirementContent(section: RequirementSection): boolean {
+  return section.credits > 0 || section.courses.length > 0 || Boolean(section.choose || section.chooseCredits)
+}
+
+function getCollegeSectionFallback(reqs: MajorRequirements): SectionKey | null {
+  const college = getRequirementSection(reqs, 'college')
+  const collegeRequirement = getRequirementSection(reqs, 'collegeRequirement')
+  if (hasRequirementContent(college) && !hasRequirementContent(collegeRequirement)) return 'college'
+  if (hasRequirementContent(collegeRequirement) && !hasRequirementContent(college)) return 'collegeRequirement'
+  if (hasRequirementContent(college)) return 'college'
+  if (hasRequirementContent(collegeRequirement)) return 'collegeRequirement'
+  return null
+}
+
 function getPlannedSectionKey(
   course: NormalizedPlannedCourse,
   reqs: MajorRequirements,
@@ -198,7 +221,7 @@ function getPlannedSectionKey(
     if (sectionHasCourse(getRequirementSection(reqs, section.key), code, courses)) return section.key
   }
   if (/^GE/.test(code) || /^GE/.test(course.code) || course.category === 'ge') return 'gatewayEducation'
-  if (/^COLLEGE|^COL-/i.test(course.code) || course.category === 'college') return 'college'
+  if (/^COLLEGE|^COL-/i.test(course.code) || course.category === 'college') return getCollegeSectionFallback(reqs)
   if (/^FREE|^MINOR|^SECOND-MAJOR$/i.test(course.code) || course.category === 'freeElective') return 'freeElectives'
   if (
     /^MAJOR|^STREAM[-_]?ELECT|^STREAM-COURSE$|^CS-E$|-ELECT|ELECTIVE|-ELEC\d*$/i.test(course.code) ||
@@ -254,7 +277,7 @@ function buildSectionAudit(
         confidence,
       }
     })
-    .filter(section => section.requiredCredits > 0 || section.requiredCourseCodes.length > 0 || section.plannedCredits > 0)
+    .filter(section => section.requiredCredits > 0 || section.requiredCourseCodes.length > 0)
 }
 
 function buildGEAudit(
@@ -273,7 +296,7 @@ function buildGEAudit(
     const isGE = /^GE/.test(course.code) || /^GE/.test(course.normalizedCode) || course.category === 'ge'
     if (!isGE) continue
     plannedCredits += course.credits
-    const area = getGEArea(course.normalizedCode)
+    const area = getPlannedGEArea(course)
     if (area === 'Area 1' || area === 'Area 2' || area === 'Area 3') {
       areaCredits[area] += course.credits
     }
@@ -292,6 +315,17 @@ function buildGEAudit(
     missingAreas,
     missingRequiredCodes,
   }
+}
+
+function getPlannedGEArea(course: NormalizedPlannedCourse): 'Area 1' | 'Area 2' | 'Area 3' | null {
+  const directArea = getGEArea(course.normalizedCode)
+  if (directArea === 'Area 1' || directArea === 'Area 2' || directArea === 'Area 3') return directArea
+
+  const text = `${course.code} ${course.title ?? ''}`
+  if (/GE-?DR1\b|DR-?1\b|Area\s*1\b/i.test(text)) return 'Area 1'
+  if (/GE-?DR2\b|DR-?2\b|Area\s*2\b/i.test(text)) return 'Area 2'
+  if (/GE-?DR3\b|DR-?3\b|Area\s*3\b/i.test(text)) return 'Area 3'
+  return null
 }
 
 function getRequirementCreditsForCode(
@@ -368,6 +402,18 @@ function buildPriorCodeSets(plannedCourses: NormalizedPlannedCourse[]): Map<numb
   return result
 }
 
+const PREREQUISITE_EQUIVALENTS: Record<string, string[]> = {
+  MA1200: ['MA1300'],
+  MA1300: ['MA1200'],
+  MA1201: ['MA1301'],
+  MA1301: ['MA1201'],
+}
+
+function hasPriorPrerequisite(code: string, priorCodes: Set<string>): boolean {
+  if (priorCodes.has(code)) return true
+  return (PREREQUISITE_EQUIVALENTS[code] ?? []).some(equivalentCode => priorCodes.has(equivalentCode))
+}
+
 function buildPrerequisiteWarnings(
   plannedCourses: NormalizedPlannedCourse[],
   courses: Record<string, Course>
@@ -384,7 +430,7 @@ function buildPrerequisiteWarnings(
 
     if (prerequisites.length === 0) continue
     const priorCodes = priorBySemester.get(course.semesterIndex) ?? new Set<string>()
-    const hasAtLeastOnePriorPrerequisite = prerequisites.some(code => priorCodes.has(code))
+    const hasAtLeastOnePriorPrerequisite = prerequisites.some(code => hasPriorPrerequisite(code, priorCodes))
     if (!hasAtLeastOnePriorPrerequisite) {
       warnings.push({
         kind: 'prerequisite',
@@ -430,8 +476,9 @@ function buildOfferingTermWarnings(
     if (course.sem === 'Summer' || !isConcreteCourseCode(course.normalizedCode)) continue
     const semesterText = (course.semester || courses[course.normalizedCode]?.semester || '').toLowerCase()
     if (!semesterText) continue
-    const semAOnly = semesterText.includes('semester a') && !semesterText.includes('semester b')
-    const semBOnly = semesterText.includes('semester b') && !semesterText.includes('semester a')
+    const offered = getOfferedSemesterFlags(semesterText)
+    const semAOnly = offered.a && !offered.b
+    const semBOnly = offered.b && !offered.a
     if ((course.sem === 'A' && semBOnly) || (course.sem === 'B' && semAOnly)) {
       warnings.push({
         kind: 'offering-term',
@@ -442,6 +489,16 @@ function buildOfferingTermWarnings(
     }
   }
   return warnings
+}
+
+function getOfferedSemesterFlags(semesterText: string): { a: boolean; b: boolean } {
+  const text = semesterText.replace(/\s+/g, ' ')
+  const combinedAB = /semester\s*a\s*(?:&|and|\/|,)\s*b|\bsem\s*a\s*(?:&|and|\/|,)\s*b/i.test(text)
+  const combinedBA = /semester\s*b\s*(?:&|and|\/|,)\s*a|\bsem\s*b\s*(?:&|and|\/|,)\s*a/i.test(text)
+  return {
+    a: combinedAB || combinedBA || /semester\s*a\b|\bsem\s*a\b/i.test(text),
+    b: combinedAB || combinedBA || /semester\s*b\b|\bsem\s*b\b/i.test(text),
+  }
 }
 
 function sourceConfidenceWarning(kind: SourceStatusKind): AuditWarning | null {

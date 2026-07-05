@@ -1,4 +1,4 @@
-import type { Major, Course } from '../types'
+import type { Major, Course, MajorRequirements } from '../types'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export interface SemesterPlan {
@@ -53,7 +53,7 @@ export function getAllMajorCourses(major: Major, streamIndex?: number): { code: 
       code: lookupCode,
       title: title || lookupCode,
       credits: credits ?? 0,
-      category: getCategoryFromRequirements(lookupCode, reqs) ?? inferCategoryFromCode(lookupCode)
+      category: getCategoryForPlannedCourse(lookupCode, title || '', reqs)
     })
   }
 
@@ -100,12 +100,34 @@ function getCategoryFromRequirements(code: string, reqs: any): string | null {
   return null
 }
 
-function inferCategoryFromCode(code: string, title = ''): string {
+function getRequirementValue(reqs: MajorRequirements, key: string): unknown {
+  if (key === 'majorElectives') return reqs.majorElectives ?? reqs.majorElective
+  if (key === 'freeElectives') return reqs.freeElectives ?? (reqs as any).freeElective
+  return (reqs as any)[key]
+}
+
+function parseRequirementCredits(raw: unknown): number {
+  if (typeof raw === 'number') return raw
+  if (typeof raw === 'string') {
+    const values = raw.match(/\d+(?:\.\d+)?/g)?.map(Number) ?? []
+    return values.length > 0 ? Math.min(...values) : 0
+  }
+  if (raw && typeof raw === 'object' && 'credits' in raw) return parseRequirementCredits(raw.credits)
+  return 0
+}
+
+function hasRequirementCredits(reqs: MajorRequirements, key: string): boolean {
+  return parseRequirementCredits(getRequirementValue(reqs, key)) > 0
+}
+
+function inferSlotCategory(code: string, title = ''): string | null {
   if (/college elective/i.test(title)) return 'college'
   if (/free elective|minor/i.test(title)) return 'freeElective'
   if (/(major|stream|finance|marketing|law|crime science|AC|EVE)\s+elective/i.test(title)) return 'majorElective'
+  if (/science elective/i.test(title)) return 'college'
   if (/^GE|^DR-\d+/i.test(code)) return 'ge'
   if (/^COLLEGE|^COL-|^CE$|^PIA-COLLEGE$/i.test(code)) return 'college'
+  if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
   if (/^FREE|^MINOR|^SECOND-MAJOR$/i.test(code)) return 'freeElective'
   if (
     /^ELECTIVE$/i.test(code) ||
@@ -119,21 +141,25 @@ function inferCategoryFromCode(code: string, title = ''): string {
   ) {
     return 'majorElective'
   }
+  return null
+}
+
+function inferCategoryFromCode(code: string, title = ''): string {
+  const slotCategory = inferSlotCategory(code, title)
+  if (slotCategory) return slotCategory
   if (/^CB|^AC|^EF|^MKT|^IS|^MS|^LW/.test(code)) return 'college'
   if (/^MA|^PHY|^CHEM|^CS1302|^CS1315/.test(code)) return 'college'
   return 'majorCore'
 }
 
-function getCategoryForCode(code: string, major: Major, streamIndex?: number): string {
-  const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
-  const reqs = (stream?.requirements ?? major.requirements) as any || {}
+function getCategoryForPlannedCourse(code: string, title: string, reqs: MajorRequirements): string {
   const lookupCode = getCourseLookupCode(code)
   const fromReqs = getCategoryFromRequirements(lookupCode, reqs)
   if (fromReqs) return fromReqs
-  const inferred = inferCategoryFromCode(code)
-  if (inferred) return inferred
-  if (/^CA1167$|^SEE1003$|^SEE3002$|^SEE1000$|^SEE2000$|^SEE4000$/.test(code)) return 'college'
-  return 'majorCore'
+  const slotCategory = inferSlotCategory(code, title)
+  if (slotCategory) return slotCategory
+  if (hasRequirementCredits(reqs, 'majorCore')) return 'majorCore'
+  return inferCategoryFromCode(code, title)
 }
 
 export function generateStudyPlan(major: Major, courses: Record<string, Course>, streamIndex?: number): SemesterPlan[] {
@@ -154,8 +180,7 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
           code: c.code,
           title: c.title || course?.title || c.code,
           credits: c.credits ?? course?.credits ?? 0,
-          category: getCategoryFromRequirements(lookupCode, (stream?.requirements ?? major.requirements) as any || {})
-            ?? inferCategoryFromCode(c.code, c.title || course?.title || ''),
+          category: getCategoryForPlannedCourse(c.code, c.title || course?.title || '', (stream?.requirements ?? major.requirements) as any || {}),
           semester: course?.semester || ''
         }
       })

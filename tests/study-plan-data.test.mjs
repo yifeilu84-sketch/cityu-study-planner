@@ -339,6 +339,81 @@ test('ESE major elective requirement matches official 12 credit unit catalogue r
   assert.equal(majorElectives?.missingCredits, 0)
 })
 
+test('graduation audit parses range requirements and classifies Computing Mathematics plan credits', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const cm = major('BSC1_CM-1')
+  const audit = auditGraduationPlan(cm, courses, generateStudyPlan(cm, courses))
+  const sectionByKey = Object.fromEntries(audit.sections.map((section) => [section.key, section]))
+
+  assert.equal(sectionByKey.majorElectives?.requiredCredits, 18)
+  assert.equal(sectionByKey.freeElectives?.requiredCredits, 20)
+  assert.equal(sectionByKey.gatewayEducation?.plannedCredits, 31)
+  assert.equal(sectionByKey.gatewayEducation?.missingCredits, 0)
+  assert.equal(sectionByKey.majorElectives?.missingCredits, 0)
+  assert.equal(sectionByKey.freeElectives?.missingCredits, 0)
+  assert.ok(sectionByKey.collegeRequirement?.plannedCredits >= 6)
+  assert.equal(sectionByKey.majorCore?.plannedCredits, 45)
+  assert.equal(sectionByKey.majorCore?.missingCredits, 0)
+  assert.equal(sectionByKey.college?.requiredCredits ?? 0, 0)
+  assert.equal(sectionByKey.college?.plannedCredits ?? 0, 0)
+  assert.equal(audit.ge.missingAreas.length, 0)
+  assert.equal(audit.warnings.some((warning) => warning.kind === 'ge-area'), false)
+  assert.equal(audit.warnings.some((warning) => warning.kind === 'offering-term' && warning.codes.includes('GE2401')), false)
+  assert.equal(
+    audit.warnings.some((warning) => warning.kind === 'prerequisite' && warning.codes.includes('MA2503') && warning.codes.includes('MA1201')),
+    false
+  )
+})
+
+test('range credit requirements are audited with their lower bound across undergraduate entities', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+
+  const cases = [
+    { code: 'BA1_CHIS-1', streamIndex: undefined, majorElectives: 18, freeElectives: 18 },
+    { code: 'BSC1_CM-1', streamIndex: undefined, majorElectives: 18, freeElectives: 20 },
+    {
+      code: 'CSCI_GREAT-1',
+      streamIndex: major('CSCI_GREAT-1').streams.findIndex((stream) => stream.code === 'CM'),
+      majorElectives: 18,
+      freeElectives: 20,
+    },
+  ]
+
+  for (const item of cases) {
+    const entity = major(item.code)
+    const audit = auditGraduationPlan(entity, courses, generateStudyPlan(entity, courses, item.streamIndex), item.streamIndex)
+    const sectionByKey = Object.fromEntries(audit.sections.map((section) => [section.key, section]))
+
+    assert.equal(sectionByKey.majorElectives?.requiredCredits, item.majorElectives, `${item.code} major electives`)
+    assert.equal(sectionByKey.freeElectives?.requiredCredits, item.freeElectives, `${item.code} free electives`)
+  }
+})
+
+test('non-DIY generated plans do not display planned credits against zero-credit requirement buckets', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+  const reports = []
+
+  for (const item of majors) {
+    const entities = [{ streamIndex: undefined, entity: item }]
+    for (let streamIndex = 0; streamIndex < (item.streams?.length ?? 0); streamIndex += 1) {
+      entities.push({ streamIndex, entity: item.streams[streamIndex] })
+    }
+
+    for (const { streamIndex, entity } of entities) {
+      if (getStudyPlanSourceStatus(entity).kind === 'diy') continue
+      const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses, streamIndex), streamIndex)
+      for (const section of audit.sections) {
+        if (section.requiredCredits === 0 && section.plannedCredits > 0) {
+          reports.push(`${item.code}${streamIndex == null ? '' : `/${entity.code}`}: ${section.key} ${section.plannedCredits}/0`)
+        }
+      }
+    }
+  }
+
+  assert.deepEqual(reports, [])
+})
+
 test('official generated plans do not report duplicate course conflicts', async () => {
   const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
   const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
@@ -398,6 +473,7 @@ test('graduation audit panel is wired into major and edit views', () => {
   assert.ok(panel.includes('audit.totalCredits.planned'))
   assert.ok(majorPage.includes('GraduationAuditPanel'))
   assert.ok(majorPage.includes('auditGraduationPlan'))
+  assert.ok(majorPage.includes("void import('../data/courses.json')"))
   assert.ok(editor.includes('GraduationAuditPanel'))
   assert.ok(editor.includes('auditGraduationPlan'))
 })

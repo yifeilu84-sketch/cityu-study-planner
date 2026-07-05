@@ -111,13 +111,14 @@ export interface PostgraduateProgramme {
 
 export interface MajorRequirements {
   // Nested structure (official PDF majors)
-  gatewayEducation?: { credits: number; courses: MajorCourse[] } | number;
-  college?: { credits: number; courses: MajorCourse[] } | number;
-  collegeRequirement?: { credits: number; courses: MajorCourse[] } | number;
-  majorCore?: { credits: number; courses: MajorCourse[] } | number;
-  majorElectives?: { credits: number; courses: MajorCourse[]; choose?: number; chooseCredits?: number } | number;
-  majorElective?: { credits: number; courses: MajorCourse[] } | number;
-  freeElectives?: { credits: number; note?: string } | number;
+  gatewayEducation?: { credits: number | string; courses: MajorCourse[] } | number | string;
+  college?: { credits: number | string; courses: MajorCourse[] } | number | string;
+  collegeRequirement?: { credits: number | string; courses: MajorCourse[] } | number | string;
+  majorCore?: { credits: number | string; courses: MajorCourse[] } | number | string;
+  majorElectives?: { credits: number | string; courses: MajorCourse[]; choose?: number; chooseCredits?: number } | number | string;
+  majorElective?: { credits: number | string; courses: MajorCourse[] } | number | string;
+  freeElectives?: { credits: number | string; note?: string } | number | string;
+  freeElective?: { credits: number | string; note?: string } | number | string;
 }
 
 export interface Stream {

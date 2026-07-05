@@ -7,9 +7,156 @@
   "department": "Department of Mathematics",
   "college": "College of Science",
   "requirements": {
-    "gatewayEducation": 31,
-    "collegeRequirement": 6,
-    "majorCore": 45,
+    "gatewayEducation": {
+      "credits": 31,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE2401",
+          "title": "English for Science",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation - History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
+        },
+        {
+          "code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "credits": 3
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        }
+      ]
+    },
+    "collegeRequirement": {
+      "credits": 6,
+      "courses": [
+        {
+          "code": "MA1501",
+          "title": "Coordinate Geometry",
+          "credits": 3
+        },
+        {
+          "code": "MA1502",
+          "title": "Algebra",
+          "credits": 3
+        },
+        {
+          "code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "credits": 0
+        },
+        {
+          "code": "CSCI1002",
+          "title": "Career Lab for Scientists",
+          "credits": 0
+        }
+      ]
+    },
+    "majorCore": {
+      "credits": 45,
+      "courses": [
+        {
+          "code": "MA2503",
+          "title": "Linear Algebra",
+          "credits": 4
+        },
+        {
+          "code": "MA2507",
+          "title": "Computing Mathematics Laboratory",
+          "credits": 1
+        },
+        {
+          "code": "MA2508",
+          "title": "Multi-variable Calculus",
+          "credits": 4
+        },
+        {
+          "code": "MA2509",
+          "title": "Discrete Mathematics",
+          "credits": 3
+        },
+        {
+          "code": "MA2510",
+          "title": "Probability and Statistics",
+          "credits": 3
+        },
+        {
+          "code": "MA3511",
+          "title": "Ordinary Differential Equations",
+          "credits": 3
+        },
+        {
+          "code": "MA3512",
+          "title": "Partial Differential Equations",
+          "credits": 3
+        },
+        {
+          "code": "MA3514",
+          "title": "Numerical Methods for Differential Equations",
+          "credits": 3
+        },
+        {
+          "code": "MA3515",
+          "title": "Introduction to Optimization",
+          "credits": 3
+        },
+        {
+          "code": "MA3517",
+          "title": "Complex Analysis",
+          "credits": 3
+        },
+        {
+          "code": "MA3518",
+          "title": "Applied Statistics",
+          "credits": 3
+        },
+        {
+          "code": "MA3525",
+          "title": "Elementary Numerical Methods",
+          "credits": 3
+        },
+        {
+          "code": "MA3526",
+          "title": "Analysis",
+          "credits": 3
+        },
+        {
+          "code": "CS2360",
+          "title": "Java Programming",
+          "credits": 3
+        },
+        {
+          "code": "CS2468",
+          "title": "Data Structures and Data Management",
+          "credits": 3
+        }
+      ]
+    },
     "majorElective": "18-20",
     "freeElective": "20-22"
   },
