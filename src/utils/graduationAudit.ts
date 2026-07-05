@@ -133,15 +133,23 @@ function getRequirementSection(reqs: MajorRequirements, key: SectionKey): Requir
     key === 'majorElectives' ? 'majorElective' :
       key === 'freeElectives' ? 'freeElective' :
         null
-  const raw = reqs[key as keyof MajorRequirements] ?? (alternateKey ? (reqs as any)[alternateKey] : undefined)
+  const reqRecord = reqs as Record<string, unknown>
+  const raw = reqRecord[key] ?? (alternateKey ? reqRecord[alternateKey] : undefined)
   if (typeof raw === 'number' || typeof raw === 'string') return { credits: parseRequirementCredits(raw), courses: [] }
   if (raw && typeof raw === 'object') {
+    const section = raw as {
+      credits?: unknown
+      courses?: unknown
+      choose?: unknown
+      chooseCredits?: unknown
+      note?: unknown
+    }
     return {
-      credits: parseRequirementCredits(raw.credits),
-      courses: 'courses' in raw && Array.isArray(raw.courses) ? raw.courses : [],
-      choose: 'choose' in raw ? raw.choose : undefined,
-      chooseCredits: 'chooseCredits' in raw ? raw.chooseCredits : undefined,
-      note: 'note' in raw ? raw.note : undefined,
+      credits: parseRequirementCredits(section.credits),
+      courses: Array.isArray(section.courses) ? section.courses as MajorCourse[] : [],
+      choose: typeof section.choose === 'number' ? section.choose : undefined,
+      chooseCredits: typeof section.chooseCredits === 'number' ? section.chooseCredits : undefined,
+      note: typeof section.note === 'string' ? section.note : undefined,
     }
   }
   return { credits: 0, courses: [] }
@@ -191,6 +199,20 @@ function getSectionCourseCodes(section: RequirementSection, courses: Record<stri
     if (isConcreteCourseCode(normalizedCode)) seen.add(normalizedCode)
   }
   return [...seen]
+}
+
+const REQUIREMENT_EQUIVALENTS: Record<string, string[]> = {
+  CHIN1001: ['GE1501'],
+  GE1501: ['CHIN1001'],
+  MA1200: ['MA1300'],
+  MA1300: ['MA1200'],
+  MA1201: ['MA1301'],
+  MA1301: ['MA1201'],
+}
+
+function hasPlannedRequirementCode(code: string, plannedCodes: Set<string>): boolean {
+  if (plannedCodes.has(code)) return true
+  return (REQUIREMENT_EQUIVALENTS[code] ?? []).some(equivalentCode => plannedCodes.has(equivalentCode))
 }
 
 function sectionHasCourse(section: RequirementSection, code: string, courses: Record<string, Course>): boolean {
@@ -261,7 +283,7 @@ function buildSectionAudit(
       const requiredCourseCodes = isElectiveRequirementSection(sectionDef.key, req)
         ? []
         : getSectionCourseCodes(req, courses)
-      const missingCourseCodes = requiredCourseCodes.filter(code => !plannedCodes.has(code))
+      const missingCourseCodes = requiredCourseCodes.filter(code => !hasPlannedRequirementCode(code, plannedCodes))
       const plannedCredits = getPlannedCreditsForSection(sectionDef.key, plannedCourses, reqs, courses)
       const missingCredits = Math.max(0, req.credits - plannedCredits)
       const hasExactRequirements = requiredCourseCodes.length > 0 && !isElectiveRequirementSection(sectionDef.key, req)
@@ -288,7 +310,7 @@ function buildGEAudit(
 ): GraduationAudit['ge'] {
   const geReq = getRequirementSection(reqs, 'gatewayEducation')
   const geRequiredCodes = getSectionCourseCodes(geReq, courses).filter(code => isRequiredGE(code) || DSE_CODES.includes(code))
-  const missingRequiredCodes = geRequiredCodes.filter(code => !plannedCodes.has(code))
+  const missingRequiredCodes = geRequiredCodes.filter(code => !hasPlannedRequirementCode(code, plannedCodes))
   const areaCredits: GraduationAudit['ge']['areaCredits'] = { 'Area 1': 0, 'Area 2': 0, 'Area 3': 0 }
   let plannedCredits = 0
 
@@ -434,7 +456,7 @@ function buildPrerequisiteWarnings(
     if (!hasAtLeastOnePriorPrerequisite) {
       warnings.push({
         kind: 'prerequisite',
-        severity: 'danger',
+        severity: 'warning',
         message: `${course.code} 可能缺少前置课程：${prerequisites.join(', ')}`,
         codes: [course.normalizedCode, ...prerequisites],
       })
@@ -451,7 +473,7 @@ function buildSemesterLoadWarnings(plan: AuditSemester[]): AuditWarning[] {
     if (totalCredits > 21) {
       warnings.push({
         kind: 'semester-load',
-        severity: 'danger',
+        severity: 'warning',
         message: `Year ${semester.year} Sem ${semester.sem} 为 ${totalCredits} CU，超过 21 CU 上限。`,
         codes: semester.courses.map(course => course.code),
       })
@@ -562,25 +584,26 @@ export function auditGraduationPlan(
   if (sourceWarning) warnings.push(sourceWarning)
 
   const totalMissing = Math.max(0, requiredTotalCredits - plannedTotalCredits)
-  if (totalMissing > 0) {
+  const isEmptyDiyPlan = sourceStatus.kind === 'diy' && plannedTotalCredits === 0
+  if (!isEmptyDiyPlan && totalMissing > 0) {
     warnings.push({
       kind: 'total-credits',
-      severity: 'danger',
+      severity: 'warning',
       message: `当前规划共 ${plannedTotalCredits} CU，距离毕业要求 ${requiredTotalCredits} CU 还差 ${totalMissing} CU。`,
       codes: [],
     })
   }
 
   for (const section of sections) {
-    if (section.missingCourseCodes.length > 0) {
+    if (!isEmptyDiyPlan && section.missingCourseCodes.length > 0) {
       warnings.push({
         kind: 'missing-course',
-        severity: 'danger',
+        severity: 'warning',
         message: `${section.label} 缺少必修课：${section.missingCourseCodes.join(', ')}`,
         codes: section.missingCourseCodes,
       })
     }
-    if (section.missingCredits > 0) {
+    if (!isEmptyDiyPlan && section.missingCredits > 0) {
       warnings.push({
         kind: 'section-credits',
         severity: 'warning',
@@ -590,15 +613,16 @@ export function auditGraduationPlan(
     }
   }
 
-  if (ge.missingRequiredCodes.length > 0) {
+  if (!isEmptyDiyPlan && ge.missingRequiredCodes.length > 0) {
+    const hasHighConfidenceMissingGE = ge.missingRequiredCodes.some(code => code === 'GE1401' || code === 'GE1601')
     warnings.push({
       kind: 'ge-required',
-      severity: 'danger',
+      severity: hasHighConfidenceMissingGE && sourceStatus.kind === 'official' ? 'danger' : 'warning',
       message: `GE 必修课缺少：${ge.missingRequiredCodes.join(', ')}`,
       codes: ge.missingRequiredCodes,
     })
   }
-  if (ge.missingAreas.length > 0) {
+  if (!isEmptyDiyPlan && ge.missingAreas.length > 0) {
     warnings.push({
       kind: 'ge-area',
       severity: 'warning',
@@ -631,7 +655,7 @@ export function auditGraduationPlan(
       kind: sourceStatus.kind,
       label: sourceStatus.label,
       description: sourceStatus.description,
-      advisory: sourceStatus.kind === 'derived' || sourceStatus.kind === 'diy',
+      advisory: sourceStatus.kind !== 'official',
     },
     sections,
     ge,

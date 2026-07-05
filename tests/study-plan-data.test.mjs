@@ -463,6 +463,56 @@ test('official generated plans satisfy their major elective credit requirements'
   assert.deepEqual(missingReports, [])
 })
 
+test('generated undergraduate audits do not escalate advisory planning gaps into hard conflicts', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+  const reports = []
+
+  for (const item of majors) {
+    const entities = [{ streamIndex: undefined, entity: item }]
+    for (let streamIndex = 0; streamIndex < (item.streams?.length ?? 0); streamIndex += 1) {
+      entities.push({ streamIndex, entity: item.streams[streamIndex] })
+    }
+
+    for (const { streamIndex, entity } of entities) {
+      const sourceKind = getStudyPlanSourceStatus(entity).kind
+      const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses, streamIndex), streamIndex)
+      for (const warning of audit.warnings) {
+        if (warning.severity === 'danger') {
+          reports.push(`${item.code}${streamIndex == null ? '' : `/${entity.code}`} ${sourceKind}: ${warning.kind} ${warning.codes.join(',')}`)
+        }
+      }
+    }
+  }
+
+  assert.deepEqual(reports, [])
+})
+
+test('empty DIY undergraduate grids expose requirements without hard audit warnings', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+  const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
+  const reports = []
+
+  for (const item of majors) {
+    const entities = [{ streamIndex: undefined, entity: item }]
+    for (let streamIndex = 0; streamIndex < (item.streams?.length ?? 0); streamIndex += 1) {
+      entities.push({ streamIndex, entity: item.streams[streamIndex] })
+    }
+
+    for (const { streamIndex, entity } of entities) {
+      if (getStudyPlanSourceStatus(entity).kind !== 'diy') continue
+      const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses, streamIndex), streamIndex)
+      if (audit.totalCredits.planned !== 0) continue
+      const hardWarnings = audit.warnings.filter((warning) => warning.severity === 'danger')
+      for (const warning of hardWarnings) {
+        reports.push(`${item.code}${streamIndex == null ? '' : `/${entity.code}`}: ${warning.kind}`)
+      }
+    }
+  }
+
+  assert.deepEqual(reports, [])
+})
+
 test('graduation audit panel is wired into major and edit views', () => {
   const panel = readFileSync(new URL('../src/components/GraduationAuditPanel.tsx', import.meta.url), 'utf8')
   const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')
