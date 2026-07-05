@@ -36,6 +36,8 @@ export interface MajorCourse {
   title: string;
   credits: number;
   remarks?: string;
+  sourceOnly?: boolean;
+  sourceUrl?: string;
   category?: 'ge' | 'college' | 'majorCore' | 'majorElective' | 'freeElective' | 'other';
 }
 
@@ -55,7 +57,7 @@ export interface PostgraduateSourceStatus {
 }
 
 export interface PostgraduateCourseListStatus {
-  kind: 'official-course-list' | 'course-list-unconfirmed' | 'research-not-course-based';
+  kind: 'official-course-list' | 'official-title-list' | 'course-list-unconfirmed' | 'research-not-course-based';
   label: string;
   description: string;
   sourceUrl?: string;

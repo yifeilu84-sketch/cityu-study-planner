@@ -705,6 +705,41 @@ test('postgraduate taught programmes expose confirmed course pools when official
   }
 })
 
+test('postgraduate programmes with official title-only curricula expose elective lists for DIY planning', () => {
+  const expectations = [
+    { code: 'P02', titles: ['Auditing', 'Risk Management'] },
+    { code: 'P04', titles: ['Asset Management and Hedge Fund Strategies', 'Sustainable Finance'] },
+    { code: 'P05A', titles: ['Business Practice Internship', 'Information Technology Leadership Forum'] },
+    { code: 'P05B', titles: ['Introduction to Financial Technologies', 'Information Systems Infrastructure and Security Management'] },
+    { code: 'P07', titles: ['Global Business Leadership', 'Innovation Collaboration'] },
+    { code: 'P09', titles: ['E-Logistics & Enterprise Resource Planning', 'Strategic Sourcing & Procurement'] },
+    { code: 'P10', titles: ['Professional Internship', 'Employee Engagement and Performance'] },
+    { code: 'P13', titles: ['Experimental Economics', 'Urban and Real Estate Economics'] },
+    { code: 'P15', titles: ['Asset Management and Hedge Fund Strategies', 'Sustainable Finance'] },
+    { code: 'P16', titles: ['Information Systems Infrastructure and Security Management', 'IoT Technologies for Future City Applications'] },
+    { code: 'P18', titles: ['Social Media Marketing', 'Artificial Intelligence for Marketing'] },
+    { code: 'P19', titles: ['Transforming Organizations in the Age of AI', 'Innovation Project'] },
+    { code: 'P84', titles: ['Information Analytics Management Project', 'Statistical Modelling in Risk Management'] },
+    { code: 'P85', titles: ['AI Ethics and Regulations', 'Machine Learning & Social Media Analytics'] },
+  ]
+
+  for (const expectation of expectations) {
+    const programme = postgraduateProgrammes.find((item) => item.code === expectation.code)
+    assert.ok(programme, `${expectation.code} should exist`)
+    assert.ok(
+      ['official-course-list', 'official-title-list'].includes(programme.courseListStatus?.kind),
+      `${expectation.code} should have an official course/title list`
+    )
+    const titles = new Set(
+      programme.requirements.sections.flatMap((section) => (section.courses ?? []).map((course) => course.title))
+    )
+    for (const title of expectation.titles) {
+      assert.ok(titles.has(title), `${expectation.code} should list ${title}`)
+    }
+    assert.equal(Object.values(programme.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
+  }
+})
+
 test('postgraduate taught programmes without parsed course lists are explicitly labelled', () => {
   const silentMissing = postgraduateProgrammes
     .filter((item) => item.type !== 'research-degree')

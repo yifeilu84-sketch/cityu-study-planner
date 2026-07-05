@@ -577,35 +577,150 @@
     "college": "College of Business",
     "department": "Department of Accountancy",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-accountancy/p02",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/ma-international-accounting",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/ma-international-accounting"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 24 CU core plus 6 CU optional electives, based on the official MA International Accounting course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 24,
+          "courses": [
+            {
+              "code": "PGTITLE_P02_ACCOUNTING_INFORMATION_SYSTEMS",
+              "title": "Accounting Information Systems",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_ADVANCED_INTERNATIONAL_FINANCIAL_ACCOUNTING",
+              "title": "Advanced International Financial Accounting",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_ADVANCED_TAXATION",
+              "title": "Advanced Taxation",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_CORPORATE_GOVERNANCE",
+              "title": "Corporate Governance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_FINANCIAL_MANAGEMENT",
+              "title": "Financial Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+              "title": "International Financial Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_INTERNATIONAL_FINANCIAL_STATEMENT_ANALYSIS",
+              "title": "International Financial Statement Analysis",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_MANAGEMENT_ACCOUNTING_ISSUES_IN_MULTINATIONAL_ENTERPRISES",
+              "title": "Management Accounting issues in Multinational Enterprises",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "optional-electives",
+          "title": "Optional electives",
+          "credits": 6,
+          "chooseCredits": 6,
+          "courses": [
+            {
+              "code": "PGTITLE_P02_AUDITING",
+              "title": "Auditing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_BUSINESS_ECONOMICS_AND_STATISTICS_FOR_ACCOUNTANTS",
+              "title": "Business Economics and Statistics for Accountants",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_BUSINESS_MANAGEMENT_FOR_ACCOUNTANTS",
+              "title": "Business Management for Accountants",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_CREDENTIALS_AND_ESSENTIAL_SOFT_SKILLS_FOR_EFFECTIVE_BOARD_MANAGEMENT",
+              "title": "Credentials and Essential Soft Skills for Effective Board Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_COMPANIES_AND_SECURITIES_REGULATIONS_AND_PRACTICE",
+              "title": "Companies and Securities Regulations and Practice",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_LAW_RELATING_TO_BUSINESS_AND_COMPANIES",
+              "title": "Law Relating to Business and Companies",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P02_RISK_MANAGEMENT",
+              "title": "Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P02_ACCOUNTING_INFORMATION_SYSTEMS",
+      "PGTITLE_P02_ADVANCED_INTERNATIONAL_FINANCIAL_ACCOUNTING",
+      "PGTITLE_P02_ADVANCED_TAXATION",
+      "PGTITLE_P02_CORPORATE_GOVERNANCE",
+      "PGTITLE_P02_FINANCIAL_MANAGEMENT",
+      "PGTITLE_P02_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+      "PGTITLE_P02_INTERNATIONAL_FINANCIAL_STATEMENT_ANALYSIS",
+      "PGTITLE_P02_MANAGEMENT_ACCOUNTING_ISSUES_IN_MULTINATIONAL_ENTERPRISES",
+      "PGTITLE_P02_AUDITING",
+      "PGTITLE_P02_BUSINESS_ECONOMICS_AND_STATISTICS_FOR_ACCOUNTANTS",
+      "PGTITLE_P02_BUSINESS_MANAGEMENT_FOR_ACCOUNTANTS",
+      "PGTITLE_P02_CREDENTIALS_AND_ESSENTIAL_SOFT_SKILLS_FOR_EFFECTIVE_BOARD_MANAGEMENT",
+      "PGTITLE_P02_COMPANIES_AND_SECURITIES_REGULATIONS_AND_PRACTICE",
+      "PGTITLE_P02_LAW_RELATING_TO_BUSINESS_AND_COMPANIES",
+      "PGTITLE_P02_RISK_MANAGEMENT"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -679,8 +794,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -691,35 +806,158 @@
     "college": "College of Business",
     "department": "Department of Economics and Finance",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-economics-and-finance/p04",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-finance",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-finance"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 24 CU required core plus 6 CU electives, based on the official MSc Finance course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 24,
+          "courses": [
+            {
+              "code": "PGTITLE_P04_CORPORATE_FINANCE",
+              "title": "Corporate Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_DERIVATIVES_AND_RISK_MANAGEMENT",
+              "title": "Derivatives and Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_FINANCIAL_ECONOMETRICS",
+              "title": "Financial Econometrics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_INVESTMENTS",
+              "title": "Investments",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_PROFESSIONAL_SEMINARS_IN_FINANCE",
+              "title": "Professional Seminars in Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_ADVANCED_CORPORATE_FINANCE",
+              "title": "Advanced Corporate Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_FIXED_INCOME_SECURITIES",
+              "title": "Fixed Income Securities",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+              "title": "International Financial Management",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 6,
+          "chooseCredits": 6,
+          "courses": [
+            {
+              "code": "PGTITLE_P04_ASSET_MANAGEMENT_AND_HEDGE_FUND_STRATEGIES",
+              "title": "Asset Management and Hedge Fund Strategies",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_CREDIT_RISK_MANAGEMENT",
+              "title": "Credit Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_FINANCIAL_COMPUTING",
+              "title": "Financial Computing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_FINANCIAL_SYSTEMS_MARKETS_AND_INSTRUMENTS",
+              "title": "Financial Systems, Markets and Instruments",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_FINTECH_AND_AI_IN_FINANCE",
+              "title": "Fintech and AI in Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_OPTION_PRICING",
+              "title": "Option Pricing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_STOCHASTIC_CALCULUS_FOR_FINANCE",
+              "title": "Stochastic Calculus for Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P04_SUSTAINABLE_FINANCE",
+              "title": "Sustainable Finance",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also allows an approved elective from College of Business disciplines."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P04_CORPORATE_FINANCE",
+      "PGTITLE_P04_DERIVATIVES_AND_RISK_MANAGEMENT",
+      "PGTITLE_P04_FINANCIAL_ECONOMETRICS",
+      "PGTITLE_P04_INVESTMENTS",
+      "PGTITLE_P04_PROFESSIONAL_SEMINARS_IN_FINANCE",
+      "PGTITLE_P04_ADVANCED_CORPORATE_FINANCE",
+      "PGTITLE_P04_FIXED_INCOME_SECURITIES",
+      "PGTITLE_P04_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+      "PGTITLE_P04_ASSET_MANAGEMENT_AND_HEDGE_FUND_STRATEGIES",
+      "PGTITLE_P04_CREDIT_RISK_MANAGEMENT",
+      "PGTITLE_P04_FINANCIAL_COMPUTING",
+      "PGTITLE_P04_FINANCIAL_SYSTEMS_MARKETS_AND_INSTRUMENTS",
+      "PGTITLE_P04_FINTECH_AND_AI_IN_FINANCE",
+      "PGTITLE_P04_OPTION_PRICING",
+      "PGTITLE_P04_STOCHASTIC_CALCULUS_FOR_FINANCE",
+      "PGTITLE_P04_SUSTAINABLE_FINANCE"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -793,8 +1031,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -805,35 +1043,197 @@
     "college": "College of Business",
     "department": "Department of Information Systems",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-information-systems/p05a",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems/mis-stream",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems/mis-stream"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 15 CU core within the group plus 15 CU electives, based on the official MSBIS MIS Stream course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "IS5311",
+              "title": "JAVA Programming for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS5312",
+              "title": "Analytical Programming with Python",
+              "credits": 3
+            },
+            {
+              "code": "IS5313",
+              "title": "Foundations of Information and Electronic Business Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5411",
+              "title": "Systems Analysis and Design",
+              "credits": 3
+            },
+            {
+              "code": "IS5413",
+              "title": "Database Management Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5540",
+              "title": "Project Management and Quality Assurance",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "IS5238",
+              "title": "Business Practice Internship",
+              "credits": 3
+            },
+            {
+              "code": "IS5314",
+              "title": "eBusiness System Integration",
+              "credits": 3
+            },
+            {
+              "code": "IS5542",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS5740",
+              "title": "Management Support and Business Intelligence Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5743",
+              "title": "Information Technology Based Business Transformation",
+              "credits": 3
+            },
+            {
+              "code": "IS5940",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "IS6200",
+              "title": "Blockchain Technology and Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6335",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6421",
+              "title": "Human-Computer Interaction and Multimedia",
+              "credits": 3
+            },
+            {
+              "code": "IS6423",
+              "title": "Artificial Intelligence for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6523",
+              "title": "Information Systems Infrastructure and Security Management",
+              "credits": 3
+            },
+            {
+              "code": "IS6640",
+              "title": "Information Systems Planning and Strategy",
+              "credits": 3
+            },
+            {
+              "code": "IS6620",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6912",
+              "title": "Information Systems Project",
+              "credits": 6
+            },
+            {
+              "code": "IS6930",
+              "title": "Management Consulting in Asia",
+              "credits": 3
+            },
+            {
+              "code": "IS6940C",
+              "title": "Information Technology Leadership Forum",
+              "credits": 3
+            },
+            {
+              "code": "AC5511",
+              "title": "Financial and Management Accounting",
+              "credits": 3
+            },
+            {
+              "code": "EF5042",
+              "title": "Corporate Finance",
+              "credits": 3
+            }
+          ],
+          "note": "The official page also permits approved electives from Information Systems and College of Business departments."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page provides course codes for the listed MSBIS MIS Stream courses."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "IS5311",
+      "IS5312",
+      "IS5313",
+      "IS5411",
+      "IS5413",
+      "IS5540",
+      "IS5238",
+      "IS5314",
+      "IS5542",
+      "IS5740",
+      "IS5743",
+      "IS5940",
+      "IS6200",
+      "IS6335",
+      "IS6400",
+      "IS6421",
+      "IS6423",
+      "IS6523",
+      "IS6640",
+      "IS6620",
+      "IS6912",
+      "IS6930",
+      "IS6940C",
+      "AC5511",
+      "EF5042"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -907,8 +1307,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -919,35 +1319,205 @@
     "college": "College of Business",
     "department": "Department of Information Systems",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-information-systems/p05b",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-information-systems/msc-business-information-systems-financial-and-intelligent-technology-stream",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-information-systems/msc-business-information-systems-financial-and-intelligent-technology-stream"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 15 CU core within the group plus 15 CU electives, based on the official MSBIS FIT Stream course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "EF5042",
+              "title": "Corporate Finance",
+              "credits": 3
+            },
+            {
+              "code": "AC5511",
+              "title": "Financial and Management Accounting",
+              "credits": 3
+            },
+            {
+              "code": "IS5740",
+              "title": "Management Support and Business Intelligence Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5540",
+              "title": "Project Management and Quality Assurance",
+              "credits": 3
+            },
+            {
+              "code": "IS5542",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 15,
+          "chooseCredits": 15,
+          "courses": [
+            {
+              "code": "IS5312",
+              "title": "Analytical Programming with Python",
+              "credits": 3
+            },
+            {
+              "code": "IS6941",
+              "title": "Machine Learning & Social Media Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6200",
+              "title": "Blockchain Technology and Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS5238",
+              "title": "Business Practice Internship",
+              "credits": 3
+            },
+            {
+              "code": "IS6421",
+              "title": "Human-Computer Interaction and Multimedia",
+              "credits": 3
+            },
+            {
+              "code": "IS5940",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "IS6940C",
+              "title": "Information Technology Leadership Forum",
+              "credits": 3
+            },
+            {
+              "code": "IS5413",
+              "title": "Database Management Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5314",
+              "title": "eBusiness System Integration",
+              "credits": 3
+            },
+            {
+              "code": "IS5313",
+              "title": "Foundations of Information and Electronic Business Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS6640",
+              "title": "Information Systems Planning and Strategy",
+              "credits": 3
+            },
+            {
+              "code": "IS6912",
+              "title": "Information Systems Project",
+              "credits": 6
+            },
+            {
+              "code": "IS5743",
+              "title": "Information Technology Based Business Transformation",
+              "credits": 3
+            },
+            {
+              "code": "IS5311",
+              "title": "JAVA Programming for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS5411",
+              "title": "Systems Analysis and Design",
+              "credits": 3
+            },
+            {
+              "code": "IS6423",
+              "title": "Artificial Intelligence for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6620",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6523",
+              "title": "Information Systems Infrastructure and Security Management",
+              "credits": 3
+            },
+            {
+              "code": "PGTITLE_P05B_INVESTMENTS",
+              "title": "Investments",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P05B_INTRODUCTION_TO_FINANCIAL_TECHNOLOGIES",
+              "title": "Introduction to Financial Technologies",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also permits two approved electives, with one possibly from another College of Business department."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Some FIT Stream course titles are matched to catalogue-style codes; unmatched finance titles remain source-only."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "IS6400",
+      "EF5042",
+      "AC5511",
+      "IS5740",
+      "IS5540",
+      "IS5542",
+      "IS5312",
+      "IS6941",
+      "IS6200",
+      "IS5238",
+      "IS6421",
+      "IS5940",
+      "IS6940C",
+      "IS5413",
+      "IS5314",
+      "IS5313",
+      "IS6640",
+      "IS6912",
+      "IS5743",
+      "IS5311",
+      "IS5411",
+      "IS6423",
+      "IS6620",
+      "IS6523",
+      "PGTITLE_P05B_INVESTMENTS",
+      "PGTITLE_P05B_INTRODUCTION_TO_FINANCIAL_TECHNOLOGIES"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1021,8 +1591,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1033,35 +1603,172 @@
     "college": "College of Business",
     "department": "Department of Management",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-management/p07",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/ma-global-business-management",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/ma-global-business-management"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 24 CU core, 3 CU core elective and 3 CU elective, based on the official MA Global Business Management course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 24,
+          "courses": [
+            {
+              "code": "PGTITLE_P07_INTERNATIONAL_ORGANIZATIONAL_BEHAVIOUR",
+              "title": "International Organizational Behaviour",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_ENTREPRENEURSHIP",
+              "title": "Entrepreneurship",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_CROSS_CULTURAL_NEGOTIATION",
+              "title": "Cross-Cultural Negotiation",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_MANAGING_INTERNATIONAL_BUSINESS",
+              "title": "Managing International Business",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_FINANCIAL_STATEMENT_ANALYSIS_IN_GLOBAL_CONTEXT",
+              "title": "Financial Statement Analysis in Global Context",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_GLOBAL_HUMAN_RESOURCES_MANAGEMENT",
+              "title": "Global Human Resources Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_BUSINESS_ETHICS_AND_SOCIAL_RESPONSIBILITY",
+              "title": "Business Ethics & Social Responsibility",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_FINANCE_FOR_THE_GLOBAL_MANAGER",
+              "title": "Finance for the Global Manager",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "core-electives",
+          "title": "Core electives",
+          "credits": 3,
+          "chooseCredits": 3,
+          "courses": [
+            {
+              "code": "PGTITLE_P07_GENERATIVE_ARTIFICIAL_INTELLIGENCE_FOR_BUSINESS",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_BUSINESS_INTELLIGENCE_IN_ASIA",
+              "title": "Business Intelligence in Asia",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 3,
+          "chooseCredits": 3,
+          "courses": [
+            {
+              "code": "PGTITLE_P07_GLOBAL_BUSINESS_LEADERSHIP",
+              "title": "Global Business Leadership",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_INNOVATION_COLLABORATION",
+              "title": "Innovation Collaboration",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_PEOPLE_ANALYTICS",
+              "title": "People Analytics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+              "title": "Employee Engagement and Performance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_ORGANIZATIONAL_INNOVATION_AND_CHANGE",
+              "title": "Organizational Innovation and Change",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_BLOCKCHAIN_TECHNOLOGY_AND_BUSINESS_APPLICATIONS",
+              "title": "Blockchain Technology and Business Applications",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P07_INTERNATIONAL_BUSINESS_DISCOVERY",
+              "title": "International Business Discovery",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P07_INTERNATIONAL_ORGANIZATIONAL_BEHAVIOUR",
+      "PGTITLE_P07_ENTREPRENEURSHIP",
+      "PGTITLE_P07_CROSS_CULTURAL_NEGOTIATION",
+      "PGTITLE_P07_MANAGING_INTERNATIONAL_BUSINESS",
+      "PGTITLE_P07_FINANCIAL_STATEMENT_ANALYSIS_IN_GLOBAL_CONTEXT",
+      "PGTITLE_P07_GLOBAL_HUMAN_RESOURCES_MANAGEMENT",
+      "PGTITLE_P07_BUSINESS_ETHICS_AND_SOCIAL_RESPONSIBILITY",
+      "PGTITLE_P07_FINANCE_FOR_THE_GLOBAL_MANAGER",
+      "PGTITLE_P07_GENERATIVE_ARTIFICIAL_INTELLIGENCE_FOR_BUSINESS",
+      "PGTITLE_P07_BUSINESS_INTELLIGENCE_IN_ASIA",
+      "PGTITLE_P07_GLOBAL_BUSINESS_LEADERSHIP",
+      "PGTITLE_P07_INNOVATION_COLLABORATION",
+      "PGTITLE_P07_PEOPLE_ANALYTICS",
+      "PGTITLE_P07_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+      "PGTITLE_P07_ORGANIZATIONAL_INNOVATION_AND_CHANGE",
+      "PGTITLE_P07_BLOCKCHAIN_TECHNOLOGY_AND_BUSINESS_APPLICATIONS",
+      "PGTITLE_P07_INTERNATIONAL_BUSINESS_DISCOVERY"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1135,8 +1842,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1147,35 +1854,149 @@
     "college": "College of Business",
     "department": "Department of Management Sciences",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-management-sciences/p09",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-decision-analytics-and-operations/msc-operations-and-supply-chain-management",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-decision-analytics-and-operations/msc-operations-and-supply-chain-management"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: core courses plus six electives, based on the official MSc Operations and Supply Chain Management course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "courses": [
+            {
+              "code": "PGTITLE_P09_MANAGERIAL_DECISION_MODELING",
+              "title": "Managerial Decision Modeling",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_PREDICTIVE_ANALYTICS_WITH_EXCEL_AND_R",
+              "title": "Predictive Analytics with Excel and R",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_OPERATIONS_MANAGEMENT",
+              "title": "Operations Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_SUPPLY_CHAIN_MANAGEMENT",
+              "title": "Supply Chain Management (#)",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "chooseCredits": 18,
+          "courses": [
+            {
+              "code": "PGTITLE_P09_ADVANCED_CASE_ANALYSIS_FOR_SUPPLY_CHAIN_MANAGEMENT",
+              "title": "Advanced Case Analysis for Supply Chain Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_AI_ENHANCED_BUSINESS_ANALYTICS_WITH_EXCEL_AND_PYTHON",
+              "title": "AI-Enhanced Business Analytics with Excel and Python",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_BUSINESS_PROCESS_MODELING_AND_SIMULATION",
+              "title": "Business Process Modeling & Simulation",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_E_LOGISTICS_AND_ENTERPRISE_RESOURCE_PLANNING",
+              "title": "E-Logistics & Enterprise Resource Planning",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_HEALTHCARE_MANAGEMENT",
+              "title": "Healthcare Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_INTERNSHIP_PROJECT",
+              "title": "Internship Project",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_PROJECT_MANAGEMENT",
+              "title": "Project Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_SERVICE_QUALITY_MANAGEMENT",
+              "title": "Service Quality Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_STATISTICAL_MODELLING_IN_RISK_MANAGEMENT",
+              "title": "Statistical Modelling in Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_STRATEGIC_SOURCING_AND_PROCUREMENT",
+              "title": "Strategic Sourcing & Procurement",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P09_TRANSPORTATION_LOGISTICS",
+              "title": "Transportation Logistics",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also allows no more than two electives from the College of Business."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P09_MANAGERIAL_DECISION_MODELING",
+      "PGTITLE_P09_PREDICTIVE_ANALYTICS_WITH_EXCEL_AND_R",
+      "PGTITLE_P09_OPERATIONS_MANAGEMENT",
+      "PGTITLE_P09_SUPPLY_CHAIN_MANAGEMENT",
+      "PGTITLE_P09_ADVANCED_CASE_ANALYSIS_FOR_SUPPLY_CHAIN_MANAGEMENT",
+      "PGTITLE_P09_AI_ENHANCED_BUSINESS_ANALYTICS_WITH_EXCEL_AND_PYTHON",
+      "PGTITLE_P09_BUSINESS_PROCESS_MODELING_AND_SIMULATION",
+      "PGTITLE_P09_E_LOGISTICS_AND_ENTERPRISE_RESOURCE_PLANNING",
+      "PGTITLE_P09_HEALTHCARE_MANAGEMENT",
+      "PGTITLE_P09_INTERNSHIP_PROJECT",
+      "PGTITLE_P09_PROJECT_MANAGEMENT",
+      "PGTITLE_P09_SERVICE_QUALITY_MANAGEMENT",
+      "PGTITLE_P09_STATISTICAL_MODELLING_IN_RISK_MANAGEMENT",
+      "PGTITLE_P09_STRATEGIC_SOURCING_AND_PROCUREMENT",
+      "PGTITLE_P09_TRANSPORTATION_LOGISTICS"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1249,8 +2070,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1261,35 +2082,226 @@
     "college": "College of Business",
     "department": "Department of Accountancy",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-accountancy/p10",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/msc-professional-accounting-and-corporate-governance",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/msc-professional-accounting-and-corporate-governance"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 12 CU programme core plus one 18 CU stream, based on the official MSc Professional Accounting and Corporate Governance course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "programme-core",
+          "title": "Programme core",
+          "credits": 12,
+          "courses": [
+            {
+              "code": "PGTITLE_P10_ACCOUNTING_INFORMATION_SYSTEMS",
+              "title": "Accounting Information Systems",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_ADVANCED_TAXATION",
+              "title": "Advanced Taxation",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_CORPORATE_GOVERNANCE",
+              "title": "Corporate Governance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_LAW_RELATING_TO_BUSINESS_AND_COMPANIES",
+              "title": "Law Relating to Business and Companies",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "professional-accounting-stream",
+          "title": "Professional Accounting Stream core",
+          "credits": 18,
+          "courses": [
+            {
+              "code": "PGTITLE_P10_AUDITING",
+              "title": "Auditing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_CORPORATE_ACCOUNTING",
+              "title": "Corporate Accounting",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_COST_AND_MANAGEMENT_ACCOUNTING",
+              "title": "Cost and Management Accounting",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_FINANCIAL_AND_MANAGEMENT_ACCOUNTING",
+              "title": "Financial and Management Accounting",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_FINANCIAL_MANAGEMENT",
+              "title": "Financial Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_FINANCIAL_REPORTING",
+              "title": "Financial Reporting",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "corporate-governance-stream",
+          "title": "Corporate Governance Stream core",
+          "credits": 18,
+          "courses": [
+            {
+              "code": "PGTITLE_P10_CREDENTIALS_AND_ESSENTIAL_SOFT_SKILLS_FOR_EFFECTIVE_BOARD_MANAGEMENT",
+              "title": "Credentials and Essential Soft Skills for Effective Board Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_COMPANIES_AND_SECURITIES_REGULATIONS_AND_PRACTICE",
+              "title": "Companies and Securities Regulations and Practice",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_CORPORATE_FINANCE_AND_POLICIES",
+              "title": "Corporate Finance and Policies",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_CORPORATE_FINANCIAL_REPORTING",
+              "title": "Corporate Financial Reporting",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_RISK_MANAGEMENT",
+              "title": "Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+              "title": "Employee Engagement and Performance",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "stream-electives",
+          "title": "Stream electives",
+          "courses": [
+            {
+              "code": "PGTITLE_P10_CREDENTIALS_AND_ESSENTIAL_SOFT_SKILLS_FOR_EFFECTIVE_BOARD_MANAGEMENT",
+              "title": "Credentials and Essential Soft Skills for Effective Board Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_BUSINESS_ECONOMICS_AND_STATISTICS_FOR_ACCOUNTANTS",
+              "title": "Business Economics and Statistics for Accountants",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_BUSINESS_MANAGEMENT_FOR_ACCOUNTANTS",
+              "title": "Business Management for Accountants",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_COMPANIES_AND_SECURITIES_REGULATIONS_AND_PRACTICE",
+              "title": "Companies and Securities Regulations and Practice",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_PROFESSIONAL_INTERNSHIP",
+              "title": "Professional Internship",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_RISK_MANAGEMENT",
+              "title": "Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+              "title": "Employee Engagement and Performance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_AUDITING",
+              "title": "Auditing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P10_COST_AND_MANAGEMENT_ACCOUNTING",
+              "title": "Cost and Management Accounting",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P10_ACCOUNTING_INFORMATION_SYSTEMS",
+      "PGTITLE_P10_ADVANCED_TAXATION",
+      "PGTITLE_P10_CORPORATE_GOVERNANCE",
+      "PGTITLE_P10_LAW_RELATING_TO_BUSINESS_AND_COMPANIES",
+      "PGTITLE_P10_AUDITING",
+      "PGTITLE_P10_CORPORATE_ACCOUNTING",
+      "PGTITLE_P10_COST_AND_MANAGEMENT_ACCOUNTING",
+      "PGTITLE_P10_FINANCIAL_AND_MANAGEMENT_ACCOUNTING",
+      "PGTITLE_P10_FINANCIAL_MANAGEMENT",
+      "PGTITLE_P10_FINANCIAL_REPORTING",
+      "PGTITLE_P10_CREDENTIALS_AND_ESSENTIAL_SOFT_SKILLS_FOR_EFFECTIVE_BOARD_MANAGEMENT",
+      "PGTITLE_P10_COMPANIES_AND_SECURITIES_REGULATIONS_AND_PRACTICE",
+      "PGTITLE_P10_CORPORATE_FINANCE_AND_POLICIES",
+      "PGTITLE_P10_CORPORATE_FINANCIAL_REPORTING",
+      "PGTITLE_P10_RISK_MANAGEMENT",
+      "PGTITLE_P10_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+      "PGTITLE_P10_BUSINESS_ECONOMICS_AND_STATISTICS_FOR_ACCOUNTANTS",
+      "PGTITLE_P10_BUSINESS_MANAGEMENT_FOR_ACCOUNTANTS",
+      "PGTITLE_P10_PROFESSIONAL_INTERNSHIP"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1363,8 +2375,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1603,35 +2615,116 @@
     "college": "College of Business",
     "department": "Department of Economics and Finance",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-economics-and-finance/p13",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 15 CU core plus 9 CU programme electives and up to 6 CU free electives, based on the official MSc Applied Economics course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 15,
+          "courses": [
+            {
+              "code": "PGTITLE_P13_ADVANCED_ECONOMETRICS",
+              "title": "Advanced Econometrics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_ADVANCED_MICROECONOMICS",
+              "title": "Advanced Microeconomics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_ADVANCED_MACROECONOMICS",
+              "title": "Advanced Macroeconomics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_PROFESSIONAL_SEMINARS_IN_APPLIED_ECONOMICS",
+              "title": "Professional Seminars in Applied Economics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_QUANTITATIVE_METHODS_IN_ECONOMICS",
+              "title": "Quantitative Methods in Economics",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 9,
+          "chooseCredits": 9,
+          "courses": [
+            {
+              "code": "PGTITLE_P13_ADVANCED_INTERNATIONAL_TRADE",
+              "title": "Advanced International Trade",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_ECONOMIC_GROWTH_AND_DEVELOPMENT",
+              "title": "Economic Growth and Development",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_EXPERIMENTAL_ECONOMICS",
+              "title": "Experimental Economics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_INTERNATIONAL_FINANCE",
+              "title": "International Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P13_URBAN_AND_REAL_ESTATE_ECONOMICS",
+              "title": "Urban and Real Estate Economics",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also allows up to two approved 3-CU free electives."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P13_ADVANCED_ECONOMETRICS",
+      "PGTITLE_P13_ADVANCED_MICROECONOMICS",
+      "PGTITLE_P13_ADVANCED_MACROECONOMICS",
+      "PGTITLE_P13_PROFESSIONAL_SEMINARS_IN_APPLIED_ECONOMICS",
+      "PGTITLE_P13_QUANTITATIVE_METHODS_IN_ECONOMICS",
+      "PGTITLE_P13_ADVANCED_INTERNATIONAL_TRADE",
+      "PGTITLE_P13_ECONOMIC_GROWTH_AND_DEVELOPMENT",
+      "PGTITLE_P13_EXPERIMENTAL_ECONOMICS",
+      "PGTITLE_P13_INTERNATIONAL_FINANCE",
+      "PGTITLE_P13_URBAN_AND_REAL_ESTATE_ECONOMICS"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1705,8 +2798,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1717,35 +2810,158 @@
     "college": "College of Business",
     "department": "Department of Economics and Finance",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-economics-and-finance/p15",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-financial-engineering",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-financial-engineering"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 24 CU required core plus 6 CU electives, based on the official MSc Financial Engineering course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 24,
+          "courses": [
+            {
+              "code": "PGTITLE_P15_CORPORATE_FINANCE",
+              "title": "Corporate Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_DERIVATIVES_AND_RISK_MANAGEMENT",
+              "title": "Derivatives and Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_INVESTMENTS",
+              "title": "Investments",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_STOCHASTIC_CALCULUS_FOR_FINANCE",
+              "title": "Stochastic Calculus for Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_PROFESSIONAL_SEMINARS_IN_FINANCE",
+              "title": "Professional Seminars in Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_FINANCIAL_COMPUTING",
+              "title": "Financial Computing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_FIXED_INCOME_SECURITIES",
+              "title": "Fixed Income Securities",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_OPTION_PRICING",
+              "title": "Option Pricing",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "credits": 6,
+          "chooseCredits": 6,
+          "courses": [
+            {
+              "code": "PGTITLE_P15_ADVANCED_CORPORATE_FINANCE",
+              "title": "Advanced Corporate Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_ASSET_MANAGEMENT_AND_HEDGE_FUND_STRATEGIES",
+              "title": "Asset Management and Hedge Fund Strategies",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_CREDIT_RISK_MANAGEMENT",
+              "title": "Credit Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_FINANCIAL_ECONOMETRICS",
+              "title": "Financial Econometrics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_FINANCIAL_SYSTEMS_MARKETS_AND_INSTRUMENTS",
+              "title": "Financial Systems, Markets and Instruments",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_FINTECH_AND_AI_IN_FINANCE",
+              "title": "Fintech and AI in Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+              "title": "International Financial Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P15_SUSTAINABLE_FINANCE",
+              "title": "Sustainable Finance",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also allows an approved elective from College of Business disciplines."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P15_CORPORATE_FINANCE",
+      "PGTITLE_P15_DERIVATIVES_AND_RISK_MANAGEMENT",
+      "PGTITLE_P15_INVESTMENTS",
+      "PGTITLE_P15_STOCHASTIC_CALCULUS_FOR_FINANCE",
+      "PGTITLE_P15_PROFESSIONAL_SEMINARS_IN_FINANCE",
+      "PGTITLE_P15_FINANCIAL_COMPUTING",
+      "PGTITLE_P15_FIXED_INCOME_SECURITIES",
+      "PGTITLE_P15_OPTION_PRICING",
+      "PGTITLE_P15_ADVANCED_CORPORATE_FINANCE",
+      "PGTITLE_P15_ASSET_MANAGEMENT_AND_HEDGE_FUND_STRATEGIES",
+      "PGTITLE_P15_CREDIT_RISK_MANAGEMENT",
+      "PGTITLE_P15_FINANCIAL_ECONOMETRICS",
+      "PGTITLE_P15_FINANCIAL_SYSTEMS_MARKETS_AND_INSTRUMENTS",
+      "PGTITLE_P15_FINTECH_AND_AI_IN_FINANCE",
+      "PGTITLE_P15_INTERNATIONAL_FINANCIAL_MANAGEMENT",
+      "PGTITLE_P15_SUSTAINABLE_FINANCE"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1819,8 +3035,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -1831,35 +3047,172 @@
     "college": "College of Business",
     "department": "Department of Information Systems",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-information-systems/p16",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-digital-transformation-and-technological-innovation/course-description",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-digital-transformation-and-technological-innovation/course-description"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 18 CU core plus 12 CU selected electives, based on the official MSc Digital Transformation and Technological Innovation course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 18,
+          "courses": [
+            {
+              "code": "IS5313",
+              "title": "Foundations of Information and Electronic Business Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5940",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "IS6000",
+              "title": "Research Methods for the IS Manager",
+              "credits": 3
+            },
+            {
+              "code": "IS6602",
+              "title": "Information Systems Consulting",
+              "credits": 3
+            },
+            {
+              "code": "IS6608",
+              "title": "Digital Transformation and Technological Innovation in the Organisation",
+              "credits": 3
+            },
+            {
+              "code": "IS6640",
+              "title": "Information Systems Planning and Strategy",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "selected-electives",
+          "title": "Selected electives",
+          "credits": 12,
+          "chooseCredits": 12,
+          "courses": [
+            {
+              "code": "IS5238",
+              "title": "Business Practice Internship",
+              "credits": 3
+            },
+            {
+              "code": "IS5312",
+              "title": "Analytical Programming with Python",
+              "credits": 3
+            },
+            {
+              "code": "IS5540",
+              "title": "Project Management and Quality Assurance",
+              "credits": 3
+            },
+            {
+              "code": "IS5542",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS5740",
+              "title": "Management Support and Business Intelligence Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS6200",
+              "title": "Blockchain Technology and Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6335",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6423",
+              "title": "Artificial Intelligence for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6523",
+              "title": "Information Systems Infrastructure and Security Management",
+              "credits": 3
+            },
+            {
+              "code": "IS6620",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6912",
+              "title": "Information Systems Project",
+              "credits": 6
+            },
+            {
+              "code": "IS6940C",
+              "title": "Information Technology Leadership Forum",
+              "credits": 3
+            },
+            {
+              "code": "IS6941",
+              "title": "Machine Learning & Social Media Analytics",
+              "credits": 3
+            },
+            {
+              "code": "EE5437",
+              "title": "IoT Technologies for Future City Applications",
+              "credits": 3
+            }
+          ],
+          "note": "The official page also allows up to 6 credits from other College of Business departments."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page provides course codes for the listed IS/EE courses."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "IS5313",
+      "IS5940",
+      "IS6000",
+      "IS6602",
+      "IS6608",
+      "IS6640",
+      "IS5238",
+      "IS5312",
+      "IS5540",
+      "IS5542",
+      "IS5740",
+      "IS6200",
+      "IS6335",
+      "IS6400",
+      "IS6423",
+      "IS6523",
+      "IS6620",
+      "IS6912",
+      "IS6940C",
+      "IS6941",
+      "EE5437"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -1933,8 +3286,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -2134,35 +3487,178 @@
     "college": "College of Business",
     "department": "Department of Marketing",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-marketing/p18",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-marketing/msc-marketing",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-marketing/msc-marketing"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 18 CU core plus at least 12 CU electives, based on the official MSc Marketing course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 18,
+          "courses": [
+            {
+              "code": "PGTITLE_P18_MARKETING_STRATEGY_AND_PLANNING",
+              "title": "Marketing Strategy and Planning*",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_CONSUMER_BUYER_BEHAVIOUR",
+              "title": "Consumer/Buyer Behaviour*",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_APPLIED_MARKETING_RESEARCH",
+              "title": "Applied Marketing Research*",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_MARKETING_INNOVATION_AND_PRACTICUM",
+              "title": "Marketing Innovation and Practicum",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_ADVANCED_MARKETING_ANALYTICS",
+              "title": "Advanced Marketing Analytics*",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_MARKETING_ENGINEERING",
+              "title": "Marketing Engineering*",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Electives",
+          "chooseCredits": 12,
+          "courses": [
+            {
+              "code": "PGTITLE_P18_FORUM_ON_MARKETING_PRACTICE_AND_CAREER_DEVELOPMENT",
+              "title": "Forum on Marketing Practice and Career Development",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_CHINESE_BUSINESS_CULTURE_AND_MARKETING",
+              "title": "Chinese Business Culture and Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_FINANCIAL_SERVICES_MARKETING",
+              "title": "Financial Services Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_GLOBAL_MARKETING",
+              "title": "Global Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_DIGITAL_MARKETING",
+              "title": "Digital Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_SOCIAL_MEDIA_MARKETING",
+              "title": "Social Media Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_CUSTOMER_RELATIONSHIP_MANAGEMENT",
+              "title": "Customer Relationship Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_ADVERTISING_AND_INTEGRATED_MARKETING_COMMUNICATIONS",
+              "title": "Advertising and Integrated Marketing Communications",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_STRATEGIC_MARKETING",
+              "title": "Strategic Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_BRAND_MARKETING",
+              "title": "Brand Marketing*",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_ADVANCED_MARKETING_PRACTICES",
+              "title": "Advanced Marketing Practices",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_MANAGING_SERVICES_AND_EXPERIENCES",
+              "title": "Managing Services and Experiences",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P18_ARTIFICIAL_INTELLIGENCE_FOR_MARKETING",
+              "title": "Artificial Intelligence for Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "The official page also allows at most 3 CU from other College of Business master courses, subject to approval."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P18_MARKETING_STRATEGY_AND_PLANNING",
+      "PGTITLE_P18_CONSUMER_BUYER_BEHAVIOUR",
+      "PGTITLE_P18_APPLIED_MARKETING_RESEARCH",
+      "PGTITLE_P18_MARKETING_INNOVATION_AND_PRACTICUM",
+      "PGTITLE_P18_ADVANCED_MARKETING_ANALYTICS",
+      "PGTITLE_P18_MARKETING_ENGINEERING",
+      "PGTITLE_P18_FORUM_ON_MARKETING_PRACTICE_AND_CAREER_DEVELOPMENT",
+      "PGTITLE_P18_CHINESE_BUSINESS_CULTURE_AND_MARKETING",
+      "PGTITLE_P18_FINANCIAL_SERVICES_MARKETING",
+      "PGTITLE_P18_GLOBAL_MARKETING",
+      "PGTITLE_P18_DIGITAL_MARKETING",
+      "PGTITLE_P18_SOCIAL_MEDIA_MARKETING",
+      "PGTITLE_P18_CUSTOMER_RELATIONSHIP_MANAGEMENT",
+      "PGTITLE_P18_ADVERTISING_AND_INTEGRATED_MARKETING_COMMUNICATIONS",
+      "PGTITLE_P18_STRATEGIC_MARKETING",
+      "PGTITLE_P18_BRAND_MARKETING",
+      "PGTITLE_P18_ADVANCED_MARKETING_PRACTICES",
+      "PGTITLE_P18_MANAGING_SERVICES_AND_EXPERIENCES",
+      "PGTITLE_P18_ARTIFICIAL_INTELLIGENCE_FOR_MARKETING"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -2236,8 +3732,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -2248,35 +3744,191 @@
     "college": "College of Business",
     "department": "Department of Management",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-management/p19",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/msc-management-and-innovation",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/msc-management-and-innovation"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 12 CU core, 9-15 CU core electives and 3-9 CU electives, based on the official MSc Management and Innovation course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "core",
+          "title": "Core courses",
+          "credits": 12,
+          "courses": [
+            {
+              "code": "PGTITLE_P19_MANAGEMENT_AND_ORGANIZATIONS",
+              "title": "Management and Organizations",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_STRATEGIC_MANAGEMENT",
+              "title": "Strategic Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_GLOBAL_BUSINESS_LEADERSHIP",
+              "title": "Global Business Leadership",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_PEOPLE_ANALYTICS",
+              "title": "People Analytics",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "core-electives",
+          "title": "Core elective courses",
+          "chooseCredits": 9,
+          "courses": [
+            {
+              "code": "PGTITLE_P19_MANAGERIAL_DECISION_MODELING",
+              "title": "Managerial Decision Modeling",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_MANAGEMENT_AND_INNOVATION_CONSULTING_SKILLS",
+              "title": "Management and Innovation Consulting Skills",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_BUSINESS_ETHICS_AND_SOCIAL_RESPONSIBILITY",
+              "title": "Business Ethics & Social Responsibility",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_INNOVATION_COLLABORATION",
+              "title": "Innovation Collaboration",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_ENTREPRENEURSHIP",
+              "title": "Entrepreneurship",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_ORGANIZATIONAL_INNOVATION_AND_CHANGE",
+              "title": "Organizational Innovation and Change",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_GENERATIVE_ARTIFICIAL_INTELLIGENCE_FOR_BUSINESS",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_TRANSFORMING_ORGANIZATIONS_IN_THE_AGE_OF_AI",
+              "title": "Transforming Organizations in the Age of AI",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_LEADING_INNOVATION_AND_VENTURE_STRATEGY_IN_THE_GLOBAL_ECONOMY",
+              "title": "Leading Innovation and Venture Strategy in the Global Economy",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "electives",
+          "title": "Elective courses",
+          "chooseCredits": 3,
+          "courses": [
+            {
+              "code": "PGTITLE_P19_INNOVATION_AND_TECHNOLOGY_ENTREPRENEURSHIP",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+              "title": "Employee Engagement and Performance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_INNOVATION_PROJECT",
+              "title": "Innovation Project",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_INTERNATIONAL_BUSINESS_DISCOVERY",
+              "title": "International Business Discovery",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_GLOBAL_HUMAN_RESOURCES_MANAGEMENT",
+              "title": "Global Human Resources Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_BUSINESS_INTELLIGENCE_IN_ASIA",
+              "title": "Business Intelligence in Asia",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P19_LARGE_LANGUAGE_MODEL_WITH_PROMPT_ENGINEERING_FOR_BUSINESS",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page lists course titles; catalogue course codes and assessment details still need matching."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "PGTITLE_P19_MANAGEMENT_AND_ORGANIZATIONS",
+      "PGTITLE_P19_STRATEGIC_MANAGEMENT",
+      "PGTITLE_P19_GLOBAL_BUSINESS_LEADERSHIP",
+      "PGTITLE_P19_PEOPLE_ANALYTICS",
+      "PGTITLE_P19_MANAGERIAL_DECISION_MODELING",
+      "PGTITLE_P19_MANAGEMENT_AND_INNOVATION_CONSULTING_SKILLS",
+      "PGTITLE_P19_BUSINESS_ETHICS_AND_SOCIAL_RESPONSIBILITY",
+      "PGTITLE_P19_INNOVATION_COLLABORATION",
+      "PGTITLE_P19_ENTREPRENEURSHIP",
+      "PGTITLE_P19_ORGANIZATIONAL_INNOVATION_AND_CHANGE",
+      "PGTITLE_P19_GENERATIVE_ARTIFICIAL_INTELLIGENCE_FOR_BUSINESS",
+      "PGTITLE_P19_TRANSFORMING_ORGANIZATIONS_IN_THE_AGE_OF_AI",
+      "PGTITLE_P19_LEADING_INNOVATION_AND_VENTURE_STRATEGY_IN_THE_GLOBAL_ECONOMY",
+      "PGTITLE_P19_INNOVATION_AND_TECHNOLOGY_ENTREPRENEURSHIP",
+      "PGTITLE_P19_EMPLOYEE_ENGAGEMENT_AND_PERFORMANCE",
+      "PGTITLE_P19_INNOVATION_PROJECT",
+      "PGTITLE_P19_INTERNATIONAL_BUSINESS_DISCOVERY",
+      "PGTITLE_P19_GLOBAL_HUMAN_RESOURCES_MANAGEMENT",
+      "PGTITLE_P19_BUSINESS_INTELLIGENCE_IN_ASIA",
+      "PGTITLE_P19_LARGE_LANGUAGE_MODEL_WITH_PROMPT_ENGINEERING_FOR_BUSINESS"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -2350,8 +4002,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -2476,35 +4128,246 @@
     "college": "College of Business",
     "department": "Department of Management Sciences",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-management-sciences/p84",
+    "curriculumUrl": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/college-of-business/p84",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-title-list",
+      "label": "Official course title list parsed",
+      "description": "The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.",
+      "sourceUrl": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/college-of-business/p84"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units across IAM or QAB streams, based on the official MSc Business and Data Analytics course descriptions.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "common-core",
+          "title": "Common core courses",
+          "courses": [
+            {
+              "code": "IS5413",
+              "title": "Database Management Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS6335",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "MS5217",
+              "title": "Statistical Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "MS6711",
+              "title": "Data Mining",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "iam-core",
+          "title": "Information Analytics Management Stream core",
+          "courses": [
+            {
+              "code": "IS6941",
+              "title": "Machine Learning & Social Media Analytics",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "iam-electives",
+          "title": "Information Analytics Management Stream electives",
+          "chooseCredits": 9,
+          "courses": [
+            {
+              "code": "IS5113",
+              "title": "AI Ethics and Regulations",
+              "credits": 3
+            },
+            {
+              "code": "IS5238",
+              "title": "Business Practice Internship",
+              "credits": 3
+            },
+            {
+              "code": "IS5312",
+              "title": "Analytical Programming with Python",
+              "credits": 3
+            },
+            {
+              "code": "IS5313",
+              "title": "Foundations of Information and Electronic Business Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5540",
+              "title": "Project Management and Quality Assurance",
+              "credits": 3
+            },
+            {
+              "code": "IS5542",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS5740",
+              "title": "Management Support and Business Intelligence Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5940",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "IS6200",
+              "title": "Blockchain Technology and Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6423",
+              "title": "Artificial Intelligence for Business Applications",
+              "credits": 3
+            },
+            {
+              "code": "IS6620",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6912",
+              "title": "Information Systems Project",
+              "credits": 6
+            },
+            {
+              "code": "IS6914",
+              "title": "Information Analytics Management Project",
+              "credits": 3
+            }
+          ],
+          "note": "Official IAM rule: complete 15 credits with at least 9 credits from the stream elective list; remaining credits may be CB postgraduate electives."
+        },
+        {
+          "key": "qab-core",
+          "title": "Quantitative Analysis for Business Stream core",
+          "courses": [
+            {
+              "code": "PGTITLE_P84_APPLIED_LINEAR_STATISTICAL_MODELS",
+              "title": "Applied Linear Statistical Models",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ]
+        },
+        {
+          "key": "qab-electives",
+          "title": "Quantitative Analysis for Business Stream electives",
+          "courses": [
+            {
+              "code": "MS5215",
+              "title": "AI-Enhanced Business Analytics with Excel and Python",
+              "credits": 3
+            },
+            {
+              "code": "PGTITLE_P84_CONTEMPORARY_TOPICS_IN_QUANTITATIVE_ANALYSIS_FOR_BUSINESS",
+              "title": "Contemporary Topics in Quantitative Analysis for Business",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_DECISION_ANALYTICS",
+              "title": "Decision Analytics",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_PREDICTIVE_ANALYTICS_WITH_EXCEL_AND_R",
+              "title": "Predictive Analytics with Excel and R",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_PREDICTIVE_MODELING_AND_FORECASTING_FOR_BUSINESS",
+              "title": "Predictive Modeling and Forecasting for Business",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_PREDICTIVE_MODELING_IN_MARKETING",
+              "title": "Predictive Modeling in Marketing",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_PROJECT_MANAGEMENT",
+              "title": "Project Management",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_STATISTICAL_MODELLING_IN_ECONOMICS_AND_FINANCE",
+              "title": "Statistical Modelling in Economics and Finance",
+              "credits": 3,
+              "sourceOnly": true
+            },
+            {
+              "code": "PGTITLE_P84_STATISTICAL_MODELLING_IN_RISK_MANAGEMENT",
+              "title": "Statistical Modelling in Risk Management",
+              "credits": 3,
+              "sourceOnly": true
+            }
+          ],
+          "note": "Official QAB rule: complete 5 electives with at least 4 from the listed QAB electives."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "IAM courses include confirmed codes from the official IS pages; QAB titles are listed from the official programme page where codes are not fully exposed."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "IS5413",
+      "IS6335",
+      "MS5217",
+      "MS6711",
+      "IS6941",
+      "IS5113",
+      "IS5238",
+      "IS5312",
+      "IS5313",
+      "IS5540",
+      "IS5542",
+      "IS5740",
+      "IS5940",
+      "IS6200",
+      "IS6400",
+      "IS6423",
+      "IS6620",
+      "IS6912",
+      "IS6914",
+      "PGTITLE_P84_APPLIED_LINEAR_STATISTICAL_MODELS",
+      "MS5215",
+      "PGTITLE_P84_CONTEMPORARY_TOPICS_IN_QUANTITATIVE_ANALYSIS_FOR_BUSINESS",
+      "PGTITLE_P84_DECISION_ANALYTICS",
+      "PGTITLE_P84_PREDICTIVE_ANALYTICS_WITH_EXCEL_AND_R",
+      "PGTITLE_P84_PREDICTIVE_MODELING_AND_FORECASTING_FOR_BUSINESS",
+      "PGTITLE_P84_PREDICTIVE_MODELING_IN_MARKETING",
+      "PGTITLE_P84_PROJECT_MANAGEMENT",
+      "PGTITLE_P84_STATISTICAL_MODELLING_IN_ECONOMICS_AND_FINANCE",
+      "PGTITLE_P84_STATISTICAL_MODELLING_IN_RISK_MANAGEMENT"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -2578,8 +4441,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {
@@ -2590,35 +4453,186 @@
     "college": "College of Business",
     "department": "Department of Information Systems",
     "mode": "Full-time / Part-time where offered",
-    "totalCredits": null,
+    "totalCredits": 30,
     "url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/department-of-information-systems/p85",
+    "curriculumUrl": "https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-artificial-intelligence-in-business/course-description",
     "sourceStatus": {
       "kind": "requirements-diy",
       "label": "DIY from graduation requirements",
       "description": "No official semester-by-semester study plan has been confirmed. Use the official requirements and course pool to build your own plan."
     },
     "courseListStatus": {
-      "kind": "course-list-unconfirmed",
-      "label": "Course list not yet structured",
-      "description": "The official programme page is linked, but this site has not yet structured the required/elective course list for this programme."
+      "kind": "official-course-list",
+      "label": "Official course list parsed",
+      "description": "The required/elective course pool is parsed from an official CityUHK curriculum or programme page. The semester grid remains DIY unless an official sample schedule is available.",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-artificial-intelligence-in-business/course-description"
     },
     "requirements": {
-      "summary": "Programme-specific graduation requirements are listed on the official programme page.",
+      "summary": "30 credit units: 9 CU AI core, 9 CU business core within the group and 12 CU selected electives, based on the official MSc Artificial Intelligence in Business course description.",
       "sections": [
         {
-          "key": "official-requirements",
-          "title": "Official graduation requirements",
-          "credits": 0,
-          "courses": [],
-          "note": "No official semester-by-semester study plan is confirmed in this dataset. Add required/core/elective courses from the official page into the empty DIY planner."
+          "key": "ai-core",
+          "title": "AI core courses",
+          "credits": 9,
+          "courses": [
+            {
+              "code": "IS5113",
+              "title": "AI Ethics and Regulations",
+              "credits": 3
+            },
+            {
+              "code": "IS5542",
+              "title": "Generative Artificial Intelligence for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6423",
+              "title": "Artificial Intelligence for Business Applications",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "business-core",
+          "title": "Business core courses",
+          "credits": 9,
+          "chooseCredits": 9,
+          "courses": [
+            {
+              "code": "EF5560",
+              "title": "Fintech and AI in Finance",
+              "credits": 3
+            },
+            {
+              "code": "AC6761",
+              "title": "Artificial Intelligence Accounting",
+              "credits": 3
+            },
+            {
+              "code": "MKT6614",
+              "title": "Advanced Marketing Analytics",
+              "credits": 3
+            },
+            {
+              "code": "MGT6310",
+              "title": "People Analytics",
+              "credits": 3
+            },
+            {
+              "code": "MS5215",
+              "title": "AI-Enhanced Business Analytics with Excel and Python",
+              "credits": 3
+            },
+            {
+              "code": "MS6219",
+              "title": "Predictive Modeling and Forecasting for Business",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "key": "selected-electives",
+          "title": "Selected electives",
+          "credits": 12,
+          "chooseCredits": 12,
+          "courses": [
+            {
+              "code": "IS5238",
+              "title": "Business Practice Internship",
+              "credits": 3
+            },
+            {
+              "code": "IS5312",
+              "title": "Analytical Programming with Python",
+              "credits": 3
+            },
+            {
+              "code": "IS5411",
+              "title": "Systems Analysis and Design",
+              "credits": 3
+            },
+            {
+              "code": "IS5413",
+              "title": "Database Management Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5540",
+              "title": "Project Management and Quality Assurance",
+              "credits": 3
+            },
+            {
+              "code": "IS5740",
+              "title": "Management Support and Business Intelligence Systems",
+              "credits": 3
+            },
+            {
+              "code": "IS5940",
+              "title": "Innovation and Technology Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "IS6335",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "IS6400",
+              "title": "Business Data Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS6620",
+              "title": "Large Language Model with Prompt Engineering for Business",
+              "credits": 3
+            },
+            {
+              "code": "IS6640",
+              "title": "Information Systems Planning and Strategy",
+              "credits": 3
+            },
+            {
+              "code": "IS6912",
+              "title": "Information Systems Project",
+              "credits": 6
+            },
+            {
+              "code": "IS6941",
+              "title": "Machine Learning & Social Media Analytics",
+              "credits": 3
+            }
+          ],
+          "note": "The official page also allows two approved electives, one possibly from another College of Business department."
         }
       ],
       "notes": [
-        "Not an official study plan. This is an empty DIY planning grid based on programme-level requirements.",
-        "Course pool will be expanded when programme-specific curriculum tables or catalogue records are parsed."
+        "Official page provides course codes for the listed AIB courses."
       ]
     },
-    "allCourses": [],
+    "allCourses": [
+      "IS5113",
+      "IS5542",
+      "IS6423",
+      "EF5560",
+      "AC6761",
+      "MKT6614",
+      "MGT6310",
+      "MS5215",
+      "MS6219",
+      "IS5238",
+      "IS5312",
+      "IS5411",
+      "IS5413",
+      "IS5540",
+      "IS5740",
+      "IS5940",
+      "IS6335",
+      "IS6400",
+      "IS6620",
+      "IS6640",
+      "IS6912",
+      "IS6941"
+    ],
     "studyPlan": {
       "year1": {
         "semA": {
@@ -2692,8 +4706,8 @@
       }
     ],
     "notes": [
-      "No confirmed official sample schedule is stored for this programme.",
-      "The official course list has not yet been structured into this site. Use the official programme page to confirm current courses, streams, and credit requirements before planning."
+      "Official curriculum/course list is structured here, but no official semester-by-semester sample schedule is stored.",
+      "Use the course pool and official requirements to DIY semester placement after checking offering terms."
     ]
   },
   {

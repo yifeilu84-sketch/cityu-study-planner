@@ -144,26 +144,32 @@ export function buildSearchIndex(
       searchText: normalise([course.code, course.title, course.department].filter(Boolean).join(' ')),
     }))
 
-  const postgraduateProgrammeItems: SearchPostgraduateProgrammeItem[] = postgraduateProgrammes.map((programme) => ({
-    type: 'postgraduate-programme',
-    code: programme.code,
-    title: programme.title,
-    award: programme.award,
-    programmeType: programme.type,
-    college: programme.college,
-    department: programme.department,
-    sourceKind: programme.sourceStatus?.kind ?? 'unknown',
-    searchText: normalise([
-      programme.code,
-      programme.title,
-      programme.award,
-      programme.type,
-      programme.college,
-      programme.department,
-      ...(programme.researchAreas ?? []),
-      ...(programme.allCourses ?? []),
-    ].filter(Boolean).join(' ')),
-  }))
+  const postgraduateProgrammeItems: SearchPostgraduateProgrammeItem[] = postgraduateProgrammes.map((programme) => {
+    const requirementCourseText = (programme.requirements?.sections ?? [])
+      .flatMap((section: any) => (section.courses ?? []).flatMap((course: any) => [course.code, course.title]))
+
+    return {
+      type: 'postgraduate-programme',
+      code: programme.code,
+      title: programme.title,
+      award: programme.award,
+      programmeType: programme.type,
+      college: programme.college,
+      department: programme.department,
+      sourceKind: programme.sourceStatus?.kind ?? 'unknown',
+      searchText: normalise([
+        programme.code,
+        programme.title,
+        programme.award,
+        programme.type,
+        programme.college,
+        programme.department,
+        ...(programme.researchAreas ?? []),
+        ...(programme.allCourses ?? []),
+        ...requirementCourseText,
+      ].filter(Boolean).join(' ')),
+    }
+  })
 
   const postgraduateCourseItems: SearchPostgraduateCourseItem[] = Object.values(pgCourses)
     .filter((course: any) => course?.code && !isGenericCourseSlot(course.code))

@@ -50,12 +50,14 @@ const SOURCE_CLASSES: Record<PostgraduateProgramme['sourceStatus']['kind'], stri
 
 const COURSE_LIST_LABELS: Record<CourseListKind, string> = {
   'official-course-list': '课程池已解析',
+  'official-title-list': '课程标题已解析',
   'course-list-unconfirmed': '课程池待确认',
   'research-not-course-based': '研究型要求',
 }
 
 const COURSE_LIST_CLASSES: Record<CourseListKind, string> = {
   'official-course-list': 'bg-emerald-50 text-emerald-700 border-emerald-100',
+  'official-title-list': 'bg-teal-50 text-teal-700 border-teal-100',
   'course-list-unconfirmed': 'bg-rose-50 text-rose-700 border-rose-100',
   'research-not-course-based': 'bg-slate-50 text-slate-700 border-slate-200',
 }
@@ -118,7 +120,7 @@ export default function PostgraduatePage() {
     doctorate: postgraduateProgrammes.filter((item) => item.type === 'professional-doctorate').length,
     officialSample: postgraduateProgrammes.filter((item) => item.sourceStatus.kind === 'official-sample').length,
     diy: postgraduateProgrammes.filter((item) => item.sourceStatus.kind !== 'official-sample').length,
-    parsedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'official-course-list').length,
+    parsedCourseLists: postgraduateProgrammes.filter((item) => ['official-course-list', 'official-title-list'].includes(item.courseListStatus?.kind ?? '')).length,
     unconfirmedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'course-list-unconfirmed').length,
   }), [])
 

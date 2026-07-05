@@ -48,7 +48,7 @@ export default function CoveragePage() {
     total: postgraduateProgrammes.length,
     officialSample: postgraduateProgrammes.filter((item) => item.sourceStatus.kind === 'official-sample').length,
     diy: postgraduateProgrammes.filter((item) => item.sourceStatus.kind !== 'official-sample').length,
-    parsedCourseLists: postgraduateProgrammes.filter((item) => item.courseListStatus?.kind === 'official-course-list').length,
+    parsedCourseLists: postgraduateProgrammes.filter((item) => ['official-course-list', 'official-title-list'].includes(item.courseListStatus?.kind ?? '')).length,
   }), [postgraduateProgrammes])
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()

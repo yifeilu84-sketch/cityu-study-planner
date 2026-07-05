@@ -39,12 +39,14 @@ const SOURCE_CLASSES: Record<PostgraduateProgramme['sourceStatus']['kind'], stri
 
 const COURSE_LIST_CLASSES: Record<NonNullable<PostgraduateProgramme['courseListStatus']>['kind'], string> = {
   'official-course-list': 'bg-emerald-50 text-emerald-700 border-emerald-100',
+  'official-title-list': 'bg-teal-50 text-teal-700 border-teal-100',
   'course-list-unconfirmed': 'bg-rose-50 text-rose-700 border-rose-100',
   'research-not-course-based': 'bg-slate-50 text-slate-700 border-slate-200',
 }
 
 const COURSE_LIST_PANEL_CLASSES: Record<NonNullable<PostgraduateProgramme['courseListStatus']>['kind'], string> = {
   'official-course-list': 'border-emerald-100 bg-emerald-50 text-emerald-800',
+  'official-title-list': 'border-teal-100 bg-teal-50 text-teal-800',
   'course-list-unconfirmed': 'border-rose-100 bg-rose-50 text-rose-800',
   'research-not-course-based': 'border-slate-200 bg-slate-50 text-slate-700',
 }
@@ -67,13 +69,13 @@ function coursePoolFor(programme: PostgraduateProgramme) {
     byCode.set(course.code, course)
   }
 
+  for (const section of programme.requirements.sections ?? []) {
+    for (const course of section.courses ?? []) add(course)
+  }
+
   for (const code of programme.allCourses ?? []) {
     const detail = pgCourses[code]
     add({ code, title: detail?.title ?? code, credits: detail?.credits ?? 0 })
-  }
-
-  for (const section of programme.requirements.sections ?? []) {
-    for (const course of section.courses ?? []) add(course)
   }
 
   return Array.from(byCode.values()).sort((a, b) => a.code.localeCompare(b.code))
@@ -83,6 +85,14 @@ function planEntries(plan: StudyPlan) {
   return Object.entries(plan)
     .sort(([a], [b]) => getYearNumber(a) - getYearNumber(b))
     .map(([key, year]) => ({ key, label: `Year ${getYearNumber(key)}`, year }))
+}
+
+function isSourceOnlyCourse(course: MajorCourse) {
+  return Boolean(course.sourceOnly || course.code.startsWith('PGTITLE_'))
+}
+
+function displayCourseCode(course: MajorCourse) {
+  return isSourceOnlyCourse(course) ? null : course.code
 }
 
 export default function PostgraduateDetailPage() {
@@ -313,9 +323,11 @@ export default function PostgraduateDetailPage() {
                           key={`${section.key}-${course.code}`}
                           type="button"
                           onClick={() => setSelectedCourse(pgCourses[course.code] ?? null)}
-                          className="rounded-lg border border-gray-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:border-cityu-accent hover:text-cityu-accent transition-colors"
+                          className={`rounded-lg border border-gray-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-gray-700 transition-colors ${
+                            pgCourses[course.code] ? 'hover:border-cityu-accent hover:text-cityu-accent' : 'cursor-default'
+                          }`}
                         >
-                          {course.code} · {course.credits} CU
+                          {displayCourseCode(course) ? `${displayCourseCode(course)} · ` : ''}{course.title} · {course.credits} CU
                         </button>
                       ))}
                     </div>
@@ -352,22 +364,28 @@ export default function PostgraduateDetailPage() {
               <div className="space-y-2">
                 {coursePool.map((course) => {
                   const detail = pgCourses[course.code]
-                  const needsReview = detail?.detailStatus !== 'parsed'
+                  const sourceOnly = isSourceOnlyCourse(course)
+                  const needsReview = sourceOnly || detail?.detailStatus !== 'parsed'
+                  const shownCode = displayCourseCode(course)
                   return (
                     <button
                       key={course.code}
                       type="button"
-                      onClick={() => setSelectedCourse(detail ?? null)}
-                      className="w-full rounded-lg border border-gray-100 bg-gray-50 p-3 text-left hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                      onClick={() => detail ? setSelectedCourse(detail) : null}
+                      className={`w-full rounded-lg border border-gray-100 bg-gray-50 p-3 text-left transition-colors ${
+                        detail ? 'hover:border-cityu-accent hover:bg-cityu-accent/5' : 'cursor-default'
+                      }`}
                     >
                       <div className="flex items-start justify-between gap-2">
                         <div>
-                          <div className="font-bold text-sm text-cityu-accent">{course.code}</div>
+                          {shownCode ? <div className="font-bold text-sm text-cityu-accent">{shownCode}</div> : null}
                           <div className="mt-0.5 text-sm font-medium text-gray-800">{course.title}</div>
                         </div>
                         <span className="text-xs text-gray-500 flex-shrink-0">{course.credits} CU</span>
                       </div>
-                      {needsReview ? (
+                      {sourceOnly ? (
+                        <div className="mt-2 text-xs text-teal-700">Official title list; course code / assessment pending</div>
+                      ) : needsReview ? (
                         <div className="mt-2 text-xs text-amber-700">官方课程详情未确认</div>
                       ) : (
                         <div className="mt-2 text-xs text-emerald-700">Assessment parsed from PG catalogue</div>

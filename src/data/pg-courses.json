@@ -1747,5 +1747,671 @@
     "catalogue": "pg",
     "detailStatus": "linked-unparsed",
     "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/lw6959.htm"
+  },
+  "AC5511": {
+    "code": "AC5511",
+    "title": "Financial and Management Accounting",
+    "credits": 3,
+    "department": "Department of Accountancy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5511.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac5511.htm"
+  },
+  "AC6761": {
+    "code": "AC6761",
+    "title": "Artificial Intelligence Accounting",
+    "credits": 3,
+    "department": "Department of Accountancy",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac6761.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ac6761.htm"
+  },
+  "EF5042": {
+    "code": "EF5042",
+    "title": "Corporate Finance",
+    "credits": 3,
+    "department": "Department of Economics and Finance",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef5042.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef5042.htm"
+  },
+  "EF5560": {
+    "code": "EF5560",
+    "title": "Fintech and AI in Finance",
+    "credits": 3,
+    "department": "Department of Economics and Finance",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef5560.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ef5560.htm"
+  },
+  "EE5437": {
+    "code": "EE5437",
+    "title": "IoT Technologies for Future City Applications",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee5437.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ee5437.htm"
+  },
+  "IS5113": {
+    "code": "IS5113",
+    "title": "AI Ethics and Regulations",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5113.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5113.htm"
+  },
+  "IS5238": {
+    "code": "IS5238",
+    "title": "Business Practice Internship",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5238.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5238.htm"
+  },
+  "IS5311": {
+    "code": "IS5311",
+    "title": "JAVA Programming for Business Applications",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5311.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5311.htm"
+  },
+  "IS5312": {
+    "code": "IS5312",
+    "title": "Analytical Programming with Python",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5312.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5312.htm"
+  },
+  "IS5313": {
+    "code": "IS5313",
+    "title": "Foundations of Information and Electronic Business Systems",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5313.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5313.htm"
+  },
+  "IS5411": {
+    "code": "IS5411",
+    "title": "Systems Analysis and Design",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5411.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5411.htm"
+  },
+  "IS5413": {
+    "code": "IS5413",
+    "title": "Database Management Systems",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5413.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5413.htm"
+  },
+  "IS5540": {
+    "code": "IS5540",
+    "title": "Project Management and Quality Assurance",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5540.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5540.htm"
+  },
+  "IS5542": {
+    "code": "IS5542",
+    "title": "Generative Artificial Intelligence for Business",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5542.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5542.htm"
+  },
+  "IS5740": {
+    "code": "IS5740",
+    "title": "Management Support and Business Intelligence Systems",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5740.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5740.htm"
+  },
+  "IS5743": {
+    "code": "IS5743",
+    "title": "Information Technology Based Business Transformation",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5743.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5743.htm"
+  },
+  "IS5940": {
+    "code": "IS5940",
+    "title": "Innovation and Technology Entrepreneurship",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5940.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is5940.htm"
+  },
+  "IS6000": {
+    "code": "IS6000",
+    "title": "Research Methods for the IS Manager",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6000.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6000.htm"
+  },
+  "IS6200": {
+    "code": "IS6200",
+    "title": "Blockchain Technology and Business Applications",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6200.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6200.htm"
+  },
+  "IS6335": {
+    "code": "IS6335",
+    "title": "Data Visualization",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6335.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6335.htm"
+  },
+  "IS6421": {
+    "code": "IS6421",
+    "title": "Human-Computer Interaction and Multimedia",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6421.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6421.htm"
+  },
+  "IS6423": {
+    "code": "IS6423",
+    "title": "Artificial Intelligence for Business Applications",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6423.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6423.htm"
+  },
+  "IS6523": {
+    "code": "IS6523",
+    "title": "Information Systems Infrastructure and Security Management",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6523.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6523.htm"
+  },
+  "IS6602": {
+    "code": "IS6602",
+    "title": "Information Systems Consulting",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6602.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6602.htm"
+  },
+  "IS6608": {
+    "code": "IS6608",
+    "title": "Digital Transformation and Technological Innovation in the Organisation",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6608.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6608.htm"
+  },
+  "IS6620": {
+    "code": "IS6620",
+    "title": "Large Language Model with Prompt Engineering for Business",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6620.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6620.htm"
+  },
+  "IS6912": {
+    "code": "IS6912",
+    "title": "Information Systems Project",
+    "credits": 6,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6912.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6912.htm"
+  },
+  "IS6914": {
+    "code": "IS6914",
+    "title": "Information Analytics Management Project",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6914.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6914.htm"
+  },
+  "IS6930": {
+    "code": "IS6930",
+    "title": "Management Consulting in Asia",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6930.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6930.htm"
+  },
+  "IS6940C": {
+    "code": "IS6940C",
+    "title": "Information Technology Leadership Forum",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6940c.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6940c.htm"
+  },
+  "IS6941": {
+    "code": "IS6941",
+    "title": "Machine Learning & Social Media Analytics",
+    "credits": 3,
+    "department": "Department of Information Systems",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6941.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/is6941.htm"
+  },
+  "MGT6310": {
+    "code": "MGT6310",
+    "title": "People Analytics",
+    "credits": 3,
+    "department": "Department of Management",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6310.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mgt6310.htm"
+  },
+  "MKT6614": {
+    "code": "MKT6614",
+    "title": "Advanced Marketing Analytics",
+    "credits": 3,
+    "department": "Department of Marketing",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt6614.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/mkt6614.htm"
+  },
+  "MS5215": {
+    "code": "MS5215",
+    "title": "AI-Enhanced Business Analytics with Excel and Python",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5215.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5215.htm"
+  },
+  "MS5217": {
+    "code": "MS5217",
+    "title": "Statistical Data Analysis",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5217.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms5217.htm"
+  },
+  "MS6219": {
+    "code": "MS6219",
+    "title": "Predictive Modeling and Forecasting for Business",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms6219.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms6219.htm"
+  },
+  "MS6711": {
+    "code": "MS6711",
+    "title": "Data Mining",
+    "credits": 3,
+    "department": "Department of Management Sciences",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "",
+    "assessment": {
+      "details": "Official PG catalogue page linked; detailed assessment should be checked from the course page."
+    },
+    "pdfUrl": "",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms6711.htm",
+    "description": "",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/ms6711.htm"
   }
 }

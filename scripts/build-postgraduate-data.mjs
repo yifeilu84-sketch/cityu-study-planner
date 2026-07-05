@@ -29,6 +29,14 @@ const COURSE_LIST_STATUS = {
       sourceUrl,
     }
   },
+  officialTitles(sourceUrl) {
+    return {
+      kind: 'official-title-list',
+      label: 'Official course title list parsed',
+      description: 'The required/elective course titles are parsed from an official CityUHK curriculum or programme page. Some course codes and assessment details still need catalogue matching.',
+      sourceUrl,
+    }
+  },
   unconfirmed: {
     kind: 'course-list-unconfirmed',
     label: 'Course list not yet structured',
@@ -227,6 +235,45 @@ const pgCourses = {
   SEE6225: makeCourse('SEE6225', 'Environmental Assessment', 3, { department: 'School of Energy and Environment' }),
   SEE6999: makeCourse('SEE6999', 'Dissertation', 6, { department: 'School of Energy and Environment' }),
   LW6959: makeCourse('LW6959', 'Energy and Environmental Law', 6, { department: 'School of Law' }),
+  AC5511: makeCourse('AC5511', 'Financial and Management Accounting', 3, { department: 'Department of Accountancy' }),
+  AC6761: makeCourse('AC6761', 'Artificial Intelligence Accounting', 3, { department: 'Department of Accountancy' }),
+  EF5042: makeCourse('EF5042', 'Corporate Finance', 3, { department: 'Department of Economics and Finance' }),
+  EF5560: makeCourse('EF5560', 'Fintech and AI in Finance', 3, { department: 'Department of Economics and Finance' }),
+  EE5437: makeCourse('EE5437', 'IoT Technologies for Future City Applications', 3, { department: 'Department of Electrical Engineering' }),
+  IS5113: makeCourse('IS5113', 'AI Ethics and Regulations', 3, { department: 'Department of Information Systems' }),
+  IS5238: makeCourse('IS5238', 'Business Practice Internship', 3, { department: 'Department of Information Systems' }),
+  IS5311: makeCourse('IS5311', 'JAVA Programming for Business Applications', 3, { department: 'Department of Information Systems' }),
+  IS5312: makeCourse('IS5312', 'Analytical Programming with Python', 3, { department: 'Department of Information Systems' }),
+  IS5313: makeCourse('IS5313', 'Foundations of Information and Electronic Business Systems', 3, { department: 'Department of Information Systems' }),
+  IS5411: makeCourse('IS5411', 'Systems Analysis and Design', 3, { department: 'Department of Information Systems' }),
+  IS5413: makeCourse('IS5413', 'Database Management Systems', 3, { department: 'Department of Information Systems' }),
+  IS5540: makeCourse('IS5540', 'Project Management and Quality Assurance', 3, { department: 'Department of Information Systems' }),
+  IS5542: makeCourse('IS5542', 'Generative Artificial Intelligence for Business', 3, { department: 'Department of Information Systems' }),
+  IS5740: makeCourse('IS5740', 'Management Support and Business Intelligence Systems', 3, { department: 'Department of Information Systems' }),
+  IS5743: makeCourse('IS5743', 'Information Technology Based Business Transformation', 3, { department: 'Department of Information Systems' }),
+  IS5940: makeCourse('IS5940', 'Innovation and Technology Entrepreneurship', 3, { department: 'Department of Information Systems' }),
+  IS6000: makeCourse('IS6000', 'Research Methods for the IS Manager', 3, { department: 'Department of Information Systems' }),
+  IS6200: makeCourse('IS6200', 'Blockchain Technology and Business Applications', 3, { department: 'Department of Information Systems' }),
+  IS6335: makeCourse('IS6335', 'Data Visualization', 3, { department: 'Department of Information Systems' }),
+  IS6400: makeCourse('IS6400', 'Business Data Analytics', 3, { department: 'Department of Information Systems' }),
+  IS6421: makeCourse('IS6421', 'Human-Computer Interaction and Multimedia', 3, { department: 'Department of Information Systems' }),
+  IS6423: makeCourse('IS6423', 'Artificial Intelligence for Business Applications', 3, { department: 'Department of Information Systems' }),
+  IS6523: makeCourse('IS6523', 'Information Systems Infrastructure and Security Management', 3, { department: 'Department of Information Systems' }),
+  IS6602: makeCourse('IS6602', 'Information Systems Consulting', 3, { department: 'Department of Information Systems' }),
+  IS6608: makeCourse('IS6608', 'Digital Transformation and Technological Innovation in the Organisation', 3, { department: 'Department of Information Systems' }),
+  IS6620: makeCourse('IS6620', 'Large Language Model with Prompt Engineering for Business', 3, { department: 'Department of Information Systems' }),
+  IS6640: makeCourse('IS6640', 'Information Systems Planning and Strategy', 3, { department: 'Department of Information Systems' }),
+  IS6912: makeCourse('IS6912', 'Information Systems Project', 6, { department: 'Department of Information Systems' }),
+  IS6914: makeCourse('IS6914', 'Information Analytics Management Project', 3, { department: 'Department of Information Systems' }),
+  IS6930: makeCourse('IS6930', 'Management Consulting in Asia', 3, { department: 'Department of Information Systems' }),
+  IS6940C: makeCourse('IS6940C', 'Information Technology Leadership Forum', 3, { department: 'Department of Information Systems' }),
+  IS6941: makeCourse('IS6941', 'Machine Learning & Social Media Analytics', 3, { department: 'Department of Information Systems' }),
+  MGT6310: makeCourse('MGT6310', 'People Analytics', 3, { department: 'Department of Management' }),
+  MKT6614: makeCourse('MKT6614', 'Advanced Marketing Analytics', 3, { department: 'Department of Marketing' }),
+  MS5215: makeCourse('MS5215', 'AI-Enhanced Business Analytics with Excel and Python', 3, { department: 'Department of Management Sciences' }),
+  MS5217: makeCourse('MS5217', 'Statistical Data Analysis', 3, { department: 'Department of Management Sciences' }),
+  MS6219: makeCourse('MS6219', 'Predictive Modeling and Forecasting for Business', 3, { department: 'Department of Management Sciences' }),
+  MS6711: makeCourse('MS6711', 'Data Mining', 3, { department: 'Department of Management Sciences' }),
 }
 
 function ref(code, overrides = {}) {
@@ -237,6 +284,25 @@ function ref(code, overrides = {}) {
     credits: overrides.credits ?? course?.credits ?? 0,
     remarks: overrides.remarks,
   }
+}
+
+function titleRef(programmeCode, title, credits = 3, overrides = {}) {
+  return {
+    code: `PGTITLE_${programmeCode}_${slug(title).replace(/-/g, '_').toUpperCase()}`,
+    title,
+    credits,
+    remarks: overrides.remarks,
+    sourceOnly: true,
+    sourceUrl: overrides.sourceUrl,
+  }
+}
+
+function refs(codes) {
+  return codes.map((code) => ref(code))
+}
+
+function titleRefs(programmeCode, titles, credits = 3) {
+  return titles.map((title) => titleRef(programmeCode, title, credits))
 }
 
 const mscComputerScienceCodes = [
@@ -284,6 +350,606 @@ const mscComputerScienceRequirements = {
 }
 
 const CONFIRMED_CURRICULA = {
+  P02: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/ma-international-accounting',
+    requirements: {
+      summary: '30 credit units: 24 CU core plus 6 CU optional electives, based on the official MA International Accounting course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 24,
+          courses: titleRefs('P02', [
+            'Accounting Information Systems',
+            'Advanced International Financial Accounting',
+            'Advanced Taxation',
+            'Corporate Governance',
+            'Financial Management',
+            'International Financial Management',
+            'International Financial Statement Analysis',
+            'Management Accounting issues in Multinational Enterprises',
+          ]),
+        },
+        {
+          key: 'optional-electives',
+          title: 'Optional electives',
+          credits: 6,
+          chooseCredits: 6,
+          courses: titleRefs('P02', [
+            'Auditing',
+            'Business Economics and Statistics for Accountants',
+            'Business Management for Accountants',
+            'Credentials and Essential Soft Skills for Effective Board Management',
+            'Companies and Securities Regulations and Practice',
+            'Law Relating to Business and Companies',
+            'Risk Management',
+          ]),
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P04: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-finance',
+    requirements: {
+      summary: '30 credit units: 24 CU required core plus 6 CU electives, based on the official MSc Finance course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 24,
+          courses: titleRefs('P04', [
+            'Corporate Finance',
+            'Derivatives and Risk Management',
+            'Financial Econometrics',
+            'Investments',
+            'Professional Seminars in Finance',
+            'Advanced Corporate Finance',
+            'Fixed Income Securities',
+            'International Financial Management',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 6,
+          chooseCredits: 6,
+          courses: titleRefs('P04', [
+            'Asset Management and Hedge Fund Strategies',
+            'Credit Risk Management',
+            'Financial Computing',
+            'Financial Systems, Markets and Instruments',
+            'Fintech and AI in Finance',
+            'Option Pricing',
+            'Stochastic Calculus for Finance',
+            'Sustainable Finance',
+          ]),
+          note: 'The official page also allows an approved elective from College of Business disciplines.',
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P05A: {
+    totalCredits: 30,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems/mis-stream',
+    requirements: {
+      summary: '30 credit units: 15 CU core within the group plus 15 CU electives, based on the official MSBIS MIS Stream course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 15,
+          chooseCredits: 15,
+          courses: refs(['IS5311', 'IS5312', 'IS5313', 'IS5411', 'IS5413', 'IS5540']),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 15,
+          chooseCredits: 15,
+          courses: [
+            ...refs([
+              'IS5238', 'IS5314', 'IS5542', 'IS5740', 'IS5743', 'IS5940', 'IS6200', 'IS6335',
+              'IS6400', 'IS6421', 'IS6423', 'IS6523', 'IS6640', 'IS6620', 'IS6912', 'IS6930', 'IS6940C',
+            ]),
+            ref('AC5511'),
+            ref('EF5042'),
+          ],
+          note: 'The official page also permits approved electives from Information Systems and College of Business departments.',
+        },
+      ],
+      notes: ['Official page provides course codes for the listed MSBIS MIS Stream courses.'],
+    },
+  },
+  P05B: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-information-systems/msc-business-information-systems-financial-and-intelligent-technology-stream',
+    requirements: {
+      summary: '30 credit units: 15 CU core within the group plus 15 CU electives, based on the official MSBIS FIT Stream course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 15,
+          chooseCredits: 15,
+          courses: [
+            ref('IS6400'),
+            ref('EF5042'),
+            ref('AC5511'),
+            ref('IS5740'),
+            ref('IS5540'),
+            ref('IS5542'),
+          ],
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 15,
+          chooseCredits: 15,
+          courses: [
+            ...refs([
+              'IS5312', 'IS6941', 'IS6200', 'IS5238', 'IS6421', 'IS5940', 'IS6940C', 'IS5413',
+              'IS5314', 'IS5313', 'IS6640', 'IS6912', 'IS5743', 'IS5311', 'IS5411', 'IS6423',
+              'IS6620', 'IS6523',
+            ]),
+            titleRef('P05B', 'Investments'),
+            titleRef('P05B', 'Introduction to Financial Technologies'),
+          ],
+          note: 'The official page also permits two approved electives, with one possibly from another College of Business department.',
+        },
+      ],
+      notes: ['Some FIT Stream course titles are matched to catalogue-style codes; unmatched finance titles remain source-only.'],
+    },
+  },
+  P07: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/ma-global-business-management',
+    requirements: {
+      summary: '30 credit units: 24 CU core, 3 CU core elective and 3 CU elective, based on the official MA Global Business Management course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 24,
+          courses: titleRefs('P07', [
+            'International Organizational Behaviour',
+            'Entrepreneurship',
+            'Cross-Cultural Negotiation',
+            'Managing International Business',
+            'Financial Statement Analysis in Global Context',
+            'Global Human Resources Management',
+            'Business Ethics & Social Responsibility',
+            'Finance for the Global Manager',
+          ]),
+        },
+        {
+          key: 'core-electives',
+          title: 'Core electives',
+          credits: 3,
+          chooseCredits: 3,
+          courses: titleRefs('P07', ['Generative Artificial Intelligence for Business', 'Business Intelligence in Asia']),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 3,
+          chooseCredits: 3,
+          courses: titleRefs('P07', [
+            'Global Business Leadership',
+            'Innovation Collaboration',
+            'People Analytics',
+            'Employee Engagement and Performance',
+            'Organizational Innovation and Change',
+            'Blockchain Technology and Business Applications',
+            'International Business Discovery',
+          ]),
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P09: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-decision-analytics-and-operations/msc-operations-and-supply-chain-management',
+    requirements: {
+      summary: '30 credit units: core courses plus six electives, based on the official MSc Operations and Supply Chain Management course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          courses: titleRefs('P09', [
+            'Managerial Decision Modeling',
+            'Predictive Analytics with Excel and R',
+            'Operations Management',
+            'Supply Chain Management (#)',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          chooseCredits: 18,
+          courses: titleRefs('P09', [
+            'Advanced Case Analysis for Supply Chain Management',
+            'AI-Enhanced Business Analytics with Excel and Python',
+            'Business Process Modeling & Simulation',
+            'E-Logistics & Enterprise Resource Planning',
+            'Healthcare Management',
+            'Internship Project',
+            'Project Management',
+            'Service Quality Management',
+            'Statistical Modelling in Risk Management',
+            'Strategic Sourcing & Procurement',
+            'Transportation Logistics',
+          ]),
+          note: 'The official page also allows no more than two electives from the College of Business.',
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P10: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-accountancy/msc-professional-accounting-and-corporate-governance',
+    requirements: {
+      summary: '30 credit units: 12 CU programme core plus one 18 CU stream, based on the official MSc Professional Accounting and Corporate Governance course description.',
+      sections: [
+        {
+          key: 'programme-core',
+          title: 'Programme core',
+          credits: 12,
+          courses: titleRefs('P10', [
+            'Accounting Information Systems',
+            'Advanced Taxation',
+            'Corporate Governance',
+            'Law Relating to Business and Companies',
+          ]),
+        },
+        {
+          key: 'professional-accounting-stream',
+          title: 'Professional Accounting Stream core',
+          credits: 18,
+          courses: titleRefs('P10', [
+            'Auditing',
+            'Corporate Accounting',
+            'Cost and Management Accounting',
+            'Financial and Management Accounting',
+            'Financial Management',
+            'Financial Reporting',
+          ]),
+        },
+        {
+          key: 'corporate-governance-stream',
+          title: 'Corporate Governance Stream core',
+          credits: 18,
+          courses: titleRefs('P10', [
+            'Credentials and Essential Soft Skills for Effective Board Management',
+            'Companies and Securities Regulations and Practice',
+            'Corporate Finance and Policies',
+            'Corporate Financial Reporting',
+            'Risk Management',
+            'Employee Engagement and Performance',
+          ]),
+        },
+        {
+          key: 'stream-electives',
+          title: 'Stream electives',
+          courses: titleRefs('P10', [
+            'Credentials and Essential Soft Skills for Effective Board Management',
+            'Business Economics and Statistics for Accountants',
+            'Business Management for Accountants',
+            'Companies and Securities Regulations and Practice',
+            'Professional Internship',
+            'Risk Management',
+            'Employee Engagement and Performance',
+            'Auditing',
+            'Cost and Management Accounting',
+          ]),
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P13: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics',
+    requirements: {
+      summary: '30 credit units: 15 CU core plus 9 CU programme electives and up to 6 CU free electives, based on the official MSc Applied Economics course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 15,
+          courses: titleRefs('P13', [
+            'Advanced Econometrics',
+            'Advanced Microeconomics',
+            'Advanced Macroeconomics',
+            'Professional Seminars in Applied Economics',
+            'Quantitative Methods in Economics',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 9,
+          chooseCredits: 9,
+          courses: titleRefs('P13', [
+            'Advanced International Trade',
+            'Economic Growth and Development',
+            'Experimental Economics',
+            'International Finance',
+            'Urban and Real Estate Economics',
+          ]),
+          note: 'The official page also allows up to two approved 3-CU free electives.',
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P15: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-economics-and-finance/msc-financial-engineering',
+    requirements: {
+      summary: '30 credit units: 24 CU required core plus 6 CU electives, based on the official MSc Financial Engineering course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 24,
+          courses: titleRefs('P15', [
+            'Corporate Finance',
+            'Derivatives and Risk Management',
+            'Investments',
+            'Stochastic Calculus for Finance',
+            'Professional Seminars in Finance',
+            'Financial Computing',
+            'Fixed Income Securities',
+            'Option Pricing',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          credits: 6,
+          chooseCredits: 6,
+          courses: titleRefs('P15', [
+            'Advanced Corporate Finance',
+            'Asset Management and Hedge Fund Strategies',
+            'Credit Risk Management',
+            'Financial Econometrics',
+            'Financial Systems, Markets and Instruments',
+            'Fintech and AI in Finance',
+            'International Financial Management',
+            'Sustainable Finance',
+          ]),
+          note: 'The official page also allows an approved elective from College of Business disciplines.',
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P16: {
+    totalCredits: 30,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-digital-transformation-and-technological-innovation/course-description',
+    requirements: {
+      summary: '30 credit units: 18 CU core plus 12 CU selected electives, based on the official MSc Digital Transformation and Technological Innovation course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 18,
+          courses: refs(['IS5313', 'IS5940', 'IS6000', 'IS6602', 'IS6608', 'IS6640']),
+        },
+        {
+          key: 'selected-electives',
+          title: 'Selected electives',
+          credits: 12,
+          chooseCredits: 12,
+          courses: refs([
+            'IS5238', 'IS5312', 'IS5540', 'IS5542', 'IS5740', 'IS6200', 'IS6335', 'IS6400',
+            'IS6423', 'IS6523', 'IS6620', 'IS6912', 'IS6940C', 'IS6941', 'EE5437',
+          ]),
+          note: 'The official page also allows up to 6 credits from other College of Business departments.',
+        },
+      ],
+      notes: ['Official page provides course codes for the listed IS/EE courses.'],
+    },
+  },
+  P18: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-marketing/msc-marketing',
+    requirements: {
+      summary: '30 credit units: 18 CU core plus at least 12 CU electives, based on the official MSc Marketing course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 18,
+          courses: titleRefs('P18', [
+            'Marketing Strategy and Planning*',
+            'Consumer/Buyer Behaviour*',
+            'Applied Marketing Research*',
+            'Marketing Innovation and Practicum',
+            'Advanced Marketing Analytics*',
+            'Marketing Engineering*',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Electives',
+          chooseCredits: 12,
+          courses: titleRefs('P18', [
+            'Forum on Marketing Practice and Career Development',
+            'Chinese Business Culture and Marketing',
+            'Financial Services Marketing',
+            'Global Marketing',
+            'Digital Marketing',
+            'Social Media Marketing',
+            'Customer Relationship Management',
+            'Advertising and Integrated Marketing Communications',
+            'Strategic Marketing',
+            'Brand Marketing*',
+            'Advanced Marketing Practices',
+            'Managing Services and Experiences',
+            'Artificial Intelligence for Marketing',
+          ]),
+          note: 'The official page also allows at most 3 CU from other College of Business master courses, subject to approval.',
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P19: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/en/masters/our-programmes/department-of-management/msc-management-and-innovation',
+    requirements: {
+      summary: '30 credit units: 12 CU core, 9-15 CU core electives and 3-9 CU electives, based on the official MSc Management and Innovation course description.',
+      sections: [
+        {
+          key: 'core',
+          title: 'Core courses',
+          credits: 12,
+          courses: titleRefs('P19', [
+            'Management and Organizations',
+            'Strategic Management',
+            'Global Business Leadership',
+            'People Analytics',
+          ]),
+        },
+        {
+          key: 'core-electives',
+          title: 'Core elective courses',
+          chooseCredits: 9,
+          courses: titleRefs('P19', [
+            'Managerial Decision Modeling',
+            'Management and Innovation Consulting Skills',
+            'Business Ethics & Social Responsibility',
+            'Innovation Collaboration',
+            'Entrepreneurship',
+            'Organizational Innovation and Change',
+            'Generative Artificial Intelligence for Business',
+            'Transforming Organizations in the Age of AI',
+            'Leading Innovation and Venture Strategy in the Global Economy',
+          ]),
+        },
+        {
+          key: 'electives',
+          title: 'Elective courses',
+          chooseCredits: 3,
+          courses: titleRefs('P19', [
+            'Innovation and Technology Entrepreneurship',
+            'Employee Engagement and Performance',
+            'Innovation Project',
+            'International Business Discovery',
+            'Global Human Resources Management',
+            'Business Intelligence in Asia',
+            'Large Language Model with Prompt Engineering for Business',
+          ]),
+        },
+      ],
+      notes: ['Official page lists course titles; catalogue course codes and assessment details still need matching.'],
+    },
+  },
+  P84: {
+    totalCredits: 30,
+    titleOnly: true,
+    curriculumUrl: 'https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-business/college-of-business/p84',
+    requirements: {
+      summary: '30 credit units across IAM or QAB streams, based on the official MSc Business and Data Analytics course descriptions.',
+      sections: [
+        {
+          key: 'common-core',
+          title: 'Common core courses',
+          courses: refs(['IS5413', 'IS6335', 'MS5217', 'MS6711']),
+        },
+        {
+          key: 'iam-core',
+          title: 'Information Analytics Management Stream core',
+          courses: refs(['IS6941']),
+        },
+        {
+          key: 'iam-electives',
+          title: 'Information Analytics Management Stream electives',
+          chooseCredits: 9,
+          courses: refs([
+            'IS5113', 'IS5238', 'IS5312', 'IS5313', 'IS5540', 'IS5542', 'IS5740', 'IS5940',
+            'IS6200', 'IS6400', 'IS6423', 'IS6620', 'IS6912', 'IS6914',
+          ]),
+          note: 'Official IAM rule: complete 15 credits with at least 9 credits from the stream elective list; remaining credits may be CB postgraduate electives.',
+        },
+        {
+          key: 'qab-core',
+          title: 'Quantitative Analysis for Business Stream core',
+          courses: titleRefs('P84', ['Applied Linear Statistical Models']),
+        },
+        {
+          key: 'qab-electives',
+          title: 'Quantitative Analysis for Business Stream electives',
+          courses: [
+            ref('MS5215'),
+            ...titleRefs('P84', [
+              'Contemporary Topics in Quantitative Analysis for Business',
+              'Decision Analytics',
+              'Predictive Analytics with Excel and R',
+              'Predictive Modeling and Forecasting for Business',
+              'Predictive Modeling in Marketing',
+              'Project Management',
+              'Statistical Modelling in Economics and Finance',
+              'Statistical Modelling in Risk Management',
+            ]),
+          ],
+          note: 'Official QAB rule: complete 5 electives with at least 4 from the listed QAB electives.',
+        },
+      ],
+      notes: ['IAM courses include confirmed codes from the official IS pages; QAB titles are listed from the official programme page where codes are not fully exposed.'],
+    },
+  },
+  P85: {
+    totalCredits: 30,
+    curriculumUrl: 'https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-artificial-intelligence-in-business/course-description',
+    requirements: {
+      summary: '30 credit units: 9 CU AI core, 9 CU business core within the group and 12 CU selected electives, based on the official MSc Artificial Intelligence in Business course description.',
+      sections: [
+        {
+          key: 'ai-core',
+          title: 'AI core courses',
+          credits: 9,
+          courses: refs(['IS5113', 'IS5542', 'IS6423']),
+        },
+        {
+          key: 'business-core',
+          title: 'Business core courses',
+          credits: 9,
+          chooseCredits: 9,
+          courses: refs(['EF5560', 'AC6761', 'MKT6614', 'MGT6310', 'MS5215', 'MS6219']),
+        },
+        {
+          key: 'selected-electives',
+          title: 'Selected electives',
+          credits: 12,
+          chooseCredits: 12,
+          courses: refs([
+            'IS5238', 'IS5312', 'IS5411', 'IS5413', 'IS5540', 'IS5740', 'IS5940', 'IS6335',
+            'IS6400', 'IS6620', 'IS6640', 'IS6912', 'IS6941',
+          ]),
+          note: 'The official page also allows two approved electives, one possibly from another College of Business department.',
+        },
+      ],
+      notes: ['Official page provides course codes for the listed AIB courses.'],
+    },
+  },
   P70: {
     totalCredits: 30,
     curriculumUrl: 'https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/msds',
@@ -571,7 +1237,9 @@ function taught(info) {
     curriculumUrl: confirmed?.curriculumUrl,
     sourceStatus: clone(SOURCE.requirementsDiy),
     courseListStatus: confirmed
-      ? COURSE_LIST_STATUS.official(confirmed.curriculumUrl)
+      ? confirmed.titleOnly
+        ? COURSE_LIST_STATUS.officialTitles(confirmed.curriculumUrl)
+        : COURSE_LIST_STATUS.official(confirmed.curriculumUrl)
       : clone(COURSE_LIST_STATUS.unconfirmed),
     requirements,
     allCourses: confirmed ? courseCodesFromRequirements(requirements) : info.allCourses ?? [],
