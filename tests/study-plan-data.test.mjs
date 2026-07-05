@@ -740,6 +740,67 @@ test('postgraduate programmes with official title-only curricula expose elective
   }
 })
 
+test('postgraduate programmes with newly found official curricula expose course pools for DIY planning', () => {
+  const expectations = [
+    { code: 'P69', titles: ['Biomedical Engineering Design', 'Applied Artificial Intelligence for Biomedical and Healthcare Applications'] },
+    { code: 'P95', titles: ['Common Diseases and Genomic Medicine', 'Healthcare Management'] },
+    { code: 'P98', titles: ['Research Methodology and Ethics', 'Research Project in Neuroscience'] },
+    { code: 'P97', titles: ['Introduction to Biostatistics in One Health', 'Clinical Trials'] },
+    { code: 'P79', titles: ['Artificial Intelligence for Scientific Knowledge Discovery', 'AI for Chemistry'] },
+    { code: 'P54', titles: ['Fundamentals of Radio Frequency (RF) Circuit Engineering', 'Modern Power Electronics'] },
+    { code: 'P59', titles: ['Advanced Computer Architecture', 'Topics in Security Technology'] },
+    { code: 'P56', titles: ['Operations Management', 'Asset and Maintenance Management'] },
+    { code: 'P86', titles: ['Semiconductor Manufacturing and Management', '3D IC Stacking and Advanced Packaging Technology'] },
+    { code: 'P89', titles: ['AI-Driven Innovation: Seminars and Projects', 'Managerial Decision-Making Systems with Artificial Intelligence'] },
+    { code: 'P52', titles: ['Project Management', 'Value Management for Construction'] },
+    { code: 'P60', titles: ['Methods of Analysis in Civil Engineering and Engineering Mechanics', 'Renewable Energy for a Sustainable Building Performance'] },
+    { code: 'P66', titles: ['Modern Robotics', 'Advanced Machine Learning and Quantum Computation for Engineering'] },
+    { code: 'P20', titles: ['Counselling Theories and Practice', 'Narrative-based Therapeutic Conversations: Theory and Practice'] },
+    { code: 'P71', titles: ['Social Welfare Policy System and Reform', 'Fieldwork II'] },
+    { code: 'P76', titles: ['Perception and Cognition', 'Psychological Testing'] },
+    { code: 'P77', titles: ['Applied Sociology', 'Evidence-based Assessment Management of Mental Disorders'] },
+    { code: 'P58', titles: ['Instrumentation for Materials Characterization', 'Advanced Research'] },
+    { code: 'P50', titles: ['Introduction to Quantum Technology', 'Advanced Research in Physics'] },
+    { code: 'P25', titles: ['Communication Fundamentals', 'Social Media Data Acquisition and Processing'] },
+    { code: 'P27', titles: ['Theories of Government and Public Administration', 'Environmental Governance in China'] },
+    { code: 'P34', titles: ['Essential Concepts in Chinese Culture', 'Museum Studies in China'] },
+    { code: 'P37', titles: ['Theories and Approaches in Development Studies', 'Food Governance and Sustainability'] },
+    { code: 'P38', titles: ['Asian Regional Governance', 'International Organisations'] },
+    { code: 'P39', titles: ['Integrated Marketing Communication', 'Human-AI Communication Workshop'] },
+    { code: 'P40', titles: ['Language in Its Social Context', 'World Literatures in English'] },
+    { code: 'P41', titles: ['Legal Concepts', 'International Arbitration'] },
+    { code: 'P12', titles: ['Strategic Innovation Management', 'EMBA Consulting Project'] },
+    { code: 'P83', titles: ['Artificial Intelligence Accounting', 'Business Data Analytics'] },
+    { code: 'P93', titles: ['Patent Drafting and Litigation', 'Cyber Governance and Law'] },
+    { code: 'DBA', titles: ['Methodology for Applied Business Research I', 'Research Development Workshop'] },
+    { code: 'ENGDC', titles: ['Semiconductor Manufacturing', 'Research Methods in Engineering Management'] },
+    { code: 'P67', titles: ['Advanced Chemical Instrumentation', 'Cosmetic Product Development and Formulation'] },
+    { code: 'P68', titles: ['Financial Mathematics in Derivative Markets', 'Reinforcement Learning and Its Applications in Finance'] },
+    { code: 'P96', titles: ['Applied Public Health Projects', 'Global Scholars Training'] },
+    { code: 'P99', titles: ['Integrated Small Animal Medicine: Part I', 'Exotic Animal Clinical Medicine'] },
+    { code: 'P92', titles: ['Cross Sectoral Leadership', 'Experiential Learning - Internship'] },
+    { code: 'P43', titles: ['Legal Methods, Research and Writing and Hong Kong Legal System', 'Land Law I and II'] },
+    { code: 'P45', titles: ['Trial Advocacy', 'Commercial Writing and Drafting'] },
+    { code: 'ENGDEM', titles: ['EngD Seminar', 'Research Methods in Engineering Management'] },
+  ]
+
+  for (const expectation of expectations) {
+    const programme = postgraduateProgrammes.find((item) => item.code === expectation.code)
+    assert.ok(programme, `${expectation.code} should exist`)
+    assert.ok(
+      ['official-course-list', 'official-title-list'].includes(programme.courseListStatus?.kind),
+      `${expectation.code} should have an official course/title list`
+    )
+    const titles = new Set(
+      programme.requirements.sections.flatMap((section) => (section.courses ?? []).map((course) => course.title))
+    )
+    for (const title of expectation.titles) {
+      assert.ok(titles.has(title), `${expectation.code} should list ${title}`)
+    }
+    assert.equal(Object.values(programme.studyPlan.year1).every((semester) => semester.courses.length === 0), true)
+  }
+})
+
 test('postgraduate taught programmes without parsed course lists are explicitly labelled', () => {
   const silentMissing = postgraduateProgrammes
     .filter((item) => item.type !== 'research-degree')
