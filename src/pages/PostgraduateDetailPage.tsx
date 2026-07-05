@@ -132,7 +132,7 @@ export default function PostgraduateDetailPage() {
           <ArrowLeft className="w-4 h-4" />
           返回硕博目录
         </Link>
-        <section className="bg-white border border-gray-100 rounded-lg p-6 text-center text-gray-500">
+        <section className="surface-panel p-6 text-center text-gray-500">
           未找到这个硕博项目。
         </section>
       </div>
@@ -154,7 +154,7 @@ export default function PostgraduateDetailPage() {
         返回硕博目录
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-6">
+      <section className="surface-panel p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div className="max-w-4xl">
             <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -225,7 +225,7 @@ export default function PostgraduateDetailPage() {
       </section>
 
       {studyPlanVariants.length > 1 && (
-        <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+        <section className="surface-panel p-4">
           <div className="flex flex-wrap gap-2">
             {studyPlanVariants.map((variant) => (
               <button
@@ -247,7 +247,7 @@ export default function PostgraduateDetailPage() {
 
       <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.7fr)_minmax(300px,0.9fr)] gap-5">
         <div className="space-y-5">
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
               <div>
                 <h2 className="font-bold text-gray-800 flex items-center gap-2">
@@ -291,7 +291,7 @@ export default function PostgraduateDetailPage() {
             ) : (
             <div className="space-y-4">
               {planEntries(activePlan).map(({ key, label, year }) => (
-                <div key={key} className="border border-gray-100 rounded-lg overflow-hidden">
+                <div key={key} className="overflow-hidden rounded-lg border border-slate-200 bg-white">
                   <div className="bg-gray-50 px-3 py-2 font-semibold text-gray-800">{label}</div>
                   <div className="grid grid-cols-1 lg:grid-cols-3 divide-y lg:divide-y-0 lg:divide-x divide-gray-100">
                     {SEMESTERS.map(([semKey, semLabel]) => {
@@ -309,7 +309,7 @@ export default function PostgraduateDetailPage() {
                                   key={`${semKey}-${course.code}-${course.title}`}
                                   type="button"
                                   onClick={() => setSelectedCourse(pgCourses[course.code] ?? null)}
-                                  className="w-full text-left rounded-lg border border-gray-100 bg-gray-50 p-2 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                                  className="interactive-card w-full p-2 text-left"
                                 >
                                   <div className="flex items-center justify-between gap-2">
                                     <span className="font-bold text-xs text-cityu-accent">{course.code}</span>
@@ -337,7 +337,7 @@ export default function PostgraduateDetailPage() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <Layers className="w-5 h-5 text-cityu-accent" />
               Requirements
@@ -386,7 +386,7 @@ export default function PostgraduateDetailPage() {
           />
 
           {programme.researchAreas?.length ? (
-            <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+            <section className="surface-panel p-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
                 <Microscope className="w-5 h-5 text-cityu-accent" />
                 Research Areas
@@ -401,7 +401,7 @@ export default function PostgraduateDetailPage() {
             </section>
           ) : null}
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <BookOpen className="w-5 h-5 text-cityu-accent" />
               Courses
@@ -418,8 +418,8 @@ export default function PostgraduateDetailPage() {
                       key={course.code}
                       type="button"
                       onClick={() => detail ? setSelectedCourse(detail) : null}
-                      className={`w-full rounded-lg border border-gray-100 bg-gray-50 p-3 text-left transition-colors ${
-                        detail ? 'hover:border-cityu-accent hover:bg-cityu-accent/5' : 'cursor-default'
+                      className={`w-full rounded-lg border p-3 text-left transition-colors ${
+                        detail ? 'interactive-card' : 'cursor-default border-slate-200 bg-slate-50'
                       }`}
                     >
                       <div className="flex items-start justify-between gap-2">
@@ -447,7 +447,7 @@ export default function PostgraduateDetailPage() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <FileText className="w-5 h-5 text-cityu-accent" />
               Sources
@@ -459,7 +459,7 @@ export default function PostgraduateDetailPage() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start justify-between gap-2 rounded-lg border border-gray-100 bg-gray-50 p-3 text-sm hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                  className="interactive-card flex items-start justify-between gap-2 p-3 text-sm"
                 >
                   <span className="font-medium text-gray-700">{link.label}</span>
                   <ExternalLink className="w-4 h-4 text-gray-400 flex-shrink-0" />

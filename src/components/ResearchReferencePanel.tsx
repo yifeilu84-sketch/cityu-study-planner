@@ -20,7 +20,7 @@ export default function ResearchReferencePanel({
   }
 
   return (
-    <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
+    <section className="surface-panel p-4 sm:p-5">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
         <div>
           <h2 className="font-bold text-gray-800 flex items-center gap-2">
@@ -31,7 +31,7 @@ export default function ResearchReferencePanel({
         </div>
         <Link
           to="/academic"
-          className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-700 hover:border-cityu-accent hover:text-cityu-accent transition-colors"
+          className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 transition-colors hover:border-cityu-accent hover:text-cityu-accent"
         >
           Browse all
           <ExternalLink className="w-4 h-4" />
@@ -43,7 +43,7 @@ export default function ResearchReferencePanel({
           <Link
             key={profile.id}
             to={`/academic/${profile.id}`}
-            className="block rounded-lg border border-gray-100 bg-gray-50 p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+            className="interactive-card block p-3"
           >
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">

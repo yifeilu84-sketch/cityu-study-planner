@@ -114,7 +114,11 @@ export default function Home() {
 
   return (
     <div>
-      <div className="text-center py-10">
+      <div className="dashboard-hero mb-8">
+        <div className="section-eyebrow mb-3 justify-center">
+          <Database className="h-4 w-4" />
+          Academic planning intelligence
+        </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-cityu-dark mb-3">
           CityU Study Planner
         </h1>
@@ -124,9 +128,23 @@ export default function Home() {
         <p className="text-gray-500 text-sm">
           覆盖 {majorIndex.colleges.length} 个学院 / 学校 · {totalMajors} 个本科项目
         </p>
+        <div className="mt-5 grid grid-cols-3 gap-2">
+          <div className="metric-card">
+            <div className="metric-value">{majorIndex.colleges.length}</div>
+            <div className="metric-label">Colleges</div>
+          </div>
+          <div className="metric-card">
+            <div className="metric-value">{totalMajors}</div>
+            <div className="metric-label">UG Majors</div>
+          </div>
+          <div className="metric-card">
+            <div className="metric-value">PG</div>
+            <div className="metric-label">Directory</div>
+          </div>
+        </div>
       </div>
 
-      <div className="max-w-3xl mx-auto mb-8 space-y-3">
+      <div className="control-surface max-w-4xl mx-auto mb-8 space-y-3">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
@@ -134,7 +152,7 @@ export default function Home() {
             placeholder="搜索学院、专业或课程..."
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-cityu-accent focus:border-transparent"
+            className="w-full rounded-lg border border-slate-200 bg-white px-4 py-3 pl-10 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-cityu-accent"
           />
         </div>
         {hasSearch && (
@@ -158,7 +176,7 @@ export default function Home() {
 
       {hasSearch ? (
         <div className="space-y-6">
-          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-cityu-accent" />
@@ -174,7 +192,7 @@ export default function Home() {
                   <Link
                     key={item.code}
                     to={`/major/${item.code}`}
-                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                    className="interactive-card block p-3"
                   >
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
                       <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
@@ -195,7 +213,7 @@ export default function Home() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <Microscope className="w-5 h-5 text-cityu-accent" />
@@ -211,7 +229,7 @@ export default function Home() {
                   <Link
                     key={item.id}
                     to={`/academic/${item.id}`}
-                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                    className="interactive-card block p-3"
                   >
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
                       <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
@@ -239,7 +257,7 @@ export default function Home() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-cityu-accent" />
@@ -255,7 +273,7 @@ export default function Home() {
                   <Link
                     key={item.code}
                     to={`/postgraduate/${item.code}`}
-                    className="block border border-gray-100 rounded-lg p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                    className="interactive-card block p-3"
                   >
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
                       <span className="px-2 py-0.5 bg-cityu-accent/10 text-cityu-accent text-xs font-bold rounded">
@@ -276,7 +294,7 @@ export default function Home() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-blue" />
@@ -292,7 +310,7 @@ export default function Home() {
                   <button
                     key={item.code}
                     onClick={() => openCourse(item.code)}
-                    className="text-left border border-gray-100 rounded-lg p-3 hover:border-cityu-blue hover:bg-blue-50 transition-colors"
+                    className="interactive-card p-3 text-left hover:text-cityu-blue"
                   >
                     <div className="flex items-center gap-2 mb-1">
                       <span className="px-2 py-0.5 bg-blue-50 text-cityu-blue text-xs font-bold rounded">
@@ -314,7 +332,7 @@ export default function Home() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-blue" />
@@ -330,7 +348,7 @@ export default function Home() {
                   <button
                     key={item.code}
                     onClick={() => openCourse(item.code)}
-                    className="text-left border border-gray-100 rounded-lg p-3 hover:border-cityu-blue hover:bg-blue-50 transition-colors"
+                    className="interactive-card p-3 text-left hover:text-cityu-blue"
                   >
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
                       <span className="px-2 py-0.5 bg-blue-50 text-cityu-blue text-xs font-bold rounded">
@@ -354,7 +372,7 @@ export default function Home() {
       ) : (
         <>
           <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 gap-3">
-            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Database className="w-4 h-4 text-cityu-accent" />
@@ -370,7 +388,7 @@ export default function Home() {
                 <ShieldCheck className="w-4 h-4" />
               </Link>
             </div>
-            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="font-bold text-gray-800">GE 选课助手</div>
                 <div className="text-sm text-gray-500">按课程名、代码和考核方式筛选可自由组合的 GE 课程。</div>
@@ -383,7 +401,7 @@ export default function Home() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Microscope className="w-4 h-4 text-cityu-accent" />
@@ -399,7 +417,7 @@ export default function Home() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GraduationCap className="w-4 h-4 text-cityu-accent" />
@@ -415,7 +433,7 @@ export default function Home() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GitCompareArrows className="w-4 h-4 text-cityu-accent" />
@@ -444,7 +462,7 @@ export default function Home() {
                 <Link
                   key={college.id}
                   to={`/college/${college.id}`}
-                  className={`group block p-5 rounded-xl border-2 transition-all hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] ${colorClass}`}
+                  className={`group block rounded-lg border-2 p-5 transition-colors hover:shadow-md active:scale-[0.98] ${colorClass}`}
                 >
                   <div className="flex items-start justify-between mb-3">
                     <Building2 className="w-6 h-6 opacity-70" />

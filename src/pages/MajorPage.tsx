@@ -231,7 +231,7 @@ export default function MajorPage() {
       </Link>
 
       {/* Header */}
-      <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 mb-6">
+      <div className="surface-panel mb-6 p-4 sm:p-6">
         <div className="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-2 flex-wrap">
@@ -248,17 +248,17 @@ export default function MajorPage() {
               href={issueReport.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-lg text-sm text-gray-600 hover:text-cityu-accent hover:border-cityu-accent transition-colors"
+              className="interactive-card hidden items-center gap-1.5 px-3 py-2 text-sm text-slate-600 sm:inline-flex"
             >
               <Flag className="w-4 h-4" />
               报告问题
             </a>
-            <div className="text-center px-3 sm:px-4 py-2 bg-gray-50 rounded-lg">
-              <div className="text-xl sm:text-2xl font-bold text-cityu-dark">{totalCredits}</div>
+            <div className="metric-card text-center">
+              <div className="metric-value">{totalCredits}</div>
               <div className="text-xs text-gray-500">总学分</div>
             </div>
-            <div className="text-center px-3 sm:px-4 py-2 bg-gray-50 rounded-lg">
-              <div className="text-xl sm:text-2xl font-bold text-cityu-dark">{allReqCourses.length}</div>
+            <div className="metric-card text-center">
+              <div className="metric-value">{allReqCourses.length}</div>
               <div className="text-xs text-gray-500">课程数</div>
             </div>
           </div>
@@ -455,7 +455,7 @@ export default function MajorPage() {
                 {studyPlan.map(sem => {
                   const creditStatus = getCreditStatus(sem.totalCredits)
                   return (
-                    <div key={`${sem.year}-${sem.sem}`} className="bg-white rounded-xl shadow-sm border border-gray-100 p-3 sm:p-4">
+                    <div key={`${sem.year}-${sem.sem}`} className="surface-panel p-3 sm:p-4">
                       <div className="flex items-center justify-between mb-2 sm:mb-3 pb-2 border-b border-gray-100">
                         <h3 className="font-bold text-gray-800 text-sm sm:text-base">Year {sem.year} Sem {sem.sem}</h3>
                         <div className="flex items-center gap-2">
@@ -508,7 +508,7 @@ export default function MajorPage() {
       {tab === 'requirements' && (
         <div className="space-y-6">
           {reqSections.map(({ key, label, icon: Icon, req }) => (
-            <div key={key} className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-5">
+            <div key={key} className="surface-panel p-4 sm:p-5">
               <div className="flex items-center gap-2 mb-4">
                 <Icon className="w-5 h-5 text-cityu-accent" />
                 <h3 className="text-base sm:text-lg font-bold text-gray-800">{label}</h3>
@@ -576,7 +576,7 @@ export default function MajorPage() {
                 <button
                   key={c.code}
                   onClick={() => openCourseDetail(c.code)}
-                  className={`text-left p-4 rounded-xl border transition-all hover:shadow-md active:scale-[0.98] ${getCategoryColor(c.category)}`}
+                  className={`text-left p-4 rounded-lg border transition-all hover:shadow-md active:scale-[0.98] ${getCategoryColor(c.category)}`}
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0 flex-1">

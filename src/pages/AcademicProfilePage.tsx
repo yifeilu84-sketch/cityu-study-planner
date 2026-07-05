@@ -25,7 +25,7 @@ export default function AcademicProfilePage() {
           <ArrowLeft className="w-4 h-4" />
           Back to academic directory
         </Link>
-        <section className="bg-white border border-gray-100 rounded-lg p-6 text-center text-gray-500">
+        <section className="surface-panel p-6 text-center text-gray-500">
           Academic profile not found.
         </section>
       </div>
@@ -41,7 +41,7 @@ export default function AcademicProfilePage() {
         Back to academic directory
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-6">
+      <section className="surface-panel p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div>
             <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -59,13 +59,13 @@ export default function AcademicProfilePage() {
             {profile.title ? <p className="mt-3 text-sm sm:text-base text-gray-700 max-w-4xl leading-relaxed">{profile.title}</p> : null}
           </div>
           <div className="grid grid-cols-2 gap-2 sm:min-w-[220px]">
-            <div className="rounded-lg bg-gray-50 border border-gray-100 p-3 text-center">
-              <div className="text-xl font-bold text-cityu-dark">{profile.studentCount}</div>
-              <div className="text-xs text-gray-500">Students</div>
+            <div className="metric-card text-center">
+              <div className="metric-value">{profile.studentCount}</div>
+              <div className="metric-label">Students</div>
             </div>
-            <div className="rounded-lg bg-gray-50 border border-gray-100 p-3 text-center">
-              <div className="text-xl font-bold text-cityu-dark">{profile.publicationCount}</div>
-              <div className="text-xs text-gray-500">Papers</div>
+            <div className="metric-card text-center">
+              <div className="metric-value">{profile.publicationCount}</div>
+              <div className="metric-label">Papers</div>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function AcademicProfilePage() {
 
       <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.5fr)_minmax(300px,0.9fr)] gap-5">
         <div className="space-y-5">
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <Microscope className="w-5 h-5 text-cityu-accent" />
               Research Interests
@@ -112,7 +112,7 @@ export default function AcademicProfilePage() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-5">
+          <section className="surface-panel p-4 sm:p-5">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <BookOpen className="w-5 h-5 text-cityu-accent" />
               Representative Publications
@@ -135,7 +135,7 @@ export default function AcademicProfilePage() {
                       href={publication.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block rounded-lg border border-gray-100 bg-gray-50 p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                      className="interactive-card block p-3"
                     >
                       {content}
                     </a>
@@ -153,7 +153,7 @@ export default function AcademicProfilePage() {
         </div>
 
         <aside className="space-y-4">
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <Users className="w-5 h-5 text-cityu-accent" />
               Public Student Topics
@@ -172,7 +172,7 @@ export default function AcademicProfilePage() {
             )}
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <h2 className="font-bold text-gray-800 flex items-center gap-2 mb-3">
               <GraduationCap className="w-5 h-5 text-cityu-accent" />
               Sources
@@ -184,7 +184,7 @@ export default function AcademicProfilePage() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start justify-between gap-2 rounded-lg border border-gray-100 bg-gray-50 p-3 text-sm hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                  className="interactive-card flex items-start justify-between gap-2 p-3 text-sm"
                 >
                   <span className="font-medium text-gray-700">{link.label}</span>
                   <ExternalLink className="w-4 h-4 text-gray-400 flex-shrink-0" />

@@ -34,10 +34,10 @@ export default function AcademicPage() {
 
   return (
     <div className="space-y-5">
-      <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-6">
+      <section className="dashboard-hero p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div>
-            <div className="flex items-center gap-2 text-cityu-accent font-semibold text-sm mb-2">
+            <div className="section-eyebrow mb-2">
               <Microscope className="w-4 h-4" />
               Research Reference
             </div>
@@ -59,30 +59,30 @@ export default function AcademicPage() {
         </div>
 
         <div className="mt-5 grid grid-cols-2 md:grid-cols-5 gap-3">
-          <div className="rounded-lg bg-gray-50 border border-gray-100 p-3">
-            <div className="text-xl font-bold text-cityu-dark">{academicData.summary.collegeCount}</div>
-            <div className="text-xs text-gray-500">Colleges</div>
+          <div className="metric-card">
+            <div className="metric-value">{academicData.summary.collegeCount}</div>
+            <div className="metric-label">Colleges</div>
           </div>
-          <div className="rounded-lg bg-gray-50 border border-gray-100 p-3">
-            <div className="text-xl font-bold text-cityu-dark">{academicData.summary.departmentCount}</div>
-            <div className="text-xs text-gray-500">Departments</div>
+          <div className="metric-card">
+            <div className="metric-value">{academicData.summary.departmentCount}</div>
+            <div className="metric-label">Departments</div>
           </div>
-          <div className="rounded-lg bg-gray-50 border border-gray-100 p-3">
-            <div className="text-xl font-bold text-cityu-dark">{academicData.summary.professorCount}</div>
-            <div className="text-xs text-gray-500">Professors</div>
+          <div className="metric-card">
+            <div className="metric-value">{academicData.summary.professorCount}</div>
+            <div className="metric-label">Professors</div>
           </div>
-          <div className="rounded-lg bg-gray-50 border border-gray-100 p-3">
-            <div className="text-xl font-bold text-cityu-dark">{academicData.summary.studentCount}</div>
-            <div className="text-xs text-gray-500">Students</div>
+          <div className="metric-card">
+            <div className="metric-value">{academicData.summary.studentCount}</div>
+            <div className="metric-label">Students</div>
           </div>
-          <div className="rounded-lg bg-gray-50 border border-gray-100 p-3">
-            <div className="text-xl font-bold text-cityu-dark">{academicData.summary.publicationCount}</div>
-            <div className="text-xs text-gray-500">Publications</div>
+          <div className="metric-card">
+            <div className="metric-value">{academicData.summary.publicationCount}</div>
+            <div className="metric-label">Publications</div>
           </div>
         </div>
       </section>
 
-      <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+      <section className="control-surface">
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_220px_220px_auto] gap-3">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -126,7 +126,7 @@ export default function AcademicPage() {
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] gap-5">
-        <aside className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 h-fit">
+        <aside className="surface-panel p-4 h-fit">
           <h2 className="font-bold text-gray-800 mb-3">Academic Units</h2>
           <div className="space-y-2">
             {academicData.colleges.map((college) => (
@@ -137,7 +137,7 @@ export default function AcademicPage() {
                 className={`w-full rounded-lg border p-3 text-left transition-colors ${
                   collegeId === college.id
                     ? 'border-cityu-accent bg-cityu-accent/5'
-                    : 'border-gray-100 bg-gray-50 hover:border-cityu-accent hover:bg-cityu-accent/5'
+                    : 'interactive-card hover:text-cityu-accent'
                 }`}
               >
                 <div className="font-semibold text-sm text-gray-800">{college.nameEn || college.name}</div>
@@ -160,7 +160,7 @@ export default function AcademicPage() {
               <Link
                 key={profile.id}
                 to={`/academic/${profile.id}`}
-                className="block bg-white border border-gray-100 rounded-lg shadow-sm p-4 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                className="interactive-card block p-4"
               >
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
@@ -197,7 +197,7 @@ export default function AcademicPage() {
           </div>
 
           {visibleProfiles.length === 0 ? (
-            <div className="bg-white border border-dashed border-gray-200 rounded-lg p-8 text-center text-sm text-gray-500">
+            <div className="surface-panel border-dashed p-8 text-center text-sm text-gray-500">
               No matching academic profiles. Try a broader research keyword or reset the filters.
             </div>
           ) : null}
