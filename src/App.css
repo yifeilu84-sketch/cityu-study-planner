@@ -357,6 +357,471 @@ select:focus-visible {
   transform: translateY(-1px);
 }
 
+.campus-spotlight-hero {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.campus-spotlight-panel {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  height: clamp(31rem, 66vh, 40rem);
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 18px;
+  background:
+    linear-gradient(110deg, rgba(17, 17, 17, 0.92), rgba(63, 23, 31, 0.88) 48%, rgba(127, 29, 29, 0.84)),
+    #151515;
+  box-shadow: 0 28px 70px rgba(17, 17, 17, 0.22);
+}
+
+.campus-spotlight-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(110deg, rgba(0, 0, 0, 0.66), transparent 72%);
+}
+
+.campus-spotlight-panel::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 4px;
+  background: linear-gradient(90deg, #b91c1c, #b7791f, #0f766e);
+}
+
+.spotlight-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 1.25rem;
+  color: #ffffff;
+}
+
+.spotlight-copy .section-eyebrow {
+  color: #fecaca;
+}
+
+.spotlight-kicker {
+  margin-bottom: 0.7rem;
+  color: #fcd34d;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.spotlight-copy h1 {
+  max-width: 44rem;
+  font-size: clamp(2rem, 6vw, 4.9rem);
+  font-weight: 950;
+  letter-spacing: 0;
+  line-height: 0.98;
+}
+
+.spotlight-copy p {
+  max-width: 42rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  line-height: 1.65;
+}
+
+.spotlight-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.15rem;
+}
+
+.spotlight-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.11);
+  padding: 0.38rem 0.7rem;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 850;
+  backdrop-filter: blur(14px);
+}
+
+.spotlight-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.35rem;
+}
+
+.spotlight-primary-action,
+.spotlight-icon-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.8rem;
+  border-radius: 10px;
+  font-weight: 900;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.spotlight-primary-action {
+  gap: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: #ffffff;
+  padding: 0.72rem 1rem;
+  color: #7f1d1d;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.22);
+}
+
+.spotlight-icon-action {
+  width: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.11);
+  color: #ffffff;
+}
+
+.spotlight-primary-action:hover,
+.spotlight-primary-action:focus-visible,
+.spotlight-icon-action:hover,
+.spotlight-icon-action:focus-visible {
+  transform: translateY(-1px);
+}
+
+.spotlight-visual {
+  position: relative;
+  display: block;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.spotlight-image-grid {
+  display: grid;
+  height: 100%;
+  min-height: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  padding: 0.75rem;
+}
+
+.spotlight-image-tile {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: top center;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.24);
+}
+
+.wechat-preview-board {
+  display: grid;
+  align-content: center;
+  height: 100%;
+  min-height: 0;
+  gap: 1rem;
+  padding: 1rem;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(15, 118, 110, 0.14)),
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: auto, 34px 34px, 34px 34px;
+}
+
+.wechat-preview-card {
+  display: flex;
+  gap: 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  color: #111827;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.16);
+}
+
+.wechat-preview-icon,
+.wechat-account-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: rgba(15, 118, 110, 0.1);
+  color: #0f766e;
+}
+
+.wechat-preview-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.wechat-preview-name {
+  color: #111827;
+  font-weight: 950;
+}
+
+.wechat-preview-audience,
+.wechat-preview-search {
+  margin-top: 0.2rem;
+  color: #5f5a54;
+  font-size: 0.84rem;
+  font-weight: 650;
+}
+
+.wechat-preview-search {
+  color: #7f1d1d;
+}
+
+.spotlight-visual-caption {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(17, 17, 17, 0.62);
+  padding: 0.5rem 0.7rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 850;
+  backdrop-filter: blur(16px);
+}
+
+.spotlight-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.spotlight-carousel-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: #57534e;
+  box-shadow: 0 8px 18px rgba(17, 17, 17, 0.06);
+}
+
+.spotlight-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.spotlight-dots button {
+  width: 0.7rem;
+  height: 0.7rem;
+  min-height: 0;
+  border-color: rgba(185, 28, 28, 0.2);
+  background: rgba(185, 28, 28, 0.14);
+  box-shadow: none;
+}
+
+.spotlight-dots .spotlight-dot-active {
+  width: 1.8rem;
+  background: #b91c1c;
+}
+
+.spotlight-detail {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.spotlight-detail-hero,
+.spotlight-detail-section {
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-panel);
+  backdrop-filter: blur(18px);
+}
+
+.spotlight-detail-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 1.25rem;
+}
+
+.spotlight-detail-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-top: 4px solid rgba(185, 28, 28, 0.86);
+  background:
+    linear-gradient(100deg, rgba(185, 28, 28, 0.1), transparent 46%),
+    linear-gradient(rgba(17, 17, 17, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 17, 17, 0.03) 1px, transparent 1px);
+  background-size: auto, 34px 34px, 34px 34px;
+  mask-image: linear-gradient(130deg, rgba(0, 0, 0, 0.6), transparent 82%);
+}
+
+.spotlight-detail-hero > * {
+  position: relative;
+}
+
+.spotlight-detail-hero h1 {
+  max-width: 58rem;
+  color: var(--text-strong);
+  font-size: clamp(2rem, 5vw, 4.1rem);
+  font-weight: 950;
+  line-height: 1;
+}
+
+.spotlight-detail-hero p {
+  max-width: 54rem;
+  margin-top: 1rem;
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.spotlight-detail-hero .spotlight-tags span {
+  border-color: rgba(185, 28, 28, 0.16);
+  background: rgba(185, 28, 28, 0.08);
+  color: #7f1d1d;
+}
+
+.spotlight-detail-section {
+  padding: 1rem;
+}
+
+.spotlight-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+  color: #7f1d1d;
+}
+
+.spotlight-section-heading h2 {
+  color: var(--text-strong);
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
+.spotlight-poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.spotlight-poster-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 16px 34px rgba(17, 17, 17, 0.08);
+}
+
+.spotlight-poster-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.wechat-account-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.wechat-account-card {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 14px;
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.07), transparent 42%),
+    #ffffff;
+  padding: 1rem;
+  box-shadow: 0 12px 26px rgba(17, 17, 17, 0.06);
+}
+
+.wechat-account-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.wechat-account-card h3 {
+  color: var(--text-strong);
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.wechat-account-card p {
+  margin-top: 0.45rem;
+  color: #57534e;
+  line-height: 1.65;
+}
+
+.wechat-account-audience {
+  color: #7f1d1d !important;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.wechat-search-box {
+  margin-top: 0.85rem;
+  border: 1px dashed rgba(15, 118, 110, 0.32);
+  border-radius: 10px;
+  background: rgba(15, 118, 110, 0.06);
+  padding: 0.65rem 0.75rem;
+  color: #0f766e;
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.wechat-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  color: #7f1d1d;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.spotlight-note-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.spotlight-note-list div {
+  border: 1px solid rgba(183, 121, 31, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 251, 235, 0.62);
+  padding: 0.85rem;
+  color: #57534e;
+  line-height: 1.65;
+}
+
 .quick-action-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -703,6 +1168,19 @@ select:focus-visible {
     padding: 1.5rem;
   }
 
+  .spotlight-copy {
+    padding: 1.75rem;
+  }
+
+  .spotlight-detail-hero,
+  .spotlight-detail-section {
+    padding: 1.5rem;
+  }
+
+  .wechat-account-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .college-detail-hero {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
@@ -730,6 +1208,72 @@ select:focus-visible {
 
   .app-main {
     padding: 1.5rem 1.5rem 2.25rem;
+  }
+
+  .campus-spotlight-panel {
+    grid-template-columns: minmax(0, 0.95fr) minmax(24rem, 0.75fr);
+  }
+
+  .spotlight-visual {
+    border-top: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (max-width: 639px) {
+  .campus-spotlight-hero {
+    margin-bottom: 1.4rem;
+  }
+
+  .campus-spotlight-panel {
+    height: auto;
+    min-height: 0;
+    border-radius: 14px;
+  }
+
+  .spotlight-copy {
+    padding: 1rem;
+  }
+
+  .spotlight-copy h1 {
+    font-size: clamp(1.9rem, 10vw, 2.8rem);
+  }
+
+  .spotlight-copy p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .spotlight-tags span {
+    min-height: 1.7rem;
+    font-size: 0.72rem;
+  }
+
+  .spotlight-visual,
+  .spotlight-image-grid,
+  .wechat-preview-board {
+    height: 18rem;
+    min-height: 0;
+  }
+
+  .spotlight-image-grid {
+    gap: 0.4rem;
+    padding: 0.5rem;
+  }
+
+  .spotlight-image-tile {
+    min-height: 0;
+    border-radius: 10px;
+  }
+
+  .wechat-preview-card,
+  .wechat-account-card {
+    flex-direction: column;
+  }
+
+  .spotlight-visual-caption {
+    right: 0.65rem;
+    bottom: 0.65rem;
   }
 }
 

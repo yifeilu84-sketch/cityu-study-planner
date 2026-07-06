@@ -6,6 +6,7 @@ import WelcomeModal from './components/WelcomeModal'
 const Home = lazy(() => import('./pages/Home'))
 const CollegePage = lazy(() => import('./pages/CollegePage'))
 const MajorPage = lazy(() => import('./pages/MajorPage'))
+const SpotlightDetailPage = lazy(() => import('./pages/SpotlightDetailPage'))
 const GEPage = lazy(() => import('./pages/GEPage'))
 const CoveragePage = lazy(() => import('./pages/CoveragePage'))
 const ComparePage = lazy(() => import('./pages/ComparePage'))
@@ -21,6 +22,7 @@ function App() {
       <Suspense fallback={<div className="py-12 text-center text-gray-500">加载中...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/spotlight/:spotlightId" element={<SpotlightDetailPage />} />
           <Route path="/ge" element={<GEPage />} />
           <Route path="/compare" element={<ComparePage />} />
           <Route path="/academic" element={<AcademicPage />} />

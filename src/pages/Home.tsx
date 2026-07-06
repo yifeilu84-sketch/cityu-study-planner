@@ -8,6 +8,7 @@ import type { Course } from '../types'
 import type { SearchIndex, SearchResults } from '../utils/searchIndex.ts'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
 import { getCollegeThemeStyle } from '../utils/collegeThemes.ts'
+import CampusSpotlightCarousel from '../components/CampusSpotlightCarousel'
 
 type SourceFilter = SourceStatusKind | 'all'
 
@@ -103,6 +104,8 @@ export default function Home() {
 
   return (
     <div>
+      <CampusSpotlightCarousel />
+
       <div className="planner-command-center mb-8">
         <div className="section-eyebrow mb-3 justify-center">
           <Database className="h-4 w-4" />

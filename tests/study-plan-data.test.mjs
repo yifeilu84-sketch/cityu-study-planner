@@ -1190,6 +1190,36 @@ test('premium planner workspace design is wired into primary flows', () => {
   assert.ok(appCss.includes('grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))'))
 })
 
+test('campus spotlight carousel leads the homepage and has detail routes', async () => {
+  const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
+  const appCss = readFileSync(new URL('../src/App.css', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const carousel = readFileSync(new URL('../src/components/CampusSpotlightCarousel.tsx', import.meta.url), 'utf8')
+  const detailPage = readFileSync(new URL('../src/pages/SpotlightDetailPage.tsx', import.meta.url), 'utf8')
+  const { campusSpotlights } = await import('../src/data/campusSpotlights.ts')
+
+  assert.ok(app.includes('path="/spotlight/:spotlightId"'))
+  assert.ok(home.includes('<CampusSpotlightCarousel />'))
+  assert.ok(carousel.includes('AUTO_ADVANCE_MS'))
+  assert.ok(carousel.includes('aria-label={isPaused'))
+  assert.ok(detailPage.includes('spotlight-poster-grid'))
+  assert.ok(appCss.includes('.campus-spotlight-hero'))
+  assert.ok(appCss.includes('height: clamp(31rem, 66vh, 40rem)'))
+  assert.ok(appCss.includes('height: 18rem'))
+
+  assert.equal(campusSpotlights.length, 2)
+  assert.equal(campusSpotlights[0].id, 'ocamp-groups')
+  assert.equal(campusSpotlights[0].images.length, 4)
+  assert.equal(campusSpotlights[1].id, 'cssa-cssaug-wechat')
+  assert.equal(campusSpotlights[1].accounts.length, 2)
+  assert.ok(campusSpotlights[0].tags.includes('校内知识百科全书'))
+  assert.ok(campusSpotlights[0].tags.includes('内测版资源抢先体验'))
+
+  for (const image of campusSpotlights[0].images) {
+    assert.ok(existsSync(new URL(`../public/${image.src}`, import.meta.url)), `Missing spotlight image ${image.src}`)
+  }
+})
+
 test('welcome modal appears once per newly opened browser session but not after refresh', async () => {
   const { WELCOME_SESSION_KEY, shouldShowWelcomeModal } = await import('../src/utils/welcomeSession.ts')
 
