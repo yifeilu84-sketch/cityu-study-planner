@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle, Newspaper, Pause, Play, Sparkles, Users } from 'lucide-react'
+import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle, Newspaper, Pause, Play, PlayCircle, Sparkles, Users } from 'lucide-react'
 import { campusSpotlights, spotlightAsset } from '../data/campusSpotlights.ts'
 
 const AUTO_ADVANCE_MS = 6500
@@ -74,6 +74,23 @@ export default function CampusSpotlightCarousel() {
                   className={`spotlight-image-tile spotlight-image-tile-${index + 1}`}
                 />
               ))}
+            </div>
+          ) : active.kind === 'demo' && active.video ? (
+            <div className="spotlight-demo-frame">
+              <video
+                src={spotlightAsset(active.video.src)}
+                poster={spotlightAsset(active.video.poster)}
+                muted
+                loop
+                playsInline
+                autoPlay
+                preload="metadata"
+                aria-label={active.video.label}
+              />
+              <div className="spotlight-demo-play">
+                <PlayCircle className="h-9 w-9" />
+                <span>Watch demo</span>
+              </div>
             </div>
           ) : (
             <div className="wechat-preview-board">

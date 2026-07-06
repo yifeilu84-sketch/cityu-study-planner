@@ -1203,21 +1203,29 @@ test('campus spotlight carousel leads the homepage and has detail routes', async
   assert.ok(carousel.includes('AUTO_ADVANCE_MS'))
   assert.ok(carousel.includes('aria-label={isPaused'))
   assert.ok(detailPage.includes('spotlight-poster-grid'))
+  assert.ok(detailPage.includes('spotlight-detail-video'))
   assert.ok(appCss.includes('.campus-spotlight-hero'))
+  assert.ok(appCss.includes('.spotlight-demo-frame'))
   assert.ok(appCss.includes('height: clamp(31rem, 66vh, 40rem)'))
   assert.ok(appCss.includes('height: 18rem'))
 
-  assert.equal(campusSpotlights.length, 2)
+  assert.equal(campusSpotlights.length, 3)
   assert.equal(campusSpotlights[0].id, 'ocamp-groups')
   assert.equal(campusSpotlights[0].images.length, 4)
-  assert.equal(campusSpotlights[1].id, 'cssa-cssaug-wechat')
-  assert.equal(campusSpotlights[1].accounts.length, 2)
+  assert.equal(campusSpotlights[1].id, 'site-demo-video')
+  assert.equal(campusSpotlights[1].kind, 'demo')
+  assert.ok(campusSpotlights[1].video.src.endsWith('.webm'))
+  assert.ok(campusSpotlights[1].video.poster.endsWith('.png'))
+  assert.equal(campusSpotlights[2].id, 'cssa-cssaug-wechat')
+  assert.equal(campusSpotlights[2].accounts.length, 2)
   assert.ok(campusSpotlights[0].tags.includes('校内知识百科全书'))
   assert.ok(campusSpotlights[0].tags.includes('内测版资源抢先体验'))
 
   for (const image of campusSpotlights[0].images) {
     assert.ok(existsSync(new URL(`../public/${image.src}`, import.meta.url)), `Missing spotlight image ${image.src}`)
   }
+  assert.ok(existsSync(new URL(`../public/${campusSpotlights[1].video.src}`, import.meta.url)), 'Missing spotlight demo video')
+  assert.ok(existsSync(new URL(`../public/${campusSpotlights[1].video.poster}`, import.meta.url)), 'Missing spotlight demo poster')
 })
 
 test('welcome modal appears once per newly opened browser session but not after refresh', async () => {

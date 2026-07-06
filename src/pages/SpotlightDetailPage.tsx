@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { ArrowLeft, ExternalLink, MessageCircle, Newspaper, Sparkles, Users } from 'lucide-react'
+import { ArrowLeft, ExternalLink, MessageCircle, Newspaper, PlayCircle, Sparkles, Users } from 'lucide-react'
 import { getSpotlightById, spotlightAsset } from '../data/campusSpotlights.ts'
 
 export default function SpotlightDetailPage() {
@@ -51,6 +51,25 @@ export default function SpotlightDetailPage() {
                 <img src={spotlightAsset(image.src)} alt={image.alt} />
               </a>
             ))}
+          </div>
+        </section>
+      ) : null}
+
+      {spotlight.video ? (
+        <section className="spotlight-detail-section">
+          <div className="spotlight-section-heading">
+            <PlayCircle className="h-5 w-5" />
+            <h2>网站使用演示</h2>
+          </div>
+          <div className="spotlight-detail-video">
+            <video
+              src={spotlightAsset(spotlight.video.src)}
+              poster={spotlightAsset(spotlight.video.poster)}
+              controls
+              playsInline
+              preload="metadata"
+              aria-label={spotlight.video.label}
+            />
           </div>
         </section>
       ) : null}

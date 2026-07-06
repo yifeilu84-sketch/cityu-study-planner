@@ -1,4 +1,4 @@
-export type SpotlightKind = 'ocamp' | 'cssa'
+export type SpotlightKind = 'ocamp' | 'demo' | 'cssa'
 
 export type SpotlightImage = {
   src: string
@@ -13,6 +13,12 @@ export type SpotlightAccount = {
   sourceUrl?: string
 }
 
+export type SpotlightVideo = {
+  src: string
+  poster: string
+  label: string
+}
+
 export type CampusSpotlight = {
   id: string
   kind: SpotlightKind
@@ -24,6 +30,7 @@ export type CampusSpotlight = {
   detailLead: string
   tags: string[]
   images?: SpotlightImage[]
+  video?: SpotlightVideo
   accounts?: SpotlightAccount[]
   notes: string[]
 }
@@ -61,6 +68,27 @@ export const campusSpotlights: CampusSpotlight[] = [
       '报名这些组，可以优先体验 Study Planner 的内测功能和新生资源整理。',
       '可以直接问我课程规划、GE 选择、专业要求、科研入口和 CityU 常见问题。',
       '海报中的小组信息以 OCamp 官方报名安排为准。',
+    ],
+  },
+  {
+    id: 'site-demo-video',
+    kind: 'demo',
+    eyebrow: 'Product walkthrough',
+    title: '1 分钟看懂 Study Planner 怎么用',
+    summary: '演示首页搜索、本科 study plan、毕业要求自检、GE 筛选、专业对比、硕博项目和科研参考。第一次打开不用摸索，跟着视频走一遍就能上手。',
+    kicker: 'Site demo',
+    cta: '观看使用演示',
+    detailLead: '这段演示视频用真实页面录制，展示从首页检索到专业规划、GE 选择、硕博目录和科研参考的完整路径。没有配音，重点用字幕标出每一步能解决什么问题。',
+    tags: ['全站搜索', 'GE 筛选', '专业对比', '硕博项目'],
+    video: {
+      src: 'spotlight/cityu-study-planner-demo.webm',
+      poster: 'spotlight/cityu-study-planner-demo-poster.png',
+      label: 'CityU Study Planner 使用演示视频',
+    },
+    notes: [
+      '视频中的数据和页面会随网站持续更新；具体课程和毕业要求仍以页面中的来源标注与 CityU 官方资料为准。',
+      '建议新生先看首页搜索、GE 选课助手和专业详情页；硕博同学可以重点看 postgraduate 和 academic directory。',
+      '演示视频为浏览器实录，展示的是网站实际可操作流程。',
     ],
   },
   {
