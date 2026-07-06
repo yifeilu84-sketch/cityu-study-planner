@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import { X, BookOpen, User, MessageCircle, HelpCircle, GraduationCap } from 'lucide-react'
+import { shouldShowWelcomeModal } from '../utils/welcomeSession'
 
 export default function WelcomeModal() {
   const [show, setShow] = useState(false)
 
   useEffect(() => {
-    const seen = sessionStorage.getItem('cityu-welcome-seen')
-    if (!seen) {
+    if (shouldShowWelcomeModal()) {
       setShow(true)
     }
   }, [])
@@ -20,7 +20,6 @@ export default function WelcomeModal() {
 
   const handleClose = () => {
     setShow(false)
-    sessionStorage.setItem('cityu-welcome-seen', '1')
   }
 
   if (!show) return null

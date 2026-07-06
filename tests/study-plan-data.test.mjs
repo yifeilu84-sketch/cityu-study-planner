@@ -1148,3 +1148,27 @@ test('visual polish design system is wired into core pages', () => {
   assert.ok(academicPage.includes('control-surface'))
   assert.ok(researchPanel.includes('interactive-card'))
 })
+
+test('welcome modal appears once per newly opened browser session but not after refresh', async () => {
+  const { WELCOME_SESSION_KEY, shouldShowWelcomeModal } = await import('../src/utils/welcomeSession.ts')
+
+  const createStorage = () => {
+    const values = new Map()
+    return {
+      getItem: (key) => values.get(key) ?? null,
+      setItem: (key, value) => values.set(key, value),
+      values,
+    }
+  }
+
+  const firstTabStorage = createStorage()
+  assert.equal(shouldShowWelcomeModal(firstTabStorage), true, 'newly opened tab should show the modal')
+  assert.equal(firstTabStorage.values.get(WELCOME_SESSION_KEY), '1', 'showing the modal should immediately mark the session')
+  assert.equal(shouldShowWelcomeModal(firstTabStorage), false, 'refreshing the same tab should not show the modal again')
+
+  const secondTabStorage = createStorage()
+  assert.equal(shouldShowWelcomeModal(secondTabStorage), true, 'a separately opened tab should have its own modal session')
+
+  const modalSource = readFileSync(new URL('../src/components/WelcomeModal.tsx', import.meta.url), 'utf8')
+  assert.ok(modalSource.includes('shouldShowWelcomeModal'), 'WelcomeModal should use the session helper')
+})
