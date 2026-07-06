@@ -74,11 +74,11 @@ export const campusSpotlights: CampusSpotlight[] = [
     id: 'site-demo-video',
     kind: 'demo',
     eyebrow: 'Product walkthrough',
-    title: '1 分钟看懂 Study Planner 怎么用',
-    summary: '演示首页搜索、本科 study plan、毕业要求自检、GE 筛选、专业对比、硕博项目和科研参考。第一次打开不用摸索，跟着视频走一遍就能上手。',
+    title: '3 分钟完整演示 Study Planner',
+    summary: '慢速演示新闻轮播、全站搜索、本科 study plan、毕业要求自检、DIY 编辑、GE 筛选、专业对比、硕博项目、科研参考和来源覆盖页。',
     kicker: 'Site demo',
     cta: '观看使用演示',
-    detailLead: '这段演示视频用真实页面录制，展示从首页检索到专业规划、GE 选择、硕博目录和科研参考的完整路径。没有配音，重点用字幕标出每一步能解决什么问题。',
+    detailLead: '这段演示视频用真实页面录制，放慢节奏展示从首页检索到专业规划、GE 选择、硕博目录、科研参考和来源覆盖的完整路径。没有配音，重点用字幕标出每一步能解决什么问题。',
     tags: ['全站搜索', 'GE 筛选', '专业对比', '硕博项目'],
     video: {
       src: 'spotlight/cityu-study-planner-demo.webm',
@@ -87,7 +87,7 @@ export const campusSpotlights: CampusSpotlight[] = [
     },
     notes: [
       '视频中的数据和页面会随网站持续更新；具体课程和毕业要求仍以页面中的来源标注与 CityU 官方资料为准。',
-      '建议新生先看首页搜索、GE 选课助手和专业详情页；硕博同学可以重点看 postgraduate 和 academic directory。',
+      '建议新生先看首页搜索、GE 选课助手和专业详情页；硕博同学可以重点看 postgraduate 和 academic directory；不确定来源时先看数据来源覆盖页。',
       '演示视频为浏览器实录，展示的是网站实际可操作流程。',
     ],
   },
