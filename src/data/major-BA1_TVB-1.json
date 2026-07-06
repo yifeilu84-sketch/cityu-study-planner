@@ -174,20 +174,20 @@
             "code": "TVB-ELEC1",
             "title": "TVB Major Elective 1",
             "credits": 3
+          },
+          {
+            "code": "COM3119",
+            "title": "International Communication",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [
           {
             "code": "COM3115",
             "title": "Communication Law and Ethics",
-            "credits": 3
-          },
-          {
-            "code": "COM3119",
-            "title": "International Communication",
             "credits": 3
           },
           {
@@ -206,7 +206,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     },
     "year3": {
@@ -236,9 +236,14 @@
             "code": "FREE1",
             "title": "Free Elective 1",
             "credits": 3
+          },
+          {
+            "code": "COM4307",
+            "title": "Television News Production and Anchoring",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [
@@ -253,11 +258,6 @@
             "credits": 3
           },
           {
-            "code": "COM4307",
-            "title": "Television News Production and Anchoring",
-            "credits": 3
-          },
-          {
             "code": "TVB-ELEC4",
             "title": "TVB Major Elective 4",
             "credits": 3
@@ -268,17 +268,12 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     },
     "year4": {
       "semA": {
         "courses": [
-          {
-            "code": "COM4308",
-            "title": "Television News Practicum",
-            "credits": 3
-          },
           {
             "code": "COM4309",
             "title": "Radio News Production",
@@ -300,7 +295,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -323,9 +318,14 @@
             "code": "FREE7",
             "title": "Free Elective 7",
             "credits": 3
+          },
+          {
+            "code": "COM4308",
+            "title": "Television News Practicum",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   }

@@ -462,11 +462,6 @@
             "credits": 3
           },
           {
-            "code": "SYE4036",
-            "title": "Manufacturing Systems Modelling and Optimization",
-            "credits": 3
-          },
-          {
             "code": "SYE4003",
             "title": "Artificial Intelligence and Augmented Reality in Manufacturing and Operations",
             "credits": 3
@@ -482,7 +477,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -505,9 +500,14 @@
             "code": "MAJOR-ELECTIVE",
             "title": "Major Elective 5",
             "credits": 3
+          },
+          {
+            "code": "SYE4036",
+            "title": "Manufacturing Systems Modelling and Optimization",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   },

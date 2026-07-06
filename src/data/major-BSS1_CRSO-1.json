@@ -209,17 +209,17 @@
             "code": "FREE1",
             "title": "Free Elective 1",
             "credits": 3
-          }
-        ],
-        "credits": 15
-      },
-      "semB": {
-        "courses": [
+          },
           {
             "code": "SS3423",
             "title": "Advanced Applied Quantitative Research Methods",
             "credits": 3
-          },
+          }
+        ],
+        "credits": 18
+      },
+      "semB": {
+        "courses": [
           {
             "code": "SS3428",
             "title": "Advanced Applied Qualitative Research Methods",
@@ -241,7 +241,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     },
     "year4": {
@@ -258,17 +258,12 @@
             "credits": 3
           },
           {
-            "code": "SS3419",
-            "title": "Complex Organizations",
-            "credits": 3
-          },
-          {
             "code": "FREE4",
             "title": "Free Elective 4",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 9
       },
       "semB": {
         "courses": [
@@ -296,9 +291,14 @@
             "code": "FREE6",
             "title": "Free Elective 6",
             "credits": 3
+          },
+          {
+            "code": "SS3419",
+            "title": "Complex Organizations",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     }
   }

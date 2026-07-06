@@ -602,11 +602,6 @@
       "semA": {
         "courses": [
           {
-            "code": "AC3390",
-            "title": "ESG and ESG Disclosure",
-            "credits": 3
-          },
-          {
             "code": "CA1167",
             "title": "Engineering Communication",
             "credits": 3
@@ -627,7 +622,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -655,9 +650,14 @@
             "code": "SEE4004",
             "title": "Environmental Impact Assessment for Sustainable Development",
             "credits": 4
+          },
+          {
+            "code": "AC3390",
+            "title": "ESG and ESG Disclosure",
+            "credits": 3
           }
         ],
-        "credits": 16
+        "credits": 19
       }
     },
     "year5": {

@@ -235,11 +235,6 @@
             "credits": 3
           },
           {
-            "code": "MKT3608",
-            "title": "Marketing Core 6",
-            "credits": 3
-          },
-          {
             "code": "MKT3638",
             "title": "Marketing Core 7",
             "credits": 3
@@ -260,7 +255,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -288,9 +283,14 @@
             "code": "FREE2",
             "title": "Free Elective 2",
             "credits": 3
+          },
+          {
+            "code": "MKT3608",
+            "title": "Marketing Core 6",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year4": {
@@ -299,11 +299,6 @@
           {
             "code": "MKT4604",
             "title": "Marketing Core 9",
-            "credits": 3
-          },
-          {
-            "code": "MKT4605",
-            "title": "Marketing Core 10",
             "credits": 3
           },
           {
@@ -322,7 +317,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -350,9 +345,14 @@
             "code": "FREE5",
             "title": "Free Elective 5",
             "credits": 3
+          },
+          {
+            "code": "MKT4605",
+            "title": "Marketing Core 10",
+            "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 21
       }
     }
   }

@@ -307,13 +307,13 @@
             "credits": 3
           },
           {
-            "code": "CA3122",
-            "title": "CA3122",
+            "code": "GE",
+            "title": "Gateway Education Elective",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "Gateway Education Elective",
+            "code": "CA3704",
+            "title": "CA3704",
             "credits": 3
           }
         ],
@@ -332,11 +332,6 @@
             "credits": 3
           },
           {
-            "code": "CA3704",
-            "title": "CA3704",
-            "credits": 3
-          },
-          {
             "code": "CA3677",
             "title": "CA3677",
             "credits": 3
@@ -344,6 +339,11 @@
           {
             "code": "GE",
             "title": "Gateway Education Elective",
+            "credits": 3
+          },
+          {
+            "code": "CA3122",
+            "title": "CA3122",
             "credits": 3
           }
         ],

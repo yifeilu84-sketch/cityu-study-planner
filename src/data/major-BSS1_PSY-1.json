@@ -73,11 +73,6 @@
             "credits": 3
           },
           {
-            "code": "SS1024",
-            "title": "Social Problems and Interventions",
-            "credits": 3
-          },
-          {
             "code": "GE1401",
             "title": "University English",
             "credits": 3
@@ -91,17 +86,17 @@
             "code": "GE1601",
             "title": "Whole Person Development through Service Learning",
             "credits": 1
+          },
+          {
+            "code": "SS2033",
+            "title": "Research Methods for Behavioural Sciences",
+            "credits": 3
           }
         ],
         "credits": 16
       },
       "semB": {
         "courses": [
-          {
-            "code": "SS2033",
-            "title": "Research Methods for Behavioural Sciences",
-            "credits": 3
-          },
           {
             "code": "SS2028",
             "title": "Basic Psychology II",
@@ -115,6 +110,11 @@
           {
             "code": "COL-LIB",
             "title": "College Foundation - Liberal Arts Studies",
+            "credits": 3
+          },
+          {
+            "code": "SS1024",
+            "title": "Social Problems and Interventions",
             "credits": 3
           }
         ],
@@ -210,15 +210,10 @@
             "code": "PSY-ELEC3",
             "title": "Psychology Elective 3",
             "credits": 3
-          }
-        ],
-        "credits": 15
-      },
-      "semB": {
-        "courses": [
+          },
           {
-            "code": "SS3726",
-            "title": "Designing Experiments in Psychology",
+            "code": "SS4719",
+            "title": "Introduction to Industrial and Organizational Psychology",
             "credits": 3
           },
           {
@@ -227,10 +222,15 @@
             "credits": 3
           },
           {
-            "code": "SS4719",
-            "title": "Introduction to Industrial and Organizational Psychology",
+            "code": "SS3726",
+            "title": "Designing Experiments in Psychology",
             "credits": 3
-          },
+          }
+        ],
+        "credits": 24
+      },
+      "semB": {
+        "courses": [
           {
             "code": "PSY-ELEC4",
             "title": "Psychology Elective 4",
@@ -242,7 +242,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 6
       }
     },
     "year4": {
@@ -257,19 +257,9 @@
             "code": "SS3712",
             "title": "Cognitive Psychology",
             "credits": 3
-          },
-          {
-            "code": "SS3713",
-            "title": "Learning and Behaviour",
-            "credits": 3
-          },
-          {
-            "code": "SS3714",
-            "title": "Social Psychology",
-            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 6
       },
       "semB": {
         "courses": [
@@ -287,9 +277,19 @@
             "code": "PSY-ELEC7",
             "title": "Psychology Elective 7",
             "credits": 3
+          },
+          {
+            "code": "SS3714",
+            "title": "Social Psychology",
+            "credits": 3
+          },
+          {
+            "code": "SS3713",
+            "title": "Learning and Behaviour",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 18
       }
     }
   }

@@ -358,17 +358,12 @@
             "credits": 3
           },
           {
-            "code": "CA3691",
-            "title": "CA3691",
-            "credits": 3
-          },
-          {
             "code": "CA3629",
             "title": "CA3629",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -396,9 +391,14 @@
             "code": "ARSV-ELECTIVE5",
             "title": "ARSV-ELECTIVE5",
             "credits": 3
+          },
+          {
+            "code": "CA3691",
+            "title": "CA3691",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year4": {
@@ -407,11 +407,6 @@
           {
             "code": "CA4513",
             "title": "CA4513",
-            "credits": 3
-          },
-          {
-            "code": "CA4415",
-            "title": "CA4415",
             "credits": 3
           },
           {
@@ -428,6 +423,11 @@
             "code": "GE",
             "title": "Gateway Education Elective",
             "credits": 3
+          },
+          {
+            "code": "CA4424",
+            "title": "CA4424",
+            "credits": 3
           }
         ],
         "credits": 15
@@ -437,11 +437,6 @@
           {
             "code": "CA4513",
             "title": "CA4513",
-            "credits": 3
-          },
-          {
-            "code": "CA4424",
-            "title": "CA4424",
             "credits": 3
           },
           {
@@ -457,6 +452,11 @@
           {
             "code": "FREE",
             "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "CA4415",
+            "title": "CA4415",
             "credits": 3
           }
         ],

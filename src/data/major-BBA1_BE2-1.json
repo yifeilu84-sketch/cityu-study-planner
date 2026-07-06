@@ -205,11 +205,6 @@
       "semA": {
         "courses": [
           {
-            "code": "EF3450",
-            "title": "Business Economics Core 4",
-            "credits": 3
-          },
-          {
             "code": "EF3451",
             "title": "Business Economics Core 5",
             "credits": 3
@@ -233,6 +228,11 @@
             "code": "GE-DR4",
             "title": "Gateway Education (Area 4)",
             "credits": 3
+          },
+          {
+            "code": "EF3520",
+            "title": "Business Economics Core 8",
+            "credits": 3
           }
         ],
         "credits": 18
@@ -242,11 +242,6 @@
           {
             "code": "EF3461",
             "title": "Business Economics Core 7",
-            "credits": 3
-          },
-          {
-            "code": "EF3520",
-            "title": "Business Economics Core 8",
             "credits": 3
           },
           {
@@ -262,6 +257,11 @@
           {
             "code": "FREE2",
             "title": "Free Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "EF3450",
+            "title": "Business Economics Core 4",
             "credits": 3
           }
         ],

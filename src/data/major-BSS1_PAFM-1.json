@@ -231,11 +231,6 @@
             "credits": 3
           },
           {
-            "code": "PIA2400",
-            "title": "PIA2400",
-            "credits": 3
-          },
-          {
             "code": "GE1401",
             "title": "University English",
             "credits": 3
@@ -246,7 +241,7 @@
             "credits": 1
           }
         ],
-        "credits": 13
+        "credits": 10
       },
       "semB": {
         "courses": [
@@ -274,9 +269,14 @@
             "code": "GE1501",
             "title": "Chinese Civilisation - History and Philosophy",
             "credits": 3
+          },
+          {
+            "code": "PIA2400",
+            "title": "PIA2400",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year2": {
@@ -288,11 +288,6 @@
             "credits": 3
           },
           {
-            "code": "PIA2402",
-            "title": "PIA2402",
-            "credits": 3
-          },
-          {
             "code": "STREAM-CORE",
             "title": "STREAM-CORE",
             "credits": 3
@@ -305,16 +300,6 @@
           {
             "code": "GE",
             "title": "GE",
-            "credits": 3
-          }
-        ],
-        "credits": 15
-      },
-      "semB": {
-        "courses": [
-          {
-            "code": "PIA3032",
-            "title": "PIA3032",
             "credits": 3
           },
           {
@@ -323,6 +308,16 @@
             "credits": 3
           },
           {
+            "code": "PIA3032",
+            "title": "PIA3032",
+            "credits": 3
+          }
+        ],
+        "credits": 18
+      },
+      "semB": {
+        "courses": [
+          {
             "code": "STREAM-CORE",
             "title": "STREAM-CORE",
             "credits": 3
@@ -336,9 +331,14 @@
             "code": "GE",
             "title": "GE",
             "credits": 3
+          },
+          {
+            "code": "PIA2402",
+            "title": "PIA2402",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     },
     "year3": {

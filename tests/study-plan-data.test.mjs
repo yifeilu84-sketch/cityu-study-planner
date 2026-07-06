@@ -34,6 +34,46 @@ function isGeneric(code) {
   return /^(GE(-|$)|GE Area|GE-Area|GE-DR|GE-COL|GE-ELECTIVE|ELECTIVE|MAJOR-ELECT|FREE|MINOR|COLLEGE|COL-ELEC|LAW-ELECTIVE|CRS-ELECTIVE|CS-E|DR-|FIN-ELECTIVE|EVE-ELECTIVE|AC-ELECTIVE)/i.test(code)
 }
 
+function addOfferingTermsFromText(terms, rawText) {
+  const text = String(rawText ?? '').toLowerCase()
+  if (!text || /not\s+offering/.test(text)) return false
+  if (/semester\s*a|sem\s*a/.test(text)) terms.add('semA')
+  if (/semester\s*b|sem\s*b/.test(text)) terms.add('semB')
+  if (/semester\s*a\s*(?:&|and|\/)\s*b|sem\s*a\s*(?:&|and|\/)\s*b/.test(text)) terms.add('semB')
+  if (/summer/.test(text)) terms.add('summer')
+  return true
+}
+
+function getConfirmedOfferingTerms(course) {
+  const terms = new Set()
+  let hasConfirmedSource = false
+  for (const term of course?.geTerms ?? []) {
+    hasConfirmedSource = addOfferingTermsFromText(terms, term) || hasConfirmedSource
+  }
+  hasConfirmedSource = addOfferingTermsFromText(terms, course?.semester) || hasConfirmedSource
+  return hasConfirmedSource && terms.size > 0 ? terms : null
+}
+
+function collectOfferingConflicts(owner, plan, label) {
+  const conflicts = []
+  if (!plan) return conflicts
+
+  for (const [yearKey, year] of Object.entries(plan)) {
+    for (const semKey of ['semA', 'semB', 'summer']) {
+      for (const plannedCourse of year?.[semKey]?.courses ?? []) {
+        const lookupCode = plannedCourse.code.trim().split(/[\s/]+/)[0]
+        if (!lookupCode || isGeneric(plannedCourse.code) || isGeneric(lookupCode)) continue
+        const course = courses[plannedCourse.code] ?? courses[lookupCode]
+        const allowedTerms = getConfirmedOfferingTerms(course)
+        if (!allowedTerms || allowedTerms.has(semKey)) continue
+        conflicts.push(`${owner.code} ${label} ${yearKey}.${semKey} ${plannedCourse.code} is offered in ${[...allowedTerms].join('/')}`)
+      }
+    }
+  }
+
+  return conflicts
+}
+
 function countByArea(items) {
   return items.reduce((counts, item) => {
     counts[item.area] = (counts[item.area] ?? 0) + 1
@@ -238,6 +278,19 @@ test('source labels distinguish official, structure, derived, and diy plans', as
   assert.equal(getStudyPlanSourceStatus(major('BENG1_CDE-1')).kind, 'structure')
   assert.equal(getStudyPlanSourceStatus(major('BBA1_BE2-1')).kind, 'derived')
   assert.equal(getStudyPlanSourceStatus(major('CBIO_BIO3-1')).kind, 'diy')
+})
+
+test('undergraduate study plans place real courses only in confirmed offering semesters', () => {
+  const conflicts = []
+
+  for (const item of majors) {
+    conflicts.push(...collectOfferingConflicts(item, item.studyPlan, 'major'))
+    for (const stream of item.streams ?? []) {
+      conflicts.push(...collectOfferingConflicts(item, stream.studyPlan, `stream:${stream.code ?? stream.title ?? 'unnamed'}`))
+    }
+  }
+
+  assert.deepEqual(conflicts, [])
 })
 
 test('graduation audit catches removed required course and GE area gaps', async () => {

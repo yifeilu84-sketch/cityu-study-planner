@@ -584,14 +584,9 @@
             "code": "SYE4024",
             "title": "Project Management",
             "credits": 3
-          },
-          {
-            "code": "SEE4217",
-            "title": "Waste and Wastewater Treatment Engineering",
-            "credits": 3
           }
         ],
-        "credits": 16
+        "credits": 13
       },
       "semB": {
         "courses": [
@@ -614,9 +609,14 @@
             "code": "SEE4204",
             "title": "Environmental Systems Modelling",
             "credits": 3
+          },
+          {
+            "code": "SEE4217",
+            "title": "Waste and Wastewater Treatment Engineering",
+            "credits": 3
           }
         ],
-        "credits": 10
+        "credits": 13
       }
     },
     "year4": {

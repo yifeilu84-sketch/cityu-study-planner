@@ -415,14 +415,9 @@
             "code": "GE",
             "title": "GE",
             "credits": 3
-          },
-          {
-            "code": "CB4605",
-            "title": "CB4605",
-            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -445,9 +440,14 @@
             "code": "FREE",
             "title": "FREE",
             "credits": 3
+          },
+          {
+            "code": "CB4605",
+            "title": "CB4605",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   },

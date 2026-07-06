@@ -440,20 +440,20 @@
             "code": "GE-DR",
             "title": "GE Course (Distributional Requirements)",
             "credits": 3
+          },
+          {
+            "code": "BME3016",
+            "title": "Biomedical Engineering CAD",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [
           {
             "code": "BME4105",
             "title": "Biomedical Devices for Digital Medicine",
-            "credits": 3
-          },
-          {
-            "code": "BME3016",
-            "title": "Biomedical Engineering CAD",
             "credits": 3
           },
           {
@@ -472,7 +472,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
   },

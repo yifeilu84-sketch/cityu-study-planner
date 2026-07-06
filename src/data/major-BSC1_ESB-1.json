@@ -439,11 +439,6 @@
             "credits": 3
           },
           {
-            "code": "SEE1006",
-            "title": "Professional Development: ESB Career Planning Workshop",
-            "credits": 0
-          },
-          {
             "code": "GE1401",
             "title": "University English",
             "credits": 3
@@ -482,6 +477,11 @@
             "code": "GE-DR",
             "title": "GE Courses (Distributional Requirements)",
             "credits": 6
+          },
+          {
+            "code": "SEE1006",
+            "title": "Professional Development: ESB Career Planning Workshop",
+            "credits": 0
           }
         ],
         "credits": 18

@@ -89,20 +89,10 @@
             "code": "GE1601",
             "title": "Whole Person Development through Service Learning",
             "credits": 1
-          }
-        ],
-        "credits": 16
-      },
-      "semB": {
-        "courses": [
-          {
-            "code": "GE1401",
-            "title": "University English",
-            "credits": 3
           },
           {
-            "code": "BMS2803",
-            "title": "Biology of Cells",
+            "code": "VM2106",
+            "title": "Aquaculture and Aquatic Animal Health",
             "credits": 3
           },
           {
@@ -111,22 +101,27 @@
             "credits": 3
           },
           {
-            "code": "VM2106",
-            "title": "Aquaculture and Aquatic Animal Health",
+            "code": "BMS2803",
+            "title": "Biology of Cells",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 25
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          }
+        ],
+        "credits": 3
       }
     },
     "year2": {
       "semA": {
         "courses": [
-          {
-            "code": "BMS2805",
-            "title": "Biochemistry for Veterinary Science",
-            "credits": 3
-          },
           {
             "code": "CHEM2007B",
             "title": "Principles of Organic Chemistry",
@@ -148,7 +143,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -176,31 +171,20 @@
             "code": "VM2103",
             "title": "Animal Nutrition and Welfare",
             "credits": 3
+          },
+          {
+            "code": "BMS2805",
+            "title": "Biochemistry for Veterinary Science",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year3": {
       "semA": {
-        "courses": [
-          {
-            "code": "VM3100",
-            "title": "Function and Dysfunction (Part 1)",
-            "credits": 9
-          },
-          {
-            "code": "VM4110",
-            "title": "Small Animal Clinical Studies 1",
-            "credits": 8
-          },
-          {
-            "code": "VM4112",
-            "title": "Anaesthesia, Analgesia and Fluid Therapy",
-            "credits": 4
-          }
-        ],
-        "credits": 21
+        "courses": [],
+        "credits": 0
       },
       "semB": {
         "courses": [
@@ -228,9 +212,24 @@
             "code": "BMS2806",
             "title": "Genes, Inheritance and Genetic Disorders",
             "credits": 3
+          },
+          {
+            "code": "VM4112",
+            "title": "Anaesthesia, Analgesia and Fluid Therapy",
+            "credits": 4
+          },
+          {
+            "code": "VM4110",
+            "title": "Small Animal Clinical Studies 1",
+            "credits": 8
+          },
+          {
+            "code": "VM3100",
+            "title": "Function and Dysfunction (Part 1)",
+            "credits": 9
           }
         ],
-        "credits": 20
+        "credits": 41
       }
     },
     "year4": {
@@ -242,42 +241,42 @@
             "credits": 9
           },
           {
-            "code": "VM4010",
-            "title": "Veterinary Practice and Professional Studies 2",
+            "code": "VM4001",
+            "title": "Clinical Pharmacology/Toxicology",
             "credits": 3
           },
-          {
-            "code": "VM4111",
-            "title": "Companion Animal Surgery",
-            "credits": 6
-          }
-        ],
-        "credits": 18
-      },
-      "semB": {
-        "courses": [
           {
             "code": "VM4000",
             "title": "Host, Agent and Defence (Part 2)",
             "credits": 9
-          },
+          }
+        ],
+        "credits": 21
+      },
+      "semB": {
+        "courses": [
           {
             "code": "VM4401",
             "title": "Research Project (Part 1)",
             "credits": 3
           },
           {
-            "code": "VM4001",
-            "title": "Clinical Pharmacology/Toxicology",
-            "credits": 3
-          },
-          {
             "code": "VM4103",
             "title": "Conservation, Zoo and Exotic Animal Medicine",
             "credits": 3
+          },
+          {
+            "code": "VM4111",
+            "title": "Companion Animal Surgery",
+            "credits": 6
+          },
+          {
+            "code": "VM4010",
+            "title": "Veterinary Practice and Professional Studies 2",
+            "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     },
     "year5": {
@@ -297,19 +296,9 @@
             "code": "VM4301",
             "title": "Clinical Rotations: Part I",
             "credits": 5
-          },
-          {
-            "code": "VM4104",
-            "title": "Transboundary Animal Diseases",
-            "credits": 2
-          },
-          {
-            "code": "VM4202",
-            "title": "Aquatic Veterinary Medicine",
-            "credits": 2
           }
         ],
-        "credits": 20
+        "credits": 16
       },
       "semB": {
         "courses": [
@@ -322,9 +311,19 @@
             "code": "VM4011",
             "title": "Veterinary Practice and Professional Studies 3",
             "credits": 3
+          },
+          {
+            "code": "VM4202",
+            "title": "Aquatic Veterinary Medicine",
+            "credits": 2
+          },
+          {
+            "code": "VM4104",
+            "title": "Transboundary Animal Diseases",
+            "credits": 2
           }
         ],
-        "credits": 24
+        "credits": 28
       }
     },
     "year6": {
@@ -344,19 +343,9 @@
             "code": "VM4401",
             "title": "Research Project (Part 2)",
             "credits": 3
-          },
-          {
-            "code": "VM3004",
-            "title": "Evidence-Based Veterinary Medicine",
-            "credits": 3
-          },
-          {
-            "code": "VM3003",
-            "title": "Food Safety and Regulation",
-            "credits": 2
           }
         ],
-        "credits": 16
+        "credits": 11
       },
       "semB": {
         "courses": [
@@ -374,9 +363,19 @@
             "code": "VM1005",
             "title": "Clinical EMS (continued)",
             "credits": 0
+          },
+          {
+            "code": "VM3003",
+            "title": "Food Safety and Regulation",
+            "credits": 2
+          },
+          {
+            "code": "VM3004",
+            "title": "Evidence-Based Veterinary Medicine",
+            "credits": 3
           }
         ],
-        "credits": 0
+        "credits": 5
       }
     }
   }

@@ -201,16 +201,6 @@
       "semA": {
         "courses": [
           {
-            "code": "EF4313",
-            "title": "Corporate Finance",
-            "credits": 3
-          },
-          {
-            "code": "EF3450",
-            "title": "Finance Elective 2",
-            "credits": 3
-          },
-          {
             "code": "EF3451",
             "title": "Finance Elective 3",
             "credits": 3
@@ -231,7 +221,7 @@
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -259,19 +249,24 @@
             "code": "FREE2",
             "title": "Free Elective 2",
             "credits": 3
+          },
+          {
+            "code": "EF3450",
+            "title": "Finance Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "EF4313",
+            "title": "Corporate Finance",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 21
       }
     },
     "year4": {
       "semA": {
         "courses": [
-          {
-            "code": "EF4314",
-            "title": "Finance Elective 7",
-            "credits": 3
-          },
           {
             "code": "EF4321",
             "title": "Finance Elective 8",
@@ -293,7 +288,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -321,9 +316,14 @@
             "code": "FREE5",
             "title": "Free Elective 5",
             "credits": 3
+          },
+          {
+            "code": "EF4314",
+            "title": "Finance Elective 7",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     }
   }

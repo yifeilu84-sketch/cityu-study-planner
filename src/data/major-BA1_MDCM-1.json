@@ -161,11 +161,6 @@
       "semA": {
         "courses": [
           {
-            "code": "COM2103",
-            "title": "Communication Research Methods",
-            "credits": 3
-          },
-          {
             "code": "COM2202",
             "title": "Writing for the Media",
             "credits": 3
@@ -186,7 +181,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -214,24 +209,19 @@
             "code": "MDCM-ELEC3",
             "title": "MDCM Elective 3",
             "credits": 3
+          },
+          {
+            "code": "COM2103",
+            "title": "Communication Research Methods",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year3": {
       "semA": {
         "courses": [
-          {
-            "code": "COM3109",
-            "title": "Media and Communication in Chinese Contexts",
-            "credits": 3
-          },
-          {
-            "code": "COM3115",
-            "title": "Communication Law and Ethics",
-            "credits": 3
-          },
           {
             "code": "COM3119",
             "title": "International Communication",
@@ -248,7 +238,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 9
       },
       "semB": {
         "courses": [
@@ -276,19 +266,24 @@
             "code": "FREE1",
             "title": "Free Elective 1",
             "credits": 3
+          },
+          {
+            "code": "COM3115",
+            "title": "Communication Law and Ethics",
+            "credits": 3
+          },
+          {
+            "code": "COM3109",
+            "title": "Media and Communication in Chinese Contexts",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 21
       }
     },
     "year4": {
       "semA": {
         "courses": [
-          {
-            "code": "COM4604",
-            "title": "Communication Practicum",
-            "credits": 3
-          },
           {
             "code": "MDCM-ELEC9",
             "title": "MDCM Elective 9",
@@ -310,7 +305,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -333,9 +328,14 @@
             "code": "FREE6",
             "title": "Free Elective 6",
             "credits": 3
+          },
+          {
+            "code": "COM4604",
+            "title": "Communication Practicum",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   }

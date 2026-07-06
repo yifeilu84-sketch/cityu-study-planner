@@ -69,11 +69,6 @@
             "credits": 3
           },
           {
-            "code": "SS1024",
-            "title": "Social Problems and Interventions",
-            "credits": 3
-          },
-          {
             "code": "GE1401",
             "title": "University English",
             "credits": 3
@@ -89,7 +84,7 @@
             "credits": 1
           }
         ],
-        "credits": 16
+        "credits": 13
       },
       "semB": {
         "courses": [
@@ -112,9 +107,14 @@
             "code": "GE-DR1",
             "title": "Gateway Education (Area 1)",
             "credits": 3
+          },
+          {
+            "code": "SS1024",
+            "title": "Social Problems and Interventions",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year2": {

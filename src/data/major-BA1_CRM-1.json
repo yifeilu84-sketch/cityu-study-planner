@@ -322,11 +322,6 @@
             "credits": 3
           },
           {
-            "code": "SM2105",
-            "title": "Narrative Strategies & Aesthetics",
-            "credits": 3
-          },
-          {
             "code": "SM-Studio1",
             "title": "Art & Science Studio Course #1",
             "credits": 6
@@ -334,6 +329,11 @@
           {
             "code": "GE-DR",
             "title": "GE Course (Area 3)",
+            "credits": 3
+          },
+          {
+            "code": "SM2706",
+            "title": "Critical Theory & Socially Engaged Practices",
             "credits": 3
           }
         ],
@@ -344,11 +344,6 @@
           {
             "code": "GE1501",
             "title": "Chinese Civilization (Major-based)",
-            "credits": 3
-          },
-          {
-            "code": "SM2706",
-            "title": "Critical Theory & Socially Engaged Practices",
             "credits": 3
           },
           {
@@ -369,6 +364,11 @@
           {
             "code": "SM2716",
             "title": "Physical Computing",
+            "credits": 3
+          },
+          {
+            "code": "SM2105",
+            "title": "Narrative Strategies & Aesthetics",
             "credits": 3
           }
         ],

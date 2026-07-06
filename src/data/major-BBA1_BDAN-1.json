@@ -508,18 +508,8 @@
       "semA": {
         "courses": [
           {
-            "code": "IS3100",
-            "title": "Techniques for Big Data",
-            "credits": 3
-          },
-          {
             "code": "IS3240",
             "title": "Advanced Business Programming in Python",
-            "credits": 3
-          },
-          {
-            "code": "MS4226",
-            "title": "Financial Risk Analytics",
             "credits": 3
           },
           {
@@ -533,7 +523,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 9
       },
       "semB": {
         "courses": [
@@ -561,9 +551,19 @@
             "code": "MINOR",
             "title": "Minor",
             "credits": 3
+          },
+          {
+            "code": "MS4226",
+            "title": "Financial Risk Analytics",
+            "credits": 3
+          },
+          {
+            "code": "IS3100",
+            "title": "Techniques for Big Data",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 21
       }
     }
   },

@@ -441,20 +441,20 @@
               "code": "GE-DR",
               "title": "GE Course (Distributional Requirements)",
               "credits": 3
+            },
+            {
+              "code": "BME3016",
+              "title": "Biomedical Engineering CAD",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
             {
               "code": "BME4105",
               "title": "Biomedical Devices for Digital Medicine",
-              "credits": 3
-            },
-            {
-              "code": "BME3016",
-              "title": "Biomedical Engineering CAD",
               "credits": 3
             },
             {
@@ -473,7 +473,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       }
     },
@@ -1852,14 +1852,9 @@
               "code": "GE",
               "title": "GE",
               "credits": 3
-            },
-            {
-              "code": "CB4605",
-              "title": "CB4605",
-              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -1882,9 +1877,14 @@
               "code": "FREE",
               "title": "FREE",
               "credits": 3
+            },
+            {
+              "code": "CB4605",
+              "title": "CB4605",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     },
@@ -3841,18 +3841,8 @@
         "semA": {
           "courses": [
             {
-              "code": "IS3100",
-              "title": "Techniques for Big Data",
-              "credits": 3
-            },
-            {
               "code": "IS3240",
               "title": "Advanced Business Programming in Python",
-              "credits": 3
-            },
-            {
-              "code": "MS4226",
-              "title": "Financial Risk Analytics",
               "credits": 3
             },
             {
@@ -3866,7 +3856,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 9
         },
         "semB": {
           "courses": [
@@ -3894,9 +3884,19 @@
               "code": "MINOR",
               "title": "Minor",
               "credits": 3
+            },
+            {
+              "code": "MS4226",
+              "title": "Financial Risk Analytics",
+              "credits": 3
+            },
+            {
+              "code": "IS3100",
+              "title": "Techniques for Big Data",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 21
         }
       }
     },
@@ -5137,11 +5137,6 @@
         "semA": {
           "courses": [
             {
-              "code": "EF3450",
-              "title": "Business Economics Core 4",
-              "credits": 3
-            },
-            {
               "code": "EF3451",
               "title": "Business Economics Core 5",
               "credits": 3
@@ -5165,6 +5160,11 @@
               "code": "GE-DR4",
               "title": "Gateway Education (Area 4)",
               "credits": 3
+            },
+            {
+              "code": "EF3520",
+              "title": "Business Economics Core 8",
+              "credits": 3
             }
           ],
           "credits": 18
@@ -5174,11 +5174,6 @@
             {
               "code": "EF3461",
               "title": "Business Economics Core 7",
-              "credits": 3
-            },
-            {
-              "code": "EF3520",
-              "title": "Business Economics Core 8",
               "credits": 3
             },
             {
@@ -5194,6 +5189,11 @@
             {
               "code": "FREE2",
               "title": "Free Elective 2",
+              "credits": 3
+            },
+            {
+              "code": "EF3450",
+              "title": "Business Economics Core 4",
               "credits": 3
             }
           ],
@@ -5467,16 +5467,6 @@
         "semA": {
           "courses": [
             {
-              "code": "EF4313",
-              "title": "Corporate Finance",
-              "credits": 3
-            },
-            {
-              "code": "EF3450",
-              "title": "Finance Elective 2",
-              "credits": 3
-            },
-            {
               "code": "EF3451",
               "title": "Finance Elective 3",
               "credits": 3
@@ -5497,7 +5487,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -5525,19 +5515,24 @@
               "code": "FREE2",
               "title": "Free Elective 2",
               "credits": 3
+            },
+            {
+              "code": "EF3450",
+              "title": "Finance Elective 2",
+              "credits": 3
+            },
+            {
+              "code": "EF4313",
+              "title": "Corporate Finance",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 21
         }
       },
       "year4": {
         "semA": {
           "courses": [
-            {
-              "code": "EF4314",
-              "title": "Finance Elective 7",
-              "credits": 3
-            },
             {
               "code": "EF4321",
               "title": "Finance Elective 8",
@@ -5559,7 +5554,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -5587,9 +5582,14 @@
               "code": "FREE5",
               "title": "Free Elective 5",
               "credits": 3
+            },
+            {
+              "code": "EF4314",
+              "title": "Finance Elective 7",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       }
     }
@@ -7659,11 +7659,6 @@
               "credits": 3
             },
             {
-              "code": "MKT3608",
-              "title": "Marketing Core 6",
-              "credits": 3
-            },
-            {
               "code": "MKT3638",
               "title": "Marketing Core 7",
               "credits": 3
@@ -7684,7 +7679,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -7712,9 +7707,14 @@
               "code": "FREE2",
               "title": "Free Elective 2",
               "credits": 3
+            },
+            {
+              "code": "MKT3608",
+              "title": "Marketing Core 6",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -7723,11 +7723,6 @@
             {
               "code": "MKT4604",
               "title": "Marketing Core 9",
-              "credits": 3
-            },
-            {
-              "code": "MKT4605",
-              "title": "Marketing Core 10",
               "credits": 3
             },
             {
@@ -7746,7 +7741,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -7774,9 +7769,14 @@
               "code": "FREE5",
               "title": "Free Elective 5",
               "credits": 3
+            },
+            {
+              "code": "MKT4605",
+              "title": "Marketing Core 10",
+              "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 21
         }
       }
     }
@@ -9692,22 +9692,27 @@
               "credits": 3
             },
             {
-              "code": "CA2626",
-              "title": "CA2626",
-              "credits": 3
-            },
-            {
               "code": "CA2675",
               "title": "CA2675",
               "credits": 3
             },
             {
-              "code": "CA2627",
-              "title": "CA2627",
+              "code": "CA2744",
+              "title": "CA2744",
+              "credits": 3
+            },
+            {
+              "code": "CA2311",
+              "title": "CA2311",
+              "credits": 3
+            },
+            {
+              "code": "CA2673",
+              "title": "CA2673",
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -9717,27 +9722,22 @@
               "credits": 3
             },
             {
-              "code": "CA2673",
-              "title": "CA2673",
-              "credits": 3
-            },
-            {
-              "code": "CA2311",
-              "title": "CA2311",
-              "credits": 3
-            },
-            {
-              "code": "CA2744",
-              "title": "CA2744",
-              "credits": 3
-            },
-            {
               "code": "GE",
               "title": "Gateway Education Elective",
               "credits": 3
+            },
+            {
+              "code": "CA2627",
+              "title": "CA2627",
+              "credits": 3
+            },
+            {
+              "code": "CA2626",
+              "title": "CA2626",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       },
       "year3": {
@@ -9759,17 +9759,12 @@
               "credits": 3
             },
             {
-              "code": "CA3168",
-              "title": "CA3168",
-              "credits": 3
-            },
-            {
               "code": "CA3629",
               "title": "CA3629",
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -9797,9 +9792,14 @@
               "code": "ARCE-ELECTIVE1",
               "title": "ARCE-ELECTIVE1",
               "credits": 3
+            },
+            {
+              "code": "CA3168",
+              "title": "CA3168",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -10181,13 +10181,13 @@
               "credits": 3
             },
             {
-              "code": "CA3122",
-              "title": "CA3122",
+              "code": "GE",
+              "title": "Gateway Education Elective",
               "credits": 3
             },
             {
-              "code": "GE",
-              "title": "Gateway Education Elective",
+              "code": "CA3704",
+              "title": "CA3704",
               "credits": 3
             }
           ],
@@ -10206,11 +10206,6 @@
               "credits": 3
             },
             {
-              "code": "CA3704",
-              "title": "CA3704",
-              "credits": 3
-            },
-            {
               "code": "CA3677",
               "title": "CA3677",
               "credits": 3
@@ -10218,6 +10213,11 @@
             {
               "code": "GE",
               "title": "Gateway Education Elective",
+              "credits": 3
+            },
+            {
+              "code": "CA3122",
+              "title": "CA3122",
               "credits": 3
             }
           ],
@@ -11062,17 +11062,12 @@
               "credits": 3
             },
             {
-              "code": "CA3691",
-              "title": "CA3691",
-              "credits": 3
-            },
-            {
               "code": "CA3629",
               "title": "CA3629",
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -11100,9 +11095,14 @@
               "code": "ARSV-ELECTIVE5",
               "title": "ARSV-ELECTIVE5",
               "credits": 3
+            },
+            {
+              "code": "CA3691",
+              "title": "CA3691",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year4": {
@@ -11111,11 +11111,6 @@
             {
               "code": "CA4513",
               "title": "CA4513",
-              "credits": 3
-            },
-            {
-              "code": "CA4415",
-              "title": "CA4415",
               "credits": 3
             },
             {
@@ -11132,6 +11127,11 @@
               "code": "GE",
               "title": "Gateway Education Elective",
               "credits": 3
+            },
+            {
+              "code": "CA4424",
+              "title": "CA4424",
+              "credits": 3
             }
           ],
           "credits": 15
@@ -11141,11 +11141,6 @@
             {
               "code": "CA4513",
               "title": "CA4513",
-              "credits": 3
-            },
-            {
-              "code": "CA4424",
-              "title": "CA4424",
               "credits": 3
             },
             {
@@ -11161,6 +11156,11 @@
             {
               "code": "FREE",
               "title": "Free Elective",
+              "credits": 3
+            },
+            {
+              "code": "CA4415",
+              "title": "CA4415",
               "credits": 3
             }
           ],
@@ -15357,11 +15357,6 @@
               "credits": 3
             },
             {
-              "code": "MNE4231",
-              "title": "Nuclear Reactor Physics",
-              "credits": 3
-            },
-            {
               "code": "MAJOR-ELECTIVE",
               "title": "Major Elective 1",
               "credits": 3
@@ -15382,7 +15377,7 @@
               "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         },
         "semB": {
           "courses": [
@@ -15410,9 +15405,14 @@
               "code": "MAJOR-ELECTIVE",
               "title": "Major Elective 4",
               "credits": 3
+            },
+            {
+              "code": "MNE4231",
+              "title": "Nuclear Reactor Physics",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       }
     },
@@ -16332,11 +16332,6 @@
               "credits": 3
             },
             {
-              "code": "SYE4036",
-              "title": "Manufacturing Systems Modelling and Optimization",
-              "credits": 3
-            },
-            {
               "code": "SYE4003",
               "title": "Artificial Intelligence and Augmented Reality in Manufacturing and Operations",
               "credits": 3
@@ -16352,7 +16347,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -16375,9 +16370,14 @@
               "code": "MAJOR-ELECTIVE",
               "title": "Major Elective 5",
               "credits": 3
+            },
+            {
+              "code": "SYE4036",
+              "title": "Manufacturing Systems Modelling and Optimization",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     },
@@ -16513,8 +16513,8 @@
               "credits": 3
             },
             {
-              "code": "CAH2612",
-              "title": "Introduction to Sinology",
+              "code": "CAH2614",
+              "title": "Methods for Studying Humanities",
               "credits": 3
             }
           ],
@@ -16538,13 +16538,13 @@
               "credits": 3
             },
             {
-              "code": "CAH2614",
-              "title": "Methods for Studying Humanities",
+              "code": "EN2011",
+              "title": "English on the Move (or Foundation Elective)",
               "credits": 3
             },
             {
-              "code": "EN2011",
-              "title": "English on the Move (or Foundation Elective)",
+              "code": "CAH2612",
+              "title": "Introduction to Sinology",
               "credits": 3
             }
           ],
@@ -16565,11 +16565,6 @@
               "credits": 3
             },
             {
-              "code": "CAH2812",
-              "title": "Early and Imperial China",
-              "credits": 3
-            },
-            {
               "code": "GE-DR1",
               "title": "Gateway Education (Area 1)",
               "credits": 3
@@ -16577,6 +16572,11 @@
             {
               "code": "GE-DR2",
               "title": "Gateway Education (Area 2)",
+              "credits": 3
+            },
+            {
+              "code": "CAH2840",
+              "title": "Late Imperial and Modern China",
               "credits": 3
             }
           ],
@@ -16587,11 +16587,6 @@
             {
               "code": "CAH2142",
               "title": "Introduction to Literary Theory and Criticism (or History Stream Core)",
-              "credits": 3
-            },
-            {
-              "code": "CAH2840",
-              "title": "Late Imperial and Modern China",
               "credits": 3
             },
             {
@@ -16608,6 +16603,11 @@
               "code": "CHIS-ELEC1",
               "title": "Stream Elective 1",
               "credits": 3
+            },
+            {
+              "code": "CAH2812",
+              "title": "Early and Imperial China",
+              "credits": 3
             }
           ],
           "credits": 15
@@ -16616,11 +16616,6 @@
       "year3": {
         "semA": {
           "courses": [
-            {
-              "code": "CAH3131",
-              "title": "Classical Chinese (or History Stream Core)",
-              "credits": 3
-            },
             {
               "code": "CAH3110",
               "title": "Readings in Pre-Qin Confucianism and Daoism (or History Stream Core)",
@@ -16645,17 +16640,17 @@
               "code": "GE-DR4",
               "title": "Gateway Education (Area 4)",
               "credits": 3
+            },
+            {
+              "code": "CAH3133",
+              "title": "Introduction to Chinese Documentology (or History Stream Core)",
+              "credits": 3
             }
           ],
           "credits": 18
         },
         "semB": {
           "courses": [
-            {
-              "code": "CAH3133",
-              "title": "Introduction to Chinese Documentology (or History Stream Core)",
-              "credits": 3
-            },
             {
               "code": "CAH4150",
               "title": "Selected Readings in Chinese Shi and Ci (or History Stream Core)",
@@ -16675,6 +16670,11 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "CAH3131",
+              "title": "Classical Chinese (or History Stream Core)",
+              "credits": 3
             }
           ],
           "credits": 15
@@ -16683,11 +16683,6 @@
       "year4": {
         "semA": {
           "courses": [
-            {
-              "code": "CAH4499",
-              "title": "Capstone Project in Chinese, History and Cultural Heritage I",
-              "credits": 3
-            },
             {
               "code": "CHIS-ELEC5",
               "title": "Stream Elective 5",
@@ -16709,7 +16704,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -16737,9 +16732,14 @@
               "code": "FREE7",
               "title": "Free Elective 7",
               "credits": 3
+            },
+            {
+              "code": "CAH4499",
+              "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     },
@@ -16842,8 +16842,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CAH2612",
-                  "title": "Introduction to Sinology",
+                  "code": "CAH2614",
+                  "title": "Methods for Studying Humanities",
                   "credits": 3
                 }
               ],
@@ -16867,13 +16867,13 @@
                   "credits": 3
                 },
                 {
-                  "code": "CAH2614",
-                  "title": "Methods for Studying Humanities",
+                  "code": "EN2011",
+                  "title": "English on the Move (or Foundation Elective)",
                   "credits": 3
                 },
                 {
-                  "code": "EN2011",
-                  "title": "English on the Move (or Foundation Elective)",
+                  "code": "CAH2612",
+                  "title": "Introduction to Sinology",
                   "credits": 3
                 }
               ],
@@ -16946,11 +16946,6 @@
             "semA": {
               "courses": [
                 {
-                  "code": "CAH3131",
-                  "title": "Classical Chinese",
-                  "credits": 3
-                },
-                {
                   "code": "CAH3110",
                   "title": "Readings in Pre-Qin Confucianism and Daoism",
                   "credits": 3
@@ -16974,17 +16969,17 @@
                   "code": "GE-DR4",
                   "title": "Gateway Education (Area 4)",
                   "credits": 3
+                },
+                {
+                  "code": "CAH3133",
+                  "title": "Introduction to Chinese Documentology",
+                  "credits": 3
                 }
               ],
               "credits": 18
             },
             "semB": {
               "courses": [
-                {
-                  "code": "CAH3133",
-                  "title": "Introduction to Chinese Documentology",
-                  "credits": 3
-                },
                 {
                   "code": "CAH4150",
                   "title": "Selected Readings in Chinese Shi and Ci",
@@ -17004,6 +16999,11 @@
                   "code": "FREE2",
                   "title": "Free Elective 2",
                   "credits": 3
+                },
+                {
+                  "code": "CAH3131",
+                  "title": "Classical Chinese",
+                  "credits": 3
                 }
               ],
               "credits": 15
@@ -17012,11 +17012,6 @@
           "year4": {
             "semA": {
               "courses": [
-                {
-                  "code": "CAH4499",
-                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
-                  "credits": 3
-                },
                 {
                   "code": "CHIS-ELEC6",
                   "title": "Stream Elective 6",
@@ -17038,7 +17033,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 12
             },
             "semB": {
               "courses": [
@@ -17066,9 +17061,14 @@
                   "code": "FREE8",
                   "title": "Free Elective 8",
                   "credits": 3
+                },
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                  "credits": 3
                 }
               ],
-              "credits": 12
+              "credits": 15
             }
           }
         },
@@ -17224,8 +17224,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CAH2612",
-                  "title": "Introduction to Sinology",
+                  "code": "CAH2614",
+                  "title": "Methods for Studying Humanities",
                   "credits": 3
                 }
               ],
@@ -17249,13 +17249,13 @@
                   "credits": 3
                 },
                 {
-                  "code": "CAH2614",
-                  "title": "Methods for Studying Humanities",
+                  "code": "EN2011",
+                  "title": "English on the Move (or Foundation Elective)",
                   "credits": 3
                 },
                 {
-                  "code": "EN2011",
-                  "title": "English on the Move (or Foundation Elective)",
+                  "code": "CAH2612",
+                  "title": "Introduction to Sinology",
                   "credits": 3
                 }
               ],
@@ -17265,11 +17265,6 @@
           "year2": {
             "semA": {
               "courses": [
-                {
-                  "code": "CAH2501",
-                  "title": "Art and Visual Culture",
-                  "credits": 3
-                },
                 {
                   "code": "CAH2509",
                   "title": "History and Heritage",
@@ -17289,6 +17284,11 @@
                   "code": "GE-DR2",
                   "title": "Gateway Education (Area 2)",
                   "credits": 3
+                },
+                {
+                  "code": "CAH2840",
+                  "title": "Late Imperial and Modern China",
+                  "credits": 3
                 }
               ],
               "credits": 15
@@ -17298,11 +17298,6 @@
                 {
                   "code": "CAH2812",
                   "title": "Early and Imperial China",
-                  "credits": 3
-                },
-                {
-                  "code": "CAH2840",
-                  "title": "Late Imperial and Modern China",
                   "credits": 3
                 },
                 {
@@ -17319,6 +17314,11 @@
                   "code": "CHIS-ELEC1",
                   "title": "Stream Elective 1",
                   "credits": 3
+                },
+                {
+                  "code": "CAH2501",
+                  "title": "Art and Visual Culture",
+                  "credits": 3
                 }
               ],
               "credits": 15
@@ -17327,11 +17327,6 @@
           "year3": {
             "semA": {
               "courses": [
-                {
-                  "code": "CAH3511",
-                  "title": "Hong Kong's Culture and Heritage",
-                  "credits": 3
-                },
                 {
                   "code": "CAH3542",
                   "title": "Museum Studies",
@@ -17356,17 +17351,17 @@
                   "code": "GE-DR4",
                   "title": "Gateway Education (Area 4)",
                   "credits": 3
+                },
+                {
+                  "code": "CAH4842",
+                  "title": "History of the Modern World",
+                  "credits": 3
                 }
               ],
               "credits": 18
             },
             "semB": {
               "courses": [
-                {
-                  "code": "CAH4842",
-                  "title": "History of the Modern World",
-                  "credits": 3
-                },
                 {
                   "code": "CAH4813",
                   "title": "History of the Ancient World",
@@ -17386,6 +17381,11 @@
                   "code": "FREE1",
                   "title": "Free Elective 1",
                   "credits": 3
+                },
+                {
+                  "code": "CAH3511",
+                  "title": "Hong Kong's Culture and Heritage",
+                  "credits": 3
                 }
               ],
               "credits": 15
@@ -17394,11 +17394,6 @@
           "year4": {
             "semA": {
               "courses": [
-                {
-                  "code": "CAH4499",
-                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
-                  "credits": 3
-                },
                 {
                   "code": "CHIS-ELEC5",
                   "title": "Stream Elective 5",
@@ -17420,7 +17415,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 12
             },
             "semB": {
               "courses": [
@@ -17448,9 +17443,14 @@
                   "code": "FREE7",
                   "title": "Free Elective 7",
                   "credits": 3
+                },
+                {
+                  "code": "CAH4499",
+                  "title": "Capstone Project in Chinese, History and Cultural Heritage I",
+                  "credits": 3
                 }
               ],
-              "credits": 12
+              "credits": 15
             }
           }
         },
@@ -19031,20 +19031,20 @@
               "code": "TVB-ELEC1",
               "title": "TVB Major Elective 1",
               "credits": 3
+            },
+            {
+              "code": "COM3119",
+              "title": "International Communication",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
             {
               "code": "COM3115",
               "title": "Communication Law and Ethics",
-              "credits": 3
-            },
-            {
-              "code": "COM3119",
-              "title": "International Communication",
               "credits": 3
             },
             {
@@ -19063,7 +19063,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       },
       "year3": {
@@ -19093,9 +19093,14 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "COM4307",
+              "title": "Television News Production and Anchoring",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         },
         "semB": {
           "courses": [
@@ -19110,11 +19115,6 @@
               "credits": 3
             },
             {
-              "code": "COM4307",
-              "title": "Television News Production and Anchoring",
-              "credits": 3
-            },
-            {
               "code": "TVB-ELEC4",
               "title": "TVB Major Elective 4",
               "credits": 3
@@ -19125,17 +19125,12 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       },
       "year4": {
         "semA": {
           "courses": [
-            {
-              "code": "COM4308",
-              "title": "Television News Practicum",
-              "credits": 3
-            },
             {
               "code": "COM4309",
               "title": "Radio News Production",
@@ -19157,7 +19152,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -19180,9 +19175,14 @@
               "code": "FREE7",
               "title": "Free Elective 7",
               "credits": 3
+            },
+            {
+              "code": "COM4308",
+              "title": "Television News Practicum",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     }
@@ -19350,11 +19350,6 @@
         "semA": {
           "courses": [
             {
-              "code": "COM2103",
-              "title": "Communication Research Methods",
-              "credits": 3
-            },
-            {
               "code": "COM2202",
               "title": "Writing for the Media",
               "credits": 3
@@ -19375,7 +19370,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -19403,24 +19398,19 @@
               "code": "MDCM-ELEC3",
               "title": "MDCM Elective 3",
               "credits": 3
+            },
+            {
+              "code": "COM2103",
+              "title": "Communication Research Methods",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year3": {
         "semA": {
           "courses": [
-            {
-              "code": "COM3109",
-              "title": "Media and Communication in Chinese Contexts",
-              "credits": 3
-            },
-            {
-              "code": "COM3115",
-              "title": "Communication Law and Ethics",
-              "credits": 3
-            },
             {
               "code": "COM3119",
               "title": "International Communication",
@@ -19437,7 +19427,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 9
         },
         "semB": {
           "courses": [
@@ -19465,19 +19455,24 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
+            },
+            {
+              "code": "COM3115",
+              "title": "Communication Law and Ethics",
+              "credits": 3
+            },
+            {
+              "code": "COM3109",
+              "title": "Media and Communication in Chinese Contexts",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 21
         }
       },
       "year4": {
         "semA": {
           "courses": [
-            {
-              "code": "COM4604",
-              "title": "Communication Practicum",
-              "credits": 3
-            },
             {
               "code": "MDCM-ELEC9",
               "title": "MDCM Elective 9",
@@ -19499,7 +19494,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -19522,9 +19517,14 @@
               "code": "FREE6",
               "title": "Free Elective 6",
               "credits": 3
+            },
+            {
+              "code": "COM4604",
+              "title": "Communication Practicum",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       }
     }
@@ -20098,11 +20098,6 @@
               "credits": 3
             },
             {
-              "code": "PIA2400",
-              "title": "PIA2400",
-              "credits": 3
-            },
-            {
               "code": "GE1401",
               "title": "University English",
               "credits": 3
@@ -20113,7 +20108,7 @@
               "credits": 1
             }
           ],
-          "credits": 13
+          "credits": 10
         },
         "semB": {
           "courses": [
@@ -20141,9 +20136,14 @@
               "code": "GE1501",
               "title": "Chinese Civilisation - History and Philosophy",
               "credits": 3
+            },
+            {
+              "code": "PIA2400",
+              "title": "PIA2400",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year2": {
@@ -20155,11 +20155,6 @@
               "credits": 3
             },
             {
-              "code": "PIA2402",
-              "title": "PIA2402",
-              "credits": 3
-            },
-            {
               "code": "STREAM-CORE",
               "title": "STREAM-CORE",
               "credits": 3
@@ -20172,16 +20167,6 @@
             {
               "code": "GE",
               "title": "GE",
-              "credits": 3
-            }
-          ],
-          "credits": 15
-        },
-        "semB": {
-          "courses": [
-            {
-              "code": "PIA3032",
-              "title": "PIA3032",
               "credits": 3
             },
             {
@@ -20190,6 +20175,16 @@
               "credits": 3
             },
             {
+              "code": "PIA3032",
+              "title": "PIA3032",
+              "credits": 3
+            }
+          ],
+          "credits": 18
+        },
+        "semB": {
+          "courses": [
+            {
               "code": "STREAM-CORE",
               "title": "STREAM-CORE",
               "credits": 3
@@ -20203,9 +20198,14 @@
               "code": "GE",
               "title": "GE",
               "credits": 3
+            },
+            {
+              "code": "PIA2402",
+              "title": "PIA2402",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       },
       "year3": {
@@ -21328,17 +21328,17 @@
               "code": "FREE1",
               "title": "Free Elective 1",
               "credits": 3
-            }
-          ],
-          "credits": 15
-        },
-        "semB": {
-          "courses": [
+            },
             {
               "code": "SS3423",
               "title": "Advanced Applied Quantitative Research Methods",
               "credits": 3
-            },
+            }
+          ],
+          "credits": 18
+        },
+        "semB": {
+          "courses": [
             {
               "code": "SS3428",
               "title": "Advanced Applied Qualitative Research Methods",
@@ -21360,7 +21360,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         }
       },
       "year4": {
@@ -21377,17 +21377,12 @@
               "credits": 3
             },
             {
-              "code": "SS3419",
-              "title": "Complex Organizations",
-              "credits": 3
-            },
-            {
               "code": "FREE4",
               "title": "Free Elective 4",
               "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 9
         },
         "semB": {
           "courses": [
@@ -21415,9 +21410,14 @@
               "code": "FREE6",
               "title": "Free Elective 6",
               "credits": 3
+            },
+            {
+              "code": "SS3419",
+              "title": "Complex Organizations",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       }
     }
@@ -21497,11 +21497,6 @@
               "credits": 3
             },
             {
-              "code": "SS1024",
-              "title": "Social Problems and Interventions",
-              "credits": 3
-            },
-            {
               "code": "GE1401",
               "title": "University English",
               "credits": 3
@@ -21515,17 +21510,17 @@
               "code": "GE1601",
               "title": "Whole Person Development through Service Learning",
               "credits": 1
+            },
+            {
+              "code": "SS2033",
+              "title": "Research Methods for Behavioural Sciences",
+              "credits": 3
             }
           ],
           "credits": 16
         },
         "semB": {
           "courses": [
-            {
-              "code": "SS2033",
-              "title": "Research Methods for Behavioural Sciences",
-              "credits": 3
-            },
             {
               "code": "SS2028",
               "title": "Basic Psychology II",
@@ -21539,6 +21534,11 @@
             {
               "code": "COL-LIB",
               "title": "College Foundation - Liberal Arts Studies",
+              "credits": 3
+            },
+            {
+              "code": "SS1024",
+              "title": "Social Problems and Interventions",
               "credits": 3
             }
           ],
@@ -21634,15 +21634,10 @@
               "code": "PSY-ELEC3",
               "title": "Psychology Elective 3",
               "credits": 3
-            }
-          ],
-          "credits": 15
-        },
-        "semB": {
-          "courses": [
+            },
             {
-              "code": "SS3726",
-              "title": "Designing Experiments in Psychology",
+              "code": "SS4719",
+              "title": "Introduction to Industrial and Organizational Psychology",
               "credits": 3
             },
             {
@@ -21651,10 +21646,15 @@
               "credits": 3
             },
             {
-              "code": "SS4719",
-              "title": "Introduction to Industrial and Organizational Psychology",
+              "code": "SS3726",
+              "title": "Designing Experiments in Psychology",
               "credits": 3
-            },
+            }
+          ],
+          "credits": 24
+        },
+        "semB": {
+          "courses": [
             {
               "code": "PSY-ELEC4",
               "title": "Psychology Elective 4",
@@ -21666,7 +21666,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 6
         }
       },
       "year4": {
@@ -21681,19 +21681,9 @@
               "code": "SS3712",
               "title": "Cognitive Psychology",
               "credits": 3
-            },
-            {
-              "code": "SS3713",
-              "title": "Learning and Behaviour",
-              "credits": 3
-            },
-            {
-              "code": "SS3714",
-              "title": "Social Psychology",
-              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 6
         },
         "semB": {
           "courses": [
@@ -21711,9 +21701,19 @@
               "code": "PSY-ELEC7",
               "title": "Psychology Elective 7",
               "credits": 3
+            },
+            {
+              "code": "SS3714",
+              "title": "Social Psychology",
+              "credits": 3
+            },
+            {
+              "code": "SS3713",
+              "title": "Learning and Behaviour",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 18
         }
       }
     }
@@ -21789,11 +21789,6 @@
               "credits": 3
             },
             {
-              "code": "SS1024",
-              "title": "Social Problems and Interventions",
-              "credits": 3
-            },
-            {
               "code": "GE1401",
               "title": "University English",
               "credits": 3
@@ -21809,7 +21804,7 @@
               "credits": 1
             }
           ],
-          "credits": 16
+          "credits": 13
         },
         "semB": {
           "courses": [
@@ -21832,9 +21827,14 @@
               "code": "GE-DR1",
               "title": "Gateway Education (Area 1)",
               "credits": 3
+            },
+            {
+              "code": "SS1024",
+              "title": "Social Problems and Interventions",
+              "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 15
         }
       },
       "year2": {
@@ -23396,20 +23396,10 @@
               "code": "GE1601",
               "title": "Whole Person Development through Service Learning",
               "credits": 1
-            }
-          ],
-          "credits": 16
-        },
-        "semB": {
-          "courses": [
-            {
-              "code": "GE1401",
-              "title": "University English",
-              "credits": 3
             },
             {
-              "code": "BMS2803",
-              "title": "Biology of Cells",
+              "code": "VM2106",
+              "title": "Aquaculture and Aquatic Animal Health",
               "credits": 3
             },
             {
@@ -23418,22 +23408,27 @@
               "credits": 3
             },
             {
-              "code": "VM2106",
-              "title": "Aquaculture and Aquatic Animal Health",
+              "code": "BMS2803",
+              "title": "Biology of Cells",
               "credits": 3
             }
           ],
-          "credits": 12
+          "credits": 25
+        },
+        "semB": {
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            }
+          ],
+          "credits": 3
         }
       },
       "year2": {
         "semA": {
           "courses": [
-            {
-              "code": "BMS2805",
-              "title": "Biochemistry for Veterinary Science",
-              "credits": 3
-            },
             {
               "code": "CHEM2007B",
               "title": "Principles of Organic Chemistry",
@@ -23455,7 +23450,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -23483,31 +23478,20 @@
               "code": "VM2103",
               "title": "Animal Nutrition and Welfare",
               "credits": 3
+            },
+            {
+              "code": "BMS2805",
+              "title": "Biochemistry for Veterinary Science",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       },
       "year3": {
         "semA": {
-          "courses": [
-            {
-              "code": "VM3100",
-              "title": "Function and Dysfunction (Part 1)",
-              "credits": 9
-            },
-            {
-              "code": "VM4110",
-              "title": "Small Animal Clinical Studies 1",
-              "credits": 8
-            },
-            {
-              "code": "VM4112",
-              "title": "Anaesthesia, Analgesia and Fluid Therapy",
-              "credits": 4
-            }
-          ],
-          "credits": 21
+          "courses": [],
+          "credits": 0
         },
         "semB": {
           "courses": [
@@ -23535,9 +23519,24 @@
               "code": "BMS2806",
               "title": "Genes, Inheritance and Genetic Disorders",
               "credits": 3
+            },
+            {
+              "code": "VM4112",
+              "title": "Anaesthesia, Analgesia and Fluid Therapy",
+              "credits": 4
+            },
+            {
+              "code": "VM4110",
+              "title": "Small Animal Clinical Studies 1",
+              "credits": 8
+            },
+            {
+              "code": "VM3100",
+              "title": "Function and Dysfunction (Part 1)",
+              "credits": 9
             }
           ],
-          "credits": 20
+          "credits": 41
         }
       },
       "year4": {
@@ -23549,42 +23548,42 @@
               "credits": 9
             },
             {
-              "code": "VM4010",
-              "title": "Veterinary Practice and Professional Studies 2",
+              "code": "VM4001",
+              "title": "Clinical Pharmacology/Toxicology",
               "credits": 3
             },
-            {
-              "code": "VM4111",
-              "title": "Companion Animal Surgery",
-              "credits": 6
-            }
-          ],
-          "credits": 18
-        },
-        "semB": {
-          "courses": [
             {
               "code": "VM4000",
               "title": "Host, Agent and Defence (Part 2)",
               "credits": 9
-            },
+            }
+          ],
+          "credits": 21
+        },
+        "semB": {
+          "courses": [
             {
               "code": "VM4401",
               "title": "Research Project (Part 1)",
               "credits": 3
             },
             {
-              "code": "VM4001",
-              "title": "Clinical Pharmacology/Toxicology",
-              "credits": 3
-            },
-            {
               "code": "VM4103",
               "title": "Conservation, Zoo and Exotic Animal Medicine",
               "credits": 3
+            },
+            {
+              "code": "VM4111",
+              "title": "Companion Animal Surgery",
+              "credits": 6
+            },
+            {
+              "code": "VM4010",
+              "title": "Veterinary Practice and Professional Studies 2",
+              "credits": 3
             }
           ],
-          "credits": 18
+          "credits": 15
         }
       },
       "year5": {
@@ -23604,19 +23603,9 @@
               "code": "VM4301",
               "title": "Clinical Rotations: Part I",
               "credits": 5
-            },
-            {
-              "code": "VM4104",
-              "title": "Transboundary Animal Diseases",
-              "credits": 2
-            },
-            {
-              "code": "VM4202",
-              "title": "Aquatic Veterinary Medicine",
-              "credits": 2
             }
           ],
-          "credits": 20
+          "credits": 16
         },
         "semB": {
           "courses": [
@@ -23629,9 +23618,19 @@
               "code": "VM4011",
               "title": "Veterinary Practice and Professional Studies 3",
               "credits": 3
+            },
+            {
+              "code": "VM4202",
+              "title": "Aquatic Veterinary Medicine",
+              "credits": 2
+            },
+            {
+              "code": "VM4104",
+              "title": "Transboundary Animal Diseases",
+              "credits": 2
             }
           ],
-          "credits": 24
+          "credits": 28
         }
       },
       "year6": {
@@ -23651,19 +23650,9 @@
               "code": "VM4401",
               "title": "Research Project (Part 2)",
               "credits": 3
-            },
-            {
-              "code": "VM3004",
-              "title": "Evidence-Based Veterinary Medicine",
-              "credits": 3
-            },
-            {
-              "code": "VM3003",
-              "title": "Food Safety and Regulation",
-              "credits": 2
             }
           ],
-          "credits": 16
+          "credits": 11
         },
         "semB": {
           "courses": [
@@ -23681,9 +23670,19 @@
               "code": "VM1005",
               "title": "Clinical EMS (continued)",
               "credits": 0
+            },
+            {
+              "code": "VM3003",
+              "title": "Food Safety and Regulation",
+              "credits": 2
+            },
+            {
+              "code": "VM3004",
+              "title": "Evidence-Based Veterinary Medicine",
+              "credits": 3
             }
           ],
-          "credits": 0
+          "credits": 5
         }
       }
     }
@@ -24637,11 +24636,6 @@
               "credits": 3
             },
             {
-              "code": "SM2105",
-              "title": "Narrative Strategies & Aesthetics",
-              "credits": 3
-            },
-            {
               "code": "SM-Studio1",
               "title": "Art & Science Studio Course #1",
               "credits": 6
@@ -24649,6 +24643,11 @@
             {
               "code": "GE-DR",
               "title": "GE Course (Area 3)",
+              "credits": 3
+            },
+            {
+              "code": "SM2706",
+              "title": "Critical Theory & Socially Engaged Practices",
               "credits": 3
             }
           ],
@@ -24659,11 +24658,6 @@
             {
               "code": "GE1501",
               "title": "Chinese Civilization (Major-based)",
-              "credits": 3
-            },
-            {
-              "code": "SM2706",
-              "title": "Critical Theory & Socially Engaged Practices",
               "credits": 3
             },
             {
@@ -24684,6 +24678,11 @@
             {
               "code": "SM2716",
               "title": "Physical Computing",
+              "credits": 3
+            },
+            {
+              "code": "SM2105",
+              "title": "Narrative Strategies & Aesthetics",
               "credits": 3
             }
           ],
@@ -27803,14 +27802,9 @@
               "code": "SYE4024",
               "title": "Project Management",
               "credits": 3
-            },
-            {
-              "code": "SEE4217",
-              "title": "Waste and Wastewater Treatment Engineering",
-              "credits": 3
             }
           ],
-          "credits": 16
+          "credits": 13
         },
         "semB": {
           "courses": [
@@ -27833,9 +27827,14 @@
               "code": "SEE4204",
               "title": "Environmental Systems Modelling",
               "credits": 3
+            },
+            {
+              "code": "SEE4217",
+              "title": "Waste and Wastewater Treatment Engineering",
+              "credits": 3
             }
           ],
-          "credits": 10
+          "credits": 13
         }
       },
       "year4": {
@@ -28948,11 +28947,6 @@
               "credits": 3
             },
             {
-              "code": "SEE1006",
-              "title": "Professional Development: ESB Career Planning Workshop",
-              "credits": 0
-            },
-            {
               "code": "GE1401",
               "title": "University English",
               "credits": 3
@@ -28991,6 +28985,11 @@
               "code": "GE-DR",
               "title": "GE Courses (Distributional Requirements)",
               "credits": 6
+            },
+            {
+              "code": "SEE1006",
+              "title": "Professional Development: ESB Career Planning Workshop",
+              "credits": 0
             }
           ],
           "credits": 18
@@ -29651,11 +29650,6 @@
         "semA": {
           "courses": [
             {
-              "code": "LW4616",
-              "title": "Law of Evidence",
-              "credits": 3
-            },
-            {
               "code": "LW-ELECTIVE",
               "title": "Law Elective",
               "credits": 3
@@ -29676,7 +29670,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -29704,9 +29698,14 @@
               "code": "GE-DR",
               "title": "GE Course (Distributional Requirements)",
               "credits": 3
+            },
+            {
+              "code": "LW4616",
+              "title": "Law of Evidence",
+              "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 18
         }
       }
     },
@@ -32253,11 +32252,6 @@
         "semA": {
           "courses": [
             {
-              "code": "AC3390",
-              "title": "ESG and ESG Disclosure",
-              "credits": 3
-            },
-            {
               "code": "CA1167",
               "title": "Engineering Communication",
               "credits": 3
@@ -32278,7 +32272,7 @@
               "credits": 3
             }
           ],
-          "credits": 15
+          "credits": 12
         },
         "semB": {
           "courses": [
@@ -32306,9 +32300,14 @@
               "code": "SEE4004",
               "title": "Environmental Impact Assessment for Sustainable Development",
               "credits": 4
+            },
+            {
+              "code": "AC3390",
+              "title": "ESG and ESG Disclosure",
+              "credits": 3
             }
           ],
-          "credits": 16
+          "credits": 19
         }
       },
       "year5": {

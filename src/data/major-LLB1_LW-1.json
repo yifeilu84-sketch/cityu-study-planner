@@ -455,11 +455,6 @@
       "semA": {
         "courses": [
           {
-            "code": "LW4616",
-            "title": "Law of Evidence",
-            "credits": 3
-          },
-          {
             "code": "LW-ELECTIVE",
             "title": "Law Elective",
             "credits": 3
@@ -480,7 +475,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -508,9 +503,14 @@
             "code": "GE-DR",
             "title": "GE Course (Distributional Requirements)",
             "credits": 3
+          },
+          {
+            "code": "LW4616",
+            "title": "Law of Evidence",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     }
   },

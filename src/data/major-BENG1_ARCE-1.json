@@ -289,22 +289,27 @@
             "credits": 3
           },
           {
-            "code": "CA2626",
-            "title": "CA2626",
-            "credits": 3
-          },
-          {
             "code": "CA2675",
             "title": "CA2675",
             "credits": 3
           },
           {
-            "code": "CA2627",
-            "title": "CA2627",
+            "code": "CA2744",
+            "title": "CA2744",
+            "credits": 3
+          },
+          {
+            "code": "CA2311",
+            "title": "CA2311",
+            "credits": 3
+          },
+          {
+            "code": "CA2673",
+            "title": "CA2673",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [
@@ -314,27 +319,22 @@
             "credits": 3
           },
           {
-            "code": "CA2673",
-            "title": "CA2673",
-            "credits": 3
-          },
-          {
-            "code": "CA2311",
-            "title": "CA2311",
-            "credits": 3
-          },
-          {
-            "code": "CA2744",
-            "title": "CA2744",
-            "credits": 3
-          },
-          {
             "code": "GE",
             "title": "Gateway Education Elective",
             "credits": 3
+          },
+          {
+            "code": "CA2627",
+            "title": "CA2627",
+            "credits": 3
+          },
+          {
+            "code": "CA2626",
+            "title": "CA2626",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     },
     "year3": {
@@ -356,17 +356,12 @@
             "credits": 3
           },
           {
-            "code": "CA3168",
-            "title": "CA3168",
-            "credits": 3
-          },
-          {
             "code": "CA3629",
             "title": "CA3629",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -394,9 +389,14 @@
             "code": "ARCE-ELECTIVE1",
             "title": "ARCE-ELECTIVE1",
             "credits": 3
+          },
+          {
+            "code": "CA3168",
+            "title": "CA3168",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year4": {
