@@ -1113,7 +1113,7 @@ test('academic routes, search, and related research matching are wired', async (
 
   assert.ok(app.includes('path="/academic"'))
   assert.ok(app.includes('path="/academic/:profileId"'))
-  assert.ok(layout.includes('to="/academic"'))
+  assert.ok(layout.includes("to: '/academic'"))
   assert.ok(home.includes('academicProfiles'))
   assert.ok(majorPage.includes('Research Reference'))
   assert.ok(postgraduateDetail.includes('Research Reference'))
@@ -1142,11 +1142,42 @@ test('visual polish design system is wired into core pages', () => {
     assert.ok(appCss.includes(token), `App.css should define ${token}`)
   }
   assert.ok(layout.includes('app-shell'))
-  assert.ok(layout.includes('toolbar-link'))
-  assert.ok(home.includes('dashboard-hero'))
+  assert.ok(layout.includes('nav-link'))
+  assert.ok(home.includes('planner-command-center'))
   assert.ok(home.includes('metric-card'))
   assert.ok(academicPage.includes('control-surface'))
   assert.ok(researchPanel.includes('interactive-card'))
+})
+
+test('premium planner workspace design is wired into primary flows', () => {
+  const appCss = readFileSync(new URL('../src/App.css', import.meta.url), 'utf8')
+  const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const majorPage = readFileSync(new URL('../src/pages/MajorPage.tsx', import.meta.url), 'utf8')
+  const editor = readFileSync(new URL('../src/components/StudyPlanEditor.tsx', import.meta.url), 'utf8')
+
+  for (const token of [
+    '--color-planner-gold',
+    '.app-sidebar',
+    '.planner-command-center',
+    '.insight-strip',
+    '.programme-hero',
+    '.semester-card',
+    '.course-pool-panel',
+    '.premium-action',
+    '@media (prefers-reduced-motion: reduce)',
+  ]) {
+    assert.ok(appCss.includes(token), `App.css should define ${token}`)
+  }
+  assert.ok(layout.includes('NavLink'))
+  assert.ok(layout.includes('app-sidebar'))
+  assert.ok(home.includes('planner-command-center'))
+  assert.ok(home.includes('insight-strip'))
+  assert.ok(home.includes('premium-action'))
+  assert.ok(majorPage.includes('programme-hero'))
+  assert.ok(majorPage.includes('semester-card'))
+  assert.ok(editor.includes('course-pool-panel'))
+  assert.ok(editor.includes('semester-card'))
 })
 
 test('welcome modal appears once per newly opened browser session but not after refresh', async () => {

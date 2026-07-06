@@ -47,8 +47,8 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
   return (
     <div
       ref={setNodeRef}
-      className={`bg-white rounded-xl shadow-sm border-2 p-3 sm:p-4 transition-colors ${
-        isOver ? 'border-cityu-accent bg-cityu-accent/5' : 'border-gray-100'
+      className={`semester-card border-2 p-3 sm:p-4 transition-colors ${
+        isOver ? 'border-cityu-accent bg-cityu-accent/5' : 'border-transparent'
       }`}
     >
       <div className="flex items-center justify-between mb-2 sm:mb-3 pb-2 border-b border-gray-100">
@@ -304,7 +304,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
         </div>
 
         {/* Course Pool */}
-        <div className={`lg:w-72 shrink-0 bg-white rounded-xl shadow-sm border border-gray-100 max-h-[50dvh] lg:max-h-[80vh] overflow-y-auto overscroll-contain ${poolOpen ? '' : 'hidden lg:block'}`}>
+        <div className={`course-pool-panel lg:w-80 shrink-0 max-h-[50dvh] lg:max-h-[80vh] overflow-y-auto overscroll-contain ${poolOpen ? '' : 'hidden lg:block'}`}>
           {/* Mobile pool toggle - sticky header */}
           <button
             onClick={() => setPoolOpen(!poolOpen)}

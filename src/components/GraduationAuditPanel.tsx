@@ -56,7 +56,7 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
   const shownSections = compact ? audit.sections.filter(section => section.missingCredits > 0 || section.missingCourseCodes.length > 0) : audit.sections
 
   return (
-    <section className={`rounded-xl border p-4 sm:p-5 ${tone.box}`}>
+    <section className={`audit-panel border p-4 sm:p-5 ${tone.box}`}>
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div className="flex items-start gap-3 min-w-0">
           <Icon className={`w-5 h-5 mt-0.5 shrink-0 ${tone.text}`} />

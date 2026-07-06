@@ -114,7 +114,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="dashboard-hero mb-8">
+      <div className="planner-command-center mb-8">
         <div className="section-eyebrow mb-3 justify-center">
           <Database className="h-4 w-4" />
           Academic planning intelligence
@@ -128,7 +128,7 @@ export default function Home() {
         <p className="text-gray-500 text-sm">
           覆盖 {majorIndex.colleges.length} 个学院 / 学校 · {totalMajors} 个本科项目
         </p>
-        <div className="mt-5 grid grid-cols-3 gap-2">
+        <div className="insight-strip mt-5">
           <div className="metric-card">
             <div className="metric-value">{majorIndex.colleges.length}</div>
             <div className="metric-label">Colleges</div>
@@ -382,7 +382,7 @@ export default function Home() {
               </div>
               <Link
                 to="/coverage"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+                className="premium-action"
               >
                 查看来源
                 <ShieldCheck className="w-4 h-4" />

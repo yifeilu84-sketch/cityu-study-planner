@@ -141,7 +141,7 @@ export default function PostgraduatePage() {
         返回首页
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4 sm:p-6">
+      <section className="programme-hero p-4 sm:p-6">
         <span className="sr-only">本科 study plan 审查</span>
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5">
           <div className="max-w-3xl">
@@ -262,7 +262,7 @@ export default function PostgraduatePage() {
               <Link
                 key={programme.code}
                 to={`/postgraduate/${programme.code}`}
-                className="group rounded-lg border border-gray-100 bg-white p-4 shadow-sm hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+                className="interactive-card group block p-4 hover:bg-cityu-accent/5"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0">
@@ -315,7 +315,7 @@ export default function PostgraduatePage() {
         </div>
 
         <aside className="space-y-4">
-          <section className="bg-white border border-amber-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-2">
               <AlertTriangle className="w-5 h-5 text-amber-600" />
               <h2 className="font-bold text-gray-800">来源标注</h2>
@@ -325,7 +325,7 @@ export default function PostgraduatePage() {
             </p>
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-3">
               <ShieldCheck className="w-5 h-5 text-cityu-accent" />
               <h2 className="font-bold text-gray-800">官方入口</h2>
@@ -349,7 +349,7 @@ export default function PostgraduatePage() {
             </div>
           </section>
 
-          <section className="bg-white border border-gray-100 rounded-lg shadow-sm p-4">
+          <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-3">
               <Microscope className="w-5 h-5 text-cityu-accent" />
               <h2 className="font-bold text-gray-800">覆盖说明</h2>

@@ -85,7 +85,7 @@ export default function GEPage() {
         返回首页
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-6">
+      <section className="planner-command-center p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
@@ -232,7 +232,7 @@ export default function GEPage() {
           return (
             <article
               key={item.code}
-              className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 transition-all hover:border-cityu-accent hover:shadow-md"
+              className="interactive-card p-4 transition-all hover:border-cityu-accent hover:shadow-md"
             >
               <div className="flex items-start justify-between gap-3 mb-2">
                 <button
@@ -309,7 +309,7 @@ export default function GEPage() {
       </div>
 
       {visibleCourses.length === 0 && (
-        <div className="text-center py-12 text-gray-500 bg-white border border-gray-100 rounded-xl">
+        <div className="surface-panel text-center py-12 text-gray-500">
           没有找到匹配的 GE 课程
         </div>
       )}
