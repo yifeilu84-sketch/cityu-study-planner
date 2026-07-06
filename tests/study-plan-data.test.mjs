@@ -326,6 +326,99 @@ test('postgraduate study plans place real courses only in confirmed offering sem
   assert.deepEqual(conflicts, [])
 })
 
+test('plan risk audit explains offering, prerequisite, load, GE and cross-term issues', async () => {
+  const { auditPlanRisks } = await import('../src/utils/planRiskAudit.ts')
+  const syntheticCourses = {
+    ...courses,
+    TEST1000: {
+      code: 'TEST1000',
+      title: 'Synthetic Foundation',
+      credits: 3,
+      department: 'Test',
+      prerequisites: [],
+      semester: 'Semester A 2026/27',
+      assessment: {},
+      pdfUrl: '',
+      courseUrl: '',
+    },
+    TEST2000: {
+      code: 'TEST2000',
+      title: 'Synthetic Semester B Course',
+      credits: 3,
+      department: 'Test',
+      prerequisites: ['TEST1000'],
+      prerequisitesRaw: 'TEST1000',
+      semester: 'Semester B 2026/27',
+      assessment: {},
+      pdfUrl: '',
+      courseUrl: '',
+    },
+    TEST3000: {
+      code: 'TEST3000',
+      title: 'Synthetic Suspended Course',
+      credits: 3,
+      department: 'Test',
+      prerequisites: [],
+      semester: 'Not offering in current academic year',
+      assessment: {},
+      pdfUrl: '',
+      courseUrl: '',
+    },
+    TEST4999: {
+      code: 'TEST4999',
+      title: 'Synthetic Final Year Project',
+      credits: 6,
+      department: 'Test',
+      prerequisites: [],
+      semester: 'Semester A 2026/27, Semester B 2026/27',
+      assessment: {},
+      pdfUrl: '',
+      courseUrl: '',
+    },
+  }
+  const plan = [
+    {
+      year: 1,
+      sem: 'A',
+      courses: [
+        { code: 'TEST2000', title: 'Synthetic Semester B Course', credits: 3, category: 'majorCore', semester: '' },
+        { code: 'TEST3000', title: 'Synthetic Suspended Course', credits: 3, category: 'majorCore', semester: '' },
+        { code: 'TEST4999', title: 'Synthetic Final Year Project', credits: 3, category: 'majorCore', semester: '' },
+        { code: 'GE1401', title: 'University English', credits: 3, category: 'ge', semester: '' },
+        { code: 'GE1501', title: 'Chinese Civilisation - History and Philosophy', credits: 3, category: 'ge', semester: '' },
+        { code: 'GE1601', title: 'Whole-Person Development', credits: 1, category: 'ge', semester: '' },
+        { code: 'FREE1', title: 'Free Elective', credits: 9, category: 'freeElective', semester: '' },
+      ],
+      totalCredits: 25,
+    },
+    {
+      year: 1,
+      sem: 'B',
+      courses: [
+        { code: 'TEST4999', title: 'Synthetic Final Year Project', credits: 3, category: 'majorCore', semester: '' },
+      ],
+      totalCredits: 3,
+    },
+  ]
+
+  const risks = auditPlanRisks({
+    plan,
+    courses: syntheticCourses,
+    ge: {
+      missingAreas: ['Area 2'],
+      missingCredits: 6,
+    },
+  })
+
+  assert.equal(risks.status, 'danger')
+  assert.ok(risks.issues.some((issue) => issue.kind === 'offering-term' && issue.code === 'TEST2000' && issue.suggestion.includes('Semester B')))
+  assert.ok(risks.issues.some((issue) => issue.kind === 'not-offering' && issue.code === 'TEST3000'))
+  assert.ok(risks.issues.some((issue) => issue.kind === 'prerequisite' && issue.code === 'TEST2000' && issue.codes.includes('TEST1000')))
+  assert.ok(risks.issues.some((issue) => issue.kind === 'semester-load' && issue.severity === 'danger'))
+  assert.ok(risks.issues.some((issue) => issue.kind === 'ge-area' && issue.message.includes('Area 2')))
+  assert.ok(risks.issues.some((issue) => issue.kind === 'cross-term-project' && issue.code === 'TEST4999' && issue.severity === 'info'))
+})
+
 test('graduation audit catches removed required course and GE area gaps', async () => {
   const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
   const bme = major('BENG1_BME-1')
@@ -610,12 +703,28 @@ test('graduation audit panel is wired into major and edit views', () => {
 
   assert.ok(panel.includes('毕业要求自检'))
   assert.ok(panel.includes('跨学期'))
+  assert.ok(panel.includes('PlanRiskPanel'))
   assert.ok(panel.includes('audit.totalCredits.planned'))
   assert.ok(majorPage.includes('GraduationAuditPanel'))
   assert.ok(majorPage.includes('auditGraduationPlan'))
   assert.ok(majorPage.includes("void import('../data/courses.json')"))
   assert.ok(editor.includes('GraduationAuditPanel'))
   assert.ok(editor.includes('auditGraduationPlan'))
+})
+
+test('plan risk panel is wired into undergraduate and postgraduate planning views', () => {
+  const panel = readFileSync(new URL('../src/components/PlanRiskPanel.tsx', import.meta.url), 'utf8')
+  const postgraduatePage = readFileSync(new URL('../src/pages/PostgraduateDetailPage.tsx', import.meta.url), 'utf8')
+  const postgraduateEditor = readFileSync(new URL('../src/components/PostgraduatePlanEditor.tsx', import.meta.url), 'utf8')
+
+  assert.ok(panel.includes('规划风险'))
+  assert.ok(panel.includes('建议'))
+  assert.ok(postgraduatePage.includes('auditPlanRisks'))
+  assert.ok(postgraduatePage.includes('studyPlanToRiskSemesters'))
+  assert.ok(postgraduatePage.includes('PlanRiskPanel'))
+  assert.ok(postgraduateEditor.includes('auditPlanRisks'))
+  assert.ok(postgraduateEditor.includes('studyPlanToRiskSemesters'))
+  assert.ok(postgraduateEditor.includes('PlanRiskPanel'))
 })
 
 test('global search returns majors and real courses while excluding placeholders', async () => {

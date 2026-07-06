@@ -1,6 +1,7 @@
 import type { Course, Major, MajorCourse, MajorRequirements } from '../types'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 import { DSE_CODES, getGEArea, isRequiredGE } from './editPlan.ts'
+import { auditPlanRisks, type PlanRiskSummary } from './planRiskAudit.ts'
 import { getStudyPlanSourceStatus, type SourceStatusKind } from './sourceStatus.ts'
 
 type AuditSeverity = 'info' | 'warning' | 'danger'
@@ -74,6 +75,7 @@ export interface GraduationAudit {
   }
   duplicates: { code: string; count: number }[]
   splitCourses: { code: string; count: number; plannedCredits: number; catalogueCredits: number }[]
+  planRisks: PlanRiskSummary
   warnings: AuditWarning[]
 }
 
@@ -578,6 +580,16 @@ export function auditGraduationPlan(
   const ge = buildGEAudit(reqs, plannedCourses, plannedCodes, courses)
   const duplicates = buildDuplicateAudit(plannedCourses, courses, reqs)
   const splitCourses = buildSplitCourseAudit(plannedCourses, courses, reqs)
+  const planRisks = auditPlanRisks({
+    plan,
+    courses,
+    ge: {
+      missingAreas: ge.missingAreas,
+      missingCredits: ge.missingCredits,
+      missingRequiredCodes: ge.missingRequiredCodes,
+    },
+    splitCourses,
+  })
   const warnings: AuditWarning[] = []
 
   const sourceWarning = sourceConfidenceWarning(sourceStatus.kind)
@@ -661,6 +673,7 @@ export function auditGraduationPlan(
     ge,
     duplicates,
     splitCourses,
+    planRisks,
     warnings,
   }
 }

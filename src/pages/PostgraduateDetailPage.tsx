@@ -16,9 +16,11 @@ import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import pgCoursesData from '../data/pg-courses.json'
 import academicProfilesJson from '../data/academic-profiles.json'
 import CourseDetailModal from '../components/CourseDetailModal'
+import PlanRiskPanel from '../components/PlanRiskPanel'
 import PostgraduatePlanEditor from '../components/PostgraduatePlanEditor'
 import ResearchReferencePanel from '../components/ResearchReferencePanel'
 import { findRelatedAcademicProfiles } from '../utils/academicProfiles.ts'
+import { auditPlanRisks, studyPlanToRiskSemesters } from '../utils/planRiskAudit.ts'
 import type { AcademicProfilesData, Course, MajorCourse, PostgraduateProgramme, StudyPlan } from '../types'
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
@@ -116,6 +118,9 @@ export default function PostgraduateDetailPage() {
   const studyPlanVariants = programme?.studyPlanVariants ?? []
   const activePlan = selectedVariant?.studyPlan ?? programme?.studyPlan
   const coursePool = useMemo(() => (programme ? coursePoolFor(programme) : []), [programme])
+  const planRisks = useMemo(() => (
+    activePlan ? auditPlanRisks({ plan: studyPlanToRiskSemesters(activePlan), courses: pgCourses }) : null
+  ), [activePlan])
   const isDiy = programme?.sourceStatus.kind !== 'official-sample'
   const relatedAcademicProfiles = useMemo(() => (
     programme ? findRelatedAcademicProfiles(academicData.profiles, programme, { limit: 5 }) : []
@@ -278,6 +283,12 @@ export default function PostgraduateDetailPage() {
                 </button>
               </div>
             </div>
+
+            {planRisks ? (
+              <div className="mb-4">
+                <PlanRiskPanel summary={planRisks} compact />
+              </div>
+            ) : null}
 
             {editMode ? (
               <PostgraduatePlanEditor

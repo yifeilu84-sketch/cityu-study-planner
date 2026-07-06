@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Download, Plus, RotateCcw, Trash2 } from 'lucide-react'
+import PlanRiskPanel from './PlanRiskPanel'
 import type { Course, MajorCourse, PostgraduateProgramme, StudyPlan, StudyPlanSemester } from '../types'
+import { auditPlanRisks, studyPlanToRiskSemesters } from '../utils/planRiskAudit.ts'
 
 const SEMESTERS = [
   ['semA', 'Semester A'],
@@ -117,6 +119,10 @@ export default function PostgraduatePlanEditor({
         0
       ),
     [plan]
+  )
+  const planRisks = useMemo(
+    () => auditPlanRisks({ plan: studyPlanToRiskSemesters(plan), courses: pgCourses }),
+    [plan, pgCourses]
   )
 
   useEffect(() => {
@@ -299,6 +305,8 @@ export default function PostgraduatePlanEditor({
         <span className="font-semibold text-gray-700">Local DIY total</span>
         <span className="font-bold text-cityu-accent">{totalCredits} CU</span>
       </div>
+
+      <PlanRiskPanel summary={planRisks} compact />
 
       <div className="space-y-4">
         {planEntries(plan).map(({ key, label, year }) => (

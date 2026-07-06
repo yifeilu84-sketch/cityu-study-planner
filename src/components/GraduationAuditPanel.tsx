@@ -1,4 +1,5 @@
 import { AlertTriangle, CheckCircle2, Info, XCircle } from 'lucide-react'
+import PlanRiskPanel from './PlanRiskPanel'
 import type { GraduationAudit, AuditWarning } from '../utils/graduationAudit'
 
 interface Props {
@@ -126,6 +127,10 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
           </div>
         </div>
       )}
+
+      <div className="mt-4">
+        <PlanRiskPanel summary={audit.planRisks} compact={compact} />
+      </div>
 
       {shownSections.length > 0 && (
         <div className="mt-4 space-y-2">
