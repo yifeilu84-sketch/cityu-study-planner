@@ -1,26 +1,15 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, BookOpen, Building2, Database, GitCompareArrows, GraduationCap, Microscope, Search, ShieldCheck, Users } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
+import type { CSSProperties } from 'react'
 import majorIndex from '../data/majors-index.json'
 import CourseDetailModal from '../components/CourseDetailModal'
 import type { Course } from '../types'
 import type { SearchIndex, SearchResults } from '../utils/searchIndex.ts'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
+import { getCollegeThemeStyle } from '../utils/collegeThemes.ts'
 
 type SourceFilter = SourceStatusKind | 'all'
-
-const COLLEGE_COLORS: Record<string, string> = {
-  'college-of-biomedicine': 'bg-rose-100 text-rose-800 border-rose-200',
-  'college-of-business': 'bg-amber-100 text-amber-800 border-amber-200',
-  'college-of-computing': 'bg-blue-100 text-blue-800 border-blue-200',
-  'college-of-engineering': 'bg-emerald-100 text-emerald-800 border-emerald-200',
-  'college-of-liberal-arts-and-social-sciences': 'bg-violet-100 text-violet-800 border-violet-200',
-  'college-of-science': 'bg-cyan-100 text-cyan-800 border-cyan-200',
-  'jockey-club-college-of-veterinary-medicine-and-life-sciences': 'bg-teal-100 text-teal-800 border-teal-200',
-  'school-of-creative-media': 'bg-fuchsia-100 text-fuchsia-800 border-fuchsia-200',
-  'school-of-energy-and-environment': 'bg-lime-100 text-lime-800 border-lime-200',
-  'school-of-law': 'bg-indigo-100 text-indigo-800 border-indigo-200',
-}
 
 const SOURCE_FILTERS: { kind: SourceFilter; label: string }[] = [
   { kind: 'all', label: '全部来源' },
@@ -456,25 +445,28 @@ export default function Home() {
               const majorCount = getMajorCount(college)
               const deptCount = college.departments?.length || 0
               const isSchool = college.type === 'school'
-              const colorClass = COLLEGE_COLORS[college.id] || 'bg-gray-100 text-gray-800 border-gray-200'
+              const themeStyle = getCollegeThemeStyle(college.id) as CSSProperties
 
               return (
                 <Link
                   key={college.id}
                   to={`/college/${college.id}`}
-                  className={`group block rounded-lg border-2 p-5 transition-colors hover:shadow-md active:scale-[0.98] ${colorClass}`}
+                  className="college-card group"
+                  style={themeStyle}
                 >
-                  <div className="flex items-start justify-between mb-3">
-                    <Building2 className="w-6 h-6 opacity-70" />
-                    <span className="text-xs font-medium px-2 py-1 rounded-full bg-white/60">
+                  <div className="college-card-header">
+                    <span className="college-icon-shell">
+                      <Building2 className="w-5 h-5" />
+                    </span>
+                    <span className="college-count-pill">
                       {majorCount} 个专业
                     </span>
                   </div>
-                  <h2 className="font-bold text-lg mb-1">{college.name}</h2>
-                  <p className="text-sm opacity-70">
+                  <h2 className="college-card-title">{college.name}</h2>
+                  <p className="college-card-meta">
                     {isSchool ? '独立学院 / 学校' : `${deptCount} 个学系`}
                   </p>
-                  <div className="mt-3 flex items-center gap-1 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="college-card-link">
                     查看详情 <ArrowRight className="w-4 h-4" />
                   </div>
                 </Link>

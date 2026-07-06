@@ -1,6 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, GraduationCap, BookOpen } from 'lucide-react'
+import type { CSSProperties } from 'react'
 import majorIndex from '../data/majors-index.json'
+import { getCollegeThemeStyle } from '../utils/collegeThemes.ts'
 
 export default function CollegePage() {
   const { collegeId } = useParams<{ collegeId: string }>()
@@ -21,6 +23,7 @@ export default function CollegePage() {
   const majors = (college.majors && college.majors.length > 0)
     ? college.majors
     : (college.departments || []).flatMap(d => d.majors)
+  const themeStyle = getCollegeThemeStyle(college.id) as CSSProperties
 
   return (
     <div>
@@ -29,29 +32,39 @@ export default function CollegePage() {
         返回首页
       </Link>
 
-      <div className="mb-6 sm:mb-8">
-        <h1 className="text-2xl sm:text-3xl font-bold text-cityu-dark mb-2">{college.name}</h1>
-        <p className="text-gray-500">
-          {isSchool ? `${majors.length} 个本科专业` : `${(college.departments || []).length} 个学系 · ${majors.length} 个本科专业`}
-        </p>
+      <div className="college-detail-hero mb-6 sm:mb-8" style={themeStyle}>
+        <div>
+          <div className="section-eyebrow mb-3">
+            <GraduationCap className="h-4 w-4" />
+            Undergraduate programme directory
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-bold text-cityu-dark mb-2">{college.name}</h1>
+          <p className="text-gray-600">
+            {isSchool ? `${majors.length} 个本科专业` : `${(college.departments || []).length} 个学系 · ${majors.length} 个本科专业`}
+          </p>
+        </div>
+        <div className="college-hero-stat">
+          <span>{majors.length}</span>
+          <small>UG Majors</small>
+        </div>
       </div>
 
       <div className="space-y-8">
         {isSchool ? (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
+          <div className="college-section-panel">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {majors.map(major => (
                 <Link
                   key={major.code}
                   to={`/major/${major.code}`}
-                  className="group flex items-center gap-3 p-4 rounded-lg border border-gray-100 hover:border-cityu-accent hover:shadow-sm transition-all active:bg-gray-50"
+                  className="major-link-card group"
                 >
                   <GraduationCap className="w-5 h-5 text-gray-400 group-hover:text-cityu-accent transition-colors" />
                   <div className="flex-1 min-w-0">
                     <div className="font-medium text-gray-800 group-hover:text-cityu-accent transition-colors truncate">
                       {major.title}
                     </div>
-                    <div className="text-xs text-gray-400 mt-0.5">{major.code}</div>
+                    <div className="major-code-chip">{major.code}</div>
                   </div>
                 </Link>
               ))}
@@ -59,7 +72,7 @@ export default function CollegePage() {
           </div>
         ) : (
           (college.departments || []).map(dept => (
-            <div key={dept.id} className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
+            <div key={dept.id} className="college-section-panel">
               <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-accent" />
                 {dept.name}
@@ -70,14 +83,14 @@ export default function CollegePage() {
                   <Link
                     key={major.code}
                     to={`/major/${major.code}`}
-                    className="group flex items-center gap-3 p-4 rounded-lg border border-gray-100 hover:border-cityu-accent hover:shadow-sm transition-all"
+                    className="major-link-card group"
                   >
                     <GraduationCap className="w-5 h-5 text-gray-400 group-hover:text-cityu-accent transition-colors" />
                     <div className="flex-1 min-w-0">
                       <div className="font-medium text-gray-800 group-hover:text-cityu-accent transition-colors truncate">
                         {major.title}
                       </div>
-                      <div className="text-xs text-gray-400 mt-0.5">{major.code}</div>
+                      <div className="major-code-chip">{major.code}</div>
                     </div>
                   </Link>
                 ))}

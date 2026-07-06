@@ -406,6 +406,213 @@ select:focus-visible {
   min-width: 0;
 }
 
+.college-card {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 11rem;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgb(var(--college-accent-rgb, 87 83 78) / 0.22);
+  border-radius: 14px;
+  background:
+    linear-gradient(118deg, rgb(var(--college-accent-rgb, 87 83 78) / 0.11), transparent 38%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96) 0%, rgba(250, 247, 242, 0.92) 58%, rgb(var(--college-secondary-rgb, 185 28 28) / 0.08) 100%);
+  padding: 1.05rem;
+  color: var(--college-ink, #1f2937);
+  box-shadow: 0 16px 34px rgba(17, 17, 17, 0.075);
+  text-decoration: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.college-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgb(var(--college-accent-rgb, 87 83 78) / 0.075) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--college-accent-rgb, 87 83 78) / 0.055) 1px, transparent 1px);
+  background-size: 30px 30px;
+  mask-image: linear-gradient(140deg, rgba(0, 0, 0, 0.5), transparent 72%);
+}
+
+.college-card::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, rgb(var(--college-accent-rgb, 87 83 78)), rgb(var(--college-secondary-rgb, 185 28 28)));
+}
+
+.college-card:hover,
+.college-card:focus-visible {
+  border-color: rgb(var(--college-accent-rgb, 87 83 78) / 0.42);
+  box-shadow: 0 22px 46px rgba(17, 17, 17, 0.12);
+  transform: translateY(-2px);
+}
+
+.college-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.college-icon-shell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  flex-shrink: 0;
+  border: 1px solid rgb(var(--college-accent-rgb, 87 83 78) / 0.2);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.74);
+  color: rgb(var(--college-accent-rgb, 87 83 78));
+  box-shadow: 0 10px 20px rgb(var(--college-accent-rgb, 87 83 78) / 0.12);
+}
+
+.college-count-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.65rem;
+  max-width: 8rem;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.68);
+  padding: 0.28rem 0.58rem;
+  color: var(--college-ink, #1f2937);
+  font-size: 0.74rem;
+  font-weight: 800;
+  white-space: nowrap;
+  box-shadow: 0 8px 18px rgba(17, 17, 17, 0.055);
+}
+
+.college-card-title {
+  color: var(--college-ink, #1f2937);
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.college-card-meta {
+  margin-top: 0.45rem;
+  color: #5f5a54;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.college-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  color: rgb(var(--college-accent-rgb, 87 83 78));
+  font-size: 0.88rem;
+  font-weight: 850;
+}
+
+.college-card:hover .college-card-link,
+.college-card:focus-visible .college-card-link {
+  color: var(--college-ink, #1f2937);
+}
+
+.college-detail-hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  gap: 1rem;
+  overflow: hidden;
+  border: 1px solid rgb(var(--college-accent-rgb, 87 83 78) / 0.24);
+  border-radius: 14px;
+  background:
+    linear-gradient(90deg, rgb(var(--college-accent-rgb, 87 83 78) / 0.11), transparent 44%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(250, 247, 242, 0.9));
+  padding: 1.1rem;
+  box-shadow: var(--shadow-panel);
+}
+
+.college-detail-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-top: 3px solid rgb(var(--college-accent-rgb, 87 83 78) / 0.86);
+  background-image:
+    linear-gradient(rgb(var(--college-accent-rgb, 87 83 78) / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--college-accent-rgb, 87 83 78) / 0.045) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(135deg, rgba(0, 0, 0, 0.48), transparent 78%);
+}
+
+.college-hero-stat {
+  display: inline-flex;
+  width: max-content;
+  min-width: 8.5rem;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(var(--college-accent-rgb, 87 83 78) / 0.16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 0.85rem 1rem;
+  box-shadow: 0 12px 26px rgba(17, 17, 17, 0.065);
+}
+
+.college-hero-stat span {
+  color: var(--college-ink, #1f2937);
+  font-size: 1.55rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.college-hero-stat small {
+  margin-top: 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.college-section-panel {
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(250, 247, 242, 0.88));
+  padding: 1rem;
+  box-shadow: var(--shadow-panel);
+}
+
+.major-link-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: 0;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 0.95rem;
+  box-shadow: 0 8px 20px rgba(17, 17, 17, 0.045);
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.major-link-card:hover,
+.major-link-card:focus-visible {
+  border-color: rgba(185, 28, 28, 0.32);
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgba(17, 17, 17, 0.08);
+  transform: translateY(-1px);
+}
+
+.major-code-chip {
+  margin-top: 0.35rem;
+  color: #78716c;
+  font-size: 0.74rem;
+  font-weight: 750;
+}
+
 .premium-action:hover,
 .premium-action:focus-visible {
   color: #ffffff;
@@ -494,6 +701,16 @@ select:focus-visible {
   .planner-command-center,
   .programme-hero {
     padding: 1.5rem;
+  }
+
+  .college-detail-hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .college-section-panel {
+    padding: 1.25rem;
   }
 
   .insight-strip {

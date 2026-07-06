@@ -1135,16 +1135,21 @@ test('visual polish design system is wired into core pages', () => {
   const appCss = readFileSync(new URL('../src/App.css', import.meta.url), 'utf8')
   const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
   const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const collegePage = readFileSync(new URL('../src/pages/CollegePage.tsx', import.meta.url), 'utf8')
   const academicPage = readFileSync(new URL('../src/pages/AcademicPage.tsx', import.meta.url), 'utf8')
   const researchPanel = readFileSync(new URL('../src/components/ResearchReferencePanel.tsx', import.meta.url), 'utf8')
 
-  for (const token of ['--color-cityu-ink', '--surface-panel', '.dashboard-hero', '.toolbar-link', '.metric-card', '.interactive-card']) {
+  for (const token of ['--color-cityu-ink', '--surface-panel', '.dashboard-hero', '.toolbar-link', '.metric-card', '.interactive-card', '.college-card', '.college-detail-hero']) {
     assert.ok(appCss.includes(token), `App.css should define ${token}`)
   }
   assert.ok(layout.includes('app-shell'))
   assert.ok(layout.includes('nav-link'))
   assert.ok(home.includes('planner-command-center'))
   assert.ok(home.includes('metric-card'))
+  assert.ok(home.includes('getCollegeThemeStyle'))
+  assert.ok(home.includes('college-card'))
+  assert.ok(!home.includes('bg-rose-100'), 'College cards should not fall back to flat Tailwind color blocks')
+  assert.ok(collegePage.includes('college-detail-hero'))
   assert.ok(academicPage.includes('control-surface'))
   assert.ok(researchPanel.includes('interactive-card'))
 })
