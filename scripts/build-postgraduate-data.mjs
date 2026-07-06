@@ -4433,12 +4433,12 @@ const p53StudyPlanVariants = [
     sourceStatus: clone(SOURCE.officialSample),
     studyPlan: studyPlanFromYears([
       {
-        semA: ['CS5222', 'CS5351', 'CS5481', 'CS5491', 'CS6534'].map((code) => ref(code)),
+        semA: ['CS5222', 'CS5351', 'CS5481', 'CS5489', 'CS6534'].map((code) => ref(code)),
         semB: [
           ref('CS6520', { credits: 3, remarks: 'Project, first part' }),
           ref('CS5188'),
           ref('CS5483'),
-          ref('CS5489'),
+          ref('CS5491'),
         ],
         summer: [ref('CS6520', { credits: 3, title: 'Project (continued)', remarks: 'Project continued' })],
       },
@@ -4451,8 +4451,8 @@ const p53StudyPlanVariants = [
     sourceStatus: clone(SOURCE.officialSample),
     studyPlan: studyPlanFromYears([
       {
-        semA: ['CS5222', 'CS5351', 'CS5481', 'CS5285', 'CS5294'].map((code) => ref(code)),
-        semB: ['CS5182', 'CS5187', 'CS5483', 'CS6290', 'CS6537'].map((code) => ref(code)),
+        semA: ['CS5222', 'CS5351', 'CS5481', 'CS5285', 'CS5294', 'CS5187'].map((code) => ref(code)),
+        semB: ['CS5182', 'CS5483', 'CS6290', 'CS6537'].map((code) => ref(code)),
       },
     ]),
   },
@@ -4463,12 +4463,12 @@ const p53StudyPlanVariants = [
     sourceStatus: clone(SOURCE.officialSample),
     studyPlan: studyPlanFromYears([
       {
-        semA: ['CS5222', 'CS5481', 'CS5491'].map((code) => ref(code)),
-        semB: ['CS5182', 'CS5489'].map((code) => ref(code)),
+        semA: ['CS5222', 'CS5481', 'CS5489'].map((code) => ref(code)),
+        semB: ['CS5182', 'CS5491'].map((code) => ref(code)),
       },
       {
-        semA: ['CS5351', 'CS5486', 'CS5487'].map((code) => ref(code)),
-        semB: ['CS5187', 'CS5188'].map((code) => ref(code)),
+        semA: ['CS5351', 'CS5486', 'CS5187'].map((code) => ref(code)),
+        semB: ['CS5487', 'CS5188'].map((code) => ref(code)),
       },
     ]),
   },

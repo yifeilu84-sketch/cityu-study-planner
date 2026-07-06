@@ -74,6 +74,26 @@ function collectOfferingConflicts(owner, plan, label) {
   return conflicts
 }
 
+function collectPostgraduateOfferingConflicts(programme, plan, label) {
+  const conflicts = []
+  if (!plan) return conflicts
+
+  for (const [yearKey, year] of Object.entries(plan)) {
+    for (const semKey of ['semA', 'semB', 'summer']) {
+      for (const plannedCourse of year?.[semKey]?.courses ?? []) {
+        const lookupCode = plannedCourse.code.trim().split(/[\s/]+/)[0]
+        if (!lookupCode || isGeneric(plannedCourse.code) || isGeneric(lookupCode)) continue
+        const course = pgCourses[plannedCourse.code] ?? pgCourses[lookupCode]
+        const allowedTerms = getConfirmedOfferingTerms(course)
+        if (!allowedTerms || allowedTerms.has(semKey)) continue
+        conflicts.push(`${programme.code} ${label} ${yearKey}.${semKey} ${plannedCourse.code} is offered in ${[...allowedTerms].join('/')}`)
+      }
+    }
+  }
+
+  return conflicts
+}
+
 function countByArea(items) {
   return items.reduce((counts, item) => {
     counts[item.area] = (counts[item.area] ?? 0) + 1
@@ -287,6 +307,19 @@ test('undergraduate study plans place real courses only in confirmed offering se
     conflicts.push(...collectOfferingConflicts(item, item.studyPlan, 'major'))
     for (const stream of item.streams ?? []) {
       conflicts.push(...collectOfferingConflicts(item, stream.studyPlan, `stream:${stream.code ?? stream.title ?? 'unnamed'}`))
+    }
+  }
+
+  assert.deepEqual(conflicts, [])
+})
+
+test('postgraduate study plans place real courses only in confirmed offering semesters', () => {
+  const conflicts = []
+
+  for (const programme of postgraduateProgrammes) {
+    conflicts.push(...collectPostgraduateOfferingConflicts(programme, programme.studyPlan, 'programme'))
+    for (const variant of programme.studyPlanVariants ?? []) {
+      conflicts.push(...collectPostgraduateOfferingConflicts(programme, variant.studyPlan, `variant:${variant.code ?? 'unnamed'}`))
     }
   }
 
@@ -832,7 +865,8 @@ test('postgraduate sample and DIY plans follow official-source policy', () => {
   assert.equal(mscCs.sourceStatus.kind, 'official-sample')
   assert.ok(mscCs.studyPlanVariants.some((variant) => variant.code === 'full-time-no-stream-project'))
   const fullTime = mscCs.studyPlanVariants.find((variant) => variant.code === 'full-time-no-stream-project')
-  assert.deepEqual(fullTime.studyPlan.year1.semA.courses.map((course) => course.code), ['CS5222', 'CS5351', 'CS5481', 'CS5491', 'CS6534'])
+  assert.deepEqual(fullTime.studyPlan.year1.semA.courses.map((course) => course.code), ['CS5222', 'CS5351', 'CS5481', 'CS5489', 'CS6534'])
+  assert.deepEqual(fullTime.studyPlan.year1.semB.courses.map((course) => course.code), ['CS6520', 'CS5188', 'CS5483', 'CS5491'])
   assert.deepEqual(fullTime.studyPlan.year1.summer.courses.map((course) => course.code), ['CS6520'])
 
   assert.ok(researchCs, 'CS MPhil/PhD should be included')

@@ -2,9 +2,13 @@ import { readFileSync, writeFileSync } from 'node:fs'
 
 const majorsPath = new URL('../src/data/all-majors.json', import.meta.url)
 const coursesPath = new URL('../src/data/courses.json', import.meta.url)
+const postgraduateProgrammesPath = new URL('../src/data/postgraduate-programmes.json', import.meta.url)
+const postgraduateCoursesPath = new URL('../src/data/pg-courses.json', import.meta.url)
 
 const majors = JSON.parse(readFileSync(majorsPath, 'utf8'))
 const courses = JSON.parse(readFileSync(coursesPath, 'utf8'))
+const postgraduateProgrammes = JSON.parse(readFileSync(postgraduateProgrammesPath, 'utf8'))
+const postgraduateCourses = JSON.parse(readFileSync(postgraduateCoursesPath, 'utf8'))
 
 const GENERIC_CODE_PATTERNS = [
   /^GE(?!\d{4})/i,
@@ -85,7 +89,7 @@ function recalculateCredits(plan) {
   }
 }
 
-function alignPlan(owner, plan, label, moves) {
+function alignPlan(owner, plan, label, courseMap, moves) {
   if (!plan) return
 
   for (const [yearKey, year] of Object.entries(plan)) {
@@ -98,7 +102,7 @@ function alignPlan(owner, plan, label, moves) {
         const lookupCode = getCourseLookupCode(plannedCourse.code)
         if (!lookupCode || isGenericCourseSlot(plannedCourse.code) || isGenericCourseSlot(lookupCode)) continue
 
-        const course = courses[plannedCourse.code] ?? courses[lookupCode]
+        const course = courseMap[plannedCourse.code] ?? courseMap[lookupCode]
         const allowedTerms = getConfirmedOfferingTerms(course)
         if (!allowedTerms || allowedTerms.has(semKey)) continue
 
@@ -126,13 +130,21 @@ function alignPlan(owner, plan, label, moves) {
 const moves = []
 
 for (const major of majors) {
-  alignPlan(major, major.studyPlan, 'major', moves)
+  alignPlan(major, major.studyPlan, 'major', courses, moves)
   for (const stream of major.streams ?? []) {
-    alignPlan(major, stream.studyPlan, `stream:${stream.code ?? stream.title ?? 'unnamed'}`, moves)
+    alignPlan(major, stream.studyPlan, `stream:${stream.code ?? stream.title ?? 'unnamed'}`, courses, moves)
+  }
+}
+
+for (const programme of postgraduateProgrammes) {
+  alignPlan(programme, programme.studyPlan, 'programme', postgraduateCourses, moves)
+  for (const variant of programme.studyPlanVariants ?? []) {
+    alignPlan(programme, variant.studyPlan, `variant:${variant.code ?? 'unnamed'}`, postgraduateCourses, moves)
   }
 }
 
 writeFileSync(majorsPath, `${JSON.stringify(majors, null, 2)}\n`)
+writeFileSync(postgraduateProgrammesPath, `${JSON.stringify(postgraduateProgrammes, null, 2)}\n`)
 
 console.log(`Aligned ${moves.length} study-plan course placements with confirmed offering semesters.`)
 for (const move of moves) {

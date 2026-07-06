@@ -6528,8 +6528,8 @@
               "credits": 3
             },
             {
-              "code": "CS5491",
-              "title": "Artificial Intelligence",
+              "code": "CS5489",
+              "title": "Machine Learning: Algorithms and Applications",
               "credits": 3
             },
             {
@@ -6559,8 +6559,8 @@
               "credits": 3
             },
             {
-              "code": "CS5489",
-              "title": "Machine Learning: Algorithms and Applications",
+              "code": "CS5491",
+              "title": "Artificial Intelligence",
               "credits": 3
             }
           ],
@@ -6609,8 +6609,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CS5491",
-                  "title": "Artificial Intelligence",
+                  "code": "CS5489",
+                  "title": "Machine Learning: Algorithms and Applications",
                   "credits": 3
                 },
                 {
@@ -6640,8 +6640,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CS5489",
-                  "title": "Machine Learning: Algorithms and Applications",
+                  "code": "CS5491",
+                  "title": "Artificial Intelligence",
                   "credits": 3
                 }
               ],
@@ -6698,20 +6698,20 @@
                   "code": "CS5294",
                   "title": "Information Security Technology Management",
                   "credits": 3
+                },
+                {
+                  "code": "CS5187",
+                  "title": "Vision and Image",
+                  "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 18
             },
             "semB": {
               "courses": [
                 {
                   "code": "CS5182",
                   "title": "Computer Graphics",
-                  "credits": 3
-                },
-                {
-                  "code": "CS5187",
-                  "title": "Vision and Image",
                   "credits": 3
                 },
                 {
@@ -6730,7 +6730,7 @@
                   "credits": 3
                 }
               ],
-              "credits": 15
+              "credits": 12
             },
             "summer": {
               "courses": [],
@@ -6763,8 +6763,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CS5491",
-                  "title": "Artificial Intelligence",
+                  "code": "CS5489",
+                  "title": "Machine Learning: Algorithms and Applications",
                   "credits": 3
                 }
               ],
@@ -6778,8 +6778,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CS5489",
-                  "title": "Machine Learning: Algorithms and Applications",
+                  "code": "CS5491",
+                  "title": "Artificial Intelligence",
                   "credits": 3
                 }
               ],
@@ -6804,8 +6804,8 @@
                   "credits": 3
                 },
                 {
-                  "code": "CS5487",
-                  "title": "Machine Learning: Principles and Practice",
+                  "code": "CS5187",
+                  "title": "Vision and Image",
                   "credits": 3
                 }
               ],
@@ -6814,8 +6814,8 @@
             "semB": {
               "courses": [
                 {
-                  "code": "CS5187",
-                  "title": "Vision and Image",
+                  "code": "CS5487",
+                  "title": "Machine Learning: Principles and Practice",
                   "credits": 3
                 },
                 {
