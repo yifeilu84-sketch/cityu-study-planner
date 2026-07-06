@@ -232,9 +232,13 @@ const EXTRACTION_NAME_TOKENS = new Set([
   'vcs',
   'idph',
   'jcc',
+  'pia',
+  'lt',
+  'ss',
 ])
 
-const SOURCE_KEY_PREFIX_TOKENS = new Set(['prof', 'cs'])
+const SOURCE_KEY_PREFIX_TOKENS = new Set(['prof', 'cs', 'pia', 'lt', 'ss'])
+const SURNAME_LAST_SOURCE_PREFIX_TOKENS = new Set(['pia'])
 
 function hasExtractionToken(value) {
   return cleanText(value)
@@ -250,9 +254,10 @@ function formatNamePart(token) {
 
 function deriveNameFromSourceKey(sourceKey) {
   const tokens = slugify(sourceKey).split('-').filter(Boolean)
+  let sourcePrefix = ''
 
   while (tokens.length > 0 && SOURCE_KEY_PREFIX_TOKENS.has(tokens[0])) {
-    tokens.shift()
+    sourcePrefix = tokens.shift()
   }
 
   while (
@@ -264,8 +269,11 @@ function deriveNameFromSourceKey(sourceKey) {
 
   if (tokens.length < 2) return ''
 
-  const familyName = tokens[0].toUpperCase()
-  const givenNames = tokens.slice(1).map(formatNamePart).filter(Boolean).join(' ')
+  const familyName = SURNAME_LAST_SOURCE_PREFIX_TOKENS.has(sourcePrefix)
+    ? tokens[tokens.length - 1].toUpperCase()
+    : tokens[0].toUpperCase()
+  const givenNameTokens = SURNAME_LAST_SOURCE_PREFIX_TOKENS.has(sourcePrefix) ? tokens.slice(0, -1) : tokens.slice(1)
+  const givenNames = givenNameTokens.map(formatNamePart).filter(Boolean).join(' ')
   return `${givenNames} ${familyName}`.trim()
 }
 

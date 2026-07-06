@@ -1126,7 +1126,7 @@ test('verified academic profiles use official CityUHK Scholars names and person 
 })
 
 test('academic professor names do not expose extraction or department tokens', () => {
-  const extractionToken = /\b(?:Dept|Class|CLASS|CAH|CENG|COMP|CS|Bms|BME|NS|ACE|MNE|MSE|MAE|SEE|SCM|VCS|IDPH|JCC)\b/
+  const extractionToken = /\b(?:Dept|Class|CAH|CENG|COMP|CS|Bms|BME|NS|ACE|MNE|MSE|MAE|SEE|SCM|VCS|IDPH|JCC|PIA|LT|SS)\b/i
   const badProfileNames = academicProfilesData.profiles
     .filter((profile) => extractionToken.test(profile.name))
     .map((profile) => `${profile.sourceKey}: ${profile.name}`)
