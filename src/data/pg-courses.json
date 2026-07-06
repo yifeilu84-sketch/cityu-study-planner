@@ -7080,28 +7080,20 @@
     "department": "Department of Veterinary Clinical Sciences",
     "prerequisites": [],
     "prerequisitesRaw": "",
-    "semester": "",
+    "semester": "Semester A 2026/27",
     "assessment": {
-      "details": "CityUHK PG Course Catalogue current link is retained, but the automated official-page check did not find a 2026/27-2017/18 annual course page with assessment summary."
+      "details": "Official CityUHK PG Catalogue 2026/27 syllabus PDF parsed. Continuous Assessment: 0%. Examination: 100%. Examination Duration: 1.5 hours.",
+      "continuous": "0%",
+      "exam": "100%",
+      "examDuration": "1.5 hours"
     },
-    "pdfUrl": "",
+    "pdfUrl": "https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs5001.htm",
     "description": "",
     "catalogue": "pg",
-    "detailStatus": "official-page-missing",
-    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/vcs5001.htm",
-    "sourceCheckedYears": [
-      "202627",
-      "202526",
-      "202425",
-      "202324",
-      "202223",
-      "202122",
-      "202021",
-      "201920",
-      "201819",
-      "201718"
-    ]
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf",
+    "sourceYear": "202627"
   },
   "VCS5002": {
     "code": "VCS5002",

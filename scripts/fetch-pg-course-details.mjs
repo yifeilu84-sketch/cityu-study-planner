@@ -9,6 +9,22 @@ const TEMP_RUNNER_FILE = `${TEMP_DIR}/pg-course-detail-runner.mjs`
 const YEARS = ['202627', '202526', '202425', '202324', '202223', '202122', '202021', '201920', '201819', '201718']
 const CHUNK_SIZE = 120
 const START_URL = 'https://www.cityu.edu.hk/catalogue/pg/202627/course/CS5222.htm'
+const PDF_ONLY_DETAILS = {
+  VCS5001: {
+    detailStatus: 'parsed',
+    sourceUrl: 'https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf',
+    sourceYear: '202627',
+    pdfUrl: 'https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf',
+    assessment: {
+      details: 'Official CityUHK PG Catalogue 2026/27 syllabus PDF parsed. Continuous Assessment: 0%. Examination: 100%. Examination Duration: 1.5 hours.',
+      continuous: '0%',
+      exam: '100%',
+      examDuration: '1.5 hours',
+    },
+    semester: 'Semester A 2026/27',
+    prerequisitesRaw: '',
+  },
+}
 
 function cliInvocation() {
   if (process.platform !== 'win32') {
@@ -176,6 +192,8 @@ for (const [index, chunk] of chunks(courseCodes, CHUNK_SIZE).entries()) {
   const missingCount = Object.values(details).filter((item) => item.detailStatus !== 'parsed').length
   console.log(`Chunk ${index + 1}: ${parsedCount} parsed, ${missingCount} pending`)
 }
+
+Object.assign(detailEntries, PDF_ONLY_DETAILS)
 
 const parsedCount = Object.values(detailEntries).filter((item) => item.detailStatus === 'parsed').length
 const missingCount = Object.values(detailEntries).filter((item) => item.detailStatus !== 'parsed').length

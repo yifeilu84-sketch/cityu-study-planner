@@ -1053,8 +1053,8 @@ test('postgraduate course details include assessment metadata for parsed PG cour
   const parsedCourses = Object.values(pgCourses).filter((course) => course.catalogue === 'pg' && course.detailStatus === 'parsed')
   const unresolvedCourses = Object.values(pgCourses).filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
 
-  assert.ok(parsedCourses.length >= 900, `expected at least 900 PG courses with official assessment parsed, got ${parsedCourses.length}`)
-  assert.ok(unresolvedCourses.length <= 20, `expected at most 20 PG courses pending manual detail review, got ${unresolvedCourses.length}`)
+  assert.ok(parsedCourses.length >= 901, `expected at least 901 PG courses with official assessment parsed, got ${parsedCourses.length}`)
+  assert.ok(unresolvedCourses.length <= 17, `expected at most 17 PG courses pending manual detail review, got ${unresolvedCourses.length}`)
 
   for (const [code, expected] of Object.entries(requiredCourses)) {
     const course = pgCourses[code]

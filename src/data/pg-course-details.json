@@ -16,8 +16,8 @@
     ],
     "generatedAt": "2026-07-05T22:01:11.185Z",
     "total": 918,
-    "parsed": 900,
-    "pending": 18
+    "parsed": 901,
+    "pending": 17
   },
   "CS5222": {
     "detailStatus": "parsed",
@@ -4386,22 +4386,18 @@
     "prerequisitesRaw": ""
   },
   "VCS5001": {
-    "detailStatus": "official-page-missing",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf",
+    "sourceYear": "202627",
+    "pdfUrl": "https://www.cityu.edu.hk/pg/202627/course/VCS5001.pdf",
     "assessment": {
-      "details": "CityUHK PG Course Catalogue current link is retained, but the automated official-page check did not find a 2026/27-2017/18 annual course page with assessment summary."
+      "details": "Official CityUHK PG Catalogue 2026/27 syllabus PDF parsed. Continuous Assessment: 0%. Examination: 100%. Examination Duration: 1.5 hours.",
+      "continuous": "0%",
+      "exam": "100%",
+      "examDuration": "1.5 hours"
     },
-    "sourceCheckedYears": [
-      "202627",
-      "202526",
-      "202425",
-      "202324",
-      "202223",
-      "202122",
-      "202021",
-      "201920",
-      "201819",
-      "201718"
-    ]
+    "semester": "Semester A 2026/27",
+    "prerequisitesRaw": ""
   },
   "VCS5002": {
     "detailStatus": "parsed",
