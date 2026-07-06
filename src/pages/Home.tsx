@@ -371,8 +371,8 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 gap-3">
-            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="quick-action-grid mb-6">
+            <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Database className="w-4 h-4 text-cityu-accent" />
@@ -388,20 +388,20 @@ export default function Home() {
                 <ShieldCheck className="w-4 h-4" />
               </Link>
             </div>
-            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800">GE 选课助手</div>
                 <div className="text-sm text-gray-500">按课程名、代码和考核方式筛选可自由组合的 GE 课程。</div>
               </div>
               <Link
                 to="/ge"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+                className="premium-action"
               >
                 打开 GE 工具
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Microscope className="w-4 h-4 text-cityu-accent" />
@@ -411,13 +411,13 @@ export default function Home() {
               </div>
               <Link
                 to="/academic"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+                className="premium-action"
               >
                 打开科研
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GraduationCap className="w-4 h-4 text-cityu-accent" />
@@ -427,13 +427,13 @@ export default function Home() {
               </div>
               <Link
                 to="/postgraduate"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+                className="premium-action"
               >
                 打开硕博
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="surface-panel flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GitCompareArrows className="w-4 h-4 text-cityu-accent" />
@@ -443,7 +443,7 @@ export default function Home() {
               </div>
               <Link
                 to="/compare"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-cityu-dark text-white text-sm hover:bg-cityu-purple transition-colors"
+                className="premium-action"
               >
                 打开对比
                 <ArrowRight className="w-4 h-4" />

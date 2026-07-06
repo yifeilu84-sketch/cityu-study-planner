@@ -1173,11 +1173,16 @@ test('premium planner workspace design is wired into primary flows', () => {
   assert.ok(layout.includes('app-sidebar'))
   assert.ok(home.includes('planner-command-center'))
   assert.ok(home.includes('insight-strip'))
+  assert.ok(home.includes('quick-action-grid'))
+  assert.ok(home.includes('quick-action-card'))
   assert.ok(home.includes('premium-action'))
   assert.ok(majorPage.includes('programme-hero'))
   assert.ok(majorPage.includes('semester-card'))
   assert.ok(editor.includes('course-pool-panel'))
   assert.ok(editor.includes('semester-card'))
+
+  assert.ok(appCss.includes('white-space: nowrap'), 'Premium action buttons should not wrap Chinese labels vertically')
+  assert.ok(appCss.includes('grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))'))
 })
 
 test('welcome modal appears once per newly opened browser session but not after refresh', async () => {
@@ -1193,6 +1198,8 @@ test('welcome modal appears once per newly opened browser session but not after 
   }
 
   const firstTabStorage = createStorage()
+  firstTabStorage.setItem('cityu-welcome-seen', '1')
+  assert.match(WELCOME_SESSION_KEY, /v2/, 'welcome session key should be versioned after the UI refresh')
   assert.equal(shouldShowWelcomeModal(firstTabStorage), true, 'newly opened tab should show the modal')
   assert.equal(firstTabStorage.values.get(WELCOME_SESSION_KEY), '1', 'showing the modal should immediately mark the session')
   assert.equal(shouldShowWelcomeModal(firstTabStorage), false, 'refreshing the same tab should not show the modal again')

@@ -1,4 +1,4 @@
-export const WELCOME_SESSION_KEY = 'cityu-welcome-seen'
+export const WELCOME_SESSION_KEY = 'cityu-welcome-seen-v2'
 
 type SessionStorageLike = Pick<Storage, 'getItem' | 'setItem'>
 
