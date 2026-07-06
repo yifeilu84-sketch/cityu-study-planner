@@ -30,6 +30,269 @@ function slugify(value) {
     .replace(/^-|-$/g, '')
 }
 
+const OFFICIAL_PROFILE_OVERRIDES = {
+  'bme-sun-dong': {
+    name: 'Dong SUN',
+    nameCN: '孫東',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/dong-sun/',
+  },
+  'bme-yu-xinge': {
+    name: 'Xinge YU',
+    nameCN: '于欣格',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/xinge-yu/',
+  },
+  'mse-kai-ji-jung': {
+    name: 'Ji-jung KAI',
+    nameCN: '開執中',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/ji-jung-kai/',
+  },
+  'prof-butaye-patrick': {
+    name: 'Patrick BUTAYE',
+    nameCN: '',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/patrick-butaye/',
+  },
+  'prof-cai-jun': {
+    name: 'Junbo WANG',
+    nameCN: '王軍波',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/jwang2/',
+  },
+  'prof-chen-zhiyao': {
+    name: 'Zhiyao CHEN',
+    nameCN: '陳志遥',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/zchen737/',
+  },
+  'prof-cheng-edmund': {
+    name: 'Edmund CHENG',
+    nameCN: '鄭煒',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/wacheng/',
+  },
+  'prof-fang-meng': {
+    name: 'Meng FANG',
+    nameCN: '方萌',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/mengfang/',
+  },
+  'prof-feng-guanhao': {
+    name: 'Guanhao Gavin FENG',
+    nameCN: '馮冠豪',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/gufeng/',
+  },
+  'prof-ferrara-federico': {
+    name: 'Federico FERRARA',
+    nameCN: '',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/federico-ferrara/',
+  },
+  'prof-gao-siyang': {
+    name: 'Siyang GAO',
+    nameCN: '高思陽',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/siyangao/',
+  },
+  'prof-george-bert': {
+    name: 'Bert GEORGE',
+    nameCN: '',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/brgeorge/',
+  },
+  'prof-han-xu': {
+    name: 'Xu HAN',
+    nameCN: '韓旭',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/xuhan25/',
+  },
+  'prof-he-tianxiang': {
+    name: 'Tianxiang HE',
+    nameCN: '何天翔',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/tianxiang-he/',
+  },
+  'prof-huang-tao': {
+    name: 'Tao HUANG',
+    nameCN: '黃韜',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/taohuang/',
+  },
+  'prof-kakkar': {
+    name: 'Vikas KAKKAR',
+    nameCN: '郭偉傑',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/efvikas/',
+  },
+  'prof-lai-sinchit': {
+    name: 'Sin Chit Martin LAI',
+    nameCN: '黎善喆',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/sinclai2/',
+  },
+  'prof-lee-wai-sum': {
+    name: 'Wai Sum LEE',
+    nameCN: '李蕙心',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/wai-sum-lee/',
+  },
+  'prof-li-enshen': {
+    name: 'Enshen LI',
+    nameCN: '李恩深',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/enshenli/',
+  },
+  'prof-li-yingxiang': {
+    name: 'Yingxiang Li',
+    nameCN: '李英祥',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/yingxili/',
+  },
+  'prof-lin-fen': {
+    name: 'Fen LIN',
+    nameCN: '林芬',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/fen-lin/',
+  },
+  'prof-liu-guangwu': {
+    name: 'Guangwu LIU',
+    nameCN: '劉光梧',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/guangwu-liu/',
+  },
+  'prof-liu-meichun': {
+    name: 'Meichun LIU',
+    nameCN: '劉美君',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/meichun-liu/',
+  },
+  'prof-lu-jane': {
+    name: 'Jane LU',
+    nameCN: '呂文珍',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/jane-lu/',
+  },
+  'prof-martinsons': {
+    name: 'Maris MARTINSONS',
+    nameCN: '馬禮士',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/maris-martinsons/',
+  },
+  'prof-shek-ch': {
+    name: 'Chan Hung SHEK',
+    nameCN: '石燦鴻',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/apchshek/',
+  },
+  'prof-sia-choonling': {
+    name: 'Choon Ling SIA',
+    nameCN: '謝俊霖',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/iscl/',
+  },
+  'prof-sun-zhankun': {
+    name: 'Zhankun SUN',
+    nameCN: '孫占坤',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/zhanksun/',
+  },
+  'prof-tang-shi': {
+    name: 'Shi TANG',
+    nameCN: '唐詩',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/shitang/',
+  },
+  'prof-wang-xiaohu': {
+    name: 'Xiaohu WANG',
+    nameCN: '王小虎',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/xiaohu-wang/',
+  },
+  'prof-wang-xin': {
+    name: 'Xin WANG',
+    nameCN: '王鑫',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/xin-wang/',
+  },
+  'prof-xia-shixiang': {
+    name: 'Shixiang XIA',
+    nameCN: '夏詩翔',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/shixixia/',
+  },
+  'prof-yu-chen': {
+    name: 'Chen YU',
+    nameCN: '于琛',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/chenyu/',
+  },
+  'prof-zhu-pingan': {
+    name: 'Pingan ZHU',
+    nameCN: '朱平安',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/pingan-zhu/',
+  },
+  'dept-class-cah-tsui-lik-hang': {
+    name: 'Lik Hang Tsui',
+    nameCN: '徐力恆',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/lhtsui/',
+  },
+  'dept-class-cah-hui-yue-hang': {
+    name: 'Jonathan York Heng HUI',
+    nameCN: '許約恆',
+    scholarUrl: 'https://scholars.cityu.edu.hk/en/persons/jonathui/',
+  },
+}
+
+const EXTRACTION_NAME_TOKENS = new Set([
+  'dept',
+  'class',
+  'cah',
+  'ceng',
+  'comp',
+  'cs',
+  'bms',
+  'bme',
+  'ns',
+  'ace',
+  'mne',
+  'mse',
+  'mae',
+  'see',
+  'scm',
+  'vcs',
+  'idph',
+  'jcc',
+])
+
+const SOURCE_KEY_PREFIX_TOKENS = new Set(['prof', 'cs'])
+
+function hasExtractionToken(value) {
+  return cleanText(value)
+    .split(/\s+/)
+    .some((token) => EXTRACTION_NAME_TOKENS.has(token.toLowerCase()))
+}
+
+function formatNamePart(token) {
+  if (!token) return ''
+  if (token.length === 1) return token.toUpperCase()
+  return token[0].toUpperCase() + token.slice(1).toLowerCase()
+}
+
+function deriveNameFromSourceKey(sourceKey) {
+  const tokens = slugify(sourceKey).split('-').filter(Boolean)
+
+  while (tokens.length > 0 && SOURCE_KEY_PREFIX_TOKENS.has(tokens[0])) {
+    tokens.shift()
+  }
+
+  while (
+    tokens.length > 0 &&
+    (/^\d+$/.test(tokens[tokens.length - 1]) || EXTRACTION_NAME_TOKENS.has(tokens[tokens.length - 1]))
+  ) {
+    tokens.pop()
+  }
+
+  if (tokens.length < 2) return ''
+
+  const familyName = tokens[0].toUpperCase()
+  const givenNames = tokens.slice(1).map(formatNamePart).filter(Boolean).join(' ')
+  return `${givenNames} ${familyName}`.trim()
+}
+
+function googleScholarUrlForName(name) {
+  return `https://scholar.google.com/scholar?q=${encodeURIComponent(name)}`
+}
+
+function cityuScholarSearchUrlForName(name) {
+  return `https://scholars.cityu.edu.hk/en/persons/search.html?search=${encodeURIComponent(name).replace(/%20/g, '+')}`
+}
+
+function normalizeProfessorIdentity(professorKey, professor) {
+  const override = OFFICIAL_PROFILE_OVERRIDES[professorKey]
+  const sourceName = cleanText(professor.name)
+  const tokenCleanedName = hasExtractionToken(sourceName) ? deriveNameFromSourceKey(professorKey) : ''
+  const name = override?.name ?? (tokenCleanedName || sourceName)
+  const nameCN = override && Object.hasOwn(override, 'nameCN') ? override.nameCN : cleanText(professor.nameCN)
+  const sourceScholarUrl = professor.scholarUrl ?? ''
+  const scholarUrl = override?.scholarUrl ?? (sourceScholarUrl.includes('/search.html') ? cityuScholarSearchUrlForName(name) : sourceScholarUrl)
+  const googleScholar =
+    override || tokenCleanedName || hasExtractionToken(decodeURIComponent(professor.googleScholar ?? ''))
+      ? googleScholarUrlForName(name)
+      : professor.googleScholar ?? ''
+
+  return { name, nameCN, scholarUrl, googleScholar }
+}
+
 function findSourcePath() {
   return sourceCandidates.find((candidate) => existsSync(candidate))
 }
@@ -100,6 +363,7 @@ function normalizeAcademicData(rawData) {
 
       for (const [professorKey, professor] of Object.entries(department.professors ?? {})) {
         const id = makeProfileId(departmentId, professorKey, professor.name)
+        const identity = normalizeProfessorIdentity(professorKey, professor)
         const interests = (professor.interests ?? []).map(cleanText).filter(Boolean)
         const students = (professor.students ?? [])
           .map((student) => ({
@@ -121,8 +385,8 @@ function normalizeAcademicData(rawData) {
         const profile = {
           id,
           sourceKey: professorKey,
-          name: cleanText(professor.name),
-          nameCN: cleanText(professor.nameCN),
+          name: identity.name,
+          nameCN: identity.nameCN,
           title: cleanText(professor.title),
           background: cleanText(professor.background),
           interests,
@@ -132,8 +396,8 @@ function normalizeAcademicData(rawData) {
           phdStudents,
           topPublications,
           publicationCount: topPublications.length,
-          scholarUrl: professor.scholarUrl ?? '',
-          googleScholar: professor.googleScholar ?? '',
+          scholarUrl: identity.scholarUrl,
+          googleScholar: identity.googleScholar,
           url: professor.url ?? '',
           collegeId,
           collegeName: cleanText(college.name),

@@ -1102,6 +1102,59 @@ test('academic profiles are imported from the companion cityuhk-academic reposit
   assert.ok(profiles.some((profile) => (profile.topPublications ?? []).length > 0), 'profiles should expose representative publications')
 })
 
+test('verified academic profiles use official CityUHK Scholars names and person pages', () => {
+  const bySourceKey = new Map(academicProfilesData.profiles.map((profile) => [profile.sourceKey, profile]))
+
+  const likHangTsui = bySourceKey.get('dept-class-cah-tsui-lik-hang')
+  assert.ok(likHangTsui, 'Lik Hang Tsui profile should be present')
+  assert.equal(likHangTsui.name, 'Lik Hang Tsui')
+  assert.equal(likHangTsui.nameCN, '徐力恆')
+  assert.equal(likHangTsui.scholarUrl, 'https://scholars.cityu.edu.hk/en/persons/lhtsui/')
+
+  const jonathanHui = bySourceKey.get('dept-class-cah-hui-yue-hang')
+  assert.ok(jonathanHui, 'Jonathan York Heng HUI profile should be present')
+  assert.equal(jonathanHui.name, 'Jonathan York Heng HUI')
+  assert.equal(jonathanHui.nameCN, '許約恆')
+  assert.equal(jonathanHui.scholarUrl, 'https://scholars.cityu.edu.hk/en/persons/jonathui/')
+
+  const searchIndex = JSON.parse(readFileSync(new URL('../src/data/search-index.json', import.meta.url), 'utf8'))
+  const indexedNames = searchIndex.academicProfiles.map((profile) => profile.name)
+  assert.ok(indexedNames.includes('Lik Hang Tsui'))
+  assert.ok(indexedNames.includes('Jonathan York Heng HUI'))
+  assert.equal(indexedNames.includes('Tsui Lik Hang'), false)
+  assert.equal(indexedNames.includes('Hui Yue Hang'), false)
+})
+
+test('academic professor names do not expose extraction or department tokens', () => {
+  const extractionToken = /\b(?:Dept|Class|CLASS|CAH|CENG|COMP|CS|Bms|BME|NS|ACE|MNE|MSE|MAE|SEE|SCM|VCS|IDPH|JCC)\b/
+  const badProfileNames = academicProfilesData.profiles
+    .filter((profile) => extractionToken.test(profile.name))
+    .map((profile) => `${profile.sourceKey}: ${profile.name}`)
+  const badProfileLinks = academicProfilesData.profiles
+    .filter((profile) => extractionToken.test(decodeURIComponent(`${profile.scholarUrl} ${profile.googleScholar}`)))
+    .map((profile) => `${profile.sourceKey}: ${profile.scholarUrl} ${profile.googleScholar}`)
+
+  const searchIndex = JSON.parse(readFileSync(new URL('../src/data/search-index.json', import.meta.url), 'utf8'))
+  const badSearchNames = searchIndex.academicProfiles
+    .filter((profile) => extractionToken.test(profile.name))
+    .map((profile) => `${profile.id}: ${profile.name}`)
+
+  assert.deepEqual(badProfileNames, [])
+  assert.deepEqual(badProfileLinks, [])
+  assert.deepEqual(badSearchNames, [])
+})
+
+test('academic profile import keeps names and search coverage for the full professor directory', () => {
+  const missingNames = academicProfilesData.profiles
+    .filter((profile) => !profile.name)
+    .map((profile) => profile.sourceKey)
+
+  const searchIndex = JSON.parse(readFileSync(new URL('../src/data/search-index.json', import.meta.url), 'utf8'))
+
+  assert.deepEqual(missingNames, [])
+  assert.ok(searchIndex.academicProfiles.length >= 900, 'global search should index the full professor directory')
+})
+
 test('academic routes, search, and related research matching are wired', async () => {
   const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
   const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
