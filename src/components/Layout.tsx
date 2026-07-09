@@ -53,10 +53,10 @@ export default function Layout({ children }: LayoutProps) {
           ))}
         </nav>
 
-        <div className="sidebar-insight">
-          <div className="flex items-center gap-2 text-xs font-black uppercase text-amber-700">
+        <div className="sidebar-insight sidebar-product-note">
+          <div className="flex items-center gap-2 text-[13px] font-black text-slate-700">
             <ShieldCheck className="h-4 w-4" />
-            Trust Layer
+            数据可信度
           </div>
           <p className="mt-2 text-sm leading-relaxed text-slate-600">
             官方 study plan、毕业要求、课程池和评分细则分层标注，避免把 DIY 参考伪装成官网路径。

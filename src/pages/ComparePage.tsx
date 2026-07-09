@@ -82,7 +82,7 @@ export default function ComparePage() {
         返回首页
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-6">
+      <section className="surface-panel p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
@@ -106,7 +106,7 @@ export default function ComparePage() {
         <div className="mt-5 grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
             {comparison.items.map(item => (
-              <article key={item.code} className="rounded-lg border border-gray-100 bg-gray-50 p-3">
+              <article key={item.code} className="rounded-lg border border-slate-100 bg-slate-50/80 p-3">
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 mb-1">
@@ -140,7 +140,7 @@ export default function ComparePage() {
             ))}
           </div>
 
-          <div className="rounded-lg border border-gray-100 bg-gray-50 p-3">
+          <div className="rounded-lg border border-slate-100 bg-slate-50/80 p-3">
             <label htmlFor="compare-search" className="text-xs font-semibold text-gray-600">添加专业</label>
             <div className="relative mt-2">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -159,7 +159,7 @@ export default function ComparePage() {
                   key={candidate.code}
                   type="button"
                   onClick={() => addCode(candidate.code)}
-                  className="w-full text-left rounded-lg border border-gray-100 bg-white p-2.5 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors cursor-pointer"
+                  className="interactive-card w-full p-2.5 text-left cursor-pointer"
                 >
                   <div className="flex items-center justify-between gap-2">
                     <span className="font-mono text-xs font-bold text-cityu-accent">{candidate.code}</span>
@@ -178,7 +178,7 @@ export default function ComparePage() {
       </section>
 
       {comparison.items.length > 0 && (
-        <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+        <section className="surface-panel p-4 sm:p-5">
           <div className="flex items-center gap-2 mb-4">
             <ShieldCheck className="w-5 h-5 text-cityu-accent" />
             <h2 className="font-bold text-gray-800">结构对比</h2>
@@ -215,7 +215,7 @@ export default function ComparePage() {
         </section>
       )}
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+      <section className="surface-panel p-4 sm:p-5">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
           <div>
             <h2 className="font-bold text-gray-800">重叠课程</h2>

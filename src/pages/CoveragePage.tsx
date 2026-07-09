@@ -76,7 +76,7 @@ export default function CoveragePage() {
         返回首页
       </Link>
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-6">
+      <section className="surface-panel p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
@@ -104,7 +104,7 @@ export default function CoveragePage() {
         </div>
       </section>
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+      <section className="surface-panel p-4 sm:p-5">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           <div>
             <h2 className="font-bold text-gray-800 flex items-center gap-2">
@@ -185,7 +185,7 @@ export default function CoveragePage() {
         </div>
       </section>
 
-      <section className="bg-white border border-gray-100 rounded-xl shadow-sm p-4 sm:p-5">
+      <section className="surface-panel p-4 sm:p-5">
         <div className="flex flex-col lg:flex-row gap-3 lg:items-center lg:justify-between mb-4">
           <div>
             <h2 className="font-bold text-gray-800">{selectedLabel}</h2>
@@ -218,7 +218,7 @@ export default function CoveragePage() {
             <Link
               key={item.code}
               to={`/major/${item.code}`}
-              className="block rounded-lg border border-gray-100 p-3 hover:border-cityu-accent hover:bg-cityu-accent/5 transition-colors"
+              className="interactive-card block p-3"
             >
               <div className="flex items-start justify-between gap-2 mb-2">
                 <div className="min-w-0">

@@ -104,7 +104,9 @@ export default function Home() {
 
   return (
     <div>
-      <CampusSpotlightCarousel />
+      <div className="spotlight-rail">
+        <CampusSpotlightCarousel />
+      </div>
 
       <div className="planner-command-center mb-8">
         <div className="section-eyebrow mb-3 justify-center">
@@ -136,7 +138,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="control-surface max-w-4xl mx-auto mb-8 space-y-3">
+      <div className="control-surface search-command max-w-4xl mx-auto mb-8 space-y-3">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
@@ -363,7 +365,7 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="quick-action-grid mb-6">
+          <div className="quick-action-grid action-rail mb-6">
             <div className="quick-action-card">
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">

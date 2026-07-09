@@ -1439,6 +1439,42 @@ test('premium planner workspace design is wired into primary flows', () => {
   assert.ok(appCss.includes('grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))'))
 })
 
+test('impeccable taste pass removes templated UI tells from the primary shell', () => {
+  const appCss = readFileSync(new URL('../src/App.css', import.meta.url), 'utf8')
+  const indexCss = readFileSync(new URL('../src/index.css', import.meta.url), 'utf8')
+  const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
+  const layout = readFileSync(new URL('../src/components/Layout.tsx', import.meta.url), 'utf8')
+  const coveragePage = readFileSync(new URL('../src/pages/CoveragePage.tsx', import.meta.url), 'utf8')
+  const comparePage = readFileSync(new URL('../src/pages/ComparePage.tsx', import.meta.url), 'utf8')
+
+  for (const token of [
+    '--surface-canvas',
+    '--surface-raised',
+    '--shadow-hairline',
+    '.action-rail',
+    '.search-command',
+    '.spotlight-rail',
+  ]) {
+    assert.ok(appCss.includes(token), `App.css should define refined UI token ${token}`)
+  }
+
+  assert.ok(home.includes('action-rail'), 'Home quick actions should use a main/secondary rail instead of an equal-card grid')
+  assert.ok(home.includes('search-command'), 'Home search should be visually promoted as the primary command surface')
+  assert.ok(layout.includes('sidebar-product-note'), 'Sidebar should use a compact product note instead of a decorative trust card')
+  assert.ok(coveragePage.includes('surface-panel'), 'Coverage page should use the shared surface language')
+  assert.ok(coveragePage.includes('interactive-card'), 'Coverage cards should reuse the shared interaction style')
+  assert.ok(comparePage.includes('surface-panel'), 'Compare page should use the shared surface language')
+  assert.ok(comparePage.includes('interactive-card'), 'Compare search results should reuse the shared interaction style')
+  assert.ok(indexCss.includes('color-scheme: light'), 'Base document theme should not inherit the Vite template dark auto palette')
+
+  assert.equal(/1px,\s*transparent\s+1px/.test(appCss), false, 'Decorative grid backgrounds should be removed')
+  assert.equal(coveragePage.includes('bg-white border border-gray-100 rounded-xl shadow-sm'), false, 'Coverage page should not use old white-card shell panels')
+  assert.equal(comparePage.includes('bg-white border border-gray-100 rounded-xl shadow-sm'), false, 'Compare page should not use old white-card shell panels')
+  assert.equal(appCss.includes('inset: 0 auto 0 0;'), false, 'College cards should not use side-stripe accents')
+  assert.equal(appCss.includes('width: 4px;'), false, 'College cards should not use thick side bars')
+  assert.equal(indexCss.includes('--accent: #aa3bff'), false, 'Vite template purple accent should be removed')
+})
+
 test('campus spotlight carousel leads the homepage and has detail routes', async () => {
   const app = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
   const appCss = readFileSync(new URL('../src/App.css', import.meta.url), 'utf8')
