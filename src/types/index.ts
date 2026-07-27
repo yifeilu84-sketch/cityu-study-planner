@@ -200,6 +200,9 @@ export interface Stream {
   requirements?: MajorRequirements;
   studyPlan?: StudyPlan;
   studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
+  studyPlanSourceTitle?: string;
+  studyPlanSourceUrl?: string;
+  lastVerified?: string;
   allCourses?: string[];
   notes?: string[];
   totalCredits?: number;
@@ -218,6 +221,8 @@ export interface Major {
   studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
   allCourses: string[];
   streams?: Stream[];
+  defaultStreamCode?: string;
+  requireStreamSelection?: boolean;
   notes?: string[];
 }
 

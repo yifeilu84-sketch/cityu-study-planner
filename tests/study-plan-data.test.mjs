@@ -24,6 +24,22 @@ function semesterCodes(code, year, sem) {
   return major(code).studyPlan?.[`year${year}`]?.[sem]?.courses.map((course) => course.code) ?? []
 }
 
+function streamByCode(item, streamCode) {
+  const stream = item.streams?.find((candidate) => candidate.code === streamCode)
+  assert.ok(stream, `Expected ${item.code} to expose stream ${streamCode}`)
+  return stream
+}
+
+function streamSemesterCodes(item, streamCode, year, sem) {
+  return streamByCode(item, streamCode).studyPlan?.[`year${year}`]?.[sem]?.courses.map((course) => course.code) ?? []
+}
+
+function streamPlanCredits(item, streamCode) {
+  return Object.values(streamByCode(item, streamCode).studyPlan ?? {})
+    .flatMap((year) => Object.values(year))
+    .reduce((sum, semester) => sum + semester.credits, 0)
+}
+
 function planCourseCodes(item) {
   return Object.values(item.studyPlan ?? {})
     .flatMap((year) => Object.values(year))
@@ -159,6 +175,62 @@ test('MGT 2025/26 normative plan follows the supplied HRM/SIM schedule', () => {
   assert.ok(mgtCourseList.has('CB2203'))
   assert.equal(mgt.streams.find((stream) => stream.code === 'HRM')?.studyPlan.year3.semB.courses[1].title, 'HRM Stream Elective')
   assert.equal(mgt.streams.find((stream) => stream.code === 'SIM')?.studyPlan.year3.semB.courses[1].title, 'SIM Stream Elective')
+})
+
+test('CFFT exposes separate official CF and FT stream plans', () => {
+  const cfft = major('BSC1_CFFT-1')
+  const cfElectives = [
+    'CB2300', 'CB3043', 'CS3391', 'CS4335', 'EF4312', 'EF4314', 'EF4323', 'EF4327',
+    'EF4331', 'EF4334', 'MA3514', 'MA4542', 'MS3106', 'MS4212', 'MS4224', 'MS4252',
+  ]
+  const ftElectives = [
+    'CB2101', 'CB2201', 'CB2300', 'CB2402', 'CB2601', 'CB3043', 'EF4312', 'EF4323',
+    'IS2502', 'IS3230', 'IS3430', 'IS4032', 'IS4537', 'IS4543', 'MKT3603', 'MGT2324',
+  ]
+
+  assert.deepEqual(cfft.streams.map((stream) => stream.code), ['CF', 'FT'])
+  assert.equal(cfft.defaultStreamCode, 'CF')
+  assert.equal(cfft.requireStreamSelection, true)
+
+  const cf = streamByCode(cfft, 'CF')
+  const ft = streamByCode(cfft, 'FT')
+  assert.equal(cf.studyPlanStatus, 'structure')
+  assert.equal(ft.studyPlanStatus, 'structure')
+  assert.match(cf.studyPlanSourceUrl, /comfin-stream---23-june-2025_addge1601\.pdf/i)
+  assert.match(ft.studyPlanSourceUrl, /fintech-stream---23-june-2025_addge1601\.pdf/i)
+
+  assert.deepEqual(streamSemesterCodes(cfft, 'CF', 3, 'semB'), ['EF4822', 'EF4820', 'MS3111', 'GE-A2', 'GE-A3'])
+  assert.deepEqual(streamSemesterCodes(cfft, 'CF', 4, 'semA'), ['EF4821', 'CB4001', 'STREAM-ELECT1', 'FREE1', 'FREE2'])
+  assert.deepEqual(streamSemesterCodes(cfft, 'FT', 3, 'semB'), ['IS4335', 'IS3101', 'IS4940', 'GE-A2', 'GE-A3'])
+  assert.deepEqual(streamSemesterCodes(cfft, 'FT', 4, 'semA'), ['IS4920', 'IS4861', 'IS4837', 'FREE1', 'FREE2'])
+  assert.equal(streamPlanCredits(cfft, 'CF'), 124)
+  assert.equal(streamPlanCredits(cfft, 'FT'), 124)
+
+  const cfPlanCodes = new Set(planCourseCodes(cf))
+  const ftPlanCodes = new Set(planCourseCodes(ft))
+  assert.equal(cfPlanCodes.has('EF4821'), true)
+  assert.equal(cfPlanCodes.has('IS4861'), false)
+  assert.equal(ftPlanCodes.has('IS4861'), true)
+  assert.equal(ftPlanCodes.has('EF4821'), false)
+  assert.deepEqual(cf.requirements.majorElectives.courses.map((course) => course.code), cfElectives)
+  assert.deepEqual(ft.requirements.majorElectives.courses.map((course) => course.code), ftElectives)
+  assert.equal(cf.requirements.majorElectives.chooseCredits, 6)
+  assert.equal(ft.requirements.majorElectives.chooseCredits, 6)
+})
+
+test('mandatory stream selection defaults CFFT to CF without changing optional stream majors', async () => {
+  const { getInitialStreamIndex, canUseMajorLevelPlan } = await import('../src/utils/majorStreams.ts')
+  const cfft = {
+    ...major('BSC1_CFFT-1'),
+    streams: [{ code: 'CF' }, { code: 'FT' }],
+    defaultStreamCode: 'CF',
+    requireStreamSelection: true,
+  }
+
+  assert.equal(getInitialStreamIndex(cfft), 0)
+  assert.equal(canUseMajorLevelPlan(cfft), false)
+  assert.equal(getInitialStreamIndex(major('BBA1_MGMT-1')), -1)
+  assert.equal(canUseMajorLevelPlan(major('BBA1_MGMT-1')), true)
 })
 
 test('official double degree programmes from ADMO are present with five-year study plans', () => {

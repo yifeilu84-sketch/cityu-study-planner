@@ -47,7 +47,7 @@
       "college": "College of Business",
       "department": "College of Business",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CFFT-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "bsc1_cfft-1 bachelor of science in computational finance and financial technology college of business college of business bachelor of science"
     },
     {
@@ -14041,7 +14041,7 @@
       "title": "English for Academic Purposes 1",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 0,
+      "relatedMajorCount": 1,
       "searchText": "lc0200a english for academic purposes 1 gateway education"
     },
     {
@@ -14050,7 +14050,7 @@
       "title": "English for Academic Purposes 2",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 0,
+      "relatedMajorCount": 1,
       "searchText": "lc0200b english for academic purposes 2 gateway education"
     },
     {
