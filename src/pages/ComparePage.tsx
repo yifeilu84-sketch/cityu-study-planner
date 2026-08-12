@@ -9,14 +9,16 @@ import {
   type RequirementRow,
 } from '../utils/majorComparison.ts'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
+import type { Language } from '../i18n/language.ts'
 
 const DEFAULT_CODES = ['BSC1_CSC1-1', 'BSC1_CYBE-1']
 
-const SOURCE_LABELS: Record<SourceStatusKind, string> = {
-  official: '官方 Study Plan',
-  structure: '结构图解析',
-  derived: '按毕业要求排',
-  diy: 'DIY 空表',
+const SOURCE_LABELS: Record<SourceStatusKind, Record<Language, string>> = {
+  official: { zh: '官方 Study Plan', en: 'Official Study Plan' },
+  structure: { zh: '结构图解析', en: 'Structure / Flowchart' },
+  derived: { zh: '按毕业要求排', en: 'Requirements-based' },
+  diy: { zh: 'DIY 空表', en: 'DIY Blank Plan' },
 }
 
 const SOURCE_CLASSES: Record<SourceStatusKind, string> = {
@@ -36,21 +38,24 @@ function getRequirementCredits(rows: RequirementRow[], key: string): number {
   return rows.find(row => row.key === key)?.credits ?? 0
 }
 
-function metricRows() {
+function metricRows(language: Language) {
+  const yes = language === 'en' ? 'Yes' : '有'
+  const notListed = language === 'en' ? 'Not listed' : '未标出'
   return [
-    { label: '总学分', render: (item: MajorCompareItem) => `${item.totalCredits} CU` },
-    { label: '来源状态', render: (item: MajorCompareItem) => SOURCE_LABELS[item.sourceKind] },
+    { label: language === 'en' ? 'Total Credits' : '总学分', render: (item: MajorCompareItem) => `${item.totalCredits} CU` },
+    { label: language === 'en' ? 'Source Status' : '来源状态', render: (item: MajorCompareItem) => SOURCE_LABELS[item.sourceKind][language] },
     { label: 'GE', render: (item: MajorCompareItem) => `${getRequirementCredits(item.requirementRows, 'gatewayEducation')} CU` },
     { label: 'Major Core', render: (item: MajorCompareItem) => `${getRequirementCredits(item.requirementRows, 'majorCore')} CU` },
     { label: 'Major Electives', render: (item: MajorCompareItem) => `${getRequirementCredits(item.requirementRows, 'majorElectives')} CU` },
     { label: 'Free Electives', render: (item: MajorCompareItem) => `${getRequirementCredits(item.requirementRows, 'freeElectives')} CU` },
-    { label: '可核对课程数', render: (item: MajorCompareItem) => `${item.concreteCourseCount}` },
-    { label: 'FYP / Capstone', render: (item: MajorCompareItem) => item.hasProject ? '有' : '未标出' },
-    { label: '实习 / Training', render: (item: MajorCompareItem) => item.hasInternship ? '有' : '未标出' },
+    { label: language === 'en' ? 'Verifiable Courses' : '可核对课程数', render: (item: MajorCompareItem) => `${item.concreteCourseCount}` },
+    { label: 'FYP / Capstone', render: (item: MajorCompareItem) => item.hasProject ? yes : notListed },
+    { label: language === 'en' ? 'Internship / Training' : '实习 / Training', render: (item: MajorCompareItem) => item.hasInternship ? yes : notListed },
   ]
 }
 
 export default function ComparePage() {
+  const { language, pick } = useLanguage()
   const majors = allMajors as any[]
   const [searchParams, setSearchParams] = useSearchParams()
   const [query, setQuery] = useState('')
@@ -79,7 +84,7 @@ export default function ComparePage() {
     <div className="space-y-5">
       <Link to="/" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回首页
+        {pick('返回首页', 'Back to Home')}
       </Link>
 
       <section className="surface-panel p-4 sm:p-6">
@@ -87,17 +92,20 @@ export default function ComparePage() {
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
               <GitCompareArrows className="w-6 h-6 text-cityu-accent" />
-              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">专业对比</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">{pick('专业对比', 'Compare Majors')}</h1>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed">
-              把 2-3 个本科项目放在一起看总学分、来源可信度、课程结构、FYP/实习标记和重叠课程。对没有官网明确 study plan 的项目，仍请以学院和 ARRO 最终审核为准。
+              {pick(
+                '把 2-3 个本科项目放在一起看总学分、来源可信度、课程结构、FYP/实习标记和重叠课程。对没有官网明确 study plan 的项目，仍请以学院和 ARRO 最终审核为准。',
+                'Compare two or three undergraduate programmes by total credits, source confidence, requirement structure, FYP or internship markers, and overlapping courses. College and ARRO review remains authoritative where no explicit official study plan exists.',
+              )}
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
             {(['official', 'structure', 'derived', 'diy'] as SourceStatusKind[]).map(kind => (
               <div key={kind} className={`rounded-lg border px-3 py-2 text-right ${SOURCE_CLASSES[kind]}`}>
                 <div className="font-bold">{comparison.sourceCounts[kind]}</div>
-                <div className="text-xs">{SOURCE_LABELS[kind]}</div>
+                <div className="text-xs">{SOURCE_LABELS[kind][language]}</div>
               </div>
             ))}
           </div>
@@ -114,7 +122,7 @@ export default function ComparePage() {
                         {item.code}
                       </span>
                       <span className={`px-2 py-0.5 rounded border text-xs ${SOURCE_CLASSES[item.sourceKind]}`}>
-                        {SOURCE_LABELS[item.sourceKind]}
+                        {SOURCE_LABELS[item.sourceKind][language]}
                       </span>
                     </div>
                     <h2 className="font-semibold text-gray-800 text-sm leading-snug">{item.title}</h2>
@@ -125,14 +133,14 @@ export default function ComparePage() {
                     onClick={() => removeCode(item.code)}
                     disabled={selectedCodes.length <= 1}
                     className="h-9 w-9 shrink-0 rounded-lg border border-gray-200 bg-white text-gray-500 inline-flex items-center justify-center hover:border-cityu-accent hover:text-cityu-accent disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
-                    aria-label={`移除 ${item.code}`}
+                    aria-label={pick(`移除 ${item.code}`, `Remove ${item.code}`)}
                   >
                     <X className="w-4 h-4" />
                   </button>
                 </div>
                 <div className="mt-3 flex flex-wrap gap-2 text-xs">
                   <span className="rounded bg-white border border-gray-100 px-2 py-1">{item.totalCredits} CU</span>
-                  <span className="rounded bg-white border border-gray-100 px-2 py-1">{item.concreteCourseCount} 门可核对课程</span>
+                  <span className="rounded bg-white border border-gray-100 px-2 py-1">{pick(`${item.concreteCourseCount} 门可核对课程`, `${item.concreteCourseCount} verifiable courses`)}</span>
                   {item.hasProject && <span className="rounded bg-emerald-50 border border-emerald-100 text-emerald-700 px-2 py-1">FYP / Project</span>}
                   {item.hasInternship && <span className="rounded bg-amber-50 border border-amber-100 text-amber-700 px-2 py-1">Internship / Training</span>}
                 </div>
@@ -141,14 +149,16 @@ export default function ComparePage() {
           </div>
 
           <div className="rounded-lg border border-slate-100 bg-slate-50/80 p-3">
-            <label htmlFor="compare-search" className="text-xs font-semibold text-gray-600">添加专业</label>
+            <label htmlFor="compare-search" className="text-xs font-semibold text-gray-600">{pick('添加专业', 'Add a Major')}</label>
             <div className="relative mt-2">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
               <input
                 id="compare-search"
                 value={query}
                 onChange={event => setQuery(event.target.value)}
-                placeholder={selectedCodes.length >= 3 ? '最多同时对比 3 个专业' : '搜索专业名、代码、学院...'}
+                placeholder={selectedCodes.length >= 3
+                  ? pick('最多同时对比 3 个专业', 'You can compare up to 3 majors')
+                  : pick('搜索专业名、代码、学院...', 'Search title, code, or college...')}
                 disabled={selectedCodes.length >= 3}
                 className="w-full pl-9 pr-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-cityu-accent disabled:bg-gray-100"
               />
@@ -166,11 +176,11 @@ export default function ComparePage() {
                     <Plus className="w-4 h-4 text-gray-400" />
                   </div>
                   <div className="text-sm font-semibold text-gray-800 leading-snug mt-1">{candidate.title}</div>
-                  <div className="text-xs text-gray-500 mt-1">{candidate.totalCredits} CU · {SOURCE_LABELS[candidate.sourceKind]}</div>
+                  <div className="text-xs text-gray-500 mt-1">{candidate.totalCredits} CU · {SOURCE_LABELS[candidate.sourceKind][language]}</div>
                 </button>
               ))}
               {query.trim() && candidates.length === 0 && selectedCodes.length < 3 && (
-                <div className="text-xs text-gray-500 py-3">没有找到匹配的本科专业</div>
+                <div className="text-xs text-gray-500 py-3">{pick('没有找到匹配的本科专业', 'No matching undergraduate programmes')}</div>
               )}
             </div>
           </div>
@@ -181,13 +191,13 @@ export default function ComparePage() {
         <section className="surface-panel p-4 sm:p-5">
           <div className="flex items-center gap-2 mb-4">
             <ShieldCheck className="w-5 h-5 text-cityu-accent" />
-            <h2 className="font-bold text-gray-800">结构对比</h2>
+            <h2 className="font-bold text-gray-800">{pick('结构对比', 'Structure Comparison')}</h2>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[760px] text-sm">
               <thead>
                 <tr className="border-b border-gray-100">
-                  <th className="text-left py-2 px-3 text-gray-500 font-medium w-44">指标</th>
+                  <th className="text-left py-2 px-3 text-gray-500 font-medium w-44">{pick('指标', 'Metric')}</th>
                   {comparison.items.map(item => (
                     <th key={item.code} className="text-left py-2 px-3 text-gray-700 font-semibold">
                       <Link to={`/major/${item.code}`} className="inline-flex items-center gap-1 hover:text-cityu-accent">
@@ -199,7 +209,7 @@ export default function ComparePage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                {metricRows().map(row => (
+                {metricRows(language).map(row => (
                   <tr key={row.label} className="odd:bg-gray-50/60">
                     <td className="py-2.5 px-3 font-medium text-gray-600">{row.label}</td>
                     {comparison.items.map(item => (
@@ -218,10 +228,10 @@ export default function ComparePage() {
       <section className="surface-panel p-4 sm:p-5">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
           <div>
-            <h2 className="font-bold text-gray-800">重叠课程</h2>
-            <p className="text-sm text-gray-500">只统计真实课程代码，不包含 GE、专业选修占位符或自由选修占位符。</p>
+            <h2 className="font-bold text-gray-800">{pick('重叠课程', 'Overlapping Courses')}</h2>
+            <p className="text-sm text-gray-500">{pick('只统计真实课程代码，不包含 GE、专业选修占位符或自由选修占位符。', 'Counts concrete course codes only; GE, major-elective, and free-elective placeholders are excluded.')}</p>
           </div>
-          <div className="text-sm font-semibold text-cityu-accent">{comparison.overlaps.length} 门</div>
+          <div className="text-sm font-semibold text-cityu-accent">{pick(`${comparison.overlaps.length} 门`, `${comparison.overlaps.length} courses`)}</div>
         </div>
         {comparison.overlaps.length > 0 ? (
           <div className="flex flex-wrap gap-2">
@@ -234,7 +244,7 @@ export default function ComparePage() {
           </div>
         ) : (
           <div className="text-sm text-gray-500 py-6 text-center border border-dashed border-gray-200 rounded-lg">
-            当前选择的专业没有明显重叠课程。
+            {pick('当前选择的专业没有明显重叠课程。', 'The selected majors have no obvious overlapping courses.')}
           </div>
         )}
       </section>

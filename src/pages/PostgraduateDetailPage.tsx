@@ -22,15 +22,17 @@ import ResearchReferencePanel from '../components/ResearchReferencePanel'
 import { findRelatedAcademicProfiles } from '../utils/academicProfiles.ts'
 import { auditPlanRisks, studyPlanToRiskSemesters } from '../utils/planRiskAudit.ts'
 import type { AcademicProfilesData, Course, MajorCourse, PostgraduateProgramme, StudyPlan } from '../types'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
+import type { Language } from '../i18n/language.ts'
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
 const pgCourses = pgCoursesData as Record<string, Course>
 const academicData = academicProfilesJson as AcademicProfilesData
 
-const TYPE_LABELS: Record<PostgraduateProgramme['type'], string> = {
-  'taught-master': '授课型硕士',
-  'research-degree': 'MPhil / PhD',
-  'professional-doctorate': '专业博士',
+const TYPE_LABELS: Record<PostgraduateProgramme['type'], Record<Language, string>> = {
+  'taught-master': { zh: '授课型硕士', en: "Taught Master's" },
+  'research-degree': { zh: 'MPhil / PhD', en: 'MPhil / PhD' },
+  'professional-doctorate': { zh: '专业博士', en: 'Professional Doctorate' },
 }
 
 const TYPE_CLASSES: Record<PostgraduateProgramme['type'], string> = {
@@ -104,6 +106,7 @@ function displayCourseCode(course: MajorCourse) {
 }
 
 export default function PostgraduateDetailPage() {
+  const { language, pick } = useLanguage()
   const { programmeCode } = useParams()
   const programme = postgraduateProgrammes.find((item) => item.code.toLowerCase() === (programmeCode ?? '').toLowerCase())
   const [selectedVariantCode, setSelectedVariantCode] = useState<string | null>(null)
@@ -119,8 +122,8 @@ export default function PostgraduateDetailPage() {
   const activePlan = selectedVariant?.studyPlan ?? programme?.studyPlan
   const coursePool = useMemo(() => (programme ? coursePoolFor(programme) : []), [programme])
   const planRisks = useMemo(() => (
-    activePlan ? auditPlanRisks({ plan: studyPlanToRiskSemesters(activePlan), courses: pgCourses }) : null
-  ), [activePlan])
+    activePlan ? auditPlanRisks({ plan: studyPlanToRiskSemesters(activePlan), courses: pgCourses }, language) : null
+  ), [activePlan, language])
   const isDiy = programme?.sourceStatus.kind !== 'official-sample'
   const relatedAcademicProfiles = useMemo(() => (
     programme ? findRelatedAcademicProfiles(academicData.profiles, programme, { limit: 5 }) : []
@@ -135,28 +138,28 @@ export default function PostgraduateDetailPage() {
       <div className="space-y-4">
         <Link to="/postgraduate" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent transition-colors text-sm">
           <ArrowLeft className="w-4 h-4" />
-          返回硕博目录
+          {pick('返回硕博目录', 'Back to Postgraduate Directory')}
         </Link>
         <section className="surface-panel p-6 text-center text-gray-500">
-          未找到这个硕博项目。
+          {pick('未找到这个硕博项目。', 'Postgraduate programme not found.')}
         </section>
       </div>
     )
   }
 
   const sourceLinks = [
-    { label: 'Official programme page', url: programme.url },
-    { label: 'Curriculum overview', url: programme.curriculumUrl },
-    { label: 'Sample schedule', url: programme.sampleScheduleUrl },
-    { label: 'PG course catalogue', url: programme.courseCatalogueUrl },
-    { label: 'Course list source', url: programme.courseListStatus?.sourceUrl },
+    { label: pick('官方项目页面', 'Official programme page'), url: programme.url },
+    { label: pick('课程结构概览', 'Curriculum overview'), url: programme.curriculumUrl },
+    { label: pick('样例课表', 'Sample schedule'), url: programme.sampleScheduleUrl },
+    { label: pick('PG 课程目录', 'PG course catalogue'), url: programme.courseCatalogueUrl },
+    { label: pick('课程列表来源', 'Course list source'), url: programme.courseListStatus?.sourceUrl },
   ].filter((item): item is { label: string; url: string } => Boolean(item.url))
 
   return (
     <div className="space-y-5">
       <Link to="/postgraduate" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回硕博目录
+        {pick('返回硕博目录', 'Back to Postgraduate Directory')}
       </Link>
 
       <section className="surface-panel p-4 sm:p-6">
@@ -165,7 +168,7 @@ export default function PostgraduateDetailPage() {
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <span className="rounded bg-cityu-accent/10 px-2 py-0.5 text-xs font-bold text-cityu-accent">{programme.code}</span>
               <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${TYPE_CLASSES[programme.type]}`}>
-                {TYPE_LABELS[programme.type]}
+                {TYPE_LABELS[programme.type][language]}
               </span>
               <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${SOURCE_CLASSES[programme.sourceStatus.kind]}`}>
                 {programme.sourceStatus.label}
@@ -202,7 +205,7 @@ export default function PostgraduateDetailPage() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-cityu-dark px-4 py-2.5 text-sm font-semibold text-white hover:bg-cityu-purple transition-colors"
           >
-            官方页面
+            {pick('官方页面', 'Official Page')}
             <ExternalLink className="w-4 h-4" />
           </a>
         </div>
@@ -212,7 +215,7 @@ export default function PostgraduateDetailPage() {
             {isDiy ? <AlertTriangle className="w-5 h-5 text-amber-700 flex-shrink-0 mt-0.5" /> : <CheckCircle2 className="w-5 h-5 text-cyan-700 flex-shrink-0 mt-0.5" />}
             <div>
               <div className={`font-semibold ${isDiy ? 'text-amber-900' : 'text-cyan-900'}`}>
-                {isDiy ? '非官网 study plan，请自行 DIY' : 'Official sample schedule'}
+                {isDiy ? pick('非官网 study plan，请自行 DIY', 'No official study plan: build your own') : pick('官方样例课表', 'Official sample schedule')}
               </div>
               <p className={`mt-1 text-sm leading-relaxed ${isDiy ? 'text-amber-800' : 'text-cyan-800'}`}>
                 {programme.sourceStatus.description}
@@ -335,7 +338,7 @@ export default function PostgraduateDetailPage() {
                             </div>
                           ) : (
                             <div className="flex h-[96px] items-center justify-center rounded-lg border border-dashed border-gray-200 bg-gray-50 text-center text-xs text-gray-500">
-                              DIY 空白学期
+                              {pick('DIY 空白学期', 'DIY empty semester')}
                             </div>
                           )}
                         </div>
@@ -391,8 +394,11 @@ export default function PostgraduateDetailPage() {
         <aside className="space-y-4">
           <ResearchReferencePanel
             profiles={relatedAcademicProfiles}
-            heading="Research Reference"
-            description="Related CityUHK academic profiles for supervisor, research group, and publication exploration. This is separate from programme coursework requirements."
+            heading={pick('科研参考', 'Research Reference')}
+            description={pick(
+              '相关 CityUHK 教授资料可用于探索导师、研究组与代表论文；此模块独立于项目课程要求。',
+              'Related CityUHK academic profiles for supervisor, research group, and publication exploration. This is separate from programme coursework requirements.',
+            )}
             compact
           />
 
@@ -443,7 +449,7 @@ export default function PostgraduateDetailPage() {
                       {sourceOnly ? (
                         <div className="mt-2 text-xs text-teal-700">Official title list; course code / assessment pending</div>
                       ) : needsReview ? (
-                        <div className="mt-2 text-xs text-amber-700">官方课程详情未确认</div>
+                        <div className="mt-2 text-xs text-amber-700">{pick('官方课程详情未确认', 'Official course details not confirmed')}</div>
                       ) : (
                         <div className="mt-2 text-xs text-emerald-700">Assessment parsed from PG catalogue</div>
                       )}
@@ -453,7 +459,10 @@ export default function PostgraduateDetailPage() {
               </div>
             ) : (
               <div className="rounded-lg border border-dashed border-gray-200 bg-gray-50 p-4 text-sm text-gray-500 leading-relaxed">
-                {programme.courseListStatus?.description ?? '官方课程池尚未结构化到本站。请打开官方 programme page 核对 required / elective / research requirements 后自行填入 DIY 表格。'}
+                {programme.courseListStatus?.description ?? pick(
+                  '官方课程池尚未结构化到本站。请打开官方 programme page 核对 required / elective / research requirements 后自行填入 DIY 表格。',
+                  'The official course pool has not yet been structured on this site. Open the official programme page to confirm required, elective, and research requirements before filling the DIY plan.',
+                )}
               </div>
             )}
           </section>

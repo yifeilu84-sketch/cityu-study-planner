@@ -16,6 +16,7 @@ import { findRelatedAcademicProfiles } from '../utils/academicProfiles.ts'
 import { canUseMajorLevelPlan, getInitialStreamIndex } from '../utils/majorStreams.ts'
 import academicProfilesJson from '../data/academic-profiles.json'
 import type { AcademicProfilesData } from '../types'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 type Tab = 'plan' | 'requirements' | 'courses'
 
@@ -50,6 +51,7 @@ const SOURCE_TONE_CLASSES = {
 }
 
 export default function MajorPage() {
+  const { language, pick } = useLanguage()
   const { majorCode } = useParams<{ majorCode: string }>()
   const [tab, setTab] = useState<Tab>('plan')
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
@@ -119,8 +121,8 @@ export default function MajorPage() {
   ), [major, courses, selectedStreamIdx])
 
   const planAudit = useMemo(() => (
-    major ? auditGraduationPlan(major, courses, studyPlan, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : null
-  ), [major, courses, studyPlan, selectedStreamIdx])
+    major ? auditGraduationPlan(major, courses, studyPlan, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined, language) : null
+  ), [major, courses, studyPlan, selectedStreamIdx, language])
 
   const allReqCourses = useMemo(() => (
     major ? getAllMajorCourses(major, selectedStreamIdx >= 0 ? selectedStreamIdx : undefined) : []
@@ -183,11 +185,11 @@ export default function MajorPage() {
   const reqSections = useMemo(() => {
     const sections: { key: string; label: string; icon: any; req: any }[] = []
     const reqList = [
-      { key: 'gatewayEducation', label: '通识教育', icon: GraduationCap, req: geReq },
-      { key: 'college', label: '学院/学系要求', icon: BookOpen, req: collegeReq },
-      { key: 'collegeRequirement', label: '学院指定课程', icon: BookOpen, req: collegeSpecifiedReq },
-      { key: 'majorCore', label: '专业核心', icon: FileText, req: coreReq },
-      { key: 'majorElectives', label: '专业选修', icon: LayoutGrid, req: electiveReq },
+      { key: 'gatewayEducation', label: pick('通识教育', 'Gateway Education'), icon: GraduationCap, req: geReq },
+      { key: 'college', label: pick('学院/学系要求', 'College / Department Requirements'), icon: BookOpen, req: collegeReq },
+      { key: 'collegeRequirement', label: pick('学院指定课程', 'College Specified Courses'), icon: BookOpen, req: collegeSpecifiedReq },
+      { key: 'majorCore', label: pick('专业核心', 'Major Core'), icon: FileText, req: coreReq },
+      { key: 'majorElectives', label: pick('专业选修', 'Major Electives'), icon: LayoutGrid, req: electiveReq },
     ]
     for (const { key, label, icon, req } of reqList) {
       if (req && ((req.courses?.length > 0) || (req.credits > 0))) {
@@ -195,12 +197,12 @@ export default function MajorPage() {
       }
     }
     return sections
-  }, [geReq, collegeReq, collegeSpecifiedReq, coreReq, electiveReq])
+  }, [geReq, collegeReq, collegeSpecifiedReq, coreReq, electiveReq, pick])
 
   if (majorLoadState === 'loading') {
     return (
       <div className="text-center py-20 text-gray-500">
-        正在加载专业数据...
+        {pick('正在加载专业数据...', 'Loading programme data...')}
       </div>
     )
   }
@@ -208,15 +210,15 @@ export default function MajorPage() {
   if (!major) {
     return (
       <div className="text-center py-20">
-        <h2 className="text-2xl font-bold text-gray-600">专业未找到</h2>
+        <h2 className="text-2xl font-bold text-gray-600">{pick('专业未找到', 'Programme not found')}</h2>
         <Link to="/" className="text-cityu-accent mt-4 inline-block hover:underline">
-          返回首页
+          {pick('返回首页', 'Back to Home')}
         </Link>
       </div>
     )
   }
 
-  const sourceStatus = getStudyPlanSourceStatus(activeStream ?? major)
+  const sourceStatus = getStudyPlanSourceStatus(activeStream ?? major, language)
   const sourceTone = SOURCE_TONE_CLASSES[sourceStatus.tone]
   const issueReport = buildIssueReport({
     entityType: 'major',
@@ -231,7 +233,7 @@ export default function MajorPage() {
       <Link to={`/college/${major.college?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}
         className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent mb-3 sm:mb-4 transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回学院
+        {pick('返回学院', 'Back to College')}
       </Link>
 
       {/* Header */}
@@ -255,15 +257,15 @@ export default function MajorPage() {
               className="interactive-card hidden items-center gap-1.5 px-3 py-2 text-sm text-slate-600 sm:inline-flex"
             >
               <Flag className="w-4 h-4" />
-              报告问题
+              {pick('报告问题', 'Report Issue')}
             </a>
             <div className="metric-card text-center">
               <div className="metric-value">{totalCredits}</div>
-              <div className="text-xs text-gray-500">总学分</div>
+              <div className="text-xs text-gray-500">{pick('总学分', 'Total CU')}</div>
             </div>
             <div className="metric-card text-center">
               <div className="metric-value">{allReqCourses.length}</div>
-              <div className="text-xs text-gray-500">课程数</div>
+              <div className="text-xs text-gray-500">{pick('课程数', 'Courses')}</div>
             </div>
           </div>
         </div>
@@ -271,7 +273,7 @@ export default function MajorPage() {
         {/* Stream Selector */}
         {hasStreams && major.streams && major.streams.length > 0 && (
           <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
-            <h3 className="text-sm font-medium text-gray-700 mb-2">学术方向 / Streams</h3>
+            <h3 className="text-sm font-medium text-gray-700 mb-2">{pick('学术方向 / Streams', 'Academic Streams')}</h3>
             <div className="flex flex-wrap gap-2">
               {canUseDefaultPlan && (
                 <button
@@ -285,8 +287,8 @@ export default function MajorPage() {
                       : 'bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100'
                   }`}
                 >
-                  <span className="font-semibold">默认</span>
-                  <span className="ml-1 opacity-90">不选方向</span>
+                  <span className="font-semibold">{pick('默认', 'Default')}</span>
+                  <span className="ml-1 opacity-90">{pick('不选方向', 'No stream')}</span>
                 </button>
               )}
               {major.streams.map((s: any, idx: number) => (
@@ -316,7 +318,7 @@ export default function MajorPage() {
         {/* Notes */}
         {major.notes && major.notes.length > 0 && (
           <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
-            <h3 className="text-sm font-medium text-gray-700 mb-2">重要备注</h3>
+            <h3 className="text-sm font-medium text-gray-700 mb-2">{pick('重要备注', 'Important Notes')}</h3>
             <ul className="space-y-1">
               {major.notes.map((note: string, i: number) => (
                 <li key={i} className="text-sm text-gray-600 flex items-start gap-2">
@@ -330,7 +332,7 @@ export default function MajorPage() {
         {selectedStreamIdx >= 0 && major.streams?.[selectedStreamIdx]?.notes && (
           <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-100">
             <h3 className="text-sm font-medium text-gray-700 mb-2">
-              {major.streams[selectedStreamIdx].name} 备注
+              {major.streams[selectedStreamIdx].name} {pick('备注', 'Notes')}
             </h3>
             <ul className="space-y-1">
               {major.streams[selectedStreamIdx].notes!.map((note: string, i: number) => (
@@ -346,17 +348,20 @@ export default function MajorPage() {
 
       <ResearchReferencePanel
         profiles={relatedAcademicProfiles}
-        heading="Research Reference"
-        description="Related CityUHK academic profiles for FYP, RA, reading-list, and supervisor exploration. This is separate from the official course plan above."
+        heading={pick('科研参考', 'Research Reference')}
+        description={pick(
+          '与该专业相关的 CityUHK 教授资料，可用于探索 FYP、RA、阅读清单和导师方向；此模块独立于上方官方课程规划。',
+          'Related CityUHK academic profiles for FYP, RA, reading-list, and supervisor exploration. This is separate from the official course plan above.',
+        )}
       />
 
       {/* Tabs */}
       <div className="flex flex-col sm:flex-row gap-2 mb-6 border-b border-gray-200 items-start sm:items-center justify-between">
         <div className="flex gap-2 overflow-x-auto w-full sm:w-auto pb-1">
           {[
-            { key: 'plan' as Tab, label: '学习计划', icon: LayoutGrid },
-            { key: 'requirements' as Tab, label: '课程要求', icon: BookOpen },
-            { key: 'courses' as Tab, label: '课程列表', icon: List },
+            { key: 'plan' as Tab, label: pick('学习计划', 'Study Plan'), icon: LayoutGrid },
+            { key: 'requirements' as Tab, label: pick('课程要求', 'Requirements'), icon: BookOpen },
+            { key: 'courses' as Tab, label: pick('课程列表', 'Courses'), icon: List },
           ].map(({ key, label, icon: Icon }) => (
             <button
               key={key}
@@ -383,7 +388,7 @@ export default function MajorPage() {
             }`}
           >
             {editMode ? <Eye className="w-4 h-4" /> : <Pencil className="w-4 h-4" />}
-            {courseDetailsLoading ? '加载课程库...' : editMode ? '退出编辑' : '编辑模式'}
+            {courseDetailsLoading ? pick('加载课程库...', 'Loading courses...') : editMode ? pick('退出编辑', 'Exit Edit Mode') : pick('编辑模式', 'Edit Plan')}
           </button>
         )}
       </div>
@@ -421,13 +426,13 @@ export default function MajorPage() {
                     </p>
                     <p>{sourceStatus.description}</p>
                     {sourceStatus.kind === 'diy' && (
-                      <p className="mt-1">课程池包含该路径底层主修的毕业要求课程及可自由组合的 GE 课程，请自行拖拽到各学期。</p>
+                      <p className="mt-1">{pick('课程池包含该路径底层主修的毕业要求课程及可自由组合的 GE 课程，请自行拖拽到各学期。', 'The course pool contains graduation requirements for the underlying major plus flexible GE options. Drag courses into your chosen semesters.')}</p>
                     )}
                     {sourceStatus.kind === 'derived' && (
-                      <p className="mt-1">请务必结合当年实际开课、先修要求、交换/实习安排和个人学分负荷自行调整。</p>
+                      <p className="mt-1">{pick('请务必结合当年实际开课、先修要求、交换/实习安排和个人学分负荷自行调整。', 'Adjust this reference for actual yearly offerings, prerequisites, exchange or internship plans, and your preferred workload.')}</p>
                     )}
                     <div className="mt-1 flex flex-wrap items-center gap-3 text-[10px] sm:text-xs opacity-90">
-                      <span>每学期正常学分上限为 18 CU，申请 ARRO 批准后最高可达 21 CU。</span>
+                      <span>{pick('每学期正常学分上限为 18 CU，申请 ARRO 批准后最高可达 21 CU。', 'The normal semester limit is 18 CU; up to 21 CU may be allowed with ARRO approval.')}</span>
                       {sourceStatus.sourceUrl && (
                         <a
                           href={sourceStatus.sourceUrl}
@@ -435,7 +440,7 @@ export default function MajorPage() {
                           rel="noopener noreferrer"
                           className={`inline-flex items-center gap-1 font-medium ${sourceTone.link}`}
                         >
-                          查看来源
+                          {pick('查看来源', 'View Source')}
                           <ExternalLink className="w-3 h-3" />
                         </a>
                       )}
@@ -452,14 +457,14 @@ export default function MajorPage() {
                 {['ge', 'college', 'majorCore', 'majorElective', 'freeElective'].map(cat => (
                   <div key={cat} className="flex items-center gap-1.5 text-sm">
                     <span className={`w-3 h-3 rounded border ${getCategoryColor(cat)}`} />
-                    {getCategoryLabel(cat)}
+                    {getCategoryLabel(cat, language)}
                   </div>
                 ))}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4">
                 {studyPlan.map(sem => {
-                  const creditStatus = getCreditStatus(sem.totalCredits)
+                  const creditStatus = getCreditStatus(sem.totalCredits, language)
                   return (
                     <div key={`${sem.year}-${sem.sem}`} className="semester-card p-3 sm:p-4">
                       <div className="flex items-center justify-between mb-2 sm:mb-3 pb-2 border-b border-gray-100">
@@ -473,7 +478,7 @@ export default function MajorPage() {
                             creditStatus.status === 'warning' ? 'text-amber-700 bg-amber-50' :
                             'text-red-700 bg-red-50'
                           }`}>
-                            {sem.totalCredits} 学分
+                            {sem.totalCredits} {pick('学分', 'CU')}
                           </span>
                         </div>
                       </div>
@@ -503,7 +508,7 @@ export default function MajorPage() {
 
               {studyPlan.length === 0 && (
                 <div className="text-center py-12 text-gray-500">
-                  暂无学习计划数据
+                  {pick('暂无学习计划数据', 'No study plan data available')}
                 </div>
               )}
             </>
@@ -518,17 +523,17 @@ export default function MajorPage() {
               <div className="flex items-center gap-2 mb-4">
                 <Icon className="w-5 h-5 text-cityu-accent" />
                 <h3 className="text-base sm:text-lg font-bold text-gray-800">{label}</h3>
-                <span className="text-sm text-gray-500 ml-auto">{req.credits} 学分</span>
+                <span className="text-sm text-gray-500 ml-auto">{req.credits} {pick('学分', 'CU')}</span>
               </div>
               {req.courses?.length > 0 ? (
                 <div className="overflow-x-auto -mx-2 px-2">
                   <table className="w-full text-xs sm:text-sm">
                     <thead className="bg-gray-50">
                       <tr>
-                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600 whitespace-nowrap">代码</th>
-                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600">课程名称</th>
-                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600 whitespace-nowrap">学分</th>
-                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600">备注</th>
+                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600 whitespace-nowrap">{pick('代码', 'Code')}</th>
+                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600">{pick('课程名称', 'Course Title')}</th>
+                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600 whitespace-nowrap">{pick('学分', 'CU')}</th>
+                        <th className="text-left px-2 sm:px-3 py-2 font-medium text-gray-600">{pick('备注', 'Remarks')}</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-100">
@@ -545,16 +550,16 @@ export default function MajorPage() {
                   </table>
                 </div>
               ) : (
-                <p className="text-gray-500 text-sm">暂无课程列表</p>
+                <p className="text-gray-500 text-sm">{pick('暂无课程列表', 'No course list available')}</p>
               )}
               {req.choose && (
                 <div className="mt-3 text-xs sm:text-sm text-gray-600 bg-gray-50 p-2.5 sm:p-3 rounded-lg">
-                  需选修 {req.choose} 门课程
+                  {pick(`需选修 ${req.choose} 门课程`, `Choose ${req.choose} courses`)}
                 </div>
               )}
               {req.chooseCredits && (
                 <div className="mt-3 text-xs sm:text-sm text-gray-600 bg-gray-50 p-2.5 sm:p-3 rounded-lg">
-                  需选修 {req.chooseCredits} 学分
+                  {pick(`需选修 ${req.chooseCredits} 学分`, `Choose ${req.chooseCredits} CU`)}
                 </div>
               )}
             </div>
@@ -567,7 +572,8 @@ export default function MajorPage() {
           <div className="mb-4">
             <input
               type="text"
-              placeholder="搜索课程代码或名称..."
+              placeholder={pick('搜索课程代码或名称...', 'Search course code or title...')}
+              aria-label={pick('搜索本专业课程', 'Search courses in this programme')}
               value={search}
               onChange={e => setSearch(e.target.value)}
               className="w-full sm:max-w-md px-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-cityu-accent"
@@ -589,7 +595,7 @@ export default function MajorPage() {
                       <div className="font-bold text-sm">{c.code}</div>
                       <div className="text-sm mt-0.5 truncate">{c.title}</div>
                     </div>
-                    <span className="text-xs font-medium flex-shrink-0">{c.credits} 学分</span>
+                    <span className="text-xs font-medium flex-shrink-0">{c.credits} {pick('学分', 'CU')}</span>
                   </div>
                   <div className="flex items-center gap-2 mt-2 text-xs opacity-70">
                     {course?.semester && (
@@ -601,7 +607,7 @@ export default function MajorPage() {
                     {hasPrereq && (
                       <span className="flex items-center gap-1 text-orange-600">
                         <AlertCircle className="w-3 h-3" />
-                        有前置课程
+                        {pick('有前置课程', 'Has prerequisites')}
                       </span>
                     )}
                   </div>
@@ -612,7 +618,7 @@ export default function MajorPage() {
 
           {filteredCourses.length === 0 && (
             <div className="text-center py-12 text-gray-500">
-              未找到匹配的课程
+              {pick('未找到匹配的课程', 'No matching courses')}
             </div>
           )}
         </div>

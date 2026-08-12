@@ -5,6 +5,22 @@ CityUHK Study Planner 是一个面向香港城市大学（CityUHK）学生的课
 在线访问：
 [https://yifeilu84-sketch.github.io/cityu-study-planner/](https://yifeilu84-sketch.github.io/cityu-study-planner/)
 
+功能更新：2026-08-12
+
+## 中英文界面
+
+网站顶部提供 `中 / EN` 语言切换，桌面侧栏和移动端导航都可以直接操作。选择结果保存在浏览器本地，刷新页面或进入其他路由时会继续使用上次选择的语言。
+
+双语范围包括：
+
+- 首页、学院、专业、GE、专业对比、数据来源、硕博目录、科研目录和新闻详情页。
+- 本科与硕博 DIY 编辑器、课程选择器、课程详情弹窗和欢迎弹窗。
+- 毕业要求自检、开课学期冲突、先修课链条、学分过载、GE Area 缺口、not offering 和跨学期项目等动态提示。
+- 来源可信度、课程池状态、官方计划 / structure / graduation-based / DIY 等状态说明。
+- 页面语言会同步更新 HTML `lang` 属性，便于浏览器、读屏软件和搜索引擎正确识别。
+
+课程代码、官方英文课程名、项目名和来源链接保持原始官方写法。科研资料如果只有中文标题或研究方向，英文模式不会自动编造翻译，而会隐藏未确认的中文字段并显示英文缺失说明；微信公众号的官方中文名称会作为必要检索标识保留。
+
 > 本项目不是 CityUHK 官方系统。所有信息仅供学习规划和选课参考，最终选课、毕业审核、课程开设、学分认定、课程替代和项目要求请以 CityUHK 官方系统、学院/学系、ARRO/SGS 和学术顾问的最终审核为准。
 
 ---
@@ -300,6 +316,7 @@ src/
     pg-course-details.json
     academic-profiles.json
     search-index.json
+  i18n/                      全站语言状态、持久化和语言相关内容筛选
   pages/                      页面路由
   utils/                      搜索、毕业审核、来源标注、GE 筛选、反馈和数据汇总工具
 
@@ -312,6 +329,7 @@ scripts/
   build-search-index.mjs
 
 tests/
+  i18n.test.mjs
   study-plan-data.test.mjs
 
 public/
@@ -396,7 +414,7 @@ git push origin main
 npm test
 ```
 
-截至最近一次验证，测试为 55/55 通过，`npm run build` 也可以正常完成。
+截至最近一次验证，测试为 72/72 通过，`npm run build` 也可以正常完成。
 
 ---
 

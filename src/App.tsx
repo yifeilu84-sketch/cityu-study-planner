@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import WelcomeModal from './components/WelcomeModal'
+import { useLanguage } from './i18n/LanguageContext.tsx'
 
 const Home = lazy(() => import('./pages/Home'))
 const CollegePage = lazy(() => import('./pages/CollegePage'))
@@ -16,10 +17,11 @@ const AcademicPage = lazy(() => import('./pages/AcademicPage'))
 const AcademicProfilePage = lazy(() => import('./pages/AcademicProfilePage'))
 
 function App() {
+  const { pick } = useLanguage()
   return (
     <Layout>
       <WelcomeModal />
-      <Suspense fallback={<div className="py-12 text-center text-gray-500">加载中...</div>}>
+      <Suspense fallback={<div className="py-12 text-center text-gray-500">{pick('加载中...', 'Loading...')}</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/spotlight/:spotlightId" element={<SpotlightDetailPage />} />

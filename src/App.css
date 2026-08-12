@@ -177,7 +177,82 @@ select:focus-visible {
 .sidebar-nav {
   display: grid;
   gap: 0.35rem;
-  margin-top: 1.25rem;
+  margin-top: 0.85rem;
+}
+
+.sidebar-language-control {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+
+.mobile-brand-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.language-toggle {
+  display: inline-grid;
+  grid-template-columns: 1.7rem repeat(2, minmax(2.4rem, 1fr));
+  align-items: center;
+  gap: 0.2rem;
+  min-height: 2.35rem;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 0.2rem;
+  box-shadow: var(--shadow-hairline);
+}
+
+.language-toggle-icon {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+  color: #78716c;
+}
+
+.language-toggle button {
+  display: inline-flex;
+  min-width: 0;
+  min-height: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 7px;
+  padding: 0.25rem 0.45rem;
+  background: transparent;
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+}
+
+.language-toggle button:hover,
+.language-toggle button:focus-visible {
+  color: #7f1d1d;
+  background: rgba(185, 28, 28, 0.06);
+}
+
+.language-toggle .language-toggle-active {
+  background: #171c26;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.16);
+}
+
+.language-toggle-compact {
+  flex-shrink: 0;
+  grid-template-columns: 1.45rem repeat(2, minmax(2rem, 1fr));
+  min-height: 2.1rem;
+}
+
+.language-toggle-compact button {
+  min-height: 1.65rem;
+  padding-inline: 0.35rem;
+  font-size: 0.68rem;
 }
 
 .mobile-nav {

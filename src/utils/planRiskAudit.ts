@@ -1,4 +1,5 @@
 import type { Course, StudyPlan } from '../types'
+import type { Language } from '../i18n/language.ts'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export type PlanRiskSeverity = 'info' | 'warning' | 'danger'
@@ -133,8 +134,13 @@ function isNotOffering(course?: Course): boolean {
   return /not\s+offering/i.test(course?.semester ?? '')
 }
 
-function termList(terms: Set<'semA' | 'semB' | 'summer'>): string {
-  return [...terms].map(term => TERM_LABELS[term]).join(' / ')
+function pick(language: Language, zh: string, en: string): string {
+  return language === 'en' ? en : zh
+}
+
+function termList(terms: Set<'semA' | 'semB' | 'summer'>, language: Language): string {
+  const zhLabels = { semA: 'A 学期', semB: 'B 学期', summer: '暑期学期' } as const
+  return [...terms].map(term => language === 'en' ? TERM_LABELS[term] : zhLabels[term]).join(' / ')
 }
 
 function flattenPlan(plan: PlanRiskSemester[], courses: Record<string, Course>): PlannedCourse[] {
@@ -176,7 +182,7 @@ function hasPriorCode(code: string, priorCodes: Set<string>): boolean {
   return (PREREQUISITE_EQUIVALENTS[code] ?? []).some(equivalent => priorCodes.has(equivalent))
 }
 
-function buildOfferingIssues(plannedCourses: PlannedCourse[]): PlanRiskIssue[] {
+function buildOfferingIssues(plannedCourses: PlannedCourse[], language: Language): PlanRiskIssue[] {
   const issues: PlanRiskIssue[] = []
 
   for (const course of plannedCourses) {
@@ -189,9 +195,9 @@ function buildOfferingIssues(plannedCourses: PlannedCourse[]): PlanRiskIssue[] {
         codes: [course.normalizedCode],
         year: course.year,
         sem: course.sem,
-        title: `${course.code} is not currently offered`,
-        message: `${course.code} is listed as not offering in the current academic year.`,
-        suggestion: 'Keep it as a requirement reference only, or confirm an alternative / replacement course with the department.',
+        title: pick(language, `${course.code} 当前学年不开课`, `${course.code} is not currently offered`),
+        message: pick(language, `${course.code} 在当前学年被标注为 not offering。`, `${course.code} is listed as not offering in the current academic year.`),
+        suggestion: pick(language, '仅将其保留为毕业要求参考，或向学系确认替代课程。', 'Keep it as a requirement reference only, or confirm an alternative / replacement course with the department.'),
       })
       continue
     }
@@ -205,16 +211,16 @@ function buildOfferingIssues(plannedCourses: PlannedCourse[]): PlanRiskIssue[] {
       codes: [course.normalizedCode],
       year: course.year,
       sem: course.sem,
-      title: `${course.code} is placed in the wrong semester`,
-      message: `${course.code} is placed in Year ${course.year} ${TERM_LABELS[course.termKey]}, but the catalogue shows ${termList(offeringTerms)}.`,
-      suggestion: `Move ${course.code} to ${termList(offeringTerms)}, or confirm a special offering with the department.`,
+      title: pick(language, `${course.code} 被排在错误的学期`, `${course.code} is placed in the wrong semester`),
+      message: pick(language, `${course.code} 目前排在 Year ${course.year} ${TERM_LABELS[course.termKey]}，但课程目录显示开设于 ${termList(offeringTerms, language)}。`, `${course.code} is placed in Year ${course.year} ${TERM_LABELS[course.termKey]}, but the catalogue shows ${termList(offeringTerms, language)}.`),
+      suggestion: pick(language, `将 ${course.code} 调整到 ${termList(offeringTerms, language)}，或向学系确认是否有特别开课安排。`, `Move ${course.code} to ${termList(offeringTerms, language)}, or confirm a special offering with the department.`),
     })
   }
 
   return issues
 }
 
-function buildPrerequisiteIssues(plannedCourses: PlannedCourse[], courses: Record<string, Course>): PlanRiskIssue[] {
+function buildPrerequisiteIssues(plannedCourses: PlannedCourse[], courses: Record<string, Course>, language: Language): PlanRiskIssue[] {
   const issues: PlanRiskIssue[] = []
   const priorBySemester = buildPriorCodeSets(plannedCourses)
 
@@ -236,16 +242,16 @@ function buildPrerequisiteIssues(plannedCourses: PlannedCourse[], courses: Recor
       codes: [course.normalizedCode, ...prerequisites],
       year: course.year,
       sem: course.sem,
-      title: `${course.code} may be missing prerequisite preparation`,
-      message: `${course.code} lists prerequisite / pre-cursor course(s): ${prerequisites.join(', ')}, but none appears before Year ${course.year} Semester ${course.sem}.`,
-      suggestion: `Move at least one prerequisite before ${course.code}, or confirm waiver / equivalent preparation with the department.`,
+      title: pick(language, `${course.code} 可能缺少先修准备`, `${course.code} may be missing prerequisite preparation`),
+      message: pick(language, `${course.code} 列出的先修课程为 ${prerequisites.join(', ')}，但在 Year ${course.year} Semester ${course.sem} 之前未找到这些课程。`, `${course.code} lists prerequisite / pre-cursor course(s): ${prerequisites.join(', ')}, but none appears before Year ${course.year} Semester ${course.sem}.`),
+      suggestion: pick(language, `将至少一门先修课放到 ${course.code} 之前，或向学系确认豁免及等同资历。`, `Move at least one prerequisite before ${course.code}, or confirm waiver / equivalent preparation with the department.`),
     })
   }
 
   return issues
 }
 
-function buildLoadIssues(plan: PlanRiskSemester[]): PlanRiskIssue[] {
+function buildLoadIssues(plan: PlanRiskSemester[], language: Language): PlanRiskIssue[] {
   const issues: PlanRiskIssue[] = []
   for (const semester of plan) {
     const totalCredits = semester.courses.reduce((sum, course) => sum + (Number(course.credits) || 0), 0)
@@ -261,11 +267,11 @@ function buildLoadIssues(plan: PlanRiskSemester[]): PlanRiskIssue[] {
       codes: semester.courses.map(course => course.code),
       year: semester.year,
       sem: semester.sem,
-      title: `Year ${semester.year} Semester ${semester.sem} has a heavy load`,
-      message: `Year ${semester.year} Semester ${semester.sem} currently has ${totalCredits} CU.`,
+      title: pick(language, `Year ${semester.year} Semester ${semester.sem} 学分负荷较高`, `Year ${semester.year} Semester ${semester.sem} has a heavy load`),
+      message: pick(language, `Year ${semester.year} Semester ${semester.sem} 当前为 ${totalCredits} CU。`, `Year ${semester.year} Semester ${semester.sem} currently has ${totalCredits} CU.`),
       suggestion: severity === 'danger'
-        ? `Reduce this semester below ${dangerLimit + 1} CU or confirm overload approval requirements.`
-        : 'Consider moving one course to another semester if you want a lighter workload.',
+        ? pick(language, `将该学期降至 ${dangerLimit + 1} CU 以下，或确认超额学分审批要求。`, `Reduce this semester below ${dangerLimit + 1} CU or confirm overload approval requirements.`)
+        : pick(language, '如需减轻负担，可考虑把一门课程移到其他学期。', 'Consider moving one course to another semester if you want a lighter workload.'),
     })
   }
   return issues
@@ -281,7 +287,8 @@ function isCrossTermProject(course: PlannedCourse): boolean {
 
 function buildCrossTermIssues(
   plannedCourses: PlannedCourse[],
-  splitCourses: PlanRiskInput['splitCourses']
+  splitCourses: PlanRiskInput['splitCourses'],
+  language: Language,
 ): PlanRiskIssue[] {
   const issues: PlanRiskIssue[] = []
   const byCode = new Map<string, PlannedCourse[]>()
@@ -302,16 +309,16 @@ function buildCrossTermIssues(
       severity: 'info',
       code,
       codes: [code],
-      title: `${code} is treated as a cross-term project`,
-      message: `${code} appears in ${occurrences.length} semesters with ${plannedCredits}/${catalogueCredits || plannedCredits} CU planned.`,
-      suggestion: 'This looks like a project / internship / thesis style course split across semesters; it is not treated as a duplicate-course conflict.',
+      title: pick(language, `${code} 被识别为跨学期项目`, `${code} is treated as a cross-term project`),
+      message: pick(language, `${code} 出现在 ${occurrences.length} 个学期，规划学分为 ${plannedCredits}/${catalogueCredits || plannedCredits} CU。`, `${code} appears in ${occurrences.length} semesters with ${plannedCredits}/${catalogueCredits || plannedCredits} CU planned.`),
+      suggestion: pick(language, '该课程看起来是分学期完成的 project / internship / thesis，不按重复课程冲突处理。', 'This looks like a project / internship / thesis style course split across semesters; it is not treated as a duplicate-course conflict.'),
     })
   }
 
   return issues
 }
 
-function buildGERisks(ge: PlanRiskInput['ge']): PlanRiskIssue[] {
+function buildGERisks(ge: PlanRiskInput['ge'], language: Language): PlanRiskIssue[] {
   const issues: PlanRiskIssue[] = []
   if (!ge) return issues
 
@@ -320,9 +327,9 @@ function buildGERisks(ge: PlanRiskInput['ge']): PlanRiskIssue[] {
       kind: 'ge-area',
       severity: 'warning',
       codes: [],
-      title: 'GE Area is still incomplete',
-      message: `GE Distributional Requirements still need: ${(ge.missingAreas ?? []).join(', ')}.`,
-      suggestion: 'Use the GE helper to choose courses that cover the missing area(s).',
+      title: pick(language, 'GE Area 尚未满足', 'GE Area is still incomplete'),
+      message: pick(language, `GE Distributional Requirements 仍缺少：${(ge.missingAreas ?? []).join(', ')}。`, `GE Distributional Requirements still need: ${(ge.missingAreas ?? []).join(', ')}.`),
+      suggestion: pick(language, '使用 GE 选课助手选择能覆盖缺少 Area 的课程。', 'Use the GE helper to choose courses that cover the missing area(s).'),
     })
   }
   if ((ge.missingCredits ?? 0) > 0) {
@@ -330,9 +337,9 @@ function buildGERisks(ge: PlanRiskInput['ge']): PlanRiskIssue[] {
       kind: 'ge-credits',
       severity: 'warning',
       codes: ge.missingRequiredCodes ?? [],
-      title: 'GE credits are still incomplete',
-      message: `GE currently has a ${ge.missingCredits} CU gap${ge.missingRequiredCodes?.length ? `; missing required course(s): ${ge.missingRequiredCodes.join(', ')}` : ''}.`,
-      suggestion: 'Add required GE courses or distributional GE courses until the requirement is satisfied.',
+      title: pick(language, 'GE 学分尚未满足', 'GE credits are still incomplete'),
+      message: pick(language, `GE 当前还差 ${ge.missingCredits} CU${ge.missingRequiredCodes?.length ? `；缺少必修课：${ge.missingRequiredCodes.join(', ')}` : ''}。`, `GE currently has a ${ge.missingCredits} CU gap${ge.missingRequiredCodes?.length ? `; missing required course(s): ${ge.missingRequiredCodes.join(', ')}` : ''}.`),
+      suggestion: pick(language, '补充 GE 必修课或 Distributional GE 课程，直到满足要求。', 'Add required GE courses or distributional GE courses until the requirement is satisfied.'),
     })
   }
 
@@ -345,14 +352,14 @@ function summarizeStatus(issues: PlanRiskIssue[]): PlanRiskStatus {
   return 'ok'
 }
 
-export function auditPlanRisks(input: PlanRiskInput): PlanRiskSummary {
+export function auditPlanRisks(input: PlanRiskInput, language: Language = 'en'): PlanRiskSummary {
   const plannedCourses = flattenPlan(input.plan, input.courses)
   const issues = [
-    ...buildOfferingIssues(plannedCourses),
-    ...buildPrerequisiteIssues(plannedCourses, input.courses),
-    ...buildLoadIssues(input.plan),
-    ...buildGERisks(input.ge),
-    ...buildCrossTermIssues(plannedCourses, input.splitCourses),
+    ...buildOfferingIssues(plannedCourses, language),
+    ...buildPrerequisiteIssues(plannedCourses, input.courses, language),
+    ...buildLoadIssues(input.plan, language),
+    ...buildGERisks(input.ge, language),
+    ...buildCrossTermIssues(plannedCourses, input.splitCourses, language),
   ]
 
   return {

@@ -1,5 +1,6 @@
 import { AlertTriangle, CheckCircle2, Info, XCircle } from 'lucide-react'
 import type { PlanRiskIssue, PlanRiskSummary } from '../utils/planRiskAudit'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 interface PlanRiskPanelProps {
   summary: PlanRiskSummary
@@ -8,19 +9,16 @@ interface PlanRiskPanelProps {
 
 const STATUS_COPY = {
   ok: {
-    label: '未发现明显风险',
     icon: CheckCircle2,
     box: 'border-emerald-200 bg-emerald-50 text-emerald-900',
     pill: 'bg-emerald-100 text-emerald-700',
   },
   warning: {
-    label: '需要自行确认',
     icon: AlertTriangle,
     box: 'border-amber-200 bg-amber-50 text-amber-900',
     pill: 'bg-amber-100 text-amber-800',
   },
   danger: {
-    label: '存在高优先级冲突',
     icon: XCircle,
     box: 'border-red-200 bg-red-50 text-red-900',
     pill: 'bg-red-100 text-red-700',
@@ -54,7 +52,13 @@ function issueIcon(issue: PlanRiskIssue) {
 }
 
 export default function PlanRiskPanel({ summary, compact = false }: PlanRiskPanelProps) {
+  const { pick } = useLanguage()
   const tone = STATUS_COPY[summary.status]
+  const statusLabel = {
+    ok: pick('未发现明显风险', 'No obvious risks'),
+    warning: pick('需要自行确认', 'Review needed'),
+    danger: pick('存在高优先级冲突', 'High-priority conflicts'),
+  }[summary.status]
   const HeaderIcon = tone.icon
   const visibleIssues = sortIssues(summary.issues).slice(0, compact ? 4 : 8)
   const hiddenCount = Math.max(0, summary.issues.length - visibleIssues.length)
@@ -66,28 +70,31 @@ export default function PlanRiskPanel({ summary, compact = false }: PlanRiskPane
           <HeaderIcon className="mt-0.5 h-5 w-5 flex-shrink-0" />
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
-              <h3 className="text-base font-bold">规划风险</h3>
+              <h3 className="text-base font-bold">{pick('规划风险', 'Plan Risks')}</h3>
               <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${tone.pill}`}>
-                {tone.label}
+                {statusLabel}
               </span>
             </div>
             <p className="mt-1 text-xs leading-relaxed sm:text-sm">
-              自动检查开课学期、先修课链条、学分负载、GE 缺口、not offering 课程，以及 FYP / internship / thesis 等跨学期项目。
+              {pick(
+                '自动检查开课学期、先修课链条、学分负载、GE 缺口、not offering 课程，以及 FYP / internship / thesis 等跨学期项目。',
+                'Checks offering terms, prerequisite chains, credit load, GE gaps, courses marked not offering, and cross-term FYP, internship, or thesis projects.',
+              )}
             </p>
           </div>
         </div>
         <div className="grid grid-cols-3 gap-2 text-center text-xs">
           <div className="rounded-lg bg-white/70 px-2 py-1.5">
             <div className="font-bold text-red-700">{summary.counts.danger}</div>
-            <div className="text-gray-500">高风险</div>
+            <div className="text-gray-500">{pick('高风险', 'Critical')}</div>
           </div>
           <div className="rounded-lg bg-white/70 px-2 py-1.5">
             <div className="font-bold text-amber-700">{summary.counts.warning}</div>
-            <div className="text-gray-500">提醒</div>
+            <div className="text-gray-500">{pick('提醒', 'Warnings')}</div>
           </div>
           <div className="rounded-lg bg-white/70 px-2 py-1.5">
             <div className="font-bold text-blue-700">{summary.counts.info}</div>
-            <div className="text-gray-500">说明</div>
+            <div className="text-gray-500">{pick('说明', 'Notes')}</div>
           </div>
         </div>
       </div>
@@ -103,7 +110,7 @@ export default function PlanRiskPanel({ summary, compact = false }: PlanRiskPane
                   <div className="min-w-0">
                     <div className="font-semibold">{issue.title}</div>
                     <div className="mt-1 leading-relaxed">{issue.message}</div>
-                    <div className="mt-1 font-medium leading-relaxed">建议：{issue.suggestion}</div>
+                    <div className="mt-1 font-medium leading-relaxed">{pick('建议：', 'Suggestion: ')}{issue.suggestion}</div>
                   </div>
                 </div>
               </div>
@@ -111,13 +118,13 @@ export default function PlanRiskPanel({ summary, compact = false }: PlanRiskPane
           })}
           {hiddenCount > 0 ? (
             <div className="px-1 text-xs text-gray-500">
-              还有 {hiddenCount} 条风险未显示，可先处理上方高优先级问题。
+              {pick(`还有 ${hiddenCount} 条风险未显示，可先处理上方高优先级问题。`, `${hiddenCount} more issue${hiddenCount === 1 ? '' : 's'} hidden. Address the higher-priority items above first.`)}
             </div>
           ) : null}
         </div>
       ) : (
         <div className="mt-3 rounded-lg border border-emerald-100 bg-white/70 px-3 py-2 text-xs text-emerald-800 sm:text-sm">
-          当前规划未发现明显风险；仍请以学院和 ARRO 的最终审批为准。
+          {pick('当前规划未发现明显风险；仍请以学院和 ARRO 的最终审批为准。', 'No obvious risks were found in this plan. Final college and ARRO approval still takes precedence.')}
         </div>
       )}
     </section>

@@ -3,17 +3,19 @@ import { ArrowLeft, GraduationCap, BookOpen } from 'lucide-react'
 import type { CSSProperties } from 'react'
 import majorIndex from '../data/majors-index.json'
 import { getCollegeThemeStyle } from '../utils/collegeThemes.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 export default function CollegePage() {
+  const { pick } = useLanguage()
   const { collegeId } = useParams<{ collegeId: string }>()
   const college = majorIndex.colleges.find(c => c.id === collegeId)
 
   if (!college) {
     return (
       <div className="text-center py-20">
-        <h2 className="text-2xl font-bold text-gray-600">学院未找到</h2>
+        <h2 className="text-2xl font-bold text-gray-600">{pick('学院未找到', 'College not found')}</h2>
         <Link to="/" className="text-cityu-accent mt-4 inline-block hover:underline">
-          返回首页
+          {pick('返回首页', 'Back to Home')}
         </Link>
       </div>
     )
@@ -29,23 +31,25 @@ export default function CollegePage() {
     <div>
       <Link to="/" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent mb-4 sm:mb-6 transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回首页
+        {pick('返回首页', 'Back to Home')}
       </Link>
 
       <div className="college-detail-hero mb-6 sm:mb-8" style={themeStyle}>
         <div>
           <div className="section-eyebrow mb-3">
             <GraduationCap className="h-4 w-4" />
-            Undergraduate programme directory
+            {pick('本科专业目录', 'Undergraduate programme directory')}
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-cityu-dark mb-2">{college.name}</h1>
           <p className="text-gray-600">
-            {isSchool ? `${majors.length} 个本科专业` : `${(college.departments || []).length} 个学系 · ${majors.length} 个本科专业`}
+            {isSchool
+              ? pick(`${majors.length} 个本科专业`, `${majors.length} undergraduate programmes`)
+              : pick(`${(college.departments || []).length} 个学系 · ${majors.length} 个本科专业`, `${(college.departments || []).length} departments · ${majors.length} undergraduate programmes`)}
           </p>
         </div>
         <div className="college-hero-stat">
           <span>{majors.length}</span>
-          <small>UG Majors</small>
+          <small>{pick('本科专业', 'UG Majors')}</small>
         </div>
       </div>
 

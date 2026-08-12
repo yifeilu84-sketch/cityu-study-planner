@@ -1,6 +1,7 @@
 import { AlertTriangle, CheckCircle2, Info, XCircle } from 'lucide-react'
 import PlanRiskPanel from './PlanRiskPanel'
 import type { GraduationAudit, AuditWarning } from '../utils/graduationAudit'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 interface Props {
   audit: GraduationAudit
@@ -9,21 +10,18 @@ interface Props {
 
 const STATUS_COPY = {
   ok: {
-    label: '看起来完整',
     icon: CheckCircle2,
     box: 'border-emerald-200 bg-emerald-50',
     text: 'text-emerald-800',
     pill: 'bg-emerald-100 text-emerald-700',
   },
   warning: {
-    label: '需要自行确认',
     icon: AlertTriangle,
     box: 'border-amber-200 bg-amber-50',
     text: 'text-amber-900',
     pill: 'bg-amber-100 text-amber-800',
   },
   danger: {
-    label: '存在缺口',
     icon: XCircle,
     box: 'border-red-200 bg-red-50',
     text: 'text-red-800',
@@ -50,7 +48,13 @@ function ProgressBar({ planned, required }: { planned: number; required: number 
 }
 
 export default function GraduationAuditPanel({ audit, compact = false }: Props) {
+  const { pick } = useLanguage()
   const tone = STATUS_COPY[audit.status]
+  const statusLabel = {
+    ok: pick('看起来完整', 'Looks complete'),
+    warning: pick('需要自行确认', 'Review needed'),
+    danger: pick('存在缺口', 'Requirements missing'),
+  }[audit.status]
   const Icon = tone.icon
   const visibleWarnings = audit.warnings.slice(0, compact ? 4 : 6)
   const hasHiddenWarnings = audit.warnings.length > visibleWarnings.length
@@ -63,17 +67,17 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
           <Icon className={`w-5 h-5 mt-0.5 shrink-0 ${tone.text}`} />
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
-              <h2 className={`font-bold text-base sm:text-lg ${tone.text}`}>毕业要求自检</h2>
+              <h2 className={`font-bold text-base sm:text-lg ${tone.text}`}>{pick('毕业要求自检', 'Graduation Requirement Check')}</h2>
               <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${tone.pill}`}>
-                {tone.label}
+                {statusLabel}
               </span>
             </div>
             <p className={`mt-1 text-xs sm:text-sm ${tone.text}`}>
-              仅按当前网站数据自动核对，请以学院/ARRO 最终审核为准。
+              {pick('仅按当前网站数据自动核对，请以学院/ARRO 最终审核为准。', 'Automated from the data currently available on this site. Final college and ARRO review takes precedence.')}
             </p>
             {audit.source.advisory && (
               <p className="mt-1 text-xs sm:text-sm text-amber-900">
-                不是官网明确 study plan，仅按毕业要求整理，请自行 DIY 学期安排。
+                {pick('不是官网明确 study plan，仅按毕业要求整理，请自行 DIY 学期安排。', 'This is not an explicit official study plan. It is organised from graduation requirements; build and verify your own semester plan.')}
               </p>
             )}
           </div>
@@ -83,7 +87,9 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
             {audit.totalCredits.planned}/{audit.totalCredits.required} CU
           </div>
           <div className={`text-xs ${tone.text}`}>
-            {audit.totalCredits.missing > 0 ? `还差 ${audit.totalCredits.missing} CU` : '总学分已达到'}
+            {audit.totalCredits.missing > 0
+              ? pick(`还差 ${audit.totalCredits.missing} CU`, `${audit.totalCredits.missing} CU remaining`)
+              : pick('总学分已达到', 'Total credits reached')}
           </div>
         </div>
       </div>
@@ -91,25 +97,25 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
       {!compact && (
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 border-y border-current/10 py-3 text-xs sm:text-sm">
           <div className="sm:border-r sm:border-current/10 sm:pr-3">
-            <div className="text-gray-500">GE 已规划</div>
+            <div className="text-gray-500">{pick('GE 已规划', 'GE planned')}</div>
             <div className="font-bold text-gray-800 mt-1">{audit.ge.plannedCredits}/{audit.ge.requiredCredits} CU</div>
           </div>
           <div className="sm:border-r sm:border-current/10 sm:pr-3">
-            <div className="text-gray-500">GE Area 待确认</div>
+            <div className="text-gray-500">{pick('GE Area 待确认', 'GE Areas pending')}</div>
             <div className="font-bold text-gray-800 mt-1">
-              {audit.ge.missingAreas.length > 0 ? audit.ge.missingAreas.join(', ') : '已覆盖'}
+              {audit.ge.missingAreas.length > 0 ? audit.ge.missingAreas.join(', ') : pick('已覆盖', 'Covered')}
             </div>
           </div>
           <div>
-            <div className="text-gray-500">重复课程</div>
+            <div className="text-gray-500">{pick('重复课程', 'Duplicates')}</div>
             <div className="font-bold text-gray-800 mt-1">
-              {audit.duplicates.length > 0 ? audit.duplicates.map(item => item.code).join(', ') : '未发现'}
+              {audit.duplicates.length > 0 ? audit.duplicates.map(item => item.code).join(', ') : pick('未发现', 'None found')}
             </div>
           </div>
           <div>
-            <div className="text-gray-500">跨学期项目</div>
+            <div className="text-gray-500">{pick('跨学期项目', 'Cross-term projects')}</div>
             <div className="font-bold text-gray-800 mt-1">
-              {audit.splitCourses.length > 0 ? audit.splitCourses.map(item => item.code).join(', ') : '无'}
+              {audit.splitCourses.length > 0 ? audit.splitCourses.map(item => item.code).join(', ') : pick('无', 'None')}
             </div>
           </div>
         </div>
@@ -119,10 +125,13 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
         <div className="mt-3 flex items-start gap-2 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-xs sm:text-sm text-blue-800">
           <Info className="w-4 h-4 shrink-0 mt-0.5" />
           <div>
-            <div className="font-semibold">跨学期课程已单独识别</div>
+            <div className="font-semibold">{pick('跨学期课程已单独识别', 'Cross-term courses recognised separately')}</div>
             <div>
-              {audit.splitCourses.map(item => `${item.code} (${item.plannedCredits}/${item.catalogueCredits} CU, ${item.count} 个学期)`).join('；')}
-              {' '}按年度项目或分学期完成处理，不计为重复课程冲突。
+              {audit.splitCourses.map(item => pick(
+                `${item.code} (${item.plannedCredits}/${item.catalogueCredits} CU, ${item.count} 个学期)`,
+                `${item.code} (${item.plannedCredits}/${item.catalogueCredits} CU across ${item.count} terms)`,
+              )).join(pick('；', '; '))}
+              {' '}{pick('按年度项目或分学期完成处理，不计为重复课程冲突。', 'These are treated as annual or split-term projects, not duplicate-course conflicts.')}
             </div>
           </div>
         </div>
@@ -141,7 +150,7 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
               <div className="text-gray-600 sm:text-right">
                 {section.plannedCredits}/{section.requiredCredits} CU
                 {section.missingCourseCodes.length > 0 && (
-                  <span className="ml-2 text-red-700">缺 {section.missingCourseCodes.join(', ')}</span>
+                  <span className="ml-2 text-red-700">{pick('缺', 'Missing')} {section.missingCourseCodes.join(', ')}</span>
                 )}
               </div>
             </div>
@@ -159,7 +168,10 @@ export default function GraduationAuditPanel({ audit, compact = false }: Props) 
           ))}
           {hasHiddenWarnings && (
             <div className="text-xs text-gray-500 px-1">
-              还有 {audit.warnings.length - visibleWarnings.length} 条提示未显示，可先处理上方高优先级问题。
+              {pick(
+                `还有 ${audit.warnings.length - visibleWarnings.length} 条提示未显示，可先处理上方高优先级问题。`,
+                `${audit.warnings.length - visibleWarnings.length} more notice${audit.warnings.length - visibleWarnings.length === 1 ? '' : 's'} hidden. Address the higher-priority items above first.`,
+              )}
             </div>
           )}
         </div>

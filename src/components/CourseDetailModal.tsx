@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { X, ExternalLink, Clock, FileText, BookOpen, AlertCircle, Flag } from 'lucide-react'
 import type { Course } from '../types'
 import { buildIssueReport } from '../utils/feedback.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 interface Props {
   course: Course | null
@@ -63,6 +64,8 @@ function extractCAItems(details: string): { name: string; weight: number }[] {
 }
 
 export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
+  const { pick } = useLanguage()
+
   useEffect(() => {
     if (course) {
       document.body.style.overflow = 'hidden'
@@ -81,8 +84,14 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
     sourceKind: course.catalogue === 'pg' ? 'pg-catalogue' : course.geSource ? 'official-ge-page' : 'course-pdf',
   })
   const pgDetailReviewMessage = course.detailStatus === 'official-page-missing'
-    ? '已保留 CityUHK PG Course Catalogue current 链接；自动核对未命中 2026/27-2017/18 年度课程页，请人工打开官网确认 assessment / exam。'
-    : '已链接 CityUHK PG Course Catalogue；assessment / exam 等细项仍需打开官方课程页核对。'
+    ? pick(
+      '已保留 CityUHK PG Course Catalogue current 链接；自动核对未命中 2026/27-2017/18 年度课程页，请人工打开官网确认 assessment / exam。',
+      'The current CityUHK PG Course Catalogue link is retained. Automated checks did not find a 2026/27-2017/18 course page; open the official catalogue to confirm assessment and exam details.',
+    )
+    : pick(
+      '已链接 CityUHK PG Course Catalogue；assessment / exam 等细项仍需打开官方课程页核对。',
+      'The CityUHK PG Course Catalogue is linked, but assessment and exam details still need confirmation on the official course page.',
+    )
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" onClick={onClose}>
@@ -101,13 +110,14 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                   PG Catalogue
                 </span>
               )}
-              <span className="text-sm text-gray-500">{course.credits} 学分</span>
+              <span className="text-sm text-gray-500">{course.credits} {pick('学分', 'CU')}</span>
             </div>
             <h2 className="text-xl font-bold text-gray-800">{course.title}</h2>
           </div>
           <button
             onClick={onClose}
             className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+            aria-label={pick('关闭课程详情', 'Close course details')}
           >
             <X className="w-5 h-5 text-gray-500" />
           </button>
@@ -119,7 +129,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
             <div className="flex items-start gap-3">
               <Clock className="w-5 h-5 text-cityu-blue mt-0.5" />
               <div>
-                <div className="font-medium text-gray-800">开设学期</div>
+                <div className="font-medium text-gray-800">{pick('开设学期', 'Offering Terms')}</div>
                 <div className="text-gray-600">{course.semester}</div>
               </div>
             </div>
@@ -130,7 +140,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
             <div className="flex items-start gap-3">
               <AlertCircle className="w-5 h-5 text-cityu-orange mt-0.5" />
               <div>
-                <div className="font-medium text-gray-800">前置课程</div>
+                <div className="font-medium text-gray-800">{pick('前置课程', 'Prerequisites')}</div>
                 <div className="flex flex-wrap gap-2 mt-1">
                   {course.prerequisites.map(pr => (
                     <span key={pr} className="px-2 py-1 bg-orange-50 text-orange-700 text-sm rounded border border-orange-100">
@@ -150,11 +160,11 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
             <div className="flex items-start gap-3">
               <FileText className="w-5 h-5 text-cityu-green mt-0.5" />
               <div>
-                <div className="font-medium text-gray-800">考核方式</div>
+                <div className="font-medium text-gray-800">{pick('考核方式', 'Assessment')}</div>
                 <div className="mt-1 space-y-1 text-gray-600">
                   {course.assessment.continuous && (
                     <div>
-                      <span>平时成绩: {course.assessment.continuous}</span>
+                      <span>{pick('平时成绩', 'Continuous assessment')}: {course.assessment.continuous}</span>
                       {caItems.length > 0 && (
                         <span className="text-gray-500 text-sm ml-1 block sm:inline">
                           ({caItems.map(i => `${i.name}: ${i.weight}%`).join(', ')})
@@ -163,10 +173,10 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                     </div>
                   )}
                   {course.assessment.exam && (
-                    <div>期末考试: {course.assessment.exam}</div>
+                    <div>{pick('期末考试', 'Final examination')}: {course.assessment.exam}</div>
                   )}
                   {course.assessment.examDuration && (
-                    <div>考试时长: {course.assessment.examDuration}</div>
+                    <div>{pick('考试时长', 'Exam duration')}: {course.assessment.examDuration}</div>
                   )}
                   {course.assessment.details && caItems.length === 0 && (
                     <div className="text-sm text-gray-500">{course.assessment.details}</div>
@@ -175,13 +185,13 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                 {(course.assessment.minCAPass || course.assessment.minExamPass) && (
                   <div className="mt-2 text-xs text-gray-500 bg-gray-50 p-2 rounded-lg">
                     {course.assessment.minCAPass && (
-                      <span>平时成绩及格线: {course.assessment.minCAPass}</span>
+                      <span>{pick('平时成绩及格线', 'Minimum CA pass')}: {course.assessment.minCAPass}</span>
                     )}
                     {course.assessment.minCAPass && course.assessment.minExamPass && (
                       <span className="mx-2">|</span>
                     )}
                     {course.assessment.minExamPass && (
-                      <span>考试及格线: {course.assessment.minExamPass}</span>
+                      <span>{pick('考试及格线', 'Minimum exam pass')}: {course.assessment.minExamPass}</span>
                     )}
                   </div>
                 )}
@@ -193,7 +203,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
             <div className="flex items-start gap-3 rounded-lg border border-amber-100 bg-amber-50 p-3">
               <AlertCircle className="w-5 h-5 text-amber-700 mt-0.5" />
               <div>
-                <div className="font-medium text-amber-900">官方课程详情未确认</div>
+                <div className="font-medium text-amber-900">{pick('官方课程详情未确认', 'Official course details not confirmed')}</div>
                 <div className="text-sm text-amber-800 mt-1">
                   {pgDetailReviewMessage}
                 </div>
@@ -206,7 +216,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
             <div className="flex items-start gap-3">
               <BookOpen className="w-5 h-5 text-cityu-purple mt-0.5" />
               <div>
-                <div className="font-medium text-gray-800">课程简介</div>
+                <div className="font-medium text-gray-800">{pick('课程简介', 'Course Description')}</div>
                 <div className="text-gray-600 text-sm mt-1 leading-relaxed">
                   {course.description}
                 </div>
@@ -225,7 +235,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-cityu-dark text-white rounded-lg hover:bg-cityu-purple transition-colors"
               >
                 <FileText className="w-4 h-4" />
-                查看课程官方PDF
+                {pick('查看课程官方 PDF', 'View Official Course PDF')}
                 <ExternalLink className="w-3 h-3" />
               </a>
               )}
@@ -237,7 +247,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-white text-gray-700 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />
-                查看官方课程页
+                {pick('查看官方课程页', 'View Official Course Page')}
               </a>
               )}
               <a
@@ -247,7 +257,7 @@ export default function CourseDetailModal({ course, onClose, pageUrl }: Props) {
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
               >
                 <Flag className="w-4 h-4" />
-                报告课程问题
+                {pick('报告课程问题', 'Report Course Issue')}
                 <ExternalLink className="w-3 h-3" />
               </a>
             </div>

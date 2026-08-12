@@ -9,6 +9,7 @@ import CourseBadge from './CourseBadge'
 import GraduationAuditPanel from './GraduationAuditPanel'
 import { getCategoryColor, getCreditStatus } from '../utils/studyPlan'
 import { auditGraduationPlan } from '../utils/graduationAudit.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 interface Props {
   initialPlan: EditableSemester[]
@@ -19,6 +20,7 @@ interface Props {
 }
 
 function DraggablePoolItem({ course, disabled }: { course: { code: string; title: string; credits: number; category: string }; disabled?: boolean }) {
+  const { pick } = useLanguage()
   const { attributes, listeners, setNodeRef, isDragging } = useDraggable({ id: course.code, disabled })
   return (
     <div
@@ -31,7 +33,7 @@ function DraggablePoolItem({ course, disabled }: { course: { code: string; title
     >
       <div className="font-bold">{course.code}</div>
       <div className="truncate">{course.title}</div>
-      <div className="text-[10px] opacity-70">{course.credits} 学分</div>
+      <div className="text-[10px] opacity-70">{course.credits} {pick('学分', 'CU')}</div>
     </div>
   )
 }
@@ -41,8 +43,9 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
   children: React.ReactNode
   onRemoveCourse: (code: string) => void
 }) {
+  const { language, pick } = useLanguage()
   const { isOver, setNodeRef } = useDroppable({ id: `${sem.year}-${sem.sem}` })
-  const creditStatus = getCreditStatus(sem.totalCredits)
+  const creditStatus = getCreditStatus(sem.totalCredits, language)
 
   return (
     <div
@@ -58,7 +61,7 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
           creditStatus.status === 'warning' ? 'text-amber-700 bg-amber-50' :
           'text-red-700 bg-red-50'
         }`}>
-          {sem.totalCredits} 学分
+          {sem.totalCredits} {pick('学分', 'CU')}
         </span>
       </div>
       {creditStatus.status !== 'ok' && (
@@ -76,6 +79,7 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
 }
 
 export default function StudyPlanEditor({ initialPlan, major, streamIndex, courses, onCourseClick }: Props) {
+  const { language, pick } = useLanguage()
   const storageKey = `cityu-study-plan-${major.code}${streamIndex != null ? '-stream-' + streamIndex : ''}`
 
   const [plan, setPlan] = useState<EditableSemester[]>(() => {
@@ -106,7 +110,10 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
   const minorCourseList = minor?.courses as string[] | undefined
 
   const pool = useMemo(() => buildCoursePool(major, courses, minorCourseList, streamIndex), [major, courses, minorCourseList, streamIndex])
-  const audit = useMemo(() => auditGraduationPlan(major, courses, plan, streamIndex), [major, courses, plan, streamIndex])
+  const audit = useMemo(
+    () => auditGraduationPlan(major, courses, plan, streamIndex, language),
+    [major, courses, plan, streamIndex, language],
+  )
 
   const sensors = useSensors(
     useSensor(MouseSensor, { activationConstraint: { distance: 5 } }),
@@ -144,14 +151,14 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
     // Check if already in this semester
     const targetSem = plan[targetIdx]
     if (targetSem.courses.some(c => c.code === courseCode)) {
-      showToast('该课程已在此学期中')
+      showToast(pick('该课程已在此学期中', 'This course is already in this semester'))
       return
     }
 
     // Check prerequisites
-    const check = canAddCourse(courseCode, { year, sem: sem as any }, plan, courses)
+    const check = canAddCourse(courseCode, { year, sem: sem as any }, plan, courses, language)
     if (!check.ok) {
-      showToast(check.reason || '无法添加课程')
+      showToast(check.reason || pick('无法添加课程', 'Unable to add course'))
       return
     }
 
@@ -214,7 +221,10 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
 
   // Reset to official plan
   const handleReset = () => {
-    if (confirm('确定要重置为官方推荐学习计划吗？所有自定义更改将丢失。')) {
+    if (confirm(pick(
+      '确定要重置为官方推荐学习计划吗？所有自定义更改将丢失。',
+      'Reset to the original study plan? All custom changes will be lost.',
+    ))) {
       setPlan(initialPlan)
       localStorage.removeItem(storageKey)
     }
@@ -274,7 +284,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
                 ))}
                 {sem.courses.length === 0 && (
                   <div className="text-xs text-gray-400 text-center py-6 border-2 border-dashed border-gray-200 rounded-lg min-h-[80px] flex items-center justify-center">
-                    拖拽课程到此处
+                    {pick('拖拽课程到此处', 'Drag courses here')}
                   </div>
                 )}
               </DroppableSemester>
@@ -283,7 +293,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
 
           <div className="mt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-end gap-2">
             {saveIndicator && (
-              <span className="text-xs text-green-600 text-center sm:text-right">已自动保存</span>
+              <span className="text-xs text-green-600 text-center sm:text-right">{pick('已自动保存', 'Saved automatically')}</span>
             )}
             <div className="flex gap-2">
               <button
@@ -291,13 +301,13 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
                 className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2.5 sm:py-2 text-sm text-cityu-accent bg-cityu-accent/10 rounded-lg hover:bg-cityu-accent/20 transition-colors"
               >
                 <Download className="w-4 h-4" />
-                导出计划
+                {pick('导出计划', 'Export Plan')}
               </button>
               <button
                 onClick={handleReset}
                 className="flex-1 sm:flex-none px-4 py-2.5 sm:py-2 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
               >
-                重置为官方计划
+                {pick('重置为官方计划', 'Reset Plan')}
               </button>
             </div>
           </div>
@@ -311,28 +321,28 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
             className="lg:hidden sticky top-0 z-10 flex items-center justify-center gap-1 w-full py-3 bg-white border-b border-gray-100 text-sm text-gray-600"
           >
             {poolOpen ? <ChevronDown className="w-4 h-4" /> : <ChevronUp className="w-4 h-4" />}
-            {poolOpen ? '收起课程池' : '展开课程池'}
-            <span className="text-xs text-gray-400 ml-1">({pool.length} 门课程)</span>
+            {poolOpen ? pick('收起课程池', 'Hide Course Pool') : pick('展开课程池', 'Show Course Pool')}
+            <span className="text-xs text-gray-400 ml-1">({pool.length} {pick('门课程', 'courses')})</span>
           </button>
 
           <div className="p-4">
             <h3 className="hidden lg:flex font-bold text-gray-800 mb-3 items-center gap-2">
               <GripVertical className="w-4 h-4 text-gray-400" />
-              课程池
-              <span className="text-xs font-normal text-gray-500 ml-auto">拖拽添加</span>
+              {pick('课程池', 'Course Pool')}
+              <span className="text-xs font-normal text-gray-500 ml-auto">{pick('拖拽添加', 'Drag to add')}</span>
             </h3>
 
           {/* Minor Selector */}
           <div className="mb-4">
-            <label className="text-xs font-semibold text-gray-500 mb-1 block">辅修专业 (Minor)</label>
+            <label className="text-xs font-semibold text-gray-500 mb-1 block">{pick('辅修专业 (Minor)', 'Minor')}</label>
             <select
               value={selectedMinor}
               onChange={e => setSelectedMinor(e.target.value)}
               className="w-full text-base sm:text-sm px-2 py-1.5 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-cityu-accent"
             >
-              <option value="">不选辅修</option>
+              <option value="">{pick('不选辅修', 'No minor')}</option>
               {minorsData.map((m: any) => (
-                <option key={m.code} value={m.code}>{m.title} ({m.credits} 学分)</option>
+                <option key={m.code} value={m.code}>{m.title} ({m.credits} {pick('学分', 'CU')})</option>
               ))}
             </select>
             {minor && (
@@ -343,7 +353,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
           {/* Required GE */}
           {poolGroups.requiredGE.length > 0 && (
             <div className="mb-4">
-              <h4 className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">必修 GE</h4>
+              <h4 className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">{pick('必修 GE', 'Required GE')}</h4>
               <div className="grid grid-cols-2 gap-1.5">
                 {poolGroups.requiredGE.map(c => (
                   <DraggablePoolItem
@@ -379,7 +389,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
           {/* Minor courses */}
           {selectedMinor && minorCourseList && (
             <div className="mb-4">
-              <h4 className="text-xs font-semibold text-amber-600 mb-2 uppercase tracking-wider">{minor?.title} 辅修课程</h4>
+              <h4 className="text-xs font-semibold text-amber-600 mb-2 uppercase tracking-wider">{minor?.title} {pick('辅修课程', 'Minor Courses')}</h4>
               <div className="grid grid-cols-2 gap-1.5">
                 {poolGroups.others.filter(c => minorCourseList.includes(c.code)).map(c => (
                   <DraggablePoolItem
@@ -395,7 +405,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
           {/* Other required courses (excluding minor courses if minor selected) */}
           {poolGroups.others.filter(c => !minorCourseList?.includes(c.code)).length > 0 && (
             <div className="mb-4">
-              <h4 className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">专业课程</h4>
+              <h4 className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">{pick('专业课程', 'Major Courses')}</h4>
               <div className="grid grid-cols-2 gap-1.5">
                 {poolGroups.others.filter(c => !minorCourseList?.includes(c.code)).map(c => (
                   <DraggablePoolItem
@@ -423,7 +433,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
               <div className={`p-3 rounded-lg border shadow-xl cursor-grabbing ${getCategoryColor(category)}`}>
                 <div className="font-bold text-sm">{course.code}</div>
                 <div className="text-sm">{course.title}</div>
-                <div className="text-xs opacity-70 mt-1">{course.credits} 学分</div>
+                <div className="text-xs opacity-70 mt-1">{course.credits} {pick('学分', 'CU')}</div>
               </div>
             )
           })()

@@ -7,15 +7,17 @@ import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import { filterMajorsBySource, summarizeMajorSourceStatuses } from '../utils/sourceSummary.ts'
 import type { Course, PostgraduateProgramme } from '../types'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
+import type { Language } from '../i18n/language.ts'
 
 type SourceFilter = SourceStatusKind | 'all'
 
-const FILTERS: { kind: SourceFilter; label: string }[] = [
-  { kind: 'all', label: '全部' },
-  { kind: 'official', label: '官方 Study Plan' },
-  { kind: 'structure', label: 'Structure / Flowchart' },
-  { kind: 'derived', label: '按毕业要求排' },
-  { kind: 'diy', label: 'DIY 空表' },
+const FILTERS: { kind: SourceFilter; label: Record<Language, string> }[] = [
+  { kind: 'all', label: { zh: '全部', en: 'All' } },
+  { kind: 'official', label: { zh: '官方 Study Plan', en: 'Official Study Plan' } },
+  { kind: 'structure', label: { zh: 'Structure / Flowchart', en: 'Structure / Flowchart' } },
+  { kind: 'derived', label: { zh: '按毕业要求排', en: 'Requirements-based' } },
+  { kind: 'diy', label: { zh: 'DIY 空表', en: 'DIY Blank Plan' } },
 ]
 
 const TONE_CLASSES: Record<SourceStatusKind, string> = {
@@ -26,13 +28,14 @@ const TONE_CLASSES: Record<SourceStatusKind, string> = {
 }
 
 export default function CoveragePage() {
+  const { language, pick } = useLanguage()
   const majors = allMajors as any[]
   const pgCourses = pgCoursesData as Record<string, Course>
   const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
   const [selectedKind, setSelectedKind] = useState<SourceFilter>('all')
   const [query, setQuery] = useState('')
 
-  const summary = useMemo(() => summarizeMajorSourceStatuses(majors), [majors])
+  const summary = useMemo(() => summarizeMajorSourceStatuses(majors, language), [majors, language])
   const pendingPgCourses = useMemo(() => (
     Object.values(pgCourses)
       .filter((course) => course.catalogue === 'pg' && course.detailStatus !== 'parsed')
@@ -59,21 +62,21 @@ export default function CoveragePage() {
   }), [postgraduateProgrammes])
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return filterMajorsBySource(majors, selectedKind).filter((item) => {
+    return filterMajorsBySource(majors, selectedKind, language).filter((item) => {
       if (!q) return true
       return [item.code, item.title, item.college, item.department]
         .filter(Boolean)
         .some((value) => String(value).toLowerCase().includes(q))
     })
-  }, [majors, selectedKind, query])
+  }, [majors, selectedKind, query, language])
 
-  const selectedLabel = FILTERS.find((item) => item.kind === selectedKind)?.label ?? '全部'
+  const selectedLabel = FILTERS.find((item) => item.kind === selectedKind)?.label[language] ?? pick('全部', 'All')
 
   return (
     <div className="space-y-5">
       <Link to="/" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回首页
+        {pick('返回首页', 'Back to Home')}
       </Link>
 
       <section className="surface-panel p-4 sm:p-6">
@@ -81,10 +84,13 @@ export default function CoveragePage() {
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
               <Database className="w-6 h-6 text-cityu-accent" />
-              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">数据来源覆盖率</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">{pick('数据来源覆盖率', 'Data Source Coverage')}</h1>
             </div>
             <p className="text-sm text-gray-500">
-              共 {summary.total} 个本科项目；其中 {summary.needsReviewCount} 个没有官网明确的逐学期 study plan，页面会按来源状态提醒学生自行核对。
+              {pick(
+                `共 ${summary.total} 个本科项目；其中 ${summary.needsReviewCount} 个没有官网明确的逐学期 study plan，页面会按来源状态提醒学生自行核对。`,
+                `${summary.total} undergraduate programmes are indexed. ${summary.needsReviewCount} do not have an explicit official semester-by-semester study plan and are clearly marked for student review.`,
+              )}
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 min-w-0 lg:min-w-[460px]">
@@ -97,7 +103,7 @@ export default function CoveragePage() {
                 }`}
               >
                 <div className="text-xl font-bold">{group.count}</div>
-                <div className="text-xs font-medium leading-tight">{FILTERS.find((item) => item.kind === group.kind)?.label}</div>
+                <div className="text-xs font-medium leading-tight">{FILTERS.find((item) => item.kind === group.kind)?.label[language]}</div>
               </button>
             ))}
           </div>
@@ -109,17 +115,20 @@ export default function CoveragePage() {
           <div>
             <h2 className="font-bold text-gray-800 flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-cityu-accent" />
-              PG 数据覆盖
+              {pick('PG 数据覆盖', 'Postgraduate Data Coverage')}
             </h2>
             <p className="mt-1 text-sm text-gray-500 leading-relaxed">
-              已接入 {pgSourceSummary.total} 个硕博项目，其中 {pgSourceSummary.officialSample} 个有官方 sample schedule，{pgSourceSummary.diy} 个按要求显示 DIY 空表，{pgSourceSummary.parsedCourseLists} 个已结构化课程池。
+              {pick(
+                `已接入 ${pgSourceSummary.total} 个硕博项目，其中 ${pgSourceSummary.officialSample} 个有官方 sample schedule，${pgSourceSummary.diy} 个按要求显示 DIY 空表，${pgSourceSummary.parsedCourseLists} 个已结构化课程池。`,
+                `${pgSourceSummary.total} postgraduate programmes are indexed: ${pgSourceSummary.officialSample} have official sample schedules, ${pgSourceSummary.diy} use DIY blank plans, and ${pgSourceSummary.parsedCourseLists} have structured course pools.`,
+              )}
             </p>
           </div>
           <Link
             to="/postgraduate"
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-cityu-dark px-4 py-2 text-sm font-semibold text-white hover:bg-cityu-purple transition-colors"
           >
-            打开硕博目录
+            {pick('打开硕博目录', 'Open Postgraduate Directory')}
             <ExternalLink className="w-4 h-4" />
           </Link>
         </div>
@@ -129,9 +138,9 @@ export default function CoveragePage() {
             <div className="flex items-start gap-3">
               <AlertTriangle className="w-5 h-5 text-rose-700 flex-shrink-0 mt-0.5" />
               <div className="min-w-0">
-                <div className="font-semibold text-rose-900">PG 课程池待结构化</div>
+                <div className="font-semibold text-rose-900">{pick('PG 课程池待结构化', 'PG Course Pools Pending')}</div>
                 <p className="mt-1 text-sm text-rose-800 leading-relaxed">
-                  这些授课型或专业博士项目目前只链接官方 programme page，尚未把 required / elective course list 解析到本站。
+                  {pick('这些授课型或专业博士项目目前只链接官方 programme page，尚未把 required / elective course list 解析到本站。', 'These taught or professional doctorate programmes currently link to the official programme page, but their required and elective course lists have not yet been structured on this site.')}
                 </p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {missingPgCourseLists.slice(0, 48).map((programme) => (
@@ -158,9 +167,12 @@ export default function CoveragePage() {
           <div className="flex items-start gap-3">
             <AlertTriangle className="w-5 h-5 text-amber-700 flex-shrink-0 mt-0.5" />
             <div className="min-w-0">
-              <div className="font-semibold text-amber-900">PG 课程详情剩余待核对</div>
+              <div className="font-semibold text-amber-900">{pick('PG 课程详情剩余待核对', 'PG Course Details Pending Review')}</div>
               <p className="mt-1 text-sm text-amber-800 leading-relaxed">
-                已从 CityUHK PG Course Catalogue 年度课程页解析 {pgCourseDetailSummary.parsed}/{pgCourseDetailSummary.total} 门 PG 课程的 assessment / exam / duration。以下剩余课程保留 current catalogue 链接，但 2026/27-2017/18 年度页未命中，需人工打开官网核对。
+                {pick(
+                  `已从 CityUHK PG Course Catalogue 年度课程页解析 ${pgCourseDetailSummary.parsed}/${pgCourseDetailSummary.total} 门 PG 课程的 assessment / exam / duration。以下剩余课程保留 current catalogue 链接，但 2026/27-2017/18 年度页未命中，需人工打开官网核对。`,
+                  `Assessment, exam, and duration details have been parsed for ${pgCourseDetailSummary.parsed}/${pgCourseDetailSummary.total} PG courses from annual CityUHK PG Course Catalogue pages. The remaining courses retain current-catalogue links because no 2026/27-2017/18 annual page was found and require manual review.`,
+                )}
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {pendingPgCourses.slice(0, 40).map((course) => (
@@ -189,7 +201,7 @@ export default function CoveragePage() {
         <div className="flex flex-col lg:flex-row gap-3 lg:items-center lg:justify-between mb-4">
           <div>
             <h2 className="font-bold text-gray-800">{selectedLabel}</h2>
-            <p className="text-sm text-gray-500">当前显示 {filtered.length} 个项目</p>
+            <p className="text-sm text-gray-500">{pick(`当前显示 ${filtered.length} 个项目`, `Showing ${filtered.length} programmes`)}</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-2">
             <div className="relative">
@@ -197,7 +209,7 @@ export default function CoveragePage() {
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="搜索专业、学院或代码..."
+                placeholder={pick('搜索专业、学院或代码...', 'Search programme, college, or code...')}
                 className="w-full sm:w-72 pl-9 pr-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-cityu-accent"
               />
             </div>
@@ -207,7 +219,7 @@ export default function CoveragePage() {
               className="px-3 py-2 rounded-lg border border-gray-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-cityu-accent"
             >
               {FILTERS.map((item) => (
-                <option key={item.kind} value={item.kind}>{item.label}</option>
+                <option key={item.kind} value={item.kind}>{item.label[language]}</option>
               ))}
             </select>
           </div>
@@ -227,7 +239,7 @@ export default function CoveragePage() {
                       {item.code}
                     </span>
                     <span className={`px-2 py-0.5 text-xs rounded border ${TONE_CLASSES[item.source.kind]}`}>
-                      {FILTERS.find((filter) => filter.kind === item.source.kind)?.label}
+                      {FILTERS.find((filter) => filter.kind === item.source.kind)?.label[language]}
                     </span>
                   </div>
                   <h3 className="font-semibold text-sm text-gray-800 leading-snug">{item.title}</h3>
@@ -239,7 +251,7 @@ export default function CoveragePage() {
                 <span className="truncate">{item.department || item.college}</span>
                 {item.source.sourceUrl && (
                   <span className="inline-flex items-center gap-1 text-cityu-accent">
-                    来源
+                    {pick('来源', 'Source')}
                     <ExternalLink className="w-3 h-3" />
                   </span>
                 )}
@@ -250,7 +262,7 @@ export default function CoveragePage() {
 
         {filtered.length === 0 && (
           <div className="text-center py-12 text-gray-500">
-            没有找到匹配的项目
+            {pick('没有找到匹配的项目', 'No matching programmes')}
           </div>
         )}
       </section>

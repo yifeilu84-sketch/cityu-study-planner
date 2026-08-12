@@ -15,6 +15,8 @@ import {
 } from 'lucide-react'
 import postgraduateProgrammesData from '../data/postgraduate-programmes.json'
 import type { PostgraduateProgramme } from '../types'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
+import type { Language } from '../i18n/language.ts'
 
 type ProgrammeType = PostgraduateProgramme['type'] | 'all'
 type SourceKind = PostgraduateProgramme['sourceStatus']['kind'] | 'all'
@@ -22,18 +24,18 @@ type CourseListKind = NonNullable<PostgraduateProgramme['courseListStatus']>['ki
 
 const postgraduateProgrammes = postgraduateProgrammesData as PostgraduateProgramme[]
 
-const TYPE_LABELS: Record<ProgrammeType, string> = {
-  all: '全部项目',
-  'taught-master': '授课型硕士',
-  'research-degree': 'MPhil / PhD',
-  'professional-doctorate': '专业博士',
+const TYPE_LABELS: Record<ProgrammeType, Record<Language, string>> = {
+  all: { zh: '全部项目', en: 'All Programmes' },
+  'taught-master': { zh: '授课型硕士', en: "Taught Master's" },
+  'research-degree': { zh: 'MPhil / PhD', en: 'MPhil / PhD' },
+  'professional-doctorate': { zh: '专业博士', en: 'Professional Doctorate' },
 }
 
-const SOURCE_LABELS: Record<SourceKind, string> = {
-  all: '全部来源',
-  'official-sample': '官方 sample schedule',
-  'requirements-diy': '毕业要求 + DIY',
-  'research-diy': '研究型 DIY',
+const SOURCE_LABELS: Record<SourceKind, Record<Language, string>> = {
+  all: { zh: '全部来源', en: 'All Sources' },
+  'official-sample': { zh: '官方 sample schedule', en: 'Official Sample Schedule' },
+  'requirements-diy': { zh: '毕业要求 + DIY', en: 'Requirements + DIY' },
+  'research-diy': { zh: '研究型 DIY', en: 'Research Degree DIY' },
 }
 
 const TYPE_CLASSES: Record<PostgraduateProgramme['type'], string> = {
@@ -48,11 +50,11 @@ const SOURCE_CLASSES: Record<PostgraduateProgramme['sourceStatus']['kind'], stri
   'research-diy': 'bg-slate-50 text-slate-700 border-slate-200',
 }
 
-const COURSE_LIST_LABELS: Record<CourseListKind, string> = {
-  'official-course-list': '课程池已解析',
-  'official-title-list': '课程标题已解析',
-  'course-list-unconfirmed': '课程池待确认',
-  'research-not-course-based': '研究型要求',
+const COURSE_LIST_LABELS: Record<CourseListKind, Record<Language, string>> = {
+  'official-course-list': { zh: '课程池已解析', en: 'Course Pool Parsed' },
+  'official-title-list': { zh: '课程标题已解析', en: 'Course Titles Parsed' },
+  'course-list-unconfirmed': { zh: '课程池待确认', en: 'Course Pool Pending' },
+  'research-not-course-based': { zh: '研究型要求', en: 'Research Requirements' },
 }
 
 const COURSE_LIST_CLASSES: Record<CourseListKind, string> = {
@@ -104,6 +106,7 @@ function matchesQuery(programme: PostgraduateProgramme, query: string) {
 }
 
 export default function PostgraduatePage() {
+  const { language, pick } = useLanguage()
   const [query, setQuery] = useState('')
   const [typeFilter, setTypeFilter] = useState<ProgrammeType>('all')
   const [sourceFilter, setSourceFilter] = useState<SourceKind>('all')
@@ -138,53 +141,56 @@ export default function PostgraduatePage() {
     <div className="space-y-5">
       <Link to="/" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回首页
+        {pick('返回首页', 'Back to Home')}
       </Link>
 
       <section className="programme-hero p-4 sm:p-6">
-        <span className="sr-only">本科 study plan 审查</span>
+        <span className="sr-only">{pick('硕博 study plan 目录', 'Postgraduate study plan directory')}</span>
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
               <GraduationCap className="w-6 h-6 text-cityu-accent" />
-              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">硕博项目 Study Plan 目录</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-cityu-dark">{pick('硕博项目 Study Plan 目录', 'Postgraduate Study Plan Directory')}</h1>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              覆盖 CityUHK 香港本部 2026/27 授课型硕士、研究型 MPhil / PhD 和专业博士项目。官方有 sample schedule 的项目按官方样例展示；没有明确学期计划的项目只给空学期表、毕业要求和课程池入口，标注为 DIY。
+              {pick(
+                '覆盖 CityUHK 香港本部 2026/27 授课型硕士、研究型 MPhil / PhD 和专业博士项目。官方有 sample schedule 的项目按官方样例展示；没有明确学期计划的项目只给空学期表、毕业要求和课程池入口，标注为 DIY。',
+                'Covers CityUHK Hong Kong 2026/27 taught master, MPhil / PhD, and professional doctorate programmes. Official sample schedules are shown as samples; programmes without one receive blank semesters, graduation requirements, and a course pool for DIY planning.',
+              )}
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm min-w-[260px]">
             <div className="rounded-lg border border-gray-100 bg-gray-50 p-3">
               <div className="text-xl font-bold text-gray-900">{stats.total}</div>
-              <div className="text-xs text-gray-500">PG 项目</div>
+              <div className="text-xs text-gray-500">{pick('PG 项目', 'PG Programmes')}</div>
             </div>
             <div className="rounded-lg border border-blue-100 bg-blue-50 p-3">
               <div className="text-xl font-bold text-blue-800">{stats.taught}</div>
-              <div className="text-xs text-blue-700">硕士</div>
+              <div className="text-xs text-blue-700">{pick('硕士', "Master's")}</div>
             </div>
             <div className="rounded-lg border border-emerald-100 bg-emerald-50 p-3">
               <div className="text-xl font-bold text-emerald-800">{stats.research}</div>
-              <div className="text-xs text-emerald-700">研究型</div>
+              <div className="text-xs text-emerald-700">{pick('研究型', 'Research Degrees')}</div>
             </div>
             <div className="rounded-lg border border-violet-100 bg-violet-50 p-3">
               <div className="text-xl font-bold text-violet-800">{stats.doctorate}</div>
-              <div className="text-xs text-violet-700">专业博士</div>
+              <div className="text-xs text-violet-700">{pick('专业博士', 'Professional Doctorates')}</div>
             </div>
             <div className="rounded-lg border border-cyan-100 bg-cyan-50 p-3">
               <div className="text-xl font-bold text-cyan-800">{stats.officialSample}</div>
-              <div className="text-xs text-cyan-700">官方样例</div>
+              <div className="text-xs text-cyan-700">{pick('官方样例', 'Official Samples')}</div>
             </div>
             <div className="rounded-lg border border-amber-100 bg-amber-50 p-3">
               <div className="text-xl font-bold text-amber-800">{stats.diy}</div>
-              <div className="text-xs text-amber-700">DIY 空表</div>
+              <div className="text-xs text-amber-700">{pick('DIY 空表', 'DIY Blank Plans')}</div>
             </div>
             <div className="rounded-lg border border-emerald-100 bg-emerald-50 p-3">
               <div className="text-xl font-bold text-emerald-800">{stats.parsedCourseLists}</div>
-              <div className="text-xs text-emerald-700">课程池已解析</div>
+              <div className="text-xs text-emerald-700">{pick('课程池已解析', 'Course Pools Parsed')}</div>
             </div>
             <div className="rounded-lg border border-rose-100 bg-rose-50 p-3">
               <div className="text-xl font-bold text-rose-800">{stats.unconfirmedCourseLists}</div>
-              <div className="text-xs text-rose-700">课程池待确认</div>
+              <div className="text-xs text-rose-700">{pick('课程池待确认', 'Course Pools Pending')}</div>
             </div>
           </div>
         </div>
@@ -195,7 +201,7 @@ export default function PostgraduatePage() {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="搜索 MSc, PhD, DBA, Computer Science, CS5222..."
+              placeholder={pick('搜索 MSc、PhD、DBA、Computer Science、CS5222...', 'Search MSc, PhD, DBA, Computer Science, CS5222...')}
               className="w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-cityu-accent focus:border-transparent"
             />
           </div>
@@ -206,7 +212,7 @@ export default function PostgraduatePage() {
             aria-label="Programme type"
           >
             {(Object.keys(TYPE_LABELS) as ProgrammeType[]).map((item) => (
-              <option key={item} value={item}>{TYPE_LABELS[item]}</option>
+              <option key={item} value={item}>{TYPE_LABELS[item][language]}</option>
             ))}
           </select>
           <select
@@ -216,7 +222,7 @@ export default function PostgraduatePage() {
             aria-label="Source status"
           >
             {(Object.keys(SOURCE_LABELS) as SourceKind[]).map((item) => (
-              <option key={item} value={item}>{SOURCE_LABELS[item]}</option>
+              <option key={item} value={item}>{SOURCE_LABELS[item][language]}</option>
             ))}
           </select>
           <select
@@ -225,7 +231,7 @@ export default function PostgraduatePage() {
             className="px-3 py-2.5 rounded-lg border border-gray-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-cityu-accent cursor-pointer"
             aria-label="College filter"
           >
-            <option value="all">全部学院 / 学校</option>
+            <option value="all">{pick('全部学院 / 学校', 'All Colleges / Schools')}</option>
             {colleges.map((college) => (
               <option key={college} value={college}>{college}</option>
             ))}
@@ -239,9 +245,9 @@ export default function PostgraduatePage() {
             <div>
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <Filter className="w-5 h-5 text-cityu-accent" />
-                项目列表
+                {pick('项目列表', 'Programme List')}
               </h2>
-              <p className="text-sm text-gray-500">当前显示 {filteredProgrammes.length} 个项目</p>
+              <p className="text-sm text-gray-500">{pick(`当前显示 ${filteredProgrammes.length} 个项目`, `Showing ${filteredProgrammes.length} programmes`)}</p>
             </div>
             <button
               type="button"
@@ -253,7 +259,7 @@ export default function PostgraduatePage() {
               }}
               className="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-semibold text-gray-600 hover:border-cityu-accent hover:text-cityu-accent transition-colors cursor-pointer"
             >
-              重置筛选
+              {pick('重置筛选', 'Reset Filters')}
             </button>
           </div>
 
@@ -271,14 +277,14 @@ export default function PostgraduatePage() {
                         {programme.code}
                       </span>
                       <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${TYPE_CLASSES[programme.type]}`}>
-                        {TYPE_LABELS[programme.type]}
+                        {TYPE_LABELS[programme.type][language]}
                       </span>
                       <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${SOURCE_CLASSES[programme.sourceStatus.kind]}`}>
-                        {SOURCE_LABELS[programme.sourceStatus.kind]}
+                        {SOURCE_LABELS[programme.sourceStatus.kind][language]}
                       </span>
                       {programme.courseListStatus ? (
                         <span className={`rounded border px-2 py-0.5 text-xs font-semibold ${COURSE_LIST_CLASSES[programme.courseListStatus.kind]}`}>
-                          {COURSE_LIST_LABELS[programme.courseListStatus.kind]}
+                          {COURSE_LIST_LABELS[programme.courseListStatus.kind][language]}
                         </span>
                       ) : null}
                     </div>
@@ -309,7 +315,7 @@ export default function PostgraduatePage() {
 
           {filteredProgrammes.length === 0 && (
             <div className="text-center py-12 text-gray-500 border border-dashed border-gray-200 rounded-lg bg-white">
-              没有找到匹配的硕博项目
+              {pick('没有找到匹配的硕博项目', 'No matching postgraduate programmes')}
             </div>
           )}
         </div>
@@ -318,17 +324,17 @@ export default function PostgraduatePage() {
           <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-2">
               <AlertTriangle className="w-5 h-5 text-amber-600" />
-              <h2 className="font-bold text-gray-800">来源标注</h2>
+              <h2 className="font-bold text-gray-800">{pick('来源标注', 'Source Labels')}</h2>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              “官方 sample schedule”只代表官网明确给出样例排课；其余项目不会预填课程到学期表，会显示空 semester 表格、毕业要求和课程池，让学生自己 DIY。
+              {pick('“官方 sample schedule”只代表官网明确给出样例排课；其余项目不会预填课程到学期表，会显示空 semester 表格、毕业要求和课程池，让学生自己 DIY。', '“Official sample schedule” means the official site provides an example schedule. Other programmes are not prefilled; they show blank semesters, graduation requirements, and a course pool for students to build their own plan.')}
             </p>
           </section>
 
           <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-3">
               <ShieldCheck className="w-5 h-5 text-cityu-accent" />
-              <h2 className="font-bold text-gray-800">官方入口</h2>
+              <h2 className="font-bold text-gray-800">{pick('官方入口', 'Official Links')}</h2>
             </div>
             <div className="space-y-2">
               {OFFICIAL_LINKS.map((link) => (
@@ -352,16 +358,16 @@ export default function PostgraduatePage() {
           <section className="surface-panel p-4">
             <div className="flex items-center gap-2 mb-3">
               <Microscope className="w-5 h-5 text-cityu-accent" />
-              <h2 className="font-bold text-gray-800">覆盖说明</h2>
+              <h2 className="font-bold text-gray-800">{pick('覆盖说明', 'Coverage Notes')}</h2>
             </div>
             <ul className="space-y-2 text-sm text-gray-600 leading-relaxed">
               <li className="flex gap-2">
                 <BookOpen className="w-4 h-4 text-cityu-accent flex-shrink-0 mt-0.5" />
-                <span>硕博数据独立于本科 all-majors / courses，不混入本科毕业审查。</span>
+                <span>{pick('硕博数据独立于本科 all-majors / courses，不混入本科毕业审查。', 'Postgraduate data is kept separate from undergraduate major and course data and is not mixed into undergraduate graduation checks.')}</span>
               </li>
               <li className="flex gap-2">
                 <FileText className="w-4 h-4 text-cityu-accent flex-shrink-0 mt-0.5" />
-                <span>PG 课程详情优先显示 CityUHK PG Course Catalogue 链接；未解析 assessment 的课程会在详情页标注未确认。</span>
+                <span>{pick('PG 课程详情优先显示 CityUHK PG Course Catalogue 链接；未解析 assessment 的课程会在详情页标注未确认。', 'PG course details prioritise CityUHK PG Course Catalogue links; courses with unparsed assessment details are clearly marked as unconfirmed.')}</span>
               </li>
             </ul>
           </section>

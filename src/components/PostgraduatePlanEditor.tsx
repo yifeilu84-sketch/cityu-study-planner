@@ -3,6 +3,7 @@ import { Download, Plus, RotateCcw, Trash2 } from 'lucide-react'
 import PlanRiskPanel from './PlanRiskPanel'
 import type { Course, MajorCourse, PostgraduateProgramme, StudyPlan, StudyPlanSemester } from '../types'
 import { auditPlanRisks, studyPlanToRiskSemesters } from '../utils/planRiskAudit.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 const SEMESTERS = [
   ['semA', 'Semester A'],
@@ -88,6 +89,7 @@ export default function PostgraduatePlanEditor({
   pgCourses,
   onCourseClick,
 }: PostgraduatePlanEditorProps) {
+  const { language, pick } = useLanguage()
   const storageKey = `cityu-pg-diy-plan:${programme.code}:${variantCode}`
   const [plan, setPlan] = useState(() => loadSavedPlan(storageKey, initialPlan))
   const [selectedCourseCode, setSelectedCourseCode] = useState(coursePool[0]?.code ?? '')
@@ -101,10 +103,13 @@ export default function PostgraduatePlanEditor({
       planEntries(plan).flatMap(({ key, label, year }) =>
         SEMESTERS.filter(([semesterKey]) => Boolean(year[semesterKey])).map(([semesterKey, semesterLabel]) => ({
           value: `${key}.${semesterKey}`,
-          label: `${label} / ${semesterLabel}`,
+          label: `${pick(`第 ${getYearNumber(key)} 年`, label)} / ${pick(
+            semesterKey === 'semA' ? 'A 学期' : semesterKey === 'semB' ? 'B 学期' : '暑期学期',
+            semesterLabel,
+          )}`,
         }))
       ),
-    [plan]
+    [plan, pick]
   )
 
   const selectedCourse = useMemo(
@@ -121,8 +126,8 @@ export default function PostgraduatePlanEditor({
     [plan]
   )
   const planRisks = useMemo(
-    () => auditPlanRisks({ plan: studyPlanToRiskSemesters(plan), courses: pgCourses }),
-    [plan, pgCourses]
+    () => auditPlanRisks({ plan: studyPlanToRiskSemesters(plan), courses: pgCourses }, language),
+    [plan, pgCourses, language]
   )
 
   useEffect(() => {
@@ -205,7 +210,7 @@ export default function PostgraduatePlanEditor({
         <div className="flex flex-col gap-3 lg:flex-row lg:items-end">
           <div className="grid flex-1 grid-cols-1 gap-3 sm:grid-cols-[minmax(0,1.2fr)_minmax(180px,0.8fr)]">
             <label className="text-xs font-semibold text-gray-600">
-              Add from course pool
+              {pick('从课程池添加', 'Add from course pool')}
               <select
                 value={selectedCourseCode}
                 onChange={(event) => setSelectedCourseCode(event.target.value)}
@@ -218,12 +223,12 @@ export default function PostgraduatePlanEditor({
                     </option>
                   ))
                 ) : (
-                  <option value="">No structured course pool</option>
+                  <option value="">{pick('暂无结构化课程池', 'No structured course pool')}</option>
                 )}
               </select>
             </label>
             <label className="text-xs font-semibold text-gray-600">
-              Target semester
+              {pick('目标学期', 'Target semester')}
               <select
                 value={targetSemester}
                 onChange={(event) => setTargetSemester(event.target.value)}
@@ -245,7 +250,7 @@ export default function PostgraduatePlanEditor({
               className="inline-flex items-center gap-2 rounded-lg bg-cityu-dark px-3 py-2 text-sm font-semibold text-white transition-colors hover:bg-cityu-purple disabled:cursor-not-allowed disabled:bg-gray-300"
             >
               <Plus className="h-4 w-4" />
-              Add
+              {pick('添加', 'Add')}
             </button>
             <button
               type="button"
@@ -253,7 +258,7 @@ export default function PostgraduatePlanEditor({
               className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-700 transition-colors hover:border-cityu-accent hover:text-cityu-accent"
             >
               <RotateCcw className="h-4 w-4" />
-              Reset
+              {pick('重置', 'Reset')}
             </button>
             <button
               type="button"
@@ -261,7 +266,7 @@ export default function PostgraduatePlanEditor({
               className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-700 transition-colors hover:border-cityu-accent hover:text-cityu-accent"
             >
               <Download className="h-4 w-4" />
-              Export
+              {pick('导出', 'Export')}
             </button>
           </div>
         </div>
@@ -270,13 +275,13 @@ export default function PostgraduatePlanEditor({
           <input
             value={customCode}
             onChange={(event) => setCustomCode(event.target.value)}
-            placeholder="Custom code"
+            placeholder={pick('自定义代码', 'Custom code')}
             className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm outline-none focus:border-cityu-accent"
           />
           <input
             value={customTitle}
             onChange={(event) => setCustomTitle(event.target.value)}
-            placeholder="Custom course / milestone"
+            placeholder={pick('自定义课程 / 里程碑', 'Custom course / milestone')}
             className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm outline-none focus:border-cityu-accent"
           />
           <input
@@ -293,16 +298,19 @@ export default function PostgraduatePlanEditor({
             className="inline-flex items-center justify-center gap-2 rounded-lg border border-cityu-accent bg-white px-3 py-2 text-sm font-semibold text-cityu-accent transition-colors hover:bg-cityu-accent hover:text-white"
           >
             <Plus className="h-4 w-4" />
-            Custom
+            {pick('自定义添加', 'Custom')}
           </button>
         </div>
         <p className="mt-2 text-xs leading-relaxed text-gray-500">
-          Editable copy saved in this browser only. Official sample or graduation requirements are not changed.
+          {pick(
+            '可编辑副本仅保存在此浏览器中，不会改动官方样例或毕业要求。',
+            'This editable copy is saved in this browser only. Official samples and graduation requirements are not changed.',
+          )}
         </p>
       </div>
 
       <div className="flex items-center justify-between rounded-lg border border-gray-100 bg-gray-50 px-3 py-2 text-sm">
-        <span className="font-semibold text-gray-700">Local DIY total</span>
+        <span className="font-semibold text-gray-700">{pick('本地 DIY 总学分', 'Local DIY total')}</span>
         <span className="font-bold text-cityu-accent">{totalCredits} CU</span>
       </div>
 
@@ -311,14 +319,17 @@ export default function PostgraduatePlanEditor({
       <div className="space-y-4">
         {planEntries(plan).map(({ key, label, year }) => (
           <div key={key} className="overflow-hidden rounded-lg border border-gray-100">
-            <div className="bg-gray-50 px-3 py-2 font-semibold text-gray-800">{label}</div>
+            <div className="bg-gray-50 px-3 py-2 font-semibold text-gray-800">{pick(`第 ${getYearNumber(key)} 年`, label)}</div>
             <div className="grid grid-cols-1 divide-y divide-gray-100 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
               {SEMESTERS.map(([semesterKey, semesterLabel]) => {
                 const semester = year[semesterKey]
                 return (
                   <div key={semesterKey} className="min-h-[170px] p-3">
                     <div className="mb-2 flex items-center justify-between gap-2">
-                      <h3 className="text-sm font-semibold text-gray-800">{semesterLabel}</h3>
+                      <h3 className="text-sm font-semibold text-gray-800">{pick(
+                        semesterKey === 'semA' ? 'A 学期' : semesterKey === 'semB' ? 'B 学期' : '暑期学期',
+                        semesterLabel,
+                      )}</h3>
                       <span className="text-xs text-gray-500">{semester?.credits ?? 0} CU</span>
                     </div>
                     {semester?.courses?.length ? (
@@ -342,7 +353,7 @@ export default function PostgraduatePlanEditor({
                                 type="button"
                                 onClick={() => removeCourseFromSemester(key, semesterKey, index)}
                                 className="h-8 w-8 flex-shrink-0 rounded border border-gray-200 text-gray-500 transition-colors hover:border-rose-200 hover:bg-rose-50 hover:text-rose-600"
-                                aria-label={`Remove ${course.title}`}
+                                aria-label={pick(`移除 ${course.title}`, `Remove ${course.title}`)}
                               >
                                 <Trash2 className="mx-auto h-4 w-4" />
                               </button>
@@ -352,7 +363,7 @@ export default function PostgraduatePlanEditor({
                       </div>
                     ) : (
                       <div className="flex h-[108px] items-center justify-center rounded-lg border border-dashed border-gray-200 bg-gray-50 text-center text-xs text-gray-500">
-                        DIY empty semester
+                        {pick('DIY 空白学期', 'DIY empty semester')}
                       </div>
                     )}
                   </div>

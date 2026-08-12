@@ -1,18 +1,21 @@
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, ExternalLink, MessageCircle, Newspaper, PlayCircle, Sparkles, Users } from 'lucide-react'
-import { getSpotlightById, spotlightAsset } from '../data/campusSpotlights.ts'
+import { getSpotlightById, localizeSpotlight, spotlightAsset } from '../data/campusSpotlights.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 export default function SpotlightDetailPage() {
+  const { language, pick } = useLanguage()
   const { spotlightId } = useParams<{ spotlightId: string }>()
-  const spotlight = spotlightId ? getSpotlightById(spotlightId) : undefined
+  const sourceSpotlight = spotlightId ? getSpotlightById(spotlightId) : undefined
+  const spotlight = sourceSpotlight ? localizeSpotlight(sourceSpotlight, language) : undefined
 
   if (!spotlight) {
     return (
       <div className="surface-panel p-6 text-center">
-        <h1 className="text-2xl font-bold text-cityu-dark">News item not found</h1>
+        <h1 className="text-2xl font-bold text-cityu-dark">{pick('未找到这条新闻', 'News item not found')}</h1>
         <Link to="/" className="mt-4 inline-flex items-center gap-2 text-cityu-accent hover:underline">
           <ArrowLeft className="h-4 w-4" />
-          返回首页
+          {pick('返回首页', 'Back to Home')}
         </Link>
       </div>
     )
@@ -22,7 +25,7 @@ export default function SpotlightDetailPage() {
     <article className="spotlight-detail">
       <Link to="/" className="inline-flex items-center gap-1 text-gray-500 hover:text-cityu-accent mb-4 sm:mb-6 transition-colors text-sm sm:text-base">
         <ArrowLeft className="w-4 h-4" />
-        返回首页
+        {pick('返回首页', 'Back to Home')}
       </Link>
 
       <header className={`spotlight-detail-hero spotlight-detail-hero-${spotlight.kind}`}>
@@ -43,7 +46,7 @@ export default function SpotlightDetailPage() {
         <section className="spotlight-detail-section">
           <div className="spotlight-section-heading">
             <Sparkles className="h-5 w-5" />
-            <h2>OCamp 小组海报</h2>
+            <h2>{pick('OCamp 小组海报', 'OCamp Group Posters')}</h2>
           </div>
           <div className="spotlight-poster-grid">
             {spotlight.images.map((image) => (
@@ -59,7 +62,7 @@ export default function SpotlightDetailPage() {
         <section className="spotlight-detail-section">
           <div className="spotlight-section-heading">
             <PlayCircle className="h-5 w-5" />
-            <h2>网站使用演示</h2>
+            <h2>{pick('网站使用演示', 'Website Walkthrough')}</h2>
           </div>
           <div className="spotlight-detail-video">
             <video
@@ -78,7 +81,7 @@ export default function SpotlightDetailPage() {
         <section className="spotlight-detail-section">
           <div className="spotlight-section-heading">
             <MessageCircle className="h-5 w-5" />
-            <h2>公众号入口</h2>
+            <h2>{pick('公众号入口', 'WeChat Accounts')}</h2>
           </div>
           <div className="wechat-account-grid">
             {spotlight.accounts.map((account) => (
@@ -93,7 +96,7 @@ export default function SpotlightDetailPage() {
                   <div className="wechat-search-box">{account.wechat}</div>
                   {account.sourceUrl ? (
                     <a href={account.sourceUrl} target="_blank" rel="noreferrer" className="wechat-source-link">
-                      参考官方/组织页面
+                      {pick('参考官方/组织页面', 'View Official / Organisation Page')}
                       <ExternalLink className="h-3.5 w-3.5" />
                     </a>
                   ) : null}
@@ -107,7 +110,7 @@ export default function SpotlightDetailPage() {
       <section className="spotlight-detail-section">
         <div className="spotlight-section-heading">
           <Sparkles className="h-5 w-5" />
-          <h2>补充说明</h2>
+          <h2>{pick('补充说明', 'Additional Notes')}</h2>
         </div>
         <div className="spotlight-note-list">
           {spotlight.notes.map((note) => (

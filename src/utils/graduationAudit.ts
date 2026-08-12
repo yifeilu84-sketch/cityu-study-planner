@@ -1,4 +1,5 @@
 import type { Course, Major, MajorCourse, MajorRequirements } from '../types'
+import type { Language } from '../i18n/language.ts'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 import { DSE_CODES, getGEArea, isRequiredGE } from './editPlan.ts'
 import { auditPlanRisks, type PlanRiskSummary } from './planRiskAudit.ts'
@@ -80,12 +81,12 @@ export interface GraduationAudit {
 }
 
 const SECTION_DEFS = [
-  { key: 'gatewayEducation', label: '通识教育', categories: ['ge'] },
-  { key: 'college', label: '学院/学系要求', categories: ['college'] },
-  { key: 'collegeRequirement', label: '学院指定课程', categories: ['college'] },
-  { key: 'majorCore', label: '专业核心', categories: ['majorCore'] },
-  { key: 'majorElectives', label: '专业选修', categories: ['majorElective'] },
-  { key: 'freeElectives', label: '自由选修', categories: ['freeElective'] },
+  { key: 'gatewayEducation', zh: '通识教育', en: 'Gateway Education', categories: ['ge'] },
+  { key: 'college', zh: '学院/学系要求', en: 'College / Department Requirements', categories: ['college'] },
+  { key: 'collegeRequirement', zh: '学院指定课程', en: 'College Specified Courses', categories: ['college'] },
+  { key: 'majorCore', zh: '专业核心', en: 'Major Core', categories: ['majorCore'] },
+  { key: 'majorElectives', zh: '专业选修', en: 'Major Electives', categories: ['majorElective'] },
+  { key: 'freeElectives', zh: '自由选修', en: 'Free Electives', categories: ['freeElective'] },
 ] as const
 
 type SectionKey = typeof SECTION_DEFS[number]['key']
@@ -277,7 +278,8 @@ function buildSectionAudit(
   reqs: MajorRequirements,
   plannedCourses: NormalizedPlannedCourse[],
   plannedCodes: Set<string>,
-  courses: Record<string, Course>
+  courses: Record<string, Course>,
+  language: Language,
 ): AuditSection[] {
   return SECTION_DEFS
     .map(sectionDef => {
@@ -292,7 +294,7 @@ function buildSectionAudit(
       const confidence: SectionConfidence = hasExactRequirements ? 'exact' : req.credits > 0 ? 'credit' : 'advisory'
       return {
         key: sectionDef.key,
-        label: sectionDef.label,
+        label: language === 'en' ? sectionDef.en : sectionDef.zh,
         plannedCredits,
         requiredCredits: req.credits,
         missingCredits,
@@ -440,7 +442,8 @@ function hasPriorPrerequisite(code: string, priorCodes: Set<string>): boolean {
 
 function buildPrerequisiteWarnings(
   plannedCourses: NormalizedPlannedCourse[],
-  courses: Record<string, Course>
+  courses: Record<string, Course>,
+  language: Language,
 ): AuditWarning[] {
   const warnings: AuditWarning[] = []
   const priorBySemester = buildPriorCodeSets(plannedCourses)
@@ -459,7 +462,9 @@ function buildPrerequisiteWarnings(
       warnings.push({
         kind: 'prerequisite',
         severity: 'warning',
-        message: `${course.code} 可能缺少前置课程：${prerequisites.join(', ')}`,
+        message: language === 'en'
+          ? `${course.code} may be missing prerequisite course(s): ${prerequisites.join(', ')}.`
+          : `${course.code} 可能缺少前置课程：${prerequisites.join(', ')}`,
         codes: [course.normalizedCode, ...prerequisites],
       })
     }
@@ -468,7 +473,7 @@ function buildPrerequisiteWarnings(
   return warnings
 }
 
-function buildSemesterLoadWarnings(plan: AuditSemester[]): AuditWarning[] {
+function buildSemesterLoadWarnings(plan: AuditSemester[], language: Language): AuditWarning[] {
   const warnings: AuditWarning[] = []
   for (const semester of plan) {
     const totalCredits = semester.courses.reduce((sum, course) => sum + (course.credits || 0), 0)
@@ -476,14 +481,18 @@ function buildSemesterLoadWarnings(plan: AuditSemester[]): AuditWarning[] {
       warnings.push({
         kind: 'semester-load',
         severity: 'warning',
-        message: `Year ${semester.year} Sem ${semester.sem} 为 ${totalCredits} CU，超过 21 CU 上限。`,
+        message: language === 'en'
+          ? `Year ${semester.year} Sem ${semester.sem} has ${totalCredits} CU, above the 21 CU maximum.`
+          : `Year ${semester.year} Sem ${semester.sem} 为 ${totalCredits} CU，超过 21 CU 上限。`,
         codes: semester.courses.map(course => course.code),
       })
     } else if (totalCredits > 18) {
       warnings.push({
         kind: 'semester-load',
         severity: 'warning',
-        message: `Year ${semester.year} Sem ${semester.sem} 为 ${totalCredits} CU，通常需要 ARRO 批准。`,
+        message: language === 'en'
+          ? `Year ${semester.year} Sem ${semester.sem} has ${totalCredits} CU and normally requires ARRO approval.`
+          : `Year ${semester.year} Sem ${semester.sem} 为 ${totalCredits} CU，通常需要 ARRO 批准。`,
         codes: semester.courses.map(course => course.code),
       })
     }
@@ -493,7 +502,8 @@ function buildSemesterLoadWarnings(plan: AuditSemester[]): AuditWarning[] {
 
 function buildOfferingTermWarnings(
   plannedCourses: NormalizedPlannedCourse[],
-  courses: Record<string, Course>
+  courses: Record<string, Course>,
+  language: Language,
 ): AuditWarning[] {
   const warnings: AuditWarning[] = []
   for (const course of plannedCourses) {
@@ -507,7 +517,9 @@ function buildOfferingTermWarnings(
       warnings.push({
         kind: 'offering-term',
         severity: 'warning',
-        message: `${course.code} 的开课学期可能与 Year ${course.year} Sem ${course.sem} 不一致。`,
+        message: language === 'en'
+          ? `${course.code}'s offering term may not match Year ${course.year} Sem ${course.sem}.`
+          : `${course.code} 的开课学期可能与 Year ${course.year} Sem ${course.sem} 不一致。`,
         codes: [course.normalizedCode],
       })
     }
@@ -525,12 +537,14 @@ function getOfferedSemesterFlags(semesterText: string): { a: boolean; b: boolean
   }
 }
 
-function sourceConfidenceWarning(kind: SourceStatusKind): AuditWarning | null {
+function sourceConfidenceWarning(kind: SourceStatusKind, language: Language): AuditWarning | null {
   if (kind === 'diy') {
     return {
       kind: 'source-confidence',
       severity: 'info',
-      message: 'DIY 路径没有官网明确 study plan；这里只按毕业要求列出课程池，请自行安排学期并向学院确认。',
+      message: language === 'en'
+        ? 'This DIY pathway has no explicit official study plan. The page lists a graduation-requirement course pool; arrange semesters yourself and confirm with the college.'
+        : 'DIY 路径没有官网明确 study plan；这里只按毕业要求列出课程池，请自行安排学期并向学院确认。',
       codes: [],
     }
   }
@@ -538,7 +552,9 @@ function sourceConfidenceWarning(kind: SourceStatusKind): AuditWarning | null {
     return {
       kind: 'source-confidence',
       severity: 'info',
-      message: '当前学期安排不是官网明确 study plan，而是按毕业要求整理的参考排课。',
+      message: language === 'en'
+        ? 'This semester layout is not an explicit official study plan; it is a reference assembled from graduation requirements.'
+        : '当前学期安排不是官网明确 study plan，而是按毕业要求整理的参考排课。',
       codes: [],
     }
   }
@@ -546,7 +562,9 @@ function sourceConfidenceWarning(kind: SourceStatusKind): AuditWarning | null {
     return {
       kind: 'source-confidence',
       severity: 'info',
-      message: '当前安排来自官网 structure/flowchart 解析，请结合实际开课和先修要求检查。',
+      message: language === 'en'
+        ? 'This layout was parsed from an official structure or flowchart. Check it against actual offerings and prerequisites.'
+        : '当前安排来自官网 structure/flowchart 解析，请结合实际开课和先修要求检查。',
       codes: [],
     }
   }
@@ -563,10 +581,11 @@ export function auditGraduationPlan(
   major: Major,
   courses: Record<string, Course>,
   plan: AuditSemester[],
-  streamIndex?: number
+  streamIndex?: number,
+  language: Language = 'zh',
 ): GraduationAudit {
   const activeEntity = getActiveEntity(major, streamIndex)
-  const sourceStatus = getStudyPlanSourceStatus(activeEntity)
+  const sourceStatus = getStudyPlanSourceStatus(activeEntity, language)
   const reqs = getActiveRequirements(major, streamIndex)
   const requiredTotalCredits = getActiveTotalCredits(major, reqs, streamIndex)
   const plannedCourses = flattenPlan(plan, courses)
@@ -576,7 +595,7 @@ export function auditGraduationPlan(
       .filter(isConcreteCourseCode)
   )
   const plannedTotalCredits = plannedCourses.reduce((sum, course) => sum + course.credits, 0)
-  const sections = buildSectionAudit(reqs, plannedCourses, plannedCodes, courses)
+  const sections = buildSectionAudit(reqs, plannedCourses, plannedCodes, courses, language)
   const ge = buildGEAudit(reqs, plannedCourses, plannedCodes, courses)
   const duplicates = buildDuplicateAudit(plannedCourses, courses, reqs)
   const splitCourses = buildSplitCourseAudit(plannedCourses, courses, reqs)
@@ -589,10 +608,10 @@ export function auditGraduationPlan(
       missingRequiredCodes: ge.missingRequiredCodes,
     },
     splitCourses,
-  })
+  }, language)
   const warnings: AuditWarning[] = []
 
-  const sourceWarning = sourceConfidenceWarning(sourceStatus.kind)
+  const sourceWarning = sourceConfidenceWarning(sourceStatus.kind, language)
   if (sourceWarning) warnings.push(sourceWarning)
 
   const totalMissing = Math.max(0, requiredTotalCredits - plannedTotalCredits)
@@ -601,7 +620,9 @@ export function auditGraduationPlan(
     warnings.push({
       kind: 'total-credits',
       severity: 'warning',
-      message: `当前规划共 ${plannedTotalCredits} CU，距离毕业要求 ${requiredTotalCredits} CU 还差 ${totalMissing} CU。`,
+      message: language === 'en'
+        ? `The current plan has ${plannedTotalCredits} CU and is ${totalMissing} CU short of the ${requiredTotalCredits} CU graduation requirement.`
+        : `当前规划共 ${plannedTotalCredits} CU，距离毕业要求 ${requiredTotalCredits} CU 还差 ${totalMissing} CU。`,
       codes: [],
     })
   }
@@ -611,7 +632,9 @@ export function auditGraduationPlan(
       warnings.push({
         kind: 'missing-course',
         severity: 'warning',
-        message: `${section.label} 缺少必修课：${section.missingCourseCodes.join(', ')}`,
+        message: language === 'en'
+          ? `${section.label} is missing required course(s): ${section.missingCourseCodes.join(', ')}.`
+          : `${section.label} 缺少必修课：${section.missingCourseCodes.join(', ')}`,
         codes: section.missingCourseCodes,
       })
     }
@@ -619,7 +642,9 @@ export function auditGraduationPlan(
       warnings.push({
         kind: 'section-credits',
         severity: 'warning',
-        message: `${section.label} 当前 ${section.plannedCredits}/${section.requiredCredits} CU，还差 ${section.missingCredits} CU。`,
+        message: language === 'en'
+          ? `${section.label} currently has ${section.plannedCredits}/${section.requiredCredits} CU and is short by ${section.missingCredits} CU.`
+          : `${section.label} 当前 ${section.plannedCredits}/${section.requiredCredits} CU，还差 ${section.missingCredits} CU。`,
         codes: [],
       })
     }
@@ -630,7 +655,9 @@ export function auditGraduationPlan(
     warnings.push({
       kind: 'ge-required',
       severity: hasHighConfidenceMissingGE && sourceStatus.kind === 'official' ? 'danger' : 'warning',
-      message: `GE 必修课缺少：${ge.missingRequiredCodes.join(', ')}`,
+      message: language === 'en'
+        ? `Missing required GE course(s): ${ge.missingRequiredCodes.join(', ')}.`
+        : `GE 必修课缺少：${ge.missingRequiredCodes.join(', ')}`,
       codes: ge.missingRequiredCodes,
     })
   }
@@ -638,7 +665,9 @@ export function auditGraduationPlan(
     warnings.push({
       kind: 'ge-area',
       severity: 'warning',
-      message: `GE Distributional Requirements 还需要具体选择：${ge.missingAreas.join(', ')}。`,
+      message: language === 'en'
+        ? `GE Distributional Requirements still need a specific choice for: ${ge.missingAreas.join(', ')}.`
+        : `GE Distributional Requirements 还需要具体选择：${ge.missingAreas.join(', ')}。`,
       codes: [],
     })
   }
@@ -647,14 +676,16 @@ export function auditGraduationPlan(
     warnings.push({
       kind: 'duplicate',
       severity: 'danger',
-      message: `${duplicate.code} 在规划中出现 ${duplicate.count} 次。`,
+      message: language === 'en'
+        ? `${duplicate.code} appears ${duplicate.count} times in the plan.`
+        : `${duplicate.code} 在规划中出现 ${duplicate.count} 次。`,
       codes: [duplicate.code],
     })
   }
 
-  warnings.push(...buildPrerequisiteWarnings(plannedCourses, courses))
-  warnings.push(...buildSemesterLoadWarnings(plan))
-  warnings.push(...buildOfferingTermWarnings(plannedCourses, courses))
+  warnings.push(...buildPrerequisiteWarnings(plannedCourses, courses, language))
+  warnings.push(...buildSemesterLoadWarnings(plan, language))
+  warnings.push(...buildOfferingTermWarnings(plannedCourses, courses, language))
 
   return {
     status: getAuditStatus(warnings),

@@ -1,4 +1,5 @@
 import type { Course } from '../types'
+import type { Language } from '../i18n/language.ts'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export interface PlanCourse {
@@ -62,21 +63,22 @@ export function canAddCourse(
   courseCode: string,
   target: { year: number; sem: 'A' | 'B' | 'Summer' },
   plan: EditableSemester[],
-  courses: Record<string, Course>
+  courses: Record<string, Course>,
+  language: Language = 'zh',
 ): { ok: boolean; reason?: string } {
   const course = courses[courseCode]
   if (!course) return { ok: true }
 
   // Check if already in plan
   const alreadyInPlan = plan.some(s => s.courses.some(c => c.code === courseCode))
-  if (alreadyInPlan) return { ok: false, reason: '该课程已在学习计划中' }
+  if (alreadyInPlan) return { ok: false, reason: language === 'en' ? 'This course is already in the study plan' : '该课程已在学习计划中' }
 
   // Check prerequisites
   if (course.prerequisites && course.prerequisites.length > 0) {
     const priorCodes = getPriorCourseCodes(target, plan)
     for (const prereq of course.prerequisites) {
       if (!priorCodes.has(prereq)) {
-        return { ok: false, reason: `前置课程 ${prereq} 未修完` }
+        return { ok: false, reason: language === 'en' ? `Prerequisite ${prereq} has not been completed` : `前置课程 ${prereq} 未修完` }
       }
     }
   }

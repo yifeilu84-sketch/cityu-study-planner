@@ -1015,7 +1015,7 @@ test('postgraduate page is wired into navigation and uses official postgraduate 
   assert.ok(page.includes('Professional Doctorate Programmes'))
   assert.ok(page.includes('https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list'))
   assert.ok(page.includes('https://www.cityu.edu.hk/pg/research-degree-programmes/research-areas'))
-  assert.ok(page.includes('本科 study plan 审查'))
+  assert.ok(page.includes('Postgraduate study plan directory'))
 })
 
 test('postgraduate programmes include official project-level study plan data', () => {

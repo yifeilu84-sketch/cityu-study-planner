@@ -1,3 +1,5 @@
+import type { Language } from '../i18n/language.ts'
+
 export type SourceStatusKind = 'official' | 'structure' | 'derived' | 'diy'
 
 export interface SourceStatusInfo {
@@ -20,7 +22,7 @@ function textFromEntity(entity: any): string {
   ].filter(Boolean).join(' ').toLowerCase()
 }
 
-export function getStudyPlanSourceStatus(entity: any): SourceStatusInfo {
+export function getStudyPlanSourceStatus(entity: any, language: Language = 'zh'): SourceStatusInfo {
   const explicit = entity?.studyPlanStatus as SourceStatusKind | undefined
   const text = textFromEntity(entity)
 
@@ -41,32 +43,40 @@ export function getStudyPlanSourceStatus(entity: any): SourceStatusInfo {
     case 'derived':
       return {
         kind,
-        label: '非官网精确学习计划',
-        description: '当前学期安排是按官方毕业要求、课程结构和学分要求整理出的参考排课表，请结合实际开课和先修要求自行调整。',
+        label: language === 'en' ? 'Graduation-requirement reference plan' : '非官网精确学习计划',
+        description: language === 'en'
+          ? 'This semester layout is a reference assembled from official graduation, curriculum, and credit requirements. Adjust it for actual offerings and prerequisites.'
+          : '当前学期安排是按官方毕业要求、课程结构和学分要求整理出的参考排课表，请结合实际开课和先修要求自行调整。',
         tone: 'amber',
         ...shared,
       }
     case 'diy':
       return {
         kind,
-        label: '官网未给出明确学期规划',
-        description: '这里提供毕业所需课程池和空白学期表，适合按个人交换、实习和学分负荷自行 DIY。',
+        label: language === 'en' ? 'No official semester-by-semester plan' : '官网未给出明确学期规划',
+        description: language === 'en'
+          ? 'The page provides the graduation course pool and blank semesters so you can build a plan around exchange, internships, and your preferred credit load.'
+          : '这里提供毕业所需课程池和空白学期表，适合按个人交换、实习和学分负荷自行 DIY。',
         tone: 'slate',
         ...shared,
       }
     case 'structure':
       return {
         kind,
-        label: '官方 Structure / Flowchart 解析',
-        description: '当前学习计划由官网 programme structure、major structure 或 flowchart 图表解析整理。',
+        label: language === 'en' ? 'Parsed from official structure / flowchart' : '官方 Structure / Flowchart 解析',
+        description: language === 'en'
+          ? 'This study plan was transcribed from an official programme structure, major structure, or flowchart.'
+          : '当前学习计划由官网 programme structure、major structure 或 flowchart 图表解析整理。',
         tone: 'indigo',
         ...shared,
       }
     default:
       return {
         kind,
-        label: '官方推荐学习计划',
-        description: '当前学习计划来自 CityU 官方 recommended study plan、sample study plan、model study path 或同等官方学期规划。',
+        label: language === 'en' ? 'Official recommended study plan' : '官方推荐学习计划',
+        description: language === 'en'
+          ? 'This plan comes from an official CityU recommended study plan, sample study plan, model study path, or equivalent semester schedule.'
+          : '当前学习计划来自 CityU 官方 recommended study plan、sample study plan、model study path 或同等官方学期规划。',
         tone: 'blue',
         ...shared,
       }

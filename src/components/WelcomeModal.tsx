@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import { X, BookOpen, User, MessageCircle, HelpCircle, GraduationCap } from 'lucide-react'
 import { shouldShowWelcomeModal } from '../utils/welcomeSession'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 export default function WelcomeModal() {
+  const { pick } = useLanguage()
   const [show, setShow] = useState(false)
 
   useEffect(() => {
@@ -33,11 +35,12 @@ export default function WelcomeModal() {
         <div className="sticky top-0 bg-white border-b border-gray-100 px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <GraduationCap className="w-6 h-6 text-cityu-accent" />
-            <h2 className="text-lg font-bold text-gray-800">欢迎使用 CityU Study Planner</h2>
+            <h2 className="text-lg font-bold text-gray-800">{pick('欢迎使用 CityU Study Planner', 'Welcome to CityU Study Planner')}</h2>
           </div>
           <button
             onClick={handleClose}
             className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+            aria-label={pick('关闭欢迎说明', 'Close welcome guide')}
           >
             <X className="w-5 h-5 text-gray-500" />
           </button>
@@ -48,9 +51,12 @@ export default function WelcomeModal() {
           <div className="flex items-start gap-3">
             <BookOpen className="w-5 h-5 text-cityu-blue mt-0.5 flex-shrink-0" />
             <div>
-              <div className="font-medium text-gray-800">网站用途</div>
+              <div className="font-medium text-gray-800">{pick('网站用途', 'What this site does')}</div>
               <p className="text-sm text-gray-600 mt-1">
-                本网站为香港城市大学（CityU）学生提供课程规划辅助工具，涵盖 53 个本科专业的官方推荐学习计划、课程详情、考核方式、前置要求查询，以及自定义编辑模式，帮助你合理安排四年学业。
+                {pick(
+                  '本网站为香港城市大学（CityU）学生提供课程规划辅助工具，涵盖本科与硕博项目、课程详情、考核方式、先修要求、毕业自检和自定义编辑模式。',
+                  'This planning tool brings together CityUHK undergraduate and postgraduate programmes, course details, assessment, prerequisites, graduation checks, and editable semester plans.',
+                )}
               </p>
             </div>
           </div>
@@ -59,13 +65,13 @@ export default function WelcomeModal() {
           <div className="flex items-start gap-3">
             <HelpCircle className="w-5 h-5 text-cityu-green mt-0.5 flex-shrink-0" />
             <div>
-              <div className="font-medium text-gray-800">使用方法</div>
+              <div className="font-medium text-gray-800">{pick('使用方法', 'How to use it')}</div>
               <ol className="text-sm text-gray-600 mt-1 space-y-1 list-decimal list-inside">
-                <li>首页选择所属学院</li>
-                <li>进入专业页面查看官方推荐学习计划</li>
-                <li>点击「编辑模式」可自定义增删课程、拖拽调整</li>
-                <li>选择辅修专业（Minor）后可在课程池中添加辅修课程</li>
-                <li>系统会自动校验前置课程要求</li>
+                <li>{pick('首页选择所属学院或直接搜索专业与课程', 'Choose a college or search directly for a programme or course')}</li>
+                <li>{pick('进入专业页面查看来源标注、学习计划和毕业要求', 'Open a programme to review its source status, study plan, and requirements')}</li>
+                <li>{pick('点击「编辑模式」可增删课程并拖拽调整学期', 'Use Edit Mode to add, remove, and move courses between semesters')}</li>
+                <li>{pick('通过 GE、专业对比、硕博和科研页面继续筛选', 'Use the GE, comparison, postgraduate, and research modules for deeper exploration')}</li>
+                <li>{pick('系统会自动检查开课学期、先修、学分和毕业缺口', 'The site checks offerings, prerequisites, credit load, and graduation gaps')}</li>
               </ol>
             </div>
           </div>
@@ -74,9 +80,9 @@ export default function WelcomeModal() {
           <div className="flex items-start gap-3">
             <User className="w-5 h-5 text-cityu-purple mt-0.5 flex-shrink-0" />
             <div>
-              <div className="font-medium text-gray-800">制作人</div>
+              <div className="font-medium text-gray-800">{pick('制作人', 'Created by')}</div>
               <p className="text-sm text-gray-600 mt-1">
-                吕逸飞（Lyu Yifei）
+                {pick('吕逸飞（Lyu Yifei）', 'Lyu Yifei')}
               </p>
             </div>
           </div>
@@ -85,9 +91,9 @@ export default function WelcomeModal() {
           <div className="flex items-start gap-3">
             <MessageCircle className="w-5 h-5 text-cityu-orange mt-0.5 flex-shrink-0" />
             <div>
-              <div className="font-medium text-gray-800">问题反馈</div>
+              <div className="font-medium text-gray-800">{pick('问题反馈', 'Feedback')}</div>
               <p className="text-sm text-gray-600 mt-1">
-                如有问题或建议，欢迎通过微信联系：
+                {pick('如有问题或建议，欢迎通过微信联系：', 'For corrections or suggestions, contact me on WeChat: ')}
                 <span className="font-mono font-bold text-cityu-accent bg-cityu-accent/10 px-2 py-0.5 rounded ml-1">
                   L18617192008
                 </span>
@@ -97,7 +103,10 @@ export default function WelcomeModal() {
 
           {/* 声明 */}
           <div className="bg-gray-50 rounded-lg p-3 text-xs text-gray-500">
-            免责声明：本网站数据来源于 CityU 官方课程目录，仅供参考。实际选课请以大学官方系统和学术顾问意见为准。
+            {pick(
+              '免责声明：本站基于 CityU 官方资料整理并明确标注来源状态，仅供规划参考。实际选课和毕业审核请以大学官方系统、学院及学术顾问意见为准。',
+              'Disclaimer: This site organises and labels data from official CityU sources for planning reference. Official university systems, colleges, and academic advisers remain authoritative for enrolment and graduation review.',
+            )}
           </div>
         </div>
 
@@ -106,7 +115,7 @@ export default function WelcomeModal() {
             onClick={handleClose}
             className="w-full py-2.5 bg-cityu-accent text-white rounded-lg font-medium hover:bg-cityu-purple transition-colors"
           >
-            开始使用
+            {pick('开始使用', 'Start Exploring')}
           </button>
         </div>
       </div>

@@ -9,15 +9,16 @@ import type { SearchIndex, SearchResults } from '../utils/searchIndex.ts'
 import type { SourceStatusKind } from '../utils/sourceStatus.ts'
 import { getCollegeThemeStyle } from '../utils/collegeThemes.ts'
 import CampusSpotlightCarousel from '../components/CampusSpotlightCarousel'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 type SourceFilter = SourceStatusKind | 'all'
 
-const SOURCE_FILTERS: { kind: SourceFilter; label: string }[] = [
-  { kind: 'all', label: '全部来源' },
-  { kind: 'official', label: '官方计划' },
-  { kind: 'structure', label: '结构图解析' },
-  { kind: 'derived', label: '毕业要求整理' },
-  { kind: 'diy', label: 'DIY 空表' },
+const SOURCE_FILTERS: { kind: SourceFilter; zh: string; en: string }[] = [
+  { kind: 'all', zh: '全部来源', en: 'All sources' },
+  { kind: 'official', zh: '官方计划', en: 'Official plan' },
+  { kind: 'structure', zh: '结构图解析', en: 'Structure / flowchart' },
+  { kind: 'derived', zh: '毕业要求整理', en: 'Requirements-based' },
+  { kind: 'diy', zh: 'DIY 空表', en: 'DIY blank plan' },
 ]
 
 const SOURCE_BADGE_CLASSES: Record<SourceStatusKind, string> = {
@@ -42,11 +43,13 @@ function getMajorCount(college: any) {
   return college.departments.reduce((sum: number, d: any) => sum + d.majors.length, 0)
 }
 
-function getSourceLabel(kind: SourceStatusKind) {
-  return SOURCE_FILTERS.find((item) => item.kind === kind)?.label ?? kind
+function getSourceLabel(kind: SourceStatusKind, language: 'zh' | 'en') {
+  const item = SOURCE_FILTERS.find((filter) => filter.kind === kind)
+  return item ? item[language] : kind
 }
 
 export default function Home() {
+  const { language, pick } = useLanguage()
   const [search, setSearch] = useState('')
   const [sourceFilter, setSourceFilter] = useState<SourceFilter>('all')
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
@@ -111,29 +114,35 @@ export default function Home() {
       <div className="planner-command-center mb-8">
         <div className="section-eyebrow mb-3 justify-center">
           <Database className="h-4 w-4" />
-          Academic planning intelligence
+          {pick('学业规划情报中心', 'Academic planning intelligence')}
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-cityu-dark mb-3">
           CityU Study Planner
         </h1>
         <p className="text-gray-600 text-base sm:text-lg mb-2">
-          浏览香港城市大学本科专业的学习计划、课程要求与课程评分细则
+          {pick(
+            '浏览香港城市大学本科专业的学习计划、课程要求与课程评分细则',
+            'Explore CityUHK study plans, programme requirements, and course assessment details',
+          )}
         </p>
         <p className="text-gray-500 text-sm">
-          覆盖 {majorIndex.colleges.length} 个学院 / 学校 · {totalMajors} 个本科项目
+          {pick(
+            `覆盖 ${majorIndex.colleges.length} 个学院 / 学校 · ${totalMajors} 个本科项目`,
+            `${majorIndex.colleges.length} colleges and schools · ${totalMajors} undergraduate programmes`,
+          )}
         </p>
         <div className="insight-strip mt-5">
           <div className="metric-card">
             <div className="metric-value">{majorIndex.colleges.length}</div>
-            <div className="metric-label">Colleges</div>
+            <div className="metric-label">{pick('学院 / 学校', 'Colleges')}</div>
           </div>
           <div className="metric-card">
             <div className="metric-value">{totalMajors}</div>
-            <div className="metric-label">UG Majors</div>
+            <div className="metric-label">{pick('本科专业', 'UG Majors')}</div>
           </div>
           <div className="metric-card">
             <div className="metric-value">PG</div>
-            <div className="metric-label">Directory</div>
+            <div className="metric-label">{pick('项目目录', 'Directory')}</div>
           </div>
         </div>
       </div>
@@ -143,7 +152,8 @@ export default function Home() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
             type="text"
-            placeholder="搜索学院、专业或课程..."
+            placeholder={pick('搜索学院、专业、课程或教授...', 'Search colleges, programmes, courses, or academics...')}
+            aria-label={pick('全站搜索', 'Search the site')}
             value={search}
             onChange={e => setSearch(e.target.value)}
             className="w-full rounded-lg border border-slate-200 bg-white px-4 py-3 pl-10 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-cityu-accent"
@@ -161,7 +171,7 @@ export default function Home() {
                     : 'bg-white text-gray-600 border-gray-200 hover:border-cityu-accent hover:text-cityu-accent'
                 }`}
               >
-                {item.label}
+                {pick(item.zh, item.en)}
               </button>
             ))}
           </div>
@@ -174,12 +184,12 @@ export default function Home() {
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-cityu-accent" />
-                专业结果
+                {pick('专业结果', 'Undergraduate Programmes')}
               </h2>
-              <span className="text-xs text-gray-500">{searchResults.majors.length} 个匹配</span>
+              <span className="text-xs text-gray-500">{pick(`${searchResults.majors.length} 个匹配`, `${searchResults.majors.length} matches`)}</span>
             </div>
             {isSearchLoading ? (
-              <div className="text-sm text-gray-500 py-3">正在加载搜索索引...</div>
+              <div className="text-sm text-gray-500 py-3">{pick('正在加载搜索索引...', 'Loading search index...')}</div>
             ) : searchResults.majors.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {searchResults.majors.map(item => (
@@ -193,7 +203,7 @@ export default function Home() {
                         {item.code}
                       </span>
                       <span className={`px-2 py-0.5 border text-xs rounded ${SOURCE_BADGE_CLASSES[item.sourceKind]}`}>
-                        {getSourceLabel(item.sourceKind)}
+                        {getSourceLabel(item.sourceKind, language)}
                       </span>
                       <span className="text-xs text-gray-500 truncate">{item.department || item.college}</span>
                     </div>
@@ -203,7 +213,7 @@ export default function Home() {
                 ))}
               </div>
             ) : (
-              <div className="text-sm text-gray-500 py-3">没有找到匹配专业</div>
+              <div className="text-sm text-gray-500 py-3">{pick('没有找到匹配专业', 'No matching undergraduate programmes')}</div>
             )}
           </section>
 
@@ -211,12 +221,12 @@ export default function Home() {
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <Microscope className="w-5 h-5 text-cityu-accent" />
-                科研参考
+                {pick('科研参考', 'Research Reference')}
               </h2>
-              <span className="text-xs text-gray-500">{searchResults.academicProfiles.length} matches</span>
+              <span className="text-xs text-gray-500">{pick(`${searchResults.academicProfiles.length} 个匹配`, `${searchResults.academicProfiles.length} matches`)}</span>
             </div>
             {isSearchLoading ? (
-              <div className="text-sm text-gray-500 py-3">Loading academic profiles...</div>
+              <div className="text-sm text-gray-500 py-3">{pick('正在加载科研资料...', 'Loading academic profiles...')}</div>
             ) : searchResults.academicProfiles.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {searchResults.academicProfiles.map(item => (
@@ -240,14 +250,14 @@ export default function Home() {
                         <Users className="w-3.5 h-3.5" />
                         {item.studentCount}
                       </span>
-                      <span>{item.publicationCount} pubs</span>
+                      <span>{item.publicationCount} {pick('篇论文', 'publications')}</span>
                       <span className="truncate">{item.department}</span>
                     </div>
                   </Link>
                 ))}
               </div>
             ) : (
-              <div className="text-sm text-gray-500 py-3">No matching academic profiles</div>
+              <div className="text-sm text-gray-500 py-3">{pick('没有找到匹配的科研资料', 'No matching academic profiles')}</div>
             )}
           </section>
 
@@ -255,12 +265,12 @@ export default function Home() {
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-cityu-accent" />
-                硕博项目
+                {pick('硕博项目', 'Postgraduate Programmes')}
               </h2>
-              <span className="text-xs text-gray-500">{searchResults.postgraduateProgrammes.length} 个匹配</span>
+              <span className="text-xs text-gray-500">{pick(`${searchResults.postgraduateProgrammes.length} 个匹配`, `${searchResults.postgraduateProgrammes.length} matches`)}</span>
             </div>
             {isSearchLoading ? (
-              <div className="text-sm text-gray-500 py-3">正在加载硕博项目索引...</div>
+              <div className="text-sm text-gray-500 py-3">{pick('正在加载硕博项目索引...', 'Loading postgraduate programme index...')}</div>
             ) : searchResults.postgraduateProgrammes.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {searchResults.postgraduateProgrammes.map(item => (
@@ -284,7 +294,7 @@ export default function Home() {
                 ))}
               </div>
             ) : (
-              <div className="text-sm text-gray-500 py-3">没有找到匹配硕博项目</div>
+              <div className="text-sm text-gray-500 py-3">{pick('没有找到匹配硕博项目', 'No matching postgraduate programmes')}</div>
             )}
           </section>
 
@@ -292,12 +302,12 @@ export default function Home() {
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-blue" />
-                课程结果
+                {pick('课程结果', 'Undergraduate Courses')}
               </h2>
-              <span className="text-xs text-gray-500">{searchResults.courses.length} 门匹配</span>
+              <span className="text-xs text-gray-500">{pick(`${searchResults.courses.length} 门匹配`, `${searchResults.courses.length} matches`)}</span>
             </div>
             {isSearchLoading ? (
-              <div className="text-sm text-gray-500 py-3">正在加载课程索引...</div>
+              <div className="text-sm text-gray-500 py-3">{pick('正在加载课程索引...', 'Loading course index...')}</div>
             ) : searchResults.courses.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {searchResults.courses.map(item => (
@@ -315,14 +325,14 @@ export default function Home() {
                     <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
                     <div className="text-xs text-gray-500 mt-1">
                       {item.relatedMajorCount > 0
-                        ? `出现在 ${item.relatedMajorCount} 个专业路径中`
-                        : '暂未关联到专业学习计划'}
+                        ? pick(`出现在 ${item.relatedMajorCount} 个专业路径中`, `Appears in ${item.relatedMajorCount} programme pathways`)
+                        : pick('暂未关联到专业学习计划', 'Not yet linked to a programme plan')}
                     </div>
                   </button>
                 ))}
               </div>
             ) : (
-              <div className="text-sm text-gray-500 py-3">没有找到匹配课程</div>
+              <div className="text-sm text-gray-500 py-3">{pick('没有找到匹配课程', 'No matching undergraduate courses')}</div>
             )}
           </section>
 
@@ -330,12 +340,12 @@ export default function Home() {
             <div className="flex items-center justify-between gap-3 mb-4">
               <h2 className="font-bold text-gray-800 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-cityu-blue" />
-                PG 课程
+                {pick('PG 课程', 'Postgraduate Courses')}
               </h2>
-              <span className="text-xs text-gray-500">{searchResults.pgCourses.length} 门匹配</span>
+              <span className="text-xs text-gray-500">{pick(`${searchResults.pgCourses.length} 门匹配`, `${searchResults.pgCourses.length} matches`)}</span>
             </div>
             {isSearchLoading ? (
-              <div className="text-sm text-gray-500 py-3">正在加载 PG 课程索引...</div>
+              <div className="text-sm text-gray-500 py-3">{pick('正在加载 PG 课程索引...', 'Loading postgraduate course index...')}</div>
             ) : searchResults.pgCourses.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {searchResults.pgCourses.map(item => (
@@ -350,7 +360,7 @@ export default function Home() {
                       </span>
                       <span className="text-xs text-gray-500">{item.credits} CU</span>
                       {item.detailStatus !== 'parsed' && (
-                        <span className="text-xs text-amber-700">官方课程详情未确认</span>
+                        <span className="text-xs text-amber-700">{pick('官方课程详情未确认', 'Official details not confirmed')}</span>
                       )}
                     </div>
                     <div className="font-semibold text-gray-800 text-sm">{item.title}</div>
@@ -359,7 +369,7 @@ export default function Home() {
                 ))}
               </div>
             ) : (
-              <div className="text-sm text-gray-500 py-3">没有找到匹配 PG 课程</div>
+              <div className="text-sm text-gray-500 py-3">{pick('没有找到匹配 PG 课程', 'No matching postgraduate courses')}</div>
             )}
           </section>
         </div>
@@ -370,28 +380,28 @@ export default function Home() {
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Database className="w-4 h-4 text-cityu-accent" />
-                  数据来源覆盖率
+                  {pick('数据来源覆盖率', 'Source Coverage')}
                 </div>
-                <div className="text-sm text-gray-500">查看哪些专业来自官方 study plan，哪些需要按毕业要求自行核对。</div>
+                <div className="text-sm text-gray-500">{pick('查看哪些专业来自官方 study plan，哪些需要按毕业要求自行核对。', 'See which programmes have official study plans and which require a graduation-requirement review.')}</div>
               </div>
               <Link
                 to="/coverage"
                 className="premium-action"
               >
-                查看来源
+                {pick('查看来源', 'View Sources')}
                 <ShieldCheck className="w-4 h-4" />
               </Link>
             </div>
             <div className="quick-action-card">
               <div>
-                <div className="font-bold text-gray-800">GE 选课助手</div>
-                <div className="text-sm text-gray-500">按课程名、代码和考核方式筛选可自由组合的 GE 课程。</div>
+                <div className="font-bold text-gray-800">{pick('GE 选课助手', 'GE Explorer')}</div>
+                <div className="text-sm text-gray-500">{pick('按课程名、代码和考核方式筛选可自由组合的 GE 课程。', 'Filter flexible GE options by title, code, offering term, and assessment.')}</div>
               </div>
               <Link
                 to="/ge"
                 className="premium-action"
               >
-                打开 GE 工具
+                {pick('打开 GE 工具', 'Open GE Explorer')}
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -399,15 +409,15 @@ export default function Home() {
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <Microscope className="w-4 h-4 text-cityu-accent" />
-                  科研参考
+                  {pick('科研参考', 'Research Reference')}
                 </div>
-                <div className="text-sm text-gray-500">按教授、研究方向、学生课题和代表论文检索 CityUHK 科研资料。</div>
+                <div className="text-sm text-gray-500">{pick('按教授、研究方向、学生课题和代表论文检索 CityUHK 科研资料。', 'Search CityUHK academics by faculty member, research area, student topics, and selected publications.')}</div>
               </div>
               <Link
                 to="/academic"
                 className="premium-action"
               >
-                打开科研
+                {pick('打开科研', 'Open Research')}
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -415,15 +425,15 @@ export default function Home() {
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GraduationCap className="w-4 h-4 text-cityu-accent" />
-                  硕博页面
+                  {pick('硕博页面', 'Postgraduate Directory')}
                 </div>
-                <div className="text-sm text-gray-500">集中查看 CityUHK 硕士、研究型硕博和专业博士官方入口。</div>
+                <div className="text-sm text-gray-500">{pick('集中查看 CityUHK 硕士、研究型硕博和专业博士官方入口。', 'Browse CityUHK taught master, research degree, and professional doctorate programmes.')}</div>
               </div>
               <Link
                 to="/postgraduate"
                 className="premium-action"
               >
-                打开硕博
+                {pick('打开硕博', 'Open Postgraduate')}
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -431,15 +441,15 @@ export default function Home() {
               <div>
                 <div className="font-bold text-gray-800 flex items-center gap-2">
                   <GitCompareArrows className="w-4 h-4 text-cityu-accent" />
-                  专业对比
+                  {pick('专业对比', 'Compare Majors')}
                 </div>
-                <div className="text-sm text-gray-500">并排查看 2-3 个专业的学分结构、来源可信度和重叠课程。</div>
+                <div className="text-sm text-gray-500">{pick('并排查看 2-3 个专业的学分结构、来源可信度和重叠课程。', 'Compare the credit structure, source confidence, and overlapping courses of two or three majors.')}</div>
               </div>
               <Link
                 to="/compare"
                 className="premium-action"
               >
-                打开对比
+                {pick('打开对比', 'Open Comparison')}
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -464,15 +474,15 @@ export default function Home() {
                       <Building2 className="w-5 h-5" />
                     </span>
                     <span className="college-count-pill">
-                      {majorCount} 个专业
+                      {pick(`${majorCount} 个专业`, `${majorCount} programmes`)}
                     </span>
                   </div>
                   <h2 className="college-card-title">{college.name}</h2>
                   <p className="college-card-meta">
-                    {isSchool ? '独立学院 / 学校' : `${deptCount} 个学系`}
+                    {isSchool ? pick('独立学院 / 学校', 'Independent school') : pick(`${deptCount} 个学系`, `${deptCount} departments`)}
                   </p>
                   <div className="college-card-link">
-                    查看详情 <ArrowRight className="w-4 h-4" />
+                    {pick('查看详情', 'View Details')} <ArrowRight className="w-4 h-4" />
                   </div>
                 </Link>
               )

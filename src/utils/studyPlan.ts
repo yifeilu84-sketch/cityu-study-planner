@@ -1,4 +1,5 @@
 import type { Major, Course, MajorRequirements } from '../types'
+import type { Language } from '../i18n/language.ts'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
 export interface SemesterPlan {
@@ -263,14 +264,14 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
   return semesters.filter(s => s.courses.length > 0)
 }
 
-export function getCreditStatus(totalCredits: number): { status: 'ok' | 'warning' | 'danger'; message: string } {
+export function getCreditStatus(totalCredits: number, language: Language = 'zh'): { status: 'ok' | 'warning' | 'danger'; message: string } {
   if (totalCredits > 21) {
-    return { status: 'danger', message: '超出最高学分限制（21 CU）' }
+    return { status: 'danger', message: language === 'en' ? 'Exceeds the maximum credit limit (21 CU)' : '超出最高学分限制（21 CU）' }
   }
   if (totalCredits > 18) {
-    return { status: 'warning', message: '超出正常限制，需申请ARRO批准（上限21 CU）' }
+    return { status: 'warning', message: language === 'en' ? 'Above the normal limit; ARRO approval is required (maximum 21 CU)' : '超出正常限制，需申请ARRO批准（上限21 CU）' }
   }
-  return { status: 'ok', message: '学分在正常范围内（≤18 CU）' }
+  return { status: 'ok', message: language === 'en' ? 'Credit load is within the normal range (≤18 CU)' : '学分在正常范围内（≤18 CU）' }
 }
 
 export function getCategoryColor(category: string): string {
@@ -284,7 +285,17 @@ export function getCategoryColor(category: string): string {
   }
 }
 
-export function getCategoryLabel(category: string): string {
+export function getCategoryLabel(category: string, language: Language = 'zh'): string {
+  if (language === 'en') {
+    switch (category) {
+      case 'ge': return 'Gateway Education'
+      case 'college': return 'College / Department'
+      case 'majorCore': return 'Major Core'
+      case 'majorElective': return 'Major Elective'
+      case 'freeElective': return 'Free Elective'
+      default: return 'Other'
+    }
+  }
   switch (category) {
     case 'ge': return '通识教育'
     case 'college': return '学院/学系要求'

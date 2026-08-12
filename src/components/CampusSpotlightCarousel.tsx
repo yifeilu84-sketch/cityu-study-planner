@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle, Newspaper, Pause, Play, PlayCircle, Sparkles, Users } from 'lucide-react'
-import { campusSpotlights, spotlightAsset } from '../data/campusSpotlights.ts'
+import { campusSpotlights, localizeSpotlight, spotlightAsset } from '../data/campusSpotlights.ts'
+import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 const AUTO_ADVANCE_MS = 6500
 
 export default function CampusSpotlightCarousel() {
+  const { language, pick } = useLanguage()
   const [activeIndex, setActiveIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
-  const active = campusSpotlights[activeIndex]
+  const active = localizeSpotlight(campusSpotlights[activeIndex], language)
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -32,12 +34,12 @@ export default function CampusSpotlightCarousel() {
   }
 
   return (
-    <section className="campus-spotlight-hero" aria-label="Campus spotlight news carousel">
+    <section className="campus-spotlight-hero" aria-label={pick('校园焦点新闻轮播', 'Campus spotlight news carousel')}>
       <div className="campus-spotlight-panel">
         <div className="spotlight-copy">
           <div className="section-eyebrow mb-3">
             <Newspaper className="h-4 w-4" />
-            Campus spotlight
+            {pick('校园焦点', 'Campus spotlight')}
           </div>
           <div className="spotlight-kicker">{active.kicker}</div>
           <h1>{active.title}</h1>
@@ -56,7 +58,7 @@ export default function CampusSpotlightCarousel() {
               type="button"
               className="spotlight-icon-action"
               onClick={() => setIsPaused((value) => !value)}
-              aria-label={isPaused ? '继续轮播' : '暂停轮播'}
+              aria-label={isPaused ? pick('继续轮播', 'Resume carousel') : pick('暂停轮播', 'Pause carousel')}
             >
               {isPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
             </button>
@@ -110,28 +112,28 @@ export default function CampusSpotlightCarousel() {
           )}
           <div className="spotlight-visual-caption">
             <Sparkles className="h-4 w-4" />
-            点进来看详情
+            {pick('点进来看详情', 'Open story')}
           </div>
         </Link>
       </div>
 
       <div className="spotlight-carousel-controls">
-        <button type="button" onClick={() => goTo(activeIndex - 1)} aria-label="上一条新闻">
+        <button type="button" onClick={() => goTo(activeIndex - 1)} aria-label={pick('上一条新闻', 'Previous story')}>
           <ChevronLeft className="h-4 w-4" />
         </button>
-        <div className="spotlight-dots" role="tablist" aria-label="Campus spotlight slides">
+        <div className="spotlight-dots" role="tablist" aria-label={pick('校园焦点新闻', 'Campus spotlight slides')}>
           {campusSpotlights.map((item, index) => (
             <button
               key={item.id}
               type="button"
               className={index === activeIndex ? 'spotlight-dot-active' : ''}
               onClick={() => goTo(index)}
-              aria-label={`查看 ${item.title}`}
+              aria-label={pick(`查看 ${item.title}`, `View ${localizeSpotlight(item, 'en').title}`)}
               aria-selected={index === activeIndex}
             />
           ))}
         </div>
-        <button type="button" onClick={() => goTo(activeIndex + 1)} aria-label="下一条新闻">
+        <button type="button" onClick={() => goTo(activeIndex + 1)} aria-label={pick('下一条新闻', 'Next story')}>
           <ChevronRight className="h-4 w-4" />
         </button>
       </div>

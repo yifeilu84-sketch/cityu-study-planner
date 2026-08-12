@@ -3,6 +3,7 @@ export type SpotlightKind = 'ocamp' | 'demo' | 'cssa'
 export type SpotlightImage = {
   src: string
   alt: string
+  altEn?: string
 }
 
 export type SpotlightAccount = {
@@ -10,6 +11,9 @@ export type SpotlightAccount = {
   audience: string
   description: string
   wechat: string
+  audienceEn?: string
+  descriptionEn?: string
+  wechatEn?: string
   sourceUrl?: string
 }
 
@@ -17,6 +21,7 @@ export type SpotlightVideo = {
   src: string
   poster: string
   label: string
+  labelEn?: string
 }
 
 export type CampusSpotlight = {
@@ -33,6 +38,14 @@ export type CampusSpotlight = {
   video?: SpotlightVideo
   accounts?: SpotlightAccount[]
   notes: string[]
+  eyebrowEn?: string
+  titleEn?: string
+  summaryEn?: string
+  kickerEn?: string
+  ctaEn?: string
+  detailLeadEn?: string
+  tagsEn?: string[]
+  notesEn?: string[]
 }
 
 export const campusSpotlights: CampusSpotlight[] = [
@@ -50,24 +63,40 @@ export const campusSpotlights: CampusSpotlight[] = [
       {
         src: 'spotlight/ocamp-glenfen-join-us.jpg',
         alt: '格兰芬多 OCamp 小组招募海报',
+        altEn: 'Gryffindor OCamp group recruitment poster',
       },
       {
         src: 'spotlight/ocamp-slytherin-profile.jpg',
         alt: '斯莱特林 OCamp 小组成员介绍海报',
+        altEn: 'Slytherin OCamp group member poster',
       },
       {
         src: 'spotlight/ocamp-hufflepuff-profile.jpg',
         alt: '赫奇帕奇 OCamp 小组成员介绍海报',
+        altEn: 'Hufflepuff OCamp group member poster',
       },
       {
         src: 'spotlight/ocamp-slytherin-green.jpg',
         alt: '斯莱特林 OCamp 小组绿色主题成员介绍海报',
+        altEn: 'Green-themed Slytherin OCamp group member poster',
       },
     ],
     notes: [
       '报名这些组，可以优先体验 Study Planner 的内测功能和新生资源整理。',
       '可以直接问我课程规划、GE 选择、专业要求、科研入口和 CityU 常见问题。',
       '海报中的小组信息以 OCamp 官方报名安排为准。',
+    ],
+    eyebrowEn: 'OCamp 2026',
+    titleEn: 'Join the OCamp groups I will be supporting',
+    summaryEn: 'Meet the Gryffindor, Slytherin, and Hufflepuff groups, get to know your group leaders, and receive early access to Study Planner resources.',
+    kickerEn: 'Freshers bulletin',
+    ctaEn: 'Meet the OCamp groups',
+    detailLeadEn: 'I will be joining or supporting these OCamp groups. Sign up to meet fellow students early and ask about courses, GE choices, programme pathways, or settling into CityUHK.',
+    tagsEn: ['Campus knowledge hub', 'Early beta access', 'Course-planning tips', 'Freshers support'],
+    notesEn: [
+      'Members of these groups can receive early access to Study Planner beta features and curated fresher resources.',
+      'You can ask me about course planning, GE choices, programme requirements, research entry points, and common CityUHK questions.',
+      'Group details shown on the posters remain subject to the official OCamp registration arrangements.',
     ],
   },
   {
@@ -84,11 +113,24 @@ export const campusSpotlights: CampusSpotlight[] = [
       src: 'spotlight/cityu-study-planner-demo.webm',
       poster: 'spotlight/cityu-study-planner-demo-poster.png',
       label: 'CityU Study Planner 使用演示视频',
+      labelEn: 'CityU Study Planner product walkthrough',
     },
     notes: [
       '视频中的数据和页面会随网站持续更新；具体课程和毕业要求仍以页面中的来源标注与 CityU 官方资料为准。',
       '建议新生先看首页搜索、GE 选课助手和专业详情页；硕博同学可以重点看 postgraduate 和 academic directory；不确定来源时先看数据来源覆盖页。',
       '演示视频为浏览器实录，展示的是网站实际可操作流程。',
+    ],
+    eyebrowEn: 'Product walkthrough',
+    titleEn: 'A complete three-minute Study Planner tour',
+    summaryEn: 'A paced walkthrough of the news carousel, site-wide search, undergraduate plans, graduation checks, DIY editing, GE filters, programme comparison, postgraduate programmes, research reference, and source coverage.',
+    kickerEn: 'Site demo',
+    ctaEn: 'Watch the walkthrough',
+    detailLeadEn: 'This three-minute recording uses the live website and gives each workflow enough time to read, from homepage search through programme planning, GE selection, postgraduate study, research reference, and source verification.',
+    tagsEn: ['Site-wide search', 'GE filters', 'Major comparison', 'Postgraduate programmes'],
+    notesEn: [
+      'The site and its data continue to evolve. Always cross-check courses and graduation requirements against the source labels and official CityUHK information.',
+      'New students can begin with homepage search, the GE Explorer, and undergraduate programme pages. Postgraduate users may prefer the postgraduate and academic directories.',
+      'The video is a real browser recording of the website’s interactive workflows.',
     ],
   },
   {
@@ -107,6 +149,9 @@ export const campusSpotlights: CampusSpotlight[] = [
         audience: '本科、硕士、博士与学者均可关注',
         description: '香港城市大学中国学生学者联合会，常发布迎新、讲座、就业、文化和生活类信息。',
         wechat: '微信搜索：香港城市大学CSSA',
+        audienceEn: 'Undergraduates, postgraduates, doctoral students, and scholars',
+        descriptionEn: 'The Chinese Students and Scholars Association at CityUHK shares orientation, talks, careers, cultural activities, and practical campus information.',
+        wechatEn: 'Search WeChat: 香港城市大学CSSA',
         sourceUrl: 'https://hk.linkedin.com/company/chinese-students-and-scholars-association-at-cityuhk',
       },
       {
@@ -114,6 +159,9 @@ export const campusSpotlights: CampusSpotlight[] = [
         audience: '更适合本科新生重点关注',
         description: '香港城市大学内地学生学者联谊会本科部，常见于本科迎新、文化活动和新生服务场景。',
         wechat: '微信搜索：CSSAUG@CityU / 香港城市大学内地学生学者联谊会本科部',
+        audienceEn: 'Especially useful for new undergraduate students',
+        descriptionEn: 'The undergraduate branch focuses on freshers, cultural events, undergraduate activities, and student support.',
+        wechatEn: 'Search WeChat: CSSAUG@CityU / 香港城市大学内地学生学者联谊会本科部',
         sourceUrl: 'https://www.facebook.com/cssaugcityu/',
       },
     ],
@@ -121,11 +169,45 @@ export const campusSpotlights: CampusSpotlight[] = [
       '微信内搜索账号名称即可关注；如公众号名称调整，请以微信搜索结果和组织官方页面为准。',
       '这些组织的信息适合作为校园生活参考，课程规划仍以本网站数据和学校官方要求交叉核对。',
     ],
+    eyebrowEn: 'Student community',
+    titleEn: 'Follow CityU CSSA and CSSAUG on WeChat',
+    summaryEn: 'CSSA and CSSAUG are useful information channels for mainland Chinese students, covering orientation, activities, student services, and campus updates.',
+    kickerEn: 'WeChat channels',
+    ctaEn: 'View account details',
+    detailLeadEn: 'New to CityUHK? Consider following both accounts. CSSA serves the wider Chinese student and scholar community, while CSSAUG is especially close to undergraduate orientation and campus life.',
+    tagsEn: ['Orientation', 'Student services', 'Campus updates', 'Undergraduate community'],
+    notesEn: [
+      'Search the account names directly in WeChat. If an account name changes, rely on the latest WeChat result and the organisation’s official page.',
+      'These channels are useful for campus-life information. Course planning should still be cross-checked against this site and official university requirements.',
+    ],
   },
 ]
 
 export function getSpotlightById(id: string) {
   return campusSpotlights.find((item) => item.id === id)
+}
+
+export function localizeSpotlight(item: CampusSpotlight, language: 'zh' | 'en'): CampusSpotlight {
+  if (language === 'zh') return item
+  return {
+    ...item,
+    eyebrow: item.eyebrowEn ?? item.eyebrow,
+    title: item.titleEn ?? item.title,
+    summary: item.summaryEn ?? item.summary,
+    kicker: item.kickerEn ?? item.kicker,
+    cta: item.ctaEn ?? item.cta,
+    detailLead: item.detailLeadEn ?? item.detailLead,
+    tags: item.tagsEn ?? item.tags,
+    notes: item.notesEn ?? item.notes,
+    images: item.images?.map(image => ({ ...image, alt: image.altEn ?? image.alt })),
+    video: item.video ? { ...item.video, label: item.video.labelEn ?? item.video.label } : undefined,
+    accounts: item.accounts?.map(account => ({
+      ...account,
+      audience: account.audienceEn ?? account.audience,
+      description: account.descriptionEn ?? account.description,
+      wechat: account.wechatEn ?? account.wechat,
+    })),
+  }
 }
 
 export function spotlightAsset(src: string) {
