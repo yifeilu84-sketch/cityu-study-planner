@@ -59,6 +59,14 @@ test('application shell wires one provider and responsive language controls', ()
   assert.ok(toggle.includes("setLanguage('zh')"))
 })
 
+test('first-visit welcome modal exposes the shared language switch before dismissal', () => {
+  const modal = readFileSync(new URL('../src/components/WelcomeModal.tsx', import.meta.url), 'utf8')
+
+  assert.ok(modal.includes("import LanguageToggle from './LanguageToggle.tsx'"))
+  assert.ok(modal.includes('<LanguageToggle compact />'))
+  assert.ok(modal.includes('welcome-modal-language'))
+})
+
 test('dynamic planner and audit helpers generate the selected language', async () => {
   const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
   const { getCategoryLabel, getCreditStatus } = await import('../src/utils/studyPlan.ts')

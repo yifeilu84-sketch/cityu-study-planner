@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { X, BookOpen, User, MessageCircle, HelpCircle, GraduationCap } from 'lucide-react'
 import { shouldShowWelcomeModal } from '../utils/welcomeSession'
 import { useLanguage } from '../i18n/LanguageContext.tsx'
+import LanguageToggle from './LanguageToggle.tsx'
 
 export default function WelcomeModal() {
   const { pick } = useLanguage()
@@ -9,6 +10,8 @@ export default function WelcomeModal() {
 
   useEffect(() => {
     if (shouldShowWelcomeModal()) {
+      // Visibility is resolved after mount because sessionStorage is browser-only.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShow(true)
     }
   }, [])
@@ -32,18 +35,24 @@ export default function WelcomeModal() {
         className="bg-white rounded-none sm:rounded-2xl shadow-2xl max-w-lg w-full h-full sm:h-auto sm:max-h-[90vh] overflow-y-auto overscroll-contain"
         onClick={e => e.stopPropagation()}
       >
-        <div className="sticky top-0 bg-white border-b border-gray-100 px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <GraduationCap className="w-6 h-6 text-cityu-accent" />
-            <h2 className="text-lg font-bold text-gray-800">{pick('欢迎使用 CityU Study Planner', 'Welcome to CityU Study Planner')}</h2>
+        <div className="welcome-modal-header sticky top-0 z-10 bg-white border-b border-gray-100 px-4 sm:px-6 py-4 flex items-center justify-between gap-3">
+          <div className="flex min-w-0 items-center gap-2">
+            <GraduationCap className="w-6 h-6 flex-shrink-0 text-cityu-accent" />
+            <h2 className="min-w-0 text-base sm:text-lg font-bold leading-tight text-gray-800">
+              {pick('欢迎使用 CityU Study Planner', 'Welcome to CityU Study Planner')}
+            </h2>
           </div>
-          <button
-            onClick={handleClose}
-            className="p-2 hover:bg-gray-100 rounded-full transition-colors"
-            aria-label={pick('关闭欢迎说明', 'Close welcome guide')}
-          >
-            <X className="w-5 h-5 text-gray-500" />
-          </button>
+          <div className="welcome-modal-language flex flex-shrink-0 items-center gap-1.5 sm:gap-2">
+            <LanguageToggle compact />
+            <button
+              type="button"
+              onClick={handleClose}
+              className="inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cityu-accent"
+              aria-label={pick('关闭欢迎说明', 'Close welcome guide')}
+            >
+              <X className="w-5 h-5 text-gray-500" />
+            </button>
+          </div>
         </div>
 
         <div className="px-6 py-5 space-y-5">

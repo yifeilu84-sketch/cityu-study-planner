@@ -237,7 +237,9 @@ select:focus-visible {
   background: rgba(185, 28, 28, 0.06);
 }
 
-.language-toggle .language-toggle-active {
+.language-toggle .language-toggle-active,
+.language-toggle .language-toggle-active:hover,
+.language-toggle .language-toggle-active:focus-visible {
   background: #171c26;
   color: #ffffff;
   box-shadow: 0 4px 10px rgba(15, 23, 42, 0.16);
@@ -253,6 +255,22 @@ select:focus-visible {
   min-height: 1.65rem;
   padding-inline: 0.35rem;
   font-size: 0.68rem;
+}
+
+@media (max-width: 359px) {
+  .welcome-modal-header {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .welcome-modal-header > :first-child,
+  .welcome-modal-language {
+    width: 100%;
+  }
+
+  .welcome-modal-language {
+    justify-content: flex-end;
+  }
 }
 
 .mobile-nav {
