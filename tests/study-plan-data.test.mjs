@@ -1553,36 +1553,47 @@ test('campus spotlight carousel leads the homepage and has detail routes', async
   const home = readFileSync(new URL('../src/pages/Home.tsx', import.meta.url), 'utf8')
   const carousel = readFileSync(new URL('../src/components/CampusSpotlightCarousel.tsx', import.meta.url), 'utf8')
   const detailPage = readFileSync(new URL('../src/pages/SpotlightDetailPage.tsx', import.meta.url), 'utf8')
-  const { campusSpotlights } = await import('../src/data/campusSpotlights.ts')
+  const { campusSpotlights, getSpotlightById } = await import('../src/data/campusSpotlights.ts')
+  const { cityuOfficialDirectory } = await import('../src/data/cityuOfficialDirectory.ts')
 
   assert.ok(app.includes('path="/spotlight/:spotlightId"'))
   assert.ok(home.includes('<CampusSpotlightCarousel />'))
   assert.ok(carousel.includes('AUTO_ADVANCE_MS'))
   assert.ok(carousel.includes('aria-label={isPaused'))
-  assert.ok(detailPage.includes('spotlight-poster-grid'))
+  assert.ok(detailPage.includes('<OfficialDirectoryPanel'))
   assert.ok(detailPage.includes('spotlight-detail-video'))
   assert.ok(appCss.includes('.campus-spotlight-hero'))
   assert.ok(appCss.includes('.spotlight-demo-frame'))
+  assert.ok(appCss.includes('.official-directory'))
   assert.ok(appCss.includes('height: clamp(31rem, 66vh, 40rem)'))
   assert.ok(appCss.includes('height: 18rem'))
 
-  assert.equal(campusSpotlights.length, 3)
-  assert.equal(campusSpotlights[0].id, 'ocamp-groups')
-  assert.equal(campusSpotlights[0].images.length, 4)
-  assert.equal(campusSpotlights[1].id, 'site-demo-video')
-  assert.equal(campusSpotlights[1].kind, 'demo')
-  assert.ok(campusSpotlights[1].video.src.endsWith('.webm'))
-  assert.ok(campusSpotlights[1].video.poster.endsWith('.png'))
-  assert.equal(campusSpotlights[2].id, 'cssa-cssaug-wechat')
-  assert.equal(campusSpotlights[2].accounts.length, 2)
-  assert.ok(campusSpotlights[0].tags.includes('校内知识百科全书'))
-  assert.ok(campusSpotlights[0].tags.includes('内测版资源抢先体验'))
+  assert.equal(campusSpotlights.length, 2)
+  assert.deepEqual(campusSpotlights.map((item) => item.id), ['site-demo-video', 'cityu-official-directory'])
+  assert.equal(campusSpotlights[0].kind, 'demo')
+  assert.ok(campusSpotlights[0].video.src.endsWith('.webm'))
+  assert.ok(campusSpotlights[0].video.poster.endsWith('.png'))
+  assert.equal(campusSpotlights[1].kind, 'directory')
+  assert.equal(getSpotlightById('ocamp-groups'), undefined)
+  assert.equal(getSpotlightById('cssa-cssaug-wechat'), undefined)
 
-  for (const image of campusSpotlights[0].images) {
-    assert.ok(existsSync(new URL(`../public/${image.src}`, import.meta.url)), `Missing spotlight image ${image.src}`)
-  }
-  assert.ok(existsSync(new URL(`../public/${campusSpotlights[1].video.src}`, import.meta.url)), 'Missing spotlight demo video')
-  assert.ok(existsSync(new URL(`../public/${campusSpotlights[1].video.poster}`, import.meta.url)), 'Missing spotlight demo poster')
+  assert.ok(existsSync(new URL(`../public/${campusSpotlights[0].video.src}`, import.meta.url)), 'Missing spotlight demo video')
+  assert.ok(existsSync(new URL(`../public/${campusSpotlights[0].video.poster}`, import.meta.url)), 'Missing spotlight demo poster')
+
+  assert.equal(cityuOfficialDirectory.academic.colleges.length, 11)
+  assert.equal(cityuOfficialDirectory.academic.colleges.reduce((count, college) => count + college.departments.length, 0), 29)
+  assert.equal(cityuOfficialDirectory.academic.otherUnits.length, 1)
+  assert.equal(cityuOfficialDirectory.programmes.undergraduate.length, 63)
+  assert.equal(cityuOfficialDirectory.programmes.postgraduate.length, 102)
+  assert.ok(cityuOfficialDirectory.administration.units.length >= 32)
+
+  const officialLinks = [
+    ...cityuOfficialDirectory.academic.colleges.flatMap((college) => [college, ...college.departments]),
+    ...cityuOfficialDirectory.programmes.undergraduate,
+    ...cityuOfficialDirectory.programmes.postgraduate,
+    ...cityuOfficialDirectory.administration.units,
+  ]
+  assert.ok(officialLinks.every((item) => /^https:\/\/([a-z0-9-]+\.)*cityu\.edu\.hk(?:\/|$)/i.test(item.url)))
 })
 
 test('welcome modal appears once per newly opened browser session but not after refresh', async () => {

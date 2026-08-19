@@ -1,10 +1,24 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, ChevronLeft, ChevronRight, MessageCircle, Newspaper, Pause, Play, PlayCircle, Sparkles, Users } from 'lucide-react'
+import {
+  ArrowRight,
+  Building2,
+  ChevronLeft,
+  ChevronRight,
+  GraduationCap,
+  Landmark,
+  Link2,
+  Newspaper,
+  Pause,
+  Play,
+  PlayCircle,
+  Sparkles,
+} from 'lucide-react'
 import { campusSpotlights, localizeSpotlight, spotlightAsset } from '../data/campusSpotlights.ts'
 import { useLanguage } from '../i18n/LanguageContext.tsx'
 
 const AUTO_ADVANCE_MS = 6500
+const DIRECTORY_ICONS = [Building2, GraduationCap, Landmark]
 
 export default function CampusSpotlightCarousel() {
   const { language, pick } = useLanguage()
@@ -23,11 +37,6 @@ export default function CampusSpotlightCarousel() {
     return () => window.clearInterval(timer)
   }, [isPaused])
 
-  const previewImages = useMemo(() => {
-    if (active.images?.length) return active.images.slice(0, 4)
-    return []
-  }, [active])
-
   const goTo = (index: number) => {
     const next = (index + campusSpotlights.length) % campusSpotlights.length
     setActiveIndex(next)
@@ -44,7 +53,7 @@ export default function CampusSpotlightCarousel() {
           <div className="spotlight-kicker">{active.kicker}</div>
           <h1>{active.title}</h1>
           <p>{active.summary}</p>
-          <div className="spotlight-tags" aria-label="Highlights">
+          <div className="spotlight-tags" aria-label={pick('内容标签', 'Highlights')}>
             {active.tags.slice(0, 4).map((tag) => (
               <span key={tag}>{tag}</span>
             ))}
@@ -66,18 +75,7 @@ export default function CampusSpotlightCarousel() {
         </div>
 
         <Link to={`/spotlight/${active.id}`} className={`spotlight-visual spotlight-visual-${active.kind}`}>
-          {active.kind === 'ocamp' ? (
-            <div className="spotlight-image-grid">
-              {previewImages.map((image, index) => (
-                <img
-                  key={image.src}
-                  src={spotlightAsset(image.src)}
-                  alt={image.alt}
-                  className={`spotlight-image-tile spotlight-image-tile-${index + 1}`}
-                />
-              ))}
-            </div>
-          ) : active.kind === 'demo' && active.video ? (
+          {active.kind === 'demo' && active.video ? (
             <div className="spotlight-demo-frame">
               <video
                 src={spotlightAsset(active.video.src)}
@@ -91,28 +89,37 @@ export default function CampusSpotlightCarousel() {
               />
               <div className="spotlight-demo-play">
                 <PlayCircle className="h-9 w-9" />
-                <span>Watch demo</span>
+                <span>{pick('观看演示', 'Watch demo')}</span>
               </div>
             </div>
           ) : (
-            <div className="wechat-preview-board">
-              {active.accounts?.map((account) => (
-                <div key={account.name} className="wechat-preview-card">
-                  <span className="wechat-preview-icon">
-                    {account.name.includes('CSSAUG') ? <Users className="h-5 w-5" /> : <MessageCircle className="h-5 w-5" />}
-                  </span>
-                  <div>
-                    <div className="wechat-preview-name">{account.name}</div>
-                    <div className="wechat-preview-audience">{account.audience}</div>
-                    <div className="wechat-preview-search">{account.wechat}</div>
-                  </div>
+            <div className="spotlight-directory-preview">
+              <div className="spotlight-directory-preview-heading">
+                <span className="spotlight-directory-preview-mark">
+                  <Link2 className="h-5 w-5" />
+                </span>
+                <div>
+                  <span>{pick('CITYUHK 官方网站', 'OFFICIAL CITYUHK LINKS')}</span>
+                  <strong>{pick('一页直达', 'One directory')}</strong>
                 </div>
-              ))}
+              </div>
+              <div className="spotlight-directory-metrics">
+                {active.metrics?.map((metric, index) => {
+                  const MetricIcon = DIRECTORY_ICONS[index] ?? Link2
+                  return (
+                    <div key={metric.label}>
+                      <MetricIcon className="h-5 w-5" />
+                      <strong>{metric.value}</strong>
+                      <span>{metric.label}</span>
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           )}
           <div className="spotlight-visual-caption">
             <Sparkles className="h-4 w-4" />
-            {pick('点进来看详情', 'Open story')}
+            {pick('点进来查看详情', 'Open story')}
           </div>
         </Link>
       </div>

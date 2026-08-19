@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
-import { ArrowLeft, ExternalLink, MessageCircle, Newspaper, PlayCircle, Sparkles, Users } from 'lucide-react'
+import { ArrowLeft, Newspaper, PlayCircle, Sparkles } from 'lucide-react'
+import OfficialDirectoryPanel from '../components/OfficialDirectoryPanel.tsx'
 import { getSpotlightById, localizeSpotlight, spotlightAsset } from '../data/campusSpotlights.ts'
 import { useLanguage } from '../i18n/LanguageContext.tsx'
 
@@ -42,22 +43,6 @@ export default function SpotlightDetailPage() {
         </div>
       </header>
 
-      {spotlight.images?.length ? (
-        <section className="spotlight-detail-section">
-          <div className="spotlight-section-heading">
-            <Sparkles className="h-5 w-5" />
-            <h2>{pick('OCamp 小组海报', 'OCamp Group Posters')}</h2>
-          </div>
-          <div className="spotlight-poster-grid">
-            {spotlight.images.map((image) => (
-              <a key={image.src} href={spotlightAsset(image.src)} target="_blank" rel="noreferrer" className="spotlight-poster-card">
-                <img src={spotlightAsset(image.src)} alt={image.alt} />
-              </a>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
       {spotlight.video ? (
         <section className="spotlight-detail-section">
           <div className="spotlight-section-heading">
@@ -77,35 +62,7 @@ export default function SpotlightDetailPage() {
         </section>
       ) : null}
 
-      {spotlight.accounts?.length ? (
-        <section className="spotlight-detail-section">
-          <div className="spotlight-section-heading">
-            <MessageCircle className="h-5 w-5" />
-            <h2>{pick('公众号入口', 'WeChat Accounts')}</h2>
-          </div>
-          <div className="wechat-account-grid">
-            {spotlight.accounts.map((account) => (
-              <div key={account.name} className="wechat-account-card">
-                <span className="wechat-account-icon">
-                  {account.name.includes('CSSAUG') ? <Users className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
-                </span>
-                <div>
-                  <h3>{account.name}</h3>
-                  <p className="wechat-account-audience">{account.audience}</p>
-                  <p>{account.description}</p>
-                  <div className="wechat-search-box">{account.wechat}</div>
-                  {account.sourceUrl ? (
-                    <a href={account.sourceUrl} target="_blank" rel="noreferrer" className="wechat-source-link">
-                      {pick('参考官方/组织页面', 'View Official / Organisation Page')}
-                      <ExternalLink className="h-3.5 w-3.5" />
-                    </a>
-                  ) : null}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      ) : null}
+      {spotlight.kind === 'directory' ? <OfficialDirectoryPanel /> : null}
 
       <section className="spotlight-detail-section">
         <div className="spotlight-section-heading">

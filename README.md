@@ -228,11 +228,12 @@ GE 页面用于集中筛选可自由组合的 GE 课程。
 
 首页顶部新增 campus spotlight 新闻轮播，类似官网入口风格，不占满第一屏，但用户一进入网站就能看到重点信息。
 
-当前轮播包含：
+当前轮播保留两项：
 
-1. OCamp 小组宣传：展示上传的四张 OCamp 海报，介绍可报名的小组和新生互助资源。
-2. 3 分钟网站使用演示：真实页面录制，慢速展示全站搜索、本科规划、GE、专业对比、硕博项目、科研参考和来源覆盖。
-3. CSSA / CSSAUG 公众号介绍：介绍 CityUHK CSSA 和 CSSAUG 的信息入口。
+1. 3 分钟网站使用演示：真实页面录制，慢速展示全站搜索、本科规划、GE、专业对比、硕博项目、科研参考和来源覆盖。
+2. CityUHK 官方网站导航：集中提供 11 个学院 / 学校、29 个学系与语文中心、63 个本科专业、102 个硕博项目，以及 36 个行政与学生支援单位入口。
+
+官方网站导航支持中英文界面、分类切换和即时搜索。学院、学系与专业逐项直达 CityUHK 官方页面；没有独立公开网站的行政单位会明确标注并跳转至 CityUHK 官方联络目录，不会生成未经确认的网址。
 
 欢迎弹窗只在每次新打开浏览器会话时出现一次，刷新页面不会重复弹出。
 
@@ -253,6 +254,7 @@ GE 页面用于集中筛选可自由组合的 GE 课程。
 | 本科专业详情 | `/#/major/:majorCode` |
 | 硕博项目详情 | `/#/postgraduate/:programmeCode` |
 | 新闻详情 | `/#/spotlight/:spotlightId` |
+| CityUHK 官方网站导航 | `/#/spotlight/cityu-official-directory` |
 
 线上完整地址示例：
 
@@ -261,6 +263,7 @@ https://yifeilu84-sketch.github.io/cityu-study-planner/#/coverage
 https://yifeilu84-sketch.github.io/cityu-study-planner/#/ge
 https://yifeilu84-sketch.github.io/cityu-study-planner/#/postgraduate
 https://yifeilu84-sketch.github.io/cityu-study-planner/#/academic
+https://yifeilu84-sketch.github.io/cityu-study-planner/#/spotlight/cityu-official-directory
 ```
 
 ---
