@@ -37,7 +37,7 @@
       "college": "College of Business",
       "department": "College of Business",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GBU-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "bba1_gbu-1 bachelor of business administration in global business college of business college of business bachelor of business"
     },
     {
@@ -87,7 +87,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "bba1_be2-1 bachelor of business administration in business economics college of business department of economics and finance bachelor of business"
     },
     {
@@ -97,7 +97,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_FIN3-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "bba1_fin3-1 bachelor of business administration in finance college of business department of economics and finance bachelor of business"
     },
     {
@@ -127,7 +127,7 @@
       "college": "College of Business",
       "department": "Department of Management",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MGMT-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "diy",
       "searchText": "bba1_mgmt-1 bachelor of business administration in management college of business department of management bachelor of business"
     },
     {
@@ -137,7 +137,7 @@
       "college": "College of Business",
       "department": "Department of Marketing",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MKT1-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "bba1_mkt1-1 bachelor of business administration in marketing college of business department of marketing bachelor of business"
     },
     {
@@ -317,7 +317,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Chinese and History",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "ba1_chis-1 bachelor of arts in chinese and history college of liberal arts and social sciences department of chinese and history bachelor of arts"
     },
     {
@@ -337,7 +337,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Linguistics and Translation",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_LLA-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "ba1_lla-1 bachelor of arts in linguistics and language applications college of liberal arts and social sciences department of linguistics and translation bachelor of arts"
     },
     {
@@ -347,7 +347,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "ba1_tvb-1 bachelor of arts in digital television and broadcasting college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -357,7 +357,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_MDCM-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "ba1_mdcm-1 bachelor of arts in media and communication college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -367,7 +367,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Public and International Affairs",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
-      "sourceKind": "derived",
+      "sourceKind": "diy",
       "searchText": "bss1_irga-1 bachelor of social sciences in international relations and global affairs college of liberal arts and social sciences department of public and international affairs bachelor of social"
     },
     {
@@ -397,7 +397,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRSO-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "diy",
       "searchText": "bss1_crso-1 bachelor of social sciences in criminology and sociology college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -427,7 +427,7 @@
       "college": "College of Science",
       "department": "Department of Chemistry",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CHEM-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "bsc1_chem-1 bachelor of science in chemistry college of science department of chemistry bachelor of science"
     },
     {
@@ -437,7 +437,7 @@
       "college": "College of Science",
       "department": "Department of Mathematics",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CM-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "bsc1_cm-1 bachelor of science in computing mathematics college of science department of mathematics bachelor of science"
     },
     {
@@ -527,7 +527,7 @@
       "college": "School of Law",
       "department": "School of Law",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/LLB1_LW-1.htm",
-      "sourceKind": "official",
+      "sourceKind": "structure",
       "searchText": "llb1_lw-1 bachelor of laws school of law school of law bachelor of laws法律學學士"
     },
     {
@@ -3277,7 +3277,7 @@
       "code": "CHEM2004",
       "title": "Principles of Analytical Chemistry",
       "credits": 4,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "chem2004 principles of analytical chemistry"
     },
     {
@@ -5397,7 +5397,7 @@
       "code": "EF3441",
       "title": "Intermediate Macroeconomics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ef3441 intermediate macroeconomics"
     },
     {
@@ -5413,7 +5413,7 @@
       "code": "EF3450",
       "title": "Principles of Econometrics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ef3450 principles of econometrics"
     },
     {
@@ -5421,7 +5421,7 @@
       "code": "EF3451",
       "title": "Economic and Business Forecasting",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ef3451 economic and business forecasting"
     },
     {
@@ -5437,7 +5437,7 @@
       "code": "EF3461",
       "title": "Economies of China (Mainland) and Hong Kong",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ef3461 economies of china (mainland) and hong kong"
     },
     {
@@ -5445,7 +5445,7 @@
       "code": "EF3520",
       "title": "Stochastic Calculus for Finance",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "ef3520 stochastic calculus for finance"
     },
     {
@@ -11355,7 +11355,7 @@
       "code": "SEE2203",
       "title": "Environmental, Safety, and Occupational Health Management",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 2,
       "searchText": "see2203 environmental, safety, and occupational health management"
     },
     {
@@ -11363,7 +11363,7 @@
       "code": "SEE2204",
       "title": "Principles of Sustainability",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "see2204 principles of sustainability"
     },
     {
@@ -11427,7 +11427,7 @@
       "code": "SEE3203",
       "title": "Air Pollution",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 2,
       "searchText": "see3203 air pollution"
     },
     {
@@ -11475,7 +11475,7 @@
       "code": "SEE4001",
       "title": "Engineers in Society",
       "credits": 1,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "see4001 engineers in society"
     },
     {
@@ -11483,7 +11483,7 @@
       "code": "SEE4002",
       "title": "Environmental Engineering Laboratory",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 2,
       "searchText": "see4002 environmental engineering laboratory"
     },
     {
@@ -11603,7 +11603,7 @@
       "code": "SEE4203",
       "title": "Advanced Treatment and Management of Solid and Municipal Waste",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "see4203 advanced treatment and management of solid and municipal waste"
     },
     {
@@ -11611,7 +11611,7 @@
       "code": "SEE4204",
       "title": "Environmental Systems Modelling",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "see4204 environmental systems modelling"
     },
     {
@@ -11651,7 +11651,7 @@
       "code": "SEE4218",
       "title": "Water and Water Resource Engineering",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "see4218 water and water resource engineering"
     },
     {
@@ -11675,7 +11675,7 @@
       "code": "SEE4993",
       "title": "Research Seminar",
       "credits": 1,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 1,
       "searchText": "see4993 research seminar"
     },
     {
@@ -11683,7 +11683,7 @@
       "code": "SEE4994",
       "title": "Guided Study in Energy and Environment",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 1,
       "searchText": "see4994 guided study in energy and environment"
     },
     {
@@ -11715,7 +11715,7 @@
       "code": "SEE4998",
       "title": "Special Project in Energy and Environment",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 1,
       "searchText": "see4998 special project in energy and environment"
     },
     {
@@ -11787,8 +11787,9 @@
       "code": "SM1702",
       "title": "Creative Media Studio I",
       "credits": 6,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm1702 creative media studio i"
+      "searchText": "sm1702 creative media studio i school of creative media"
     },
     {
       "type": "course",
@@ -12057,50 +12058,56 @@
     {
       "type": "course",
       "code": "SM2724A",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724a leadership and creativity"
+      "searchText": "sm2724a leadership & creativity school of creative media"
     },
     {
       "type": "course",
       "code": "SM2724B",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724b leadership and creativity"
+      "searchText": "sm2724b leadership & creativity school of creative media"
     },
     {
       "type": "course",
       "code": "SM2724C",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724c leadership and creativity"
+      "searchText": "sm2724c leadership & creativity school of creative media"
     },
     {
       "type": "course",
       "code": "SM2724D",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724d leadership and creativity"
+      "searchText": "sm2724d leadership & creativity school of creative media"
     },
     {
       "type": "course",
       "code": "SM2724E",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724e leadership and creativity"
+      "searchText": "sm2724e leadership & creativity school of creative media"
     },
     {
       "type": "course",
       "code": "SM2724F",
-      "title": "Leadership and Creativity",
+      "title": "Leadership & Creativity",
       "credits": 1,
+      "department": "School of Creative Media",
       "relatedMajorCount": 4,
-      "searchText": "sm2724f leadership and creativity"
+      "searchText": "sm2724f leadership & creativity school of creative media"
     },
     {
       "type": "course",
@@ -12585,26 +12592,29 @@
     {
       "type": "course",
       "code": "SM4712A",
-      "title": "Graduation Thesis/Project",
+      "title": "Graduation Thesis / Project",
       "credits": 6,
+      "department": "School of Creative Media",
       "relatedMajorCount": 2,
-      "searchText": "sm4712a graduation thesis/project"
+      "searchText": "sm4712a graduation thesis / project school of creative media"
     },
     {
       "type": "course",
       "code": "SM4712B",
-      "title": "Graduation Thesis/Project",
+      "title": "Graduation Thesis / Project",
       "credits": 6,
+      "department": "School of Creative Media",
       "relatedMajorCount": 2,
-      "searchText": "sm4712b graduation thesis/project"
+      "searchText": "sm4712b graduation thesis / project school of creative media"
     },
     {
       "type": "course",
       "code": "SM4712C",
-      "title": "Graduation Thesis/Project",
+      "title": "Graduation Thesis / Project",
       "credits": 6,
+      "department": "School of Creative Media",
       "relatedMajorCount": 3,
-      "searchText": "sm4712c graduation thesis/project"
+      "searchText": "sm4712c graduation thesis / project school of creative media"
     },
     {
       "type": "course",
@@ -12619,7 +12629,7 @@
       "code": "SS1011",
       "title": "Social Welfare Services and Issues",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "ss1011 social welfare services and issues"
     },
     {
@@ -12627,7 +12637,7 @@
       "code": "SS1024",
       "title": "Social Issues and Problems",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 3,
       "searchText": "ss1024 social issues and problems"
     },
     {
@@ -12635,7 +12645,7 @@
       "code": "SS1101",
       "title": "Basic Psychology",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 4,
       "searchText": "ss1101 basic psychology"
     },
     {
@@ -13547,7 +13557,7 @@
       "code": "SYE4024",
       "title": "Project Management",
       "credits": 3,
-      "relatedMajorCount": 8,
+      "relatedMajorCount": 7,
       "searchText": "sye4024 project management"
     },
     {
@@ -13641,282 +13651,317 @@
     {
       "type": "course",
       "code": "VM1001",
-      "title": "Pre-EMS Animal Handling Skills",
+      "title": "Pre-EMS",
       "credits": 0,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm1001 pre-ems animal handling skills"
+      "searchText": "vm1001 pre-ems jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM1002",
-      "title": "Animal Husbandry Extra-mural Studies",
+      "title": "Animal Husbandry EMS",
       "credits": 0,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm1002 animal husbandry extra-mural studies"
+      "searchText": "vm1002 animal husbandry ems jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM1004",
-      "title": "Pre-clinical Extra-mural Studies",
+      "title": "Pre-Clinical EMS",
       "credits": 0,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm1004 pre-clinical extra-mural studies"
+      "searchText": "vm1004 pre-clinical ems jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM1005",
-      "title": "Clinical Extra-mural Studies",
+      "title": "Clinical EMS",
       "credits": 0,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm1005 clinical extra-mural studies"
+      "searchText": "vm1005 clinical ems jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2001",
       "title": "One Health",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2001 one health"
+      "searchText": "vm2001 one health jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2003",
       "title": "Livestock Husbandry",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2003 livestock husbandry"
+      "searchText": "vm2003 livestock husbandry jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2100",
-      "title": "Statistics for Evidence-based Biological and Veterinary Sciences",
+      "title": "Statistics for Evidence-Based Biological and Veterinary Sciences",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2100 statistics for evidence-based biological and veterinary sciences"
+      "searchText": "vm2100 statistics for evidence-based biological and veterinary sciences jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2102",
       "title": "Animal Behaviour and Handling",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2102 animal behaviour and handling"
+      "searchText": "vm2102 animal behaviour and handling jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2103",
       "title": "Animal Nutrition and Welfare",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2103 animal nutrition and welfare"
+      "searchText": "vm2103 animal nutrition and welfare jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2104",
       "title": "Introduction to Food Safety",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2104 introduction to food safety"
+      "searchText": "vm2104 introduction to food safety jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM2106",
       "title": "Aquaculture and Aquatic Animal Health",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm2106 aquaculture and aquatic animal health"
+      "searchText": "vm2106 aquaculture and aquatic animal health jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3003",
       "title": "Food Safety and Regulation",
       "credits": 2,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3003 food safety and regulation"
+      "searchText": "vm3003 food safety and regulation jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3004",
-      "title": "Evidence Based Veterinary Medicine",
+      "title": "Evidence-Based Veterinary Medicine",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3004 evidence based veterinary medicine"
+      "searchText": "vm3004 evidence-based veterinary medicine jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3010",
-      "title": "Veterinary Practice & Professional Studies 1",
+      "title": "Veterinary Practice and Professional Studies 1",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3010 veterinary practice & professional studies 1"
+      "searchText": "vm3010 veterinary practice and professional studies 1 jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3012",
       "title": "Animal Body",
       "credits": 18,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3012 animal body"
+      "searchText": "vm3012 animal body jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3100",
       "title": "Function and Dysfunction",
       "credits": 18,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3100 function and dysfunction"
+      "searchText": "vm3100 function and dysfunction jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM3101",
       "title": "General Pathology",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm3101 general pathology"
+      "searchText": "vm3101 general pathology jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4000",
       "title": "Host, Agent and Defence",
       "credits": 18,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4000 host, agent and defence"
+      "searchText": "vm4000 host, agent and defence jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4001",
-      "title": "Clinical Pharmacology/ Toxicology",
+      "title": "Clinical Pharmacology / Toxicology",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4001 clinical pharmacology/ toxicology"
+      "searchText": "vm4001 clinical pharmacology / toxicology jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4010",
-      "title": "Veterinary Practice & Professional Studies 2",
+      "title": "Veterinary Practice and Professional Studies 2",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4010 veterinary practice & professional studies 2"
+      "searchText": "vm4010 veterinary practice and professional studies 2 jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4011",
-      "title": "Veterinary Practice & Professional Studies 3",
+      "title": "Veterinary Practice and Professional Studies 3",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4011 veterinary practice & professional studies 3"
+      "searchText": "vm4011 veterinary practice and professional studies 3 jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4103",
       "title": "Conservation, Zoo and Exotic Animal Medicine",
       "credits": 3,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4103 conservation, zoo and exotic animal medicine"
+      "searchText": "vm4103 conservation, zoo and exotic animal medicine jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4104",
       "title": "Transboundary Animal Diseases",
       "credits": 2,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4104 transboundary animal diseases"
+      "searchText": "vm4104 transboundary animal diseases jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4110",
       "title": "Small Animal Clinical Studies 1",
       "credits": 8,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4110 small animal clinical studies 1"
+      "searchText": "vm4110 small animal clinical studies 1 jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4111",
       "title": "Companion Animal Surgery",
       "credits": 6,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4111 companion animal surgery"
+      "searchText": "vm4111 companion animal surgery jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4112",
       "title": "Anaesthesia, Analgesia and Fluid Therapy",
       "credits": 4,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4112 anaesthesia, analgesia and fluid therapy"
+      "searchText": "vm4112 anaesthesia, analgesia and fluid therapy jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4113",
       "title": "Clinical Pathology",
       "credits": 2,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4113 clinical pathology"
+      "searchText": "vm4113 clinical pathology jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4114",
       "title": "Small Animal Clinical Studies 2",
       "credits": 5,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4114 small animal clinical studies 2"
+      "searchText": "vm4114 small animal clinical studies 2 jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4115",
       "title": "Equine Medicine and Surgery",
       "credits": 6,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4115 equine medicine and surgery"
+      "searchText": "vm4115 equine medicine and surgery jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4116",
       "title": "Production Animal Clinical Studies",
       "credits": 8,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4116 production animal clinical studies"
+      "searchText": "vm4116 production animal clinical studies jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4202",
       "title": "Aquatic Veterinary Medicine",
       "credits": 2,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4202 aquatic veterinary medicine"
+      "searchText": "vm4202 aquatic veterinary medicine jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4301",
       "title": "Clinical Rotations: Part I",
       "credits": 5,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4301 clinical rotations: part i"
+      "searchText": "vm4301 clinical rotations: part i jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4302",
       "title": "Clinical Rotations: Part II",
       "credits": 21,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4302 clinical rotations: part ii"
+      "searchText": "vm4302 clinical rotations: part ii jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4303",
       "title": "Clinical Rotations: Part III",
       "credits": 21,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4303 clinical rotations: part iii"
+      "searchText": "vm4303 clinical rotations: part iii jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
       "code": "VM4401",
       "title": "Research Project",
       "credits": 6,
+      "department": "Jockey Club College of Veterinary Medicine and Life Sciences",
       "relatedMajorCount": 1,
-      "searchText": "vm4401 research project"
+      "searchText": "vm4401 research project jockey club college of veterinary medicine and life sciences"
     },
     {
       "type": "course",
@@ -13924,7 +13969,7 @@
       "title": "University English",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 63,
+      "relatedMajorCount": 56,
       "searchText": "ge1401 university english gateway education"
     },
     {
@@ -13942,7 +13987,7 @@
       "title": "Chinese Civilisation-History and Philosophy",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 63,
+      "relatedMajorCount": 56,
       "searchText": "ge1501 chinese civilisation-history and philosophy gateway education"
     },
     {
@@ -13978,7 +14023,7 @@
       "title": "English for Science",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 17,
+      "relatedMajorCount": 14,
       "searchText": "ge2401 english for science gateway education"
     },
     {
@@ -13987,7 +14032,7 @@
       "title": "Data-driven Business Modeling",
       "credits": 3,
       "department": "College of Business",
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 7,
       "searchText": "cb2203 data-driven business modeling college of business"
     },
     {
@@ -14023,7 +14068,7 @@
       "title": "New Media Art",
       "credits": 3,
       "department": "School of Creative Media",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "sm1701 new media art school of creative media"
     },
     {
@@ -14032,7 +14077,7 @@
       "title": "Media Computing",
       "credits": 3,
       "department": "Department of Computer Science",
-      "relatedMajorCount": 0,
+      "relatedMajorCount": 3,
       "searchText": "cs1103b media computing department of computer science"
     },
     {
@@ -14059,7 +14104,7 @@
       "title": "Words, Sound and Images: Writing for Creative Media",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "ge2413 words, sound and images: writing for creative media gateway education"
     },
     {
@@ -14095,7 +14140,7 @@
       "title": "Whole-Person Development",
       "credits": 1,
       "department": "Department of Biomedical Engineering",
-      "relatedMajorCount": 60,
+      "relatedMajorCount": 53,
       "searchText": "ge1601 whole-person development department of biomedical engineering"
     },
     {
@@ -14111,7 +14156,7 @@
       "type": "course",
       "code": "EN4262",
       "title": "English Communication Skills for Computing",
-      "credits": 3,
+      "credits": 2,
       "department": "Department of Computer Science",
       "relatedMajorCount": 2,
       "searchText": "en4262 english communication skills for computing department of computer science"
@@ -14149,7 +14194,7 @@
       "title": "English for the Humanities and Social Sciences",
       "credits": 3,
       "department": "Department of English",
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 3,
       "searchText": "ge2412 english for the humanities and social sciences department of english"
     },
     {
@@ -14167,7 +14212,7 @@
       "title": "Video Editing for Mass Communication",
       "credits": 3,
       "department": "Media and Communication",
-      "relatedMajorCount": 1,
+      "relatedMajorCount": 0,
       "searchText": "com2302 video editing for mass communication media and communication"
     },
     {
@@ -14176,7 +14221,7 @@
       "title": "Sound Basics and Design",
       "credits": 3,
       "department": "Media and Communication",
-      "relatedMajorCount": 1,
+      "relatedMajorCount": 0,
       "searchText": "sm1014 sound basics and design media and communication"
     },
     {
@@ -14185,7 +14230,7 @@
       "title": "English for Business Communication",
       "credits": 3,
       "department": "EN",
-      "relatedMajorCount": 15,
+      "relatedMajorCount": 12,
       "searchText": "ge2402 english for business communication en"
     },
     {
@@ -14194,7 +14239,7 @@
       "title": "Materials Science and Engineering Lab",
       "credits": 3,
       "department": "MSE",
-      "relatedMajorCount": 1,
+      "relatedMajorCount": 0,
       "searchText": "mse2114 materials science and engineering lab mse"
     },
     {
@@ -14212,7 +14257,7 @@
       "title": "Legal English",
       "credits": 3,
       "department": "EN",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "ge2411 legal english en"
     },
     {
@@ -15724,6 +15769,51 @@
       "department": "Department of Materials Science and Engineering",
       "relatedMajorCount": 1,
       "searchText": "mse4171 electronic packaging and materials department of materials science and engineering"
+    },
+    {
+      "type": "course",
+      "code": "SM2724A/B/C/D/E/F",
+      "title": "Leadership & Creativity",
+      "credits": 3,
+      "department": "School of Creative Media",
+      "relatedMajorCount": 0,
+      "searchText": "sm2724a/b/c/d/e/f leadership & creativity school of creative media"
+    },
+    {
+      "type": "course",
+      "code": "CA2066",
+      "title": "Professionals and Society",
+      "credits": 3,
+      "department": "Department of Architecture and Civil Engineering",
+      "relatedMajorCount": 3,
+      "searchText": "ca2066 professionals and society department of architecture and civil engineering"
+    },
+    {
+      "type": "course",
+      "code": "EF3043",
+      "title": "Economics of Sustainability",
+      "credits": 3,
+      "department": "Department of Economics and Finance",
+      "relatedMajorCount": 1,
+      "searchText": "ef3043 economics of sustainability department of economics and finance"
+    },
+    {
+      "type": "course",
+      "code": "EF4010",
+      "title": "Sustainable Finance",
+      "credits": 3,
+      "department": "Department of Economics and Finance",
+      "relatedMajorCount": 1,
+      "searchText": "ef4010 sustainable finance department of economics and finance"
+    },
+    {
+      "type": "course",
+      "code": "SEE4992",
+      "title": "Final Year Project on Sustainability",
+      "credits": 6,
+      "department": "School of Energy and Environment",
+      "relatedMajorCount": 1,
+      "searchText": "see4992 final year project on sustainability school of energy and environment"
     }
   ],
   "postgraduateProgrammes": [

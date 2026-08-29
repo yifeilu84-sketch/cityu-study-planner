@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Aerospace Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_A.E.-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Mechanical Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -249,7 +249,17 @@
     "FS3002",
     "FS4001",
     "FS4002",
-    "FS4005"
+    "FS4005",
+    "MA1200",
+    "MNE2066",
+    "GE1401",
+    "GE-ELECTIVE",
+    "GE1601",
+    "MA1201",
+    "GE1501",
+    "GE2410",
+    "MA2177",
+    "MAJOR-ELECTIVE"
   ],
   "studyPlan": {
     "year1": {
@@ -511,5 +521,11 @@
     "General / Aerospace Materials Stream / Aerospace Systems Stream available.",
     "Summer after Year 3 reserved for IAS (Industrial Attachment Scheme).",
     "MNE4068 Project (Individual) or MNE4119 Project (Group) in Year 4."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Aerospace Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/mne/-/media/project/cityuhk/academic/mne/programmes/undergraduate/beng-in-aerospace-engineering/files/ae-student-handbook-202526.pdf?rev=e4b5b4bb20ca452db0ea42e7c6794709&hash=07098FF67F8701045F3B893EDB3F67B2",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_A.E.-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

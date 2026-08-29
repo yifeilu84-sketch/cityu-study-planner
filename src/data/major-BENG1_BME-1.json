@@ -219,7 +219,14 @@
     "BMS4102",
     "PHY4232",
     "PHY4274",
-    "BME3201"
+    "BME3201",
+    "PHY1201",
+    "CHEM1200",
+    "GE1401",
+    "GE1601",
+    "CHEM1300",
+    "GE2410",
+    "GE1501"
   ],
   "studyPlan": {
     "year1": {
@@ -281,8 +288,8 @@
             "credits": 3
           },
           {
-            "code": "GE-DR",
-            "title": "GE Course (Distributional Requirements)",
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -314,7 +321,7 @@
           },
           {
             "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           }
         ],
@@ -343,8 +350,8 @@
             "credits": 3
           },
           {
-            "code": "GE-DR",
-            "title": "GE Course (Distributional Requirements)",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -375,8 +382,8 @@
             "credits": 3
           },
           {
-            "code": "GE-DR",
-            "title": "GE Course (Distributional Requirements)",
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -405,8 +412,8 @@
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Biomedical Engineering Major Elective",
             "credits": 3
           }
         ],
@@ -419,7 +426,8 @@
           {
             "code": "BME4102",
             "title": "Final Year Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "BME3104",
@@ -427,43 +435,39 @@
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE2",
+            "title": "Biomedical Engineering Major Elective",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE3",
+            "title": "Biomedical Engineering Major Elective",
             "credits": 3
           },
           {
-            "code": "GE-DR",
-            "title": "GE Course (Distributional Requirements)",
-            "credits": 3
-          },
-          {
-            "code": "BME3016",
-            "title": "Biomedical Engineering CAD",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
-            "code": "BME4105",
-            "title": "Biomedical Devices for Digital Medicine",
+            "code": "BME4102",
+            "title": "Final Year Project",
+            "credits": 6,
+            "officialPlacement": "Year 4 Semesters A and B"
+          },
+          {
+            "code": "BME2066",
+            "title": "Professional Engineering Practice",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
-            "credits": 3
-          },
-          {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE4",
+            "title": "Biomedical Engineering Major Elective",
             "credits": 3
           },
           {
@@ -472,7 +476,7 @@
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   },
@@ -481,5 +485,11 @@
     "Major Electives: 4 electives required (12 CUs).",
     "Students may alter the study path provided prerequisite requirements are satisfied.",
     "Summer terms reserved for missed courses or internships."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Biomedical Engineering Study Path (2025 cohort)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/bme/programme/2025U4%20BME%20BENGBDU%20Study%20path_24July2025_R2.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_BME-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

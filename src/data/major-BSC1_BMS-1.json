@@ -223,7 +223,15 @@
     "BMS4005",
     "BMS4006",
     "BMS4007",
-    "BMS4008"
+    "BMS4008",
+    "CHEM1300",
+    "CHEM1200",
+    "GE1401",
+    "GE1601",
+    "GE-ELECTIVE",
+    "PHY1400",
+    "GE2401",
+    "GE1501"
   ],
   "studyPlan": {
     "year1": {
@@ -475,5 +483,11 @@
     "Clinical Laboratory/Industrial Attachment is with full-time/day schedule. Students have to show up at host labs from Monday to Friday daytime.",
     "Some Clinical Laboratory/Industrial Attachment opportunities will be open in Year-3 Summer for application.",
     "Students might start their final year project from Year-3 Summer, as they will be occupied for the Clinical Laboratory/Industrial Attachment in Year-4 Semester B."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Biomedical Sciences Recommended Study Plan (Cohort 2025 onwards)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/bms/doc/ug/bscbms/studyplan_4yr_cohort_2025onwards.pdf?v=202509261436",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_BMS-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

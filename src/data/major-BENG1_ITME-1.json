@@ -249,7 +249,17 @@
     "FS2002",
     "FS3002",
     "FS4001",
-    "FS4002"
+    "FS4002",
+    "MA1200",
+    "SYE2066",
+    "GE1601",
+    "GE1401",
+    "GE1501",
+    "MA1201",
+    "GE2410",
+    "FREE",
+    "GE-ELECTIVE",
+    "MAJOR-ELECTIVE"
   ],
   "studyPlan": {
     "year1": {
@@ -475,9 +485,14 @@
             "code": "MAJOR-ELECTIVE",
             "title": "Major Elective 4",
             "credits": 3
+          },
+          {
+            "code": "SYE4036",
+            "title": "Manufacturing Systems Modelling and Optimization",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -500,14 +515,9 @@
             "code": "MAJOR-ELECTIVE",
             "title": "Major Elective 5",
             "credits": 3
-          },
-          {
-            "code": "SYE4036",
-            "title": "Manufacturing Systems Modelling and Optimization",
-            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
   },
@@ -516,5 +526,11 @@
     "Optional Co-operative Education Scheme (CES) available with 2-semester industrial placement in Year 4.",
     "Major Electives: 2 electives required (6 CUs).",
     "Total credits required = 121."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Intelligent Manufacturing Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/sye/programme/2025-26_Student_Handbook-ITME.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ITME-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

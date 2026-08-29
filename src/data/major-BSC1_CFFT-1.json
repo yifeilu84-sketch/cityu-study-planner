@@ -258,7 +258,15 @@
     "IS4537",
     "IS4543",
     "MKT3603",
-    "MGT2324"
+    "MGT2324",
+    "GE",
+    "STREAM-CORE",
+    "STREAM-ELECT",
+    "FREE",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4"
   ],
   "studyPlan": {
     "year1": {
@@ -529,7 +537,7 @@
       "studyPlanStatus": "structure",
       "studyPlanSourceTitle": "BSc CFFT Computational Finance Stream - 4 Year Structure (2025 Intake and thereafter)",
       "studyPlanSourceUrl": "https://prog.cb.cityu.edu.hk/-/media/project/cityuhk/academic/cb-prog/academics/cfft/about-cfft/bsccfft-structure-for-2025-intake---comfin-stream---23-june-2025_addge1601.pdf?hash=78B65E60F4F3E6C4DC84056AD05A7D70&rev=bc3b6224959a432e9111f8f88c40ccea",
-      "lastVerified": "2026-07-27",
+      "lastVerified": "2026-08-30",
       "requirements": {
         "gatewayEducation": {
           "credits": 22,
@@ -1161,7 +1169,9 @@
         "GE Area courses共 12 CU，须覆盖官方规定的三个 Area；页面保留 4 个可自行替换的 GE 课程位。",
         "CHIN1001 只适用于未达到官方中文语言门槛的学生；LC0200A/LC0200B 只适用于相应英文条件，均保留在课程池但不预填为所有人的毕业学分。",
         "Stream Electives 须从本方向官网清单中完成 6 CU；可在编辑模式中从完整课程池自行替换两个占位课程。"
-      ]
+      ],
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CFFT-1.htm",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "FT",
@@ -1171,7 +1181,7 @@
       "studyPlanStatus": "structure",
       "studyPlanSourceTitle": "BSc CFFT Financial Technology Stream - 4 Year Structure (2025 Intake and thereafter)",
       "studyPlanSourceUrl": "https://prog.cb.cityu.edu.hk/-/media/project/cityuhk/academic/cb-prog/academics/cfft/about-cfft/bsccfft-structure-for-2025-intake---fintech-stream---23-june-2025_addge1601.pdf?hash=894AE4CF5AFF70A76E07FBDC2D84F5BA&rev=1b3c9fad7320495790734b02efd2d4c2",
-      "lastVerified": "2026-07-27",
+      "lastVerified": "2026-08-30",
       "requirements": {
         "gatewayEducation": {
           "credits": 22,
@@ -1792,7 +1802,9 @@
         "GE Area courses共 12 CU，须覆盖官方规定的三个 Area；页面保留 4 个可自行替换的 GE 课程位。",
         "CHIN1001 只适用于未达到官方中文语言门槛的学生；LC0200A/LC0200B 只适用于相应英文条件，均保留在课程池但不预填为所有人的毕业学分。",
         "Stream Electives 须从本方向官网清单中完成 6 CU；可在编辑模式中从完整课程池自行替换两个占位课程。"
-      ]
+      ],
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CFFT-1.htm",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
   ],
   "notes": [
@@ -1803,7 +1815,9 @@
   "defaultStreamCode": "CF",
   "requireStreamSelection": true,
   "studyPlanStatus": "structure",
-  "studyPlanSourceTitle": "BSc CFFT 4 Year Structure (2025 Intake and thereafter)",
-  "studyPlanSourceUrl": "https://prog.cb.cityu.edu.hk/-/media/project/cityuhk/academic/cb-prog/academics/cfft/about-cfft/bsccfft-structure-for-2025-intake---comfin-stream---23-june-2025_addge1601.pdf?hash=78B65E60F4F3E6C4DC84056AD05A7D70&rev=bc3b6224959a432e9111f8f88c40ccea",
-  "lastVerified": "2026-07-27"
+  "studyPlanSourceTitle": "BSc Computational Finance and Financial Technology Structures (2025 intake)",
+  "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/bsccfft/docs/BScCFFT%20Structure%20for%202025%20Intake%20-%20ComFin%20Stream%20-%2023%20June%202025_AddGE1601.pdf",
+  "lastVerified": "2026-08-30",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CFFT-1.htm",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

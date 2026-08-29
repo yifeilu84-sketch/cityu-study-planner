@@ -82,7 +82,13 @@
     "IS4834",
     "IS4837",
     "IS4937",
-    "IS4938"
+    "IS4938",
+    "GE1401",
+    "GE2402",
+    "CB2240",
+    "GE1601",
+    "GE1501",
+    "CB2203"
   ],
   "studyPlan": {
     "year1": {
@@ -112,14 +118,9 @@
             "code": "GE1401",
             "title": "University English",
             "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
-            "credits": 1
           }
         ],
-        "credits": 16
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -147,9 +148,14 @@
             "code": "CB2240",
             "title": "Introduction to Business Programming in Python",
             "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole Person Development through Service Learning",
+            "credits": 1
           }
         ],
-        "credits": 15
+        "credits": 16
       }
     },
     "year2": {
@@ -338,5 +344,12 @@
         "credits": 15
       }
     }
-  }
+  },
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BBA Global Business Systems Management Suggested Study Plan (2025 cohort)",
+  "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/is/-/media/project/cityuhk/academic/cb-is/undergraduate-programmes/current-students/gbsm/files/gbsm_bdis_bbau4_2025_8sept25_0.pdf?hash=D4C2AD70F9B531A3A91CB9ADCD501A2B&rev=644f9d523fec4aa193653ee53370a1f4",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GBSM-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": []
 }

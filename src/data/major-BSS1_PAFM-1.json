@@ -214,7 +214,18 @@
     "PIA3503",
     "PIA3525",
     "PIA4953",
-    "PIA4954"
+    "PIA4954",
+    "GE1401",
+    "GE1601",
+    "GE2412",
+    "GE1501",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7"
   ],
   "studyPlan": {
     "year1": {
@@ -222,12 +233,17 @@
         "courses": [
           {
             "code": "PIA2307",
-            "title": "PIA2307",
+            "title": "Introduction to Public Governance",
             "credits": 3
           },
           {
             "code": "PIA2530",
-            "title": "PIA2530",
+            "title": "Exploring Public Affairs in Globalised Cities",
+            "credits": 3
+          },
+          {
+            "code": "PIA-COLLEGE1",
+            "title": "PIA College-specified Course",
             "credits": 3
           },
           {
@@ -237,42 +253,47 @@
           },
           {
             "code": "GE1601",
-            "title": "GE1601",
+            "title": "Whole-Person Development",
             "credits": 1
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
           }
         ],
-        "credits": 10
+        "credits": 16
       },
       "semB": {
         "courses": [
           {
             "code": "PIA2105",
-            "title": "PIA2105",
+            "title": "Introduction to Political Science",
             "credits": 3
           },
           {
             "code": "PIA2107",
-            "title": "PIA2107",
-            "credits": 3
-          },
-          {
-            "code": "PIA-COLLEGE",
-            "title": "PIA-COLLEGE",
-            "credits": 3
-          },
-          {
-            "code": "PIA-COLLEGE",
-            "title": "PIA-COLLEGE",
-            "credits": 3
-          },
-          {
-            "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
+            "title": "Government and Law",
             "credits": 3
           },
           {
             "code": "PIA2400",
-            "title": "PIA2400",
+            "title": "Introduction to Ethics and Public Policy",
+            "credits": 3
+          },
+          {
+            "code": "PIA-COLLEGE2",
+            "title": "PIA College-specified Course",
+            "credits": 3
+          },
+          {
+            "code": "GE2412",
+            "title": "English for the Humanities and Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           }
         ],
@@ -284,89 +305,89 @@
         "courses": [
           {
             "code": "PIA2012",
-            "title": "PIA2012",
+            "title": "Social Research Methods",
             "credits": 3
           },
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
-            "credits": 3
-          },
-          {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
-            "credits": 3
-          },
-          {
-            "code": "GE",
-            "title": "GE",
-            "credits": 3
-          },
-          {
-            "code": "PIA2524",
-            "title": "PIA2524",
+            "code": "PIA2050",
+            "title": "Comparative Politics and Societies",
             "credits": 3
           },
           {
             "code": "PIA3032",
-            "title": "PIA3032",
+            "title": "State and Economy in Asia",
+            "credits": 3
+          },
+          {
+            "code": "PIA3109",
+            "title": "Approaches in Political Analysis",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
-            "credits": 3
-          },
-          {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
-            "credits": 3
-          },
-          {
-            "code": "GE",
-            "title": "GE",
+            "code": "PIA3900",
+            "title": "Innovation and Governance",
             "credits": 3
           },
           {
             "code": "PIA2402",
-            "title": "PIA2402",
+            "title": "Introduction to Social and Political Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "PIA3111",
+            "title": "Democracy and Democratization",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL1",
+            "title": "GE / College Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year3": {
       "semA": {
         "courses": [
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PIA3121",
+            "title": "Theories of International Relations",
             "credits": 3
           },
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PIA4142",
+            "title": "Global Public Health",
             "credits": 3
           },
           {
-            "code": "PAFM-ELECTIVE",
-            "title": "PAFM-ELECTIVE",
+            "code": "PAG-ELECTIVE1",
+            "title": "PAG Stream Elective",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "FREE2",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
@@ -375,65 +396,60 @@
       "semB": {
         "courses": [
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PIA3127",
+            "title": "Political Institutions and Behaviour",
             "credits": 3
           },
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PAG-ELECTIVE2",
+            "title": "PAG Stream Elective",
             "credits": 3
           },
           {
-            "code": "PAFM-ELECTIVE",
-            "title": "PAFM-ELECTIVE",
+            "code": "PAG-ELECTIVE3",
+            "title": "PAG Stream Elective",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
-            "credits": 3
-          },
-          {
-            "code": "PAFM-ELECTIVE",
-            "title": "PAFM-ELECTIVE",
+            "code": "FREE3",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     },
     "year4": {
       "semA": {
         "courses": [
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PIA4601",
+            "title": "Undergraduate Research Project",
             "credits": 3
           },
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PAG-ELECTIVE4",
+            "title": "PAG Stream Elective",
             "credits": 3
           },
           {
-            "code": "PAFM-ELECTIVE",
-            "title": "PAFM-ELECTIVE",
+            "code": "GE-COL2",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "FREE4",
+            "title": "Free Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "FREE5",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
@@ -442,40 +458,36 @@
       "semB": {
         "courses": [
           {
-            "code": "STREAM-CORE",
-            "title": "STREAM-CORE",
+            "code": "PAG-ELECTIVE5",
+            "title": "PAG Stream Elective",
             "credits": 3
           },
           {
-            "code": "PAFM-ELECTIVE",
-            "title": "PAFM-ELECTIVE",
+            "code": "GE-COL3",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "FREE6",
+            "title": "Free Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
-            "credits": 3
-          },
-          {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "FREE7",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
   },
   "streams": [
     {
       "code": "PAG",
-      "name": "Public Affairs and Governance Stream",
-      "description": "Focus on comparative politics, democracy, and international relations.",
+      "name": "Public Administration and Governance",
+      "description": "",
+      "totalCredits": 121,
       "requirements": {
         "gatewayEducation": {
           "credits": 21,
@@ -707,12 +719,358 @@
           "credits": 21,
           "note": "Or Minor courses"
         }
-      }
+      },
+      "allCourses": [
+        "LC2401",
+        "LC2412",
+        "LC2406",
+        "LC2501",
+        "LC2512",
+        "LC2506",
+        "LC2930",
+        "LC2931",
+        "LC2973",
+        "LC2974",
+        "LC2601",
+        "LC2612",
+        "LC2606",
+        "PIA2601",
+        "PIA2602",
+        "PIA2105",
+        "PIA2107",
+        "PIA2307",
+        "PIA2400",
+        "PIA2530",
+        "PIA2012",
+        "PIA2050",
+        "PIA2402",
+        "PIA3032",
+        "PIA3109",
+        "PIA3111",
+        "PIA3121",
+        "PIA3127",
+        "PIA3900",
+        "PIA4142",
+        "PIA4601",
+        "PIA2308",
+        "PIA2524",
+        "PIA3241",
+        "PIA3306",
+        "PIA3307",
+        "PIA3310",
+        "PIA3316",
+        "PIA3921",
+        "PIA2104",
+        "PIA2201",
+        "PIA2224",
+        "PIA2405",
+        "PIA3003",
+        "PIA3031",
+        "PIA3112",
+        "PIA3113",
+        "PIA3120",
+        "PIA3122",
+        "PIA3123",
+        "PIA3126",
+        "PIA3130",
+        "PIA3153",
+        "PIA3315",
+        "PIA3600",
+        "PIA3607",
+        "PIA3710",
+        "PIA3810",
+        "PIA3810J",
+        "PIA3810K",
+        "PIA4152",
+        "PIA3800",
+        "CAI4001",
+        "PIA2527",
+        "PIA3207",
+        "PIA3309",
+        "PIA3410",
+        "PIA3503",
+        "PIA3525",
+        "PIA4953",
+        "PIA4954",
+        "GE1401",
+        "GE1601",
+        "GE2412",
+        "GE1501",
+        "FREE1",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "FREE7"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA2307",
+                "title": "Introduction to Public Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2530",
+                "title": "Exploring Public Affairs in Globalised Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA-COLLEGE1",
+                "title": "PIA College-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA2105",
+                "title": "Introduction to Political Science",
+                "credits": 3
+              },
+              {
+                "code": "PIA2107",
+                "title": "Government and Law",
+                "credits": 3
+              },
+              {
+                "code": "PIA2400",
+                "title": "Introduction to Ethics and Public Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA-COLLEGE2",
+                "title": "PIA College-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for the Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 18
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA2012",
+                "title": "Social Research Methods",
+                "credits": 3
+              },
+              {
+                "code": "PIA2050",
+                "title": "Comparative Politics and Societies",
+                "credits": 3
+              },
+              {
+                "code": "PIA3032",
+                "title": "State and Economy in Asia",
+                "credits": 3
+              },
+              {
+                "code": "PIA3109",
+                "title": "Approaches in Political Analysis",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA3900",
+                "title": "Innovation and Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2402",
+                "title": "Introduction to Social and Political Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "PIA3111",
+                "title": "Democracy and Democratization",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL1",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA3121",
+                "title": "Theories of International Relations",
+                "credits": 3
+              },
+              {
+                "code": "PIA4142",
+                "title": "Global Public Health",
+                "credits": 3
+              },
+              {
+                "code": "PAG-ELECTIVE1",
+                "title": "PAG Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA3127",
+                "title": "Political Institutions and Behaviour",
+                "credits": 3
+              },
+              {
+                "code": "PAG-ELECTIVE2",
+                "title": "PAG Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "PAG-ELECTIVE3",
+                "title": "PAG Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA4601",
+                "title": "Undergraduate Research Project",
+                "credits": 3
+              },
+              {
+                "code": "PAG-ELECTIVE4",
+                "title": "PAG Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL2",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PAG-ELECTIVE5",
+                "title": "PAG Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL3",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE7",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 12
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "BSS Public Affairs and Management Student Handbook 2025/26",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/pia/studentlan/bssppmp/PAFM_handbook_2526.pdf",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PAFM-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "PPM",
-      "name": "Public Policy and Management Stream",
-      "description": "Focus on public policy analysis, public management, and urban policy.",
+      "name": "Public Policy and Management",
+      "description": "",
+      "totalCredits": 121,
       "requirements": {
         "gatewayEducation": {
           "credits": 21,
@@ -939,7 +1297,352 @@
           "credits": 21,
           "note": "Or Minor courses"
         }
-      }
+      },
+      "allCourses": [
+        "LC2401",
+        "LC2412",
+        "LC2406",
+        "LC2501",
+        "LC2512",
+        "LC2506",
+        "LC2930",
+        "LC2931",
+        "LC2973",
+        "LC2974",
+        "LC2601",
+        "LC2612",
+        "LC2606",
+        "PIA2601",
+        "PIA2602",
+        "PIA2105",
+        "PIA2107",
+        "PIA2307",
+        "PIA2400",
+        "PIA2530",
+        "PIA2012",
+        "PIA2050",
+        "PIA2402",
+        "PIA3032",
+        "PIA3109",
+        "PIA3111",
+        "PIA3121",
+        "PIA3127",
+        "PIA3900",
+        "PIA4142",
+        "PIA4601",
+        "PIA2308",
+        "PIA2524",
+        "PIA3241",
+        "PIA3306",
+        "PIA3307",
+        "PIA3310",
+        "PIA3316",
+        "PIA3921",
+        "PIA2104",
+        "PIA2201",
+        "PIA2224",
+        "PIA2405",
+        "PIA3003",
+        "PIA3031",
+        "PIA3112",
+        "PIA3113",
+        "PIA3120",
+        "PIA3122",
+        "PIA3123",
+        "PIA3126",
+        "PIA3130",
+        "PIA3153",
+        "PIA3315",
+        "PIA3600",
+        "PIA3607",
+        "PIA3710",
+        "PIA3810",
+        "PIA3810J",
+        "PIA3810K",
+        "PIA4152",
+        "PIA3800",
+        "CAI4001",
+        "PIA2527",
+        "PIA3207",
+        "PIA3309",
+        "PIA3410",
+        "PIA3503",
+        "PIA3525",
+        "PIA4953",
+        "PIA4954",
+        "GE1401",
+        "GE1601",
+        "GE2412",
+        "GE1501",
+        "FREE1",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "FREE7"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA2307",
+                "title": "Introduction to Public Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA2530",
+                "title": "Exploring Public Affairs in Globalised Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA-COLLEGE1",
+                "title": "PIA College-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA2105",
+                "title": "Introduction to Political Science",
+                "credits": 3
+              },
+              {
+                "code": "PIA2107",
+                "title": "Government and Law",
+                "credits": 3
+              },
+              {
+                "code": "PIA2400",
+                "title": "Introduction to Ethics and Public Policy",
+                "credits": 3
+              },
+              {
+                "code": "PIA-COLLEGE2",
+                "title": "PIA College-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "GE2412",
+                "title": "English for the Humanities and Social Sciences",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 18
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA2012",
+                "title": "Social Research Methods",
+                "credits": 3
+              },
+              {
+                "code": "PIA2308",
+                "title": "Working with Clients in Public Service",
+                "credits": 3
+              },
+              {
+                "code": "PIA2524",
+                "title": "Management Skills for Public Managers",
+                "credits": 3
+              },
+              {
+                "code": "PIA3306",
+                "title": "Organizational Behaviour for Public Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA3900",
+                "title": "Innovation and Governance",
+                "credits": 3
+              },
+              {
+                "code": "PIA3310",
+                "title": "Smart Government and Sustainable Cities",
+                "credits": 3
+              },
+              {
+                "code": "PIA3316",
+                "title": "Managing Human Resources in Public and Nonprofit Sectors",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL1",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA3241",
+                "title": "Policy Processes and Institutions",
+                "credits": 3
+              },
+              {
+                "code": "PIA3921",
+                "title": "Urban and Social Policy",
+                "credits": 3
+              },
+              {
+                "code": "PPM-ELECTIVE1",
+                "title": "PPM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PIA3307",
+                "title": "Managing Financial Resources in Public and Nonprofit Sectors",
+                "credits": 3
+              },
+              {
+                "code": "PPM-ELECTIVE2",
+                "title": "PPM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "PPM-ELECTIVE3",
+                "title": "PPM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "PIA4601",
+                "title": "Undergraduate Research Project",
+                "credits": 3
+              },
+              {
+                "code": "PPM-ELECTIVE4",
+                "title": "PPM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL2",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "PPM-ELECTIVE5",
+                "title": "PPM Stream Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL3",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE7",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 12
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "BSS Public Affairs and Management Student Handbook 2025/26",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/pia/studentlan/bssppmp/PAFM_handbook_2526.pdf",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PAFM-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
   ],
   "notes": [
@@ -947,5 +1650,13 @@
     "Two streams available: Public Affairs and Governance (PAG) and Public Policy and Management (PPM).",
     "Students can take part in Go Global Activities in any semester.",
     "Each student is required to take 12-18 credits per semester."
-  ]
+  ],
+  "defaultStreamCode": "PAG",
+  "requireStreamSelection": true,
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSS Public Affairs and Management Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/pia/studentlan/bssppmp/PAFM_handbook_2526.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PAFM-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

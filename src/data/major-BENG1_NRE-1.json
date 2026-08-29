@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Nuclear and Risk Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_NRE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Mechanical Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -256,7 +256,18 @@
     "FS3002",
     "FS4001",
     "FS4002",
-    "FS4005"
+    "FS4005",
+    "MA1200",
+    "MNE2066",
+    "GE1401",
+    "GE-ELECTIVE",
+    "GE1601",
+    "MA1201",
+    "GE1501",
+    "GE2410",
+    "MA2177",
+    "FREE",
+    "MAJOR-ELECTIVE"
   ],
   "studyPlan": {
     "year1": {
@@ -460,14 +471,8 @@
         "credits": 15
       },
       "summer": {
-        "courses": [
-          {
-            "code": "FS3002",
-            "title": "Industrial Attachment Scheme",
-            "credits": 3
-          }
-        ],
-        "credits": 3
+        "courses": [],
+        "credits": 0
       }
     },
     "year4": {
@@ -497,9 +502,14 @@
             "code": "GE-ELECTIVE",
             "title": "GE Course (Area 4)",
             "credits": 3
+          },
+          {
+            "code": "MNE4231",
+            "title": "Nuclear Reactor Physics",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       },
       "semB": {
         "courses": [
@@ -527,20 +537,22 @@
             "code": "MAJOR-ELECTIVE",
             "title": "Major Elective 4",
             "credits": 3
-          },
-          {
-            "code": "MNE4231",
-            "title": "Nuclear Reactor Physics",
-            "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
       }
     }
   },
   "notes": [
     "Suggested Study Path for BENGEGU4 NRE 2024/25 Cohort.",
     "Summer after Year 3 reserved for IAS (Industrial Attachment Scheme).",
-    "MNE4118 Project spans Year 4 Semester A and B (6 CUs total)."
-  ]
+    "MNE4118 Project spans Year 4 Semester A and B (6 CUs total).",
+    "FS3002 is an optional placement/internship course and remains in the course pool; it is not pre-counted in the minimum-credit official study plan."
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Nuclear and Risk Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/mne/-/media/project/cityuhk/academic/mne/programmes/undergraduate/beng-in-nuclear-and-risk-engineering/pdf/nre_student_handbook_202526_v2.pdf?rev=0c567dafac394f3daf5c1273c607cea9&hash=CFF3F804CBCFFA7E1AD038C756C9EDF1",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_NRE-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

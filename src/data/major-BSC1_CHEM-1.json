@@ -87,7 +87,19 @@
     "CHEM4091",
     "CSCI4007",
     "CHEM2809",
-    "CHEM3017"
+    "CHEM3017",
+    "GE1401",
+    "GE1601",
+    "GE2401",
+    "GE1501",
+    "PHY1400",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7"
   ],
   "studyPlan": {
     "year1": {
@@ -328,5 +340,14 @@
         "credits": 12
       }
     }
-  }
+  },
+  "notes": [
+    "The official Chemistry handbook groups Year 1 requirements across Semesters A and B and leaves elective/free-elective slots flexible. This page is labelled Structure rather than an exact compulsory semester path."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "BSc Chemistry Student Handbook 2025/26: Recommended Study Plan",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/chem/update/programmes/BSc%20Student%20Handbook%202025-26_final%20version.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CHEM-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

@@ -223,7 +223,17 @@
     "BMS4206",
     "BMS4304",
     "CHEM4078",
-    "NS4001"
+    "NS4001",
+    "CHEM1200",
+    "CHEM1300",
+    "GE1401",
+    "GE1601",
+    "GE-ELECTIVE",
+    "PHY1400",
+    "GE2401",
+    "GE1501",
+    "MAJOR-ELECTIVE",
+    "FREE"
   ],
   "studyPlan": {
     "year1": {
@@ -407,9 +417,14 @@
             "code": "GE-ELECTIVE",
             "title": "GE Distributional Requirements",
             "credits": 3
+          },
+          {
+            "code": "FLEXIBLE-ELECTIVE",
+            "title": "Major / GE / Free Elective",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year4": {
@@ -468,5 +483,11 @@
   "notes": [
     "Students who intend to choose the BISI major are advised to take CHEM1200 in the first year which is a prerequisite for core courses in Year 2 Semester A.",
     "Students must choose to take BMS4206 FYP in Biomedical Research (8 CU) or BMS4304 Industrial Attachment: Biotechnology and Health Sciences (8 CU) as one of their major elective courses to fulfill graduation requirement."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Biological Sciences Recommended Study Plan (Normative 4-year, Cohort 2025)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/bms/doc/ug/bscbisi/studyplan-4yr-cohort2025.pdf?v=20250827",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_BISI-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

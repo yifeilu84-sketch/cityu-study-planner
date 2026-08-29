@@ -191,7 +191,15 @@
     "LC2606",
     "LC2612",
     "LC3603",
-    "LC3604"
+    "LC3604",
+    "GE1401",
+    "GE1601",
+    "COLLEGE-REQ",
+    "GE",
+    "GE2412",
+    "GE1501",
+    "ELECTIVE",
+    "FREE"
   ],
   "studyPlan": {
     "year1": {
@@ -378,6 +386,16 @@
           }
         ],
         "credits": 15
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "LT-CORE-ELECTIVE",
+            "title": "LT Core / Approved Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 3
       }
     },
     "year4": {
@@ -447,6 +465,13 @@
     "Study Plan of BA in Linguistics and Language Applications Cohort 2025 (Four-Year Curriculum).",
     "All core courses are 3 CUs except LT4391 Undergraduate Research Project (6 CUs).",
     "LT3199 is offered in summer terms.",
-    "At least one and up to two core electives (LT3199 in summer is open to all cohorts)."
-  ]
+    "At least one and up to two core electives (LT3199 in summer is open to all cohorts).",
+    "The official suggested plan leaves one 3-CU LT core/elective choice flexible. It is shown as a selectable slot rather than an invented course code."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "BA Linguistics and Language Applications Suggested Study Plan 2025/26",
+  "studyPlanSourceUrl": "https://lt.cityu.edu.hk/-/media/project/cityuhk/academic/lt/programmes-courses/ltpcballasuggestedstudyplan20252622july2025.pdf?rev=14e31fbc95cc4c06b4d5d3030b3ae9a1&hash=CA7515D8E914F4662C7A79D2665C62C0",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_LLA-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

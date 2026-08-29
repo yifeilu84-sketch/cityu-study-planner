@@ -303,7 +303,17 @@
     "MS3403",
     "MS4111",
     "MS4118",
-    "MS4227"
+    "MS4227",
+    "GE-ELECTIVE",
+    "GE1401",
+    "GE2402",
+    "GE1601",
+    "CB2203",
+    "CB2240",
+    "MAJOR-ELECTIVE",
+    "GE1501",
+    "COLLEGE-ELECT",
+    "FREE"
   ],
   "studyPlan": {
     "year1": {
@@ -333,19 +343,9 @@
             "code": "GE1401",
             "title": "University English",
             "credits": 3
-          },
-          {
-            "code": "CHIN1001",
-            "title": "University Chinese I",
-            "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
-            "credits": 1
           }
         ],
-        "credits": 19
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -373,9 +373,14 @@
             "code": "GE2402",
             "title": "English for Business Communication",
             "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole Person Development through Service Learning",
+            "credits": 1
           }
         ],
-        "credits": 15
+        "credits": 16
       }
     },
     "year2": {
@@ -571,5 +576,11 @@
     "Chinese Language Requirement: Students scoring below Level 4 in HKDSE Chinese Language are required to take CHIN1001 University Chinese I.",
     "Students who do not choose a minor are required to take Free Electives.",
     "Major Electives: 4 electives required from Groups A, B, C (language courses, technical courses, or management sciences courses)."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BBA Global Operations Management Study Plan (Cohort 2025)",
+  "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/dao/bbagom/docs/GOM%20Study%20Plan%20for%20BBAU4%20Cohort%202025.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GOM-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

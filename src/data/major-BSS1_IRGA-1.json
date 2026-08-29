@@ -2,10 +2,10 @@
   "code": "BSS1_IRGA-1",
   "title": "Bachelor of Social Sciences in International Relations and Global Affairs",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
-  "studyPlanStatus": "derived",
+  "studyPlanStatus": "diy",
   "notes": [
-    "Study plan is derived from official graduation/catalogue requirements; no separate official semester-by-semester recommended study plan was confirmed on the official website.",
-    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits."
+    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits.",
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
   ],
   "degree": "Bachelor of Social",
   "totalCredits": 120,
@@ -91,246 +91,64 @@
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [
-          {
-            "code": "GE1401",
-            "title": "University English",
-            "credits": 3
-          },
-          {
-            "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
-            "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole-Person Development",
-            "credits": 1
-          },
-          {
-            "code": "COL-FOUND1",
-            "title": "College Foundation - Liberal Arts",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-CORE1",
-            "title": "IRGA Core Course 1",
-            "credits": 3
-          }
-        ],
-        "credits": 13
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "GE2401",
-            "title": "English for Humanities and Social Sciences",
-            "credits": 3
-          },
-          {
-            "code": "COL-FOUND2",
-            "title": "College Foundation - Social Sciences",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-CORE2",
-            "title": "IRGA Core Course 2",
-            "credits": 3
-          },
-          {
-            "code": "LANG1",
-            "title": "Foreign Language 1",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year2": {
       "semA": {
-        "courses": [
-          {
-            "code": "IRGA-CORE3",
-            "title": "IRGA Core Course 3",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-CORE4",
-            "title": "IRGA Core Course 4",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
-            "credits": 3
-          },
-          {
-            "code": "LANG2",
-            "title": "Foreign Language 2",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC1",
-            "title": "IRGA Elective 1",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "IRGA-CORE5",
-            "title": "IRGA Core Course 5",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-CORE6",
-            "title": "IRGA Core Course 6",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC2",
-            "title": "IRGA Elective 2",
-            "credits": 3
-          },
-          {
-            "code": "FREE1",
-            "title": "Free Elective 1",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year3": {
       "semA": {
-        "courses": [
-          {
-            "code": "IRGA-CORE7",
-            "title": "IRGA Core Course 7",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-CORE8",
-            "title": "IRGA Core Course 8",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC3",
-            "title": "IRGA Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
-            "credits": 3
-          },
-          {
-            "code": "FREE2",
-            "title": "Free Elective 2",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "IRGA-CORE9",
-            "title": "IRGA Core Course 9",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC4",
-            "title": "IRGA Elective 4",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC5",
-            "title": "IRGA Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "FREE3",
-            "title": "Free Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "FREE4",
-            "title": "Free Elective 4",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year4": {
       "semA": {
-        "courses": [
-          {
-            "code": "IRGA-CAPSTONE",
-            "title": "IRGA Capstone Project",
-            "credits": 3
-          },
-          {
-            "code": "IRGA-ELEC6",
-            "title": "IRGA Elective 6",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR5",
-            "title": "Gateway Education (Area 5)",
-            "credits": 3
-          },
-          {
-            "code": "FREE5",
-            "title": "Free Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "FREE6",
-            "title": "Free Elective 6",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "IRGA-ELEC7",
-            "title": "IRGA Elective 7",
-            "credits": 3
-          },
-          {
-            "code": "FREE7",
-            "title": "Free Elective 7",
-            "credits": 3
-          },
-          {
-            "code": "FREE8",
-            "title": "Free Elective 8",
-            "credits": 3
-          },
-          {
-            "code": "FREE9",
-            "title": "Free Elective 9",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     }
-  }
+  },
+  "studyPlanSourceTitle": "BSS International Relations and Global Affairs official graduation requirements",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

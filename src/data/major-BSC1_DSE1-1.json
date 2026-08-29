@@ -72,7 +72,15 @@
     "SDSC4103",
     "SDSC4107",
     "SDSC4109",
-    "SDSC4110"
+    "SDSC4110",
+    "CS1315",
+    "GE1401",
+    "GE1601",
+    "GE2410",
+    "CS3402",
+    "GE1501",
+    "MAJOR-ELECTIVE",
+    "SDSC2003"
   ],
   "studyPlan": {
     "year1": {
@@ -329,5 +337,11 @@
     "Major Electives: 7-8 electives required (21 CUs).",
     "Free Electives: 5 courses (15 CUs) or Minor courses.",
     "SDSC4116 Data Science Capstone is a year-long course spanning Year 4 Semester A and B."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Data and Systems Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/sdsc_web/handbook/2025-26_DSE_Student_Handbook_202509_V1.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_DSE1-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

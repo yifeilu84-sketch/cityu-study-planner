@@ -93,12 +93,23 @@
     "MKT3608",
     "MS3224",
     "MS3403",
-    "MS4226"
+    "MS4226",
+    "GE1401",
+    "CB2240",
+    "GE2402",
+    "GE1601",
+    "CB2203",
+    "GE1501"
   ],
   "studyPlan": {
     "year1": {
       "semA": {
         "courses": [
+          {
+            "code": "CB2201",
+            "title": "Operations Management",
+            "credits": 3
+          },
           {
             "code": "CB2400",
             "title": "Microeconomics",
@@ -118,17 +129,17 @@
             "code": "GE1401",
             "title": "University English",
             "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole-Person Development",
-            "credits": 1
           }
         ],
-        "credits": 13
+        "credits": 15
       },
       "semB": {
         "courses": [
+          {
+            "code": "CB2240",
+            "title": "Introduction to Business Programming in Python",
+            "credits": 3
+          },
           {
             "code": "CB2100",
             "title": "Introduction to Financial Accounting",
@@ -150,17 +161,22 @@
             "credits": 3
           },
           {
-            "code": "CB2240",
-            "title": "Introduction to Business Programming in Python",
-            "credits": 3
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
           }
         ],
-        "credits": 15
+        "credits": 16
       }
     },
     "year2": {
       "semA": {
         "courses": [
+          {
+            "code": "CB2203",
+            "title": "Data-driven Business Modeling",
+            "credits": 3
+          },
           {
             "code": "CB2101",
             "title": "Introduction to Managerial Accounting",
@@ -178,12 +194,7 @@
           },
           {
             "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           }
         ],
@@ -191,6 +202,11 @@
       },
       "semB": {
         "courses": [
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
+          },
           {
             "code": "CB3410",
             "title": "Financial Management",
@@ -203,17 +219,12 @@
           },
           {
             "code": "MINOR1",
-            "title": "Minor / Free Elective 1",
+            "title": "Minor / Free Elective",
             "credits": 3
           },
           {
             "code": "MINOR2",
-            "title": "Minor / Free Elective 2",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR2",
-            "title": "Gateway Education Distributional Requirement",
+            "title": "Minor / Free Elective",
             "credits": 3
           }
         ],
@@ -224,28 +235,28 @@
       "semA": {
         "courses": [
           {
-            "code": "IFMG-CORE1",
-            "title": "IFMG Stream Core 1",
+            "code": "IS4834",
+            "title": "Business Intelligence and Analytics",
             "credits": 3
           },
           {
-            "code": "IFMG-CORE2",
-            "title": "IFMG Stream Core 2",
+            "code": "IS3240",
+            "title": "Advanced Business Programming in Python",
             "credits": 3
           },
           {
             "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
             "code": "MINOR3",
-            "title": "Minor / Free Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "COL-ELEC1",
-            "title": "College Elective 1",
+            "title": "Minor / Free Elective",
             "credits": 3
           }
         ],
@@ -254,28 +265,28 @@
       "semB": {
         "courses": [
           {
-            "code": "IFMG-CORE3",
-            "title": "IFMG Stream Core 3",
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Business Intelligence Major Elective",
             "credits": 3
           },
           {
-            "code": "IFMG-CORE4",
-            "title": "IFMG Stream Core 4",
+            "code": "IS3100",
+            "title": "Techniques for Big Data",
             "credits": 3
           },
           {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
+            "code": "COL-ELEC1",
+            "title": "College Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
             "code": "MINOR4",
-            "title": "Minor / Free Elective 4",
-            "credits": 3
-          },
-          {
-            "code": "COL-ELEC2",
-            "title": "College Elective 2",
+            "title": "Minor / Free Elective",
             "credits": 3
           }
         ],
@@ -286,28 +297,28 @@
       "semA": {
         "courses": [
           {
-            "code": "IFMG-CORE5",
-            "title": "IFMG Stream Core 5",
+            "code": "IS4532",
+            "title": "Global Project Management",
             "credits": 3
           },
           {
-            "code": "IFMG-ELEC1",
-            "title": "IFMG Major Elective 1",
+            "code": "MAJOR-ELECTIVE2",
+            "title": "Business Intelligence Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "IS4861",
+            "title": "Machine Learning for Business",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC2",
+            "title": "College Elective",
             "credits": 3
           },
           {
             "code": "MINOR5",
-            "title": "Minor / Free Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "MINOR6",
-            "title": "Minor / Free Elective 6",
-            "credits": 3
-          },
-          {
-            "code": "COL-ELEC3",
-            "title": "College Elective 3",
+            "title": "Minor / Free Elective",
             "credits": 3
           }
         ],
@@ -317,27 +328,27 @@
         "courses": [
           {
             "code": "CB4303",
-            "title": "Strategy and Policy",
+            "title": "Strategic Management",
             "credits": 3
           },
           {
-            "code": "IFMG-ELEC2",
-            "title": "IFMG Major Elective 2",
+            "code": "IS4335",
+            "title": "Data Visualization",
             "credits": 3
           },
           {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
+            "code": "GE-COL",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
-            "code": "FREE1",
-            "title": "Free Elective 1",
+            "code": "COL-ELEC3",
+            "title": "College Elective",
             "credits": 3
           },
           {
-            "code": "FREE2",
-            "title": "Free Elective 2",
+            "code": "MINOR6",
+            "title": "Minor / Free Elective",
             "credits": 3
           }
         ],
@@ -346,6 +357,1103 @@
     }
   },
   "notes": [
-    "ADMO 2026/27 lists this programme as BBA Artificial Intelligence in Business (JS1019/1019); the 2025 departmental suggested study plan PDF is still named IFMG / Information Management."
-  ]
+    "ADMO 2026/27 lists this programme as BBA Artificial Intelligence in Business (JS1019/1019); the 2025 departmental suggested study plan PDF is still named IFMG / Information Management.",
+    "The official 2025 suggested plans retain the former IFMG programme name. The current public-facing title is Artificial Intelligence in Business; BI, ISA and ISSN labels are preserved from that official source for cohort accuracy."
+  ],
+  "defaultStreamCode": "BI",
+  "requireStreamSelection": true,
+  "streams": [
+    {
+      "code": "BI",
+      "name": "Business Intelligence",
+      "description": "",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": 31,
+        "collegeRequirement": 42,
+        "majorCore": 24,
+        "majorElective": 6,
+        "freeElective": 18
+      },
+      "allCourses": [
+        "CB2100",
+        "CB2101",
+        "CB2200",
+        "CB2201",
+        "CB2300",
+        "CB2400",
+        "CB2402",
+        "CB2500",
+        "CB2601",
+        "CB3410",
+        "CB4303",
+        "AC3202",
+        "CB2041",
+        "CB3020",
+        "CB3020A",
+        "CB3021",
+        "CB3041",
+        "CB3043",
+        "CB3044",
+        "CB3045",
+        "CB3800",
+        "CB3810",
+        "CB3820",
+        "CB3830",
+        "CB3840",
+        "CB4605",
+        "CS1102",
+        "IS2021",
+        "IS2023",
+        "MA1006",
+        "MGT3306",
+        "MKT3601",
+        "MS3124",
+        "MS3252",
+        "LW2903",
+        "IS3331",
+        "IS3430",
+        "IS4532",
+        "IS3100",
+        "IS3240",
+        "IS4335",
+        "IS4834",
+        "IS4861",
+        "IS3501",
+        "IS4133",
+        "IS4435",
+        "IS4537",
+        "IS4543",
+        "IS2502",
+        "IS2505",
+        "IS4246",
+        "IS4340",
+        "IS4538",
+        "MS3227",
+        "MS3251",
+        "IS2010",
+        "IS2022",
+        "IS2239",
+        "IS3101",
+        "IS3230",
+        "IS3542",
+        "IS4030",
+        "IS4032",
+        "IS4238",
+        "IS4239",
+        "IS4636",
+        "IS4837",
+        "IS4937",
+        "IS4938",
+        "IS4940",
+        "AC4301",
+        "AC4342",
+        "EF3320",
+        "EF3333",
+        "MGT4313",
+        "MKT3603",
+        "MKT3608",
+        "MS3224",
+        "MS3403",
+        "MS4226",
+        "GE1401",
+        "CB2240",
+        "GE2402",
+        "GE1601",
+        "CB2203",
+        "GE1501"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Microeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 16
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2203",
+                "title": "Data-driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macroeconomics",
+                "credits": 3
+              },
+              {
+                "code": "IS3331",
+                "title": "Database Management",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3430",
+                "title": "Systems Analysis and Design",
+                "credits": 3
+              },
+              {
+                "code": "MINOR1",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR2",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "IS4834",
+                "title": "Business Intelligence and Analytics",
+                "credits": 3
+              },
+              {
+                "code": "IS3240",
+                "title": "Advanced Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR3",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "Business Intelligence Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "IS3100",
+                "title": "Techniques for Big Data",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC1",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR4",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "IS4532",
+                "title": "Global Project Management",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "Business Intelligence Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "IS4861",
+                "title": "Machine Learning for Business",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC2",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR5",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "IS4335",
+                "title": "Data Visualization",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC3",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR6",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "BBA Information Management Suggested Study Plans (2025 cohort; programme renamed Artificial Intelligence in Business)",
+      "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/is/-/media/project/cityuhk/academic/cb-is/undergraduate-programmes/current-students/ifmg/pdf/ifmg_bdis_bbau4_2025_8sept25.pdf?rev=3053986baf4b481aacdbfd218ad7ce2f&hash=551F25154DB3E955EA4D2D6B36C8B22D",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
+    },
+    {
+      "code": "ISA",
+      "name": "Information Systems Auditing",
+      "description": "",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": 31,
+        "collegeRequirement": 42,
+        "majorCore": 24,
+        "majorElective": 6,
+        "freeElective": 18
+      },
+      "allCourses": [
+        "CB2100",
+        "CB2101",
+        "CB2200",
+        "CB2201",
+        "CB2300",
+        "CB2400",
+        "CB2402",
+        "CB2500",
+        "CB2601",
+        "CB3410",
+        "CB4303",
+        "AC3202",
+        "CB2041",
+        "CB3020",
+        "CB3020A",
+        "CB3021",
+        "CB3041",
+        "CB3043",
+        "CB3044",
+        "CB3045",
+        "CB3800",
+        "CB3810",
+        "CB3820",
+        "CB3830",
+        "CB3840",
+        "CB4605",
+        "CS1102",
+        "IS2021",
+        "IS2023",
+        "MA1006",
+        "MGT3306",
+        "MKT3601",
+        "MS3124",
+        "MS3252",
+        "LW2903",
+        "IS3331",
+        "IS3430",
+        "IS4532",
+        "IS3100",
+        "IS3240",
+        "IS4335",
+        "IS4834",
+        "IS4861",
+        "IS3501",
+        "IS4133",
+        "IS4435",
+        "IS4537",
+        "IS4543",
+        "IS2502",
+        "IS2505",
+        "IS4246",
+        "IS4340",
+        "IS4538",
+        "MS3227",
+        "MS3251",
+        "IS2010",
+        "IS2022",
+        "IS2239",
+        "IS3101",
+        "IS3230",
+        "IS3542",
+        "IS4030",
+        "IS4032",
+        "IS4238",
+        "IS4239",
+        "IS4636",
+        "IS4837",
+        "IS4937",
+        "IS4938",
+        "IS4940",
+        "AC4301",
+        "AC4342",
+        "EF3320",
+        "EF3333",
+        "MGT4313",
+        "MKT3603",
+        "MKT3608",
+        "MS3224",
+        "MS3403",
+        "MS4226",
+        "GE1401",
+        "CB2240",
+        "GE2402",
+        "GE1601",
+        "CB2203",
+        "GE1501"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Microeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 16
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2203",
+                "title": "Data-driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macroeconomics",
+                "credits": 3
+              },
+              {
+                "code": "IS3331",
+                "title": "Database Management",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3430",
+                "title": "Systems Analysis and Design",
+                "credits": 3
+              },
+              {
+                "code": "MINOR1",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR2",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "IS3501",
+                "title": "Cybersecurity for Business",
+                "credits": 3
+              },
+              {
+                "code": "IS4435",
+                "title": "Governance & Regulatory Compliance for Financial Information Systems",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR3",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "Information Systems Auditing Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "IS4133",
+                "title": "Cloud Computing and Services",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC1",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR4",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "IS4532",
+                "title": "Global Project Management",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "Information Systems Auditing Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC2",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR5",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "IS4537",
+                "title": "Information Systems Audit",
+                "credits": 3
+              },
+              {
+                "code": "IS4543",
+                "title": "Risk Management and Information Systems Control",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC3",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR6",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "BBA Information Management Suggested Study Plans (2025 cohort; programme renamed Artificial Intelligence in Business)",
+      "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/is/-/media/project/cityuhk/academic/cb-is/undergraduate-programmes/current-students/ifmg/pdf/ifmg_bdis_bbau4_2025_8sept25.pdf?rev=3053986baf4b481aacdbfd218ad7ce2f&hash=551F25154DB3E955EA4D2D6B36C8B22D",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
+    },
+    {
+      "code": "ISSN",
+      "name": "Information Systems and Networking",
+      "description": "",
+      "totalCredits": 121,
+      "requirements": {
+        "gatewayEducation": 31,
+        "collegeRequirement": 42,
+        "majorCore": 24,
+        "majorElective": 6,
+        "freeElective": 18
+      },
+      "allCourses": [
+        "CB2100",
+        "CB2101",
+        "CB2200",
+        "CB2201",
+        "CB2300",
+        "CB2400",
+        "CB2402",
+        "CB2500",
+        "CB2601",
+        "CB3410",
+        "CB4303",
+        "AC3202",
+        "CB2041",
+        "CB3020",
+        "CB3020A",
+        "CB3021",
+        "CB3041",
+        "CB3043",
+        "CB3044",
+        "CB3045",
+        "CB3800",
+        "CB3810",
+        "CB3820",
+        "CB3830",
+        "CB3840",
+        "CB4605",
+        "CS1102",
+        "IS2021",
+        "IS2023",
+        "MA1006",
+        "MGT3306",
+        "MKT3601",
+        "MS3124",
+        "MS3252",
+        "LW2903",
+        "IS3331",
+        "IS3430",
+        "IS4532",
+        "IS3100",
+        "IS3240",
+        "IS4335",
+        "IS4834",
+        "IS4861",
+        "IS3501",
+        "IS4133",
+        "IS4435",
+        "IS4537",
+        "IS4543",
+        "IS2502",
+        "IS2505",
+        "IS4246",
+        "IS4340",
+        "IS4538",
+        "MS3227",
+        "MS3251",
+        "IS2010",
+        "IS2022",
+        "IS2239",
+        "IS3101",
+        "IS3230",
+        "IS3542",
+        "IS4030",
+        "IS4032",
+        "IS4238",
+        "IS4239",
+        "IS4636",
+        "IS4837",
+        "IS4937",
+        "IS4938",
+        "IS4940",
+        "AC4301",
+        "AC4342",
+        "EF3320",
+        "EF3333",
+        "MGT4313",
+        "MKT3603",
+        "MKT3608",
+        "MS3224",
+        "MS3403",
+        "MS4226",
+        "GE1401",
+        "CB2240",
+        "GE2402",
+        "GE1601",
+        "CB2203",
+        "GE1501"
+      ],
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2201",
+                "title": "Operations Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2400",
+                "title": "Microeconomics",
+                "credits": 3
+              },
+              {
+                "code": "CB2500",
+                "title": "Information Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2601",
+                "title": "Marketing",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB2240",
+                "title": "Introduction to Business Programming in Python",
+                "credits": 3
+              },
+              {
+                "code": "CB2100",
+                "title": "Introduction to Financial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2300",
+                "title": "Management",
+                "credits": 3
+              },
+              {
+                "code": "CB2200",
+                "title": "Business Statistics",
+                "credits": 3
+              },
+              {
+                "code": "GE2402",
+                "title": "English for Business Communication",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 16
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CB2203",
+                "title": "Data-driven Business Modeling",
+                "credits": 3
+              },
+              {
+                "code": "CB2101",
+                "title": "Introduction to Managerial Accounting",
+                "credits": 3
+              },
+              {
+                "code": "CB2402",
+                "title": "Macroeconomics",
+                "credits": 3
+              },
+              {
+                "code": "IS3331",
+                "title": "Database Management",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "CB3410",
+                "title": "Financial Management",
+                "credits": 3
+              },
+              {
+                "code": "IS3430",
+                "title": "Systems Analysis and Design",
+                "credits": 3
+              },
+              {
+                "code": "MINOR1",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR2",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "Information Systems and Networking Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "IS2505",
+                "title": "e-Business",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR3",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "IS2502",
+                "title": "Social Media and Social Networks",
+                "credits": 3
+              },
+              {
+                "code": "IS4246",
+                "title": "Digital Marketing and Customer Relationship Management",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC1",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MINOR4",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "IS4532",
+                "title": "Global Project Management",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "Information Systems and Networking Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "IS4340",
+                "title": "Search Engine Optimization",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC2",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR5",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CB4303",
+                "title": "Strategic Management",
+                "credits": 3
+              },
+              {
+                "code": "IS4538",
+                "title": "O2O Services",
+                "credits": 3
+              },
+              {
+                "code": "GE-COL",
+                "title": "GE / College Elective",
+                "credits": 3
+              },
+              {
+                "code": "COL-ELEC3",
+                "title": "College Elective",
+                "credits": 3
+              },
+              {
+                "code": "MINOR6",
+                "title": "Minor / Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "BBA Information Management Suggested Study Plans (2025 cohort; programme renamed Artificial Intelligence in Business)",
+      "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/is/-/media/project/cityuhk/academic/cb-is/undergraduate-programmes/current-students/ifmg/pdf/ifmg_bdis_bbau4_2025_8sept25.pdf?rev=3053986baf4b481aacdbfd218ad7ce2f&hash=551F25154DB3E955EA4D2D6B36C8B22D",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
+    }
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BBA Information Management Suggested Study Plans (2025 cohort; programme renamed Artificial Intelligence in Business)",
+  "studyPlanSourceUrl": "https://www.cb.cityu.edu.hk/is/-/media/project/cityuhk/academic/cb-is/undergraduate-programmes/current-students/ifmg/pdf/ifmg_bdis_bbau4_2025_8sept25.pdf?rev=3053986baf4b481aacdbfd218ad7ce2f&hash=551F25154DB3E955EA4D2D6B36C8B22D",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_IFMG-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

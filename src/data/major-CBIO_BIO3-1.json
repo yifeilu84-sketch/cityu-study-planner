@@ -214,7 +214,72 @@
     "BMS4102",
     "PHY4232",
     "PHY4274",
-    "BME3201"
+    "BME3201",
+    "BMS1901",
+    "BMS2004",
+    "BMS2005",
+    "BMS2202",
+    "BMS2204",
+    "BMS2205",
+    "BMS2206",
+    "BMS2901",
+    "BMS3203A",
+    "BMS3204",
+    "BMS3205",
+    "BMS3301",
+    "BMS4007",
+    "BMS4008",
+    "BMS4301",
+    "BMS4303",
+    "CHEM3068",
+    "NS2003",
+    "NS3003",
+    "NS4002",
+    "NS4003",
+    "BMS1701A",
+    "BMS1701B",
+    "BMS1701C",
+    "NS1001",
+    "BMS2002",
+    "BMS2003B",
+    "BMS2007",
+    "BMS2008B",
+    "BMS2301A",
+    "BMS2301B",
+    "BMS2301C",
+    "NS2001",
+    "BMS3002B",
+    "BMS3003B",
+    "BMS3006B",
+    "BMS3007",
+    "BMS3011B",
+    "NS3001",
+    "NS3002",
+    "BMS4001",
+    "BMS4003B",
+    "BMS4004B",
+    "BMS4005B",
+    "BMS4206",
+    "BMS4304",
+    "CHEM4078",
+    "NS4001",
+    "BMS2001",
+    "BMS2003",
+    "BMS2008",
+    "BMS2201",
+    "BMS3002",
+    "BMS3003",
+    "BMS3004",
+    "BMS3005",
+    "BMS3006",
+    "BMS3008",
+    "BMS3009",
+    "BMS3011",
+    "BMS4002",
+    "BMS4003",
+    "BMS4004",
+    "BMS4005",
+    "BMS4006"
   ],
   "studyPlanStatus": "diy",
   "studyPlan": {
@@ -553,7 +618,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Engineering in Biomedical Engineering.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "Bio3 official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "BISI",
@@ -840,7 +910,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Biological Sciences.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "Bio3 official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "BMS",
@@ -1128,10 +1203,21 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Biomedical Sciences.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "Bio3 official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
   ],
   "notes": [
-    "ADMO lists Bio3 as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found."
-  ]
+    "ADMO lists Bio3 as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found.",
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+  ],
+  "studyPlanSourceTitle": "Bio3 official pathway and underlying major requirements",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

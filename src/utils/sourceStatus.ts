@@ -26,7 +26,9 @@ export function getStudyPlanSourceStatus(entity: any, language: Language = 'zh')
   const explicit = entity?.studyPlanStatus as SourceStatusKind | undefined
   const text = textFromEntity(entity)
 
-  let kind: SourceStatusKind = 'official'
+  // Missing source metadata must fail closed: an unlabelled plan is never
+  // presented to students as an official CityUHK semester schedule.
+  let kind: SourceStatusKind = 'diy'
   if (explicit === 'derived' || explicit === 'diy' || explicit === 'official' || explicit === 'structure') {
     kind = explicit
   } else if (/flowchart|programme structure|program(?:me)? structure|structure and flowchart|structure based/.test(text)) {

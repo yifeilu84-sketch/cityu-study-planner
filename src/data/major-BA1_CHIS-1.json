@@ -3,7 +3,7 @@
   "title": "Bachelor of Arts in Chinese and History",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
   "degree": "Bachelor of Arts",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Chinese and History",
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
@@ -96,7 +96,18 @@
     "CAH4853",
     "CAH4870",
     "CAH2545",
-    "CAH3539"
+    "CAH3539",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "GE2401",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7"
   ],
   "studyPlan": {
     "year1": {
@@ -156,9 +167,14 @@
             "code": "CAH2612",
             "title": "Introduction to Sinology",
             "credits": 3
+          },
+          {
+            "code": "COL-FOUND-SS",
+            "title": "College Foundation Course: Social Sciences",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year2": {
@@ -318,11 +334,6 @@
       },
       "semB": {
         "courses": [
-          {
-            "code": "CAH4499",
-            "title": "Capstone Project (continued)",
-            "credits": 0
-          },
           {
             "code": "CHIS-ELEC6",
             "title": "Stream Elective 6",
@@ -485,9 +496,14 @@
                 "code": "CAH2612",
                 "title": "Introduction to Sinology",
                 "credits": 3
+              },
+              {
+                "code": "COL-FOUND-SS",
+                "title": "College Foundation Course: Social Sciences",
+                "credits": 3
               }
             ],
-            "credits": 15
+            "credits": 18
           }
         },
         "year2": {
@@ -495,12 +511,12 @@
             "courses": [
               {
                 "code": "CAH2140",
-                "title": "Modern Chinese Literature",
+                "title": "Modern Chinese Literature (or History Stream Core)",
                 "credits": 3
               },
               {
                 "code": "CAH2141",
-                "title": "History of Chinese Literature",
+                "title": "History of Chinese Literature (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -514,8 +530,8 @@
                 "credits": 3
               },
               {
-                "code": "CHIS-ELEC1",
-                "title": "Stream Elective 1",
+                "code": "CAH2840",
+                "title": "Late Imperial and Modern China",
                 "credits": 3
               }
             ],
@@ -525,7 +541,7 @@
             "courses": [
               {
                 "code": "CAH2142",
-                "title": "Introduction to Literary Theory and Criticism",
+                "title": "Introduction to Literary Theory and Criticism (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -539,13 +555,13 @@
                 "credits": 3
               },
               {
-                "code": "CHIS-ELEC2",
-                "title": "Stream Elective 2",
+                "code": "CHIS-ELEC1",
+                "title": "Stream Elective 1",
                 "credits": 3
               },
               {
-                "code": "FREE1",
-                "title": "Free Elective 1",
+                "code": "CAH2812",
+                "title": "Early and Imperial China",
                 "credits": 3
               }
             ],
@@ -557,22 +573,22 @@
             "courses": [
               {
                 "code": "CAH3110",
-                "title": "Readings in Pre-Qin Confucianism and Daoism",
+                "title": "Readings in Pre-Qin Confucianism and Daoism (or History Stream Core)",
                 "credits": 3
               },
               {
                 "code": "CAH3132",
-                "title": "Chinese Philology",
+                "title": "Chinese Philology (or History Stream Core)",
+                "credits": 3
+              },
+              {
+                "code": "CHIS-ELEC2",
+                "title": "Stream Elective 2",
                 "credits": 3
               },
               {
                 "code": "CHIS-ELEC3",
                 "title": "Stream Elective 3",
-                "credits": 3
-              },
-              {
-                "code": "CHIS-ELEC4",
-                "title": "Stream Elective 4",
                 "credits": 3
               },
               {
@@ -582,7 +598,7 @@
               },
               {
                 "code": "CAH3133",
-                "title": "Introduction to Chinese Documentology",
+                "title": "Introduction to Chinese Documentology (or History Stream Core)",
                 "credits": 3
               }
             ],
@@ -592,7 +608,7 @@
             "courses": [
               {
                 "code": "CAH4150",
-                "title": "Selected Readings in Chinese Shi and Ci",
+                "title": "Selected Readings in Chinese Shi and Ci (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -601,18 +617,18 @@
                 "credits": 3
               },
               {
-                "code": "CHIS-ELEC5",
-                "title": "Stream Elective 5",
+                "code": "CHIS-ELEC4",
+                "title": "Stream Elective 4",
                 "credits": 3
               },
               {
-                "code": "FREE2",
-                "title": "Free Elective 2",
+                "code": "FREE1",
+                "title": "Free Elective 1",
                 "credits": 3
               },
               {
                 "code": "CAH3131",
-                "title": "Classical Chinese",
+                "title": "Classical Chinese (or History Stream Core)",
                 "credits": 3
               }
             ],
@@ -623,8 +639,13 @@
           "semA": {
             "courses": [
               {
-                "code": "CHIS-ELEC6",
-                "title": "Stream Elective 6",
+                "code": "CHIS-ELEC5",
+                "title": "Stream Elective 5",
+                "credits": 3
+              },
+              {
+                "code": "CHIS-ELEC7",
+                "title": "Chinese Stream Elective",
                 "credits": 3
               },
               {
@@ -636,11 +657,6 @@
                 "code": "FREE4",
                 "title": "Free Elective 4",
                 "credits": 3
-              },
-              {
-                "code": "FREE5",
-                "title": "Free Elective 5",
-                "credits": 3
               }
             ],
             "credits": 12
@@ -648,13 +664,13 @@
           "semB": {
             "courses": [
               {
-                "code": "CAH4499",
-                "title": "Capstone Project (continued)",
-                "credits": 0
+                "code": "CHIS-ELEC6",
+                "title": "Stream Elective 6",
+                "credits": 3
               },
               {
-                "code": "CHIS-ELEC7",
-                "title": "Stream Elective 7",
+                "code": "FREE5",
+                "title": "Free Elective 5",
                 "credits": 3
               },
               {
@@ -665,11 +681,6 @@
               {
                 "code": "FREE7",
                 "title": "Free Elective 7",
-                "credits": 3
-              },
-              {
-                "code": "FREE8",
-                "title": "Free Elective 8",
                 "credits": 3
               },
               {
@@ -724,7 +735,14 @@
         "CAH4399",
         "CAH4599",
         "CAI4001"
-      ]
+      ],
+      "totalCredits": 121,
+      "studyPlanStatus": "structure",
+      "studyPlanSourceTitle": "BA Chinese and History Study Plan (2025/26)",
+      "studyPlanSourceUrl": "https://www.cah.cityu.edu.hk/programmes-courses/undergraduate/undergraduate-degree/bachis-2024-cohorts/study_plan",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "History",
@@ -867,22 +885,27 @@
                 "code": "CAH2612",
                 "title": "Introduction to Sinology",
                 "credits": 3
+              },
+              {
+                "code": "COL-FOUND-SS",
+                "title": "College Foundation Course: Social Sciences",
+                "credits": 3
               }
             ],
-            "credits": 15
+            "credits": 18
           }
         },
         "year2": {
           "semA": {
             "courses": [
               {
-                "code": "CAH2509",
-                "title": "History and Heritage",
+                "code": "CAH2140",
+                "title": "Modern Chinese Literature (or History Stream Core)",
                 "credits": 3
               },
               {
-                "code": "CAH2536",
-                "title": "Intangible Heritages and Indigenous Cultures",
+                "code": "CAH2141",
+                "title": "History of Chinese Literature (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -906,8 +929,8 @@
           "semB": {
             "courses": [
               {
-                "code": "CAH2812",
-                "title": "Early and Imperial China",
+                "code": "CAH2142",
+                "title": "Introduction to Literary Theory and Criticism (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -926,8 +949,8 @@
                 "credits": 3
               },
               {
-                "code": "CAH2501",
-                "title": "Art and Visual Culture",
+                "code": "CAH2812",
+                "title": "Early and Imperial China",
                 "credits": 3
               }
             ],
@@ -938,13 +961,13 @@
           "semA": {
             "courses": [
               {
-                "code": "CAH3542",
-                "title": "Museum Studies",
+                "code": "CAH3110",
+                "title": "Readings in Pre-Qin Confucianism and Daoism (or History Stream Core)",
                 "credits": 3
               },
               {
-                "code": "CAH4802",
-                "title": "Chinese Historical Methods",
+                "code": "CAH3132",
+                "title": "Chinese Philology (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -963,8 +986,8 @@
                 "credits": 3
               },
               {
-                "code": "CAH4842",
-                "title": "History of the Modern World",
+                "code": "CAH3133",
+                "title": "Introduction to Chinese Documentology (or History Stream Core)",
                 "credits": 3
               }
             ],
@@ -973,8 +996,8 @@
           "semB": {
             "courses": [
               {
-                "code": "CAH4813",
-                "title": "History of the Ancient World",
+                "code": "CAH4150",
+                "title": "Selected Readings in Chinese Shi and Ci (or History Stream Core)",
                 "credits": 3
               },
               {
@@ -993,8 +1016,8 @@
                 "credits": 3
               },
               {
-                "code": "CAH3511",
-                "title": "Hong Kong's Culture and Heritage",
+                "code": "CAH3131",
+                "title": "Classical Chinese (or History Stream Core)",
                 "credits": 3
               }
             ],
@@ -1029,11 +1052,6 @@
           },
           "semB": {
             "courses": [
-              {
-                "code": "CAH4499",
-                "title": "Capstone Project (continued)",
-                "credits": 0
-              },
               {
                 "code": "CHIS-ELEC6",
                 "title": "Stream Elective 6",
@@ -1119,7 +1137,21 @@
         "CAH4399",
         "CAH4599",
         "CAI4001"
-      ]
+      ],
+      "totalCredits": 121,
+      "studyPlanStatus": "structure",
+      "studyPlanSourceTitle": "BA Chinese and History Study Plan (2025/26)",
+      "studyPlanSourceUrl": "https://www.cah.cityu.edu.hk/programmes-courses/undergraduate/undergraduate-degree/bachis-2024-cohorts/study_plan",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
-  ]
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "BA Chinese and History Study Plan (2025/26)",
+  "studyPlanSourceUrl": "https://www.cah.cityu.edu.hk/programmes-courses/undergraduate/undergraduate-degree/bachis-2024-cohorts/study_plan",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_CHIS-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": []
 }

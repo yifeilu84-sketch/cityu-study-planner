@@ -382,7 +382,9 @@
     "SS4296",
     "LW4658",
     "SS4718",
-    "LW4616"
+    "LW4616",
+    "FREE1",
+    "FREE2"
   ],
   "studyPlanStatus": "official",
   "studyPlan": {
@@ -719,5 +721,10 @@
   },
   "notes": [
     "Source: SS Student Handbook 2025-26, Recommended Study Guide of Normative 5-year Double Degree (DBSSLLB-2025)."
-  ]
+  ],
+  "studyPlanSourceTitle": "BSS Crime Science and LLB official five-year study plan",
+  "studyPlanSourceUrl": "https://ssweb.cityu.edu.hk/-/media/project/cityuhk/academic/ssweb/study/studenthandbook_ss.pdf?rev=ae1e568fa39f416ab8e81534ecd07a1e&hash=763A6C46669FB50D520159D556145D79",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/DoubleDegree/DBSSLLB_D007-0.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

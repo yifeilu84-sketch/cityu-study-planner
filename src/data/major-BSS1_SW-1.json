@@ -52,7 +52,11 @@
     "SS4217",
     "SS4225",
     "SS4226",
-    "SS4227"
+    "SS4227",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "GE2401"
   ],
   "studyPlan": {
     "year1": {
@@ -75,27 +79,32 @@
           },
           {
             "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           },
           {
             "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
+            "title": "Whole-Person Development",
             "credits": 1
+          },
+          {
+            "code": "COL-LIB",
+            "title": "College Foundation Course: Liberal Arts",
+            "credits": 3
           }
         ],
-        "credits": 13
+        "credits": 16
       },
       "semB": {
         "courses": [
           {
-            "code": "COL-LIB",
-            "title": "College Foundation - Liberal Arts Studies",
+            "code": "SS1024",
+            "title": "Social Issues and Problems",
             "credits": 3
           },
           {
             "code": "COL-SS",
-            "title": "College Foundation - Social Sciences Studies",
+            "title": "College Foundation Course: Social Sciences",
             "credits": 3
           },
           {
@@ -105,12 +114,12 @@
           },
           {
             "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "SS1024",
-            "title": "Social Problems and Interventions",
+            "code": "GE-COL1",
+            "title": "GE / College Elective",
             "credits": 3
           }
         ],
@@ -141,13 +150,13 @@
             "credits": 1
           },
           {
-            "code": "SW-ELEC1",
-            "title": "Social Work Major Elective (Area 1 or 2)",
+            "code": "SW-ELECTIVE1",
+            "title": "Social Work Elective",
             "credits": 3
           },
           {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -167,7 +176,7 @@
           },
           {
             "code": "SS2201",
-            "title": "Interpersonal Communication and Counseling Skills Laboratory",
+            "title": "Interpersonal Communication and Counselling Skills Laboratory",
             "credits": 3
           },
           {
@@ -194,7 +203,7 @@
           },
           {
             "code": "SS2202",
-            "title": "Community Organizing Skills Laboratory",
+            "title": "Community Organising Skills Laboratory",
             "credits": 3
           },
           {
@@ -211,9 +220,14 @@
             "code": "SS4210",
             "title": "Mental Health and Social Work",
             "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
           }
         ],
-        "credits": 13
+        "credits": 16
       },
       "semB": {
         "courses": [
@@ -223,13 +237,13 @@
             "credits": 8
           },
           {
-            "code": "SW-ELEC2",
-            "title": "Social Work Major Elective (Area 1 or 2)",
+            "code": "SW-ELECTIVE2",
+            "title": "Social Work Elective",
             "credits": 3
           },
           {
-            "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -250,8 +264,8 @@
             "credits": 8
           },
           {
-            "code": "SW-ELEC3",
-            "title": "Social Work Major Elective (Area 1 or 2)",
+            "code": "SW-ELECTIVE3",
+            "title": "Social Work Elective",
             "credits": 3
           }
         ],
@@ -275,18 +289,25 @@
             "credits": 3
           },
           {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
+            "code": "GE-COL2",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
-            "code": "FREE1",
-            "title": "Free Elective 1",
+            "code": "GE-COL3",
+            "title": "GE / College Elective",
             "credits": 3
           }
         ],
         "credits": 15
       }
     }
-  }
+  },
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "CLASS Student Handbook: Social Work Recommended Study Plan",
+  "studyPlanSourceUrl": "https://ssweb.cityu.edu.hk/-/media/project/cityuhk/academic/ssweb/study/studenthandbook_ss.pdf?rev=ae1e568fa39f416ab8e81534ecd07a1e&hash=763A6C46669FB50D520159D556145D79",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_SW-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": []
 }

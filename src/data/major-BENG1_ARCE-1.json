@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Architectural Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ARCE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Architecture and Civil Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -205,7 +205,16 @@
     "CA4727",
     "CA4728",
     "CA4737",
-    "CA4738"
+    "CA4738",
+    "MA1200",
+    "GE1401",
+    "GE1601",
+    "MA1201",
+    "GE1501",
+    "GE2410",
+    "GE",
+    "FREE",
+    "CA2066"
   ],
   "studyPlan": {
     "year1": {
@@ -386,8 +395,8 @@
             "credits": 3
           },
           {
-            "code": "ARCE-ELECTIVE1",
-            "title": "ARCE-ELECTIVE1",
+            "code": "CA3793",
+            "title": "System Modelling for Architectural Engineering",
             "credits": 3
           },
           {
@@ -467,5 +476,11 @@
     "Common First Year with Civil Engineering and Architecture and Surveying.",
     "CA4749 Final Year Project is a 2-semester course (6 CUs total).",
     "Select FOUR electives from the approved list."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "ACE Student Handbook 2025/26: Architectural Engineering Suggested Study Schedule",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/ace/-/media/project/cityuhk/academic/ace/studentlan/ace2526student%20handbookbdegca%20studentv6.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ARCE-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

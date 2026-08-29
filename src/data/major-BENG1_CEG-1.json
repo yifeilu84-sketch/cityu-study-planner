@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Civil Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CEG-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Architecture and Civil Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -218,7 +218,15 @@
     "CA4457",
     "CA4710",
     "CA4718",
-    "CA4728"
+    "CA4728",
+    "MA1200",
+    "GE1401",
+    "GE1601",
+    "MA1201",
+    "GE1501",
+    "GE2410",
+    "GE",
+    "CA2066"
   ],
   "studyPlan": {
     "year1": {
@@ -646,7 +654,324 @@
           "credits": 12,
           "note": "Or Minor courses"
         }
-      }
+      },
+      "totalCredits": 121,
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "MA1200",
+                "title": "MA1200",
+                "credits": 3
+              },
+              {
+                "code": "CS1302",
+                "title": "CS1302",
+                "credits": 3
+              },
+              {
+                "code": "PHY1201",
+                "title": "PHY1201",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "CA1167",
+                "title": "CA1167",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "MA1201",
+                "title": "MA1201",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA2066",
+                "title": "CA2066",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA2169",
+                "title": "CA2169",
+                "credits": 3
+              },
+              {
+                "code": "CA2673",
+                "title": "CA2673",
+                "credits": 3
+              },
+              {
+                "code": "CA2675",
+                "title": "CA2675",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              },
+              {
+                "code": "CA3704",
+                "title": "CA3704",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA2560",
+                "title": "CA2560",
+                "credits": 3
+              },
+              {
+                "code": "CA2676",
+                "title": "CA2676",
+                "credits": 3
+              },
+              {
+                "code": "CA3677",
+                "title": "CA3677",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              },
+              {
+                "code": "CA3122",
+                "title": "CA3122",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA3144",
+                "title": "CA3144",
+                "credits": 3
+              },
+              {
+                "code": "CA3619",
+                "title": "CA3619",
+                "credits": 3
+              },
+              {
+                "code": "CA3632",
+                "title": "CA3632",
+                "credits": 3
+              },
+              {
+                "code": "CA3687",
+                "title": "CA3687",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA3168",
+                "title": "CA3168",
+                "credits": 3
+              },
+              {
+                "code": "CA3633",
+                "title": "CA3633",
+                "credits": 3
+              },
+              {
+                "code": "CA3634",
+                "title": "CA3634",
+                "credits": 3
+              },
+              {
+                "code": "CA3686",
+                "title": "CA3686",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE1",
+                "title": "CEG-ELECTIVE1",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA4516",
+                "title": "CA4516",
+                "credits": 3
+              },
+              {
+                "code": "CA4526",
+                "title": "CA4526",
+                "credits": 3
+              },
+              {
+                "code": "CA4665",
+                "title": "CA4665",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE2",
+                "title": "CEG-ELECTIVE2",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE3",
+                "title": "CEG-ELECTIVE3",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA4516",
+                "title": "CA4516",
+                "credits": 3
+              },
+              {
+                "code": "CA4682",
+                "title": "CA4682",
+                "credits": 3
+              },
+              {
+                "code": "CA4708",
+                "title": "CA4708",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE4",
+                "title": "CEG-ELECTIVE4",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "ACE Student Handbook 2025/26: Civil Engineering Suggested Study Schedule",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/ace/-/media/project/cityuhk/academic/ace/studentlan/ace2526student%20handbookbdegca%20studentv6.pdf",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CEG-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30",
+      "allCourses": [
+        "CS1302",
+        "PHY1201",
+        "CA1167",
+        "CA2560",
+        "CA2673",
+        "CA2674",
+        "CA2675",
+        "CA2676",
+        "CA3122",
+        "CA3144",
+        "CA3168",
+        "CA3619",
+        "CA3632",
+        "CA3633",
+        "CA3634",
+        "CA3677",
+        "CA3686",
+        "CA3687",
+        "CA3704",
+        "CA4708",
+        "CA4516",
+        "CA4526",
+        "CA4665",
+        "CA4682",
+        "CA2169",
+        "SEE2201",
+        "CA2505",
+        "CA2506",
+        "CA3401",
+        "CA3691",
+        "CA4423",
+        "CA4617",
+        "CA4644",
+        "CA4679",
+        "CA4709",
+        "CA3342",
+        "CA3707",
+        "CA4190",
+        "CA4191",
+        "CA4192",
+        "CA4424",
+        "CA4457",
+        "CA4710",
+        "CA4718",
+        "CA4728",
+        "MA1200",
+        "GE1401",
+        "GE1601",
+        "MA1201",
+        "GE1501",
+        "GE2410",
+        "GE",
+        "CA2066"
+      ]
     },
     {
       "code": "Infra",
@@ -818,7 +1143,324 @@
           "credits": 12,
           "note": "Or Minor courses"
         }
-      }
+      },
+      "totalCredits": 121,
+      "studyPlan": {
+        "year1": {
+          "semA": {
+            "courses": [
+              {
+                "code": "MA1200",
+                "title": "MA1200",
+                "credits": 3
+              },
+              {
+                "code": "CS1302",
+                "title": "CS1302",
+                "credits": 3
+              },
+              {
+                "code": "PHY1201",
+                "title": "PHY1201",
+                "credits": 3
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "CA1167",
+                "title": "CA1167",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 16
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "MA1201",
+                "title": "MA1201",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "CA2066",
+                "title": "CA2066",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year2": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA2169",
+                "title": "CA2169",
+                "credits": 3
+              },
+              {
+                "code": "CA2673",
+                "title": "CA2673",
+                "credits": 3
+              },
+              {
+                "code": "CA2675",
+                "title": "CA2675",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              },
+              {
+                "code": "CA3704",
+                "title": "CA3704",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA2560",
+                "title": "CA2560",
+                "credits": 3
+              },
+              {
+                "code": "CA2676",
+                "title": "CA2676",
+                "credits": 3
+              },
+              {
+                "code": "CA3677",
+                "title": "CA3677",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              },
+              {
+                "code": "CA3122",
+                "title": "CA3122",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year3": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA3144",
+                "title": "CA3144",
+                "credits": 3
+              },
+              {
+                "code": "CA3619",
+                "title": "CA3619",
+                "credits": 3
+              },
+              {
+                "code": "CA3632",
+                "title": "CA3632",
+                "credits": 3
+              },
+              {
+                "code": "CA3687",
+                "title": "CA3687",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA3168",
+                "title": "CA3168",
+                "credits": 3
+              },
+              {
+                "code": "CA3633",
+                "title": "CA3633",
+                "credits": 3
+              },
+              {
+                "code": "CA3634",
+                "title": "CA3634",
+                "credits": 3
+              },
+              {
+                "code": "CA3686",
+                "title": "CA3686",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE1",
+                "title": "CEG-ELECTIVE1",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        },
+        "year4": {
+          "semA": {
+            "courses": [
+              {
+                "code": "CA4516",
+                "title": "CA4516",
+                "credits": 3
+              },
+              {
+                "code": "CA4526",
+                "title": "CA4526",
+                "credits": 3
+              },
+              {
+                "code": "CA4665",
+                "title": "CA4665",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE2",
+                "title": "CEG-ELECTIVE2",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE3",
+                "title": "CEG-ELECTIVE3",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          },
+          "semB": {
+            "courses": [
+              {
+                "code": "CA4516",
+                "title": "CA4516",
+                "credits": 3
+              },
+              {
+                "code": "CA4682",
+                "title": "CA4682",
+                "credits": 3
+              },
+              {
+                "code": "CA4708",
+                "title": "CA4708",
+                "credits": 3
+              },
+              {
+                "code": "CEG-ELECTIVE4",
+                "title": "CEG-ELECTIVE4",
+                "credits": 3
+              },
+              {
+                "code": "GE",
+                "title": "Gateway Education Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
+          }
+        }
+      },
+      "studyPlanStatus": "official",
+      "studyPlanSourceTitle": "ACE Student Handbook 2025/26: Civil Engineering Suggested Study Schedule",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/ace/-/media/project/cityuhk/academic/ace/studentlan/ace2526student%20handbookbdegca%20studentv6.pdf",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CEG-1.htm",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30",
+      "allCourses": [
+        "CS1302",
+        "PHY1201",
+        "CA1167",
+        "CA2560",
+        "CA2673",
+        "CA2674",
+        "CA2675",
+        "CA2676",
+        "CA3122",
+        "CA3144",
+        "CA3168",
+        "CA3619",
+        "CA3632",
+        "CA3633",
+        "CA3634",
+        "CA3677",
+        "CA3686",
+        "CA3687",
+        "CA3704",
+        "CA4708",
+        "CA4516",
+        "CA4526",
+        "CA4665",
+        "CA4682",
+        "CA2169",
+        "SEE2201",
+        "CA2505",
+        "CA2506",
+        "CA3401",
+        "CA3691",
+        "CA4423",
+        "CA4617",
+        "CA4644",
+        "CA4679",
+        "CA4709",
+        "CA3342",
+        "CA3707",
+        "CA4190",
+        "CA4191",
+        "CA4192",
+        "CA4424",
+        "CA4457",
+        "CA4710",
+        "CA4718",
+        "CA4728",
+        "MA1200",
+        "GE1401",
+        "GE1601",
+        "MA1201",
+        "GE1501",
+        "GE2410",
+        "GE",
+        "CA2066"
+      ]
     }
   ],
   "notes": [
@@ -826,5 +1468,12 @@
     "Common First Year with Architectural Engineering and Architecture and Surveying.",
     "CA4516 Final Year Project is a 2-semester course (6 CUs total).",
     "Select THREE stream-specific elective courses in Year 3-4."
-  ]
+  ],
+  "defaultStreamCode": "Structural",
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "ACE Student Handbook 2025/26: Civil Engineering Suggested Study Schedule",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/ace/-/media/project/cityuhk/academic/ace/studentlan/ace2526student%20handbookbdegca%20studentv6.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CEG-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

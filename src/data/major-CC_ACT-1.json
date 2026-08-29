@@ -217,7 +217,78 @@
     "CS4485",
     "CS4552",
     "MA2172",
-    "SDSC3026"
+    "SDSC3026",
+    "CS2117",
+    "CS2612",
+    "CS3104",
+    "CS4101",
+    "CS4191",
+    "CS4192",
+    "SDSC1001",
+    "MA2508",
+    "MA2510",
+    "SDSC2001",
+    "SDSC2002",
+    "SDSC2004",
+    "SDSC2005",
+    "SDSC2102",
+    "CS2334",
+    "CS3273",
+    "SDSC3001",
+    "SDSC3006",
+    "SDSC3007",
+    "SDSC3025",
+    "SDSC4116",
+    "GE2339",
+    "IS2505",
+    "LT3233",
+    "SDSC3002",
+    "SDSC3003",
+    "SDSC3004",
+    "SDSC3005",
+    "SDSC3008",
+    "SDSC3009",
+    "SDSC3010",
+    "SDSC3011",
+    "SDSC3013",
+    "SDSC3014",
+    "SDSC3015",
+    "SDSC3016",
+    "SDSC3017",
+    "SDSC3018",
+    "SDSC3019",
+    "SDSC3022",
+    "SDSC3023",
+    "SDSC3060",
+    "SDSC3105",
+    "COM4511",
+    "SDSC4001",
+    "SDSC4008",
+    "SDSC4009",
+    "SDSC4010",
+    "SDSC4011",
+    "SDSC4016",
+    "SDSC4018",
+    "SDSC4019",
+    "SDSC4026",
+    "SDSC4070",
+    "SDSC4110",
+    "SDSC0001",
+    "SDSC0002",
+    "SDSC0003",
+    "SDSC0004",
+    "SDSC3080",
+    "PHY1201",
+    "SDSC3020",
+    "SDSC3027",
+    "SDSC3102",
+    "SDSC4021",
+    "SDSC4024",
+    "SDSC4051",
+    "SDSC4064",
+    "SDSC4103",
+    "SDSC4107",
+    "SDSC4109"
   ],
   "studyPlanStatus": "diy",
   "studyPlan": {
@@ -559,7 +630,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Computer Science.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "CYBE",
@@ -825,7 +901,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Cybersecurity.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "DSC",
@@ -969,7 +1050,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Data Science.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "DSE",
@@ -1106,10 +1192,21 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Data and Systems Engineering.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
   ],
   "notes": [
-    "ADMO lists ACT as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found."
-  ]
+    "ADMO lists ACT as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found.",
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+  ],
+  "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

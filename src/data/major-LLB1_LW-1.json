@@ -257,7 +257,11 @@
     "LW4681",
     "LW4683",
     "LW4684",
-    "JC2066"
+    "JC2066",
+    "GE1401",
+    "GE1601",
+    "GE2411",
+    "GE1501"
   ],
   "studyPlan": {
     "year1": {
@@ -317,9 +321,19 @@
             "code": "GE-DR",
             "title": "GE Course (Distributional Requirements)",
             "credits": 3
+          },
+          {
+            "code": "GE2411",
+            "title": "Legal English",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 18
       }
     },
     "year2": {
@@ -436,9 +450,14 @@
             "code": "GE-DR",
             "title": "GE Course (Distributional Requirements)",
             "credits": 3
+          },
+          {
+            "code": "LAW-FLEXIBLE",
+            "title": "Law / Gateway Education / Free Elective",
+            "credits": 3
           }
         ],
-        "credits": 9
+        "credits": 12
       },
       "summer": {
         "courses": [
@@ -519,6 +538,13 @@
     "Major requirements: 21 core law courses (63 CUs) + Law electives (18 CUs).",
     "Students are advised to take Law electives from Year 2 onwards.",
     "Students who go on exchange can exceptionally do core courses concurrently in Year 3 and Year 4.",
-    "G-LEAP / LW4612 Legal Placement (3 CUs) can be taken in Summer of Year 2 or Year 3."
-  ]
+    "G-LEAP / LW4612 Legal Placement (3 CUs) can be taken in Summer of Year 2 or Year 3.",
+    "The official source is a programme structure rather than a compulsory semester schedule. Flexible LAW/GE slots remain editable and must be checked against current course offerings."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "Bachelor of Laws Student Handbook 2025/26: Programme Structure and Suggested Study Plan",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/slw/-/media/project/cityuhk/academic/slw/current-students/teaching-resources/student-handbooks/llb-handbook-2025-26-for-2025-cohort_cleared-and-confirmed.pdf?hash=12D7C7FD050C14CAC533C1DF9F27FE74&rev=882ff9bd0fcc48f598f803b3a3cd3aa1",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/LLB1_LW-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

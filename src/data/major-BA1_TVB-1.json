@@ -2,10 +2,10 @@
   "code": "BA1_TVB-1",
   "title": "Bachelor of Arts in Digital Television and Broadcasting",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
-  "studyPlanStatus": "derived",
+  "studyPlanStatus": "diy",
   "notes": [
-    "Study plan is derived from official graduation/catalogue requirements; no separate official semester-by-semester recommended study plan was confirmed on the official website.",
-    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits."
+    "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits.",
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
   ],
   "degree": "Bachelor of Arts",
   "totalCredits": 120,
@@ -82,251 +82,64 @@
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [
-          {
-            "code": "GE1401",
-            "title": "University English",
-            "credits": 3
-          },
-          {
-            "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
-            "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole-Person Development",
-            "credits": 1
-          },
-          {
-            "code": "COL-FOUND1",
-            "title": "College Foundation Course 1",
-            "credits": 3
-          },
-          {
-            "code": "COL-SPEC1",
-            "title": "College-specified Course 1",
-            "credits": 3
-          },
-          {
-            "code": "COM2105",
-            "title": "Visual Communication",
-            "credits": 3
-          }
-        ],
-        "credits": 16
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "GE2412",
-            "title": "English for the Humanities and Social Sciences",
-            "credits": 3
-          },
-          {
-            "code": "COL-FOUND2",
-            "title": "College Foundation Course 2",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
-            "credits": 3
-          },
-          {
-            "code": "COL-SPEC2",
-            "title": "College-specified Course 2",
-            "credits": 3
-          },
-          {
-            "code": "COM2118",
-            "title": "Media and Society",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year2": {
       "semA": {
-        "courses": [
-          {
-            "code": "COM2302",
-            "title": "Video Editing for Mass Communication",
-            "credits": 3
-          },
-          {
-            "code": "COM2202",
-            "title": "Writing for the Media",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
-            "credits": 3
-          },
-          {
-            "code": "COL-REQ1",
-            "title": "College Requirement 1",
-            "credits": 3
-          },
-          {
-            "code": "TVB-ELEC1",
-            "title": "TVB Major Elective 1",
-            "credits": 3
-          },
-          {
-            "code": "COM3119",
-            "title": "International Communication",
-            "credits": 3
-          }
-        ],
-        "credits": 18
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "COM3115",
-            "title": "Communication Law and Ethics",
-            "credits": 3
-          },
-          {
-            "code": "COM4306",
-            "title": "Television News Reporting",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
-            "credits": 3
-          },
-          {
-            "code": "TVB-ELEC2",
-            "title": "TVB Major Elective 2",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year3": {
       "semA": {
-        "courses": [
-          {
-            "code": "COM3209",
-            "title": "Digital Photojournalism",
-            "credits": 3
-          },
-          {
-            "code": "SM1014",
-            "title": "Sound Basics and Design",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
-            "credits": 3
-          },
-          {
-            "code": "TVB-ELEC3",
-            "title": "TVB Major Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "FREE1",
-            "title": "Free Elective 1",
-            "credits": 3
-          },
-          {
-            "code": "COM4307",
-            "title": "Television News Production and Anchoring",
-            "credits": 3
-          }
-        ],
-        "credits": 18
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "COM2116",
-            "title": "Audience Analysis and Media Strategies",
-            "credits": 3
-          },
-          {
-            "code": "COM4305",
-            "title": "Current Affairs Documentary Production",
-            "credits": 3
-          },
-          {
-            "code": "TVB-ELEC4",
-            "title": "TVB Major Elective 4",
-            "credits": 3
-          },
-          {
-            "code": "FREE2",
-            "title": "Free Elective 2",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year4": {
       "semA": {
-        "courses": [
-          {
-            "code": "COM4309",
-            "title": "Radio News Production",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR5",
-            "title": "Gateway Education (Area 5)",
-            "credits": 3
-          },
-          {
-            "code": "FREE3",
-            "title": "Free Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "FREE4",
-            "title": "Free Elective 4",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "TVB-ELEC5",
-            "title": "TVB Major Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "FREE5",
-            "title": "Free Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "FREE6",
-            "title": "Free Elective 6",
-            "credits": 3
-          },
-          {
-            "code": "FREE7",
-            "title": "Free Elective 7",
-            "credits": 3
-          },
-          {
-            "code": "COM4308",
-            "title": "Television News Practicum",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     }
-  }
+  },
+  "studyPlanSourceTitle": "BA Digital Television and Broadcasting official graduation requirements",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

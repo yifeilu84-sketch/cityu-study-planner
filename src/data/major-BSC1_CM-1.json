@@ -237,7 +237,22 @@
     "EF4821",
     "MA3510",
     "MA4510",
-    "MGT2324"
+    "MGT2324",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "MA1300",
+    "CS1302",
+    "GE2401",
+    "MA1301",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7",
+    "FREE8"
   ],
   "studyPlan": {
     "year1": {
@@ -508,5 +523,14 @@
         "credits": 12
       }
     }
-  }
+  },
+  "notes": [
+    "The official normative schedule totals 124 planned CU against a 122-CU minimum. MA4530 is a 6-CU year-long project shown as 3 CU in each final-year semester and must not be treated as a duplicate."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "BSc Computing Mathematics Normative 4-Year Degree (2025 entry)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/ma/programmes/undergraduate/bsc-computing-mathematics/curriculum/10991",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CM-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

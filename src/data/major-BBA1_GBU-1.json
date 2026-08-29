@@ -199,7 +199,13 @@
     "IS2505",
     "MGT4307",
     "MKT4628",
-    "MKT4636"
+    "MKT4636",
+    "GE1401",
+    "GE1601",
+    "GE2402",
+    "CB2240",
+    "CB2203",
+    "GE1501"
   ],
   "studyPlan": {
     "year1": {
@@ -207,17 +213,22 @@
         "courses": [
           {
             "code": "CB2100",
-            "title": "CB2100",
+            "title": "Introduction to Financial Accounting",
             "credits": 3
           },
           {
             "code": "CB2601",
-            "title": "CB2601",
+            "title": "Marketing",
             "credits": 3
           },
           {
             "code": "CB2300",
-            "title": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2200",
+            "title": "Business Statistics",
             "credits": 3
           },
           {
@@ -227,13 +238,8 @@
           },
           {
             "code": "GE1601",
-            "title": "GE1601",
+            "title": "Whole-Person Development",
             "credits": 1
-          },
-          {
-            "code": "CHIN1001",
-            "title": "University Chinese I",
-            "credits": 3
           }
         ],
         "credits": 16
@@ -242,31 +248,36 @@
         "courses": [
           {
             "code": "CB2201",
-            "title": "CB2201",
+            "title": "Operations Management",
             "credits": 3
           },
           {
             "code": "CB2400",
-            "title": "CB2400",
+            "title": "Microeconomics",
             "credits": 3
           },
           {
             "code": "CB2500",
-            "title": "CB2500",
+            "title": "Information Management",
             "credits": 3
           },
           {
-            "code": "CB2200",
-            "title": "CB2200",
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
             "code": "GE2402",
             "title": "English for Business Communication",
             "credits": 3
+          },
+          {
+            "code": "CB3601",
+            "title": "Global Perspectives on Contemporary Issues",
+            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
       }
     },
     "year2": {
@@ -274,27 +285,27 @@
         "courses": [
           {
             "code": "CB3302",
-            "title": "CB3302",
+            "title": "International Corporate Social Responsibility",
             "credits": 3
           },
           {
             "code": "CB3645",
-            "title": "CB3645",
+            "title": "Marketing Research",
+            "credits": 3
+          },
+          {
+            "code": "CB3042",
+            "title": "China Business Environment",
+            "credits": 3
+          },
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
             "credits": 3
           },
           {
             "code": "CB2240",
             "title": "Introduction to Business Programming in Python",
-            "credits": 3
-          },
-          {
-            "code": "COLLEGE-ELECT",
-            "title": "COLLEGE-ELECT",
-            "credits": 3
-          },
-          {
-            "code": "GE",
-            "title": "GE",
             "credits": 3
           }
         ],
@@ -304,27 +315,27 @@
         "courses": [
           {
             "code": "CB3410",
-            "title": "CB3410",
+            "title": "Financial Management",
             "credits": 3
           },
           {
             "code": "CB3041",
-            "title": "CB3041",
+            "title": "Financial Statement Analysis",
             "credits": 3
           },
           {
-            "code": "CB2101",
-            "title": "CB2101",
+            "code": "SECOND-MAJOR1",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "COLLEGE-ELECT",
-            "title": "COLLEGE-ELECT",
+            "code": "SECOND-MAJOR2",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "GE-COL1",
+            "title": "Gateway Education / College Elective",
             "credits": 3
           }
         ],
@@ -336,27 +347,27 @@
         "courses": [
           {
             "code": "CB2402",
-            "title": "CB2402",
+            "title": "Macroeconomics",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Global Business Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "SECOND-MAJOR3",
+            "title": "Second Major Course",
+            "credits": 3
+          },
+          {
+            "code": "SECOND-MAJOR4",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
             "code": "CB2203",
             "title": "Data-driven Business Modeling",
-            "credits": 3
-          },
-          {
-            "code": "MAJOR-ELECT",
-            "title": "MAJOR-ELECT",
-            "credits": 3
-          },
-          {
-            "code": "SECOND-MAJOR",
-            "title": "SECOND-MAJOR",
-            "credits": 3
-          },
-          {
-            "code": "GE",
-            "title": "GE",
             "credits": 3
           }
         ],
@@ -365,28 +376,28 @@
       "semB": {
         "courses": [
           {
-            "code": "MAJOR-ELECT",
-            "title": "MAJOR-ELECT",
+            "code": "MAJOR-ELECTIVE2",
+            "title": "Global Business Major Elective",
             "credits": 3
           },
           {
-            "code": "SECOND-MAJOR",
-            "title": "SECOND-MAJOR",
+            "code": "SECOND-MAJOR5",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "SECOND-MAJOR6",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "CB4605",
-            "title": "CB4605",
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -397,23 +408,29 @@
       "semA": {
         "courses": [
           {
+            "code": "SECOND-MAJOR7",
+            "title": "Second Major Course",
+            "credits": 3
+          },
+          {
             "code": "CB4601",
-            "title": "CB4601",
+            "title": "Global Marketing",
             "credits": 3
           },
           {
-            "code": "SECOND-MAJOR",
-            "title": "SECOND-MAJOR",
+            "code": "CB4604",
+            "title": "Global Business Consultancy Project",
             "credits": 3
           },
           {
-            "code": "COLLEGE-ELECT",
-            "title": "COLLEGE-ELECT",
-            "credits": 3
+            "code": "SECOND-MAJOR-OVERLAP",
+            "title": "Second Major / GBU overlap (credit counted once)",
+            "credits": 0,
+            "remarks": "The official grid is 124 CU before overlap accounting. The degree minimum is 121 CU because one selected course may fulfil both requirement structures but is counted once."
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -423,27 +440,27 @@
         "courses": [
           {
             "code": "CB4303",
-            "title": "CB4303",
+            "title": "Strategic Management",
             "credits": 3
           },
           {
-            "code": "SECOND-MAJOR",
-            "title": "SECOND-MAJOR",
+            "code": "SECOND-MAJOR8",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "GE",
-            "title": "GE",
+            "code": "SECOND-MAJOR9",
+            "title": "Second Major Course",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "FREE",
+            "code": "CB4606",
+            "title": "Social Innovation and Entrepreneurship Project",
             "credits": 3
           },
           {
-            "code": "CB4605",
-            "title": "CB4605",
+            "code": "GE-COL2",
+            "title": "Gateway Education / College Elective",
             "credits": 3
           }
         ],
@@ -456,6 +473,13 @@
     "Second Major: Major Core / Major Electives (30 CU).",
     "CB4605 is a two-semester (6 credits) course.",
     "Students are advised to go for exchange study in Sem 2B or 3A.",
-    "CB4604 Global Business Consultancy Project is an alternative to CB4605."
-  ]
+    "CB4604 Global Business Consultancy Project is an alternative to CB4605.",
+    "The official grid displays 124 CU of requirement placements. One 3-CU second-major/GBU overlap is represented as a zero-additional-credit placeholder so the planner matches the official 121-CU minimum and never double-counts it."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "BBA Global Business 4-Year Suggested Study Plan (Cohort 2025 and thereafter)",
+  "studyPlanSourceUrl": "https://prog.cb.cityu.edu.hk/uploads/2025-09/BBAGBU%20structure%20for%204-yr%20for%20cohort%202025%20(20250916).pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_GBU-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

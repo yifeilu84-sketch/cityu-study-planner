@@ -318,7 +318,7 @@
       ]
     },
     "majorElectives": {
-      "credits": 9,
+      "credits": 6,
       "courses": [
         {
           "code": "EVE-ELECTIVE",
@@ -331,7 +331,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 9
+      "chooseCredits": 6
     }
   },
   "allCourses": [
@@ -383,7 +383,9 @@
     "CB4303",
     "SEE4996",
     "SEE4001",
-    "SEE4204"
+    "SEE4204",
+    "GE-1",
+    "GE-2"
   ],
   "studyPlanStatus": "official",
   "studyPlan": {
@@ -620,9 +622,14 @@
             "code": "EVE-ELECTIVE",
             "title": "EVE Elective",
             "credits": 3
+          },
+          {
+            "code": "AC3390",
+            "title": "ESG and ESG Disclosure",
+            "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       },
       "semB": {
         "courses": [
@@ -650,14 +657,9 @@
             "code": "SEE4004",
             "title": "Environmental Impact Assessment for Sustainable Development",
             "credits": 4
-          },
-          {
-            "code": "AC3390",
-            "title": "ESG and ESG Disclosure",
-            "credits": 3
           }
         ],
-        "credits": 19
+        "credits": 16
       }
     },
     "year5": {
@@ -682,14 +684,9 @@
             "code": "GE-2",
             "title": "Gateway Education (Distributional Requirements)",
             "credits": 3
-          },
-          {
-            "code": "EVE-ELECTIVE2",
-            "title": "EVE Elective",
-            "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       },
       "semB": {
         "courses": [
@@ -720,5 +717,10 @@
   },
   "notes": [
     "Source: SEE EVEFIN Recommended Study Plan for 2025 cohort, last modified 10 April 2025."
-  ]
+  ],
+  "studyPlanSourceTitle": "BEng Environmental Science and Engineering and BBA Finance Recommended Study Plan (2025 cohort)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/see/programmes/undergraduate-programmes/student-advising-handbook",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/see/-/media/project/cityuhk/academic/see/programmes/undergraduate-programmes/student-advising-handbook/files/evefin-recommended-study-plan-2025-cohort.pdf",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

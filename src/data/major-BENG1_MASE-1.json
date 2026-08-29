@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Materials Science and Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MASE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Materials Science and Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -209,7 +209,18 @@
     "MSE4714",
     "MSE4715",
     "FS4002",
-    "FS4005"
+    "FS4005",
+    "GE1401",
+    "MA1200",
+    "GE1601",
+    "GE2410",
+    "MA1201",
+    "GE1501",
+    "FREE1",
+    "MSE2066",
+    "FREE2",
+    "FREE3",
+    "FREE4"
   ],
   "studyPlan": {
     "year1": {
@@ -232,7 +243,7 @@
           },
           {
             "code": "MSE1001",
-            "title": "Introduction to Materials Science and Engineering",
+            "title": "Programme Induction",
             "credits": 0
           },
           {
@@ -244,14 +255,9 @@
             "code": "GE1601",
             "title": "Whole-Person Development",
             "credits": 1
-          },
-          {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
-            "credits": 3
           }
         ],
-        "credits": 16
+        "credits": 13
       },
       "semB": {
         "courses": [
@@ -276,8 +282,8 @@
             "credits": 3
           },
           {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
@@ -289,27 +295,27 @@
         "courses": [
           {
             "code": "MA2001 / MA2158 / MA2181",
-            "title": "Multi-variable Calculus / Linear Algebra / Mathematical Methods",
+            "title": "Approved Mathematics Course",
             "credits": 3
           },
           {
             "code": "MSE2102",
-            "title": "MSE2102",
+            "title": "Introduction to Materials Science and Engineering",
             "credits": 3
           },
           {
             "code": "MSE2104",
-            "title": "MSE2104",
+            "title": "Mechanical Behaviour of Materials",
             "credits": 3
           },
           {
             "code": "MSE2106",
-            "title": "MSE2106",
+            "title": "Quantum Properties of Materials",
             "credits": 3
           },
           {
             "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           }
         ],
@@ -318,32 +324,47 @@
       "semB": {
         "courses": [
           {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
             "code": "MSE2107",
-            "title": "MSE2107",
+            "title": "Measurement Theory and Application",
             "credits": 3
           },
           {
             "code": "MSE2108",
-            "title": "MSE2108",
+            "title": "Materials Chemistry",
             "credits": 3
           },
           {
-            "code": "MSE2114",
-            "title": "Materials Science and Engineering Lab",
+            "code": "MSE2109",
+            "title": "Bonding and Structure of Materials",
             "credits": 3
           },
           {
             "code": "MSE3114",
-            "title": "MSE3114",
+            "title": "Fundamentals of Scientific Computing: a Course Powered by AI",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 18
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "MSE2243",
+            "title": "Workshop Practice",
+            "credits": 3
+          }
+        ],
+        "credits": 3
       }
     },
     "year3": {
@@ -351,26 +372,26 @@
         "courses": [
           {
             "code": "MSE3171",
-            "title": "MSE3171",
+            "title": "Materials Characterization",
             "credits": 3
           },
           {
             "code": "MSE3190",
-            "title": "MSE3190",
+            "title": "Thermodynamics of Materials",
             "credits": 3
           },
           {
             "code": "MSE3244",
-            "title": "MSE3244",
+            "title": "Design Laboratory",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Materials Science and Engineering Major Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
+            "code": "FREE1",
             "title": "Free Elective",
             "credits": 3
           }
@@ -381,27 +402,27 @@
         "courses": [
           {
             "code": "MSE3110",
-            "title": "MSE3110",
+            "title": "Deformation and Fracture",
             "credits": 3
           },
           {
             "code": "MSE3113",
-            "title": "MSE3113",
+            "title": "Soft Materials",
             "credits": 3
           },
           {
             "code": "MSE3172",
-            "title": "MSE3172",
+            "title": "Electronic Properties of Solids",
             "credits": 3
           },
           {
             "code": "MSE3195",
-            "title": "MSE3195",
+            "title": "Kinetics and Phase Transformations",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE2",
+            "title": "Materials Science and Engineering Major Elective",
             "credits": 3
           }
         ],
@@ -413,26 +434,27 @@
         "courses": [
           {
             "code": "MSE4116",
-            "title": "MSE4116",
-            "credits": 3
+            "title": "Dissertation",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "MSE2066",
-            "title": "Engineers in Society",
+            "title": "Materials Engineers in Society",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE3",
+            "title": "Materials Science and Engineering Major Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "Free Elective",
+            "code": "MAJOR-ELECTIVE4",
+            "title": "Materials Science and Engineering Major Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
+            "code": "FREE2",
             "title": "Free Elective",
             "credits": 3
           }
@@ -443,31 +465,27 @@
         "courses": [
           {
             "code": "MSE4116",
-            "title": "MSE4116",
-            "credits": 3
+            "title": "Dissertation",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
-            "code": "FREE",
+            "code": "FREE3",
             "title": "Free Elective",
             "credits": 3
           },
           {
-            "code": "FREE",
+            "code": "FREE4",
             "title": "Free Elective",
             "credits": 3
           },
           {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
-            "credits": 3
-          },
-          {
-            "code": "FREE",
-            "title": "Free Elective",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
   },
@@ -476,5 +494,11 @@
     "Major Electives: 2 electives required (6 CUs).",
     "FS4002 or FS4005 can be considered as an elective.",
     "Summer terms reserved for Go Global activities or internships."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Materials Science and Engineering Recommended Study Plan 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/mse/-/media/project/cityuhk/academic/mse/current-students/undergraduate/major/recommended-study-plan_bengegu4mase_2025-26.pdf?rev=98a601a068dd4595aa6de1855ad80e4d&hash=43181B16D6637FF8C22EEC23D1C7E471",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_MASE-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

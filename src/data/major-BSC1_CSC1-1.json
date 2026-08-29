@@ -217,7 +217,16 @@
     "CS4485",
     "CS4552",
     "MA2172",
-    "SDSC3026"
+    "SDSC3026",
+    "GE1401",
+    "GE1601",
+    "CS1302",
+    "GE2410",
+    "GE1501",
+    "GE-ELECTIVE",
+    "CS3402",
+    "JC2066",
+    "MAJOR-ELECTIVE"
   ],
   "studyPlan": {
     "year1": {
@@ -475,5 +484,11 @@
     "CS4514 Project is a year-long course spanning Year 4 Semester A and B.",
     "Major Electives: minimum 24 credit units from approved electives.",
     "Students may choose any of the streams by taking 3 courses of the selected stream and any 5 electives from the list."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Computer Science Normative 4-Year Study Schedule (Cohort 2025)",
+  "studyPlanSourceUrl": "https://www.cs.cityu.edu.hk/-/media/project/cityuhk/academic/cs/academic-programmes/bsccs/bscccu4-csc1-cohort-2025_nomative-4-yr_20260128---2526b.pdf?hash=C2658C66BF59F30178A406B61B4C0C2F&rev=877581094d084869b8f77e0cb9843691",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

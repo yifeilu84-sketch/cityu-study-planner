@@ -207,7 +207,17 @@
     "CS4298",
     "CS4552",
     "MA2172",
-    "SDSC3026"
+    "SDSC3026",
+    "GE1401",
+    "CS1302",
+    "GE1601",
+    "GE2410",
+    "GE1501",
+    "CS3402",
+    "GE-ELECTIVE",
+    "JC2066",
+    "MAJOR-ELECTIVE",
+    "EN4262"
   ],
   "studyPlan": {
     "year1": {
@@ -412,7 +422,7 @@
           {
             "code": "EN4262",
             "title": "English Communication Skills for Computing",
-            "credits": 3
+            "credits": 2
           },
           {
             "code": "DR-2",
@@ -430,7 +440,7 @@
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 14
       },
       "semB": {
         "courses": [
@@ -464,5 +474,11 @@
     "Students need to choose at least 2 Cybersecurity elective courses and then take any other 3 electives from the list.",
     "CS3505 IT Professional Internship: 9 credit units (6 in Sem A, 3 in Sem B).",
     "CS4514 Project is a year-long course spanning Year 4 Semester A and B."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Cybersecurity Normative 4-Year Study Plan (Cohort 2025)",
+  "studyPlanSourceUrl": "https://www.cs.cityu.edu.hk/-/media/project/cityuhk/academic/cs/pdf/bscegu4cybersecurity20cohort202025normal204yr20250807.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CYBE-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

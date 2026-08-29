@@ -170,7 +170,17 @@
     "SYE4008",
     "SYE4068",
     "SYE4068C",
-    "SYE4116"
+    "SYE4116",
+    "MA1200",
+    "GE1601",
+    "GE1401",
+    "GE1501",
+    "MA1201",
+    "GE2410",
+    "GE-ELECTIVE",
+    "SYE2066",
+    "MAJOR-ELECTIVE",
+    "FREE"
   ],
   "studyPlan": {
     "year1": {
@@ -442,5 +452,11 @@
     "Major Electives: 7 electives required (21 CUs).",
     "FS3002 Industrial Attachment Scheme (3 CUs) in Summer after Year 2.",
     "Total credits required = 121."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Innovation and Enterprise Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/sye/programme/2025-26_Student_Handbook-IEEG.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_IEEG-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

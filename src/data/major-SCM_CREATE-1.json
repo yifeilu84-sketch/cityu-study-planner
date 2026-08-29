@@ -206,7 +206,34 @@
     "SM2724C",
     "SM2724D",
     "SM2724E",
-    "SM2724F"
+    "SM2724F",
+    "SM4712B",
+    "SM2609",
+    "CS2116",
+    "CS2204",
+    "CS2303",
+    "CS2313",
+    "CS2403",
+    "CS3301",
+    "SM2233",
+    "SM3604",
+    "CS3189",
+    "CS3342",
+    "CS3343",
+    "CS3391",
+    "CS3481",
+    "CS3483",
+    "CS4182",
+    "CS4185",
+    "CS4186",
+    "CS4187",
+    "CS4188",
+    "CS4295",
+    "CS4298",
+    "CS4386",
+    "SM4712C",
+    "SM2715",
+    "JC2002"
   ],
   "studyPlanStatus": "diy",
   "studyPlan": {
@@ -537,7 +564,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Arts in Creative Media.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "BSC_CRM",
@@ -1333,7 +1365,12 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Science in Creative Media.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     },
     {
       "code": "BAS_NEM",
@@ -1600,10 +1637,21 @@
       "notes": [
         "DIY stream based on the graduation requirements of Bachelor of Arts and Science in New Media.",
         "No separate official semester-by-semester study plan was found for this flagship pathway."
-      ]
+      ],
+      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+      "lastVerified": "2026-08-30",
+      "studyPlanRevision": "ug-source-audit-2026-08-30"
     }
   ],
   "notes": [
-    "ADMO lists CREATE as a flagship pathway for Creative Media options; no separate official semester-by-semester study plan was found."
-  ]
+    "ADMO lists CREATE as a flagship pathway for Creative Media options; no separate official semester-by-semester study plan was found.",
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+  ],
+  "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

@@ -55,251 +55,68 @@
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [
-          {
-            "code": "SS1011",
-            "title": "Social Welfare Services and Issues",
-            "credits": 3
-          },
-          {
-            "code": "SS1101",
-            "title": "Basic Psychology",
-            "credits": 3
-          },
-          {
-            "code": "GE1401",
-            "title": "University English",
-            "credits": 3
-          },
-          {
-            "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
-            "credits": 3
-          },
-          {
-            "code": "COL-LIB",
-            "title": "College Foundation - Liberal Arts Studies",
-            "credits": 3
-          },
-          {
-            "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
-            "credits": 1
-          }
-        ],
-        "credits": 16
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "SS1024",
-            "title": "Social Problems and Interventions",
-            "credits": 3
-          },
-          {
-            "code": "GE2401",
-            "title": "English for Science",
-            "credits": 3
-          },
-          {
-            "code": "COL-SS",
-            "title": "College Foundation - Social Sciences Studies",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year2": {
       "semA": {
-        "courses": [
-          {
-            "code": "SS2029",
-            "title": "Basic Sociology",
-            "credits": 3
-          },
-          {
-            "code": "SS2030",
-            "title": "Introduction to Crime Science",
-            "credits": 3
-          },
-          {
-            "code": "SS2034",
-            "title": "Research Methods in Social Sciences",
-            "credits": 3
-          },
-          {
-            "code": "CRSO-ELEC1",
-            "title": "Criminology & Sociology Elective 1",
-            "credits": 3
-          },
-          {
-            "code": "CRSO-ELEC2",
-            "title": "Criminology & Sociology Elective 2",
-            "credits": 3
-          },
-          {
-            "code": "CRSO-ELEC3",
-            "title": "Criminology & Sociology Elective 3",
-            "credits": 3
-          }
-        ],
-        "credits": 18
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "SS2025",
-            "title": "Crime and Deviance",
-            "credits": 3
-          },
-          {
-            "code": "SS3119",
-            "title": "Penology",
-            "credits": 3
-          },
-          {
-            "code": "SS3120",
-            "title": "Policing and Crime Prevention",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
-            "credits": 3
-          }
-        ],
-        "credits": 15
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year3": {
       "semA": {
-        "courses": [
-          {
-            "code": "SS4207",
-            "title": "Working with Young People and Offenders",
-            "credits": 3
-          },
-          {
-            "code": "SS3417",
-            "title": "Applied Sociological Theory",
-            "credits": 3
-          },
-          {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
-            "credits": 3
-          },
-          {
-            "code": "GE-COL1",
-            "title": "College-specified Course 1",
-            "credits": 3
-          },
-          {
-            "code": "FREE1",
-            "title": "Free Elective 1",
-            "credits": 3
-          },
-          {
-            "code": "SS3423",
-            "title": "Advanced Applied Quantitative Research Methods",
-            "credits": 3
-          }
-        ],
-        "credits": 18
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "SS3428",
-            "title": "Advanced Applied Qualitative Research Methods",
-            "credits": 3
-          },
-          {
-            "code": "GE-COL2",
-            "title": "College-specified Course 2",
-            "credits": 3
-          },
-          {
-            "code": "FREE2",
-            "title": "Free Elective 2",
-            "credits": 3
-          },
-          {
-            "code": "FREE3",
-            "title": "Free Elective 3",
-            "credits": 3
-          }
-        ],
-        "credits": 12
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     },
     "year4": {
       "semA": {
-        "courses": [
-          {
-            "code": "SS4296",
-            "title": "Criminology Capstone Research Project",
-            "credits": 3
-          },
-          {
-            "code": "SS4300",
-            "title": "Advanced Criminological Theory",
-            "credits": 3
-          },
-          {
-            "code": "FREE4",
-            "title": "Free Elective 4",
-            "credits": 3
-          }
-        ],
-        "credits": 9
+        "courses": [],
+        "credits": 0
       },
       "semB": {
-        "courses": [
-          {
-            "code": "SS4296",
-            "title": "Criminology Capstone Research Project (continued)",
-            "credits": 3
-          },
-          {
-            "code": "SS4718",
-            "title": "Forensic Criminology",
-            "credits": 3
-          },
-          {
-            "code": "SS4601",
-            "title": "Emerging Issues in Chinese Societies",
-            "credits": 3
-          },
-          {
-            "code": "FREE5",
-            "title": "Free Elective 5",
-            "credits": 3
-          },
-          {
-            "code": "FREE6",
-            "title": "Free Elective 6",
-            "credits": 3
-          },
-          {
-            "code": "SS3419",
-            "title": "Complex Organizations",
-            "credits": 3
-          }
-        ],
-        "credits": 18
+        "courses": [],
+        "credits": 0
+      },
+      "summer": {
+        "courses": [],
+        "credits": 0
       }
     }
-  }
+  },
+  "studyPlanStatus": "diy",
+  "studyPlanSourceTitle": "BSS Criminology and Sociology official graduation requirements",
+  "studyPlanSourceUrl": "https://ssweb.cityu.edu.hk/-/media/project/cityuhk/academic/ssweb/study/studenthandbook_ss.pdf?rev=ae1e568fa39f416ab8e81534ecd07a1e&hash=763A6C46669FB50D520159D556145D79",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRSO-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": [
+    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+  ]
 }

@@ -46,7 +46,20 @@
     "SS4305",
     "SS4570",
     "SS4571",
-    "CAI4001"
+    "CAI4001",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "GE2401",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7",
+    "FREE8",
+    "FREE9"
   ],
   "studyPlan": {
     "year1": {
@@ -69,17 +82,17 @@
           },
           {
             "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           },
           {
             "code": "COL-LIB",
-            "title": "College Foundation - Liberal Arts Studies",
+            "title": "College Foundation Course: Liberal Arts",
             "credits": 3
           },
           {
             "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
+            "title": "Whole-Person Development",
             "credits": 1
           }
         ],
@@ -89,7 +102,7 @@
         "courses": [
           {
             "code": "SS1024",
-            "title": "Social Problems and Interventions",
+            "title": "Social Issues and Problems",
             "credits": 3
           },
           {
@@ -99,16 +112,21 @@
           },
           {
             "code": "COL-SS",
-            "title": "College Foundation - Social Sciences Studies",
+            "title": "College Foundation Course: Social Sciences",
             "credits": 3
           },
           {
             "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL1",
+            "title": "GE / College Elective",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year2": {
@@ -126,22 +144,22 @@
           },
           {
             "code": "SS2034",
-            "title": "Research Methods in Social Sciences",
+            "title": "Research Methods in Social Sciences: Quantitative and Qualitative Methods",
             "credits": 3
           },
           {
-            "code": "CRS-ELEC1",
-            "title": "Crime Science Elective 1",
+            "code": "CRS-ELECTIVE1",
+            "title": "Crime Science Elective",
             "credits": 3
           },
           {
-            "code": "CRS-ELEC2",
-            "title": "Crime Science Elective 2",
+            "code": "CRS-ELECTIVE2",
+            "title": "Crime Science Elective",
             "credits": 3
           },
           {
-            "code": "CRS-ELEC3",
-            "title": "Crime Science Elective 3",
+            "code": "CRS-ELECTIVE3",
+            "title": "Crime Science Elective",
             "credits": 3
           }
         ],
@@ -166,12 +184,12 @@
           },
           {
             "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
+            "code": "FREE1",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
@@ -187,23 +205,23 @@
             "credits": 3
           },
           {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
-            "credits": 3
-          },
-          {
-            "code": "GE-COL1",
-            "title": "College-specified Course 1",
-            "credits": 3
-          },
-          {
-            "code": "FREE1",
-            "title": "Free Elective 1",
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
             "code": "FREE2",
-            "title": "Free Elective 2",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
@@ -222,18 +240,18 @@
             "credits": 3
           },
           {
-            "code": "GE-COL2",
-            "title": "College-specified Course 2",
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "FREE3",
-            "title": "Free Elective 3",
+            "code": "FREE5",
+            "title": "Free Elective",
             "credits": 3
           },
           {
-            "code": "FREE4",
-            "title": "Free Elective 4",
+            "code": "FREE6",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
@@ -246,7 +264,8 @@
           {
             "code": "SS4296",
             "title": "Criminology Capstone Research Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "SS4300",
@@ -254,24 +273,30 @@
             "credits": 3
           },
           {
-            "code": "FREE5",
-            "title": "Free Elective 5",
+            "code": "GE-COL2",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
-            "code": "FREE6",
-            "title": "Free Elective 6",
+            "code": "FREE7",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE8",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "SS4296",
-            "title": "Criminology Capstone Research Project (continued)",
-            "credits": 3
+            "title": "Criminology Capstone Research Project",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "SS4718",
@@ -279,23 +304,25 @@
             "credits": 3
           },
           {
-            "code": "FREE7",
-            "title": "Free Elective 7",
-            "credits": 3
-          },
-          {
-            "code": "FREE8",
-            "title": "Free Elective 8",
+            "code": "GE-COL3",
+            "title": "GE / College Elective",
             "credits": 3
           },
           {
             "code": "FREE9",
-            "title": "Free Elective 9",
+            "title": "Free Elective",
             "credits": 3
           }
         ],
-        "credits": 15
+        "credits": 12
       }
     }
-  }
+  },
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "CLASS Student Handbook: Crime Science Recommended Study Plan",
+  "studyPlanSourceUrl": "https://ssweb.cityu.edu.hk/-/media/project/cityuhk/academic/ssweb/study/studenthandbook_ss.pdf?rev=ae1e568fa39f416ab8e81534ecd07a1e&hash=763A6C46669FB50D520159D556145D79",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRS-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": []
 }

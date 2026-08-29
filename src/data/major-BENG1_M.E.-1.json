@@ -3,7 +3,7 @@
   "title": "Bachelor of Engineering in Mechanical Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_M.E.-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Mechanical Engineering",
   "college": "College of Engineering",
   "requirements": {
@@ -235,7 +235,19 @@
     "FS3002",
     "FS4001",
     "FS4002",
-    "FS4005"
+    "FS4005",
+    "MA1200",
+    "MNE2066",
+    "GE1401",
+    "GE-ELECTIVE",
+    "GE1601",
+    "MA1201",
+    "GE1501",
+    "GE2410",
+    "MA2177",
+    "MNE3115",
+    "MAJOR-ELECTIVE",
+    "FREE"
   ],
   "studyPlan": {
     "year1": {
@@ -444,14 +456,8 @@
         "credits": 15
       },
       "summer": {
-        "courses": [
-          {
-            "code": "FS3002",
-            "title": "Industrial Attachment Scheme",
-            "credits": 3
-          }
-        ],
-        "credits": 3
+        "courses": [],
+        "credits": 0
       }
     },
     "year4": {
@@ -515,6 +521,13 @@
   "notes": [
     "Suggested Study Path for BENGEGU4 M.E. 2024/25 Cohort.",
     "Summer after Year 3 reserved for IAS (Industrial Attachment Scheme).",
-    "MNE4068 Project (Individual) or MNE4119 Project (Group) in Year 4."
-  ]
+    "MNE4068 Project (Individual) or MNE4119 Project (Group) in Year 4.",
+    "FS3002 is an optional placement/internship course and remains in the course pool; it is not pre-counted in the minimum-credit official study plan."
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BEng Mechanical Engineering Student Handbook 2025/26",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/mne/-/media/project/cityuhk/academic/mne/programmes/undergraduate/beng-in-mechanical-engineering/pdf/me-student-handbook-202526.pdf?rev=ac34e2521f1544de9124a8196476a205&hash=8377FD7F3D51BB19F275A98022BB76FA",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_M.E.-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

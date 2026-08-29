@@ -3,7 +3,7 @@
   "title": "Bachelor of Science in Physics",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_PHY-1.htm",
   "degree": "Bachelor of Science",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Physics",
   "college": "College of Science",
   "requirements": {
@@ -186,7 +186,18 @@
     "PHY4218",
     "PHY4219",
     "CSCI4007",
-    "MGT4305"
+    "MGT4305",
+    "CS1302",
+    "MA1200",
+    "GE1401",
+    "GE1601",
+    "MA1201",
+    "GE2401",
+    "GE1501",
+    "GE-ELECTIVE",
+    "FREE1",
+    "FREE2",
+    "FREE3"
   ],
   "studyPlan": {
     "year1": {
@@ -204,7 +215,7 @@
           },
           {
             "code": "CSCI1001",
-            "title": "CSCI1001",
+            "title": "Employability for Scientists",
             "credits": 0
           },
           {
@@ -218,8 +229,8 @@
             "credits": 3
           },
           {
-            "code": "GE2401",
-            "title": "English for Science",
+            "code": "GE-DR1",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
@@ -243,8 +254,13 @@
             "credits": 3
           },
           {
+            "code": "CHEM1101",
+            "title": "Introduction to Chemistry",
+            "credits": 3
+          },
+          {
             "code": "CSCI1002",
-            "title": "CSCI1002",
+            "title": "Career Lab for Scientists",
             "credits": 0
           },
           {
@@ -253,12 +269,12 @@
             "credits": 3
           },
           {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
+            "code": "GE2401",
+            "title": "English for Science",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year2": {
@@ -328,118 +344,110 @@
         "courses": [
           {
             "code": "PHY3205",
-            "title": "PHY3205",
+            "title": "Electrodynamics",
             "credits": 3
           },
           {
             "code": "PHY3231",
-            "title": "PHY3231",
+            "title": "Advanced Instrumentation Lab",
             "credits": 3
           },
           {
             "code": "PHY3251",
-            "title": "PHY3251",
+            "title": "Quantum Mechanics",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "Free Electives",
-            "credits": 3
+            "code": "FREE1",
+            "title": "Free Elective",
+            "credits": 6
           }
         ],
-        "credits": 12
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
             "code": "PHY3115",
-            "title": "PHY3115",
+            "title": "Introduction to Computational Physics",
             "credits": 3
           },
           {
             "code": "PHY3272",
-            "title": "PHY3272",
+            "title": "Introduction to Solid State Physics",
             "credits": 3
           },
           {
-            "code": "GE-ELECTIVE",
-            "title": "GE Course",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "FREE",
-            "title": "Free Electives",
-            "credits": 3
+            "code": "FREE2",
+            "title": "Free Elective",
+            "credits": 6
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year4": {
       "semA": {
         "courses": [
           {
-            "code": "PHY4216 / PHY4217",
-            "title": "PHY4216 / PHY4217",
-            "credits": 3
+            "code": "PHY4217",
+            "title": "Final Year Project",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Physics Major Elective",
             "credits": 3
           },
           {
             "code": "MAJOR-ELECTIVE2",
-            "title": "Major Elective",
+            "title": "Physics Major Elective",
             "credits": 3
           },
           {
             "code": "MAJOR-ELECTIVE3",
-            "title": "Major Elective",
+            "title": "Physics Major Elective",
             "credits": 3
           },
           {
             "code": "MAJOR-ELECTIVE4",
-            "title": "Major Elective",
-            "credits": 3
-          },
-          {
-            "code": "FREE",
-            "title": "Free Elective",
-            "credits": 3
-          },
-          {
-            "code": "FREE2",
-            "title": "Free Elective",
+            "title": "Physics Major Elective",
             "credits": 3
           }
         ],
-        "credits": 21
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
-            "code": "PHY4217 / CSCI4003",
-            "title": "PHY4217 / CSCI4003",
+            "code": "PHY4217",
+            "title": "Final Year Project",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
+          },
+          {
+            "code": "MAJOR-ELECTIVE5",
+            "title": "Physics Major Elective",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE",
-            "title": "Major Elective",
+            "code": "MAJOR-ELECTIVE6",
+            "title": "Physics Major Elective",
             "credits": 3
           },
           {
-            "code": "MAJOR-ELECTIVE2",
-            "title": "Major Elective",
-            "credits": 3
-          },
-          {
-            "code": "FREE",
+            "code": "FREE3",
             "title": "Free Elective",
-            "credits": 3
+            "credits": 6
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     }
   },
@@ -447,5 +455,11 @@
     "Recommended Study Plan for normative 4-year degree.",
     "Major Electives: 6 electives required (18 CUs).",
     "CSCI1001 First Year Seminar is 0 credit unit."
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Physics Recommended Study Plan (Normative 4-year, 2025/26)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/phy_portal/download/1_BScAP/3_Recommended%20Study%20Plan/admitted%20to%20the%20major%20in%20202526/Normative%204-year%202526.pdf",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_PHY-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

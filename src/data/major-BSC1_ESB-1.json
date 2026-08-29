@@ -412,7 +412,8 @@
     "CA4718",
     "CA4737",
     "CA4738",
-    "SDSC3002"
+    "SDSC3002",
+    "MAJOR-ELECTIVE"
   ],
   "studyPlan": {
     "year1": {
@@ -683,5 +684,11 @@
     "Students must complete SEE2000 Professional Development I and SEE4000 Professional Development II before graduation.",
     "Professional Development includes 8-hour Career Training Workshops arranged by SEE plus 160-hour Professional Development experience recognized by SEE.",
     "List of 3 School-specified courses: (1) SEE1005 Global Sustainable Technologies and Finance, (2) SEE2003 Introduction to Energy and Environmental Data Analysis, (3) SEE3001 Energy and Environmental Policy"
-  ]
+  ],
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "BSc Environment and Sustainable Business Recommended Study Plan (2025 cohort)",
+  "studyPlanSourceUrl": "https://www.cityu.edu.hk/see/-/media/project/cityuhk/academic/see/programmes/undergraduate-programmes/student-advising-handbook/esbrecommended-study-plan-2025-4yrdeg20250313.pdf?rev=ccf3cbc944c84412a0051f5134e3caf1&hash=FECD73D076A55E478D30175B76FD44AC",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_ESB-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

@@ -580,7 +580,11 @@
     "EN4262",
     "EF4821",
     "CS4514A",
-    "EF4328"
+    "EF4328",
+    "GE-1",
+    "GE-2",
+    "GE-4",
+    "GE-3"
   ],
   "studyPlanStatus": "official",
   "studyPlan": {
@@ -902,5 +906,10 @@
   },
   "notes": [
     "Source: CS Department Sample Study Schedule for JS1221, Cohort 2025, updated 21 August 2025."
-  ]
+  ],
+  "studyPlanSourceTitle": "BSc Computer Science and BSc CFFT Sample Study Schedule (Cohort 2025)",
+  "studyPlanSourceUrl": "https://www.cs.cityu.edu.hk/-/media/project/cityuhk/academic/cs/pdf/dbscbsc20cohort20202520250917.pdf?hash=CF7AC8C70C695BD7741905526C36E577&rev=d081cc6fb5254499b1e0c6eef1a7593f",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/DoubleDegree/DBSCBSC1_D008-0.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30"
 }

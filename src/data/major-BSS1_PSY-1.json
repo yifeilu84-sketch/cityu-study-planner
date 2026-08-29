@@ -56,7 +56,18 @@
     "CAI4001",
     "PIA3207",
     "LT3234",
-    "NS2003"
+    "NS2003",
+    "GE1401",
+    "GE1601",
+    "GE2401",
+    "GE1501",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7"
   ],
   "studyPlan": {
     "year1": {
@@ -73,23 +84,23 @@
             "credits": 3
           },
           {
+            "code": "SS2033",
+            "title": "Research Methods for Behavioural Sciences",
+            "credits": 3
+          },
+          {
             "code": "GE1401",
             "title": "University English",
             "credits": 3
           },
           {
-            "code": "GE1501",
-            "title": "Chinese Civilisation - History and Philosophy",
-            "credits": 3
-          },
-          {
             "code": "GE1601",
-            "title": "Whole Person Development through Service Learning",
+            "title": "Whole-Person Development",
             "credits": 1
           },
           {
-            "code": "SS2033",
-            "title": "Research Methods for Behavioural Sciences",
+            "code": "COL-LIB",
+            "title": "College Foundation Course: Liberal Arts",
             "credits": 3
           }
         ],
@@ -97,6 +108,11 @@
       },
       "semB": {
         "courses": [
+          {
+            "code": "SS1024",
+            "title": "Social Issues and Problems",
+            "credits": 3
+          },
           {
             "code": "SS2028",
             "title": "Basic Psychology II",
@@ -108,17 +124,17 @@
             "credits": 3
           },
           {
-            "code": "COL-LIB",
-            "title": "College Foundation - Liberal Arts Studies",
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
             "credits": 3
           },
           {
-            "code": "SS1024",
-            "title": "Social Problems and Interventions",
+            "code": "COL-SS",
+            "title": "College Foundation Course: Social Sciences",
             "credits": 3
           }
         ],
-        "credits": 12
+        "credits": 15
       }
     },
     "year2": {
@@ -135,18 +151,18 @@
             "credits": 3
           },
           {
-            "code": "COL-SS",
-            "title": "College Foundation - Social Sciences Studies",
+            "code": "PSY-ELECTIVE1",
+            "title": "Psychology Elective",
             "credits": 3
           },
           {
             "code": "GE-DR1",
-            "title": "Gateway Education (Area 1)",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "GE-DR2",
-            "title": "Gateway Education (Area 2)",
+            "code": "GE-COL1",
+            "title": "GE / College Elective",
             "credits": 3
           }
         ],
@@ -165,18 +181,18 @@
             "credits": 3
           },
           {
-            "code": "GE-DR3",
-            "title": "Gateway Education (Area 3)",
+            "code": "PSY-ELECTIVE2",
+            "title": "Psychology Elective",
             "credits": 3
           },
           {
-            "code": "GE-DR4",
-            "title": "Gateway Education (Area 4)",
+            "code": "GE-DR2",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           },
           {
-            "code": "PSY-ELEC1",
-            "title": "Psychology Elective 1",
+            "code": "GE-COL2",
+            "title": "GE / College Elective",
             "credits": 3
           }
         ],
@@ -184,68 +200,6 @@
       }
     },
     "year3": {
-      "semA": {
-        "courses": [
-          {
-            "code": "SS3710",
-            "title": "Psychology of Childhood and Adolescence",
-            "credits": 3
-          },
-          {
-            "code": "SS3721",
-            "title": "Abnormal Psychology",
-            "credits": 3
-          },
-          {
-            "code": "SS3724",
-            "title": "Positive Psychology",
-            "credits": 3
-          },
-          {
-            "code": "PSY-ELEC2",
-            "title": "Psychology Elective 2",
-            "credits": 3
-          },
-          {
-            "code": "PSY-ELEC3",
-            "title": "Psychology Elective 3",
-            "credits": 3
-          },
-          {
-            "code": "SS4719",
-            "title": "Introduction to Industrial and Organizational Psychology",
-            "credits": 3
-          },
-          {
-            "code": "SS4715",
-            "title": "Introduction to Health Psychology",
-            "credits": 3
-          },
-          {
-            "code": "SS3726",
-            "title": "Designing Experiments in Psychology",
-            "credits": 3
-          }
-        ],
-        "credits": 24
-      },
-      "semB": {
-        "courses": [
-          {
-            "code": "PSY-ELEC4",
-            "title": "Psychology Elective 4",
-            "credits": 3
-          },
-          {
-            "code": "PSY-ELEC5",
-            "title": "Psychology Elective 5",
-            "credits": 3
-          }
-        ],
-        "credits": 6
-      }
-    },
-    "year4": {
       "semA": {
         "courses": [
           {
@@ -257,25 +211,30 @@
             "code": "SS3712",
             "title": "Cognitive Psychology",
             "credits": 3
+          },
+          {
+            "code": "PSY-ELECTIVE3",
+            "title": "Psychology Elective",
+            "credits": 3
+          },
+          {
+            "code": "PSY-ELECTIVE4",
+            "title": "Psychology Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Distributional Requirement",
+            "credits": 3
           }
         ],
-        "credits": 6
+        "credits": 15
       },
       "semB": {
         "courses": [
           {
-            "code": "SS4708",
-            "title": "Research Project in Psychology",
-            "credits": 6
-          },
-          {
-            "code": "PSY-ELEC6",
-            "title": "Psychology Elective 6",
-            "credits": 3
-          },
-          {
-            "code": "PSY-ELEC7",
-            "title": "Psychology Elective 7",
+            "code": "SS3713",
+            "title": "Learning and Behaviour",
             "credits": 3
           },
           {
@@ -284,13 +243,87 @@
             "credits": 3
           },
           {
-            "code": "SS3713",
-            "title": "Learning and Behaviour",
+            "code": "PSY-ELECTIVE5",
+            "title": "Psychology Elective",
+            "credits": 3
+          },
+          {
+            "code": "PSY-ELECTIVE6",
+            "title": "Psychology Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education Distributional Requirement",
             "credits": 3
           }
         ],
-        "credits": 18
+        "credits": 15
+      }
+    },
+    "year4": {
+      "semA": {
+        "courses": [
+          {
+            "code": "SS4708",
+            "title": "Research Project in Psychology",
+            "credits": 6
+          },
+          {
+            "code": "GE-COL3",
+            "title": "GE / College Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
+      },
+      "semB": {
+        "courses": [
+          {
+            "code": "FREE3",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE7",
+            "title": "Free Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     }
-  }
+  },
+  "studyPlanStatus": "official",
+  "studyPlanSourceTitle": "CLASS Student Handbook: Psychology Recommended Study Plan",
+  "studyPlanSourceUrl": "https://ssweb.cityu.edu.hk/-/media/project/cityuhk/academic/ssweb/study/studenthandbook_ss.pdf?rev=ae1e568fa39f416ab8e81534ecd07a1e&hash=763A6C46669FB50D520159D556145D79",
+  "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_PSY-1.htm",
+  "lastVerified": "2026-08-30",
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "notes": []
 }
