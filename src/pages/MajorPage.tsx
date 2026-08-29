@@ -405,7 +405,8 @@ export default function MajorPage() {
                   code: c.code,
                   title: c.title,
                   credits: c.credits,
-                  category: c.category
+                  category: c.category,
+                  officialPlacement: c.officialPlacement,
                 })),
                 totalCredits: s.totalCredits
               }))}
@@ -497,6 +498,7 @@ export default function MajorPage() {
                             title={c.title}
                             credits={c.credits}
                             category={c.category}
+                            officialPlacement={c.officialPlacement}
                             onClick={() => openCourseDetail(c.code)}
                           />
                         ))}

@@ -3,12 +3,12 @@
   "title": "Bachelor of Engineering in Computer and Data Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_CDE-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Electrical Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 21,
+      "credits": 22,
       "courses": [
         {
           "code": "GE1401",
@@ -22,7 +22,7 @@
         },
         {
           "code": "GE1501",
-          "title": "Chinese Civilisation - History and Philosophy",
+          "title": "Chinese Civilisation-History and Philosophy",
           "credits": 3
         },
         {
@@ -32,13 +32,14 @@
         },
         {
           "code": "GE-DR",
-          "title": "GE Distributional Requirements",
-          "credits": 11
+          "title": "Gateway Education Distributional Requirements",
+          "credits": 12,
+          "remarks": "Complete 12 CU and take at least one course from each of GE Areas 1, 2 and 3."
         }
       ]
     },
     "college": {
-      "credits": 9,
+      "credits": 6,
       "courses": [
         {
           "code": "CS1302",
@@ -46,19 +47,37 @@
           "credits": 3
         },
         {
-          "code": "MA1200",
-          "title": "Calculus and Basic Linear Algebra I",
-          "credits": 3
-        },
-        {
-          "code": "MA1201",
-          "title": "Calculus and Basic Linear Algebra II",
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
           "credits": 3
         }
       ]
     },
+    "collegeRequirement": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "MA1200/MA1300",
+          "title": "MA1200 Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+          "credits": 3,
+          "remarks": "Choose one of the two listed mathematics courses."
+        },
+        {
+          "code": "MA1201/MA1301",
+          "title": "MA1201 Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+          "credits": 3,
+          "remarks": "Choose one of the two listed mathematics courses."
+        },
+        {
+          "code": "EE2066",
+          "title": "Engineers in Society",
+          "credits": 3,
+          "remarks": "EE4085 may fulfil EE2066 and EE4090 subject to the official internship rules."
+        }
+      ]
+    },
     "majorCore": {
-      "credits": 66,
+      "credits": 69,
       "courses": [
         {
           "code": "EE1001",
@@ -76,23 +95,8 @@
           "credits": 3
         },
         {
-          "code": "PHY1101",
-          "title": "Introductory Classical Mechanics",
-          "credits": 3
-        },
-        {
           "code": "GE1354",
           "title": "Introduction to Electronic Design",
-          "credits": 3
-        },
-        {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3
-        },
-        {
-          "code": "EE3211",
-          "title": "Modelling Techniques",
           "credits": 3
         },
         {
@@ -101,13 +105,13 @@
           "credits": 3
         },
         {
-          "code": "EE2005",
-          "title": "Electronic Devices and Circuits",
+          "code": "EE2004",
+          "title": "Microcomputer Systems",
           "credits": 3
         },
         {
-          "code": "CS2311",
-          "title": "Computer Programming",
+          "code": "EE2005",
+          "title": "Electronic Devices and Circuits",
           "credits": 3
         },
         {
@@ -116,13 +120,63 @@
           "credits": 3
         },
         {
-          "code": "EE2004",
-          "title": "Microcomputer Systems",
+          "code": "EE3001",
+          "title": "Foundations of Data Engineering",
           "credits": 3
         },
         {
-          "code": "EE3001",
-          "title": "Foundations of Data Engineering",
+          "code": "EE3009",
+          "title": "Data Communications and Networking",
+          "credits": 3
+        },
+        {
+          "code": "EE3206",
+          "title": "Object-Oriented Programming and Applications",
+          "credits": 3
+        },
+        {
+          "code": "EE3210",
+          "title": "Signals and Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE3211",
+          "title": "Modelling Techniques",
+          "credits": 3
+        },
+        {
+          "code": "EE3220",
+          "title": "System-on-Chip Design",
+          "credits": 3
+        },
+        {
+          "code": "EE3070",
+          "title": "Design Project",
+          "credits": 3
+        },
+        {
+          "code": "EE3315",
+          "title": "Internet Technology",
+          "credits": 3
+        },
+        {
+          "code": "EE4080",
+          "title": "Project",
+          "credits": 6
+        },
+        {
+          "code": "EE4146",
+          "title": "Data Engineering and Machine Learning",
+          "credits": 3
+        },
+        {
+          "code": "EE4090",
+          "title": "Engineering Training",
+          "credits": 0
+        },
+        {
+          "code": "CS2311",
+          "title": "Computer Programming",
           "credits": 3
         },
         {
@@ -136,38 +190,8 @@
           "credits": 3
         },
         {
-          "code": "EE3206",
-          "title": "Java Programming and Applications",
-          "credits": 3
-        },
-        {
-          "code": "EE3009",
-          "title": "Data Communications and Networking",
-          "credits": 3
-        },
-        {
-          "code": "EE3315",
-          "title": "Internet Technology",
-          "credits": 3
-        },
-        {
-          "code": "EE3210",
-          "title": "Signals and Systems",
-          "credits": 3
-        },
-        {
-          "code": "EE4146",
-          "title": "Data Engineering and Learning Systems",
-          "credits": 3
-        },
-        {
-          "code": "EE4080",
-          "title": "Project",
-          "credits": 6
-        },
-        {
-          "code": "EE3070",
-          "title": "Design Project",
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
           "credits": 3
         }
       ]
@@ -176,46 +200,185 @@
       "credits": 15,
       "courses": [
         {
-          "code": "CDE-ELECTIVE",
-          "title": "Technical Elective",
+          "code": "CS3391",
+          "title": "Advanced Programming",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with CS4335."
+        },
+        {
+          "code": "CS4335",
+          "title": "Design and Analysis of Algorithms",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with CS3391."
+        },
+        {
+          "code": "CS4386",
+          "title": "AI Game Programming",
+          "credits": 3
+        },
+        {
+          "code": "EE3209",
+          "title": "Data Management Techniques",
+          "credits": 3
+        },
+        {
+          "code": "EE3301",
+          "title": "Quantitative Methods for Information Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE3331",
+          "title": "Probability Models in Information Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE4014",
+          "title": "Business Data Communication Networks",
+          "credits": 3
+        },
+        {
+          "code": "EE4015",
+          "title": "Digital Signal Processing",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE5410."
+        },
+        {
+          "code": "EE5410",
+          "title": "Signal Processing",
+          "credits": 3,
+          "remarks": "P5-level course; mutually exclusive for curriculum fulfilment with EE4015."
+        },
+        {
+          "code": "EE4016",
+          "title": "Applications of AI with Deep Learning",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE5438."
+        },
+        {
+          "code": "EE5438",
+          "title": "Applied Deep Learning",
+          "credits": 3,
+          "remarks": "P5-level course; mutually exclusive for curriculum fulfilment with EE4016."
+        },
+        {
+          "code": "EE4017",
+          "title": "Internet Finance",
+          "credits": 3
+        },
+        {
+          "code": "EE4208",
+          "title": "Computer Graphics for Engineers",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE5808."
+        },
+        {
+          "code": "EE5808",
+          "title": "Topics in Computer Graphics",
+          "credits": 3,
+          "remarks": "P5-level course; mutually exclusive for curriculum fulfilment with EE4208."
+        },
+        {
+          "code": "EE4211",
+          "title": "Computer Vision",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with CS4186."
+        },
+        {
+          "code": "CS4186",
+          "title": "Computer Vision and Image Processing",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE4211."
+        },
+        {
+          "code": "EE4212",
+          "title": "Cryptography and Information Theory",
+          "credits": 3
+        },
+        {
+          "code": "EE4213",
+          "title": "Human-Computer Interaction",
+          "credits": 3
+        },
+        {
+          "code": "EE4215",
+          "title": "Cybersecurity Technology",
+          "credits": 3
+        },
+        {
+          "code": "EE4216",
+          "title": "Modern Web Applications",
+          "credits": 3
+        },
+        {
+          "code": "EE4218",
+          "title": "Computer Architecture",
+          "credits": 3
+        },
+        {
+          "code": "EE4221",
+          "title": "Cloud Computing Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4222",
+          "title": "Digital Forensics",
+          "credits": 3
+        },
+        {
+          "code": "EE4304",
+          "title": "iOS Mobile App Development and Networking",
+          "credits": 3
+        },
+        {
+          "code": "EE4316",
+          "title": "Mobile Data Networks",
+          "credits": 3
+        },
+        {
+          "code": "SDSC3001",
+          "title": "Big Data: The Arts and Science of Scaling",
           "credits": 3
         }
       ],
       "chooseCredits": 15
-    },
-    "freeElectives": {
-      "credits": 9,
-      "note": "Or Minor courses"
     }
   },
   "allCourses": [
+    "GE1401",
+    "GE2410",
+    "GE1501",
+    "GE1601",
+    "MA1200",
+    "MA1300",
+    "MA1201",
+    "MA1301",
     "CS1302",
     "PHY1101",
-    "CS2311",
-    "CS3103",
-    "CS3402",
+    "EE2066",
     "EE1001",
     "EE1002",
     "EE1004",
+    "GE1354",
     "EE2000",
     "EE2004",
     "EE2005",
     "EE2331",
     "EE3001",
     "EE3009",
-    "EE3070",
     "EE3206",
     "EE3210",
     "EE3211",
     "EE3220",
+    "EE3070",
     "EE3315",
     "EE4080",
-    "EE4090",
     "EE4146",
-    "GE1354",
+    "EE4090",
+    "CS2311",
+    "CS3103",
+    "CS3402",
     "MA2001",
     "CS3391",
-    "CS4186",
     "CS4335",
     "CS4386",
     "EE3209",
@@ -223,10 +386,14 @@
     "EE3331",
     "EE4014",
     "EE4015",
+    "EE5410",
     "EE4016",
+    "EE5438",
     "EE4017",
     "EE4208",
+    "EE5808",
     "EE4211",
+    "CS4186",
     "EE4212",
     "EE4213",
     "EE4215",
@@ -236,9 +403,6 @@
     "EE4222",
     "EE4304",
     "EE4316",
-    "EE5410",
-    "EE5438",
-    "EE5808",
     "SDSC3001",
     "EE4085",
     "EE4086",
@@ -250,13 +414,15 @@
         "courses": [
           {
             "code": "MA1200/MA1300",
-            "title": "MA1200 or MA1300",
-            "credits": 3
+            "title": "Calculus and Basic Linear Algebra I / Enhanced Calculus and Linear Algebra I",
+            "credits": 3,
+            "remarks": "Choose one of the two listed mathematics courses."
           },
           {
             "code": "EE1001",
             "title": "Foundations of Digital Techniques",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           },
           {
             "code": "CS1302",
@@ -266,7 +432,8 @@
           {
             "code": "GE1354",
             "title": "Introduction to Electronic Design",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           }
         ],
         "credits": 12
@@ -275,8 +442,9 @@
         "courses": [
           {
             "code": "MA1201/MA1301",
-            "title": "MA1201 or MA1301",
-            "credits": 3
+            "title": "Calculus and Basic Linear Algebra II / Enhanced Calculus and Linear Algebra II",
+            "credits": 3,
+            "remarks": "Choose one of the two listed mathematics courses."
           },
           {
             "code": "PHY1101",
@@ -286,12 +454,14 @@
           {
             "code": "EE1004",
             "title": "Foundations of Information Systems and Data Analysis",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           },
           {
             "code": "EE1002",
             "title": "Principles of Electrical Engineering",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           }
         ],
         "credits": 12
@@ -379,7 +549,8 @@
           {
             "code": "EE3070",
             "title": "Design Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 3 Semester A or B"
           }
         ],
         "credits": 15
@@ -388,7 +559,7 @@
         "courses": [
           {
             "code": "EE4146",
-            "title": "Data Engineering and Learning Systems",
+            "title": "Data Engineering and Machine Learning",
             "credits": 3
           },
           {
@@ -414,7 +585,8 @@
           {
             "code": "EE4090",
             "title": "Engineering Training",
-            "credits": 0
+            "credits": 0,
+            "officialPlacement": "Year 2 or 3 Summer"
           }
         ],
         "credits": 0
@@ -424,24 +596,28 @@
       "semA": {
         "courses": [
           {
-            "code": "CDE-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "CDE-ELECTIVE1",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "CDE-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "CDE-ELECTIVE2",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
             "code": "EE4080",
             "title": "Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "EE2066",
             "title": "Engineers in Society",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semester A or B"
           }
         ],
         "credits": 12
@@ -451,22 +627,26 @@
           {
             "code": "EE4080",
             "title": "Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
-            "code": "CDE-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "CDE-ELECTIVE3",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "CDE-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "CDE-ELECTIVE4",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "CDE-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "CDE-ELECTIVE5",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           }
         ],
         "credits": 12
@@ -474,9 +654,16 @@
     }
   },
   "notes": [
-    "Structure and Flowchart for BEng in Computer and Data Engineering (2026/27 Entering Major).",
-    "EE4080 Project is a year-long course spanning Year 4 Semester A and B.",
-    "EE4090 Engineering Training (0 CU) is recommended in Summer after Year 2 or Year 3.",
-    "5 Final Year Technical Electives required (15 CUs), no more than two Level-3 electives."
-  ]
+    "This plan is transcribed from the official 2026/27 entering-major flowchart. The flowchart excludes the 22 CU University GE requirements, which remain visible in Requirements and the editable course pool.",
+    "EE1001, EE1002, EE1004 and GE1354 may be completed in either Year 1 Semester A or B.",
+    "EE4080 Project is a 6 CU year-long course represented as 3 CU in each Year 4 semester.",
+    "EE4090 Engineering Training is a 0 CU Summer course recommended after Year 2 or Year 3.",
+    "Complete 15 CU from the official elective pool; no more than two Level-3 electives may count."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "Structure and Flowchart for BEng in Computer and Data Engineering (2026/27 Entering Major)",
+  "studyPlanSourceUrl": "https://www.ee.cityu.edu.hk/home/doc/programme/CDE_Major_flowchart_2026_Entering_Major.pdf",
+  "requirementsSourceUrl": "https://www.ee.cityu.edu.hk/en/current_students/undergraduate/major/admission_beng-cde_majorcurriculum",
+  "lastVerified": "2026-08-29",
+  "studyPlanRevision": "ee-2026-27-v2"
 }

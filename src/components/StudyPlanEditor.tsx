@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from 'react'
 import { DndContext, useDraggable, useDroppable, TouchSensor, MouseSensor, useSensor, useSensors, DragOverlay } from '@dnd-kit/core'
 import type { DragEndEvent, DragStartEvent } from '@dnd-kit/core'
 import { X, GripVertical, AlertCircle, ChevronUp, ChevronDown, Download } from 'lucide-react'
-import { canAddCourse, getGEArea, isRequiredGE, recalcCredits, buildCoursePool, type EditableSemester } from '../utils/editPlan'
+import { canAddCourse, getGEArea, getStudyPlanStorageKey, isRequiredGE, recalcCredits, buildCoursePool, type EditableSemester } from '../utils/editPlan'
 import minorsData from '../data/minors.json'
 import type { Course } from '../types'
 import CourseBadge from './CourseBadge'
@@ -80,7 +80,7 @@ function DroppableSemester({ sem, children, onRemoveCourse }: {
 
 export default function StudyPlanEditor({ initialPlan, major, streamIndex, courses, onCourseClick }: Props) {
   const { language, pick } = useLanguage()
-  const storageKey = `cityu-study-plan-${major.code}${streamIndex != null ? '-stream-' + streamIndex : ''}`
+  const storageKey = getStudyPlanStorageKey(major, streamIndex)
 
   const [plan, setPlan] = useState<EditableSemester[]>(() => {
     try {
@@ -278,6 +278,7 @@ export default function StudyPlanEditor({ initialPlan, major, streamIndex, cours
                     title={c.title}
                     credits={c.credits}
                     category={c.category}
+                    officialPlacement={c.officialPlacement}
                     onClick={() => onCourseClick(c.code)}
                     onRemove={() => removeCourse(semIdx, c.code)}
                   />

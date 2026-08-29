@@ -41,8 +41,15 @@ export interface MajorCourse {
   category?: 'ge' | 'college' | 'majorCore' | 'majorElective' | 'freeElective' | 'other';
 }
 
+export interface StudyPlanCourse {
+  code: string;
+  title: string;
+  credits: number;
+  officialPlacement?: string;
+}
+
 export interface StudyPlanSemester {
-  courses: { code: string; title: string; credits: number }[];
+  courses: StudyPlanCourse[];
   credits: number;
 }
 
@@ -202,7 +209,9 @@ export interface Stream {
   studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
   studyPlanSourceTitle?: string;
   studyPlanSourceUrl?: string;
+  requirementsSourceUrl?: string;
   lastVerified?: string;
+  studyPlanRevision?: string;
   allCourses?: string[];
   notes?: string[];
   totalCredits?: number;
@@ -219,6 +228,11 @@ export interface Major {
   requirements: MajorRequirements;
   studyPlan?: StudyPlan;
   studyPlanStatus?: 'official' | 'structure' | 'derived' | 'diy';
+  studyPlanSourceTitle?: string;
+  studyPlanSourceUrl?: string;
+  requirementsSourceUrl?: string;
+  lastVerified?: string;
+  studyPlanRevision?: string;
   allCourses: string[];
   streams?: Stream[];
   defaultStreamCode?: string;

@@ -24,6 +24,24 @@ function semesterCodes(code, year, sem) {
   return major(code).studyPlan?.[`year${year}`]?.[sem]?.courses.map((course) => course.code) ?? []
 }
 
+function requirementCredits(code) {
+  const reqs = major(code).requirements
+  return {
+    gatewayEducation: reqs.gatewayEducation?.credits ?? 0,
+    college: reqs.college?.credits ?? 0,
+    collegeRequirement: reqs.collegeRequirement?.credits ?? 0,
+    majorCore: reqs.majorCore?.credits ?? 0,
+    majorElectives: reqs.majorElectives?.credits ?? 0,
+    freeElectives: reqs.freeElectives?.credits ?? 0,
+  }
+}
+
+function plannedCourse(code, year, sem, courseCode) {
+  const found = major(code).studyPlan?.[`year${year}`]?.[sem]?.courses.find((course) => course.code === courseCode)
+  assert.ok(found, `Expected ${code} ${year}.${sem} to contain ${courseCode}`)
+  return found
+}
+
 function streamByCode(item, streamCode) {
   const stream = item.streams?.find((candidate) => candidate.code === streamCode)
   assert.ok(stream, `Expected ${item.code} to expose stream ${streamCode}`)
@@ -126,18 +144,178 @@ test('major course list includes real courses that appear only in the official s
   assert.ok(codes.has('CHEM1300'), 'BME Year 1 Sem B chemistry course should be visible in the course list')
 })
 
-test('EE flowchart majors keep 2026/27 course placement from the official diagrams', () => {
-  assert.deepEqual(semesterCodes('BENG1_CDE-1', 2, 'semA'), ['MA2001', 'EE3001', 'CS2311', 'EE2000'])
-  assert.deepEqual(semesterCodes('BENG1_CDE-1', 3, 'semB'), ['EE4146', 'CS3402', 'EE3220', 'EE3315'])
+test('all EE 2026/27 plans match every row of the latest official flowcharts', () => {
+  const expected = {
+    'BENG1_CDE-1': {
+      year1: {
+        semA: ['MA1200/MA1300', 'EE1001', 'CS1302', 'GE1354'],
+        semB: ['MA1201/MA1301', 'PHY1101', 'EE1004', 'EE1002'],
+      },
+      year2: {
+        semA: ['MA2001', 'EE3001', 'CS2311', 'EE2000'],
+        semB: ['EE3211', 'EE2331', 'EE2004', 'EE2005'],
+        summer: [],
+      },
+      year3: {
+        semA: ['EE3210', 'EE3206', 'CS3103', 'EE3009', 'EE3070'],
+        semB: ['EE4146', 'CS3402', 'EE3220', 'EE3315'],
+        summer: ['EE4090'],
+      },
+      year4: {
+        semA: ['CDE-ELECTIVE1', 'CDE-ELECTIVE2', 'EE4080', 'EE2066'],
+        semB: ['EE4080', 'CDE-ELECTIVE3', 'CDE-ELECTIVE4', 'CDE-ELECTIVE5'],
+      },
+    },
+    'BENG1_ELEL-1': {
+      year1: {
+        semA: ['MA1200/MA1300', 'EE1001', 'CS1302', 'GE1354'],
+        semB: ['MA1201/MA1301', 'PHY1101', 'EE1004', 'EE1002'],
+      },
+      year2: {
+        semA: ['MA2001', 'EE2108', 'EE2005', 'CS2311'],
+        semB: ['EE3121', 'EE3210', 'EE2104', 'EE2000'],
+        summer: [],
+      },
+      year3: {
+        semA: ['EE3114', 'EE3008', 'EE3123', 'EE2004'],
+        semB: ['EE3109', 'EE3124', 'EE3115', 'EE3122', 'EE3070'],
+        summer: ['EE4090'],
+      },
+      year4: {
+        semA: ['ELEL-ELECTIVE1', 'ELEL-ELECTIVE2', 'EE4080', 'EE2066'],
+        semB: ['EE4080', 'ELEL-ELECTIVE3', 'ELEL-ELECTIVE4', 'ELEL-ELECTIVE5'],
+      },
+    },
+    'BENG1_INFE-1': {
+      year1: {
+        semA: ['MA1200/MA1300', 'EE1001', 'CS1302', 'GE1354'],
+        semB: ['MA1201/MA1301', 'PHY1101', 'EE1004', 'EE1002'],
+      },
+      year2: {
+        semA: ['MA2001', 'EE2302', 'CS2311', 'EE2000'],
+        semB: ['EE3331', 'EE3009', 'EE2303', 'EE2004'],
+        summer: [],
+      },
+      year3: {
+        semA: ['EE3210', 'EE3301', 'CS3402', 'EE2331', 'EE3070'],
+        semB: ['EE3008', 'EE3315', 'EE3206', 'CS3103'],
+        summer: ['EE4090'],
+      },
+      year4: {
+        semA: ['INFE-ELECTIVE1', 'INFE-ELECTIVE2', 'EE4080', 'EE2066'],
+        semB: ['EE4080', 'INFE-ELECTIVE3', 'INFE-ELECTIVE4', 'INFE-ELECTIVE5'],
+      },
+    },
+    'BENG1_MEE-1': {
+      year1: {
+        semA: ['MA1200/MA1300', 'EE1001', 'CS1302', 'GE1354'],
+        semB: ['MA1201/MA1301', 'PHY1202', 'EE1004', 'EE1002'],
+      },
+      year2: {
+        semA: ['MA2001', 'EE2000', 'EE2005', 'CS2311'],
+        semB: ['EE2800', 'EE3121', 'EE3210', 'EE2104'],
+        summer: [],
+      },
+      year3: {
+        semA: ['EE3800', 'EE3008', 'EE3801', 'EE2004'],
+        semB: ['MEE-ELECTIVE1', 'EE3115', 'EE3122', 'EE3220', 'EE3070'],
+        summer: ['EE4090'],
+      },
+      year4: {
+        semA: ['MEE-ELECTIVE2', 'MEE-ELECTIVE3', 'EE4080', 'EE2066'],
+        semB: ['EE4080', 'MEE-ELECTIVE4', 'MEE-ELECTIVE5', 'MEE-ELECTIVE6'],
+      },
+    },
+  }
 
-  assert.deepEqual(semesterCodes('BENG1_ELEL-1', 2, 'semA'), ['MA2001', 'EE2108', 'EE2005', 'CS2311'])
-  assert.deepEqual(semesterCodes('BENG1_ELEL-1', 2, 'semB'), ['EE3121', 'EE3210', 'EE2104', 'EE2000'])
+  for (const [code, years] of Object.entries(expected)) {
+    for (const [yearKey, semesters] of Object.entries(years)) {
+      for (const [semester, codes] of Object.entries(semesters)) {
+        assert.deepEqual(major(code).studyPlan?.[yearKey]?.[semester]?.courses.map(course => course.code), codes, `${code} ${yearKey}.${semester}`)
+      }
+    }
+  }
+})
 
-  assert.deepEqual(semesterCodes('BENG1_INFE-1', 2, 'semB'), ['EE3331', 'EE3009', 'EE2303', 'EE2004', 'EE2005'])
-  assert.deepEqual(semesterCodes('BENG1_INFE-1', 3, 'semA'), ['EE3210', 'EE3301', 'CS3402', 'EE2331', 'EE3070'])
+test('EE requirements use the official 2026/27 credit partitions and course pools', () => {
+  assert.equal(major('BENG1_CDE-1').totalCredits, 121)
+  assert.equal(major('BENG1_ELEL-1').totalCredits, 121)
+  assert.equal(major('BENG1_INFE-1').totalCredits, 121)
+  assert.equal(major('BENG1_MEE-1').totalCredits, 120)
 
-  assert.deepEqual(semesterCodes('BENG1_MEE-1', 2, 'semB'), ['EE2800', 'EE3121', 'EE3210', 'EE2104'])
-  assert.deepEqual(semesterCodes('BENG1_MEE-1', 3, 'semA'), ['EE3800', 'EE3008', 'EE3801', 'EE2004'])
+  assert.deepEqual(requirementCredits('BENG1_CDE-1'), { gatewayEducation: 22, college: 6, collegeRequirement: 9, majorCore: 69, majorElectives: 15, freeElectives: 0 })
+  assert.deepEqual(requirementCredits('BENG1_ELEL-1'), { gatewayEducation: 22, college: 6, collegeRequirement: 9, majorCore: 69, majorElectives: 15, freeElectives: 0 })
+  assert.deepEqual(requirementCredits('BENG1_INFE-1'), { gatewayEducation: 22, college: 6, collegeRequirement: 9, majorCore: 69, majorElectives: 15, freeElectives: 0 })
+  assert.deepEqual(requirementCredits('BENG1_MEE-1'), { gatewayEducation: 21, college: 6, collegeRequirement: 9, majorCore: 66, majorElectives: 18, freeElectives: 0 })
+
+  const infeCore = new Set(major('BENG1_INFE-1').requirements.majorCore.courses.map(course => course.code))
+  assert.equal(infeCore.has('EE2303'), true)
+  assert.equal(infeCore.has('EE2005'), false)
+
+  const meeCollege = new Set(major('BENG1_MEE-1').requirements.college.courses.map(course => course.code))
+  assert.equal(meeCollege.has('PHY1202'), true)
+  assert.equal(meeCollege.has('PHY1101'), false)
+  assert.equal(major('BENG1_MEE-1').requirements.majorElectives.courses.some(course => course.code === 'MSE4171'), true)
+
+  for (const code of ['BENG1_CDE-1', 'BENG1_ELEL-1', 'BENG1_INFE-1', 'BENG1_MEE-1']) {
+    const item = major(code)
+    const poolCodes = new Set(buildCoursePool(item, courses).map(course => course.code))
+    for (const elective of item.requirements.majorElectives.courses) {
+      assert.ok(courses[elective.code], `${code} ${elective.code} should have a course detail record`)
+      assert.ok(poolCodes.has(elective.code), `${code} ${elective.code} should be available in the editable course pool`)
+    }
+  }
+})
+
+test('EE plans preserve official flexible and cross-semester placement labels', () => {
+  for (const code of ['BENG1_CDE-1', 'BENG1_ELEL-1', 'BENG1_INFE-1', 'BENG1_MEE-1']) {
+    assert.equal(plannedCourse(code, 1, 'semA', 'EE1001').officialPlacement, 'Year 1 Semester A or B')
+    assert.equal(plannedCourse(code, 3, 'summer', 'EE4090').officialPlacement, 'Year 2 or 3 Summer')
+    assert.equal(plannedCourse(code, 4, 'semA', 'EE4080').officialPlacement, 'Year 4 Semesters A and B')
+    assert.match(major(code).studyPlanSourceUrl, /^https:\/\/www\.ee\.cityu\.edu\.hk\/.+\.pdf/)
+    assert.equal(major(code).studyPlanRevision, 'ee-2026-27-v2')
+  }
+
+  assert.equal(plannedCourse('BENG1_CDE-1', 3, 'semA', 'EE3070').officialPlacement, 'Year 3 Semester A or B')
+  assert.equal(plannedCourse('BENG1_INFE-1', 3, 'semA', 'EE3070').officialPlacement, 'Year 3 Semester A or B')
+})
+
+test('EE core GE-coded courses do not double count toward University GE requirements', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+
+  for (const code of ['BENG1_CDE-1', 'BENG1_ELEL-1', 'BENG1_INFE-1', 'BENG1_MEE-1']) {
+    const item = major(code)
+    const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses))
+    assert.equal(audit.ge.plannedCredits, 0, `${code} must not count GE1354 twice`)
+    assert.deepEqual(audit.ge.areaCredits, { 'Area 1': 0, 'Area 2': 0, 'Area 3': 0 })
+    assert.equal(audit.ge.missingCredits, item.requirements.gatewayEducation.credits)
+  }
+})
+
+test('official EE plans do not inherit false prerequisite conflicts from catalogue parsing', async () => {
+  const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
+
+  assert.deepEqual(courses.PHY1202.prerequisites, [])
+  assert.match(courses.PHY1202.prerequisitesRaw, /HKDSE Mathematics Compulsory Part/)
+
+  for (const code of ['BENG1_CDE-1', 'BENG1_ELEL-1', 'BENG1_INFE-1', 'BENG1_MEE-1']) {
+    const item = major(code)
+    const audit = auditGraduationPlan(item, courses, generateStudyPlan(item, courses))
+    assert.deepEqual(
+      audit.planRisks.issues.filter(issue => issue.kind === 'prerequisite'),
+      [],
+      `${code} should not contradict its official flowchart with a parsed prerequisite warning`,
+    )
+  }
+})
+
+test('corrected official plans use a revisioned local storage key', async () => {
+  const editPlan = await import('../src/utils/editPlan.ts')
+  assert.equal(typeof editPlan.getStudyPlanStorageKey, 'function')
+  assert.equal(
+    editPlan.getStudyPlanStorageKey(major('BENG1_INFE-1')),
+    'cityu-study-plan-BENG1_INFE-1-rev-ee-2026-27-v2',
+  )
 })
 
 test('official summer training slots are generated from study plans', () => {
@@ -780,8 +958,11 @@ test('graduation audit panel is wired into major and edit views', () => {
   assert.ok(majorPage.includes('GraduationAuditPanel'))
   assert.ok(majorPage.includes('auditGraduationPlan'))
   assert.ok(majorPage.includes("void import('../data/courses.json')"))
+  assert.ok(majorPage.includes('officialPlacement: c.officialPlacement'))
+  assert.ok(majorPage.includes('officialPlacement={c.officialPlacement}'))
   assert.ok(editor.includes('GraduationAuditPanel'))
   assert.ok(editor.includes('auditGraduationPlan'))
+  assert.ok(editor.includes('officialPlacement={c.officialPlacement}'))
 })
 
 test('plan risk panel is wired into undergraduate and postgraduate planning views', () => {

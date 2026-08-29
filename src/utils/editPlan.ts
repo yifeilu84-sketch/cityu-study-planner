@@ -1,4 +1,4 @@
-import type { Course } from '../types'
+import type { Course, Major } from '../types'
 import type { Language } from '../i18n/language.ts'
 import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 
@@ -7,6 +7,7 @@ export interface PlanCourse {
   title: string
   credits: number
   category: string
+  officialPlacement?: string
 }
 
 export interface EditableSemester {
@@ -14,6 +15,13 @@ export interface EditableSemester {
   sem: 'A' | 'B' | 'Summer'
   courses: PlanCourse[]
   totalCredits: number
+}
+
+export function getStudyPlanStorageKey(major: Pick<Major, 'code' | 'studyPlanRevision' | 'streams'>, streamIndex?: number): string {
+  const stream = streamIndex != null ? major.streams?.[streamIndex] : undefined
+  const revision = stream?.studyPlanRevision ?? major.studyPlanRevision
+  const base = `cityu-study-plan-${major.code}${streamIndex != null ? `-stream-${streamIndex}` : ''}`
+  return revision ? `${base}-rev-${revision}` : base
 }
 
 function getStudyPlanYears(studyPlan: unknown): string[] {

@@ -3,12 +3,12 @@
   "title": "Bachelor of Engineering in Electronic and Electrical Engineering",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BENG1_ELEL-1.htm",
   "degree": "Bachelor of Engineering",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Electrical Engineering",
   "college": "College of Engineering",
   "requirements": {
     "gatewayEducation": {
-      "credits": 21,
+      "credits": 22,
       "courses": [
         {
           "code": "GE1401",
@@ -22,7 +22,7 @@
         },
         {
           "code": "GE1501",
-          "title": "Chinese Civilisation - History and Philosophy",
+          "title": "Chinese Civilisation-History and Philosophy",
           "credits": 3
         },
         {
@@ -32,13 +32,14 @@
         },
         {
           "code": "GE-DR",
-          "title": "GE Distributional Requirements",
-          "credits": 11
+          "title": "Gateway Education Distributional Requirements",
+          "credits": 12,
+          "remarks": "Complete 12 CU and take at least one course from each of GE Areas 1, 2 and 3."
         }
       ]
     },
     "college": {
-      "credits": 9,
+      "credits": 6,
       "courses": [
         {
           "code": "CS1302",
@@ -46,19 +47,37 @@
           "credits": 3
         },
         {
-          "code": "MA1200",
-          "title": "Calculus and Basic Linear Algebra I",
-          "credits": 3
-        },
-        {
-          "code": "MA1201",
-          "title": "Calculus and Basic Linear Algebra II",
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
           "credits": 3
         }
       ]
     },
+    "collegeRequirement": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "MA1200/MA1300",
+          "title": "MA1200 Calculus and Basic Linear Algebra I / MA1300 Enhanced Calculus and Linear Algebra I",
+          "credits": 3,
+          "remarks": "Choose one of the two listed mathematics courses."
+        },
+        {
+          "code": "MA1201/MA1301",
+          "title": "MA1201 Calculus and Basic Linear Algebra II / MA1301 Enhanced Calculus and Linear Algebra II",
+          "credits": 3,
+          "remarks": "Choose one of the two listed mathematics courses."
+        },
+        {
+          "code": "EE2066",
+          "title": "Engineers in Society",
+          "credits": 3,
+          "remarks": "EE4085 may fulfil EE2066 and EE4090 subject to the official internship rules."
+        }
+      ]
+    },
     "majorCore": {
-      "credits": 66,
+      "credits": 69,
       "courses": [
         {
           "code": "EE1001",
@@ -81,16 +100,6 @@
           "credits": 3
         },
         {
-          "code": "MA2001",
-          "title": "Multi-variable Calculus and Linear Algebra",
-          "credits": 3
-        },
-        {
-          "code": "CS2311",
-          "title": "Computer Programming",
-          "credits": 3
-        },
-        {
           "code": "EE2000",
           "title": "Logic Circuit Design",
           "credits": 3
@@ -103,6 +112,41 @@
         {
           "code": "EE2005",
           "title": "Electronic Devices and Circuits",
+          "credits": 3
+        },
+        {
+          "code": "EE2104",
+          "title": "Introduction to Electromagnetics",
+          "credits": 3
+        },
+        {
+          "code": "EE2108",
+          "title": "Computational Engineering Analysis",
+          "credits": 3
+        },
+        {
+          "code": "EE3008",
+          "title": "Principles of Communications",
+          "credits": 3
+        },
+        {
+          "code": "EE3070",
+          "title": "Design Project",
+          "credits": 3
+        },
+        {
+          "code": "EE3109",
+          "title": "Applied Electromagnetics",
+          "credits": 3
+        },
+        {
+          "code": "EE3114",
+          "title": "Systems and Control",
+          "credits": 3
+        },
+        {
+          "code": "EE3115",
+          "title": "Applied Optoelectronic Devices",
           "credits": 3
         },
         {
@@ -126,26 +170,6 @@
           "credits": 3
         },
         {
-          "code": "EE3008",
-          "title": "Principles of Communications",
-          "credits": 3
-        },
-        {
-          "code": "EE3109",
-          "title": "Applied Electromagnetics",
-          "credits": 3
-        },
-        {
-          "code": "EE3114",
-          "title": "Systems & Control",
-          "credits": 3
-        },
-        {
-          "code": "EE3115",
-          "title": "Applied Opto-Electronic Devices",
-          "credits": 3
-        },
-        {
           "code": "EE3210",
           "title": "Signals and Systems",
           "credits": 3
@@ -156,8 +180,18 @@
           "credits": 6
         },
         {
-          "code": "EE3070",
-          "title": "Design Project",
+          "code": "EE4090",
+          "title": "Engineering Training",
+          "credits": 0
+        },
+        {
+          "code": "CS2311",
+          "title": "Computer Programming",
+          "credits": 3
+        },
+        {
+          "code": "MA2001",
+          "title": "Multi-variable Calculus and Linear Algebra",
           "credits": 3
         }
       ]
@@ -166,25 +200,154 @@
       "credits": 15,
       "courses": [
         {
-          "code": "ELEL-ELECTIVE",
-          "title": "Technical Elective",
+          "code": "EE2331",
+          "title": "Data Structures and Algorithms",
           "credits": 3
+        },
+        {
+          "code": "EE2800",
+          "title": "Semiconductor Physics for Engineers",
+          "credits": 3
+        },
+        {
+          "code": "EE3009",
+          "title": "Data Communications and Networking",
+          "credits": 3
+        },
+        {
+          "code": "EE3125",
+          "title": "Basic Power Electronics",
+          "credits": 3
+        },
+        {
+          "code": "EE3206",
+          "title": "Object-Oriented Programming and Applications",
+          "credits": 3
+        },
+        {
+          "code": "EE3220",
+          "title": "System-on-Chip Design",
+          "credits": 3
+        },
+        {
+          "code": "EE4015",
+          "title": "Digital Signal Processing",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE5410."
+        },
+        {
+          "code": "EE4016",
+          "title": "Applications of AI with Deep Learning",
+          "credits": 3,
+          "remarks": "Mutually exclusive for curriculum fulfilment with EE5438."
+        },
+        {
+          "code": "EE4017",
+          "title": "Internet Finance",
+          "credits": 3
+        },
+        {
+          "code": "EE4035",
+          "title": "Optical Fibre Communications",
+          "credits": 3
+        },
+        {
+          "code": "EE4036",
+          "title": "Wireless Communications",
+          "credits": 3
+        },
+        {
+          "code": "EE4045",
+          "title": "Computer Controlled Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4101",
+          "title": "Sustainable Energy Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4105",
+          "title": "Principles of Lasers",
+          "credits": 3
+        },
+        {
+          "code": "EE4107",
+          "title": "5G Circuit Design",
+          "credits": 3
+        },
+        {
+          "code": "EE4108",
+          "title": "Antennas for Wireless Communications and Sensing Connectivity",
+          "credits": 3
+        },
+        {
+          "code": "EE4115",
+          "title": "Audio-Visual Engineering",
+          "credits": 3
+        },
+        {
+          "code": "EE4142",
+          "title": "Introduction to Integrated Photonics",
+          "credits": 3
+        },
+        {
+          "code": "EE4146",
+          "title": "Data Engineering and Machine Learning",
+          "credits": 3
+        },
+        {
+          "code": "EE4147",
+          "title": "Grid-Connected Power Converters",
+          "credits": 3
+        },
+        {
+          "code": "EE4148",
+          "title": "Advanced Power Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4221",
+          "title": "Cloud Computing Systems",
+          "credits": 3
+        },
+        {
+          "code": "EE4316",
+          "title": "Mobile Data Networks",
+          "credits": 3
+        },
+        {
+          "code": "EE5410",
+          "title": "Signal Processing",
+          "credits": 3,
+          "remarks": "P5-level course; mutually exclusive for curriculum fulfilment with EE4015."
+        },
+        {
+          "code": "EE5438",
+          "title": "Applied Deep Learning",
+          "credits": 3,
+          "remarks": "P5-level course; mutually exclusive for curriculum fulfilment with EE4016."
         }
       ],
       "chooseCredits": 15
-    },
-    "freeElectives": {
-      "credits": 9,
-      "note": "Or Minor courses"
     }
   },
   "allCourses": [
+    "GE1401",
+    "GE2410",
+    "GE1501",
+    "GE1601",
+    "MA1200",
+    "MA1300",
+    "MA1201",
+    "MA1301",
     "CS1302",
     "PHY1101",
-    "CS2311",
+    "EE2066",
     "EE1001",
     "EE1002",
     "EE1004",
+    "GE1354",
     "EE2000",
     "EE2004",
     "EE2005",
@@ -202,7 +365,7 @@
     "EE3210",
     "EE4080",
     "EE4090",
-    "GE1354",
+    "CS2311",
     "MA2001",
     "EE2331",
     "EE2800",
@@ -239,13 +402,15 @@
         "courses": [
           {
             "code": "MA1200/MA1300",
-            "title": "MA1200 or MA1300",
-            "credits": 3
+            "title": "Calculus and Basic Linear Algebra I / Enhanced Calculus and Linear Algebra I",
+            "credits": 3,
+            "remarks": "Choose one of the two listed mathematics courses."
           },
           {
             "code": "EE1001",
             "title": "Foundations of Digital Techniques",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           },
           {
             "code": "CS1302",
@@ -255,7 +420,8 @@
           {
             "code": "GE1354",
             "title": "Introduction to Electronic Design",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           }
         ],
         "credits": 12
@@ -264,8 +430,9 @@
         "courses": [
           {
             "code": "MA1201/MA1301",
-            "title": "MA1201 or MA1301",
-            "credits": 3
+            "title": "Calculus and Basic Linear Algebra II / Enhanced Calculus and Linear Algebra II",
+            "credits": 3,
+            "remarks": "Choose one of the two listed mathematics courses."
           },
           {
             "code": "PHY1101",
@@ -275,12 +442,14 @@
           {
             "code": "EE1004",
             "title": "Foundations of Information Systems and Data Analysis",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           },
           {
             "code": "EE1002",
             "title": "Principles of Electrical Engineering",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 1 Semester A or B"
           }
         ],
         "credits": 12
@@ -403,7 +572,8 @@
           {
             "code": "EE4090",
             "title": "Engineering Training",
-            "credits": 0
+            "credits": 0,
+            "officialPlacement": "Year 2 or 3 Summer"
           }
         ],
         "credits": 0
@@ -413,24 +583,28 @@
       "semA": {
         "courses": [
           {
-            "code": "ELEL-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "ELEL-ELECTIVE1",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "ELEL-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "ELEL-ELECTIVE2",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
             "code": "EE4080",
             "title": "Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
             "code": "EE2066",
             "title": "Engineers in Society",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semester A or B"
           }
         ],
         "credits": 12
@@ -440,22 +614,26 @@
           {
             "code": "EE4080",
             "title": "Project",
-            "credits": 3
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
           },
           {
-            "code": "ELEL-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "ELEL-ELECTIVE3",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "ELEL-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "ELEL-ELECTIVE4",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           },
           {
-            "code": "ELEL-ELECTIVE",
-            "title": "Final Year Technical Elective",
-            "credits": 3
+            "code": "ELEL-ELECTIVE5",
+            "title": "Technical Elective (choose from the official course pool)",
+            "credits": 3,
+            "remarks": "DIY choice from the official elective list."
           }
         ],
         "credits": 12
@@ -463,9 +641,16 @@
     }
   },
   "notes": [
-    "Structure and Flowchart for BEng in Electronic and Electrical Engineering (2026/27 Entering Major).",
-    "EE4080 Project is a year-long course spanning Year 4 Semester A and B.",
-    "EE4090 Engineering Training (0 CU) is recommended in Summer after Year 2 or Year 3.",
-    "5 Final Year Technical Electives required (15 CUs), no more than two Level-3 electives."
-  ]
+    "This plan is transcribed from the official EE flowchart updated 6 March 2026. The flowchart excludes the 22 CU University GE requirements, which remain visible in Requirements and the editable course pool.",
+    "EE1001, EE1002, EE1004 and GE1354 may be completed in either Year 1 Semester A or B.",
+    "EE4080 Project is a 6 CU year-long course represented as 3 CU in each Year 4 semester.",
+    "EE4090 Engineering Training is a 0 CU Summer course recommended after Year 2 or Year 3.",
+    "Complete 15 CU from the official 2026/27 technical elective pool."
+  ],
+  "studyPlanStatus": "structure",
+  "studyPlanSourceTitle": "Structure and Flowchart for BEng in Electronic and Electrical Engineering (2026/27 Entering Major)",
+  "studyPlanSourceUrl": "https://www.ee.cityu.edu.hk/home/docs/programme/2026-27_ELEL_EnteringMajor_6-Mar-2026.pdf",
+  "requirementsSourceUrl": "https://www.ee.cityu.edu.hk/en/current_students/undergraduate/major/admission_beng-elel_majorcurriculum",
+  "lastVerified": "2026-08-29",
+  "studyPlanRevision": "ee-2026-27-v2"
 }

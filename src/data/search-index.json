@@ -4861,7 +4861,7 @@
       "code": "EE2005",
       "title": "Electronic Devices and Circuits",
       "credits": 3,
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 5,
       "searchText": "ee2005 electronic devices and circuits"
     },
     {
@@ -7883,7 +7883,7 @@
       "code": "MA1300",
       "title": "Enhanced Calculus and Linear Algebra I",
       "credits": 3,
-      "relatedMajorCount": 7,
+      "relatedMajorCount": 11,
       "searchText": "ma1300 enhanced calculus and linear algebra i"
     },
     {
@@ -7891,7 +7891,7 @@
       "code": "MA1301",
       "title": "Enhanced Calculus and Linear Algebra II",
       "credits": 3,
-      "relatedMajorCount": 7,
+      "relatedMajorCount": 11,
       "searchText": "ma1301 enhanced calculus and linear algebra ii"
     },
     {
@@ -9835,7 +9835,7 @@
       "code": "PHY1101",
       "title": "Introductory Classical Mechanics",
       "credits": 3,
-      "relatedMajorCount": 12,
+      "relatedMajorCount": 11,
       "searchText": "phy1101 introductory classical mechanics"
     },
     {
@@ -9851,7 +9851,7 @@
       "code": "PHY1202",
       "title": "General Physics II",
       "credits": 3,
-      "relatedMajorCount": 9,
+      "relatedMajorCount": 10,
       "searchText": "phy1202 general physics ii"
     },
     {
@@ -13933,7 +13933,7 @@
       "title": "English for Engineering",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 24,
+      "relatedMajorCount": 25,
       "searchText": "ge2410 english for engineering gateway education"
     },
     {
@@ -14095,7 +14095,7 @@
       "title": "Whole-Person Development",
       "credits": 1,
       "department": "Department of Biomedical Engineering",
-      "relatedMajorCount": 61,
+      "relatedMajorCount": 60,
       "searchText": "ge1601 whole-person development department of biomedical engineering"
     },
     {
@@ -15688,6 +15688,42 @@
       "department": "SCM",
       "relatedMajorCount": 0,
       "searchText": "ge4103 technologies in art, science and everyday life scm"
+    },
+    {
+      "type": "course",
+      "code": "EE5410",
+      "title": "Signal Processing",
+      "credits": 3,
+      "department": "Department of Electrical Engineering",
+      "relatedMajorCount": 4,
+      "searchText": "ee5410 signal processing department of electrical engineering"
+    },
+    {
+      "type": "course",
+      "code": "EE5438",
+      "title": "Applied Deep Learning",
+      "credits": 3,
+      "department": "Department of Electrical Engineering",
+      "relatedMajorCount": 3,
+      "searchText": "ee5438 applied deep learning department of electrical engineering"
+    },
+    {
+      "type": "course",
+      "code": "EE5808",
+      "title": "Topics in Computer Graphics",
+      "credits": 3,
+      "department": "Department of Electrical Engineering",
+      "relatedMajorCount": 2,
+      "searchText": "ee5808 topics in computer graphics department of electrical engineering"
+    },
+    {
+      "type": "course",
+      "code": "MSE4171",
+      "title": "Electronic Packaging and Materials",
+      "credits": 3,
+      "department": "Department of Materials Science and Engineering",
+      "relatedMajorCount": 1,
+      "searchText": "mse4171 electronic packaging and materials department of materials science and engineering"
     }
   ],
   "postgraduateProgrammes": [

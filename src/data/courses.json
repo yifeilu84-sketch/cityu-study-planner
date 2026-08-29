@@ -20981,15 +20981,8 @@
     "code": "PHY1202",
     "title": "General Physics II",
     "credits": 3,
-    "prerequisites": [
-      "AP1200",
-      "PHY1200E",
-      "AP1202C",
-      "PHY1101",
-      "PHY1201",
-      "PHY1202"
-    ],
-    "prerequisitesRaw": "HKDSE Mathematics Compulsory Part or equivalentPre-cursor(s)HKDSE Physics or Combined Science (Physics, Chemistry) or Combined Science (Biology, Physics) or AP1200/PHY1200",
+    "prerequisites": [],
+    "prerequisitesRaw": "Pre-requisite: HKDSE Mathematics Compulsory Part or equivalent. Pre-cursor: HKDSE Physics, Combined Science with Physics, AP1200/PHY1200, or equivalent.",
     "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
     "assessment": {
       "continuous": "30%",
@@ -20999,7 +20992,8 @@
     },
     "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/PHY1202.pdf",
     "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/PHY1202.htm",
-    "description": "This course covers a wide scope of topics in physics including electricity, magnetism and atomic physics. Students will investigate the fundamentals of these topics and become able to apply them to solve real problems in science and engineering. This course, together with PHY1101 Introductory Classical Mechanics or PHY1201 General Physics I, equip students with a broad knowledge in general physics and the depth and coverage are sufficient for the students to pursue most of the science"
+    "description": "This course covers a wide scope of topics in physics including electricity, magnetism and atomic physics. Students will investigate the fundamentals of these topics and become able to apply them to solve real problems in science and engineering. This course, together with PHY1101 Introductory Classical Mechanics or PHY1201 General Physics I, equip students with a broad knowledge in general physics and the depth and coverage are sufficient for the students to pursue most of the science",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/PHY1202.htm"
   },
   "PHY1203": {
     "code": "PHY1203",
@@ -33280,13 +33274,25 @@
     "title": "Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design",
     "credits": 3,
     "department": "Department of Electrical Engineering",
-    "prerequisites": [],
-    "prerequisitesRaw": "",
-    "semester": "",
-    "assessment": {},
-    "pdfUrl": "",
-    "courseUrl": "",
-    "description": "Course listed in the official 2026/2027 Information Engineering flowchart. A standalone course catalogue page was not available at the time this data was updated."
+    "prerequisites": [
+      "CS2311"
+    ],
+    "prerequisitesRaw": "Pre-requisite: CS2311. Pre-cursors: EE1001 and EE1004 and (MA1201 or MA1301).",
+    "semester": "Semester B 2026/27",
+    "assessment": {
+      "continuous": "70%",
+      "exam": "30%",
+      "examDuration": "2 hours",
+      "minCAPass": "30%",
+      "minExamPass": "30%",
+      "details": "Official indicative assessment: continuous assessment 70% and examination 30%. Students must achieve at least 30% in both coursework and the examination."
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202627/course/EE2303.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/EE2303.htm",
+    "description": "Explores the full lifecycle of AI system development in information engineering, including user requirements, business objectives, deployment, maintenance, ethics, and a collaborative real-world AI prototyping project.",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/EE2303.htm"
   },
   "GE2262": {
     "code": "GE2262",
@@ -35288,5 +35294,85 @@
     "geWithExam": "No",
     "geSource": "CityU GE Search",
     "geSourceUrl": "https://www.cityu.edu.hk/ge_info/Course/GE4103"
+  },
+  "EE5410": {
+    "code": "EE5410",
+    "title": "Signal Processing",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "Pre-cursor: EE3008, EE3112, EE3210, or equivalent.",
+    "semester": "",
+    "assessment": {
+      "continuous": "50%",
+      "exam": "50%",
+      "examDuration": "2 hours"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/pg/202627/course/EE5410.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5410.htm",
+    "description": "P5-level elective listed by the official undergraduate major curriculum. Students can only use either EE4015 or EE5410 to fulfil the applicable curriculum requirement.",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5410.htm"
+  },
+  "EE5438": {
+    "code": "EE5438",
+    "title": "Applied Deep Learning",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "Pre-cursors: MA2001, MA3160 and EE3206. Exclusive course: EE4016.",
+    "semester": "",
+    "assessment": {
+      "continuous": "70%",
+      "exam": "30%",
+      "examDuration": "1.5 hours"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/pg/202627/course/EE5438.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5438.htm",
+    "description": "P5-level elective listed by the official undergraduate major curriculum. Students can only use either EE4016 or EE5438 to fulfil the applicable curriculum requirement.",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5438.htm"
+  },
+  "EE5808": {
+    "code": "EE5808",
+    "title": "Topics in Computer Graphics",
+    "credits": 3,
+    "department": "Department of Electrical Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "Requires suitable mathematics and programming background. Exclusive course: EE4208.",
+    "semester": "",
+    "assessment": {
+      "continuous": "50%",
+      "exam": "50%",
+      "examDuration": "2 hours"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/pg/202627/course/EE5808.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5808.htm",
+    "description": "P5-level elective listed by the official undergraduate major curriculum. Students can only use either EE4208 or EE5808 to fulfil the applicable curriculum requirement.",
+    "catalogue": "pg",
+    "detailStatus": "linked-unparsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/pg/current/course/EE5808.htm"
+  },
+  "MSE4171": {
+    "code": "MSE4171",
+    "title": "Electronic Packaging and Materials",
+    "credits": 3,
+    "department": "Department of Materials Science and Engineering",
+    "prerequisites": [],
+    "prerequisitesRaw": "Pre-cursor: AP2102 or MSE2102. Equivalent course: AP4171.",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "50%",
+      "exam": "50%",
+      "examDuration": "1.5 hours"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/202526/course/MSE4171.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MSE4171.htm",
+    "description": "Introduces electronic packaging and the materials behaviour and reliability issues relevant to electronic packaging. It remains in the official MEE elective list but is marked as not currently offered in the course catalogue.",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MSE4171.htm"
   }
 }

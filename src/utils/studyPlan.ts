@@ -5,7 +5,7 @@ import { getCourseLookupCode, isGenericCourseSlot } from './courseCodes.ts'
 export interface SemesterPlan {
   year: number
   sem: 'A' | 'B' | 'Summer'
-  courses: { code: string; title: string; credits: number; category: string; semester: string }[]
+  courses: { code: string; title: string; credits: number; category: string; semester: string; officialPlacement?: string }[]
   totalCredits: number
 }
 
@@ -173,7 +173,7 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
     const semesters: SemesterPlan[] = []
     const plan = studyPlan
 
-    const processSemester = (year: number, sem: 'A' | 'B' | 'Summer', data: { courses: { code: string; title: string; credits: number }[]; credits: number }) => {
+    const processSemester = (year: number, sem: 'A' | 'B' | 'Summer', data: { courses: { code: string; title: string; credits: number; officialPlacement?: string }[]; credits: number }) => {
       const semCourses = data.courses.map(c => {
         const lookupCode = getCourseLookupCode(c.code)
         const course = courses[c.code] || courses[lookupCode]
@@ -182,7 +182,8 @@ export function generateStudyPlan(major: Major, courses: Record<string, Course>,
           title: c.title || course?.title || c.code,
           credits: c.credits ?? course?.credits ?? 0,
           category: getCategoryForPlannedCourse(c.code, c.title || course?.title || '', (stream?.requirements ?? major.requirements) as any || {}),
-          semester: course?.semester || ''
+          semester: course?.semester || '',
+          officialPlacement: c.officialPlacement,
         }
       })
       semesters.push({

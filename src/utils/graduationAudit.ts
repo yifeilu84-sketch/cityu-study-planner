@@ -319,8 +319,10 @@ function buildGEAudit(
   let plannedCredits = 0
 
   for (const course of plannedCourses) {
-    const isGE = /^GE/.test(course.code) || /^GE/.test(course.normalizedCode) || course.category === 'ge'
-    if (!isGE) continue
+    // Some GE-coded courses (for example EE majors' GE1354) are explicitly
+    // assigned to Major Core. Count by the official requirement section so a
+    // single course cannot also satisfy University GE credits or Area coverage.
+    if (getPlannedSectionKey(course, reqs, courses) !== 'gatewayEducation') continue
     plannedCredits += course.credits
     const area = getPlannedGEArea(course)
     if (area === 'Area 1' || area === 'Area 2' || area === 'Area 3') {

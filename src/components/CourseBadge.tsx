@@ -7,12 +7,21 @@ interface Props {
   title: string
   credits: number
   category: string
+  officialPlacement?: string
   onClick?: () => void
   onRemove?: () => void
   isDraggable?: boolean
 }
 
-export default function CourseBadge({ code, title, credits, category, onClick, onRemove, isDraggable }: Props) {
+const placementTranslations: Record<string, string> = {
+  'Year 1 Semester A or B': '官方：大一 Semester A 或 B',
+  'Year 2 or 3 Summer': '官方：大二或大三暑期',
+  'Year 3 Semester A or B': '官方：大三 Semester A 或 B',
+  'Year 4 Semester A or B': '官方：大四 Semester A 或 B',
+  'Year 4 Semesters A and B': '官方：跨大四 Semester A 与 B',
+}
+
+export default function CourseBadge({ code, title, credits, category, officialPlacement, onClick, onRemove, isDraggable }: Props) {
   const { language, pick } = useLanguage()
 
   return (
@@ -34,6 +43,11 @@ export default function CourseBadge({ code, title, credits, category, onClick, o
       <button onClick={onClick} className="w-full text-left">
         <div className="font-bold text-xs mb-0.5">{code}</div>
         <div className="text-xs leading-tight line-clamp-2">{title}</div>
+        {officialPlacement && (
+          <div className="mt-1.5 border-t border-current/10 pt-1.5 text-[10px] font-medium leading-4 opacity-80">
+            {pick(placementTranslations[officialPlacement] || `官方安排：${officialPlacement}`, `Official: ${officialPlacement}`)}
+          </div>
+        )}
         <div className="flex items-center justify-between mt-1.5">
           <span className="text-[10px] opacity-70">{credits} {pick('学分', 'CU')}</span>
           <span className="text-[10px] px-1.5 py-0.5 rounded bg-white/50">{getCategoryLabel(category, language)}</span>
