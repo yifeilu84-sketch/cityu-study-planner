@@ -2,21 +2,183 @@
   "code": "BBA1_BE2-1",
   "title": "Bachelor of Business Administration in Business Economics",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
-  "studyPlanStatus": "diy",
+  "studyPlanStatus": "derived",
   "notes": [
     "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits.",
-    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+    "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
   ],
   "degree": "Bachelor of Business",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Economics and Finance",
   "college": "College of Business",
   "requirements": {
-    "gatewayEducation": 30,
-    "collegeRequirement": 15,
-    "majorCore": 30,
-    "majorElective": 15,
-    "freeElective": 30
+    "gatewayEducation": {
+      "credits": 22,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE2402",
+          "title": "English for Business Communication",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation-History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
+        }
+      ]
+    },
+    "college": {
+      "credits": 42,
+      "courses": [
+        {
+          "code": "CB2100",
+          "title": "Introduction to Financial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB2101",
+          "title": "Introduction to Managerial Accounting",
+          "credits": 3
+        },
+        {
+          "code": "CB2200",
+          "title": "Business Statistics",
+          "credits": 3
+        },
+        {
+          "code": "CB2201",
+          "title": "Operations Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2300",
+          "title": "Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2400",
+          "title": "Microeconomics",
+          "credits": 3
+        },
+        {
+          "code": "CB2402",
+          "title": "Macroeconomics",
+          "credits": 3
+        },
+        {
+          "code": "CB2500",
+          "title": "Information Management",
+          "credits": 3
+        },
+        {
+          "code": "CB2601",
+          "title": "Marketing",
+          "credits": 3
+        },
+        {
+          "code": "CB3410",
+          "title": "Financial Management",
+          "credits": 3
+        },
+        {
+          "code": "CB4303",
+          "title": "Strategic Management",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC1",
+          "title": "College Elective 1",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC2",
+          "title": "College Elective 2",
+          "credits": 3
+        },
+        {
+          "code": "COL-ELEC3",
+          "title": "College Elective 3",
+          "credits": 3
+        }
+      ]
+    },
+    "collegeRequirement": {
+      "credits": 9,
+      "courses": [
+        {
+          "code": "CB2240",
+          "title": "Introduction to Business Programming in Python",
+          "credits": 3
+        },
+        {
+          "code": "CB2203",
+          "title": "Data-driven Business Modeling",
+          "credits": 3
+        },
+        {
+          "code": "GE-COL",
+          "title": "GE / College-specified Course",
+          "credits": 3
+        }
+      ]
+    },
+    "majorCore": {
+      "credits": 12,
+      "courses": [
+        {
+          "code": "EF2452",
+          "title": "Mathematics for Economics and Finance",
+          "credits": 3
+        },
+        {
+          "code": "EF3441",
+          "title": "Intermediate Macroeconomics",
+          "credits": 3
+        },
+        {
+          "code": "EF3442",
+          "title": "Intermediate Microeconomics",
+          "credits": 3
+        },
+        {
+          "code": "EF3450",
+          "title": "Principles of Econometrics",
+          "credits": 3
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 18,
+      "courses": [
+        {
+          "code": "MAJOR-ELECTIVE",
+          "title": "Approved Major Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 18,
+      "note": "Choose 18 CU from the official Business Economics elective list."
+    },
+    "freeElectives": {
+      "credits": 18,
+      "courses": [],
+      "note": "May be used for a minor or approved free electives."
+    }
   },
   "allCourses": [
     "CB2100",
@@ -74,67 +236,276 @@
     "EF4485",
     "EF4490",
     "EF4491",
-    "EF4600"
+    "EF4600",
+    "GE1401",
+    "GE1601",
+    "GE2402",
+    "GE1501",
+    "CB2240",
+    "CB2203",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6"
   ],
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CB2100",
+            "title": "Introduction to Financial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2201",
+            "title": "Operations Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2300",
+            "title": "Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2601",
+            "title": "Marketing",
+            "credits": 3
+          },
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          }
+        ],
+        "credits": 16
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CB2200",
+            "title": "Business Statistics",
+            "credits": 3
+          },
+          {
+            "code": "CB2400",
+            "title": "Microeconomics",
+            "credits": 3
+          },
+          {
+            "code": "CB2500",
+            "title": "Information Management",
+            "credits": 3
+          },
+          {
+            "code": "GE2402",
+            "title": "English for Business Communication",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     },
     "year2": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CB2101",
+            "title": "Introduction to Managerial Accounting",
+            "credits": 3
+          },
+          {
+            "code": "CB2402",
+            "title": "Macroeconomics",
+            "credits": 3
+          },
+          {
+            "code": "CB2240",
+            "title": "Introduction to Business Programming in Python",
+            "credits": 3
+          },
+          {
+            "code": "EF2452",
+            "title": "Mathematics for Economics and Finance",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CB3410",
+            "title": "Financial Management",
+            "credits": 3
+          },
+          {
+            "code": "CB2203",
+            "title": "Data-driven Business Modeling",
+            "credits": 3
+          },
+          {
+            "code": "EF3441",
+            "title": "Intermediate Macroeconomics",
+            "credits": 3
+          },
+          {
+            "code": "EF3442",
+            "title": "Intermediate Microeconomics",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     },
     "year3": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE-DR3",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC1",
+            "title": "College Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT1",
+            "title": "Business Economics Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL",
+            "title": "GE / College-specified Course",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "EF3450",
+            "title": "Principles of Econometrics",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC2",
+            "title": "College Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT2",
+            "title": "Business Economics Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     },
     "year4": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CB4303",
+            "title": "Strategic Management",
+            "credits": 3
+          },
+          {
+            "code": "COL-ELEC3",
+            "title": "College Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT3",
+            "title": "Business Economics Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT4",
+            "title": "Business Economics Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "MAJOR-ELECT5",
+            "title": "Business Economics Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT6",
+            "title": "Business Economics Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     }
   },
-  "studyPlanSourceTitle": "BBA Business Economics official curriculum and graduation requirements",
+  "studyPlanSourceTitle": "BBA Business Economics official curriculum, course offerings and graduation requirements (derived reference plan)",
   "studyPlanSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
   "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
   "lastVerified": "2026-08-30",

@@ -12,6 +12,7 @@ const GENERIC_CODE_PATTERNS = [
   /^PIA-COLLEGE$/i,
   /^SCHOOL/i,
   /^STREAM/i,
+  /^FLAGSHIP/i,
   /^MAJOR/i,
   /^COL-/i,
   /^CRM-/i,

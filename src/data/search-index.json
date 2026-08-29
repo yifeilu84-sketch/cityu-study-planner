@@ -87,7 +87,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_BE2-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bba1_be2-1 bachelor of business administration in business economics college of business department of economics and finance bachelor of business"
     },
     {
@@ -97,7 +97,7 @@
       "college": "College of Business",
       "department": "Department of Economics and Finance",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_FIN3-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bba1_fin3-1 bachelor of business administration in finance college of business department of economics and finance bachelor of business"
     },
     {
@@ -127,7 +127,7 @@
       "college": "College of Business",
       "department": "Department of Management",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MGMT-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "official",
       "searchText": "bba1_mgmt-1 bachelor of business administration in management college of business department of management bachelor of business"
     },
     {
@@ -137,7 +137,7 @@
       "college": "College of Business",
       "department": "Department of Marketing",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BBA1_MKT1-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bba1_mkt1-1 bachelor of business administration in marketing college of business department of marketing bachelor of business"
     },
     {
@@ -347,7 +347,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_TVB-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "ba1_tvb-1 bachelor of arts in digital television and broadcasting college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -357,7 +357,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Media and Communication",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BA1_MDCM-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "ba1_mdcm-1 bachelor of arts in media and communication college of liberal arts and social sciences department of media and communication bachelor of arts"
     },
     {
@@ -367,7 +367,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Public and International Affairs",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bss1_irga-1 bachelor of social sciences in international relations and global affairs college of liberal arts and social sciences department of public and international affairs bachelor of social"
     },
     {
@@ -397,7 +397,7 @@
       "college": "College of Liberal Arts and Social Sciences",
       "department": "Department of Social and Behavioural Sciences",
       "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_CRSO-1.htm",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bss1_crso-1 bachelor of social sciences in criminology and sociology college of liberal arts and social sciences department of social and behavioural sciences bachelor of social"
     },
     {
@@ -537,7 +537,7 @@
       "college": "School of Energy and Environment",
       "department": "School of Energy and Environment",
       "url": "https://www.cityu.edu.hk/en/see/programmes/undergraduate-programmes/flagship-programme---international-sustainability-programme-for-innovation",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "bsee_inspire-1 international sustainability programme for innovation, research and entrepreneurship (inspire) school of energy and environment school of energy and environment bachelor of engineering"
     },
     {
@@ -587,7 +587,7 @@
       "college": "College of Biomedicine",
       "department": "College of Biomedicine",
       "url": "https://www.cityu.edu.hk/admo/programmes/integrative-bioscience-bioengineering-programme-bio3",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "cbio_bio3-1 integrative bioscience and bioengineering programme (bio3) college of biomedicine college of biomedicine flagship programme"
     },
     {
@@ -597,7 +597,7 @@
       "college": "College of Computing",
       "department": "College of Computing",
       "url": "https://www.cityu.edu.hk/admo/programmes/ACT",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "cc_act-1 ai, computing and transformation (act) college of computing college of computing flagship programme"
     },
     {
@@ -607,7 +607,7 @@
       "college": "College of Engineering",
       "department": "College of Engineering",
       "url": "https://www.cityu.edu.hk/admo/programmes/pathway-research-innovation-and-multinational-engineering-prime",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "ceng_prime-1 pathway for research, innovation, and multinational engineering (prime) college of engineering college of engineering flagship programme"
     },
     {
@@ -617,7 +617,7 @@
       "college": "School of Creative Media",
       "department": "School of Creative Media",
       "url": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "scm_create-1 creative arts and technology excellence (create) school of creative media school of creative media flagship programme"
     },
     {
@@ -627,7 +627,7 @@
       "college": "College of Science",
       "department": "College of Science",
       "url": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
-      "sourceKind": "diy",
+      "sourceKind": "derived",
       "searchText": "csci_great-1 global research enrichment and technopreneurship (great) college of science college of science flagship programme"
     }
   ],
@@ -1557,7 +1557,7 @@
       "code": "CA2126",
       "title": "Measurement of Building Works",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2126 measurement of building works"
     },
     {
@@ -1573,7 +1573,7 @@
       "code": "CA2213",
       "title": "Development Economics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2213 development economics"
     },
     {
@@ -1589,7 +1589,7 @@
       "code": "CA2343A",
       "title": "Architectural Design - Space Making (Topic 1)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2343a architectural design - space making (topic 1)"
     },
     {
@@ -1597,7 +1597,7 @@
       "code": "CA2343B",
       "title": "Architectural Design - Space Making (Topic 2)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2343b architectural design - space making (topic 2)"
     },
     {
@@ -1605,7 +1605,7 @@
       "code": "CA2344A",
       "title": "Architectural Design ‒ Site and Environment (Topic 1)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2344a architectural design ‒ site and environment (topic 1)"
     },
     {
@@ -1613,7 +1613,7 @@
       "code": "CA2344B",
       "title": "Architectural Design ‒ Site and Environment (Topic 2)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2344b architectural design ‒ site and environment (topic 2)"
     },
     {
@@ -1621,7 +1621,7 @@
       "code": "CA2345",
       "title": "Digital Media and Presentation",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2345 digital media and presentation"
     },
     {
@@ -1629,7 +1629,7 @@
       "code": "CA2346",
       "title": "Experiencing Architecture",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2346 experiencing architecture"
     },
     {
@@ -1637,7 +1637,7 @@
       "code": "CA2347",
       "title": "History of Architecture - Western",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2347 history of architecture - western"
     },
     {
@@ -1645,7 +1645,7 @@
       "code": "CA2348",
       "title": "Sustainable Environment",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca2348 sustainable environment"
     },
     {
@@ -1765,7 +1765,7 @@
       "code": "CA3170",
       "title": "History of Architecture ‒ Chinese and Asian",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3170 history of architecture ‒ chinese and asian"
     },
     {
@@ -1773,7 +1773,7 @@
       "code": "CA3200",
       "title": "Advanced Design Tools",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3200 advanced design tools"
     },
     {
@@ -1781,7 +1781,7 @@
       "code": "CA3214",
       "title": "Construction Economics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3214 construction economics"
     },
     {
@@ -1789,7 +1789,7 @@
       "code": "CA3228",
       "title": "Land Use and Urban Planning",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3228 land use and urban planning"
     },
     {
@@ -1797,7 +1797,7 @@
       "code": "CA3230",
       "title": "Property Valuation and Interest Theory",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3230 property valuation and interest theory"
     },
     {
@@ -1805,7 +1805,7 @@
       "code": "CA3314",
       "title": "Surveying Studio",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3314 surveying studio"
     },
     {
@@ -1813,7 +1813,7 @@
       "code": "CA3321",
       "title": "Construction Contracts II",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3321 construction contracts ii"
     },
     {
@@ -1821,7 +1821,7 @@
       "code": "CA3324",
       "title": "Advanced Surveying Studio",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3324 advanced surveying studio"
     },
     {
@@ -1837,7 +1837,7 @@
       "code": "CA3349A",
       "title": "Architectural Design: Building Integration (Topic 1)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3349a architectural design: building integration (topic 1)"
     },
     {
@@ -1845,7 +1845,7 @@
       "code": "CA3349B",
       "title": "Architectural Design: Building Integration (Topic 2)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3349b architectural design: building integration (topic 2)"
     },
     {
@@ -1853,7 +1853,7 @@
       "code": "CA3350A",
       "title": "Architectural Design: Context (Topic 1)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3350a architectural design: context (topic 1)"
     },
     {
@@ -1861,7 +1861,7 @@
       "code": "CA3350B",
       "title": "Architectural Design: Context (Topic 2)",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3350b architectural design: context (topic 2)"
     },
     {
@@ -1885,7 +1885,7 @@
       "code": "CA3422",
       "title": "Decision Analysis and Risk Management for Construction",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3422 decision analysis and risk management for construction"
     },
     {
@@ -1893,7 +1893,7 @@
       "code": "CA3508",
       "title": "Industrial Internship",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3508 industrial internship"
     },
     {
@@ -1973,7 +1973,7 @@
       "code": "CA3703",
       "title": "Construction Methods and Equipment",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca3703 construction methods and equipment"
     },
     {
@@ -1997,7 +1997,7 @@
       "code": "CA3712",
       "title": "Electrical Services",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 6,
       "searchText": "ca3712 electrical services"
     },
     {
@@ -2005,7 +2005,7 @@
       "code": "CA3722",
       "title": "HVAC Engineering",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 6,
       "searchText": "ca3722 hvac engineering"
     },
     {
@@ -2013,7 +2013,7 @@
       "code": "CA3732",
       "title": "Fire Engineering and Piped Services",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 6,
       "searchText": "ca3732 fire engineering and piped services"
     },
     {
@@ -2053,7 +2053,7 @@
       "code": "CA4229",
       "title": "Land Use Planning and Applied Valuation",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4229 land use planning and applied valuation"
     },
     {
@@ -2061,7 +2061,7 @@
       "code": "CA4313",
       "title": "Construction Contracts III",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4313 construction contracts iii"
     },
     {
@@ -2069,7 +2069,7 @@
       "code": "CA4320",
       "title": "Cost Management of Building and Engineering Works",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4320 cost management of building and engineering works"
     },
     {
@@ -2077,7 +2077,7 @@
       "code": "CA4413",
       "title": "Construction Project Management",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4413 construction project management"
     },
     {
@@ -2085,7 +2085,7 @@
       "code": "CA4415",
       "title": "Value Management",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4415 value management"
     },
     {
@@ -2117,7 +2117,7 @@
       "code": "CA4513",
       "title": "Final Year Project",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4513 final year project"
     },
     {
@@ -2133,7 +2133,7 @@
       "code": "CA4524",
       "title": "Integrated Building Project Development (Surveying)",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4524 integrated building project development (surveying)"
     },
     {
@@ -2157,7 +2157,7 @@
       "code": "CA4528",
       "title": "Integrated Building Project Development (Architecture)",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4528 integrated building project development (architecture)"
     },
     {
@@ -2165,7 +2165,7 @@
       "code": "CA4534",
       "title": "Final Year Project",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4534 final year project"
     },
     {
@@ -2173,7 +2173,7 @@
       "code": "CA4539",
       "title": "Architectural Design: Final Year Design Research Project Part 1",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4539 architectural design: final year design research project part 1"
     },
     {
@@ -2181,7 +2181,7 @@
       "code": "CA4540",
       "title": "Architectural Design: Final Year Design Research Project Part 2",
       "credits": 6,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4540 architectural design: final year design research project part 2"
     },
     {
@@ -2197,7 +2197,7 @@
       "code": "CA4623",
       "title": "Maintenance Technology and Management",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4623 maintenance technology and management"
     },
     {
@@ -2205,7 +2205,7 @@
       "code": "CA4630",
       "title": "Building Design and Appraisal",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ca4630 building design and appraisal"
     },
     {
@@ -2277,7 +2277,7 @@
       "code": "CA4718",
       "title": "Power Electronics and Smart Lighting Controls",
       "credits": 3,
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 7,
       "searchText": "ca4718 power electronics and smart lighting controls"
     },
     {
@@ -2301,7 +2301,7 @@
       "code": "CA4737",
       "title": "Fire Science and Modelling",
       "credits": 3,
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 7,
       "searchText": "ca4737 fire science and modelling"
     },
     {
@@ -2309,7 +2309,7 @@
       "code": "CA4738",
       "title": "Fire Engineering Approach",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 6,
       "searchText": "ca4738 fire engineering approach"
     },
     {
@@ -3277,7 +3277,7 @@
       "code": "CHEM2004",
       "title": "Principles of Analytical Chemistry",
       "credits": 4,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "chem2004 principles of analytical chemistry"
     },
     {
@@ -4269,7 +4269,7 @@
       "code": "CS2402",
       "title": "Introduction to Computational Probability Modeling",
       "credits": 3,
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 4,
       "searchText": "cs2402 introduction to computational probability modeling"
     },
     {
@@ -5069,7 +5069,7 @@
       "code": "EE3800",
       "title": "Semiconductor Materials and Devices",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ee3800 semiconductor materials and devices"
     },
     {
@@ -5077,7 +5077,7 @@
       "code": "EE3801",
       "title": "Microsystems and Nanotechnology",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ee3801 microsystems and nanotechnology"
     },
     {
@@ -5341,7 +5341,7 @@
       "code": "EE4802",
       "title": "VLSI Circuit Design",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ee4802 vlsi circuit design"
     },
     {
@@ -5349,7 +5349,7 @@
       "code": "EE4803",
       "title": "Analog IC Design",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ee4803 analog ic design"
     },
     {
@@ -5357,7 +5357,7 @@
       "code": "EE4804",
       "title": "Antenna Design for Integrated Circuits",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ee4804 antenna design for integrated circuits"
     },
     {
@@ -6133,7 +6133,7 @@
       "code": "FS2003",
       "title": "Introduction to Intellectual Property",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "fs2003 introduction to intellectual property"
     },
     {
@@ -6182,7 +6182,7 @@
       "title": "Exploring Hong Kong: History, Culture and Society",
       "credits": 3,
       "department": "CAH",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge1138 exploring hong kong: history, culture and society cah"
     },
     {
@@ -6191,7 +6191,7 @@
       "title": "Urban Green City: Pollution and Solution",
       "credits": 3,
       "department": "SEE",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge1337 urban green city: pollution and solution see"
     },
     {
@@ -6209,7 +6209,7 @@
       "title": "Understanding Uncertainty and Statistical Reasoning",
       "credits": 3,
       "department": "MS",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2213 understanding uncertainty and statistical reasoning ms"
     },
     {
@@ -6218,7 +6218,7 @@
       "title": "Interpersonal Skills and Positive Personal Development",
       "credits": 3,
       "department": "SS",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2223 interpersonal skills and positive personal development ss"
     },
     {
@@ -6227,7 +6227,7 @@
       "title": "Ageing Society: Hong Kong and Beyond",
       "credits": 3,
       "department": "SS",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2226 ageing society: hong kong and beyond ss"
     },
     {
@@ -6236,7 +6236,7 @@
       "title": "Innovation and Entrepreneurship in Global Business",
       "credits": 3,
       "department": "MGT",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2230 innovation and entrepreneurship in global business mgt"
     },
     {
@@ -6245,7 +6245,7 @@
       "title": "Social Networks for Media, Business and Technological Applications",
       "credits": 3,
       "department": "COM",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2234 social networks for media, business and technological applications com"
     },
     {
@@ -6254,7 +6254,7 @@
       "title": "Foundations of Innovation and Entrepreneurship",
       "credits": 3,
       "department": "SYE",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "ge2304 foundations of innovation and entrepreneurship sye"
     },
     {
@@ -7883,7 +7883,7 @@
       "code": "MA1300",
       "title": "Enhanced Calculus and Linear Algebra I",
       "credits": 3,
-      "relatedMajorCount": 11,
+      "relatedMajorCount": 13,
       "searchText": "ma1300 enhanced calculus and linear algebra i"
     },
     {
@@ -7891,7 +7891,7 @@
       "code": "MA1301",
       "title": "Enhanced Calculus and Linear Algebra II",
       "credits": 3,
-      "relatedMajorCount": 11,
+      "relatedMajorCount": 13,
       "searchText": "ma1301 enhanced calculus and linear algebra ii"
     },
     {
@@ -8355,7 +8355,7 @@
       "code": "MGT2324",
       "title": "Introduction to Entrepreneurship",
       "credits": 3,
-      "relatedMajorCount": 9,
+      "relatedMajorCount": 8,
       "searchText": "mgt2324 introduction to entrepreneurship"
     },
     {
@@ -8419,7 +8419,7 @@
       "code": "MGT4305",
       "title": "Developing and Presenting a Business Plan",
       "credits": 3,
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 5,
       "searchText": "mgt4305 developing and presenting a business plan"
     },
     {
@@ -9051,7 +9051,7 @@
       "code": "MNE3202",
       "title": "Aircraft Dynamics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne3202 aircraft dynamics"
     },
     {
@@ -9059,7 +9059,7 @@
       "code": "MNE3203",
       "title": "Aerospace Propulsion Systems",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne3203 aerospace propulsion systems"
     },
     {
@@ -9067,7 +9067,7 @@
       "code": "MNE3204",
       "title": "NDT Technologies for Aircraft Structures and Materials",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne3204 ndt technologies for aircraft structures and materials"
     },
     {
@@ -9075,7 +9075,7 @@
       "code": "MNE3205",
       "title": "Flight Mechanics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne3205 flight mechanics"
     },
     {
@@ -9083,7 +9083,7 @@
       "code": "MNE3207",
       "title": "Avionic Power Systems",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne3207 avionic power systems"
     },
     {
@@ -9243,7 +9243,7 @@
       "code": "MNE4201",
       "title": "Aerodynamics",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4201 aerodynamics"
     },
     {
@@ -9251,7 +9251,7 @@
       "code": "MNE4202",
       "title": "Aeroelasticity",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4202 aeroelasticity"
     },
     {
@@ -9259,7 +9259,7 @@
       "code": "MNE4203",
       "title": "Modelling and Simulation",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4203 modelling and simulation"
     },
     {
@@ -9267,7 +9267,7 @@
       "code": "MNE4204",
       "title": "Signals, Sensors and Communication Systems",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4204 signals, sensors and communication systems"
     },
     {
@@ -9275,7 +9275,7 @@
       "code": "MNE4208",
       "title": "Advanced Composites and Polymers",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4208 advanced composites and polymers"
     },
     {
@@ -9283,7 +9283,7 @@
       "code": "MNE4213",
       "title": "Advanced Structural Materials",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4213 advanced structural materials"
     },
     {
@@ -9291,7 +9291,7 @@
       "code": "MNE4217",
       "title": "Autonomous Systems and Navigation",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "mne4217 autonomous systems and navigation"
     },
     {
@@ -9843,7 +9843,7 @@
       "code": "PHY1201",
       "title": "General Physics I",
       "credits": 3,
-      "relatedMajorCount": 19,
+      "relatedMajorCount": 20,
       "searchText": "phy1201 general physics i"
     },
     {
@@ -10915,7 +10915,7 @@
       "code": "SDSC3002",
       "title": "Data Mining",
       "credits": 3,
-      "relatedMajorCount": 6,
+      "relatedMajorCount": 7,
       "searchText": "sdsc3002 data mining"
     },
     {
@@ -11355,7 +11355,7 @@
       "code": "SEE2203",
       "title": "Environmental, Safety, and Occupational Health Management",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "see2203 environmental, safety, and occupational health management"
     },
     {
@@ -11363,7 +11363,7 @@
       "code": "SEE2204",
       "title": "Principles of Sustainability",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see2204 principles of sustainability"
     },
     {
@@ -11419,7 +11419,7 @@
       "code": "SEE3201",
       "title": "Atmospheric Science - An Introductory Survey",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see3201 atmospheric science - an introductory survey"
     },
     {
@@ -11427,7 +11427,7 @@
       "code": "SEE3203",
       "title": "Air Pollution",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "see3203 air pollution"
     },
     {
@@ -11435,7 +11435,7 @@
       "code": "SEE3204",
       "title": "Urban Sustainability",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see3204 urban sustainability"
     },
     {
@@ -11443,7 +11443,7 @@
       "code": "SEE3205",
       "title": "Urban Sustainability",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see3205 urban sustainability"
     },
     {
@@ -11451,7 +11451,7 @@
       "code": "SEE3206",
       "title": "Environmental Social Governance",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 5,
       "searchText": "see3206 environmental social governance"
     },
     {
@@ -11459,7 +11459,7 @@
       "code": "SEE3207",
       "title": "Indoor Environmental Quality",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see3207 indoor environmental quality"
     },
     {
@@ -11475,7 +11475,7 @@
       "code": "SEE4001",
       "title": "Engineers in Society",
       "credits": 1,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4001 engineers in society"
     },
     {
@@ -11483,7 +11483,7 @@
       "code": "SEE4002",
       "title": "Environmental Engineering Laboratory",
       "credits": 3,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "see4002 environmental engineering laboratory"
     },
     {
@@ -11515,7 +11515,7 @@
       "code": "SEE4113",
       "title": "Nanotechnology in Energy Conversion and Storage: Concepts and Creative Science",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4113 nanotechnology in energy conversion and storage: concepts and creative science"
     },
     {
@@ -11523,7 +11523,7 @@
       "code": "SEE4114",
       "title": "Bioenergy Engineering: Principles and Applications",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4114 bioenergy engineering: principles and applications"
     },
     {
@@ -11531,7 +11531,7 @@
       "code": "SEE4115",
       "title": "Energy Catalysis and Reaction Engineering",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4115 energy catalysis and reaction engineering"
     },
     {
@@ -11539,7 +11539,7 @@
       "code": "SEE4116",
       "title": "Energy and Carbon Auditing",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 5,
       "searchText": "see4116 energy and carbon auditing"
     },
     {
@@ -11547,7 +11547,7 @@
       "code": "SEE4117",
       "title": "Solar Energy Engineering",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4117 solar energy engineering"
     },
     {
@@ -11555,7 +11555,7 @@
       "code": "SEE4118",
       "title": "Wind and Marine Energy",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4118 wind and marine energy"
     },
     {
@@ -11563,7 +11563,7 @@
       "code": "SEE4119",
       "title": "Electrical Energy Conversion",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4119 electrical energy conversion"
     },
     {
@@ -11571,7 +11571,7 @@
       "code": "SEE4120",
       "title": "Materials Engineering for Energy Applications",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4120 materials engineering for energy applications"
     },
     {
@@ -11579,7 +11579,7 @@
       "code": "SEE4121",
       "title": "Gas Engineering",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4121 gas engineering"
     },
     {
@@ -11587,7 +11587,7 @@
       "code": "SEE4122",
       "title": "Chemical Separations for Energy and Environmental Applications",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4122 chemical separations for energy and environmental applications"
     },
     {
@@ -11595,7 +11595,7 @@
       "code": "SEE4202",
       "title": "Atmospheric Chemistry",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4202 atmospheric chemistry"
     },
     {
@@ -11603,7 +11603,7 @@
       "code": "SEE4203",
       "title": "Advanced Treatment and Management of Solid and Municipal Waste",
       "credits": 3,
-      "relatedMajorCount": 1,
+      "relatedMajorCount": 2,
       "searchText": "see4203 advanced treatment and management of solid and municipal waste"
     },
     {
@@ -11611,7 +11611,7 @@
       "code": "SEE4204",
       "title": "Environmental Systems Modelling",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4204 environmental systems modelling"
     },
     {
@@ -11619,7 +11619,7 @@
       "code": "SEE4205",
       "title": "Design of Smart Cities and Sustainable Building",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4205 design of smart cities and sustainable building"
     },
     {
@@ -11651,7 +11651,7 @@
       "code": "SEE4218",
       "title": "Water and Water Resource Engineering",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4218 water and water resource engineering"
     },
     {
@@ -11667,7 +11667,7 @@
       "code": "SEE4220",
       "title": "Measurements of Air Pollutants",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "see4220 measurements of air pollutants"
     },
     {
@@ -12629,7 +12629,7 @@
       "code": "SS1011",
       "title": "Social Welfare Services and Issues",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "ss1011 social welfare services and issues"
     },
     {
@@ -12637,7 +12637,7 @@
       "code": "SS1024",
       "title": "Social Issues and Problems",
       "credits": 3,
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "ss1024 social issues and problems"
     },
     {
@@ -12645,7 +12645,7 @@
       "code": "SS1101",
       "title": "Basic Psychology",
       "credits": 3,
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 5,
       "searchText": "ss1101 basic psychology"
     },
     {
@@ -13381,7 +13381,7 @@
       "code": "SYE1001",
       "title": "Introduction of Engineering Disciplines",
       "credits": 0,
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 1,
       "searchText": "sye1001 introduction of engineering disciplines"
     },
     {
@@ -13557,7 +13557,7 @@
       "code": "SYE4024",
       "title": "Project Management",
       "credits": 3,
-      "relatedMajorCount": 7,
+      "relatedMajorCount": 8,
       "searchText": "sye4024 project management"
     },
     {
@@ -13969,7 +13969,7 @@
       "title": "University English",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 56,
+      "relatedMajorCount": 63,
       "searchText": "ge1401 university english gateway education"
     },
     {
@@ -13987,7 +13987,7 @@
       "title": "Chinese Civilisation-History and Philosophy",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 56,
+      "relatedMajorCount": 63,
       "searchText": "ge1501 chinese civilisation-history and philosophy gateway education"
     },
     {
@@ -14023,7 +14023,7 @@
       "title": "English for Science",
       "credits": 3,
       "department": "Gateway Education",
-      "relatedMajorCount": 14,
+      "relatedMajorCount": 15,
       "searchText": "ge2401 english for science gateway education"
     },
     {
@@ -14032,7 +14032,7 @@
       "title": "Data-driven Business Modeling",
       "credits": 3,
       "department": "College of Business",
-      "relatedMajorCount": 7,
+      "relatedMajorCount": 10,
       "searchText": "cb2203 data-driven business modeling college of business"
     },
     {
@@ -14041,7 +14041,7 @@
       "title": "Introduction to Business Programming in Python",
       "credits": 3,
       "department": "College of Business",
-      "relatedMajorCount": 8,
+      "relatedMajorCount": 11,
       "searchText": "cb2240 introduction to business programming in python college of business"
     },
     {
@@ -14059,7 +14059,7 @@
       "title": "Introductory Physics for Biologists",
       "credits": 3,
       "department": "Department of Physics",
-      "relatedMajorCount": 5,
+      "relatedMajorCount": 6,
       "searchText": "phy1400 introductory physics for biologists department of physics"
     },
     {
@@ -14077,7 +14077,7 @@
       "title": "Media Computing",
       "credits": 3,
       "department": "Department of Computer Science",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "cs1103b media computing department of computer science"
     },
     {
@@ -14113,7 +14113,7 @@
       "title": "Introduction to Computer Programming",
       "credits": 3,
       "department": "Department of Computer Science",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "cs1315 introduction to computer programming department of computer science"
     },
     {
@@ -14122,7 +14122,7 @@
       "title": "Human Contexts and Ethics in Data Science",
       "credits": 3,
       "department": "Department of Data Science",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "sdsc2003 human contexts and ethics in data science department of data science"
     },
     {
@@ -14140,7 +14140,7 @@
       "title": "Whole-Person Development",
       "credits": 1,
       "department": "Department of Biomedical Engineering",
-      "relatedMajorCount": 53,
+      "relatedMajorCount": 60,
       "searchText": "ge1601 whole-person development department of biomedical engineering"
     },
     {
@@ -14158,7 +14158,7 @@
       "title": "English Communication Skills for Computing",
       "credits": 2,
       "department": "Department of Computer Science",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "en4262 english communication skills for computing department of computer science"
     },
     {
@@ -14194,7 +14194,7 @@
       "title": "English for the Humanities and Social Sciences",
       "credits": 3,
       "department": "Department of English",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 7,
       "searchText": "ge2412 english for the humanities and social sciences department of english"
     },
     {
@@ -14230,7 +14230,7 @@
       "title": "English for Business Communication",
       "credits": 3,
       "department": "EN",
-      "relatedMajorCount": 12,
+      "relatedMajorCount": 15,
       "searchText": "ge2402 english for business communication en"
     },
     {
@@ -15740,7 +15740,7 @@
       "title": "Signal Processing",
       "credits": 3,
       "department": "Department of Electrical Engineering",
-      "relatedMajorCount": 4,
+      "relatedMajorCount": 5,
       "searchText": "ee5410 signal processing department of electrical engineering"
     },
     {
@@ -15749,7 +15749,7 @@
       "title": "Applied Deep Learning",
       "credits": 3,
       "department": "Department of Electrical Engineering",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "ee5438 applied deep learning department of electrical engineering"
     },
     {
@@ -15758,7 +15758,7 @@
       "title": "Topics in Computer Graphics",
       "credits": 3,
       "department": "Department of Electrical Engineering",
-      "relatedMajorCount": 2,
+      "relatedMajorCount": 3,
       "searchText": "ee5808 topics in computer graphics department of electrical engineering"
     },
     {
@@ -15785,7 +15785,7 @@
       "title": "Professionals and Society",
       "credits": 3,
       "department": "Department of Architecture and Civil Engineering",
-      "relatedMajorCount": 3,
+      "relatedMajorCount": 4,
       "searchText": "ca2066 professionals and society department of architecture and civil engineering"
     },
     {
@@ -15814,6 +15814,92 @@
       "department": "School of Energy and Environment",
       "relatedMajorCount": 1,
       "searchText": "see4992 final year project on sustainability school of energy and environment"
+    },
+    {
+      "type": "course",
+      "code": "CBM4000",
+      "title": "Research Seminar",
+      "credits": 1,
+      "department": "College of Biomedicine",
+      "relatedMajorCount": 1,
+      "searchText": "cbm4000 research seminar college of biomedicine"
+    },
+    {
+      "type": "course",
+      "code": "CBM4001",
+      "title": "Overseas Research Project",
+      "credits": 3,
+      "department": "College of Biomedicine",
+      "relatedMajorCount": 1,
+      "searchText": "cbm4001 overseas research project college of biomedicine"
+    },
+    {
+      "type": "course",
+      "code": "DSC3001",
+      "title": "Big Data: The Arts and Science of Scaling",
+      "credits": 3,
+      "relatedMajorCount": 1,
+      "searchText": "dsc3001 big data: the arts and science of scaling"
+    },
+    {
+      "type": "course",
+      "code": "DSC3025",
+      "title": "Internship for Flagship Programme",
+      "credits": 3,
+      "relatedMajorCount": 1,
+      "searchText": "dsc3025 internship for flagship programme"
+    },
+    {
+      "type": "course",
+      "code": "DSC3026",
+      "title": "International Professional Development",
+      "credits": 3,
+      "relatedMajorCount": 1,
+      "searchText": "dsc3026 international professional development"
+    },
+    {
+      "type": "course",
+      "code": "DSC4016",
+      "title": "Fundamentals of Machine Learning II",
+      "credits": 3,
+      "relatedMajorCount": 1,
+      "searchText": "dsc4016 fundamentals of machine learning ii"
+    },
+    {
+      "type": "course",
+      "code": "MA1400",
+      "title": "Calculus I",
+      "credits": 3,
+      "department": "Department of Mathematics",
+      "relatedMajorCount": 1,
+      "searchText": "ma1400 calculus i department of mathematics"
+    },
+    {
+      "type": "course",
+      "code": "MA1401",
+      "title": "Calculus II",
+      "credits": 3,
+      "department": "Department of Mathematics",
+      "relatedMajorCount": 1,
+      "searchText": "ma1401 calculus ii department of mathematics"
+    },
+    {
+      "type": "course",
+      "code": "MA1505",
+      "title": "Linear Algebra I",
+      "credits": 3,
+      "department": "Department of Mathematics",
+      "relatedMajorCount": 1,
+      "searchText": "ma1505 linear algebra i department of mathematics"
+    },
+    {
+      "type": "course",
+      "code": "MA2505",
+      "title": "Linear Algebra II",
+      "credits": 3,
+      "department": "Department of Mathematics",
+      "relatedMajorCount": 1,
+      "searchText": "ma2505 linear algebra ii department of mathematics"
     }
   ],
   "postgraduateProgrammes": [

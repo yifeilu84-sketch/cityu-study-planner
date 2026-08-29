@@ -2,21 +2,177 @@
   "code": "BSS1_IRGA-1",
   "title": "Bachelor of Social Sciences in International Relations and Global Affairs",
   "url": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
-  "studyPlanStatus": "diy",
+  "studyPlanStatus": "derived",
   "notes": [
     "Please treat the semester allocation as a DIY reference and adjust it against official course offerings, prerequisites, and credit-load limits.",
-    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+    "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
   ],
   "degree": "Bachelor of Social",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "Department of Public and International Affairs",
   "college": "College of Liberal Arts and Social Sciences",
   "requirements": {
-    "gatewayEducation": 30,
-    "collegeRequirement": 15,
-    "majorCore": 36,
-    "majorElective": 18,
-    "freeElective": 21
+    "gatewayEducation": {
+      "credits": 31,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE2412",
+          "title": "English for the Humanities and Social Sciences",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation-History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
+        },
+        {
+          "code": "GE-COLLEGE",
+          "title": "College-specified GE Courses",
+          "credits": 9
+        }
+      ]
+    },
+    "collegeRequirement": {
+      "credits": 6,
+      "courses": [
+        {
+          "code": "COL-LIB",
+          "title": "Liberal Arts Studies Course",
+          "credits": 3
+        },
+        {
+          "code": "COL-SOC",
+          "title": "Social Sciences Studies Course",
+          "credits": 3
+        }
+      ]
+    },
+    "majorCore": {
+      "credits": 51,
+      "courses": [
+        {
+          "code": "PIA2012",
+          "title": "Social Research Methods",
+          "credits": 3
+        },
+        {
+          "code": "PIA2105",
+          "title": "Introduction to Political Science",
+          "credits": 3
+        },
+        {
+          "code": "PIA2402",
+          "title": "Introduction to Social and Political Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "PIA2030",
+          "title": "Traditions of Inquiry in the Social Sciences",
+          "credits": 3
+        },
+        {
+          "code": "PIA2050",
+          "title": "Comparative Politics and Societies",
+          "credits": 3
+        },
+        {
+          "code": "PIA3031",
+          "title": "Political Dynamics in Asia",
+          "credits": 3
+        },
+        {
+          "code": "PIA3126",
+          "title": "International Political Economy",
+          "credits": 3
+        },
+        {
+          "code": "PIA3130",
+          "title": "U.S. Politics and Foreign Policy",
+          "credits": 3
+        },
+        {
+          "code": "PIA3151",
+          "title": "Managing New Global Challenges",
+          "credits": 3
+        },
+        {
+          "code": "PIA3800",
+          "title": "Professional Internship",
+          "credits": 3
+        },
+        {
+          "code": "PIA3812",
+          "title": "International Experience",
+          "credits": 0
+        },
+        {
+          "code": "PIA3032",
+          "title": "State and Economy in Asia",
+          "credits": 3
+        },
+        {
+          "code": "PIA3121",
+          "title": "Theories of International Relations",
+          "credits": 3
+        },
+        {
+          "code": "PIA3123",
+          "title": "Theories of Development",
+          "credits": 3
+        },
+        {
+          "code": "PIA3142",
+          "title": "Global Social Movements",
+          "credits": 3
+        },
+        {
+          "code": "PIA3153",
+          "title": "European Politics and International Relations",
+          "credits": 3
+        },
+        {
+          "code": "PIA4123",
+          "title": "International Security",
+          "credits": 3
+        },
+        {
+          "code": "PIA4152",
+          "title": "Globalization and Its Discontents",
+          "credits": 3
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 12,
+      "courses": [
+        {
+          "code": "MAJOR-ELECTIVE",
+          "title": "IRGA Major Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 12
+    },
+    "freeElectives": {
+      "credits": 21,
+      "courses": [],
+      "note": "Use approved free electives or a minor."
+    }
   },
   "allCourses": [
     "LC2401",
@@ -86,67 +242,285 @@
     "PIA4122",
     "PIA4127",
     "PIA4132",
-    "PIA4142"
+    "PIA4142",
+    "GE1401",
+    "GE1601",
+    "GE1501",
+    "GE2412",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7"
   ],
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "PIA2012",
+            "title": "Social Research Methods",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL1",
+            "title": "College-specified GE Course 1",
+            "credits": 3
+          },
+          {
+            "code": "COL-LIB",
+            "title": "Liberal Arts Studies Course",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE2412",
+            "title": "English for the Humanities and Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "PIA2105",
+            "title": "Introduction to Political Science",
+            "credits": 3
+          },
+          {
+            "code": "PIA2402",
+            "title": "Introduction to Social and Political Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL2",
+            "title": "College-specified GE Course 2",
+            "credits": 3
+          },
+          {
+            "code": "COL-SOC",
+            "title": "Social Sciences Studies Course",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     },
     "year2": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "PIA2030",
+            "title": "Traditions of Inquiry in the Social Sciences",
+            "credits": 3
+          },
+          {
+            "code": "PIA2050",
+            "title": "Comparative Politics and Societies",
+            "credits": 3
+          },
+          {
+            "code": "PIA3031",
+            "title": "Political Dynamics in Asia",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "GE-COL3",
+            "title": "College-specified GE Course 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "PIA3126",
+            "title": "International Political Economy",
+            "credits": 3
+          },
+          {
+            "code": "PIA3130",
+            "title": "U.S. Politics and Foreign Policy",
+            "credits": 3
+          },
+          {
+            "code": "PIA3151",
+            "title": "Managing New Global Challenges",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "PIA3800",
+            "title": "Professional Internship",
+            "credits": 3
+          },
+          {
+            "code": "PIA3812",
+            "title": "International Experience",
+            "credits": 0
+          }
+        ],
+        "credits": 3
       }
     },
     "year3": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "PIA3032",
+            "title": "State and Economy in Asia",
+            "credits": 3
+          },
+          {
+            "code": "PIA3121",
+            "title": "Theories of International Relations",
+            "credits": 3
+          },
+          {
+            "code": "PIA3123",
+            "title": "Theories of Development",
+            "credits": 3
+          },
+          {
+            "code": "PIA3142",
+            "title": "Global Social Movements",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "PIA3153",
+            "title": "European Politics and International Relations",
+            "credits": 3
+          },
+          {
+            "code": "PIA4123",
+            "title": "International Security",
+            "credits": 3
+          },
+          {
+            "code": "PIA4152",
+            "title": "Globalization and Its Discontents",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT1",
+            "title": "IRGA Major Elective 1",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       }
     },
     "year4": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "MAJOR-ELECT2",
+            "title": "IRGA Major Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT3",
+            "title": "IRGA Major Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT4",
+            "title": "IRGA Major Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          },
+          {
+            "code": "FREE7",
+            "title": "Free Elective 7",
+            "credits": 3
+          }
+        ],
+        "credits": 12
       }
     }
   },
-  "studyPlanSourceTitle": "BSS International Relations and Global Affairs official graduation requirements",
+  "studyPlanSourceTitle": "BSS International Relations and Global Affairs official curriculum, course offerings and graduation requirements (derived reference plan)",
   "studyPlanSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
   "requirementsSourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/Major/BSS1_IRGA-1.htm",
   "lastVerified": "2026-08-30",

@@ -8220,11 +8220,8 @@
     "code": "CS3505",
     "title": "IT Professional Internship",
     "credits": 9,
-    "prerequisites": [
-      "CS3000C",
-      "CS3505"
-    ],
-    "prerequisitesRaw": "Completed at least 25 credit units of CS courses and attained CGPA of 2.0 or above in semester prior to internshipExclusive Courses: CS3000",
+    "prerequisites": [],
+    "prerequisitesRaw": "Completed at least 25 credit units of CS courses and attained a CGPA of 2.0 or above in the semester before the internship.",
     "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
     "assessment": {
       "continuous": "100%",
@@ -9096,10 +9093,8 @@
     "code": "CSCI4005",
     "title": "Overseas Internship Scheme for Science Student",
     "credits": 3,
-    "prerequisites": [
-      "FS4005C"
-    ],
-    "prerequisitesRaw": "(1) This course is designed for students who have completed Year 3 (2) All job specifications and requirements must be submitted to CSCI Office for prior approval. (3) Pre-attachment TrainingExclusive Courses: FS4005",
+    "prerequisites": [],
+    "prerequisitesRaw": "Students must have completed Year 3, obtain prior placement approval, and complete pre-attachment training.",
     "semester": "Semester A 2025/26, Semester B 2025/26, Summer 2026, Summer 2027 (Tentative)",
     "assessment": {
       "continuous": "100%",
@@ -16526,9 +16521,13 @@
     "title": "Multi-variable Calculus",
     "credits": 4,
     "prerequisites": [
-      "MA1201"
+      "MA1201",
+      "MA1301",
+      "MA1503",
+      "MA1508",
+      "MA1401"
     ],
-    "prerequisitesRaw": "Grade B or above in MA1201 and subject to approval from MA must be obtained; or",
+    "prerequisitesRaw": "Grade B or above in MA1201 with MA approval; or MA1301; or both MA1503 and MA1508; programme-approved equivalent preparation applies.",
     "semester": "Semester A 2025/26, Semester A 2026/27 (Tentative)",
     "assessment": {
       "continuous": "30%",
@@ -16562,9 +16561,13 @@
     "title": "Probability and Statistics",
     "credits": 3,
     "prerequisites": [
-      "MA1201"
+      "MA1201",
+      "MA1301",
+      "MA1503",
+      "MA1508",
+      "MA1401"
     ],
-    "prerequisitesRaw": "Grade B or above in MA1201 and subject to approval from MA must be obtained; or",
+    "prerequisitesRaw": "Grade B or above in MA1201 with MA approval; or MA1301; or both MA1503 and MA1508; programme-approved equivalent preparation applies.",
     "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
     "assessment": {
       "continuous": "30%",
@@ -20959,13 +20962,8 @@
     "code": "PHY1201",
     "title": "General Physics I",
     "credits": 3,
-    "prerequisites": [
-      "AP1200",
-      "PHY1200E",
-      "AP1201C",
-      "PHY1201"
-    ],
-    "prerequisitesRaw": "HKDSE Mathematics Compulsory Part or equivalentPre-cursor(s)HKDSE Physics or Combined Science (Physics, Chemistry) or Combined Science (Biology, Physics) or AP1200/PHY1200",
+    "prerequisites": [],
+    "prerequisitesRaw": "HKDSE Mathematics Compulsory Part or equivalent. Pre-cursor: HKDSE Physics, Combined Science with Physics, or AP1200/PHY1200.",
     "semester": "Semester A 2025/26, Semester B 2025/26, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative)",
     "assessment": {
       "continuous": "30%",
@@ -24616,10 +24614,9 @@
     "title": "Professional Development II",
     "credits": 0,
     "prerequisites": [
-      "SEE2000C",
-      "SEE4000"
+      "SEE2000"
     ],
-    "prerequisitesRaw": "SEE2000",
+    "prerequisitesRaw": "SEE2000 Professional Development I",
     "semester": "Semester A 2025/26, Semester B 2025/26, Summer 2026, Semester A 2026/27 (Tentative), Semester B 2026/27 (Tentative), Summer 2027 (Tentative)",
     "assessment": {
       "continuous": "100%",
@@ -29130,10 +29127,8 @@
     "code": "SYE4024",
     "title": "Project Management",
     "credits": 3,
-    "prerequisites": [
-      "SEEM4024"
-    ],
-    "prerequisitesRaw": "Students must complete a minimum of 45 credits to be eligible",
+    "prerequisites": [],
+    "prerequisitesRaw": "Students must complete a minimum of 30 credit units to be eligible.",
     "semester": "Semester A 2025/26, Semester A 2026/27 (Tentative)",
     "assessment": {
       "continuous": "50%",
@@ -35637,5 +35632,211 @@
     "catalogue": "ug",
     "detailStatus": "linked-unparsed",
     "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/SEE4992.htm"
+  },
+  "CBM4000": {
+    "code": "CBM4000",
+    "title": "Research Seminar",
+    "credits": 1,
+    "department": "College of Biomedicine",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "100%",
+      "continuousPass": "40%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/CBM4000.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CBM4000.htm",
+    "description": "Research seminars across two consecutive semesters in biomedicine and biomedical engineering.",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CBM4000.htm",
+    "duration": "Two Semesters"
+  },
+  "CBM4001": {
+    "code": "CBM4001",
+    "title": "Overseas Research Project",
+    "credits": 3,
+    "department": "College of Biomedicine",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "100%",
+      "continuousPass": "40%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/CBM4001.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CBM4001.htm",
+    "description": "Supervised research at an overseas research institute or university.",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/CBM4001.htm",
+    "duration": "One Semester"
+  },
+  "DSC3001": {
+    "code": "DSC3001",
+    "title": "Big Data: The Arts and Science of Scaling",
+    "credits": 3,
+    "prerequisites": [
+      "CS3402"
+    ],
+    "prerequisitesRaw": "CS3402",
+    "semester": "Semester A 2025/26, Semester A 2026/27 (Tentative)",
+    "assessment": {
+      "continuous": "70%",
+      "exam": "30%",
+      "examDuration": "2 hours",
+      "details": "1 Group projects 3, 4 30 I will try to find difficult projects that cannot be easily finished by GenAI Yes 2 Assignments 1, 2, 3, 4 40 I will try to find assignments that cannot be easily finished by GenAI Yes"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3001.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3001.htm",
+    "description": "This course aims at teaching students how to tame massive data which are intensively used in high-impact industrial applications. Students will learn two mainstream categories of technical solutions for big data, namely algorithmic approaches and systems approaches. For algorithm approaches, some popular stream algorithms such as heavy hitters and sketching algorithms used when we have a limited memory will be introduced. To deal with huge amount of data, the instructor will also teac",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3001.htm",
+    "catalogue": "ug"
+  },
+  "DSC3025": {
+    "code": "DSC3025",
+    "title": "Internship for Flagship Programme",
+    "credits": 3,
+    "prerequisites": [],
+    "prerequisitesRaw": "The internship must be programme-related and requires prior programme approval.",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "100%",
+      "details": "1 Internship Report 1, 2, 3, 4 30 - Yes 2 Project Proposal 1, 2 20 - Yes 3 Interim Review 1, 2, 3, 4 20 - Yes 4 Internship Sharing Presentation 3, 4 10 - Yes 5 Evaluation by Industrial Supervisor 1, 2, 3 20 - Yes"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3025.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3025.htm",
+    "description": "This internship course aims to provide Flagship Programme students with hands-on experience in tackling complex data science problems in local and/or overseas industries, businesses, and organizations. Students will engage in complex data science tasks such as designing data-driven solutions, implementing machine learning models, and handling large-scale data processing for a minimum of 7 weeks full-time (or 280 hours for part-time). Students are expected to apply data science theorie",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3025.htm",
+    "catalogue": "ug"
+  },
+  "DSC3026": {
+    "code": "DSC3026",
+    "title": "International Professional Development",
+    "credits": 3,
+    "prerequisites": [],
+    "prerequisitesRaw": "For students who have completed Year 3; placement and pre-attachment training require prior approval.",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "100%",
+      "details": "1 Assessment of Log Book 2, 4 30 2 Feedback from training company through discussion, Skype meeting, questionnaires, and visit reports of CityUHK supervisors 1, 2, 3, 4 40 3 Final presentation 1, 2, 3, 4 30"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3026.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3026.htm",
+    "description": "This course provides students with the opportunity to develop essential research skills and experience the life of a full-time researcher in either a research environment or an industrial setting overseas. Through this immersive experience, students will learn to: Integrate classroom knowledge and apply it in real-world contexts. Understand the importance of work ethics and professionalism. Collaborate effectively and appreciate team dynamics and organizational behavior. Gain insigh",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC3026.htm",
+    "catalogue": "ug"
+  },
+  "DSC4016": {
+    "code": "DSC4016",
+    "title": "Fundamentals of Machine Learning II",
+    "credits": 3,
+    "prerequisites": [
+      "DSC3006",
+      "SDSC3006"
+    ],
+    "prerequisitesRaw": "DSC3006 Fundamentals of Machine Learning I",
+    "semester": "Semester A 2025/26, Semester A 2026/27 (Tentative)",
+    "assessment": {
+      "continuous": "80%",
+      "exam": "20%",
+      "details": "1 Test Design tests to assess comprehension and application of fundamental theories in machine learning and deep learning, as well as the practical implementation of these theories in dataset analysis. 1, 2, 3, 4 30 - Yes 2 Mini-Project Facilitate mini- projects that encourage students to apply learned concepts to solve complex problems, demonstrating their ability to achieve the intended learning outcomes practically and creatively. 1, 2, 3, 4 25 - Yes 3 Mini-Project Presentation Conduct presentations where students showcase their project work, emphasizing their mastery of the subject matter and their ability to communicate complex ideas effectively. 1, 2, 3, 4 25 - Yes"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC4016.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC4016.htm",
+    "description": "This elective course provides students who have the basic foundations of machine learning with an intensive studies of advanced machine learning and deep learning techniques for data science. Topics include traditional machine learning models, deep learning techniques and other related methods.",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/DSC4016.htm",
+    "catalogue": "ug"
+  },
+  "MA1400": {
+    "code": "MA1400",
+    "title": "Calculus I",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [],
+    "prerequisitesRaw": "",
+    "semester": "Semester A 2026/27, Semester B 2026/27",
+    "assessment": {
+      "continuous": "30%",
+      "exam": "70%",
+      "examDuration": "3 hours",
+      "examPass": "30%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/MA1400.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1400.htm",
+    "description": "",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1400.htm"
+  },
+  "MA1401": {
+    "code": "MA1401",
+    "title": "Calculus II",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [
+      "MA1400"
+    ],
+    "prerequisitesRaw": "MA1400 Calculus I",
+    "semester": "Semester B 2026/27",
+    "assessment": {
+      "continuous": "30%",
+      "exam": "70%",
+      "examDuration": "3 hours",
+      "examPass": "30%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/MA1401.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1401.htm",
+    "description": "",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1401.htm"
+  },
+  "MA1505": {
+    "code": "MA1505",
+    "title": "Linear Algebra I",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [
+      "MA1400"
+    ],
+    "prerequisitesRaw": "MA1400 Calculus I",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "30%",
+      "exam": "70%",
+      "examDuration": "3 hours",
+      "examPass": "30%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/MA1505.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1505.htm",
+    "description": "",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1505.htm"
+  },
+  "MA2505": {
+    "code": "MA2505",
+    "title": "Linear Algebra II",
+    "credits": 3,
+    "department": "Department of Mathematics",
+    "prerequisites": [
+      "MA1505"
+    ],
+    "prerequisitesRaw": "MA1505 Linear Algebra I",
+    "semester": "Not offering in current academic year",
+    "assessment": {
+      "continuous": "30%",
+      "exam": "70%",
+      "examDuration": "3 hours",
+      "examPass": "30%"
+    },
+    "pdfUrl": "https://www.cityu.edu.hk/ug/current/course/MA2505.pdf",
+    "courseUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2505.htm",
+    "description": "",
+    "catalogue": "ug",
+    "detailStatus": "parsed",
+    "sourceUrl": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2505.htm"
   }
 }

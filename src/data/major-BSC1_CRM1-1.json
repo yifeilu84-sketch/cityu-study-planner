@@ -2915,8 +2915,13 @@
                 "credits": 3
               },
               {
-                "code": "CS4386",
-                "title": "AI Game Programming",
+                "code": "CS4182",
+                "title": "Computer Graphics",
+                "credits": 3
+              },
+              {
+                "code": "CS4187",
+                "title": "Computer Vision for Interactivity",
                 "credits": 3
               },
               {
@@ -2928,11 +2933,6 @@
                 "code": "MAJOR-ELECTIVE4",
                 "title": "SCM Major Elective",
                 "credits": 3
-              },
-              {
-                "code": "MAJOR-ELECTIVE5",
-                "title": "CS / SCM Major Elective",
-                "credits": 3
               }
             ],
             "credits": 15
@@ -2940,13 +2940,13 @@
           "semB": {
             "courses": [
               {
-                "code": "CS4182",
-                "title": "Computer Graphics",
+                "code": "CS4386",
+                "title": "AI Game Programming",
                 "credits": 3
               },
               {
-                "code": "CS4187",
-                "title": "Computer Vision for Interactivity",
+                "code": "MAJOR-ELECTIVE5",
+                "title": "CS / SCM Major Elective",
                 "credits": 3
               },
               {
@@ -3926,8 +3926,8 @@
                 "credits": 3
               },
               {
-                "code": "SM3605",
-                "title": "3D Contents Production in Maya",
+                "code": "CS4182",
+                "title": "Computer Graphics",
                 "credits": 3
               },
               {
@@ -3951,13 +3951,8 @@
           "semB": {
             "courses": [
               {
-                "code": "CS4182",
-                "title": "Computer Graphics",
-                "credits": 3
-              },
-              {
-                "code": "SM4124",
-                "title": "Character Animation",
+                "code": "SM3605",
+                "title": "3D Contents Production in Maya",
                 "credits": 3
               },
               {
@@ -3967,6 +3962,11 @@
               },
               {
                 "code": "MAJOR-ELECTIVE9",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE10",
                 "title": "CS / SCM Major Elective",
                 "credits": 3
               },
@@ -3989,11 +3989,6 @@
                 "officialPlacement": "Year 4 Semesters A and B"
               },
               {
-                "code": "MAJOR-ELECTIVE10",
-                "title": "CS / SCM Major Elective",
-                "credits": 3
-              },
-              {
                 "code": "GE-DR4",
                 "title": "Gateway Education Course",
                 "credits": 3
@@ -4006,6 +4001,11 @@
               {
                 "code": "FREE4",
                 "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "SM4124",
+                "title": "Character Animation",
                 "credits": 3
               }
             ],
@@ -4942,6 +4942,11 @@
                 "credits": 3
               },
               {
+                "code": "CS4187",
+                "title": "Computer Vision for Interactivity",
+                "credits": 3
+              },
+              {
                 "code": "SM2233 / SM2260",
                 "title": "Multimedia Production Project / Interactive Narrative",
                 "credits": 3
@@ -4950,11 +4955,6 @@
                 "code": "MAJOR-ELECTIVE4",
                 "title": "SCM Major Elective",
                 "credits": 3
-              },
-              {
-                "code": "MAJOR-ELECTIVE5",
-                "title": "CS / SCM Major Elective",
-                "credits": 3
               }
             ],
             "credits": 15
@@ -4962,13 +4962,13 @@
           "semB": {
             "courses": [
               {
-                "code": "CS4187",
-                "title": "Computer Vision for Interactivity",
+                "code": "SM3610 / SM2716",
+                "title": "Hardware Hacking / Physical Computing and Tangible Media",
                 "credits": 3
               },
               {
-                "code": "SM3610 / SM2716",
-                "title": "Hardware Hacking / Physical Computing and Tangible Media",
+                "code": "MAJOR-ELECTIVE5",
+                "title": "CS / SCM Major Elective",
                 "credits": 3
               },
               {
@@ -5831,15 +5831,9 @@
                 "code": "CS1103B",
                 "title": "Media Computing",
                 "credits": 3
-              },
-              {
-                "code": "SM2724A",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 17
+            "credits": 16
           },
           "semB": {
             "courses": [
@@ -5868,9 +5862,15 @@
                 "code": "FREE1",
                 "title": "Free Elective / Minor",
                 "credits": 3
+              },
+              {
+                "code": "SM2724A",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 15
+            "credits": 16
           }
         },
         "year2": {
@@ -5905,15 +5905,9 @@
                 "code": "MAJOR-ELECTIVE1",
                 "title": "CS / SCM Major Elective",
                 "credits": 3
-              },
-              {
-                "code": "SM2724B",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 19
+            "credits": 18
           },
           "semB": {
             "courses": [
@@ -5949,6 +5943,17 @@
               }
             ],
             "credits": 18
+          },
+          "summer": {
+            "courses": [
+              {
+                "code": "SM2724B",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year3": {
@@ -5978,15 +5983,9 @@
                 "code": "MAJOR-ELECTIVE5",
                 "title": "CS / SCM Major Elective",
                 "credits": 3
-              },
-              {
-                "code": "SM2724C",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 16
+            "credits": 15
           },
           "semB": {
             "courses": [
@@ -6017,6 +6016,17 @@
               }
             ],
             "credits": 15
+          },
+          "summer": {
+            "courses": [
+              {
+                "code": "SM2724C",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year4": {

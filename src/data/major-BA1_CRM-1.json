@@ -801,15 +801,9 @@
                 "title": "Creative Media Studio I",
                 "credits": 3,
                 "officialPlacement": "Year 1 Semesters A and B"
-              },
-              {
-                "code": "SM2724A",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 17
+            "credits": 16
           },
           "semB": {
             "courses": [
@@ -838,9 +832,15 @@
                 "code": "FREE1",
                 "title": "Free Elective / Minor",
                 "credits": 3
+              },
+              {
+                "code": "SM2724A",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 15
+            "credits": 16
           }
         },
         "year2": {
@@ -870,15 +870,9 @@
                 "code": "MAJOR-ELECTIVE2",
                 "title": "Creative Media Major Elective",
                 "credits": 3
-              },
-              {
-                "code": "SM2724B",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 16
+            "credits": 15
           },
           "semB": {
             "courses": [
@@ -914,6 +908,17 @@
               }
             ],
             "credits": 18
+          },
+          "summer": {
+            "courses": [
+              {
+                "code": "SM2724B",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year3": {
@@ -943,15 +948,9 @@
                 "code": "GE-DR3",
                 "title": "Gateway Education Area 3 Course",
                 "credits": 3
-              },
-              {
-                "code": "SM2724C",
-                "title": "Leadership & Creativity (CREATE Stream)",
-                "credits": 1,
-                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
               }
             ],
-            "credits": 16
+            "credits": 15
           },
           "semB": {
             "courses": [
@@ -982,6 +981,17 @@
               }
             ],
             "credits": 15
+          },
+          "summer": {
+            "courses": [
+              {
+                "code": "SM2724C",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year4": {

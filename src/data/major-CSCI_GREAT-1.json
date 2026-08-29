@@ -3,15 +3,162 @@
   "title": "Global Research Enrichment and Technopreneurship (GREAT)",
   "url": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
   "degree": "Flagship Programme",
-  "totalCredits": 120,
+  "totalCredits": 121,
   "department": "College of Science",
   "college": "College of Science",
   "requirements": {
-    "gatewayEducation": 30,
-    "collegeRequirement": 15,
-    "majorCore": 36,
-    "majorElective": 18,
-    "freeElective": 21
+    "gatewayEducation": {
+      "credits": 31,
+      "courses": [
+        {
+          "code": "GE1401",
+          "title": "University English",
+          "credits": 3
+        },
+        {
+          "code": "GE2401",
+          "title": "English for Science",
+          "credits": 3
+        },
+        {
+          "code": "GE1501",
+          "title": "Chinese Civilisation-History and Philosophy",
+          "credits": 3
+        },
+        {
+          "code": "GE1601",
+          "title": "Whole-Person Development",
+          "credits": 1
+        },
+        {
+          "code": "GE-DR",
+          "title": "GE Distributional Requirements",
+          "credits": 12
+        },
+        {
+          "code": "MA1200",
+          "title": "Calculus and Basic Linear Algebra I",
+          "credits": 3
+        },
+        {
+          "code": "MA1201",
+          "title": "Calculus and Basic Linear Algebra II",
+          "credits": 3
+        },
+        {
+          "code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "credits": 3
+        }
+      ]
+    },
+    "collegeRequirement": {
+      "credits": 13,
+      "courses": [
+        {
+          "code": "CSCI2002",
+          "title": "Workshop on Research Methodology",
+          "credits": 1
+        },
+        {
+          "code": "CHEM1300",
+          "title": "Principles of General Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "PHY1101",
+          "title": "Introductory Classical Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "CHEM2004A",
+          "title": "Principles of Analytical Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "CHEM2008A",
+          "title": "Principles of Physical Chemistry",
+          "credits": 3
+        }
+      ],
+      "note": "Research Methodology (1 CU), two approved Group I science courses, and two approved Group II science courses."
+    },
+    "majorCore": {
+      "credits": 41,
+      "courses": [
+        {
+          "code": "CHEM3014",
+          "title": "Inorganic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "CHEM3015",
+          "title": "Organic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "CHEM3016",
+          "title": "Physical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "CHEM3027",
+          "title": "Analytical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "CHEM4086",
+          "title": "Independent Research I",
+          "credits": 8
+        },
+        {
+          "code": "CHEM4087",
+          "title": "Independent Research II",
+          "credits": 8
+        },
+        {
+          "code": "MA2172",
+          "title": "Applied Statistics for Sciences and Engineering",
+          "credits": 3
+        },
+        {
+          "code": "MGT2324",
+          "title": "Introduction to Entrepreneurship",
+          "credits": 3
+        },
+        {
+          "code": "MGT4305",
+          "title": "Developing and Presenting a Business Plan",
+          "credits": 3
+        }
+      ]
+    },
+    "majorElectives": {
+      "credits": 18,
+      "courses": [
+        {
+          "code": "CSCI4002",
+          "title": "Industrial Attachment Scheme for Science Students",
+          "credits": 3
+        },
+        {
+          "code": "CSCI4005",
+          "title": "Overseas Internship Scheme for Science Student",
+          "credits": 3
+        },
+        {
+          "code": "MAJOR-ELECTIVE",
+          "title": "Chemistry GREAT Elective",
+          "credits": 3
+        }
+      ],
+      "chooseCredits": 18,
+      "note": "Select from the official Chemistry major electives except CHEM4036."
+    },
+    "freeElectives": {
+      "credits": 18,
+      "courses": []
+    }
   },
   "allCourses": [
     "CHEM1200",
@@ -88,6 +235,18 @@
     "CSCI4007",
     "CHEM2809",
     "CHEM3017",
+    "GE1401",
+    "GE1601",
+    "GE2401",
+    "GE1501",
+    "PHY1400",
+    "FREE1",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "FREE7",
     "MA2503",
     "MA2507",
     "MA2508",
@@ -143,6 +302,10 @@
     "EF4821",
     "MA3510",
     "MA4510",
+    "MA1300",
+    "CS1302",
+    "MA1301",
+    "FREE8",
     "PHY2191",
     "PHY2212",
     "PHY2213",
@@ -171,64 +334,263 @@
     "PHY4283",
     "PHY4285",
     "PHY4218",
-    "PHY4219"
+    "PHY4219",
+    "MA1200",
+    "MA1201",
+    "GE-ELECTIVE",
+    "MA1400",
+    "MA1401",
+    "MA1505",
+    "MA2505"
   ],
-  "studyPlanStatus": "diy",
+  "studyPlanStatus": "derived",
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "MA1200",
+            "title": "Calculus and Basic Linear Algebra I",
+            "credits": 3
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "CHEM1300",
+            "title": "Principles of General Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "PHY1101",
+            "title": "Introductory Classical Mechanics",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE2401",
+            "title": "English for Science",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "MA1201",
+            "title": "Calculus and Basic Linear Algebra II",
+            "credits": 3
+          },
+          {
+            "code": "CSCI2002",
+            "title": "Workshop on Research Methodology",
+            "credits": 1
+          },
+          {
+            "code": "CHEM2004A",
+            "title": "Principles of Analytical Chemistry",
+            "credits": 3
+          },
+          {
+            "code": "CHEM2008A",
+            "title": "Principles of Physical Chemistry",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       }
     },
     "year2": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "MA2172",
+            "title": "Applied Statistics for Sciences and Engineering",
+            "credits": 3
+          },
+          {
+            "code": "MGT2324",
+            "title": "Introduction to Entrepreneurship",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR1",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective 2",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE-DR2",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT1",
+            "title": "Chemistry GREAT Elective 1",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECT2",
+            "title": "Chemistry GREAT Elective 2",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective 4",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CSCI4002",
+            "title": "Industrial Attachment Scheme for Science Students",
+            "credits": 3
+          }
+        ],
+        "credits": 3
       }
     },
     "year3": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CHEM3015",
+            "title": "Organic Chemistry",
+            "credits": 4
+          },
+          {
+            "code": "CHEM3027",
+            "title": "Analytical Chemistry",
+            "credits": 4
+          },
+          {
+            "code": "GE-DR3",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective 5",
+            "credits": 3
+          }
+        ],
+        "credits": 14
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CHEM3014",
+            "title": "Inorganic Chemistry",
+            "credits": 4
+          },
+          {
+            "code": "CHEM3016",
+            "title": "Physical Chemistry",
+            "credits": 4
+          },
+          {
+            "code": "MGT4305",
+            "title": "Developing and Presenting a Business Plan",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "GE Distributional Requirement",
+            "credits": 3
+          },
+          {
+            "code": "FLAGSHIP-EXCHANGE",
+            "title": "Compulsory GREAT overseas academic / research exchange",
+            "credits": 0
+          }
+        ],
+        "credits": 14
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CSCI4005",
+            "title": "Overseas Internship Scheme for Science Student",
+            "credits": 3
+          }
+        ],
+        "credits": 3
       }
     },
     "year4": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CHEM4086",
+            "title": "Independent Research I",
+            "credits": 8
+          },
+          {
+            "code": "MAJOR-ELECT3",
+            "title": "Chemistry GREAT Elective 3",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective 6",
+            "credits": 3
+          }
+        ],
+        "credits": 14
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CHEM4087",
+            "title": "Independent Research II",
+            "credits": 8
+          },
+          {
+            "code": "MAJOR-ELECT4",
+            "title": "Chemistry GREAT Elective 4",
+            "credits": 3
+          }
+        ],
+        "credits": 11
       }
     }
   },
@@ -236,14 +598,161 @@
     {
       "code": "CHEM",
       "name": "BSc Chemistry",
-      "description": "Underlying major option for GREAT.",
-      "totalCredits": 120,
+      "description": "Chemistry GREAT curriculum with two independent-research courses, entrepreneurship training, local placement and overseas internship.",
+      "totalCredits": 121,
       "requirements": {
-        "gatewayEducation": 30,
-        "collegeRequirement": 15,
-        "majorCore": 36,
-        "majorElective": 18,
-        "freeElective": 21
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2401",
+              "title": "English for Science",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation-History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "MA1200",
+              "title": "Calculus and Basic Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "MA1201",
+              "title": "Calculus and Basic Linear Algebra II",
+              "credits": 3
+            },
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            }
+          ]
+        },
+        "collegeRequirement": {
+          "credits": 13,
+          "courses": [
+            {
+              "code": "CSCI2002",
+              "title": "Workshop on Research Methodology",
+              "credits": 1
+            },
+            {
+              "code": "CHEM1300",
+              "title": "Principles of General Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "PHY1101",
+              "title": "Introductory Classical Mechanics",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2004A",
+              "title": "Principles of Analytical Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2008A",
+              "title": "Principles of Physical Chemistry",
+              "credits": 3
+            }
+          ],
+          "note": "Research Methodology (1 CU), two approved Group I science courses, and two approved Group II science courses."
+        },
+        "majorCore": {
+          "credits": 41,
+          "courses": [
+            {
+              "code": "CHEM3014",
+              "title": "Inorganic Chemistry",
+              "credits": 4
+            },
+            {
+              "code": "CHEM3015",
+              "title": "Organic Chemistry",
+              "credits": 4
+            },
+            {
+              "code": "CHEM3016",
+              "title": "Physical Chemistry",
+              "credits": 4
+            },
+            {
+              "code": "CHEM3027",
+              "title": "Analytical Chemistry",
+              "credits": 4
+            },
+            {
+              "code": "CHEM4086",
+              "title": "Independent Research I",
+              "credits": 8
+            },
+            {
+              "code": "CHEM4087",
+              "title": "Independent Research II",
+              "credits": 8
+            },
+            {
+              "code": "MA2172",
+              "title": "Applied Statistics for Sciences and Engineering",
+              "credits": 3
+            },
+            {
+              "code": "MGT2324",
+              "title": "Introduction to Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "MGT4305",
+              "title": "Developing and Presenting a Business Plan",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 18,
+          "courses": [
+            {
+              "code": "CSCI4002",
+              "title": "Industrial Attachment Scheme for Science Students",
+              "credits": 3
+            },
+            {
+              "code": "CSCI4005",
+              "title": "Overseas Internship Scheme for Science Student",
+              "credits": 3
+            },
+            {
+              "code": "MAJOR-ELECTIVE",
+              "title": "Chemistry GREAT Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 18,
+          "note": "Select from the official Chemistry major electives except CHEM4036."
+        },
+        "freeElectives": {
+          "credits": 18,
+          "courses": []
+        }
       },
       "allCourses": [
         "CHEM1200",
@@ -319,72 +828,275 @@
         "CHEM4091",
         "CSCI4007",
         "CHEM2809",
-        "CHEM3017"
+        "CHEM3017",
+        "GE1401",
+        "GE1601",
+        "GE2401",
+        "GE1501",
+        "PHY1400",
+        "FREE1",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "FREE7"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "CHEM1300",
+                "title": "Principles of General Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "PHY1101",
+                "title": "Introductory Classical Mechanics",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2401",
+                "title": "English for Science",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              },
+              {
+                "code": "CSCI2002",
+                "title": "Workshop on Research Methodology",
+                "credits": 1
+              },
+              {
+                "code": "CHEM2004A",
+                "title": "Principles of Analytical Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "CHEM2008A",
+                "title": "Principles of Physical Chemistry",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA2172",
+                "title": "Applied Statistics for Sciences and Engineering",
+                "credits": 3
+              },
+              {
+                "code": "MGT2324",
+                "title": "Introduction to Entrepreneurship",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR1",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective 1",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective 2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE-DR2",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT1",
+                "title": "Chemistry GREAT Elective 1",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECT2",
+                "title": "Chemistry GREAT Elective 2",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective 3",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective 4",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CSCI4002",
+                "title": "Industrial Attachment Scheme for Science Students",
+                "credits": 3
+              }
+            ],
+            "credits": 3
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CHEM3015",
+                "title": "Organic Chemistry",
+                "credits": 4
+              },
+              {
+                "code": "CHEM3027",
+                "title": "Analytical Chemistry",
+                "credits": 4
+              },
+              {
+                "code": "GE-DR3",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective 5",
+                "credits": 3
+              }
+            ],
+            "credits": 14
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CHEM3014",
+                "title": "Inorganic Chemistry",
+                "credits": 4
+              },
+              {
+                "code": "CHEM3016",
+                "title": "Physical Chemistry",
+                "credits": 4
+              },
+              {
+                "code": "MGT4305",
+                "title": "Developing and Presenting a Business Plan",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-EXCHANGE",
+                "title": "Compulsory GREAT overseas academic / research exchange",
+                "credits": 0
+              }
+            ],
+            "credits": 14
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CSCI4005",
+                "title": "Overseas Internship Scheme for Science Student",
+                "credits": 3
+              }
+            ],
+            "credits": 3
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CHEM4086",
+                "title": "Independent Research I",
+                "credits": 8
+              },
+              {
+                "code": "MAJOR-ELECT3",
+                "title": "Chemistry GREAT Elective 3",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective 6",
+                "credits": 3
+              }
+            ],
+            "credits": 14
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CHEM4087",
+                "title": "Independent Research II",
+                "credits": 8
+              },
+              {
+                "code": "MAJOR-ELECT4",
+                "title": "Chemistry GREAT Elective 4",
+                "credits": 3
+              }
+            ],
+            "credits": 11
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Chemistry.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "GREAT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "GREAT stream curricula and course offerings from the Chemistry, Computing Mathematics and Physics major pages",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "lastVerified": "2026-08-30",
@@ -393,14 +1105,190 @@
     {
       "code": "CM",
       "name": "BSc Computing Mathematics",
-      "description": "Underlying major option for GREAT.",
-      "totalCredits": 122,
+      "description": "Computing Mathematics GREAT curriculum with Independent Research I/II, local placement and overseas internship.",
+      "totalCredits": 121,
       "requirements": {
-        "gatewayEducation": 31,
-        "collegeRequirement": 6,
-        "majorCore": 45,
-        "majorElective": "18-20",
-        "freeElective": "20-22"
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2401",
+              "title": "English for Science",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation-History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "MA1400",
+              "title": "Calculus I",
+              "credits": 3
+            },
+            {
+              "code": "MA1401",
+              "title": "Calculus II",
+              "credits": 3
+            },
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            }
+          ]
+        },
+        "collegeRequirement": {
+          "credits": 13,
+          "courses": [
+            {
+              "code": "CSCI2002",
+              "title": "Workshop on Research Methodology",
+              "credits": 1
+            },
+            {
+              "code": "CHEM1300",
+              "title": "Principles of General Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "PHY1101",
+              "title": "Introductory Classical Mechanics",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2004A",
+              "title": "Principles of Analytical Chemistry",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2008A",
+              "title": "Principles of Physical Chemistry",
+              "credits": 3
+            }
+          ],
+          "note": "Research Methodology (1 CU), two approved Group I science courses, and two approved Group II science courses."
+        },
+        "majorCore": {
+          "credits": 55,
+          "courses": [
+            {
+              "code": "MA1505",
+              "title": "Linear Algebra I",
+              "credits": 3
+            },
+            {
+              "code": "MA2505",
+              "title": "Linear Algebra II",
+              "credits": 3
+            },
+            {
+              "code": "MA2508",
+              "title": "Multi-variable Calculus",
+              "credits": 4
+            },
+            {
+              "code": "MA2510",
+              "title": "Probability and Statistics",
+              "credits": 3
+            },
+            {
+              "code": "MA3511",
+              "title": "Ordinary Differential Equations",
+              "credits": 3
+            },
+            {
+              "code": "MA3512",
+              "title": "Partial Differential Equations",
+              "credits": 3
+            },
+            {
+              "code": "MA3514",
+              "title": "Numerical Methods for Differential Equations",
+              "credits": 3
+            },
+            {
+              "code": "MA3515",
+              "title": "Introduction to Optimization",
+              "credits": 3
+            },
+            {
+              "code": "MA3517",
+              "title": "Complex Analysis",
+              "credits": 3
+            },
+            {
+              "code": "MA3518",
+              "title": "Applied Statistics",
+              "credits": 3
+            },
+            {
+              "code": "MA3525",
+              "title": "Elementary Numerical Methods",
+              "credits": 3
+            },
+            {
+              "code": "CS2360",
+              "title": "Java Programming",
+              "credits": 3
+            },
+            {
+              "code": "CS2468",
+              "title": "Data Structures and Data Management",
+              "credits": 3
+            },
+            {
+              "code": "MGT2324",
+              "title": "Introduction to Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "MA3510",
+              "title": "Independent Research I",
+              "credits": 6
+            },
+            {
+              "code": "MA4510",
+              "title": "Independent Research II",
+              "credits": 6
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 0,
+          "courses": []
+        },
+        "freeElectives": {
+          "credits": 22,
+          "courses": [
+            {
+              "code": "CSCI4002",
+              "title": "Industrial Attachment Scheme for Science Students",
+              "credits": 3
+            },
+            {
+              "code": "CSCI4005",
+              "title": "Overseas Internship Scheme for Science Student",
+              "credits": 3
+            }
+          ],
+          "note": "Includes the GREAT local placement and overseas internship; remaining credits are approved free electives."
+        }
       },
       "allCourses": [
         "CHEM1200",
@@ -479,72 +1367,284 @@
         "EF4821",
         "MA3510",
         "MA4510",
-        "MGT2324"
+        "MGT2324",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "MA1300",
+        "CS1302",
+        "GE2401",
+        "MA1301",
+        "FREE1",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "FREE7",
+        "FREE8"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "MA1400",
+                "title": "Calculus I",
+                "credits": 3
+              },
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "CHEM1300",
+                "title": "Principles of General Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "PHY1101",
+                "title": "Introductory Classical Mechanics",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2401",
+                "title": "English for Science",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MA1401",
+                "title": "Calculus II",
+                "credits": 3
+              },
+              {
+                "code": "MA1505",
+                "title": "Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "CHEM2004A",
+                "title": "Principles of Analytical Chemistry",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA2505",
+                "title": "Linear Algebra II",
+                "credits": 3
+              },
+              {
+                "code": "MA2508",
+                "title": "Multi-variable Calculus",
+                "credits": 4
+              },
+              {
+                "code": "MA2510",
+                "title": "Probability and Statistics",
+                "credits": 3
+              },
+              {
+                "code": "CS2360",
+                "title": "Java Programming",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR1",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CHEM2008A",
+                "title": "Principles of Physical Chemistry",
+                "credits": 3
+              },
+              {
+                "code": "MA3511",
+                "title": "Ordinary Differential Equations",
+                "credits": 3
+              },
+              {
+                "code": "MA3515",
+                "title": "Introduction to Optimization",
+                "credits": 3
+              },
+              {
+                "code": "CS2468",
+                "title": "Data Structures and Data Management",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "CSCI2002",
+                "title": "Workshop on Research Methodology",
+                "credits": 1
+              }
+            ],
+            "credits": 16
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA3512",
+                "title": "Partial Differential Equations",
+                "credits": 3
+              },
+              {
+                "code": "MA3518",
+                "title": "Applied Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MA3525",
+                "title": "Elementary Numerical Methods",
+                "credits": 3
+              },
+              {
+                "code": "MA3510",
+                "title": "Independent Research I",
+                "credits": 6
+              },
+              {
+                "code": "GE-DR3",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 18
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA3514",
+                "title": "Numerical Methods for Differential Equations",
+                "credits": 3
+              },
+              {
+                "code": "MA3517",
+                "title": "Complex Analysis",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective 1",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective 2",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-EXCHANGE",
+                "title": "Compulsory GREAT overseas academic / research exchange",
+                "credits": 0
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CSCI4002",
+                "title": "Industrial Attachment Scheme for Science Students",
+                "credits": 3
+              },
+              {
+                "code": "CSCI4005",
+                "title": "Overseas Internship Scheme for Science Student",
+                "credits": 3
+              }
+            ],
+            "credits": 6
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA4510",
+                "title": "Independent Research II",
+                "credits": 6
+              },
+              {
+                "code": "MGT2324",
+                "title": "Introduction to Entrepreneurship",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective 3",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective 4",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "FREE-BALANCE",
+                "title": "Approved 4-CU free-elective combination",
+                "credits": 4,
+                "remarks": "Use approved unrestricted courses totalling 4 CU."
+              }
+            ],
+            "credits": 4
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Computing Mathematics.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "GREAT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "GREAT stream curricula and course offerings from the Chemistry, Computing Mathematics and Physics major pages",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "lastVerified": "2026-08-30",
@@ -553,11 +1653,11 @@
     {
       "code": "PHY",
       "name": "BSc Physics",
-      "description": "Underlying major option for GREAT.",
-      "totalCredits": 120,
+      "description": "Physics GREAT ordinary route with Independent Research I/II, local placement and overseas internship.",
+      "totalCredits": 121,
       "requirements": {
         "gatewayEducation": {
-          "credits": 21,
+          "credits": 31,
           "courses": [
             {
               "code": "GE1401",
@@ -571,7 +1671,7 @@
             },
             {
               "code": "GE1501",
-              "title": "Chinese Civilisation - History and Philosophy",
+              "title": "Chinese Civilisation-History and Philosophy",
               "credits": 3
             },
             {
@@ -582,77 +1682,7 @@
             {
               "code": "GE-DR",
               "title": "GE Distributional Requirements",
-              "credits": 11
-            }
-          ]
-        },
-        "college": {
-          "credits": 6,
-          "courses": [
-            {
-              "code": "CS1302",
-              "title": "Introduction to Computer Programming",
-              "credits": 3
-            },
-            {
-              "code": "CHEM1101",
-              "title": "General Chemistry",
-              "credits": 3
-            }
-          ]
-        },
-        "majorCore": {
-          "credits": 66,
-          "courses": [
-            {
-              "code": "PHY1101",
-              "title": "Introductory Physics",
-              "credits": 3
-            },
-            {
-              "code": "PHY1202",
-              "title": "General Physics II",
-              "credits": 3
-            },
-            {
-              "code": "PHY1203",
-              "title": "Introductory Experimental Physics",
-              "credits": 3
-            },
-            {
-              "code": "PHY2212",
-              "title": "Classical Mechanics",
-              "credits": 3
-            },
-            {
-              "code": "PHY2213",
-              "title": "Quantum Mechanics I",
-              "credits": 3
-            },
-            {
-              "code": "PHY2191",
-              "title": "Computational Physics",
-              "credits": 3
-            },
-            {
-              "code": "PHY3202",
-              "title": "Electromagnetism",
-              "credits": 3
-            },
-            {
-              "code": "PHY3204",
-              "title": "Statistical Mechanics",
-              "credits": 3
-            },
-            {
-              "code": "PHY3290",
-              "title": "Experimental Physics",
-              "credits": 3
-            },
-            {
-              "code": "MA2158",
-              "title": "Linear Algebra and Vector Calculus",
-              "credits": 3
+              "credits": 12
             },
             {
               "code": "MA1200",
@@ -663,17 +1693,148 @@
               "code": "MA1201",
               "title": "Calculus and Basic Linear Algebra II",
               "credits": 3
+            },
+            {
+              "code": "CS1302",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            }
+          ]
+        },
+        "collegeRequirement": {
+          "credits": 13,
+          "courses": [
+            {
+              "code": "CSCI2002",
+              "title": "Workshop on Research Methodology",
+              "credits": 1
+            },
+            {
+              "code": "PHY1101",
+              "title": "Introductory Classical Mechanics",
+              "credits": 3
+            },
+            {
+              "code": "PHY1202",
+              "title": "General Physics II",
+              "credits": 3
+            },
+            {
+              "code": "MA1501",
+              "title": "Coordinate Geometry",
+              "credits": 3
+            },
+            {
+              "code": "CHEM2004A",
+              "title": "Principles of Analytical Chemistry",
+              "credits": 3
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 54,
+          "courses": [
+            {
+              "code": "MA2158",
+              "title": "Linear Algebra and Calculus",
+              "credits": 3
+            },
+            {
+              "code": "MGT2324",
+              "title": "Introduction to Entrepreneurship",
+              "credits": 3
+            },
+            {
+              "code": "PHY2191",
+              "title": "Electricity and Magnetism",
+              "credits": 3
+            },
+            {
+              "code": "PHY2212",
+              "title": "Measurement and Instrumentation",
+              "credits": 3
+            },
+            {
+              "code": "PHY2213",
+              "title": "Advanced Measurement and Instrumentation",
+              "credits": 3
+            },
+            {
+              "code": "PHY3115",
+              "title": "Introduction to Computational Physics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3202",
+              "title": "Modern Physics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3204",
+              "title": "Waves and Optics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3205",
+              "title": "Electrodynamics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3231",
+              "title": "Advanced Instrumentation Lab",
+              "credits": 3
+            },
+            {
+              "code": "PHY3251",
+              "title": "Quantum Mechanics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3272",
+              "title": "Introduction to Solid State Physics",
+              "credits": 3
+            },
+            {
+              "code": "PHY3290",
+              "title": "Thermodynamics",
+              "credits": 3
+            },
+            {
+              "code": "PHY4172",
+              "title": "Computational Physics and Machine Learning",
+              "credits": 3
+            },
+            {
+              "code": "PHY4218",
+              "title": "Independent Research I",
+              "credits": 6
+            },
+            {
+              "code": "PHY4219",
+              "title": "Independent Research II",
+              "credits": 6
             }
           ]
         },
         "majorElectives": {
-          "credits": 18,
-          "courses": [],
-          "chooseCredits": 18
+          "credits": 0,
+          "courses": []
         },
         "freeElectives": {
-          "credits": 9,
-          "note": "Or Minor courses"
+          "credits": 23,
+          "courses": [
+            {
+              "code": "CSCI4002",
+              "title": "Industrial Attachment Scheme for Science Students",
+              "credits": 3
+            },
+            {
+              "code": "CSCI4005",
+              "title": "Overseas Internship Scheme for Science Student",
+              "credits": 3
+            }
+          ],
+          "note": "Includes the GREAT local placement and overseas internship; remaining credits are approved free electives."
         }
       },
       "allCourses": [
@@ -729,72 +1890,287 @@
         "PHY4218",
         "PHY4219",
         "CSCI4007",
-        "MGT4305"
+        "MGT4305",
+        "CS1302",
+        "MA1200",
+        "GE1401",
+        "GE1601",
+        "MA1201",
+        "GE2401",
+        "GE1501",
+        "GE-ELECTIVE",
+        "FREE1",
+        "FREE2",
+        "FREE3",
+        "CSCI4002",
+        "CSCI4005"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "MA1200",
+                "title": "Calculus and Basic Linear Algebra I",
+                "credits": 3
+              },
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "PHY1101",
+                "title": "Introductory Classical Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "PHY1202",
+                "title": "General Physics II",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2401",
+                "title": "English for Science",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MA1201",
+                "title": "Calculus and Basic Linear Algebra II",
+                "credits": 3
+              },
+              {
+                "code": "CSCI2002",
+                "title": "Workshop on Research Methodology",
+                "credits": 1
+              },
+              {
+                "code": "MA1501",
+                "title": "Coordinate Geometry",
+                "credits": 3
+              },
+              {
+                "code": "CHEM2004A",
+                "title": "Principles of Analytical Chemistry",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA2158",
+                "title": "Linear Algebra and Calculus",
+                "credits": 3
+              },
+              {
+                "code": "MGT2324",
+                "title": "Introduction to Entrepreneurship",
+                "credits": 3
+              },
+              {
+                "code": "PHY2212",
+                "title": "Measurement and Instrumentation",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR1",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective 1",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "PHY2191",
+                "title": "Electricity and Magnetism",
+                "credits": 3
+              },
+              {
+                "code": "PHY2213",
+                "title": "Advanced Measurement and Instrumentation",
+                "credits": 3
+              },
+              {
+                "code": "PHY3204",
+                "title": "Waves and Optics",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective 2",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "PHY3202",
+                "title": "Modern Physics",
+                "credits": 3
+              },
+              {
+                "code": "PHY3205",
+                "title": "Electrodynamics",
+                "credits": 3
+              },
+              {
+                "code": "PHY3231",
+                "title": "Advanced Instrumentation Lab",
+                "credits": 3
+              },
+              {
+                "code": "PHY3251",
+                "title": "Quantum Mechanics",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "PHY3115",
+                "title": "Introduction to Computational Physics",
+                "credits": 3
+              },
+              {
+                "code": "PHY3272",
+                "title": "Introduction to Solid State Physics",
+                "credits": 3
+              },
+              {
+                "code": "PHY3290",
+                "title": "Thermodynamics",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "GE Distributional Requirement",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective 3",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-EXCHANGE",
+                "title": "Compulsory GREAT overseas academic / research exchange",
+                "credits": 0
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CSCI4002",
+                "title": "Industrial Attachment Scheme for Science Students",
+                "credits": 3
+              },
+              {
+                "code": "CSCI4005",
+                "title": "Overseas Internship Scheme for Science Student",
+                "credits": 3
+              }
+            ],
+            "credits": 6
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "PHY4172",
+                "title": "Computational Physics and Machine Learning",
+                "credits": 3
+              },
+              {
+                "code": "PHY4218",
+                "title": "Independent Research I",
+                "credits": 6
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective 4",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective 5",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "PHY4219",
+                "title": "Independent Research II",
+                "credits": 6
+              },
+              {
+                "code": "FREE-BALANCE",
+                "title": "Approved 2-CU free-elective combination",
+                "credits": 2,
+                "remarks": "Use approved unrestricted courses totalling 2 CU."
+              }
+            ],
+            "credits": 8
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Physics.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "GREAT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "GREAT stream curricula and course offerings from the Chemistry, Computing Mathematics and Physics major pages",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
       "lastVerified": "2026-08-30",
@@ -802,12 +2178,15 @@
     }
   ],
   "notes": [
-    "ADMO lists GREAT as a flagship pathway for College of Science options; no separate official semester-by-semester study plan was found.",
-    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+    "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。",
+    "Every GREAT stream includes research methodology, discipline-specific independent research, at least one local summer placement, one overseas summer internship and an overseas academic/research exchange marker.",
+    "MA1505 and MA2505 are required by the current Computing Mathematics GREAT curriculum but their course pages currently say not offering. The plan keeps them visible and asks students to confirm the activated term or approved replacement. Some mathematics course pages also retain legacy prerequisite codes; the conflict detector intentionally surfaces those for departmental confirmation."
   ],
-  "studyPlanSourceTitle": "GREAT official pathway and underlying major requirements",
+  "studyPlanSourceTitle": "GREAT stream curricula and course offerings from the Chemistry, Computing Mathematics and Physics major pages",
   "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
   "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great",
   "lastVerified": "2026-08-30",
-  "studyPlanRevision": "ug-source-audit-2026-08-30"
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "defaultStreamCode": "CHEM",
+  "requireStreamSelection": true
 }

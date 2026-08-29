@@ -58,7 +58,7 @@
       ]
     },
     "majorCore": {
-      "credits": 60,
+      "credits": 63,
       "courses": [
         {
           "code": "CS2310",
@@ -134,11 +134,16 @@
           "code": "CS4514",
           "title": "Project",
           "credits": 6
+        },
+        {
+          "code": "DSC3026",
+          "title": "International Professional Development",
+          "credits": 3
         }
       ]
     },
     "majorElectives": {
-      "credits": 24,
+      "credits": 21,
       "courses": [
         {
           "code": "CS-ELECTIVE",
@@ -146,7 +151,7 @@
           "credits": 3
         }
       ],
-      "chooseCredits": 24
+      "chooseCredits": 21
     },
     "freeElectives": {
       "credits": 9,
@@ -218,12 +223,23 @@
     "CS4552",
     "MA2172",
     "SDSC3026",
+    "GE1401",
+    "GE1601",
+    "CS1302",
+    "GE2410",
+    "GE1501",
+    "GE-ELECTIVE",
+    "CS3402",
+    "JC2066",
+    "MAJOR-ELECTIVE",
+    "DSC3026",
     "CS2117",
     "CS2612",
     "CS3104",
     "CS4101",
     "CS4191",
     "CS4192",
+    "EN4262",
     "SDSC1001",
     "MA2508",
     "MA2510",
@@ -278,6 +294,11 @@
     "SDSC0003",
     "SDSC0004",
     "SDSC3080",
+    "CS1315",
+    "GE2401",
+    "SDSC2003",
+    "DSC3001",
+    "DSC3025",
     "PHY1201",
     "SDSC3020",
     "SDSC3027",
@@ -288,64 +309,267 @@
     "SDSC4064",
     "SDSC4103",
     "SDSC4107",
-    "SDSC4109"
+    "SDSC4109",
+    "DSC4016"
   ],
-  "studyPlanStatus": "diy",
+  "studyPlanStatus": "derived",
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "CS1302",
+            "title": "Introduction to Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "MA1508",
+            "title": "Calculus",
+            "credits": 4
+          },
+          {
+            "code": "CS2310",
+            "title": "Computer Programming",
+            "credits": 3
+          },
+          {
+            "code": "CS2115",
+            "title": "Computer Organization",
+            "credits": 3
+          }
+        ],
+        "credits": 17
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE2410",
+            "title": "English for Engineering",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation - History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "MA1503",
+            "title": "Linear Algebra with Applications",
+            "credits": 4
+          },
+          {
+            "code": "CS2402",
+            "title": "Introduction to Computational Probability Modelling",
+            "credits": 3
+          },
+          {
+            "code": "CS2204",
+            "title": "Fundamentals of Internet Applications Development",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       }
     },
     "year2": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS2613",
+            "title": "Seminars on Contemporary Technology",
+            "credits": 1
+          },
+          {
+            "code": "CS2312",
+            "title": "Problem Solving and Programming",
+            "credits": 3
+          },
+          {
+            "code": "CS3201",
+            "title": "Computer Networks",
+            "credits": 3
+          },
+          {
+            "code": "CS3334",
+            "title": "Data Structures",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          },
+          {
+            "code": "MA2185",
+            "title": "Discrete Mathematics",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS2613",
+            "title": "Seminars on Contemporary Technology",
+            "credits": 1
+          },
+          {
+            "code": "CS3103",
+            "title": "Operating Systems",
+            "credits": 3
+          },
+          {
+            "code": "CS3342",
+            "title": "Software Design",
+            "credits": 3
+          },
+          {
+            "code": "CS3402",
+            "title": "Database Systems",
+            "credits": 3
+          },
+          {
+            "code": "JC2066",
+            "title": "IT Professionals: Ethical, Legal and Social Issues",
+            "credits": 3
+          },
+          {
+            "code": "DR-1",
+            "title": "Department Required Supporting Course",
+            "credits": 3
+          }
+        ],
+        "credits": 16
       }
     },
     "year3": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS3505",
+            "title": "IT Professional Internship",
+            "credits": 6
+          },
+          {
+            "code": "CS4335",
+            "title": "Design & Analysis of Algorithms",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (1)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS3505",
+            "title": "IT Professional Internship",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (2)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (3)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 12
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "DSC3026",
+            "title": "International Professional Development",
+            "credits": 3
+          },
+          {
+            "code": "FLAGSHIP-OVERSEAS",
+            "title": "ACT premium overseas exchange / internship experience",
+            "credits": 0
+          }
+        ],
+        "credits": 3
       }
     },
     "year4": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS4514",
+            "title": "Project",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (4)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (5)",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (6)",
+            "credits": 3
+          },
+          {
+            "code": "DR-2",
+            "title": "Department Required Supporting Course",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "CS4514",
+            "title": "Project",
+            "credits": 6
+          },
+          {
+            "code": "MAJOR-ELECTIVE",
+            "title": "CS Elective (8)",
+            "credits": 3
+          },
+          {
+            "code": "GE-ELECTIVE",
+            "title": "Gateway Education (Area)",
+            "credits": 3
+          }
+        ],
+        "credits": 12
       }
     }
   },
@@ -353,7 +577,7 @@
     {
       "code": "CSC",
       "name": "BSc Computer Science",
-      "description": "Underlying major option for ACT.",
+      "description": "ACT stream based on the official underlying computing major plan, with DSC3026 and the existing CS3505 internship requirement.",
       "totalCredits": 122,
       "requirements": {
         "gatewayEducation": {
@@ -407,7 +631,7 @@
           ]
         },
         "majorCore": {
-          "credits": 60,
+          "credits": 63,
           "courses": [
             {
               "code": "CS2310",
@@ -483,11 +707,16 @@
               "code": "CS4514",
               "title": "Project",
               "credits": 6
+            },
+            {
+              "code": "DSC3026",
+              "title": "International Professional Development",
+              "credits": 3
             }
           ]
         },
         "majorElectives": {
-          "credits": 24,
+          "credits": 21,
           "courses": [
             {
               "code": "CS-ELECTIVE",
@@ -495,7 +724,7 @@
               "credits": 3
             }
           ],
-          "chooseCredits": 24
+          "chooseCredits": 21
         },
         "freeElectives": {
           "credits": 9,
@@ -566,72 +795,283 @@
         "CS4485",
         "CS4552",
         "MA2172",
-        "SDSC3026"
+        "SDSC3026",
+        "GE1401",
+        "GE1601",
+        "CS1302",
+        "GE2410",
+        "GE1501",
+        "GE-ELECTIVE",
+        "CS3402",
+        "JC2066",
+        "MAJOR-ELECTIVE",
+        "DSC3026"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "MA1508",
+                "title": "Calculus",
+                "credits": 4
+              },
+              {
+                "code": "CS2310",
+                "title": "Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "CS2115",
+                "title": "Computer Organization",
+                "credits": 3
+              }
+            ],
+            "credits": 17
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "MA1503",
+                "title": "Linear Algebra with Applications",
+                "credits": 4
+              },
+              {
+                "code": "CS2402",
+                "title": "Introduction to Computational Probability Modelling",
+                "credits": 3
+              },
+              {
+                "code": "CS2204",
+                "title": "Fundamentals of Internet Applications Development",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS2613",
+                "title": "Seminars on Contemporary Technology",
+                "credits": 1
+              },
+              {
+                "code": "CS2312",
+                "title": "Problem Solving and Programming",
+                "credits": 3
+              },
+              {
+                "code": "CS3201",
+                "title": "Computer Networks",
+                "credits": 3
+              },
+              {
+                "code": "CS3334",
+                "title": "Data Structures",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              },
+              {
+                "code": "MA2185",
+                "title": "Discrete Mathematics",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS2613",
+                "title": "Seminars on Contemporary Technology",
+                "credits": 1
+              },
+              {
+                "code": "CS3103",
+                "title": "Operating Systems",
+                "credits": 3
+              },
+              {
+                "code": "CS3342",
+                "title": "Software Design",
+                "credits": 3
+              },
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "JC2066",
+                "title": "IT Professionals: Ethical, Legal and Social Issues",
+                "credits": 3
+              },
+              {
+                "code": "DR-1",
+                "title": "Department Required Supporting Course",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3505",
+                "title": "IT Professional Internship",
+                "credits": 6
+              },
+              {
+                "code": "CS4335",
+                "title": "Design & Analysis of Algorithms",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (1)",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3505",
+                "title": "IT Professional Internship",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (2)",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (3)",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "DSC3026",
+                "title": "International Professional Development",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-OVERSEAS",
+                "title": "ACT premium overseas exchange / internship experience",
+                "credits": 0
+              }
+            ],
+            "credits": 3
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS4514",
+                "title": "Project",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (4)",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (5)",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (6)",
+                "credits": 3
+              },
+              {
+                "code": "DR-2",
+                "title": "Department Required Supporting Course",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS4514",
+                "title": "Project",
+                "credits": 6
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (8)",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Computer Science.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "ACT official stream requirements overlaid on the CSC/CYBE/DSC/DSE plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "lastVerified": "2026-08-30",
@@ -640,7 +1080,7 @@
     {
       "code": "CYBE",
       "name": "BSc Cybersecurity",
-      "description": "Underlying major option for ACT.",
+      "description": "ACT stream based on the official underlying computing major plan, with DSC3026 and the existing CS3505 internship requirement.",
       "totalCredits": 121,
       "requirements": {
         "gatewayEducation": {
@@ -694,7 +1134,7 @@
           ]
         },
         "majorCore": {
-          "credits": 60,
+          "credits": 63,
           "courses": [
             {
               "code": "CS2115",
@@ -775,13 +1215,24 @@
               "code": "CS4514",
               "title": "Project",
               "credits": 6
+            },
+            {
+              "code": "DSC3026",
+              "title": "International Professional Development",
+              "credits": 3
             }
           ]
         },
         "majorElectives": {
-          "credits": 21,
-          "courses": [],
-          "chooseCredits": 21
+          "credits": 12,
+          "courses": [
+            {
+              "code": "CYBE-ELECTIVE",
+              "title": "Cybersecurity Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 12
         },
         "freeElectives": {
           "credits": 9,
@@ -837,72 +1288,284 @@
         "CS4298",
         "CS4552",
         "MA2172",
-        "SDSC3026"
+        "SDSC3026",
+        "GE1401",
+        "CS1302",
+        "GE1601",
+        "GE2410",
+        "GE1501",
+        "CS3402",
+        "GE-ELECTIVE",
+        "JC2066",
+        "MAJOR-ELECTIVE",
+        "EN4262",
+        "DSC3026"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "MA1508",
+                "title": "Calculus",
+                "credits": 4
+              },
+              {
+                "code": "CS1302",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "CS2115",
+                "title": "Computer Organization",
+                "credits": 3
+              },
+              {
+                "code": "CS2117",
+                "title": "Foundation of Cybersecurity",
+                "credits": 3
+              }
+            ],
+            "credits": 17
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "MA1503",
+                "title": "Linear Algebra with Applications",
+                "credits": 4
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "CS2310",
+                "title": "Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "CS2402",
+                "title": "Introduction to Computational Probability Modelling",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS2612",
+                "title": "Seminars on Contemporary Cybersecurity",
+                "credits": 1
+              },
+              {
+                "code": "CS3201",
+                "title": "Computer Networks",
+                "credits": 3
+              },
+              {
+                "code": "CS3334",
+                "title": "Data Structures",
+                "credits": 3
+              },
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "MA2185",
+                "title": "Discrete Mathematics",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS2612",
+                "title": "Seminars on Contemporary Cybersecurity",
+                "credits": 1
+              },
+              {
+                "code": "CS3103",
+                "title": "Operating Systems",
+                "credits": 3
+              },
+              {
+                "code": "CS3104",
+                "title": "Applied Cryptographic Systems",
+                "credits": 3
+              },
+              {
+                "code": "CS3342",
+                "title": "Software Design",
+                "credits": 3
+              },
+              {
+                "code": "DR-1",
+                "title": "Department Required Supporting Course",
+                "credits": 3
+              },
+              {
+                "code": "JC2066",
+                "title": "IT Professionals: Ethical, Legal and Social Issues",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3505",
+                "title": "IT Professional Internship",
+                "credits": 6
+              },
+              {
+                "code": "CS4101",
+                "title": "Software Security",
+                "credits": 3
+              },
+              {
+                "code": "CS4335",
+                "title": "Design & Analysis of Algorithms",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3505",
+                "title": "IT Professional Internship",
+                "credits": 3
+              },
+              {
+                "code": "CS4293",
+                "title": "Topics in Cybersecurity",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (1)",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "DSC3026",
+                "title": "International Professional Development",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-OVERSEAS",
+                "title": "ACT premium overseas exchange / internship experience",
+                "credits": 0
+              }
+            ],
+            "credits": 3
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS4514",
+                "title": "Project",
+                "credits": 3
+              },
+              {
+                "code": "EN4262",
+                "title": "English Communication Skills for Computing",
+                "credits": 2
+              },
+              {
+                "code": "DR-2",
+                "title": "Department Required Supporting Course",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (2)",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (3)",
+                "credits": 3
+              }
+            ],
+            "credits": 14
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS4514",
+                "title": "Project",
+                "credits": 6
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "CS Elective (5)",
+                "credits": 3
+              },
+              {
+                "code": "GE-ELECTIVE",
+                "title": "Gateway Education (Area)",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Cybersecurity.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "ACT official stream requirements overlaid on the CSC/CYBE/DSC/DSE plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "lastVerified": "2026-08-30",
@@ -911,14 +1574,170 @@
     {
       "code": "DSC",
       "name": "BSc Data Science",
-      "description": "Underlying major option for ACT.",
+      "description": "Current ACT Data Science core overlay, including Big Data and two flagship placements.",
       "totalCredits": 121,
       "requirements": {
-        "gatewayEducation": 30,
-        "collegeRequirement": 15,
-        "majorCore": 45,
-        "majorElective": 15,
-        "freeElective": 16
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2401",
+              "title": "English for Science",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation-History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "CS1315",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2003",
+              "title": "Human Contexts and Ethics in Data Science",
+              "credits": 3
+            },
+            {
+              "code": "CS3402",
+              "title": "Database Systems",
+              "credits": 3
+            }
+          ]
+        },
+        "collegeRequirement": {
+          "credits": 8,
+          "courses": [
+            {
+              "code": "MA1503",
+              "title": "Linear Algebra with Applications",
+              "credits": 4
+            },
+            {
+              "code": "MA1508",
+              "title": "Calculus",
+              "credits": 4
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 52,
+          "courses": [
+            {
+              "code": "SDSC1001",
+              "title": "Introduction to Data Science",
+              "credits": 2
+            },
+            {
+              "code": "MA2508",
+              "title": "Multi-variable Calculus",
+              "credits": 4
+            },
+            {
+              "code": "MA2510",
+              "title": "Probability and Statistics",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2001",
+              "title": "Python for Data Science",
+              "credits": 4
+            },
+            {
+              "code": "SDSC2002",
+              "title": "Convex Optimization",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2004",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2005",
+              "title": "Introduction to Computational Social Science",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2102",
+              "title": "Statistical Methods and Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "CS2334",
+              "title": "Data Structures for Data Science",
+              "credits": 3
+            },
+            {
+              "code": "CS3273",
+              "title": "Data Protection and System Security",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3006",
+              "title": "Fundamentals of Machine Learning I",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3007",
+              "title": "Advanced Statistics",
+              "credits": 3
+            },
+            {
+              "code": "SDSC4116",
+              "title": "Data Science Capstone",
+              "credits": 6
+            },
+            {
+              "code": "DSC3001",
+              "title": "Big Data: The Arts and Science of Scaling",
+              "credits": 3
+            },
+            {
+              "code": "DSC3025",
+              "title": "Internship for Flagship Programme",
+              "credits": 3
+            },
+            {
+              "code": "DSC3026",
+              "title": "International Professional Development",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 15,
+          "courses": [
+            {
+              "code": "MAJOR-ELECTIVE",
+              "title": "Data Science Major Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 15,
+          "note": "At least 12 CU should be at B4 level under the current catalogue."
+        },
+        "freeElectives": {
+          "credits": 15,
+          "courses": []
+        }
       },
       "allCourses": [
         "MA1503",
@@ -986,72 +1805,284 @@
         "SDSC0002",
         "SDSC0003",
         "SDSC0004",
-        "SDSC3080"
+        "SDSC3080",
+        "CS1315",
+        "GE1401",
+        "GE1601",
+        "GE2401",
+        "GE1501",
+        "CS3402",
+        "MAJOR-ELECTIVE",
+        "SDSC2003",
+        "DSC3001",
+        "DSC3025",
+        "DSC3026"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA1508",
+                "title": "Calculus",
+                "credits": 4
+              },
+              {
+                "code": "CS1315",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "SDSC1001",
+                "title": "Introduction to Data Science",
+                "credits": 2
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              }
+            ],
+            "credits": 13
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA1503",
+                "title": "Linear Algebra with Applications",
+                "credits": 4
+              },
+              {
+                "code": "SDSC2004",
+                "title": "Data Visualization",
+                "credits": 3
+              },
+              {
+                "code": "GE2401",
+                "title": "English for Science",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA2510",
+                "title": "Probability and Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MA2508",
+                "title": "Multi-variable Calculus",
+                "credits": 4
+              },
+              {
+                "code": "SDSC2001",
+                "title": "Python for Data Science",
+                "credits": 4
+              },
+              {
+                "code": "CS2334",
+                "title": "Data Structures for Data Science",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 17
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2002",
+                "title": "Convex Optimization",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2005",
+                "title": "Introduction to Computational Social Science",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2102",
+                "title": "Statistical Methods and Data Analysis",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC3006",
+                "title": "Fundamentals of Machine Learning I",
+                "credits": 3
+              },
+              {
+                "code": "SDSC3007",
+                "title": "Advanced Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              },
+              {
+                "code": "DSC3001",
+                "title": "Big Data: The Arts and Science of Scaling",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC2003",
+                "title": "Human Contexts and Ethics in Data Science",
+                "credits": 3
+              },
+              {
+                "code": "CS3273",
+                "title": "Data Protection and System Security",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "DSC3025",
+                "title": "Internship for Flagship Programme",
+                "credits": 3
+              },
+              {
+                "code": "DSC3026",
+                "title": "International Professional Development",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-OVERSEAS",
+                "title": "ACT premium overseas exchange / internship experience",
+                "credits": 0
+              }
+            ],
+            "credits": 6
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC4116",
+                "title": "Data Science Capstone",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC4116",
+                "title": "Data Science Capstone",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE-ACT",
+                "title": "ACT Data Science Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Data Science.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "ACT official stream requirements overlaid on the CSC/CYBE/DSC/DSE plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "lastVerified": "2026-08-30",
@@ -1060,14 +2091,179 @@
     {
       "code": "DSE",
       "name": "BSc Data and Systems Engineering",
-      "description": "Underlying major option for ACT.",
+      "description": "Current ACT Data and Systems Engineering core overlay, including two flagship placements and Machine Learning II.",
       "totalCredits": 121,
       "requirements": {
-        "gatewayEducation": 30,
-        "collegeRequirement": 15,
-        "majorCore": 45,
-        "majorElective": 15,
-        "freeElective": 16
+        "gatewayEducation": {
+          "credits": 31,
+          "courses": [
+            {
+              "code": "GE1401",
+              "title": "University English",
+              "credits": 3
+            },
+            {
+              "code": "GE2410",
+              "title": "English for Engineering",
+              "credits": 3
+            },
+            {
+              "code": "GE1501",
+              "title": "Chinese Civilisation-History and Philosophy",
+              "credits": 3
+            },
+            {
+              "code": "GE1601",
+              "title": "Whole-Person Development",
+              "credits": 1
+            },
+            {
+              "code": "GE-DR",
+              "title": "GE Distributional Requirements",
+              "credits": 12
+            },
+            {
+              "code": "CS1315",
+              "title": "Introduction to Computer Programming",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2003",
+              "title": "Human Contexts and Ethics in Data Science",
+              "credits": 3
+            },
+            {
+              "code": "CS3402",
+              "title": "Database Systems",
+              "credits": 3
+            }
+          ]
+        },
+        "collegeRequirement": {
+          "credits": 8,
+          "courses": [
+            {
+              "code": "MA1503",
+              "title": "Linear Algebra with Applications",
+              "credits": 4
+            },
+            {
+              "code": "MA1508",
+              "title": "Calculus",
+              "credits": 4
+            }
+          ]
+        },
+        "majorCore": {
+          "credits": 58,
+          "courses": [
+            {
+              "code": "PHY1201",
+              "title": "General Physics I",
+              "credits": 3
+            },
+            {
+              "code": "SDSC1001",
+              "title": "Introduction to Data Science",
+              "credits": 2
+            },
+            {
+              "code": "GE2339",
+              "title": "Smart City - a Systems Engineering Perspective",
+              "credits": 3
+            },
+            {
+              "code": "MA2508",
+              "title": "Multi-variable Calculus",
+              "credits": 4
+            },
+            {
+              "code": "MA2510",
+              "title": "Probability and Statistics",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2001",
+              "title": "Python for Data Science",
+              "credits": 4
+            },
+            {
+              "code": "SDSC2002",
+              "title": "Convex Optimization",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2004",
+              "title": "Data Visualization",
+              "credits": 3
+            },
+            {
+              "code": "SDSC2102",
+              "title": "Statistical Methods and Data Analysis",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3002",
+              "title": "Data Mining",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3006",
+              "title": "Fundamentals of Machine Learning I",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3008",
+              "title": "Systems Dynamics and Control",
+              "credits": 3
+            },
+            {
+              "code": "SDSC3060",
+              "title": "Operations Research",
+              "credits": 3
+            },
+            {
+              "code": "CS4480",
+              "title": "Data-Intensive Computing",
+              "credits": 3
+            },
+            {
+              "code": "SDSC4116",
+              "title": "Data Science Capstone",
+              "credits": 6
+            },
+            {
+              "code": "DSC3025",
+              "title": "Internship for Flagship Programme",
+              "credits": 3
+            },
+            {
+              "code": "DSC3026",
+              "title": "International Professional Development",
+              "credits": 3
+            },
+            {
+              "code": "DSC4016",
+              "title": "Fundamentals of Machine Learning II",
+              "credits": 3
+            }
+          ]
+        },
+        "majorElectives": {
+          "credits": 15,
+          "courses": [
+            {
+              "code": "MAJOR-ELECTIVE",
+              "title": "Data and Systems Engineering Major Elective",
+              "credits": 3
+            }
+          ],
+          "chooseCredits": 15
+        },
+        "freeElectives": {
+          "credits": 9,
+          "courses": []
+        }
       },
       "allCourses": [
         "MA1503",
@@ -1128,72 +2324,284 @@
         "SDSC4103",
         "SDSC4107",
         "SDSC4109",
-        "SDSC4110"
+        "SDSC4110",
+        "CS1315",
+        "GE1401",
+        "GE1601",
+        "GE2410",
+        "CS3402",
+        "GE1501",
+        "MAJOR-ELECTIVE",
+        "SDSC2003",
+        "DSC3025",
+        "DSC3026",
+        "DSC4016"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA1508",
+                "title": "Calculus",
+                "credits": 4
+              },
+              {
+                "code": "CS1315",
+                "title": "Introduction to Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "SDSC1001",
+                "title": "Introduction to Data Science",
+                "credits": 2
+              },
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA1503",
+                "title": "Linear Algebra with Applications",
+                "credits": 4
+              },
+              {
+                "code": "SDSC2004",
+                "title": "Data Visualization",
+                "credits": 3
+              },
+              {
+                "code": "GE2339",
+                "title": "Smart City - a Systems Engineering Perspective",
+                "credits": 3
+              },
+              {
+                "code": "GE2410",
+                "title": "English for Engineering",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MA2510",
+                "title": "Probability and Statistics",
+                "credits": 3
+              },
+              {
+                "code": "MA2508",
+                "title": "Multi-variable Calculus",
+                "credits": 4
+              },
+              {
+                "code": "SDSC2001",
+                "title": "Python for Data Science",
+                "credits": 4
+              },
+              {
+                "code": "PHY1201",
+                "title": "General Physics I",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 17
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3402",
+                "title": "Database Systems",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2002",
+                "title": "Convex Optimization",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2102",
+                "title": "Statistical Methods and Data Analysis",
+                "credits": 3
+              },
+              {
+                "code": "SDSC3060",
+                "title": "Operations Research",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation - History and Philosophy",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC3006",
+                "title": "Fundamentals of Machine Learning I",
+                "credits": 3
+              },
+              {
+                "code": "SDSC3008",
+                "title": "Systems Dynamics and Control",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR",
+                "title": "GE Course (Distributional Requirements)",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC3002",
+                "title": "Data Mining",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 9
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "DSC3025",
+                "title": "Internship for Flagship Programme",
+                "credits": 3
+              },
+              {
+                "code": "DSC3026",
+                "title": "International Professional Development",
+                "credits": 3
+              },
+              {
+                "code": "FLAGSHIP-OVERSEAS",
+                "title": "ACT premium overseas exchange / internship experience",
+                "credits": 0
+              }
+            ],
+            "credits": 6
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC4116",
+                "title": "Data Science Capstone",
+                "credits": 3
+              },
+              {
+                "code": "CS4480",
+                "title": "Data-Intensive Computing",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              },
+              {
+                "code": "DSC4016",
+                "title": "Fundamentals of Machine Learning II",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SDSC4116",
+                "title": "Data Science Capstone",
+                "credits": 3
+              },
+              {
+                "code": "SDSC2003",
+                "title": "Human Contexts and Ethics in Data Science",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE",
+                "title": "Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE-ELECTIVE",
+                "title": "Free Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Data and Systems Engineering.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "ACT official stream requirements overlaid on the CSC/CYBE/DSC/DSE plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
       "lastVerified": "2026-08-30",
@@ -1201,12 +2609,15 @@
     }
   ],
   "notes": [
-    "ADMO lists ACT as a flagship pathway with free choice of major; no separate official semester-by-semester study plan was found.",
-    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+    "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。",
+    "ACT is not a generic copy of the base majors: CSC/CYBE add DSC3026 alongside CS3505; DSC adds DSC3001, DSC3025 and DSC3026; DSE adds DSC3025, DSC3026 and DSC4016.",
+    "DSC3025 and DSC3026 are currently listed as not offering. They remain in the plan because they are explicit ACT stream requirements; confirm the activated placement term with the College of Computing."
   ],
-  "studyPlanSourceTitle": "ACT official pathway and underlying major requirements",
+  "studyPlanSourceTitle": "ACT official stream requirements overlaid on the CSC/CYBE/DSC/DSE plans",
   "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
   "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/ACT",
   "lastVerified": "2026-08-30",
-  "studyPlanRevision": "ug-source-audit-2026-08-30"
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "defaultStreamCode": "CSC",
+  "requireStreamSelection": true
 }

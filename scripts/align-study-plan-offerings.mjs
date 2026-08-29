@@ -41,6 +41,7 @@ function addOfferingTerms(terms, rawText) {
   if (!text || /not\s+offering/.test(text)) return false
   if (/semester\s*a|sem\s*a/.test(text)) terms.add('semA')
   if (/semester\s*b|sem\s*b/.test(text)) terms.add('semB')
+  if (/semester\s*a\s*(?:&|and|\/|,)\s*b|sem\s*a\s*(?:&|and|\/|,)\s*b/.test(text)) terms.add('semB')
   if (/summer/.test(text)) terms.add('summer')
   return true
 }

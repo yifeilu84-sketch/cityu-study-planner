@@ -3,7 +3,7 @@
   "title": "Creative Arts and Technology Excellence (CREATE)",
   "url": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
   "degree": "Flagship Programme",
-  "totalCredits": 120,
+  "totalCredits": 124,
   "department": "School of Creative Media",
   "college": "School of Creative Media",
   "requirements": {
@@ -44,7 +44,18 @@
     },
     "college": {
       "credits": 9,
-      "courses": []
+      "courses": [
+        {
+          "code": "SM-SS",
+          "title": "School-Specified Course",
+          "credits": 3
+        },
+        {
+          "code": "SM-CREATE",
+          "title": "Leadership & Creativity (CREATE Stream)",
+          "credits": 3
+        }
+      ]
     },
     "majorCore": {
       "credits": 39,
@@ -52,6 +63,11 @@
         {
           "code": "SM2715",
           "title": "Creative Coding",
+          "credits": 3
+        },
+        {
+          "code": "SM1103A",
+          "title": "Introduction to Media Computing",
           "credits": 3
         },
         {
@@ -85,6 +101,16 @@
           "credits": 3
         },
         {
+          "code": "SM-Studio1",
+          "title": "Art & Science Studio Course #1",
+          "credits": 6
+        },
+        {
+          "code": "SM-Studio2",
+          "title": "Art & Science Studio Course #2",
+          "credits": 6
+        },
+        {
           "code": "SM4712C",
           "title": "Graduation Thesis / Project",
           "credits": 6
@@ -93,7 +119,13 @@
     },
     "majorElectives": {
       "credits": 30,
-      "courses": [],
+      "courses": [
+        {
+          "code": "SM-ELECTIVE",
+          "title": "Major Elective",
+          "credits": 3
+        }
+      ],
       "chooseCredits": 30
     },
     "freeElectives": {
@@ -207,6 +239,20 @@
     "SM2724D",
     "SM2724E",
     "SM2724F",
+    "GE1401",
+    "GE1601",
+    "CS1103B",
+    "SM1701",
+    "GE2413",
+    "GE1501",
+    "FREE1",
+    "SM2715",
+    "FREE2",
+    "FREE3",
+    "FREE4",
+    "FREE5",
+    "FREE6",
+    "SM2724A/B/C/D/E/F",
     "SM4712B",
     "SM2609",
     "CS2116",
@@ -232,65 +278,293 @@
     "CS4298",
     "CS4386",
     "SM4712C",
-    "SM2715",
     "JC2002"
   ],
-  "studyPlanStatus": "diy",
+  "studyPlanStatus": "derived",
   "studyPlan": {
     "year1": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE1401",
+            "title": "University English",
+            "credits": 3
+          },
+          {
+            "code": "GE1601",
+            "title": "Whole-Person Development",
+            "credits": 1
+          },
+          {
+            "code": "GE-DR1",
+            "title": "Gateway Education Area 1 Course",
+            "credits": 3
+          },
+          {
+            "code": "CS1103B",
+            "title": "Media Computing",
+            "credits": 3
+          },
+          {
+            "code": "SM1701",
+            "title": "New Media Art",
+            "credits": 3
+          },
+          {
+            "code": "SM1702",
+            "title": "Creative Media Studio I",
+            "credits": 3,
+            "officialPlacement": "Year 1 Semesters A and B"
+          }
+        ],
+        "credits": 16
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "GE2413",
+            "title": "Words, Sound and Images: Writing for Creative Media",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR2",
+            "title": "Gateway Education Area 2 Course",
+            "credits": 3
+          },
+          {
+            "code": "GE1501",
+            "title": "Chinese Civilisation-History and Philosophy",
+            "credits": 3
+          },
+          {
+            "code": "SM1702",
+            "title": "Creative Media Studio I",
+            "credits": 3,
+            "officialPlacement": "Year 1 Semesters A and B"
+          },
+          {
+            "code": "FREE1",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          },
+          {
+            "code": "SM2724A",
+            "title": "Leadership & Creativity (CREATE Stream)",
+            "credits": 1,
+            "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+          }
+        ],
+        "credits": 16
       }
     },
     "year2": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM2715",
+            "title": "Creative Coding",
+            "credits": 3
+          },
+          {
+            "code": "SM2706",
+            "title": "Critical Theory and Socially Engaged Practices",
+            "credits": 3
+          },
+          {
+            "code": "FREE2",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE1",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE2",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM2704",
+            "title": "Creative Media Studio II",
+            "credits": 3
+          },
+          {
+            "code": "SM2105",
+            "title": "Narrative Strategies and Aesthetics of Time-based Media",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE3",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE4",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "SM2716",
+            "title": "Physical Computing and Tangible Media",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE5",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          }
+        ],
+        "credits": 18
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM2724B",
+            "title": "Leadership & Creativity (CREATE Stream)",
+            "credits": 1,
+            "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+          }
+        ],
+        "credits": 1
       }
     },
     "year3": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "MAJOR-ELECTIVE6",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE7",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE8",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE9",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR3",
+            "title": "Gateway Education Area 3 Course",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "MAJOR-ELECTIVE10",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE11",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE12",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE13",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "GE-DR4",
+            "title": "Gateway Education Course",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM2724C",
+            "title": "Leadership & Creativity (CREATE Stream)",
+            "credits": 1,
+            "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+          }
+        ],
+        "credits": 1
       }
     },
     "year4": {
       "semA": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM4712A",
+            "title": "Graduation Thesis / Project",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
+          },
+          {
+            "code": "MAJOR-ELECTIVE14",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "MAJOR-ELECTIVE15",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE3",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE4",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 15
       },
       "semB": {
-        "courses": [],
-        "credits": 0
-      },
-      "summer": {
-        "courses": [],
-        "credits": 0
+        "courses": [
+          {
+            "code": "SM4712A",
+            "title": "Graduation Thesis / Project",
+            "credits": 3,
+            "officialPlacement": "Year 4 Semesters A and B"
+          },
+          {
+            "code": "MAJOR-ELECTIVE16",
+            "title": "Creative Media Major Elective",
+            "credits": 3
+          },
+          {
+            "code": "FREE5",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          },
+          {
+            "code": "FREE6",
+            "title": "Free Elective / Minor",
+            "credits": 3
+          }
+        ],
+        "credits": 12
       }
     }
   },
@@ -298,8 +572,8 @@
     {
       "code": "BA_CRM",
       "name": "BA Creative Media",
-      "description": "Underlying major option for CREATE.",
-      "totalCredits": 120,
+      "description": "BA Creative Media official sample plan with the three 1-CU CREATE leadership and creativity modules overlaid.",
+      "totalCredits": 124,
       "requirements": {
         "gatewayEducation": {
           "credits": 21,
@@ -338,7 +612,18 @@
         },
         "college": {
           "credits": 9,
-          "courses": []
+          "courses": [
+            {
+              "code": "SM-SS",
+              "title": "School-Specified Course",
+              "credits": 3
+            },
+            {
+              "code": "SM-CREATE",
+              "title": "Leadership & Creativity (CREATE Stream)",
+              "credits": 3
+            }
+          ]
         },
         "majorCore": {
           "credits": 39,
@@ -346,6 +631,11 @@
             {
               "code": "SM2715",
               "title": "Creative Coding",
+              "credits": 3
+            },
+            {
+              "code": "SM1103A",
+              "title": "Introduction to Media Computing",
               "credits": 3
             },
             {
@@ -379,6 +669,16 @@
               "credits": 3
             },
             {
+              "code": "SM-Studio1",
+              "title": "Art & Science Studio Course #1",
+              "credits": 6
+            },
+            {
+              "code": "SM-Studio2",
+              "title": "Art & Science Studio Course #2",
+              "credits": 6
+            },
+            {
               "code": "SM4712C",
               "title": "Graduation Thesis / Project",
               "credits": 6
@@ -387,7 +687,13 @@
         },
         "majorElectives": {
           "credits": 30,
-          "courses": [],
+          "courses": [
+            {
+              "code": "SM-ELECTIVE",
+              "title": "Major Elective",
+              "credits": 3
+            }
+          ],
           "chooseCredits": 30
         },
         "freeElectives": {
@@ -500,72 +806,314 @@
         "SM2724C",
         "SM2724D",
         "SM2724E",
-        "SM2724F"
+        "SM2724F",
+        "GE1401",
+        "GE1601",
+        "CS1103B",
+        "SM1701",
+        "GE2413",
+        "GE1501",
+        "FREE1",
+        "SM2715",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "SM2724A/B/C/D/E/F"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Area 1 Course",
+                "credits": 3
+              },
+              {
+                "code": "CS1103B",
+                "title": "Media Computing",
+                "credits": 3
+              },
+              {
+                "code": "SM1701",
+                "title": "New Media Art",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2413",
+                "title": "Words, Sound and Images: Writing for Creative Media",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Area 2 Course",
+                "credits": 3
+              },
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "SM2724A",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2715",
+                "title": "Creative Coding",
+                "credits": 3
+              },
+              {
+                "code": "SM2706",
+                "title": "Critical Theory and Socially Engaged Practices",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2704",
+                "title": "Creative Media Studio II",
+                "credits": 3
+              },
+              {
+                "code": "SM2105",
+                "title": "Narrative Strategies and Aesthetics of Time-based Media",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE3",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE4",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "SM2716",
+                "title": "Physical Computing and Tangible Media",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE5",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 18
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724B",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE6",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE7",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE8",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE9",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Area 3 Course",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE10",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE11",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE12",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE13",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Course",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724C",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712A",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "MAJOR-ELECTIVE14",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE15",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712A",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "MAJOR-ELECTIVE16",
+                "title": "Creative Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Arts in Creative Media.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "CREATE official leadership modules overlaid on the BA/BSc Creative Media and BAS New Media plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "lastVerified": "2026-08-30",
@@ -574,8 +1122,8 @@
     {
       "code": "BSC_CRM",
       "name": "BSc Creative Media",
-      "description": "Underlying major option for CREATE.",
-      "totalCredits": 121,
+      "description": "BSc Creative Media official sample plan with the three 1-CU CREATE leadership and creativity modules overlaid.",
+      "totalCredits": 124,
       "requirements": {
         "gatewayEducation": {
           "credits": 288,
@@ -1301,72 +1849,313 @@
         "SM2724C",
         "SM2724D",
         "SM2724E",
-        "SM2724F"
+        "SM2724F",
+        "GE1401",
+        "GE1601",
+        "SM1701",
+        "CS1103B",
+        "GE2413",
+        "FREE1",
+        "GE1501",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "SM2724A/B/C/D/E/F"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Area 1 Course",
+                "credits": 3
+              },
+              {
+                "code": "SM1701",
+                "title": "New Media Art",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              },
+              {
+                "code": "CS1103B",
+                "title": "Media Computing",
+                "credits": 3
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2413",
+                "title": "Words, Sound and Images: Writing for Creative Media",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Area 2 Course",
+                "credits": 3
+              },
+              {
+                "code": "SCHOOL-SPECIFIED",
+                "title": "School-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "SM2724A",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "CS2116",
+                "title": "Computer Systems",
+                "credits": 3
+              },
+              {
+                "code": "CS2313",
+                "title": "Computer Programming",
+                "credits": 3
+              },
+              {
+                "code": "SM3601",
+                "title": "Game Prototyping and Design",
+                "credits": 3
+              },
+              {
+                "code": "SM3611",
+                "title": "New Media for Installation, Events and Performance",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 18
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Area 3 Course",
+                "credits": 3
+              },
+              {
+                "code": "CS2303",
+                "title": "Data Structures for Media",
+                "credits": 3
+              },
+              {
+                "code": "CS2204",
+                "title": "Fundamentals of Internet Applications Development",
+                "credits": 3
+              },
+              {
+                "code": "CS2403",
+                "title": "Data Management and Cloud Storage",
+                "credits": 3
+              },
+              {
+                "code": "SM2714",
+                "title": "Fundamentals of Animation",
+                "credits": 3
+              },
+              {
+                "code": "SM2609",
+                "title": "Visual Communication (UI/UX)",
+                "credits": 3
+              }
+            ],
+            "credits": 18
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724B",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "CS3301",
+                "title": "Applied Algorithms",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE3",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE4",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE5",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE6",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE7",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE8",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE9",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724C",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712B",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "MAJOR-ELECTIVE10",
+                "title": "CS / SCM Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712B",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 9
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Science in Creative Media.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "CREATE official leadership modules overlaid on the BA/BSc Creative Media and BAS New Media plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "lastVerified": "2026-08-30",
@@ -1375,8 +2164,8 @@
     {
       "code": "BAS_NEM",
       "name": "BAS New Media",
-      "description": "Underlying major option for CREATE.",
-      "totalCredits": 120,
+      "description": "BAS New Media official sample plan with the three 1-CU CREATE leadership and creativity modules overlaid.",
+      "totalCredits": 124,
       "requirements": {
         "gatewayEducation": {
           "credits": 21,
@@ -1415,7 +2204,23 @@
         },
         "college": {
           "credits": 9,
-          "courses": []
+          "courses": [
+            {
+              "code": "SM-SS",
+              "title": "School-Specified Course",
+              "credits": 3
+            },
+            {
+              "code": "SM-SS2",
+              "title": "School-Specified Course",
+              "credits": 3
+            },
+            {
+              "code": "SM-CREATE",
+              "title": "Leadership & Creativity (CREATE Stream)",
+              "credits": 3
+            }
+          ]
         },
         "majorCore": {
           "credits": 36,
@@ -1423,6 +2228,11 @@
             {
               "code": "SM2715",
               "title": "Creative Coding",
+              "credits": 3
+            },
+            {
+              "code": "SM1103A",
+              "title": "Introduction to Media Computing",
               "credits": 3
             },
             {
@@ -1451,6 +2261,16 @@
               "credits": 3
             },
             {
+              "code": "SM-Studio1",
+              "title": "Art & Science Studio Course #1",
+              "credits": 6
+            },
+            {
+              "code": "SM-Studio2",
+              "title": "Art & Science Studio Course #2",
+              "credits": 6
+            },
+            {
               "code": "SM4712C",
               "title": "Graduation Thesis / Project",
               "credits": 6
@@ -1459,7 +2279,13 @@
         },
         "majorElectives": {
           "credits": 30,
-          "courses": [],
+          "courses": [
+            {
+              "code": "SM-ELECTIVE",
+              "title": "Major Elective",
+              "credits": 3
+            }
+          ],
           "chooseCredits": 30
         },
         "freeElectives": {
@@ -1573,72 +2399,303 @@
         "SM2724C",
         "SM2724D",
         "SM2724E",
-        "SM2724F"
+        "SM2724F",
+        "GE1401",
+        "GE1601",
+        "CS1103B",
+        "SM1701",
+        "GE2413",
+        "FREE1",
+        "GE1501",
+        "FREE2",
+        "FREE3",
+        "FREE4",
+        "FREE5",
+        "FREE6",
+        "SM2724A/B/C/D/E/F"
       ],
-      "studyPlanStatus": "diy",
       "studyPlan": {
         "year1": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1401",
+                "title": "University English",
+                "credits": 3
+              },
+              {
+                "code": "GE1601",
+                "title": "Whole-Person Development",
+                "credits": 1
+              },
+              {
+                "code": "GE-DR1",
+                "title": "Gateway Education Area 1 Course",
+                "credits": 3
+              },
+              {
+                "code": "CS1103B",
+                "title": "Media Computing",
+                "credits": 3
+              },
+              {
+                "code": "SM1701",
+                "title": "New Media Art",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              }
+            ],
+            "credits": 16
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE2413",
+                "title": "Words, Sound and Images: Writing for Creative Media",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR2",
+                "title": "Gateway Education Area 2 Course",
+                "credits": 3
+              },
+              {
+                "code": "SCHOOL-SPECIFIED",
+                "title": "School-specified Course",
+                "credits": 3
+              },
+              {
+                "code": "SM1702",
+                "title": "Creative Media Studio I",
+                "credits": 3,
+                "officialPlacement": "Year 1 Semesters A and B"
+              },
+              {
+                "code": "FREE1",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "SM2724A",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 1 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 16
           }
         },
         "year2": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2704",
+                "title": "Creative Media Studio II",
+                "credits": 3
+              },
+              {
+                "code": "SM2706",
+                "title": "Critical Theory and Socially Engaged Practices",
+                "credits": 3
+              },
+              {
+                "code": "SM2715",
+                "title": "Creative Coding",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE1",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE2",
+                "title": "New Media Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "GE1501",
+                "title": "Chinese Civilisation-History and Philosophy",
+                "credits": 3
+              },
+              {
+                "code": "SM2716",
+                "title": "Physical Computing and Tangible Media",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE3",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE4",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "SM3804",
+                "title": "Materials and Fabrication Studio",
+                "credits": 6
+              }
+            ],
+            "credits": 18
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724B",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 2 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year3": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE5",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR3",
+                "title": "Gateway Education Area 3 Course",
+                "credits": 3
+              },
+              {
+                "code": "FREE2",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "SM3805",
+                "title": "Imaging Science Studio",
+                "credits": 6
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "MAJOR-ELECTIVE6",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE7",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE8",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE9",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "MAJOR-ELECTIVE10",
+                "title": "New Media Major Elective",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM2724C",
+                "title": "Leadership & Creativity (CREATE Stream)",
+                "credits": 1,
+                "remarks": "CREATE registration 3 of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules."
+              }
+            ],
+            "credits": 1
           }
         },
         "year4": {
           "semA": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712C",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "MAJOR-ELECTIVE11",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "GE-DR4",
+                "title": "Gateway Education Course",
+                "credits": 3
+              },
+              {
+                "code": "FREE3",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE4",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 15
           },
           "semB": {
-            "courses": [],
-            "credits": 0
-          },
-          "summer": {
-            "courses": [],
-            "credits": 0
+            "courses": [
+              {
+                "code": "SM4712C",
+                "title": "Graduation Thesis / Project",
+                "credits": 3,
+                "officialPlacement": "Year 4 Semesters A and B"
+              },
+              {
+                "code": "MAJOR-ELECTIVE12",
+                "title": "New Media Major Elective",
+                "credits": 3
+              },
+              {
+                "code": "FREE5",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              },
+              {
+                "code": "FREE6",
+                "title": "Free Elective / Minor",
+                "credits": 3
+              }
+            ],
+            "credits": 12
           }
         }
       },
       "notes": [
-        "DIY stream based on the graduation requirements of Bachelor of Arts and Science in New Media.",
-        "No separate official semester-by-semester study plan was found for this flagship pathway."
+        "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。"
       ],
-      "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+      "studyPlanStatus": "derived",
+      "studyPlanSourceTitle": "CREATE official leadership modules overlaid on the BA/BSc Creative Media and BAS New Media plans",
       "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
       "lastVerified": "2026-08-30",
@@ -1646,12 +2703,16 @@
     }
   ],
   "notes": [
-    "ADMO lists CREATE as a flagship pathway for Creative Media options; no separate official semester-by-semester study plan was found.",
-    "No official semester-by-semester study plan was confirmed. The semester grid is intentionally blank; use the complete graduation requirement and course pool to build a DIY plan."
+    "Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。",
+    "Each CREATE option inherits the corresponding official Creative Media / New Media sample plan and adds SM2724A, SM2724B and SM2724C (1 CU each). Students may use any three distinct approved SM2724 modules where the official curriculum permits substitution.",
+    "SM2724A is placed in its currently confirmed Semester B; the later leadership modules are provisionally spread across Summer terms because their future offering terms are not yet activated in the current catalogue.",
+    "The BAS New Media reference chooses SM3804 and SM3805 as replaceable Art and Science Studio examples before SM4712C, so the graduation-project prerequisite chain remains visible."
   ],
-  "studyPlanSourceTitle": "CREATE official pathway and underlying major requirements",
+  "studyPlanSourceTitle": "CREATE official leadership modules overlaid on the BA/BSc Creative Media and BAS New Media plans",
   "studyPlanSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
   "requirementsSourceUrl": "https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create",
   "lastVerified": "2026-08-30",
-  "studyPlanRevision": "ug-source-audit-2026-08-30"
+  "studyPlanRevision": "ug-source-audit-2026-08-30",
+  "defaultStreamCode": "BA_CRM",
+  "requireStreamSelection": true
 }

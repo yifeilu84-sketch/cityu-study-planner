@@ -67,6 +67,84 @@ function generic(code, title, credits = 3, remarks) {
   return { code, title, credits, ...(remarks ? { remarks } : {}) }
 }
 
+function requirementSection(credits, items = [], extra = {}) {
+  return {
+    credits,
+    courses: items.map(plannedCourse),
+    ...extra,
+  }
+}
+
+function ensurePlanTerm(studyPlan, year, term) {
+  studyPlan[year] ??= { semA: semester(), semB: semester(), summer: semester() }
+  studyPlan[year][term] ??= semester()
+  return studyPlan[year][term]
+}
+
+function recalculateTerm(term) {
+  term.credits = (term.courses ?? []).reduce((total, item) => total + (Number(item.credits) || 0), 0)
+}
+
+function addPlanCourse(studyPlan, year, term, course) {
+  const target = ensurePlanTerm(studyPlan, year, term)
+  target.courses.push(plannedCourse(course))
+  recalculateTerm(target)
+}
+
+function addPlanCourseOnce(studyPlan, year, term, course) {
+  const target = ensurePlanTerm(studyPlan, year, term)
+  const normalized = plannedCourse(course)
+  if (target.courses.some((item) => item.code === normalized.code)) return
+  target.courses.push(normalized)
+  recalculateTerm(target)
+}
+
+function removePlanCourse(studyPlan, year, term, predicate) {
+  const target = ensurePlanTerm(studyPlan, year, term)
+  const index = target.courses.findIndex(predicate)
+  if (index < 0) throw new Error(`Missing replaceable course in ${year}.${term}`)
+  const [removed] = target.courses.splice(index, 1)
+  recalculateTerm(target)
+  return removed
+}
+
+function replacePlanCourse(studyPlan, fromYear, fromTerm, predicate, toYear, toTerm, course) {
+  removePlanCourse(studyPlan, fromYear, fromTerm, predicate)
+  addPlanCourse(studyPlan, toYear, toTerm, course)
+}
+
+function movePlanCourse(studyPlan, fromYear, fromTerm, predicate, toYear, toTerm) {
+  const moved = removePlanCourse(studyPlan, fromYear, fromTerm, predicate)
+  addPlanCourse(studyPlan, toYear, toTerm, moved)
+  return moved
+}
+
+function addRequirementCourse(requirements, key, course, creditIncrease = 0) {
+  const current = requirements[key]
+  const section = current && typeof current === 'object'
+    ? current
+    : { credits: Number(current) || 0, courses: [] }
+  section.courses ??= []
+  const normalized = plannedCourse(course)
+  if (!section.courses.some((item) => item.code === normalized.code)) section.courses.push(normalized)
+  section.credits = (Number(section.credits) || 0) + creditIncrease
+  requirements[key] = section
+}
+
+function cloneCourseAlias(code, sourceCode, overrides = {}) {
+  const source = courses[sourceCode]
+  if (!source) throw new Error(`Missing alias source course ${sourceCode}`)
+  courses[code] = {
+    ...clone(source),
+    ...overrides,
+    code,
+    courseUrl: `https://www.cityu.edu.hk/catalogue/ug/current/course/${code}.htm`,
+    pdfUrl: `https://www.cityu.edu.hk/catalogue/ug/current/course/${code}.pdf`,
+    sourceUrl: `https://www.cityu.edu.hk/catalogue/ug/current/course/${code}.htm`,
+    catalogue: 'ug',
+  }
+}
+
 function addNote(item, note) {
   item.notes = [...new Set([...(item.notes ?? []), note])]
 }
@@ -93,6 +171,13 @@ function upsertCourse(code, title, credits, department) {
     detailStatus: courses[code]?.detailStatus ?? 'linked-unparsed',
     sourceUrl: courses[code]?.sourceUrl ?? `https://www.cityu.edu.hk/catalogue/ug/current/course/${code}.htm`,
   }
+}
+
+function correctCoursePrerequisites(code, prerequisites, prerequisitesRaw) {
+  const course = courses[code]
+  if (!course) throw new Error(`Missing course for prerequisite correction: ${code}`)
+  course.prerequisites = prerequisites
+  course.prerequisitesRaw = prerequisitesRaw
 }
 
 function addPlanCoursesToPool(item) {
@@ -135,14 +220,13 @@ function stream(code, name, studyPlan, base, extra = {}) {
 function makeCreatePlan(basePlan) {
   const result = clone(basePlan)
   const placements = [
-    ['year1', 'semA'],
-    ['year2', 'semA'],
-    ['year3', 'semA'],
+    ['year1', 'semB'],
+    ['year2', 'summer'],
+    ['year3', 'summer'],
   ]
   const createCodes = ['SM2724A', 'SM2724B', 'SM2724C']
   placements.forEach(([year, term], index) => {
-    result[year][term].courses.push(generic(createCodes[index], 'Leadership & Creativity (CREATE Stream)', 1, `CREATE registration ${index + 1} of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules.`))
-    result[year][term].credits += 1
+    addPlanCourse(result, year, term, generic(createCodes[index], 'Leadership & Creativity (CREATE Stream)', 1, `CREATE registration ${index + 1} of 3; students may choose any three distinct SM2724A/B/C/D/E/F modules.`))
   })
   return result
 }
@@ -884,18 +968,19 @@ function applyCreativeMediaPlans() {
   })
   const game = clone(bscPlan)
   game.year3 = plan({ year3: {
-    semA: ['CS3301', 'CS4386', 'SM2603', generic('MAJOR-ELECTIVE4', 'SCM Major Elective'), generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective')],
-    semB: ['CS4182', 'CS4187', generic('MAJOR-ELECTIVE8', 'SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
+    semA: ['CS3301', 'CS4182', 'CS4187', 'SM2603', generic('MAJOR-ELECTIVE4', 'SCM Major Elective')],
+    semB: ['CS4386', generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE8', 'SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
   } }).year3
   const animation = clone(bscPlan)
   animation.year3 = plan({ year3: {
-    semA: ['CS3301', 'SM3605', 'SM3701', generic('MAJOR-ELECTIVE4', 'CS Major Elective'), generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective')],
-    semB: ['CS4182', 'SM4124', generic('MAJOR-ELECTIVE8', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
+    semA: ['CS3301', 'CS4182', 'SM3701', generic('MAJOR-ELECTIVE4', 'CS Major Elective'), generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective')],
+    semB: ['SM3605', generic('MAJOR-ELECTIVE8', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE10', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
   } }).year3
+  replacePlanCourse(animation, 'year4', 'semA', (course) => course.code === 'MAJOR-ELECTIVE10', 'year4', 'semA', 'SM4124')
   const interaction = clone(bscPlan)
   interaction.year3 = plan({ year3: {
-    semA: ['CS3301', 'CS3483', { code: 'SM2233 / SM2260', title: 'Multimedia Production Project / Interactive Narrative', credits: 3 }, generic('MAJOR-ELECTIVE4', 'SCM Major Elective'), generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective')],
-    semB: ['CS4187', { code: 'SM3610 / SM2716', title: 'Hardware Hacking / Physical Computing and Tangible Media', credits: 3 }, generic('MAJOR-ELECTIVE8', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
+    semA: ['CS3301', 'CS3483', 'CS4187', { code: 'SM2233 / SM2260', title: 'Multimedia Production Project / Interactive Narrative', credits: 3 }, generic('MAJOR-ELECTIVE4', 'SCM Major Elective')],
+    semB: [{ code: 'SM3610 / SM2716', title: 'Hardware Hacking / Physical Computing and Tangible Media', credits: 3 }, generic('MAJOR-ELECTIVE5', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE8', 'CS / SCM Major Elective'), generic('MAJOR-ELECTIVE9', 'CS / SCM Major Elective'), generic('FREE2', 'Free Elective / Minor')],
   } }).year3
   bsc.studyPlan = bscPlan
   bsc.defaultStreamCode = 'GENERAL'
@@ -913,7 +998,11 @@ function applySeePlans() {
   upsertCourse('EF3043', 'Economics of Sustainability', 3, 'Department of Economics and Finance')
   upsertCourse('EF4010', 'Sustainable Finance', 3, 'Department of Economics and Finance')
   upsertCourse('SEE4992', 'Final Year Project on Sustainability', 6, 'School of Energy and Environment')
+  correctCoursePrerequisites('PHY1201', [], 'HKDSE Mathematics Compulsory Part or equivalent. Pre-cursor: HKDSE Physics, Combined Science with Physics, or AP1200/PHY1200.')
+  correctCoursePrerequisites('SYE4024', [], 'Students must complete a minimum of 30 credit units to be eligible.')
+  correctCoursePrerequisites('SEE4000', ['SEE2000'], 'SEE2000 Professional Development I')
   const ese = getMajor('BENG1_ESE-1')
+  addPlanCourseOnce(ese.studyPlan, 'year3', 'summer', 'SEE4000')
   const oldEseStar = ese.streams?.find((item) => item.code === 'eSTAR')
   const oldEseBss = ese.streams?.find((item) => item.code === 'BSS')
   const eseBss = plan({
@@ -928,6 +1017,7 @@ function applySeePlans() {
     year3: {
       semA: ['CA3712', 'CA3732', 'SEE3002', 'SEE3101', 'SEE3102', 'SEE3103'],
       semB: ['SEE3001', 'SEE3003', 'SEE3104', 'SEE4001', 'SEE4217', generic('MAJOR-ELECTIVE1', 'ESE Major Elective'), generic('MAJOR-ELECTIVE2', 'ESE Major Elective')],
+      summer: ['SEE4000'],
     },
     year4: {
       semA: ['CA3722', 'CA4737', 'SEE4003', 'SEE4112', { code: 'SEE4997', credits: 3, officialPlacement: 'Year 4 Semesters A and B' }, 'SYE4024'],
@@ -947,6 +1037,7 @@ function applySeePlans() {
   ]
 
   const eve = getMajor('BENG1_EVE-1')
+  addPlanCourseOnce(eve.studyPlan, 'year3', 'summer', 'SEE4000')
   const oldEveStar = eve.streams?.find((item) => item.code === 'eSTAR')
   const oldEveBss = eve.streams?.find((item) => item.code === 'BSS')
   const eveBss = plan({
@@ -961,6 +1052,7 @@ function applySeePlans() {
     year3: {
       semA: ['CA3712', 'CA3732', 'SEE3002', 'SEE3101', 'SEE3103', 'SEE4218'],
       semB: ['SEE3003', 'SEE3203', 'SEE4001', 'SEE4204', 'SEE4217', generic('MAJOR-ELECTIVE1', 'EVE Major Elective'), generic('GE-DR4', 'Gateway Education Distributional Requirement')],
+      summer: ['SEE4000'],
     },
     year4: {
       semA: ['CA3722', 'CA4737', 'SEE4002', { code: 'SEE4996', credits: 3, officialPlacement: 'Year 4 Semesters A and B' }, 'SYE4024', generic('MAJOR-ELECTIVE2', 'EVE Major Elective')],
@@ -1008,6 +1100,756 @@ function applyLawPlan() {
   addNote(item, 'The official source is a programme structure rather than a compulsory semester schedule. Flexible LAW/GE slots remain editable and must be checked against current course offerings.')
 }
 
+const derivedPlanDisclosure = 'Reference plan only: this is not an explicit official semester-by-semester study plan. It is derived from the official 2026/27 curriculum, graduation requirements, course offering terms and prerequisite sequence; students must adjust it for timetable changes, exchange and individual choices. / 仅供参考：这不是官网明确逐学期 study plan，而是按 2026/27 官方课程结构、毕业要求、开课学期及先修链推导，请结合实际课表、交换与个人选课自行调整。'
+
+function applyManagementSchedule() {
+  const item = getMajor('BBA1_MGMT-1')
+  item.totalCredits = 121
+  item.studyPlan = plan({
+    year1: {
+      semA: ['CB2201', 'CB2601', 'CB2400', generic('GE-DR1', 'Gateway Education Course'), 'GE1601', { code: 'GE1401', title: 'University English or EAP1' }],
+      semB: ['CB2100', 'CB2300', 'CB2500', generic('GE-DR2', 'Gateway Education Course'), { code: 'GE2402', title: 'English for Business Communication or EAP2' }],
+    },
+    year2: {
+      semA: ['CB2402', 'CB2101', 'CB2200', 'MGT3306', 'MGT2324'],
+      semB: ['CB2240', 'CB3410', generic('GE-DR3', 'Gateway Education Course'), generic('GE-DR4', 'Gateway Education Course'), generic('MINOR1', 'Minor / Free Elective 1')],
+    },
+    year3: {
+      semA: ['CB2203', 'MGT3305', 'MGT4227', 'GE1501', generic('MINOR2', 'Minor / Free Elective 2')],
+      semB: [generic('GE-COL', 'GE / College Elective'), generic('STREAM-ELECT1', 'Stream Elective in HRM or SIM'), generic('MAJOR-ELECT1', 'Major Elective'), generic('COL-ELEC1', 'College Elective 1'), generic('MINOR3', 'Minor / Free Elective 3')],
+    },
+    year4: {
+      semA: ['CB4303', generic('STREAM-ELECT2', 'Stream Elective in HRM or SIM'), generic('MAJOR-ELECT2', 'Major Elective'), generic('COL-ELEC2', 'College Elective 2'), generic('MINOR4', 'Minor / Free Elective 4')],
+      semB: [generic('FREE-ELECTIVE', 'Free Elective'), generic('STREAM-ELECT3', 'Stream Elective in HRM or SIM'), generic('MAJOR-ELECT3', 'Major Elective'), generic('COL-ELEC3', 'College Elective 3'), generic('MINOR5', 'Minor / Free Elective 5')],
+    },
+  })
+
+  const generalElectives = ['MGT3302', 'MGT4101', 'MGT4305', 'MGT4314', 'MGT4315', 'MGT4800']
+  const hrmCourses = ['MGT3307', 'MGT4306', 'MGT4307', 'MGT4308', 'MGT4309']
+  const simCourses = ['MGT3422', 'MGT4310', 'MGT4311', 'MGT4312', 'MGT4313']
+  item.requirements.majorElectives = requirementSection(18, [...generalElectives, ...hrmCourses, ...simCourses], {
+    chooseCredits: 18,
+    note: 'Complete 9 CU from the selected HRM/SIM stream and 9 CU of other approved major electives.',
+  })
+
+  const streamRequirements = (streamCourses) => {
+    const requirements = cloneRequirements(item)
+    requirements.majorElectives = requirementSection(18, [...generalElectives, ...streamCourses], {
+      chooseCredits: 18,
+      note: 'Complete 9 CU from this stream and 9 CU of other approved Management major electives.',
+    })
+    return requirements
+  }
+  const streamPlan = (label) => {
+    const result = clone(item.studyPlan)
+    for (const year of Object.values(result)) {
+      for (const term of Object.values(year)) {
+        for (const course of term.courses) {
+          if (/^STREAM-ELECT/.test(course.code)) course.title = `${label} Stream Elective`
+        }
+      }
+    }
+    return result
+  }
+  item.streams = [
+    stream('HRM', 'Human Resources Management (HRM)', streamPlan('HRM'), item, {
+      totalCredits: 121,
+      requirements: streamRequirements(hrmCourses),
+      allCourses: hrmCourses,
+      description: 'Human resources, employment law, performance management and talent development.',
+    }),
+    stream('SIM', 'Strategy and International Management (SIM)', streamPlan('SIM'), item, {
+      totalCredits: 121,
+      requirements: streamRequirements(simCourses),
+      allCourses: simCourses,
+      description: 'Strategy, international business, innovation management and entrepreneurship.',
+    }),
+  ]
+  delete item.defaultStreamCode
+  item.requireStreamSelection = false
+  item.notes = [
+    'Study plan source: BBAU4_2025 Management schedule supplied by the user, updated on 13 August 2025 and effective from Semester A 2025/26.',
+    'GE1401 and GE2402 are counted once. Students assigned EAP1/EAP2 should follow the alternative language-course boxes in the source schedule.',
+    'CHIN1001 is conditional and is not counted in the 121-CU minimum. Students without a minor use the minor slots as free electives.',
+    'An approved internship, consultancy project or research project must be completed through an eligible college or major course.',
+  ]
+}
+
+function businessRequirements(majorCore, majorElectives, electiveNote) {
+  return {
+    gatewayEducation: requirementSection(22, ['GE1401', 'GE2402', 'GE1501', 'GE1601', generic('GE-DR', 'GE Distributional Requirements', 12)]),
+    college: requirementSection(42, ['CB2100', 'CB2101', 'CB2200', 'CB2201', 'CB2300', 'CB2400', 'CB2402', 'CB2500', 'CB2601', 'CB3410', 'CB4303', generic('COL-ELEC1', 'College Elective 1'), generic('COL-ELEC2', 'College Elective 2'), generic('COL-ELEC3', 'College Elective 3')]),
+    collegeRequirement: requirementSection(9, ['CB2240', 'CB2203', generic('GE-COL', 'GE / College-specified Course')]),
+    majorCore: requirementSection(majorCore.reduce((total, code) => total + (courses[code]?.credits ?? 3), 0), majorCore),
+    majorElectives: requirementSection(majorElectives, [generic('MAJOR-ELECTIVE', 'Approved Major Elective', 3)], { chooseCredits: majorElectives, note: electiveNote }),
+    freeElectives: requirementSection(18, [], { note: 'May be used for a minor or approved free electives.' }),
+  }
+}
+
+function applyBusinessDerivedPlans() {
+  const commonYear1 = {
+    semA: ['CB2100', 'CB2201', 'CB2300', 'CB2601', 'GE1401', 'GE1601'],
+    semB: ['CB2200', 'CB2400', 'CB2500', 'GE2402', 'GE1501'],
+  }
+
+  const businessEconomics = getMajor('BBA1_BE2-1')
+  businessEconomics.totalCredits = 121
+  businessEconomics.requirements = businessRequirements(['EF2452', 'EF3441', 'EF3442', 'EF3450'], 18, 'Choose 18 CU from the official Business Economics elective list.')
+  businessEconomics.studyPlan = plan({
+    year1: commonYear1,
+    year2: {
+      semA: ['CB2101', 'CB2402', 'CB2240', 'EF2452', generic('GE-DR1', 'GE Distributional Requirement')],
+      semB: ['CB3410', 'CB2203', 'EF3441', 'EF3442', generic('GE-DR2', 'GE Distributional Requirement')],
+    },
+    year3: {
+      semA: [generic('GE-DR3', 'GE Distributional Requirement'), generic('COL-ELEC1', 'College Elective 1'), generic('MAJOR-ELECT1', 'Business Economics Elective 1'), generic('FREE1', 'Free Elective 1'), generic('GE-COL', 'GE / College-specified Course')],
+      semB: ['EF3450', generic('GE-DR4', 'GE Distributional Requirement'), generic('COL-ELEC2', 'College Elective 2'), generic('MAJOR-ELECT2', 'Business Economics Elective 2'), generic('FREE2', 'Free Elective 2')],
+    },
+    year4: {
+      semA: ['CB4303', generic('COL-ELEC3', 'College Elective 3'), generic('MAJOR-ELECT3', 'Business Economics Elective 3'), generic('MAJOR-ELECT4', 'Business Economics Elective 4'), generic('FREE3', 'Free Elective 3')],
+      semB: [generic('MAJOR-ELECT5', 'Business Economics Elective 5'), generic('MAJOR-ELECT6', 'Business Economics Elective 6'), generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6')],
+    },
+  })
+
+  const finance = getMajor('BBA1_FIN3-1')
+  finance.totalCredits = 121
+  finance.requirements = businessRequirements(['EF3320', 'EF3333', 'EF4321', 'EF4313', 'EF4314', 'EF4822', 'EF4331'], 9, 'Choose 9 CU from the official Finance elective list.')
+  finance.studyPlan = plan({
+    year1: commonYear1,
+    year2: {
+      semA: ['CB2101', 'CB2402', 'CB2240', 'CB3410', generic('GE-DR1', 'GE Distributional Requirement')],
+      semB: ['CB2203', 'EF3320', 'EF3333', generic('GE-DR2', 'GE Distributional Requirement'), generic('COL-ELEC1', 'College Elective 1')],
+    },
+    year3: {
+      semA: ['EF4321', generic('GE-DR3', 'GE Distributional Requirement'), generic('COL-ELEC2', 'College Elective 2'), generic('MAJOR-ELECT1', 'Finance Elective 1'), generic('FREE1', 'Free Elective 1')],
+      semB: ['EF4313', 'EF4314', 'EF4822', generic('GE-DR4', 'GE Distributional Requirement'), generic('FREE2', 'Free Elective 2')],
+    },
+    year4: {
+      semA: ['CB4303', generic('GE-COL', 'GE / College-specified Course'), generic('COL-ELEC3', 'College Elective 3'), generic('MAJOR-ELECT2', 'Finance Elective 2'), generic('FREE3', 'Free Elective 3')],
+      semB: ['EF4331', generic('MAJOR-ELECT3', 'Finance Elective 3'), generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6')],
+    },
+  })
+
+  const marketing = getMajor('BBA1_MKT1-1')
+  marketing.totalCredits = 121
+  marketing.requirements = businessRequirements(['MKT3602', 'MKT3603', 'MKT4611', 'MKT4628', 'MKT4606'], 15, 'Choose 15 CU from the official Marketing elective list and complete an approved experiential-learning option.')
+  marketing.studyPlan = plan({
+    year1: commonYear1,
+    year2: {
+      semA: ['CB2101', 'CB2402', 'CB2240', 'MKT3602', generic('GE-DR1', 'GE Distributional Requirement')],
+      semB: ['CB3410', 'CB2203', 'MKT3603', generic('GE-DR2', 'GE Distributional Requirement'), generic('COL-ELEC1', 'College Elective 1')],
+      summer: [{ code: 'MKT1641 / MKT1671 / MKT2643A / MKT2672 / MKT3673', title: 'Approved Marketing experiential-learning option', credits: 0, remarks: 'Choose the approved option applicable to the student cohort.' }],
+    },
+    year3: {
+      semA: ['MKT4611', 'MKT4628', generic('MAJOR-ELECT1', 'Marketing Elective 1'), generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1')],
+      semB: ['MKT4606', generic('MAJOR-ELECT2', 'Marketing Elective 2'), generic('GE-DR4', 'GE Distributional Requirement'), generic('COL-ELEC2', 'College Elective 2'), generic('FREE2', 'Free Elective 2')],
+    },
+    year4: {
+      semA: ['CB4303', generic('GE-COL', 'GE / College-specified Course'), generic('COL-ELEC3', 'College Elective 3'), generic('MAJOR-ELECT3', 'Marketing Elective 3'), generic('FREE3', 'Free Elective 3')],
+      semB: [generic('MAJOR-ELECT4', 'Marketing Elective 4'), generic('MAJOR-ELECT5', 'Marketing Elective 5'), generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6')],
+    },
+  })
+
+  for (const item of [businessEconomics, finance, marketing]) addNote(item, derivedPlanDisclosure)
+}
+
+function classRequirements(majorCoreCredits, majorCore, majorElectiveCredits, freeCredits, electiveTitle = 'Approved Major Elective') {
+  return {
+    gatewayEducation: requirementSection(31, ['GE1401', 'GE2412', 'GE1501', 'GE1601', generic('GE-DR', 'GE Distributional Requirements', 12), generic('GE-COLLEGE', 'College-specified GE Courses', 9)]),
+    collegeRequirement: requirementSection(6, [generic('COL-LIB', 'Liberal Arts Studies Course'), generic('COL-SOC', 'Social Sciences Studies Course')]),
+    majorCore: requirementSection(majorCoreCredits, majorCore),
+    majorElectives: requirementSection(majorElectiveCredits, [generic('MAJOR-ELECTIVE', electiveTitle)], { chooseCredits: majorElectiveCredits }),
+    freeElectives: requirementSection(freeCredits, [], { note: 'Use approved free electives or a minor.' }),
+  }
+}
+
+function applyClassDerivedPlans() {
+  const tvb = getMajor('BA1_TVB-1')
+  const tvbCore = ['COM2105', 'COM2118', 'COM2116', 'COM2202', 'COM2303', 'COM3115', 'COM3119', 'COM3209', 'COM3508', 'COM4305', 'COM4306', 'COM4307', 'COM4308']
+  tvb.totalCredits = 121
+  tvb.requirements = classRequirements(39, tvbCore, 15, 30, 'TVB Core Elective / Major Elective')
+  tvb.studyPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'GE1501', 'COM2105', generic('GE-COL1', 'College-specified GE Course 1'), generic('COL-LIB', 'Liberal Arts Studies Course')],
+      semB: ['GE2412', 'COM2118', generic('GE-COL2', 'College-specified GE Course 2'), generic('COL-SOC', 'Social Sciences Studies Course'), generic('GE-DR1', 'GE Distributional Requirement')],
+    },
+    year2: {
+      semA: ['COM2202', 'COM2303', 'COM3119', generic('GE-DR2', 'GE Distributional Requirement'), generic('GE-COL3', 'College-specified GE Course 3')],
+      semB: ['COM2116', 'COM3115', generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1'), generic('FREE2', 'Free Elective 2')],
+    },
+    year3: {
+      semA: ['COM3209', 'COM3508', 'COM4307', generic('GE-DR4', 'GE Distributional Requirement'), generic('FREE3', 'Free Elective 3')],
+      semB: ['COM4305', 'COM4306', generic('MAJOR-ELECT1', 'TVB Core Elective'), generic('MAJOR-ELECT2', 'TVB Major Elective 1'), generic('FREE4', 'Free Elective 4')],
+    },
+    year4: {
+      semA: [generic('MAJOR-ELECT3', 'TVB Major Elective 2'), generic('MAJOR-ELECT4', 'TVB Major Elective 3'), generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6'), generic('FREE7', 'Free Elective 7')],
+      semB: ['COM4308', generic('MAJOR-ELECT5', 'TVB Major Elective 4'), generic('FREE8', 'Free Elective 8'), generic('FREE9', 'Free Elective 9'), generic('FREE10', 'Free Elective 10')],
+    },
+  })
+
+  const mdcm = getMajor('BA1_MDCM-1')
+  const mdcmCore = ['COM2105', 'COM2118', 'COM2103', 'COM2202', 'COM2303', 'COM2501', 'COM2509', 'COM3109', 'COM3115', 'COM3119', 'COM4604']
+  mdcm.totalCredits = 121
+  mdcm.requirements = classRequirements(33, mdcmCore, 27, 24, 'MDCM Major Elective')
+  mdcm.studyPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'GE1501', 'COM2105', generic('GE-COL1', 'College-specified GE Course 1'), generic('COL-LIB', 'Liberal Arts Studies Course')],
+      semB: ['GE2412', 'COM2118', generic('GE-COL2', 'College-specified GE Course 2'), generic('COL-SOC', 'Social Sciences Studies Course'), generic('GE-DR1', 'GE Distributional Requirement')],
+    },
+    year2: {
+      semA: ['COM2202', 'COM2303', 'COM3119', generic('GE-DR2', 'GE Distributional Requirement'), generic('GE-COL3', 'College-specified GE Course 3')],
+      semB: ['COM2103', 'COM2501', 'COM2509', generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1')],
+    },
+    year3: {
+      semA: [generic('MAJOR-ELECT1', 'MDCM Major Elective 1'), generic('MAJOR-ELECT2', 'MDCM Major Elective 2'), generic('MAJOR-ELECT3', 'MDCM Major Elective 3'), generic('GE-DR4', 'GE Distributional Requirement'), generic('FREE2', 'Free Elective 2')],
+      semB: ['COM3109', 'COM3115', generic('MAJOR-ELECT4', 'MDCM Major Elective 4'), generic('MAJOR-ELECT5', 'MDCM Major Elective 5'), generic('FREE3', 'Free Elective 3')],
+    },
+    year4: {
+      semA: [generic('MAJOR-ELECT6', 'MDCM Major Elective 6'), generic('MAJOR-ELECT7', 'MDCM Major Elective 7'), generic('MAJOR-ELECT8', 'MDCM Major Elective 8'), generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5')],
+      semB: ['COM4604', generic('MAJOR-ELECT9', 'MDCM Major Elective 9'), generic('FREE6', 'Free Elective 6'), generic('FREE7', 'Free Elective 7'), generic('FREE8', 'Free Elective 8')],
+    },
+  })
+
+  const irga = getMajor('BSS1_IRGA-1')
+  const irgaCore = ['PIA2012', 'PIA2105', 'PIA2402', 'PIA2030', 'PIA2050', 'PIA3031', 'PIA3126', 'PIA3130', 'PIA3151', 'PIA3800', 'PIA3812', 'PIA3032', 'PIA3121', 'PIA3123', 'PIA3142', 'PIA3153', 'PIA4123', 'PIA4152']
+  irga.totalCredits = 121
+  irga.requirements = classRequirements(51, irgaCore, 12, 21, 'IRGA Major Elective')
+  irga.studyPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'GE1501', 'PIA2012', generic('GE-COL1', 'College-specified GE Course 1'), generic('COL-LIB', 'Liberal Arts Studies Course')],
+      semB: ['GE2412', 'PIA2105', 'PIA2402', generic('GE-COL2', 'College-specified GE Course 2'), generic('COL-SOC', 'Social Sciences Studies Course')],
+    },
+    year2: {
+      semA: ['PIA2030', 'PIA2050', 'PIA3031', generic('GE-DR1', 'GE Distributional Requirement'), generic('GE-COL3', 'College-specified GE Course 3')],
+      semB: ['PIA3126', 'PIA3130', 'PIA3151', generic('GE-DR2', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1')],
+      summer: ['PIA3800', 'PIA3812'],
+    },
+    year3: {
+      semA: ['PIA3032', 'PIA3121', 'PIA3123', 'PIA3142', generic('GE-DR3', 'GE Distributional Requirement')],
+      semB: ['PIA3153', 'PIA4123', 'PIA4152', generic('GE-DR4', 'GE Distributional Requirement'), generic('MAJOR-ELECT1', 'IRGA Major Elective 1')],
+    },
+    year4: {
+      semA: [generic('MAJOR-ELECT2', 'IRGA Major Elective 2'), generic('MAJOR-ELECT3', 'IRGA Major Elective 3'), generic('MAJOR-ELECT4', 'IRGA Major Elective 4'), generic('FREE2', 'Free Elective 2'), generic('FREE3', 'Free Elective 3')],
+      semB: [generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6'), generic('FREE7', 'Free Elective 7')],
+    },
+  })
+
+  const crso = getMajor('BSS1_CRSO-1')
+  const foundationAndCommon = ['SS1011', 'SS1101', 'SS1024', 'SS2025', 'SS2034', 'SS2029', 'SS2030', 'SS3119', 'SS3120']
+  const criminology = ['SS2709', 'SS4217', 'SS4296', 'SS4300', 'SS4207', 'SS4718']
+  const sociology = ['SS3417', 'SS3419', 'SS3423', 'SS3428', 'SS4601', 'SS4595']
+  const commonCrsoPlan = {
+    year1: {
+      semA: ['GE1401', 'GE1601', 'GE1501', 'SS1011', generic('GE-COL1', 'College-specified GE Course 1'), generic('COL-LIB', 'Liberal Arts Studies Course')],
+      semB: ['GE2412', 'SS1101', 'SS1024', generic('GE-COL2', 'College-specified GE Course 2'), generic('COL-SOC', 'Social Sciences Studies Course')],
+    },
+    year2: {
+      semA: ['SS2034', 'SS2029', 'SS2030', generic('GE-DR1', 'GE Distributional Requirement'), generic('GE-COL3', 'College-specified GE Course 3')],
+      semB: ['SS2025', 'SS3119', 'SS3120', generic('GE-DR2', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1')],
+    },
+  }
+  const criminologyPlan = plan({
+    ...commonCrsoPlan,
+    year3: {
+      semA: ['SS4300', 'SS4207', { code: 'SS4296', credits: 3, officialPlacement: 'Year 3 Semesters A and B' }, generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE2', 'Free Elective 2')],
+      semB: ['SS2709', 'SS4217', { code: 'SS4296', credits: 3, officialPlacement: 'Year 3 Semesters A and B' }, generic('GE-DR4', 'GE Distributional Requirement'), generic('MAJOR-ELECT1', 'Criminology and Sociology Elective 1')],
+    },
+    year4: {
+      semA: [generic('MAJOR-ELECT2', 'Criminology and Sociology Elective 2'), generic('MAJOR-ELECT3', 'Criminology and Sociology Elective 3'), generic('FREE3', 'Free Elective 3'), generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5')],
+      semB: ['SS4718', generic('FREE6', 'Free Elective 6'), generic('FREE7', 'Free Elective 7'), generic('FREE8', 'Free Elective 8'), generic('FREE9', 'Free Elective 9')],
+    },
+  })
+  const sociologyPlan = plan({
+    ...commonCrsoPlan,
+    year3: {
+      semA: ['SS3417', 'SS3423', { code: 'SS4595', credits: 3, officialPlacement: 'Year 3 Semesters A and B' }, generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE2', 'Free Elective 2')],
+      semB: ['SS3419', 'SS3428', 'SS4601', { code: 'SS4595', credits: 3, officialPlacement: 'Year 3 Semesters A and B' }, generic('GE-DR4', 'GE Distributional Requirement')],
+    },
+    year4: {
+      semA: [generic('MAJOR-ELECT1', 'Criminology and Sociology Elective 1'), generic('MAJOR-ELECT2', 'Criminology and Sociology Elective 2'), generic('MAJOR-ELECT3', 'Criminology and Sociology Elective 3'), generic('FREE3', 'Free Elective 3'), generic('FREE4', 'Free Elective 4')],
+      semB: [generic('FREE5', 'Free Elective 5'), generic('FREE6', 'Free Elective 6'), generic('FREE7', 'Free Elective 7'), generic('FREE8', 'Free Elective 8'), generic('FREE9', 'Free Elective 9')],
+    },
+  })
+  const crsoRequirements = (streamCourses) => classRequirements(48, [...foundationAndCommon, ...streamCourses], 9, 27, 'Criminology and Sociology Major Elective')
+  crso.totalCredits = 121
+  crso.studyPlan = criminologyPlan
+  crso.requirements = crsoRequirements(criminology)
+  crso.defaultStreamCode = 'CRIM'
+  crso.requireStreamSelection = true
+  crso.streams = [
+    stream('CRIM', 'Criminology Stream', criminologyPlan, crso, { totalCredits: 121, requirements: crsoRequirements(criminology), allCourses: criminology }),
+    stream('SOC', 'Applied Sociology Stream', sociologyPlan, crso, { totalCredits: 121, requirements: crsoRequirements(sociology), allCourses: sociology }),
+  ]
+
+  for (const item of [tvb, mdcm, irga, crso]) addNote(item, derivedPlanDisclosure)
+}
+
+function makeFlagshipStream(baseCode, code, name, studyPlan, requirements, totalCredits, extraCourses, description) {
+  const base = getMajor(baseCode)
+  return stream(code, name, studyPlan, base, {
+    totalCredits,
+    requirements,
+    allCourses: extraCourses,
+    description,
+    notes: [derivedPlanDisclosure],
+  })
+}
+
+function applyInspirePlans() {
+  const item = getMajor('BSEE_INSPIRE-1')
+  const build = (baseCode, code, name, totalCredits) => {
+    const base = getMajor(baseCode)
+    const studyPlan = clone(base.studyPlan)
+    addPlanCourse(studyPlan, 'year3', 'semB', generic('FLAGSHIP-EXCHANGE', 'Compulsory INSPIRE overseas exchange / approved credit-transfer semester', 0, 'Course choices in this semester must be approved for exchange credit transfer.'))
+    addPlanCourseOnce(studyPlan, 'year3', 'summer', 'SEE4000')
+    addPlanCourse(studyPlan, 'year2', 'semA', { code: 'SEE4993', credits: 0.5, officialPlacement: 'Two consecutive semesters' })
+    addPlanCourse(studyPlan, 'year2', 'semB', { code: 'SEE4993', credits: 0.5, officialPlacement: 'Two consecutive semesters' })
+    addPlanCourse(studyPlan, 'year2', 'summer', 'SEE4994')
+    addPlanCourse(studyPlan, 'year3', 'summer', 'SEE4998')
+
+    const requirements = cloneRequirements(base)
+    addRequirementCourse(requirements, 'majorCore', 'SEE4000')
+    addRequirementCourse(requirements, 'majorCore', 'SEE4993', 1)
+    addRequirementCourse(requirements, 'majorCore', 'SEE4994', 3)
+    addRequirementCourse(requirements, 'majorCore', 'SEE4998', 3)
+    return makeFlagshipStream(
+      baseCode,
+      code,
+      name,
+      studyPlan,
+      requirements,
+      totalCredits,
+      ['SEE4000', 'SEE4993', 'SEE4994', 'SEE4995', 'SEE4998', 'SEE4999'],
+      `Derived from the ${base.title} recommended plan, with INSPIRE research training and compulsory overseas exchange overlaid.`,
+    )
+  }
+
+  item.streams = [
+    build('BENG1_ESE-1', 'ESE', 'Energy Science and Engineering Track', 132),
+    build('BENG1_EVE-1', 'EVE', 'Environmental Science and Engineering Track', 130),
+  ]
+  item.defaultStreamCode = 'ESE'
+  item.requireStreamSelection = true
+  item.totalCredits = 132
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'INSPIRE follows the underlying ESE or EVE curriculum, adds 7 CU of research training, and requires an approved overseas exchange. The exchange semester is shown as a zero-additional-credit marker because transferred courses depend on the host institution.',
+    'The displayed research route uses SEE4993 + SEE4994 + SEE4998. SEE4995 or SEE4999 may be approved as the alternative 6-CU research route.',
+  ]
+}
+
+function applyBio3Plans() {
+  upsertCourse('CBM4000', 'Research Seminar', 1, 'College of Biomedicine')
+  Object.assign(courses.CBM4000, {
+    duration: 'Two Semesters',
+    semester: 'Not offering in current academic year',
+    prerequisites: [],
+    prerequisitesRaw: '',
+    assessment: { continuous: '100%', continuousPass: '40%' },
+    detailStatus: 'parsed',
+    description: 'Research seminars across two consecutive semesters in biomedicine and biomedical engineering.',
+  })
+  upsertCourse('CBM4001', 'Overseas Research Project', 3, 'College of Biomedicine')
+  Object.assign(courses.CBM4001, {
+    duration: 'One Semester',
+    semester: 'Not offering in current academic year',
+    prerequisites: [],
+    prerequisitesRaw: '',
+    assessment: { continuous: '100%', continuousPass: '40%' },
+    detailStatus: 'parsed',
+    description: 'Supervised research at an overseas research institute or university.',
+  })
+
+  const item = getMajor('CBIO_BIO3-1')
+  const build = (baseCode, code, name, designatedCourse, designatedYear, designatedTerm) => {
+    const base = getMajor(baseCode)
+    const studyPlan = clone(base.studyPlan)
+    addPlanCourse(studyPlan, designatedYear, designatedTerm, designatedCourse)
+    addPlanCourse(studyPlan, 'year3', 'summer', 'CBM4001')
+    addPlanCourse(studyPlan, 'year4', 'semA', { code: 'CBM4000', credits: 0.5, officialPlacement: 'Two consecutive semesters' })
+    addPlanCourse(studyPlan, 'year4', 'semB', { code: 'CBM4000', credits: 0.5, officialPlacement: 'Two consecutive semesters' })
+
+    const requirements = cloneRequirements(base)
+    addRequirementCourse(requirements, 'majorCore', 'CBM4000', 1)
+    addRequirementCourse(requirements, 'majorCore', 'CBM4001', 3)
+    addRequirementCourse(requirements, 'majorElectives', designatedCourse, 3)
+    const majorElectives = requirements.majorElectives
+    if (majorElectives && typeof majorElectives === 'object' && typeof majorElectives.chooseCredits === 'number') {
+      majorElectives.chooseCredits += 3
+    }
+    return makeFlagshipStream(baseCode, code, name, studyPlan, requirements, 128, ['CBM4000', 'CBM4001', designatedCourse], 'Underlying major plan plus Bio3 research seminar, overseas research project and one designated cross-disciplinary course.')
+  }
+
+  item.streams = [
+    build('BENG1_BME-1', 'BME', 'BEng Biomedical Engineering', 'BMS2002', 'year3', 'semB'),
+    build('BSC1_BISI-1', 'BISI', 'BSc Biological Sciences', 'BME3101', 'year3', 'semB'),
+    build('BSC1_BMS-1', 'BMS', 'BSc Biomedical Sciences', 'BME2105', 'year3', 'semA'),
+  ]
+  item.defaultStreamCode = 'BME'
+  item.requireStreamSelection = true
+  item.totalCredits = 128
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'Bio3 adds CBM4000 Research Seminar (1 CU across two consecutive semesters), CBM4001 Overseas Research Project (3 CU), and one 3-CU course from the official cross-disciplinary list to the selected underlying major.',
+    'CBM4000 and CBM4001 are currently listed as not offering in the catalogue; keep them in the graduation plan and confirm the activated offering or approved replacement with the College of Biomedicine.',
+  ]
+}
+
+function applyActPlans() {
+  correctCoursePrerequisites('CS3505', [], 'Completed at least 25 credit units of CS courses and attained a CGPA of 2.0 or above in the semester before the internship.')
+  cloneCourseAlias('DSC3001', 'SDSC3001', {
+    title: 'Big Data: The Arts and Science of Scaling',
+    prerequisites: ['CS3402'],
+    prerequisitesRaw: 'CS3402',
+  })
+  cloneCourseAlias('DSC3025', 'SDSC3025', {
+    title: 'Internship for Flagship Programme',
+    prerequisites: [],
+    prerequisitesRaw: 'The internship must be programme-related and requires prior programme approval.',
+  })
+  cloneCourseAlias('DSC3026', 'SDSC3026', {
+    title: 'International Professional Development',
+    prerequisites: [],
+    prerequisitesRaw: 'For students who have completed Year 3; placement and pre-attachment training require prior approval.',
+  })
+  cloneCourseAlias('DSC4016', 'SDSC4016', {
+    title: 'Fundamentals of Machine Learning II',
+    prerequisites: ['DSC3006', 'SDSC3006'],
+    prerequisitesRaw: 'DSC3006 Fundamentals of Machine Learning I',
+  })
+
+  const item = getMajor('CC_ACT-1')
+  const buildCs = (baseCode, code, name) => {
+    const base = getMajor(baseCode)
+    const studyPlan = clone(base.studyPlan)
+    replacePlanCourse(studyPlan, 'year4', 'semB', (course) => /^MAJOR-ELECTIVE|^CYBE-ELECTIVE/.test(course.code), 'year3', 'summer', 'DSC3026')
+    addPlanCourse(studyPlan, 'year3', 'summer', generic('FLAGSHIP-OVERSEAS', 'ACT premium overseas exchange / internship experience', 0))
+    const requirements = cloneRequirements(base)
+    addRequirementCourse(requirements, 'majorCore', 'DSC3026', 3)
+    const electives = requirements.majorElectives
+    if (electives && typeof electives === 'object') {
+      electives.credits = Math.max(0, (Number(electives.credits) || 0) - 3)
+      if (typeof electives.chooseCredits === 'number') electives.chooseCredits = Math.max(0, electives.chooseCredits - 3)
+    }
+    return makeFlagshipStream(baseCode, code, name, studyPlan, requirements, base.totalCredits, ['DSC3026'], 'ACT stream based on the official underlying computing major plan, with DSC3026 and the existing CS3505 internship requirement.')
+  }
+
+  const dscBase = getMajor('BSC1_DSC-1')
+  const dscPlan = clone(dscBase.studyPlan)
+  replacePlanCourse(dscPlan, 'year3', 'semA', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year3', 'semA', 'DSC3001')
+  replacePlanCourse(dscPlan, 'year4', 'semA', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year3', 'summer', 'DSC3025')
+  replacePlanCourse(dscPlan, 'year4', 'semB', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year3', 'summer', 'DSC3026')
+  replacePlanCourse(dscPlan, 'year4', 'semB', (course) => /^FREE-ELECTIVE/.test(course.code), 'year4', 'semB', generic('MAJOR-ELECTIVE-ACT', 'ACT Data Science Major Elective'))
+  addPlanCourse(dscPlan, 'year3', 'summer', generic('FLAGSHIP-OVERSEAS', 'ACT premium overseas exchange / internship experience', 0))
+  const dscRequirements = {
+    gatewayEducation: requirementSection(31, ['GE1401', 'GE2401', 'GE1501', 'GE1601', generic('GE-DR', 'GE Distributional Requirements', 12), 'CS1315', 'SDSC2003', 'CS3402']),
+    collegeRequirement: requirementSection(8, ['MA1503', 'MA1508']),
+    majorCore: requirementSection(52, ['SDSC1001', 'MA2508', 'MA2510', 'SDSC2001', 'SDSC2002', 'SDSC2004', 'SDSC2005', 'SDSC2102', 'CS2334', 'CS3273', 'SDSC3006', 'SDSC3007', 'SDSC4116', 'DSC3001', 'DSC3025', 'DSC3026']),
+    majorElectives: requirementSection(15, [generic('MAJOR-ELECTIVE', 'Data Science Major Elective')], { chooseCredits: 15, note: 'At least 12 CU should be at B4 level under the current catalogue.' }),
+    freeElectives: requirementSection(15),
+  }
+
+  const dseBase = getMajor('BSC1_DSE1-1')
+  const dsePlan = clone(dseBase.studyPlan)
+  replacePlanCourse(dsePlan, 'year3', 'semB', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year3', 'summer', 'DSC3025')
+  replacePlanCourse(dsePlan, 'year3', 'semB', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year3', 'summer', 'DSC3026')
+  replacePlanCourse(dsePlan, 'year4', 'semA', (course) => /^MAJOR-ELECTIVE/.test(course.code), 'year4', 'semA', 'DSC4016')
+  addPlanCourse(dsePlan, 'year3', 'summer', generic('FLAGSHIP-OVERSEAS', 'ACT premium overseas exchange / internship experience', 0))
+  const dseRequirements = {
+    gatewayEducation: requirementSection(31, ['GE1401', 'GE2410', 'GE1501', 'GE1601', generic('GE-DR', 'GE Distributional Requirements', 12), 'CS1315', 'SDSC2003', 'CS3402']),
+    collegeRequirement: requirementSection(8, ['MA1503', 'MA1508']),
+    majorCore: requirementSection(58, ['PHY1201', 'SDSC1001', 'GE2339', 'MA2508', 'MA2510', 'SDSC2001', 'SDSC2002', 'SDSC2004', 'SDSC2102', 'SDSC3002', 'SDSC3006', 'SDSC3008', 'SDSC3060', 'CS4480', 'SDSC4116', 'DSC3025', 'DSC3026', 'DSC4016']),
+    majorElectives: requirementSection(15, [generic('MAJOR-ELECTIVE', 'Data and Systems Engineering Major Elective')], { chooseCredits: 15 }),
+    freeElectives: requirementSection(9),
+  }
+
+  item.streams = [
+    buildCs('BSC1_CSC1-1', 'CSC', 'BSc Computer Science'),
+    buildCs('BSC1_CYBE-1', 'CYBE', 'BSc Cybersecurity'),
+    makeFlagshipStream('BSC1_DSC-1', 'DSC', 'BSc Data Science', dscPlan, dscRequirements, 121, ['DSC3001', 'DSC3025', 'DSC3026'], 'Current ACT Data Science core overlay, including Big Data and two flagship placements.'),
+    makeFlagshipStream('BSC1_DSE1-1', 'DSE', 'BSc Data and Systems Engineering', dsePlan, dseRequirements, 121, ['DSC3025', 'DSC3026', 'DSC4016'], 'Current ACT Data and Systems Engineering core overlay, including two flagship placements and Machine Learning II.'),
+  ]
+  item.defaultStreamCode = 'CSC'
+  item.requireStreamSelection = true
+  item.totalCredits = 122
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'ACT is not a generic copy of the base majors: CSC/CYBE add DSC3026 alongside CS3505; DSC adds DSC3001, DSC3025 and DSC3026; DSE adds DSC3025, DSC3026 and DSC4016.',
+    'DSC3025 and DSC3026 are currently listed as not offering. They remain in the plan because they are explicit ACT stream requirements; confirm the activated placement term with the College of Computing.',
+  ]
+}
+
+function applyPrimePlans() {
+  const item = getMajor('CENG_PRIME-1')
+  const eligible = [
+    ['BENG1_ARCE-1', 'ARCE', 'Architectural Engineering'],
+    ['BENG1_CEG-1', 'CEG', 'Civil Engineering'],
+    ['BENG1_CDE-1', 'CDE', 'Computer and Data Engineering'],
+    ['BENG1_ELEL-1', 'ELEL', 'Electronic and Electrical Engineering'],
+    ['BENG1_INFE-1', 'INFE', 'Information Engineering'],
+    ['BENG1_ITME-1', 'ITME', 'Intelligent Manufacturing Engineering'],
+    ['BENG1_MASE-1', 'MASE', 'Materials Science and Engineering'],
+    ['BENG1_M.E.-1', 'ME', 'Mechanical Engineering'],
+    ['BENG1_NRE-1', 'NRE', 'Nuclear and Risk Engineering'],
+  ]
+  const needsEeGeOverlay = new Set(['CDE', 'ELEL', 'INFE'])
+
+  item.streams = eligible.map(([baseCode, code, name]) => {
+    const base = getMajor(baseCode)
+    const studyPlan = clone(base.studyPlan)
+    if (needsEeGeOverlay.has(code)) {
+      addPlanCourse(studyPlan, 'year1', 'semA', 'GE1401')
+      addPlanCourse(studyPlan, 'year1', 'semA', 'GE1601')
+      addPlanCourse(studyPlan, 'year1', 'semB', 'GE2410')
+      addPlanCourse(studyPlan, 'year2', 'semA', 'GE1501')
+      addPlanCourse(studyPlan, 'year2', 'semB', generic('GE-DR1', 'GE Distributional Requirement'))
+      addPlanCourse(studyPlan, 'year3', 'semA', generic('GE-DR2', 'GE Distributional Requirement'))
+      addPlanCourse(studyPlan, 'year3', 'semB', generic('GE-DR3', 'GE Distributional Requirement'))
+      addPlanCourse(studyPlan, 'year4', 'semA', generic('GE-DR4', 'GE Distributional Requirement'))
+    }
+    addPlanCourse(studyPlan, 'year2', 'summer', generic('FLAGSHIP-PRIME-RESEARCH', 'PRIME research attachment / faculty mentorship checkpoint', 0))
+    addPlanCourse(studyPlan, 'year3', 'semB', generic('FLAGSHIP-PRIME-OVERSEAS', 'PRIME multinational / overseas engineering experience', 0))
+    addPlanCourse(studyPlan, 'year3', 'summer', generic('FLAGSHIP-PRIME-ENTREPRENEURSHIP', 'PRIME innovation and entrepreneurship experience', 0))
+    if (code === 'ITME') {
+      movePlanCourse(studyPlan, 'year4', 'semA', (course) => course.code === 'SYE4036', 'year4', 'semB')
+      movePlanCourse(studyPlan, 'year4', 'semB', (course) => course.code.startsWith('MAJOR-ELECTIVE'), 'year4', 'semA')
+    }
+    if (code === 'NRE') {
+      movePlanCourse(studyPlan, 'year4', 'semA', (course) => course.code === 'MNE4231', 'year4', 'semB')
+      movePlanCourse(studyPlan, 'year4', 'semB', (course) => course.code.startsWith('MAJOR-ELECTIVE'), 'year4', 'semA')
+    }
+    const candidate = makeFlagshipStream(baseCode, code, name, studyPlan, cloneRequirements(base), 121, [], `Official ${name} curriculum with the PRIME research, innovation and multinational-experience checkpoints overlaid.`)
+    candidate.allCourses = candidate.allCourses.filter((rawCode) => {
+      const codeToCheck = lookupCode(rawCode)
+      const isGenericCode = /^(GE|FREE|MINOR|COL|SCHOOL|STREAM|MAJOR|FLAGSHIP)|-ELECT/i.test(rawCode)
+      return isGenericCode || Boolean(courses[rawCode] || courses[codeToCheck])
+    })
+    return candidate
+  })
+
+  item.defaultStreamCode = 'ARCE'
+  item.requireStreamSelection = true
+  item.totalCredits = 121
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'The current PRIME admission page lists nine eligible engineering majors. Each stream inherits its underlying major schedule; PRIME research, innovation and multinational experiences are shown as zero-additional-credit checkpoints because the official page does not assign universal course codes or fixed semesters.',
+    'CDE, ELEL and INFE inherit their official EE flowcharts. The 22 CU of university GE courses omitted from those compact flowcharts are added to reach the official 121-CU degree minimum.',
+  ]
+}
+
+function applyCreateFlagshipPlans() {
+  const item = getMajor('SCM_CREATE-1')
+  const mappings = [
+    ['BA1_CRM-1', 'BA_CRM', 'BA Creative Media'],
+    ['BSC1_CRM1-1', 'BSC_CRM', 'BSc Creative Media'],
+    ['BAS1_NEM-1', 'BAS_NEM', 'BAS New Media'],
+  ]
+  item.streams = mappings.map(([baseCode, code, name]) => {
+    const base = getMajor(baseCode)
+    const createStream = base.streams?.find((candidate) => candidate.code === 'CREATE')
+    if (!createStream) throw new Error(`${baseCode} is missing its CREATE stream`)
+    const studyPlan = clone(createStream.studyPlan)
+    if (code === 'BAS_NEM') {
+      replacePlanCourse(studyPlan, 'year2', 'semB', (course) => course.code === 'ART-SCIENCE-STUDIO1', 'year2', 'semB', 'SM3804')
+      replacePlanCourse(studyPlan, 'year3', 'semA', (course) => course.code === 'ART-SCIENCE-STUDIO2', 'year3', 'semA', 'SM3805')
+    }
+    return makeFlagshipStream(
+      baseCode,
+      code,
+      name,
+      studyPlan,
+      clone(createStream.requirements ?? base.requirements),
+      124,
+      [...(createStream.allCourses ?? []), 'SM2724A', 'SM2724B', 'SM2724C'],
+      `${name} official sample plan with the three 1-CU CREATE leadership and creativity modules overlaid.`,
+    )
+  })
+  item.defaultStreamCode = 'BA_CRM'
+  item.requireStreamSelection = true
+  item.totalCredits = 124
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'Each CREATE option inherits the corresponding official Creative Media / New Media sample plan and adds SM2724A, SM2724B and SM2724C (1 CU each). Students may use any three distinct approved SM2724 modules where the official curriculum permits substitution.',
+    'SM2724A is placed in its currently confirmed Semester B; the later leadership modules are provisionally spread across Summer terms because their future offering terms are not yet activated in the current catalogue.',
+    'The BAS New Media reference chooses SM3804 and SM3805 as replaceable Art and Science Studio examples before SM4712C, so the graduation-project prerequisite chain remains visible.',
+  ]
+}
+
+function greatGateway(mathCourses) {
+  return requirementSection(31, ['GE1401', 'GE2401', 'GE1501', 'GE1601', generic('GE-DR', 'GE Distributional Requirements', 12), ...mathCourses, 'CS1302'])
+}
+
+function greatCollegeRequirements() {
+  return requirementSection(13, ['CSCI2002', 'CHEM1300', 'PHY1101', 'CHEM2004A', 'CHEM2008A'], {
+    note: 'Research Methodology (1 CU), two approved Group I science courses, and two approved Group II science courses.',
+  })
+}
+
+function applyGreatPlans() {
+  correctCoursePrerequisites('CSCI4005', [], 'Students must have completed Year 3, obtain prior placement approval, and complete pre-attachment training.')
+  correctCoursePrerequisites('MA2508', ['MA1201', 'MA1301', 'MA1503', 'MA1508', 'MA1401'], 'Grade B or above in MA1201 with MA approval; or MA1301; or both MA1503 and MA1508; programme-approved equivalent preparation applies.')
+  correctCoursePrerequisites('MA2510', ['MA1201', 'MA1301', 'MA1503', 'MA1508', 'MA1401'], 'Grade B or above in MA1201 with MA approval; or MA1301; or both MA1503 and MA1508; programme-approved equivalent preparation applies.')
+  upsertCourse('MA1400', 'Calculus I', 3, 'Department of Mathematics')
+  Object.assign(courses.MA1400, {
+    semester: 'Semester A 2026/27, Semester B 2026/27',
+    prerequisites: [],
+    prerequisitesRaw: '',
+    assessment: { continuous: '30%', exam: '70%', examDuration: '3 hours', examPass: '30%' },
+    detailStatus: 'parsed',
+  })
+  upsertCourse('MA1401', 'Calculus II', 3, 'Department of Mathematics')
+  Object.assign(courses.MA1401, {
+    semester: 'Semester B 2026/27',
+    prerequisites: ['MA1400'],
+    prerequisitesRaw: 'MA1400 Calculus I',
+    assessment: { continuous: '30%', exam: '70%', examDuration: '3 hours', examPass: '30%' },
+    detailStatus: 'parsed',
+  })
+  upsertCourse('MA1505', 'Linear Algebra I', 3, 'Department of Mathematics')
+  Object.assign(courses.MA1505, {
+    semester: 'Not offering in current academic year',
+    prerequisites: ['MA1400'],
+    prerequisitesRaw: 'MA1400 Calculus I',
+    assessment: { continuous: '30%', exam: '70%', examDuration: '3 hours', examPass: '30%' },
+    detailStatus: 'parsed',
+  })
+  upsertCourse('MA2505', 'Linear Algebra II', 3, 'Department of Mathematics')
+  Object.assign(courses.MA2505, {
+    semester: 'Not offering in current academic year',
+    prerequisites: ['MA1505'],
+    prerequisitesRaw: 'MA1505 Linear Algebra I',
+    assessment: { continuous: '30%', exam: '70%', examDuration: '3 hours', examPass: '30%' },
+    detailStatus: 'parsed',
+  })
+
+  const chemistryPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'MA1200', 'CS1302', 'CHEM1300', 'PHY1101'],
+      semB: ['GE2401', 'GE1501', 'MA1201', 'CSCI2002', 'CHEM2004A', 'CHEM2008A'],
+    },
+    year2: {
+      semA: ['MA2172', 'MGT2324', generic('GE-DR1', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1'), generic('FREE2', 'Free Elective 2')],
+      semB: [generic('GE-DR2', 'GE Distributional Requirement'), generic('MAJOR-ELECT1', 'Chemistry GREAT Elective 1'), generic('MAJOR-ELECT2', 'Chemistry GREAT Elective 2'), generic('FREE3', 'Free Elective 3'), generic('FREE4', 'Free Elective 4')],
+      summer: ['CSCI4002'],
+    },
+    year3: {
+      semA: ['CHEM3015', 'CHEM3027', generic('GE-DR3', 'GE Distributional Requirement'), generic('FREE5', 'Free Elective 5')],
+      semB: ['CHEM3014', 'CHEM3016', 'MGT4305', generic('GE-DR4', 'GE Distributional Requirement'), generic('FLAGSHIP-EXCHANGE', 'Compulsory GREAT overseas academic / research exchange', 0)],
+      summer: ['CSCI4005'],
+    },
+    year4: {
+      semA: ['CHEM4086', generic('MAJOR-ELECT3', 'Chemistry GREAT Elective 3'), generic('FREE6', 'Free Elective 6')],
+      semB: ['CHEM4087', generic('MAJOR-ELECT4', 'Chemistry GREAT Elective 4')],
+    },
+  })
+  const chemistryRequirements = {
+    gatewayEducation: greatGateway(['MA1200', 'MA1201']),
+    collegeRequirement: greatCollegeRequirements(),
+    majorCore: requirementSection(41, ['CHEM3014', 'CHEM3015', 'CHEM3016', 'CHEM3027', 'CHEM4086', 'CHEM4087', 'MA2172', 'MGT2324', 'MGT4305']),
+    majorElectives: requirementSection(18, ['CSCI4002', 'CSCI4005', generic('MAJOR-ELECTIVE', 'Chemistry GREAT Elective')], { chooseCredits: 18, note: 'Select from the official Chemistry major electives except CHEM4036.' }),
+    freeElectives: requirementSection(18),
+  }
+
+  const mathematicsPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'MA1400', 'CS1302', 'CHEM1300', 'PHY1101'],
+      semB: ['GE2401', 'GE1501', 'MA1401', 'MA1505', 'CHEM2004A'],
+    },
+    year2: {
+      semA: ['MA2505', 'MA2508', 'MA2510', 'CS2360', generic('GE-DR1', 'GE Distributional Requirement')],
+      semB: ['CHEM2008A', 'MA3511', 'MA3515', 'CS2468', generic('GE-DR2', 'GE Distributional Requirement'), 'CSCI2002'],
+    },
+    year3: {
+      semA: ['MA3512', 'MA3518', 'MA3525', 'MA3510', generic('GE-DR3', 'GE Distributional Requirement')],
+      semB: ['MA3514', 'MA3517', generic('GE-DR4', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1'), generic('FREE2', 'Free Elective 2'), generic('FLAGSHIP-EXCHANGE', 'Compulsory GREAT overseas academic / research exchange', 0)],
+      summer: ['CSCI4002', 'CSCI4005'],
+    },
+    year4: {
+      semA: ['MA4510', 'MGT2324', generic('FREE3', 'Free Elective 3'), generic('FREE4', 'Free Elective 4')],
+      semB: [generic('FREE-BALANCE', 'Approved 4-CU free-elective combination', 4, 'Use approved unrestricted courses totalling 4 CU.')],
+    },
+  })
+  const mathematicsRequirements = {
+    gatewayEducation: greatGateway(['MA1400', 'MA1401']),
+    collegeRequirement: greatCollegeRequirements(),
+    majorCore: requirementSection(55, ['MA1505', 'MA2505', 'MA2508', 'MA2510', 'MA3511', 'MA3512', 'MA3514', 'MA3515', 'MA3517', 'MA3518', 'MA3525', 'CS2360', 'CS2468', 'MGT2324', 'MA3510', 'MA4510']),
+    majorElectives: requirementSection(0),
+    freeElectives: requirementSection(22, ['CSCI4002', 'CSCI4005'], { note: 'Includes the GREAT local placement and overseas internship; remaining credits are approved free electives.' }),
+  }
+
+  const physicsPlan = plan({
+    year1: {
+      semA: ['GE1401', 'GE1601', 'MA1200', 'CS1302', 'PHY1101', 'PHY1202'],
+      semB: ['GE2401', 'GE1501', 'MA1201', 'CSCI2002', 'MA1501', 'CHEM2004A'],
+    },
+    year2: {
+      semA: ['MA2158', 'MGT2324', 'PHY2212', generic('GE-DR1', 'GE Distributional Requirement'), generic('FREE1', 'Free Elective 1')],
+      semB: ['PHY2191', 'PHY2213', 'PHY3204', generic('GE-DR2', 'GE Distributional Requirement'), generic('FREE2', 'Free Elective 2')],
+    },
+    year3: {
+      semA: ['PHY3202', 'PHY3205', 'PHY3231', 'PHY3251', generic('GE-DR3', 'GE Distributional Requirement')],
+      semB: ['PHY3115', 'PHY3272', 'PHY3290', generic('GE-DR4', 'GE Distributional Requirement'), generic('FREE3', 'Free Elective 3'), generic('FLAGSHIP-EXCHANGE', 'Compulsory GREAT overseas academic / research exchange', 0)],
+      summer: ['CSCI4002', 'CSCI4005'],
+    },
+    year4: {
+      semA: ['PHY4172', 'PHY4218', generic('FREE4', 'Free Elective 4'), generic('FREE5', 'Free Elective 5')],
+      semB: ['PHY4219', generic('FREE-BALANCE', 'Approved 2-CU free-elective combination', 2, 'Use approved unrestricted courses totalling 2 CU.')],
+    },
+  })
+  const physicsRequirements = {
+    gatewayEducation: greatGateway(['MA1200', 'MA1201']),
+    collegeRequirement: requirementSection(13, ['CSCI2002', 'PHY1101', 'PHY1202', 'MA1501', 'CHEM2004A']),
+    majorCore: requirementSection(54, ['MA2158', 'MGT2324', 'PHY2191', 'PHY2212', 'PHY2213', 'PHY3115', 'PHY3202', 'PHY3204', 'PHY3205', 'PHY3231', 'PHY3251', 'PHY3272', 'PHY3290', 'PHY4172', 'PHY4218', 'PHY4219']),
+    majorElectives: requirementSection(0),
+    freeElectives: requirementSection(23, ['CSCI4002', 'CSCI4005'], { note: 'Includes the GREAT local placement and overseas internship; remaining credits are approved free electives.' }),
+  }
+
+  const item = getMajor('CSCI_GREAT-1')
+  item.streams = [
+    makeFlagshipStream('BSC1_CHEM-1', 'CHEM', 'BSc Chemistry', chemistryPlan, chemistryRequirements, 121, ['CHEM4086', 'CHEM4087', 'CSCI4002', 'CSCI4005'], 'Chemistry GREAT curriculum with two independent-research courses, entrepreneurship training, local placement and overseas internship.'),
+    makeFlagshipStream('BSC1_CM-1', 'CM', 'BSc Computing Mathematics', mathematicsPlan, mathematicsRequirements, 121, ['MA3510', 'MA4510', 'CSCI4002', 'CSCI4005'], 'Computing Mathematics GREAT curriculum with Independent Research I/II, local placement and overseas internship.'),
+    makeFlagshipStream('BSC1_PHY-1', 'PHY', 'BSc Physics', physicsPlan, physicsRequirements, 121, ['PHY4218', 'PHY4219', 'CSCI4002', 'CSCI4005'], 'Physics GREAT ordinary route with Independent Research I/II, local placement and overseas internship.'),
+  ]
+  item.defaultStreamCode = 'CHEM'
+  item.requireStreamSelection = true
+  item.totalCredits = 121
+  item.studyPlan = clone(item.streams[0].studyPlan)
+  item.requirements = clone(item.streams[0].requirements)
+  item.allCourses = [...new Set(item.streams.flatMap((candidate) => candidate.allCourses ?? []))]
+  item.notes = [
+    derivedPlanDisclosure,
+    'Every GREAT stream includes research methodology, discipline-specific independent research, at least one local summer placement, one overseas summer internship and an overseas academic/research exchange marker.',
+    'MA1505 and MA2505 are required by the current Computing Mathematics GREAT curriculum but their course pages currently say not offering. The plan keeps them visible and asks students to confirm the activated term or approved replacement. Some mathematics course pages also retain legacy prerequisite codes; the conflict detector intentionally surfaces those for departmental confirmation.',
+  ]
+}
+
+function applyDerivedReferencePlans() {
+  applyManagementSchedule()
+  applyBusinessDerivedPlans()
+  applyClassDerivedPlans()
+  applyInspirePlans()
+  applyBio3Plans()
+  applyActPlans()
+  applyPrimePlans()
+  applyCreateFlagshipPlans()
+  applyGreatPlans()
+}
+
 function applySourceMetadata() {
   const manifestCodes = new Set(Object.keys(undergraduatePlanSources))
   const dataCodes = new Set(majors.map((item) => item.code))
@@ -1027,7 +1869,7 @@ function applySourceMetadata() {
       ? 'ee-2026-27-v2'
       : `ug-source-audit-${LAST_VERIFIED}`
 
-    item.notes = (item.notes ?? []).filter((note) => !/study plan is derived|diy reference plan|arranged reference plan/i.test(note))
+    item.notes = (item.notes ?? []).filter((note) => !/study plan is derived|diy reference plan|arranged reference plan|No official semester-by-semester study plan was confirmed\. The semester grid is intentionally blank/i.test(note))
     if (source.status === 'diy') {
       const years = Math.max(4, Object.keys(item.studyPlan ?? {}).length)
       item.studyPlan = emptyStudyPlan(years)
@@ -1090,6 +1932,7 @@ applySciencePlans()
 applyCreativeMediaPlans()
 applySeePlans()
 applyLawPlan()
+applyDerivedReferencePlans()
 applySourceMetadata()
 validateExpectedTotals()
 

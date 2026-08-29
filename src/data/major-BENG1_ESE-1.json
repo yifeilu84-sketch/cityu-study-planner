@@ -617,6 +617,16 @@
           }
         ],
         "credits": 13
+      },
+      "summer": {
+        "courses": [
+          {
+            "code": "SEE4000",
+            "title": "Professional Development II",
+            "credits": 0
+          }
+        ],
+        "credits": 0
       }
     },
     "year4": {
@@ -1461,6 +1471,16 @@
               }
             ],
             "credits": 19
+          },
+          "summer": {
+            "courses": [
+              {
+                "code": "SEE4000",
+                "title": "Professional Development II",
+                "credits": 0
+              }
+            ],
+            "credits": 0
           }
         },
         "year4": {

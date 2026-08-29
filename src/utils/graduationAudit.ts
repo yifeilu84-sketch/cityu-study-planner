@@ -433,8 +433,12 @@ function buildPriorCodeSets(plannedCourses: NormalizedPlannedCourse[]): Map<numb
 const PREREQUISITE_EQUIVALENTS: Record<string, string[]> = {
   MA1200: ['MA1300'],
   MA1300: ['MA1200'],
-  MA1201: ['MA1301'],
-  MA1301: ['MA1201'],
+  MA1201: ['MA1301', 'MA1401'],
+  MA1301: ['MA1201', 'MA1401'],
+  MA1401: ['MA1201', 'MA1301'],
+  MA2503: ['MA1503', 'MA2505'],
+  MA1503: ['MA2503'],
+  MA2505: ['MA2503'],
 }
 
 function hasPriorPrerequisite(code: string, priorCodes: Set<string>): boolean {

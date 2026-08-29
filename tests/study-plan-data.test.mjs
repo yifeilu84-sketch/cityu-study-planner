@@ -64,8 +64,14 @@ function planCourseCodes(item) {
     .flatMap((semester) => semester.courses.map((course) => course.code))
 }
 
+function planCredits(item) {
+  return Object.values(item.studyPlan ?? {})
+    .flatMap((year) => Object.values(year))
+    .reduce((sum, semester) => sum + semester.credits, 0)
+}
+
 function isGeneric(code) {
-  return /^(GE(-|$)|GE Area|GE-Area|GE-DR|GE-COL|GE-ELECTIVE|ELECTIVE|MAJOR-ELECT|FREE|MINOR|COLLEGE|COL-ELEC|LAW-ELECTIVE|CRS-ELECTIVE|CS-E|DR-|FIN-ELECTIVE|EVE-ELECTIVE|AC-ELECTIVE)/i.test(code)
+  return /^(GE(-|$)|GE Area|GE-Area|GE-DR|GE-COL|GE-ELECTIVE|ELECTIVE|MAJOR-ELECT|FREE|MINOR|COLLEGE|COL-ELEC|LAW-ELECTIVE|CRS-ELECTIVE|CS-E|DR-|FIN-ELECTIVE|EVE-ELECTIVE|AC-ELECTIVE|STREAM|FLAGSHIP)/i.test(code) || /-ELECT/i.test(code)
 }
 
 function addOfferingTermsFromText(terms, rawText) {
@@ -332,22 +338,21 @@ test('latest INFE v3 course appears in the searchable course list', () => {
   assert.equal(ee2303?.title, 'Applied AI Systems in Information Engineering: Lifecycle and Human-Centered Design')
 })
 
-test('MGT exposes HRM/SIM course pools but keeps semesters blank without an official schedule', () => {
+test('MGT restores the user-supplied official HRM/SIM schedule', () => {
   const mgt = major('BBA1_MGMT-1')
-  const totalPlanCredits = Object.values(mgt.studyPlan)
-    .flatMap((year) => Object.values(year))
-    .reduce((sum, semester) => sum + semester.credits, 0)
   const mgtCourseList = new Set(getAllMajorCourses(mgt).map((course) => course.code))
 
   assert.equal(mgt.totalCredits, 121)
-  assert.equal(mgt.studyPlanStatus, 'diy')
-  assert.equal(totalPlanCredits, 0)
-  assert.equal(planCourseCodes(mgt).length, 0)
+  assert.equal(mgt.studyPlanStatus, 'official')
+  assert.equal(planCredits(mgt), 121)
+  assert.deepEqual(semesterCodes(mgt.code, 1, 'semA'), ['CB2201', 'CB2601', 'CB2400', 'GE-DR1', 'GE1601', 'GE1401'])
+  assert.deepEqual(semesterCodes(mgt.code, 2, 'semA'), ['CB2402', 'CB2101', 'CB2200', 'MGT3306', 'MGT2324'])
+  assert.deepEqual(semesterCodes(mgt.code, 3, 'semA'), ['CB2203', 'MGT3305', 'MGT4227', 'GE1501', 'MINOR2'])
   assert.ok(mgtCourseList.has('CB2240'))
   assert.ok(mgtCourseList.has('CB2203'))
   assert.ok(mgt.streams.find((stream) => stream.code === 'HRM')?.allCourses.includes('MGT4307'))
   assert.ok(mgt.streams.find((stream) => stream.code === 'SIM')?.allCourses.includes('MGT4310'))
-  assert.ok(mgt.streams.every((stream) => stream.studyPlanStatus === 'diy' && planCourseCodes(stream).length === 0))
+  assert.ok(mgt.streams.every((stream) => stream.studyPlanStatus === 'official' && planCredits(stream) === 121))
 })
 
 test('CFFT exposes separate official CF and FT stream plans', () => {
@@ -429,31 +434,72 @@ test('official double degree programmes from ADMO are present with five-year stu
   assert.deepEqual(semesterCodes('DLLBBBA1_D005-0', 5, 'semA'), ['AC-ELECTIVE1', 'AC-ELECTIVE2', 'COLLEGE-SPECIFIED1', 'LW4658'])
 })
 
-test('flagship pathways without explicit official semester plans use empty DIY planning grids', () => {
-  const flagshipCodes = ['CBIO_BIO3-1', 'CC_ACT-1', 'CENG_PRIME-1', 'SCM_CREATE-1', 'CSCI_GREAT-1']
+test('flagship pathways expose non-empty derived plans inherited from their underlying majors', () => {
+  const flagshipCodes = ['BSEE_INSPIRE-1', 'CBIO_BIO3-1', 'CC_ACT-1', 'CENG_PRIME-1', 'SCM_CREATE-1', 'CSCI_GREAT-1']
 
   for (const code of flagshipCodes) {
     const item = major(code)
-    assert.equal(item.studyPlanStatus, 'diy')
+    assert.equal(item.studyPlanStatus, 'derived')
     const generated = generateStudyPlan(item, courses)
-    assert.equal(generated.length, 12, `${code} should provide four empty years including summers`)
-    assert.equal(generated.every((semester) => semester.courses.length === 0 && semester.totalCredits === 0), true)
+    assert.equal(generated.some((semester) => semester.courses.length > 0), true, `${code} should expose a reference schedule`)
     assert.ok(item.streams?.length > 0, `${code} should expose official underlying majors as streams`)
-    const pool = buildCoursePool(item, courses, undefined, 0)
-    assert.ok(pool.length > 0, `${code} first stream should expose required courses for DIY planning`)
+    assert.ok(item.streams.every((stream) => stream.studyPlanStatus === 'derived' && planCourseCodes(stream).length > 0))
+    assert.ok(item.notes.some((note) => /not an explicit official|不是官网明确/i.test(note)), `${code} should disclose that its semester plan is derived`)
   }
 })
 
-test('programmes with requirements but no official semester schedule use blank DIY plans', () => {
-  const diyCodes = ['BBA1_BE2-1', 'BBA1_FIN3-1', 'BBA1_MKT1-1', 'BA1_TVB-1', 'BA1_MDCM-1', 'BSS1_IRGA-1']
+test('programmes without an official semester schedule expose non-empty derived reference plans', () => {
+  const derivedCodes = ['BBA1_BE2-1', 'BBA1_FIN3-1', 'BBA1_MKT1-1', 'BA1_TVB-1', 'BA1_MDCM-1', 'BSS1_IRGA-1', 'BSS1_CRSO-1']
 
-  for (const code of diyCodes) {
+  for (const code of derivedCodes) {
     const item = major(code)
-    assert.equal(item.studyPlanStatus, 'diy', `${code} should be marked as DIY`)
-    assert.ok(item.notes.some((note) => /intentionally blank/i.test(note)), `${code} should explain the blank DIY grid`)
-    assert.equal(planCourseCodes(item).length, 0, `${code} must not expose a speculative arranged plan`)
+    assert.equal(item.studyPlanStatus, 'derived', `${code} should be marked as a derived reference plan`)
+    assert.ok(item.notes.some((note) => /not an explicit official|不是官网明确/i.test(note)), `${code} should explain the reference-plan status`)
+    assert.equal(item.notes.some((note) => /intentionally blank/i.test(note)), false, `${code} should not retain the obsolete blank-DIY disclosure`)
+    assert.ok(planCourseCodes(item).length > 0, `${code} should expose a usable reference plan`)
+    assert.equal(planCredits(item), item.totalCredits, `${code} reference plan should match its displayed graduation total`)
     assert.ok(item.allCourses.length > 0, `${code} should retain the official course pool`)
   }
+})
+
+test('flagship overlays preserve their programme-specific requirements', () => {
+  const inspire = major('BSEE_INSPIRE-1')
+  assert.deepEqual(inspire.streams.map((stream) => stream.code), ['ESE', 'EVE'])
+  assert.equal(streamPlanCredits(inspire, 'ESE'), 132)
+  assert.equal(streamPlanCredits(inspire, 'EVE'), 130)
+  for (const stream of inspire.streams) {
+    const codes = new Set(planCourseCodes(stream))
+    assert.ok(codes.has('SEE4993'))
+    assert.ok(codes.has('SEE4994'))
+    assert.ok(codes.has('SEE4998'))
+    assert.ok(codes.has('FLAGSHIP-EXCHANGE'))
+  }
+
+  const bio3 = major('CBIO_BIO3-1')
+  assert.deepEqual(bio3.streams.map((stream) => stream.code), ['BME', 'BISI', 'BMS'])
+  assert.ok(bio3.streams.every((stream) => planCourseCodes(stream).includes('CBM4000')))
+  assert.ok(bio3.streams.every((stream) => planCourseCodes(stream).includes('CBM4001')))
+  assert.ok(bio3.streams.every((stream) => planCredits(stream) === 128))
+
+  const act = major('CC_ACT-1')
+  assert.ok(planCourseCodes(streamByCode(act, 'CSC')).includes('DSC3026'))
+  assert.ok(planCourseCodes(streamByCode(act, 'CYBE')).includes('DSC3026'))
+  assert.ok(['DSC3001', 'DSC3025', 'DSC3026'].every((code) => planCourseCodes(streamByCode(act, 'DSC')).includes(code)))
+  assert.ok(['DSC3025', 'DSC3026', 'DSC4016'].every((code) => planCourseCodes(streamByCode(act, 'DSE')).includes(code)))
+
+  const prime = major('CENG_PRIME-1')
+  assert.deepEqual(prime.streams.map((stream) => stream.code), ['ARCE', 'CEG', 'CDE', 'ELEL', 'INFE', 'ITME', 'MASE', 'ME', 'NRE'])
+  assert.ok(prime.streams.every((stream) => planCredits(stream) === 121))
+
+  const create = major('SCM_CREATE-1')
+  assert.ok(create.streams.every((stream) => planCredits(stream) === 124))
+  assert.ok(create.streams.every((stream) => ['SM2724A', 'SM2724B', 'SM2724C'].every((code) => planCourseCodes(stream).includes(code))))
+
+  const great = major('CSCI_GREAT-1')
+  assert.ok(great.streams.every((stream) => planCredits(stream) === 121))
+  assert.ok(['CHEM4086', 'CHEM4087'].every((code) => planCourseCodes(streamByCode(great, 'CHEM')).includes(code)))
+  assert.ok(['MA3510', 'MA4510'].every((code) => planCourseCodes(streamByCode(great, 'CM')).includes(code)))
+  assert.ok(['PHY4218', 'PHY4219'].every((code) => planCourseCodes(streamByCode(great, 'PHY')).includes(code)))
 })
 
 test('Artificial Intelligence in Business replaces the old Information Management display name', () => {
@@ -537,13 +583,14 @@ test('new official programmes do not expose real course codes without course det
   assert.deepEqual(missing, [])
 })
 
-test('source labels distinguish official, structure, and diy plans', async () => {
+test('source labels distinguish official, structure, derived, and diy plans', async () => {
   const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
 
   assert.equal(getStudyPlanSourceStatus(major('BENG1_BME-1')).kind, 'official')
   assert.equal(getStudyPlanSourceStatus(major('BENG1_CDE-1')).kind, 'structure')
-  assert.equal(getStudyPlanSourceStatus(major('BBA1_BE2-1')).kind, 'diy')
-  assert.equal(getStudyPlanSourceStatus(major('CBIO_BIO3-1')).kind, 'diy')
+  assert.equal(getStudyPlanSourceStatus(major('BBA1_BE2-1')).kind, 'derived')
+  assert.equal(getStudyPlanSourceStatus(major('CBIO_BIO3-1')).kind, 'derived')
+  assert.equal(getStudyPlanSourceStatus({}).kind, 'diy')
 })
 
 test('undergraduate offering checks are advisory and never rewrite source schedules', () => {
@@ -561,6 +608,43 @@ test('undergraduate offering checks are advisory and never rewrite source schedu
   assert.match(offeringAudit, /no study plan was modified/i)
   assert.doesNotMatch(offeringAudit, /writeFileSync/)
   assert.deepEqual(semesterCodes('BENG1_BME-1', 4, 'semB').slice(0, 2), ['BME4102', 'BME2066'])
+})
+
+test('derived undergraduate reference plans avoid confirmed offering-term conflicts', async () => {
+  const { auditPlanRisks, studyPlanToRiskSemesters } = await import('../src/utils/planRiskAudit.ts')
+  const conflicts = []
+
+  for (const item of majors.filter((candidate) => candidate.studyPlanStatus === 'derived')) {
+    const entities = [['main', item], ...(item.streams ?? []).map((stream) => [stream.code ?? stream.name ?? 'stream', stream])]
+    for (const [label, entity] of entities) {
+      const risks = auditPlanRisks({ plan: studyPlanToRiskSemesters(entity.studyPlan), courses })
+      for (const issue of risks.issues.filter((candidate) => candidate.kind === 'offering-term')) {
+        conflicts.push(`${item.code}/${label}: ${issue.code} ${issue.message}`)
+      }
+    }
+  }
+
+  assert.deepEqual(conflicts, [])
+})
+
+test('constructed undergraduate stream overlays follow confirmed offering terms', async () => {
+  const { auditPlanRisks, studyPlanToRiskSemesters } = await import('../src/utils/planRiskAudit.ts')
+  const targets = [
+    ['BSC1_CRM1-1', 'GAME'],
+    ['BSC1_CRM1-1', 'ANIMATION'],
+    ['BSC1_CRM1-1', 'INTERACTION'],
+  ]
+  const conflicts = []
+
+  for (const [majorCode, streamCode] of targets) {
+    const entity = streamByCode(major(majorCode), streamCode)
+    const risks = auditPlanRisks({ plan: studyPlanToRiskSemesters(entity.studyPlan), courses })
+    for (const issue of risks.issues.filter((candidate) => candidate.kind === 'offering-term')) {
+      conflicts.push(`${majorCode}/${streamCode}: ${issue.code} ${issue.message}`)
+    }
+  }
+
+  assert.deepEqual(conflicts, [])
 })
 
 test('postgraduate study plans place real courses only in confirmed offering semesters', () => {
@@ -691,19 +775,19 @@ test('graduation audit catches removed required course and GE area gaps', async 
   assert.ok(audit.sections.some((section) => section.missingCourseCodes.includes('GE1401')))
 })
 
-test('graduation audit marks blank requirements-based plans as advisory', async () => {
+test('graduation audit marks derived requirements-based plans as advisory', async () => {
   const { auditGraduationPlan } = await import('../src/utils/graduationAudit.ts')
   const requirementsMajor = major('BBA1_BE2-1')
-  const diyMajor = major('CBIO_BIO3-1')
+  const flagshipMajor = major('CBIO_BIO3-1')
 
   const requirementsOnly = auditGraduationPlan(requirementsMajor, courses, generateStudyPlan(requirementsMajor, courses))
-  const diy = auditGraduationPlan(diyMajor, courses, generateStudyPlan(diyMajor, courses), 0)
+  const flagship = auditGraduationPlan(flagshipMajor, courses, generateStudyPlan(flagshipMajor, courses), 0)
 
-  assert.equal(requirementsOnly.source.kind, 'diy')
+  assert.equal(requirementsOnly.source.kind, 'derived')
   assert.equal(requirementsOnly.source.advisory, true)
-  assert.equal(diy.source.kind, 'diy')
-  assert.equal(diy.source.advisory, true)
-  assert.ok(diy.warnings.some((warning) => warning.kind === 'source-confidence' && warning.message.includes('DIY')))
+  assert.equal(flagship.source.kind, 'derived')
+  assert.equal(flagship.source.advisory, true)
+  assert.ok(flagship.warnings.some((warning) => warning.kind === 'source-confidence' && warning.message.includes('参考排课')))
 })
 
 test('graduation audit detects duplicate courses and prerequisite ordering', async () => {
@@ -807,8 +891,8 @@ test('range credit requirements are audited with their lower bound across underg
     {
       code: 'CSCI_GREAT-1',
       streamIndex: major('CSCI_GREAT-1').streams.findIndex((stream) => stream.code === 'CM'),
-      majorElectives: 18,
-      freeElectives: 20,
+      majorElectives: 0,
+      freeElectives: 22,
     },
   ]
 
@@ -817,7 +901,7 @@ test('range credit requirements are audited with their lower bound across underg
     const audit = auditGraduationPlan(entity, courses, generateStudyPlan(entity, courses, item.streamIndex), item.streamIndex)
     const sectionByKey = Object.fromEntries(audit.sections.map((section) => [section.key, section]))
 
-    assert.equal(sectionByKey.majorElectives?.requiredCredits, item.majorElectives, `${item.code} major electives`)
+    assert.equal(sectionByKey.majorElectives?.requiredCredits ?? 0, item.majorElectives, `${item.code} major electives`)
     assert.equal(sectionByKey.freeElectives?.requiredCredits, item.freeElectives, `${item.code} free electives`)
   }
 })
@@ -1130,25 +1214,25 @@ test('source summary groups majors by official confirmation level', async () => 
   assert.equal(summary.groups.reduce((sum, group) => sum + group.count, 0), majors.length)
   assert.ok(summary.counts.official > 0)
   assert.ok(summary.counts.structure >= 4)
-  assert.equal(summary.counts.derived, 0)
-  assert.ok(summary.counts.diy >= 14)
+  assert.ok(summary.counts.derived >= 13)
+  assert.equal(summary.counts.diy, 0)
   assert.equal(summary.needsReviewCount, summary.counts.structure + summary.counts.derived + summary.counts.diy)
 
-  const diyMajors = filterMajorsBySource(majors, 'diy')
-  assert.ok(diyMajors.some((item) => item.code === 'CBIO_BIO3-1'))
-  assert.equal(diyMajors.every((item) => item.source.kind === 'diy'), true)
+  const derivedMajors = filterMajorsBySource(majors, 'derived')
+  assert.ok(derivedMajors.some((item) => item.code === 'CBIO_BIO3-1'))
+  assert.equal(derivedMajors.every((item) => item.source.kind === 'derived'), true)
 })
 
 test('global search can filter major results by source confidence', async () => {
   const { buildSearchIndex, searchPlanner } = await import('../src/utils/searchIndex.ts')
   const index = buildSearchIndex(majors, courses)
 
-  const requirementsDiy = searchPlanner(index, 'business', { sourceKind: 'diy', limit: 20 })
-  assert.ok(requirementsDiy.majors.some((item) => item.code === 'BBA1_BE2-1'))
-  assert.equal(requirementsDiy.majors.every((item) => item.sourceKind === 'diy'), true)
+  const requirementsDerived = searchPlanner(index, 'business', { sourceKind: 'derived', limit: 20 })
+  assert.ok(requirementsDerived.majors.some((item) => item.code === 'BBA1_BE2-1'))
+  assert.equal(requirementsDerived.majors.every((item) => item.sourceKind === 'derived'), true)
 
-  const diy = searchPlanner(index, 'PRIME', { sourceKind: 'diy', limit: 20 })
-  assert.deepEqual(diy.majors.map((item) => item.code), ['CENG_PRIME-1'])
+  const derived = searchPlanner(index, 'PRIME', { sourceKind: 'derived', limit: 20 })
+  assert.deepEqual(derived.majors.map((item) => item.code), ['CENG_PRIME-1'])
 })
 
 test('major comparison summarizes credits, source confidence, and overlapping courses', async () => {
@@ -1815,10 +1899,10 @@ test('undergraduate builds never mutate official semester placements from catalo
 
 test('every undergraduate programme explicitly declares its official-source confidence', async () => {
   const { getStudyPlanSourceStatus } = await import('../src/utils/sourceStatus.ts')
-  const supported = new Set(['official', 'structure', 'diy'])
+  const supported = new Set(['official', 'structure', 'derived', 'diy'])
 
   for (const item of majors) {
-    assert.ok(supported.has(item.studyPlanStatus), `${item.code} must explicitly declare official, structure, or diy`)
+    assert.ok(supported.has(item.studyPlanStatus), `${item.code} must explicitly declare official, structure, derived, or diy`)
     const status = getStudyPlanSourceStatus(item)
     assert.equal(status.kind, item.studyPlanStatus, `${item.code} source label must use its explicit status`)
 

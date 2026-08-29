@@ -4,7 +4,7 @@ import { undergraduatePlanSources } from './undergraduate-plan-sources.mjs'
 const majors = JSON.parse(readFileSync(new URL('../src/data/all-majors.json', import.meta.url), 'utf8'))
 const courses = JSON.parse(readFileSync(new URL('../src/data/courses.json', import.meta.url), 'utf8'))
 
-const supportedStatuses = new Set(['official', 'structure', 'diy'])
+const supportedStatuses = new Set(['official', 'structure', 'derived', 'diy'])
 const genericPatterns = [
   /^GE(?!\d{4})/i,
   /^FREE/i,
@@ -14,6 +14,7 @@ const genericPatterns = [
   /^COL-/i,
   /^SCHOOL/i,
   /^STREAM/i,
+  /^FLAGSHIP/i,
   /^MAJOR/i,
   /^FLEXIBLE/i,
   /^DR-/i,
@@ -94,7 +95,7 @@ if (dataCodes.size !== 63) errors.push(`Expected 63 undergraduate programmes, fo
 for (const code of dataCodes) if (!manifestCodes.has(code)) errors.push(`${code}: missing source manifest entry`)
 for (const code of manifestCodes) if (!dataCodes.has(code)) errors.push(`${code}: source manifest entry has no programme`)
 
-const statusCounts = { official: 0, structure: 0, diy: 0 }
+const statusCounts = { official: 0, structure: 0, derived: 0, diy: 0 }
 for (const item of majors) {
   const source = undergraduatePlanSources[item.code]
   if (!source) continue
@@ -133,7 +134,7 @@ for (const item of majors) {
   console.log(`[pass] ${item.code} ${item.studyPlanStatus} ${mainTotal} CU${item.streams?.length ? `, ${item.streams.length} stream(s)` : ''}`)
 }
 
-console.log(`Audited ${majors.length} undergraduate programmes: ${statusCounts.official} official, ${statusCounts.structure} structure/flowchart, ${statusCounts.diy} DIY.`)
+console.log(`Audited ${majors.length} undergraduate programmes: ${statusCounts.official} official, ${statusCounts.structure} structure/flowchart, ${statusCounts.derived} derived reference, ${statusCounts.diy} DIY.`)
 if (errors.length) {
   console.error(`Undergraduate audit failed with ${errors.length} issue(s):`)
   for (const error of errors) console.error(`- ${error}`)
